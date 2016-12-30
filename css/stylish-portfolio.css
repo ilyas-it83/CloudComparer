@@ -203,7 +203,17 @@ hr.small {
 }
 
 .img-portfolio {
-    margin: 0 auto;
+    margin: 0 auto;  
+    color:#2A2A2A;margin-right:5px;
+    border-radius:0.2em;
+    margin-bottom:5px;
+    background-color:#E9F7FE;
+    padding:5px;
+    border-color:#DADADA;
+    border-style:solid;  
+    border-width:thin;
+    font-size:15px; height:150px;
+
 }
 
 .img-portfolio:hover {
@@ -248,3 +258,23 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+/* START COMPARISON TABLE STYLES */
+#comparetable {width: 100%; table-layout: fixed; text-align: center; margin: 4em 0; border-collapse: collapse; }
+#comparetable tr {background: transparent!important;}
+#comparetable td,
+#comparetable th {padding: 20px; text-align: center;}
+#comparetable td.rowTitle {text-align: center;}
+#comparetable td img { height:50px;width:50px;  display: block; margin-left: auto; margin-right: auto;
+    float: left; margin: 0px 15px 15px 0px;
+}
+#comparetable td ul {   list-style-type: none;
+}
+
+#comparetable td ul img {   vertical-align: middle; /* | top | bottom */
+}
+.blank {background: none!important; border: none!important;}
+ .blueshine th {background-color: #b8cee2; font-size: 22px; color: #0c3053; text-align: center; font-weight: 600; text-shadow: 0 1px 0 #e0ecf7; border: 1px solid #9fb6c8;}
+ .blueshine td {background-color: #f0f1f1; border: 1px solid #c8d6e2;} 
+ .blueshine td.rowTitle {border-left: 4px solid #333}
+/* END COMPARISON TABLE STYLES */
