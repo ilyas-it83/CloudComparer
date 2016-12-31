@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="128px"
+	 height="128px" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<g id="BASE">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="63.9997" y1="7.0336" x2="63.9997" y2="120.7894">
+		<stop  offset="0" style="stop-color:#4387FD"/>
+		<stop  offset="1" style="stop-color:#4683EA"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_1_);" d="M27.7906,115.2166L1.54,69.7493c-2.0541-3.5578-2.0541-7.9412,0-11.499l26.2506-45.4672
+		c2.0541-3.5578,5.8503-5.7495,9.9585-5.7495h52.5012c4.1082,0,7.9044,2.1917,9.9585,5.7495l26.2506,45.4672
+		c2.0541,3.5578,2.0541,7.9412,0,11.499l-26.2506,45.4672c-2.0541,3.5578-5.8503,5.7495-9.9585,5.7495H37.7491
+		C33.6409,120.9661,29.8448,118.7744,27.7906,115.2166z"/>
+</g>
+<g id="shadow">
+	<g>
+		<defs>
+			<path id="SVGID_5_" d="M27.7908,115.2166L1.5403,69.7493c-2.0541-3.5578-2.0541-7.9412,0-11.499l26.2505-45.4672
+				c2.0541-3.5578,5.8502-5.7495,9.9585-5.7495h52.501c4.1082,0,7.9044,2.1917,9.9585,5.7495l26.2505,45.4672
+				c2.0541,3.5578,2.0541,7.9412,0,11.499l-26.2505,45.4672c-2.0541,3.5578-5.8502,5.7495-9.9585,5.7495h-52.501
+				C33.641,120.9661,29.8449,118.7744,27.7908,115.2166z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<polygon style="opacity:0.07;clip-path:url(#SVGID_2_);" points="116.7497,88.8332 68.1039,40.1874 64.1247,39.4582 
+			60.0127,48.1613 63.4841,51.6327 62.5056,57.2557 68.2158,62.966 52.6983,64.5657 48.1046,59.9719 40.0644,68.0333 
+			94.1091,122.078 97.6669,122.0415 		"/>
+	</g>
+</g>
+<g id="art">
+	<g>
+		<g id="icon_2_">
+			<circle style="fill:#FFFFFF;" cx="63.9996" cy="44.0982" r="5.6888"/>
+			<circle style="fill:#FFFFFF;" cx="63.9999" cy="83.9165" r="5.6889"/>
+			<circle style="fill:#FFFFFF;" cx="44.0909" cy="64.0072" r="5.6886"/>
+			<circle style="fill:#FFFFFF;" cx="83.9091" cy="64.0078" r="5.6889"/>
+			<polygon style="fill:#FFFFFF;" points="62.5531,85.4759 39.0359,62.1677 79.0299,62.1677 62.5531,45.6573 65.4466,42.5918 
+				88.9645,65.8469 48.9699,65.8469 65.4466,82.4098 			"/>
+			<rect x="62.5058" y="70.7525" style="fill:#FFFFFF;" width="2.4528" height="13.4904"/>
+			<rect x="62.5058" y="43.7716" style="fill:#FFFFFF;" width="2.4528" height="13.4904"/>
+		</g>
+	</g>
+</g>
+<g id="Guides">
+</g>
+</svg>

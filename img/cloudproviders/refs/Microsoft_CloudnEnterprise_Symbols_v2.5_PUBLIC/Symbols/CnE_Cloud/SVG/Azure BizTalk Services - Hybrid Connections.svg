@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 117.5" enable-background="new 0 0 152 117.5" xml:space="preserve">
+<g id="Layer_1">
+	<g id="Azure">
+	</g>
+	<g id="BizTalk_Services" transform="translate(37.3575,-2500.2)">
+	</g>
+</g>
+<g id="paths">
+	<g id="Access_control">
+	</g>
+	<g id="Azure_active_directory">
+	</g>
+	<g id="API_Management">
+	</g>
+	<g id="Azure_automation">
+	</g>
+	<g id="Azure_SQL_database">
+	</g>
+	<g id="Azure_subscription">
+	</g>
+	<g id="Backup_service">
+	</g>
+	<g id="Bitbucket_code_source">
+	</g>
+	<g id="Azure_cache">
+	</g>
+	<g id="Content_delivery_network__x28_CDN_x29_">
+	</g>
+	<g id="Cloud_service">
+	</g>
+	<g id="CodePlex">
+	</g>
+	<g id="Dropbox_code_source">
+	</g>
+	<g id="Express_route">
+	</g>
+	<g id="Git_repository">
+	</g>
+	<g id="GitHub_code">
+	</g>
+	<g id="HD_Insight">
+	</g>
+	<g id="Health_monitoring">
+	</g>
+	<g id="Healthy">
+	</g>
+	<g id="BizTalk_hybrid_connection">
+		<g>
+			<g>
+				<path fill="#0078D7" d="M83.3,45.2c0,0.1,0,0.2,0,0.3c0,0,0,0,0-0.1C83.3,45.3,83.3,45.2,83.3,45.2z"/>
+				<ellipse fill="#0078D7" cx="75.8" cy="44.9" rx="4" ry="4.1"/>
+				<path fill="#0078D7" d="M99.5,52.8v12.8c0,2.2-0.9,4.3-2.7,5.9c-1.7,1.5-3.9,2.4-6.3,2.4h-6c-0.9,0-1.6-0.7-1.6-1.6
+					c0-0.9,0.7-1.6,1.6-1.6h6c1.6,0,3-0.5,4.1-1.5c1-0.9,1.6-2.2,1.6-3.5V52.8c0-3.2-2.2-5.8-5-5.8h-5c-0.4,2.1-1.4,4-2.9,5.5
+					c-2,2-4.7,3.2-7.6,3.2c-2.9,0-5.6-1.1-7.6-3.2c-0.6-0.6-0.6-1.7,0-2.3c0.6-0.6,1.7-0.6,2.3,0c1.4,1.4,3.3,2.2,5.3,2.2
+					c2,0,3.9-0.8,5.3-2.2c1.3-1.3,2-3,2.2-4.8c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3c0-2-0.8-3.9-2.2-5.3c-1.4-1.4-3.3-2.2-5.3-2.2
+					c-2,0-3.9,0.8-5.3,2.2c-0.6,0.6-1.7,0.6-2.3,0c-0.6-0.6-0.6-1.7,0-2.3c2-2,4.7-3.2,7.6-3.2c2.9,0,5.6,1.1,7.6,3.2
+					c1.8,1.8,2.8,4.1,3.1,6.5h4.8C95.9,43.8,99.5,47.8,99.5,52.8z"/>
+			</g>
+			<g>
+				<path fill="#0078D7" d="M69,71.9c0-0.1,0-0.2,0-0.3c0,0,0,0,0,0.1C69,71.8,69,71.9,69,71.9z"/>
+				<ellipse fill="#0078D7" cx="76.5" cy="72.2" rx="4" ry="4.1"/>
+				<path fill="#0078D7" d="M52.8,64.3V51.5c0-2.2,0.9-4.3,2.7-5.9c1.7-1.5,3.9-2.4,6.3-2.4h6c0.9,0,1.6,0.7,1.6,1.6
+					c0,0.9-0.7,1.6-1.6,1.6h-6c-1.6,0-3,0.5-4.1,1.5c-1,0.9-1.6,2.2-1.6,3.5v12.8c0,3.2,2.2,5.8,5,5.8h5c0.4-2.1,1.4-4,2.9-5.5
+					c2-2,4.7-3.2,7.6-3.2c2.9,0,5.6,1.1,7.6,3.2c0.6,0.6,0.6,1.7,0,2.3c-0.6,0.6-1.7,0.6-2.3,0c-1.4-1.4-3.3-2.2-5.3-2.2
+					c-2,0-3.9,0.8-5.3,2.2c-1.3,1.3-2,3-2.2,4.8c0,0.1,0,0.2,0,0.3c0,0.1,0,0.2,0,0.3c0,2,0.8,3.9,2.2,5.3c1.4,1.4,3.3,2.2,5.3,2.2
+					c2,0,3.9-0.8,5.3-2.2c0.6-0.6,1.7-0.6,2.3,0c0.6,0.6,0.6,1.7,0,2.3c-2,2-4.7,3.2-7.6,3.2c-2.9,0-5.6-1.1-7.6-3.2
+					c-1.8-1.8-2.8-4.1-3.1-6.5H61C56.5,73.3,52.8,69.3,52.8,64.3z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

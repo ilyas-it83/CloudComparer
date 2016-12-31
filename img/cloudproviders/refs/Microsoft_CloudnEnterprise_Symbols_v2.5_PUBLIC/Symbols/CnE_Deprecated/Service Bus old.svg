@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 117.5" enable-background="new 0 0 152 117.5" xml:space="preserve">
+<g id="Layer_1">
+	<g id="Azure">
+	</g>
+	<g id="BizTalk_Services" transform="translate(37.3575,-2500.2)">
+	</g>
+	<g id="Key_Vault">
+	</g>
+	<g id="Mobile_Engagement">
+	</g>
+	<g id="Office_subscription">
+		<g id="Office_subscription_1_">
+		</g>
+	</g>
+</g>
+<g id="paths">
+	<g id="Access_control">
+	</g>
+	<g id="Azure_active_directory">
+	</g>
+	<g id="API_Management">
+	</g>
+	<g id="Azure_automation">
+	</g>
+	<g id="Azure_SQL_database">
+	</g>
+	<g id="Azure_subscription">
+	</g>
+	<g id="Backup_service">
+	</g>
+	<g id="Bitbucket_code_source">
+	</g>
+	<g id="Azure_cache">
+	</g>
+	<g id="Content_delivery_network__x28_CDN_x29_">
+	</g>
+	<g id="Cloud_service">
+	</g>
+	<g id="CodePlex">
+	</g>
+	<g id="Dropbox_code_source">
+	</g>
+	<g id="Express_route">
+	</g>
+	<g id="Git_repository">
+	</g>
+	<g id="GitHub_code">
+	</g>
+	<g id="HD_Insight">
+	</g>
+	<g id="Health_monitoring">
+	</g>
+	<g id="Healthy">
+	</g>
+	<g id="BizTalk_hybrid_connection">
+	</g>
+	<g id="Hybrid_connection_manager_for_BizTalk_hybrid_connection">
+	</g>
+	<g id="Hyper-V_recovery_manager">
+	</g>
+	<g id="Machine_learning">
+	</g>
+	<g id="Media_services">
+	</g>
+	<g id="Microsoft_account">
+	</g>
+	<g id="Mobile_services">
+	</g>
+	<g id="Multi-factor_authentication">
+	</g>
+	<g id="MySQL_database">
+	</g>
+	<g id="Notification_hub">
+	</g>
+	<g id="Notification_topic">
+	</g>
+	<g id="Cloud_Office_365">
+	</g>
+	<g id="Office_365">
+	</g>
+	<g id="OS_image">
+	</g>
+	<g id="Remote_app">
+	</g>
+	<g id="Task_scheduler">
+	</g>
+	<g id="Azure_SDK">
+	</g>
+	<g id="Service_bus">
+		<g>
+			<g id="shape180-302_1_" transform="translate(5.90475,0)">
+				<title>Sheet.180</title>
+				<path fill="#0078D7" d="M67.1,62.8h-4.3v8.9h-3.6l5.8,8l5.8-8h-3.7V62.8z"/>
+			</g>
+			<g id="shape181-304_1_" transform="translate(6.30375,-23.214)">
+				<title>Sheet.181</title>
+				<rect x="59.4" y="72.8" fill="#0078D7" width="10.4" height="3"/>
+			</g>
+			<g id="shape182-306_1_" transform="translate(6.30375,-19.4317)">
+				<title>Sheet.182</title>
+				<rect x="59.4" y="73.4" fill="#0078D7" width="10.4" height="3"/>
+			</g>
+			<g id="shape183-308_1_" transform="translate(6.30375,-15.6532)">
+				<title>Sheet.183</title>
+				<rect x="59.4" y="74.1" fill="#0078D7" width="10.4" height="3"/>
+			</g>
+			<g id="group184-310_1_" transform="translate(3.9968E-015,-8.094)">
+				<title>Sheet.184</title>
+				<g id="shape185-311_1_" transform="translate(0.00075,-6.618)">
+					<title>Sheet.185</title>
+					<path fill="#0078D7" d="M71.9,52.4h-2.4h-7.3h-1.6h-1c-0.4,0-1.3,0-1.3,1.5l-0.1,23.3h4.4V56.9h5.9v5.9H73v-9.1
+						C73,52.5,72.3,52.4,71.9,52.4z"/>
+				</g>
+				<g id="shape186-313_1_">
+					<title>Sheet.186</title>
+					<path fill="#0078D7" d="M62.7,66.5h-4.4v10.4c0,0.3,1.3,1.4,1.6,1.4h1.5h5.8v-4.4h-4.4L62.7,66.5z"/>
+				</g>
+			</g>
+			<g id="shape187-315_1_" transform="translate(13.866,-8.0955)">
+				<title>Sheet.187</title>
+				<path fill="#0078D7" d="M72.9,65h-1.3c-0.7-8.9-5-13.2-10.9-14.4v4.2c4.4,1.5,6.1,5.8,6.2,11.5l-0.1,2.9l5.9-0.1
+					c1.6,0,2.8,0.4,2.8,2v2.6H60.7v4.4h17.5c0.3,0,1.7-1.2,1.7-1.5V76v-2v-2.7C79.9,67.5,76.7,65,72.9,65z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_57">
+</g>
+</svg>

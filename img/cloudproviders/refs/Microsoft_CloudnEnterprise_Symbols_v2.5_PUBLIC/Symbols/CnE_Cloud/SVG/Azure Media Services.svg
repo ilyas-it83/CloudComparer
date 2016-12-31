@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 117.5" enable-background="new 0 0 152 117.5" xml:space="preserve">
+<g id="Layer_1">
+	<g id="Azure">
+	</g>
+	<g id="BizTalk_Services" transform="translate(37.3575,-2500.2)">
+	</g>
+	<g id="Key_Vault">
+	</g>
+</g>
+<g id="paths">
+	<g id="Access_control">
+	</g>
+	<g id="Azure_active_directory">
+	</g>
+	<g id="API_Management">
+	</g>
+	<g id="Azure_automation">
+	</g>
+	<g id="Azure_SQL_database">
+	</g>
+	<g id="Azure_subscription">
+	</g>
+	<g id="Backup_service">
+	</g>
+	<g id="Bitbucket_code_source">
+	</g>
+	<g id="Azure_cache">
+	</g>
+	<g id="Content_delivery_network__x28_CDN_x29_">
+	</g>
+	<g id="Cloud_service">
+	</g>
+	<g id="CodePlex">
+	</g>
+	<g id="Dropbox_code_source">
+	</g>
+	<g id="Express_route">
+	</g>
+	<g id="Git_repository">
+	</g>
+	<g id="GitHub_code">
+	</g>
+	<g id="HD_Insight">
+	</g>
+	<g id="Health_monitoring">
+	</g>
+	<g id="Healthy">
+	</g>
+	<g id="BizTalk_hybrid_connection">
+	</g>
+	<g id="Hybrid_connection_manager_for_BizTalk_hybrid_connection">
+	</g>
+	<g id="Hyper-V_recovery_manager">
+	</g>
+	<g id="Machine_learning">
+	</g>
+	<g id="Media_services">
+		<path fill="#0078D7" d="M93.7,48.7L76,38.8L58.3,49V57c0.1,0,0,0,0,0c0,0,0,0,0,0c2.7,0,3.8,0.1,4.6-2.1c1.9-5.3,6.6-9.8,12.9-9.8
+			h0c6.4,0,11,4.5,12.9,9.8c0.8,2.3,1.9,2.1,4.8,2.1V48.7z"/>
+		<path fill="#0078D7" d="M93.7,61.8h-1.9c-1.7,0.1-2.4,0.5-2.9,1.7c-1.9,5.3-6.6,9.2-12.9,9.2h0c-6.4,0-11-4-13-9.2
+			c-0.5-1.3-1.2-1.6-2.9-1.7h-1.7l0,0c0,0,0.3,0,0,0v7l17.8,9.9l17.5-10.2V61.8z"/>
+		<path fill="#0078D7" d="M73.6,65V53.5l8.7,5.7L73.6,65z M82.4,52.6c-3.6-3.6-9.3-3.6-12.9,0c-3.6,3.6-3.6,9.3,0,12.9
+			c3.6,3.5,9.3,3.5,12.9,0C86,62,86,56.2,82.4,52.6z"/>
+	</g>
+</g>
+</svg>

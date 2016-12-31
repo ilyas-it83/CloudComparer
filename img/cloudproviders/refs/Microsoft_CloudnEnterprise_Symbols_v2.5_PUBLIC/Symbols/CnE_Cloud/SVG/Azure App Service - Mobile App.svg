@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 117.5" enable-background="new 0 0 152 117.5" xml:space="preserve">
+<g id="Layer_1">
+	<g id="Azure">
+	</g>
+	<g id="BizTalk_Services" transform="translate(37.3575,-2500.2)">
+	</g>
+	<g id="Key_Vault">
+	</g>
+	<g id="Mobile_Engagement">
+	</g>
+</g>
+<g id="paths">
+	<g id="Access_control">
+	</g>
+	<g id="Azure_active_directory">
+	</g>
+	<g id="API_Management">
+	</g>
+	<g id="Azure_automation">
+	</g>
+	<g id="Azure_SQL_database">
+	</g>
+	<g id="Azure_subscription">
+	</g>
+	<g id="Backup_service">
+	</g>
+	<g id="Bitbucket_code_source">
+	</g>
+	<g id="Azure_cache">
+	</g>
+	<g id="Content_delivery_network__x28_CDN_x29_">
+	</g>
+	<g id="Cloud_service">
+	</g>
+	<g id="CodePlex">
+	</g>
+	<g id="Dropbox_code_source">
+	</g>
+	<g id="Express_route">
+	</g>
+	<g id="Git_repository">
+	</g>
+	<g id="GitHub_code">
+	</g>
+	<g id="HD_Insight">
+	</g>
+	<g id="Health_monitoring">
+	</g>
+	<g id="Healthy">
+	</g>
+	<g id="BizTalk_hybrid_connection">
+	</g>
+	<g id="Hybrid_connection_manager_for_BizTalk_hybrid_connection">
+	</g>
+	<g id="Hyper-V_recovery_manager">
+	</g>
+	<g id="Machine_learning">
+	</g>
+	<g id="Media_services">
+	</g>
+	<g id="Microsoft_account">
+	</g>
+	<g id="Mobile_services">
+		<g>
+			<g>
+				<g>
+					<path fill="#0078D7" d="M87.3,36.4h-0.8H65.1h-0.4c-2,0.1-2,0.5-2,2.9l0,38.8c0,2.4,0,2.8,2,2.9c0,0,0.6,0,0.7,0h21.3
+						c0.1,0,0.7,0,0.7,0c2-0.1,2-0.5,2-2.9l0-38.8C89.3,37,89.3,36.5,87.3,36.4z M72.9,37.9l6.3,0c0.1,0,0.2,0.1,0.2,0.2
+						c0,0.1-0.1,0.2-0.2,0.2l-6.3,0c-0.1,0-0.2-0.1-0.2-0.2C72.7,38.1,72.7,37.9,72.9,37.9z M73,78.7h-1.5c-0.3,0-0.5-0.1-0.5-0.4
+						c0-0.3,0.2-0.4,0.5-0.4l1.5,0c0.3,0,0.5,0.1,0.5,0.4C73.5,78.6,73.3,78.7,73,78.7z M77.1,79H75c-0.3,0-0.6-0.1-0.6-0.5
+						c0-0.3,0.3-0.5,0.6-0.5l2.1,0c0.3,0,0.6,0.1,0.6,0.5C77.7,78.8,77.4,79,77.1,79z M80.5,78.7H79c-0.3,0-0.5-0.1-0.5-0.3
+						c0-0.3,0.2-0.3,0.5-0.3h1.5c0.3,0,0.5,0.1,0.5,0.3C81,78.6,80.8,78.7,80.5,78.7z M87.4,74.2c0,2-0.2,2.5-2.1,2.5l-10.3,0
+						l-8.3,0c-1.9,0-2.1-0.5-2.1-2.5l0-32.2c0-2.1,0.2-2.1,2.3-2.1l8.1,0l10.1,0c2.1,0,2.4,0,2.4,2.1L87.4,74.2z"/>
+				</g>
+			</g>
+			<g>
+				<path fill="#0078D7" d="M86.1,43.3c0-2.1-0.3-2.1-2.3-2.1l-15.6,0c-2.1,0-2.3,0-2.3,2.1l0,29.6c0,2.1,0.2,2.4,2.3,2.4l15.6,0
+					c2.1,0,2.3-0.4,2.3-2.4L86.1,43.3z M75.4,65.1L69,61.4V54l6.4,3.7V65.1z M69.6,52.9l6.4-3.7l6.4,3.7L76,56.7L69.6,52.9z
+					 M83,61.4l-6.4,3.7v-7.4L83,54V61.4z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

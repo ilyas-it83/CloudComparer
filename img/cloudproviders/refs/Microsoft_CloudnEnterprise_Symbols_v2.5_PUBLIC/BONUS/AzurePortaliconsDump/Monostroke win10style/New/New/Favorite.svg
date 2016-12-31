@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M2,16 L8,12 L14,16 L14,-5.41788836e-14 L2,-5.41788836e-14 L2,16 Z" fill="#FCD116"></path>
+            <path d="M9.91416667,7.12333333 L11.125,11 L8,8.5975 L4.875,11 L6.08583333,7.12333333 L3,4.75 L6.82833333,4.75 L8,1 L9.17166667,4.75 L13,4.75 L9.91416667,7.12333333" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

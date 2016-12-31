@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 792 612" enable-background="new 0 0 792 612" xml:space="preserve">
+<g id="Layer_1_1_">
+</g>
+<g id="Access_control">
+</g>
+<g id="Azure_active_directory">
+</g>
+<g id="Application_server">
+	<g>
+		<g>
+			<path fill="#2A3282" d="M374.2,118.3H236.9c-9.4,0-17.2,7.7-17.2,17.2v334.8h94.4v-34.3h-68.7v-17.2h68.7v-17.2h-68.7v-17.2h68.7
+				v-51.5v-8.6h8.6h51.5c5.2,0,8.6,0,17.2,0V135.5C391.4,126,383.6,118.3,374.2,118.3z M365.6,187H245.4v-17.2h120.2
+				C365.6,169.8,365.6,187,365.6,187z"/>
+		</g>
+		<g>
+			<path fill="#2A3282" d="M326.1,337.2v133h197.4v-133H326.1z M514.1,459.9H333.9v-94.4h180.3V459.9z"/>
+			<polygon fill="#2A3282" points="351,442.8 411.1,442.8 411.1,382.7 351,382.7 			"/>
+			<polygon fill="#2A3282" points="432.6,442.8 496.9,442.8 496.9,434.2 432.6,434.2 			"/>
+			<polygon fill="#2A3282" points="432.6,425.6 496.9,425.6 496.9,417 432.6,417 			"/>
+			<polygon fill="#2A3282" points="432.6,408.4 496.9,408.4 496.9,399.8 432.6,399.8 			"/>
+			<polygon fill="#2A3282" points="432.6,391.3 496.9,391.3 496.9,382.7 432.6,382.7 			"/>
+		</g>
+	</g>
+</g>
+</svg>

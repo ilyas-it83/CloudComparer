@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 117.5" enable-background="new 0 0 152 117.5" xml:space="preserve">
+<g id="Layer_1">
+	<g id="Azure">
+	</g>
+	<g id="BizTalk_Services" transform="translate(37.3575,-2500.2)">
+	</g>
+	<g id="Key_Vault">
+	</g>
+	<g id="Mobile_Engagement">
+	</g>
+	<g id="Office_subscription">
+		<g id="Office_subscription_1_">
+		</g>
+	</g>
+</g>
+<g id="paths">
+	<g id="Access_control">
+	</g>
+	<g id="Azure_active_directory">
+	</g>
+	<g id="API_Management">
+	</g>
+	<g id="Azure_automation">
+	</g>
+	<g id="Azure_SQL_database">
+	</g>
+	<g id="Azure_subscription">
+	</g>
+	<g id="Backup_service">
+	</g>
+	<g id="Bitbucket_code_source">
+	</g>
+	<g id="Azure_cache">
+	</g>
+	<g id="Content_delivery_network__x28_CDN_x29_">
+	</g>
+	<g id="Cloud_service">
+	</g>
+	<g id="CodePlex">
+	</g>
+	<g id="Dropbox_code_source">
+	</g>
+	<g id="Express_route">
+	</g>
+	<g id="Git_repository">
+	</g>
+	<g id="GitHub_code">
+	</g>
+	<g id="HD_Insight">
+	</g>
+	<g id="Health_monitoring">
+	</g>
+	<g id="Healthy">
+	</g>
+	<g id="BizTalk_hybrid_connection">
+	</g>
+	<g id="Hybrid_connection_manager_for_BizTalk_hybrid_connection">
+	</g>
+	<g id="Hyper-V_recovery_manager">
+	</g>
+	<g id="Machine_learning">
+	</g>
+	<g id="Media_services">
+	</g>
+	<g id="Microsoft_account">
+	</g>
+	<g id="Mobile_services">
+	</g>
+	<g id="Multi-factor_authentication">
+	</g>
+	<g id="MySQL_database">
+	</g>
+	<g id="Notification_hub">
+	</g>
+	<g id="Notification_topic">
+	</g>
+	<g id="Cloud_Office_365">
+	</g>
+	<g id="Office_365">
+	</g>
+	<g id="OS_image">
+	</g>
+	<g id="Remote_app">
+	</g>
+	<g id="Task_scheduler">
+	</g>
+	<g id="Azure_SDK">
+	</g>
+	<g id="Service_bus">
+	</g>
+	<g id="Service_bus_queue">
+	</g>
+	<g id="Service_bus_relay">
+	</g>
+	<g id="Service_bus_topic">
+	</g>
+	<g id="Service_endpoint">
+	</g>
+	<g id="Custom_create">
+	</g>
+	<g id="SQL_data_sync">
+	</g>
+	<g id="SQL_reporting">
+	</g>
+	<g id="Startup_task">
+		<g id="group1182-2302_1_" transform="translate(1239.04,-2598.31)">
+			<title>Sheet.1182</title>
+			<g id="shape1183-2303_1_" transform="translate(3.40575,-3.5085)">
+				<title>Sheet.1183</title>
+				<path fill="#0078D7" d="M-1164.3,2658.6l-0.4-1.5l-1.4,0.1c-0.1-0.2-0.3-0.4-0.5-0.6l0.5-1.2l-1.4-0.8l-0.8,1
+					c-0.3-0.1-0.6-0.1-0.9-0.1l-0.5-1.2l-1.5,0.4l0.2,1.3c-0.2,0.1-0.4,0.3-0.6,0.4l-1.2-0.5l-0.8,1.4l1,0.8
+					c-0.1,0.3-0.1,0.6-0.1,0.8l-1.1,0.5l0.4,1.5l1.3-0.1c0.1,0.3,0.3,0.5,0.5,0.7l-0.5,1.1l1.4,0.8l0.8-1c0.3,0.1,0.5,0.1,0.8,0.1
+					l0.5,1.1l1.5-0.4l-0.1-1.3c0.2-0.2,0.5-0.3,0.7-0.5l1.2,0.5l0.8-1.3l-1-0.8c0.1-0.3,0.1-0.5,0.1-0.8L-1164.3,2658.6z
+					 M-1168.1,2661c-1.1,0.6-2.4,0.1-3-1c-0.6-1.1-0.1-2.4,1-3c1.1-0.5,2.4-0.1,3,1C-1166.6,2659.1-1167,2660.5-1168.1,2661z"/>
+			</g>
+			<g id="shape1184-2305_1_" transform="translate(9.71025,-7.14675)">
+				<title>Sheet.1184</title>
+				<path fill="#0078D7" d="M-1166.3,2654.5c-0.3-0.1-0.6-0.1-0.9-0.1l-0.5-1.2l-1.5,0.4l0.2,1.3c-0.2,0.1-0.4,0.3-0.6,0.4l-1.2-0.5
+					l-0.8,1.4l1,0.8c-0.1,0.3-0.1,0.6-0.1,0.8l-1.1,0.5l0.4,1.5l1.3-0.1c0.1,0.3,0.3,0.5,0.5,0.7l-0.5,1.1l1.4,0.8l0.8-1
+					c0.3,0.1,0.5,0.1,0.8,0.1l0.5,1.1l1.5-0.4l-0.1-1.3c0.2-0.1,0.5-0.3,0.7-0.5l1.2,0.5l0.8-1.3l-1-0.8c0.1-0.3,0.1-0.5,0.1-0.8
+					l1.2-0.5l-0.4-1.5l-1.4,0.1c-0.1-0.2-0.3-0.4-0.5-0.6l0.5-1.2l-1.4-0.8L-1166.3,2654.5z M-1166.2,2659.9c-1.1,0.6-2.4,0.1-3-1
+					c-0.6-1.1-0.1-2.4,1-3c1.1-0.6,2.4-0.1,3,1C-1164.7,2658-1165.1,2659.4-1166.2,2659.9z"/>
+			</g>
+			<g id="shape1185-2307_1_">
+				<title>Sheet.1185</title>
+				<path fill="#0078D7" d="M-1153.8,2637.2h-0.4c0,0-1.3,0-2.7,0h-14.4c-2,0-3.6,1.6-3.6,3.6v20.5c0,2,1.6,3.6,3.6,3.6h19.4
+					c2,0,3.6-1.6,3.6-3.6v-15.7l0-2.9L-1153.8,2637.2z M-1150.2,2661.3c0,0.9-0.7,1.6-1.6,1.6h-19.4c-0.9,0-1.6-0.7-1.6-1.6v-20.5
+					c0-0.9,0.7-1.6,1.6-1.6h14.4c0.9,0,1.7,0,2.2,0v4.5h4.4V2661.3z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_57">
+</g>
+<g id="Ibiza_Symbols">
+	<g id="SQL_Database_Premium">
+	</g>
+</g>
+</svg>

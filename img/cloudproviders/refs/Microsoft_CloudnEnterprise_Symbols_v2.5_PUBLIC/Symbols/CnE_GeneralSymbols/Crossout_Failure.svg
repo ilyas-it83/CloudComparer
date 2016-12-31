@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 216 216" enable-background="new 0 0 216 216" xml:space="preserve">
+<g>
+	<title>Page-1</title>
+	
+		<v:pageProperties  v:shadowOffsetX="2.83465" v:shadowOffsetY="-2.83465" v:drawingScale="1" v:pageScale="1" v:drawingUnits="19" v:shadowType="1">
+		</v:pageProperties>
+	<g id="shape27-1" transform="translate(0.025,-0.025)">
+		<title>Crossout/ Failure</title>
+		<v:userDefs>
+			<v:ud  v:nameU="visLegendShape" v:val="VT0(2):26"></v:ud>
+			<v:ud  v:nameU="visLocToPar" v:val="VT7(PNT(17.266796875,11.599187499999)):40"></v:ud>
+			<v:ud  v:nameU="visVersion" v:val="VT0(15):26"></v:ud>
+			<v:ud  v:nameU="visIsConnected" v:prompt="" v:val="VT0(0):26"></v:ud>
+			<v:ud  v:nameU="visLocToPar" v:prompt="" v:val="VT7(PNT(0.0003472222222233,0.00034722222222305)):40"></v:ud>
+		</v:userDefs>
+		
+			<path fill="#FF0000" stroke="#CC0000" stroke-width="5.000000e-002" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3" d="
+			M111.3,110.5l13.5,16.3c-3.5-6.6-7.4-13-11.6-19.1c4.2-6.1,8.1-12.5,11.6-19L111.3,105c-3.4-4.8-7.1-9.4-10.9-13.8
+			c-1.9-1-4-1.4-6.1-1.3l14.7,17.8l-14.7,17.8c2.1,0.2,4.2-0.2,6.1-1.3C104.3,119.9,107.9,115.3,111.3,110.5z"/>
+	</g>
+</g>
+</svg>

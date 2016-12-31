@@ -264,17 +264,28 @@ footer {
 #comparetable tr {background: transparent!important;}
 #comparetable td,
 #comparetable th {padding: 20px; text-align: center;}
-#comparetable td.rowTitle {text-align: center;}
-#comparetable td img { height:50px;width:50px;  display: block; margin-left: auto; margin-right: auto;
-    float: left; margin: 0px 15px 15px 0px;
-}
-#comparetable td ul {   list-style-type: none;
-}
+#comparetable td.rowTitle {text-align: center; font-weight: 600;}
+#comparetable td img {height:50px;width:50px;  display: block;margin-left: auto;margin-right: auto;float: left;margin: 0px 15px 15px 0px;}
+#comparetable td ul {margin: 0; padding: 0;list-style-type: none;}
+#comparetable td ul.lists {text-align: left; list-style-type: disc!important;}
 
-#comparetable td ul img {   vertical-align: middle; /* | top | bottom */
+#comparetable td li {margin: 0; padding: 0; width: auto;  float: left;}
+
+#comparetable td li img{display: inline-block;list-style-type: none; padding-left: 0px; vertical-align: middle;}
+#comparetable tr.odd td { background:#fff url(../img/row_bkg.png) repeat-x scroll center left; cursor:pointer; }
+#comparetable div.arrow { background:transparent url(../img/arrows.png) no-repeat scroll 0px -16px; width:16px; height:16px; display:block;}
+#comparetable div.up { background-position:0px 0px;}
+
+.blank {background: none!important; border: none}
+.blueshine th {background-color: #b8cee2; font-size: 22px; color: #0c3053; text-align: center; font-weight: 600; text-shadow: 0 1px 0 #e0ecf7; border: 1px solid #9fb6c8;}
+.blueshine td {background-color: #f0f1f1; border: 1px solid #c8d6e2;} 
+.blueshine td.rowTitle {border-left: 4px solid #333}
+.blueshine td h1 {display: block;font-size: 2em;margin-top: 0.67em;margin-bottom: 0.67em;margin-left: 0;margin-right: 0;font-weight: bold;}
+
+
+ #header-fixed {
+    position: fixed;
+    top: 0px; display:none;
+    background-color:white;
 }
-.blank {background: none!important; border: none!important;}
- .blueshine th {background-color: #b8cee2; font-size: 22px; color: #0c3053; text-align: center; font-weight: 600; text-shadow: 0 1px 0 #e0ecf7; border: 1px solid #9fb6c8;}
- .blueshine td {background-color: #f0f1f1; border: 1px solid #c8d6e2;} 
- .blueshine td.rowTitle {border-left: 4px solid #333}
 /* END COMPARISON TABLE STYLES */

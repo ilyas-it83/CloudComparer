@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="128px" height="114px" viewBox="0 0 128 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Logs_128px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-3.89783073e-15%" x2="50%" y2="99.8449958%" id="linearGradient-1">
+            <stop stop-color="#4387FD" offset="0%"></stop>
+            <stop stop-color="#4683EA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logs_128px" transform="translate(-1.000000, 0.000000)">
+            <path d="M28.7906,108.2166 L2.54,62.7493 C0.4859,59.1915 0.4859,54.8081 2.54,51.2503 L28.7906,5.7831 C30.8447,2.2253 34.6409,0.0336 38.7491,0.0336 L91.2503,0.0336 C95.3585,0.0336 99.1547,2.2253 101.2088,5.7831 L127.4594,51.2503 C129.5135,54.8081 129.5135,59.1915 127.4594,62.7493 L101.2088,108.2165 C99.1547,111.7743 95.3585,113.966 91.2503,113.966 L38.7491,113.966 C34.6409,113.9661 30.8448,111.7744 28.7906,108.2166 L28.7906,108.2166 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+            <path d="M95,31 L77.4,39 L61,39 L50,28 L43.2308,39 L43,39 L35,43 L42.65,50.65 L41,82 L72.9661,113.9661 L91.2503,113.9661 C95.3585,113.9661 99.1547,111.7744 101.2088,108.2166 L127.1995,63.1996 L95,31 L95,31 Z" id="Shape" fill="#000000" opacity="0.07"></path>
+            <rect id="Rectangle-path" fill="#FFFFFF" x="58" y="31" width="37" height="11"></rect>
+            <rect id="Rectangle-path" fill="#FFFFFF" x="43" y="57" width="16" height="3"></rect>
+            <rect id="Rectangle-path" fill="#FFFFFF" x="58" y="53" width="37" height="11"></rect>
+            <rect id="Rectangle-path" fill="#FFFFFF" x="43" y="79" width="16" height="3"></rect>
+            <rect id="Rectangle-path" fill="#FFFFFF" x="41" y="43" width="3" height="39"></rect>
+            <g id="Group" transform="translate(35.000000, 28.000000)" fill="#FFFFFF">
+                <rect id="Rectangle-path" x="0" y="0" width="15" height="15"></rect>
+                <rect id="Rectangle-path" x="23" y="47" width="37" height="11"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 117.5" enable-background="new 0 0 152 117.5" xml:space="preserve">
+<g id="Layer_1">
+	<g id="Azure">
+	</g>
+	<g id="BizTalk_Services" transform="translate(37.3575,-2500.2)">
+	</g>
+	<g id="Key_Vault">
+	</g>
+	<g id="Mobile_Engagement">
+	</g>
+	<g id="Office_subscription">
+		<g id="Office_subscription_1_">
+		</g>
+	</g>
+</g>
+<g id="paths">
+	<g id="Access_control">
+	</g>
+	<g id="Azure_active_directory">
+	</g>
+	<g id="API_Management">
+	</g>
+	<g id="Azure_automation">
+	</g>
+	<g id="Azure_SQL_database">
+	</g>
+	<g id="Azure_subscription">
+	</g>
+	<g id="Backup_service">
+	</g>
+	<g id="Bitbucket_code_source">
+	</g>
+	<g id="Azure_cache">
+	</g>
+	<g id="Content_delivery_network__x28_CDN_x29_">
+	</g>
+	<g id="Cloud_service">
+	</g>
+	<g id="CodePlex">
+	</g>
+	<g id="Dropbox_code_source">
+	</g>
+	<g id="Express_route">
+	</g>
+	<g id="Git_repository">
+	</g>
+	<g id="GitHub_code">
+	</g>
+	<g id="HD_Insight">
+	</g>
+	<g id="Health_monitoring">
+	</g>
+	<g id="Healthy">
+	</g>
+	<g id="BizTalk_hybrid_connection">
+	</g>
+	<g id="Hybrid_connection_manager_for_BizTalk_hybrid_connection">
+	</g>
+	<g id="Hyper-V_recovery_manager">
+	</g>
+	<g id="Machine_learning">
+	</g>
+	<g id="Media_services">
+	</g>
+	<g id="Microsoft_account">
+	</g>
+	<g id="Mobile_services">
+	</g>
+	<g id="Multi-factor_authentication">
+	</g>
+	<g id="MySQL_database">
+	</g>
+	<g id="Notification_hub">
+	</g>
+	<g id="Notification_topic">
+	</g>
+	<g id="Cloud_Office_365">
+	</g>
+	<g id="Office_365">
+	</g>
+	<g id="OS_image">
+	</g>
+	<g id="Remote_app">
+	</g>
+	<g id="Task_scheduler">
+	</g>
+	<g id="Azure_SDK">
+	</g>
+	<g id="Service_bus">
+	</g>
+	<g id="Service_bus_queue">
+	</g>
+	<g id="Service_bus_relay">
+	</g>
+	<g id="Service_bus_topic">
+	</g>
+	<g id="Service_endpoint">
+	</g>
+	<g id="Custom_create">
+	</g>
+	<g id="SQL_data_sync">
+	</g>
+	<g id="SQL_reporting">
+	</g>
+	<g id="Startup_task">
+	</g>
+	<g id="Windows_Azure_storage">
+	</g>
+	<g id="Storage_blob">
+	</g>
+	<g id="Storage_table">
+	</g>
+	<g id="Storage_queue">
+	</g>
+	<g id="StorSimple">
+	</g>
+	<g id="Traffic_manager">
+	</g>
+	<g id="VHD">
+	</g>
+	<g id="VHD_data_disk">
+	</g>
+	<g id="Virtual_machine">
+		<g>
+			<path fill="#0078D7" d="M69.3,53.2h16.4v-11H69.3V53.2z M81.1,50L78,51.8v-3.6l3.1-1.8V50z M77.7,44.1l3.1,1.8l-3.1,1.8l-3.1-1.8
+				L77.7,44.1z M74.4,46.4l3.1,1.8v3.6L74.4,50V46.4z"/>
+			<path fill="#0078D7" d="M96.6,34H56.9c-1.1,0-1.9,0.9-1.9,1.9v31c0,1.1,0.9,1.9,1.9,1.9h39.7c1.1,0,1.9-0.9,1.9-1.9v-31
+				C98.5,34.9,97.7,34,96.6,34z M76.6,62.8l-1.2,3.6c0,0,0,0.1,0,0.1c0,0,0,0-0.1,0.1c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.3,0
+				c-0.1,0-0.2,0-0.2,0c-0.1,0-0.1,0-0.2,0c0,0-0.1,0-0.1,0c0,0,0,0-0.1,0c0,0,0,0,0,0c0,0,0,0,0-0.1l-1.2-3.6c0-0.1,0-0.1,0-0.2
+				c0,0,0-0.1,0-0.1c0,0,0.1,0,0.1,0c0.1,0,0.2,0,0.3,0c0.1,0,0.2,0,0.2,0c0.1,0,0.1,0,0.1,0c0,0,0,0,0.1,0c0,0,0,0,0,0.1l1,3.1h0
+				l1-3.1c0,0,0-0.1,0-0.1c0,0,0,0,0.1-0.1c0,0,0.1,0,0.1,0c0.1,0,0.1,0,0.2,0c0.1,0,0.2,0,0.2,0c0.1,0,0.1,0,0.1,0c0,0,0,0.1,0,0.1
+				C76.7,62.7,76.7,62.8,76.6,62.8z M81.9,66.5C81.9,66.5,81.9,66.5,81.9,66.5C81.9,66.5,81.9,66.5,81.9,66.5
+				c-0.1,0.1-0.2,0.1-0.2,0.1c-0.1,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2,0c0,0-0.1,0-0.1,0c0,0,0,0-0.1,0c0,0,0,0,0-0.1v-3.3h0L80,66.5
+				c0,0,0,0,0,0.1c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0c0,0-0.1,0-0.2,0s-0.1,0-0.2,0c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0c0,0,0,0,0-0.1
+				L78,63.2h0v3.3c0,0,0,0,0,0.1c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0c0,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.1,0
+				c0,0-0.1,0-0.1,0c0,0,0,0,0-0.1v-3.6c0-0.1,0-0.2,0.1-0.2c0.1-0.1,0.1-0.1,0.2-0.1h0.5c0.1,0,0.2,0,0.2,0c0.1,0,0.1,0,0.2,0.1
+				c0,0,0.1,0.1,0.1,0.1c0,0.1,0.1,0.1,0.1,0.2l0.9,2.4h0l0.9-2.4c0-0.1,0.1-0.2,0.1-0.2c0-0.1,0.1-0.1,0.1-0.1c0,0,0.1-0.1,0.2-0.1
+				c0.1,0,0.1,0,0.2,0h0.6c0.1,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0.1c0,0,0,0.1,0.1,0.1c0,0,0,0.1,0,0.1V66.5z M87,53.5c0,0.6-0.5,1-1,1
+				h-6c-0.6,2.3-0.3,2.6,3.7,2.6v1h-4.7h-3.4h-4.4v-1c3.6,0,4.2-0.3,3.7-2.6H69c-0.6,0-1-0.5-1-1V41.9c0-0.6,0.5-1.1,1-1.1h17
+				c0.6,0,1,0.5,1,1.1V53.5z"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_57">
+</g>
+<g id="Ibiza_Symbols">
+	<g id="SQL_Database_Premium">
+	</g>
+</g>
+</svg>

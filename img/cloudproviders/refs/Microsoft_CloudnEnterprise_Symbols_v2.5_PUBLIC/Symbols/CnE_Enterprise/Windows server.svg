@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 792 612" enable-background="new 0 0 792 612" xml:space="preserve">
+<g id="paths">
+	<g id="Access_control">
+	</g>
+	<g id="Azure_active_directory">
+	</g>
+	<g id="Generic_code">
+	</g>
+	<g id="Laptop">
+	</g>
+	<g id="Load_balancer">
+	</g>
+	<g id="Lock_x2C__protected">
+	</g>
+</g>
+<g id="symbols">
+</g>
+<g id="slices">
+</g>
+<g id="User">
+</g>
+<g id="Video">
+</g>
+<g id="Virtual_machine_2">
+</g>
+<g id="Web">
+</g>
+<g id="Web_server">
+</g>
+<g id="Windows_server">
+	<g>
+		<g>
+			<path fill="#00188F" d="M333.5,387.9v-79.6l86.6-13.4V159.5c0-8.7-7.1-15.8-15.8-15.8h-126c-8.7,0-15.8,7.1-15.8,15.8v307.2
+				h130.7l-59.9-8.7v-22.8h-47.3v-15.8h47.3v-15.8h-47.3v-15.8L333.5,387.9L333.5,387.9z M286.2,191h110.3v15.8H286.2V191z"/>
+		</g>
+		<polygon fill="#00188F" points="420.1,379.3 514.7,379.3 514.7,298.9 420.1,311.5 420.1,379.3 		"/>
+		<polygon fill="#00188F" points="412.3,379.3 412.3,312.3 349.3,321 349.3,379.3 412.3,379.3 		"/>
+		<polygon fill="#00188F" points="412.3,387.9 349.3,387.9 349.3,444.6 412.3,454.1 412.3,387.9 		"/>
+		<polygon fill="#00188F" points="420.1,387.9 420.1,454.9 514.7,468.3 514.7,387.9 420.1,387.9 		"/>
+	</g>
+</g>
+</svg>

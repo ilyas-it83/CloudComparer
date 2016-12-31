@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 117.5" enable-background="new 0 0 152 117.5" xml:space="preserve">
+<g id="Layer_1">
+	<g id="Azure">
+	</g>
+	<g id="BizTalk_Services" transform="translate(37.3575,-2500.2)">
+	</g>
+	<g id="Key_Vault">
+	</g>
+	<g id="Mobile_Engagement">
+	</g>
+	<g id="Office_subscription">
+		<g id="Office_subscription_1_">
+		</g>
+	</g>
+</g>
+<g id="paths">
+	<g id="Access_control">
+	</g>
+	<g id="Azure_active_directory">
+	</g>
+	<g id="API_Management">
+	</g>
+	<g id="Azure_automation">
+	</g>
+	<g id="Azure_SQL_database">
+	</g>
+	<g id="Azure_subscription">
+	</g>
+	<g id="Backup_service">
+	</g>
+	<g id="Bitbucket_code_source">
+	</g>
+	<g id="Azure_cache">
+	</g>
+	<g id="Content_delivery_network__x28_CDN_x29_">
+	</g>
+	<g id="Cloud_service">
+	</g>
+	<g id="CodePlex">
+	</g>
+	<g id="Dropbox_code_source">
+	</g>
+	<g id="Express_route">
+	</g>
+	<g id="Git_repository">
+	</g>
+	<g id="GitHub_code">
+	</g>
+	<g id="HD_Insight">
+	</g>
+	<g id="Health_monitoring">
+	</g>
+	<g id="Healthy">
+	</g>
+	<g id="BizTalk_hybrid_connection">
+	</g>
+	<g id="Hybrid_connection_manager_for_BizTalk_hybrid_connection">
+	</g>
+	<g id="Hyper-V_recovery_manager">
+	</g>
+	<g id="Machine_learning">
+	</g>
+	<g id="Media_services">
+	</g>
+	<g id="Microsoft_account">
+	</g>
+	<g id="Mobile_services">
+	</g>
+	<g id="Multi-factor_authentication">
+	</g>
+	<g id="MySQL_database">
+	</g>
+	<g id="Notification_hub">
+	</g>
+	<g id="Notification_topic">
+	</g>
+	<g id="Cloud_Office_365">
+	</g>
+	<g id="Office_365">
+	</g>
+	<g id="OS_image">
+	</g>
+	<g id="Remote_app">
+	</g>
+	<g id="Task_scheduler">
+	</g>
+	<g id="Azure_SDK">
+	</g>
+	<g id="Service_bus">
+	</g>
+	<g id="Service_bus_queue">
+	</g>
+	<g id="Service_bus_relay">
+	</g>
+	<g id="Service_bus_topic">
+	</g>
+	<g id="Service_endpoint">
+	</g>
+	<g id="Custom_create">
+	</g>
+	<g id="SQL_data_sync">
+	</g>
+	<g id="SQL_reporting">
+	</g>
+	<g id="Startup_task">
+	</g>
+	<g id="Windows_Azure_storage">
+	</g>
+	<g id="Storage_blob">
+	</g>
+	<g id="Storage_table">
+	</g>
+	<g id="Storage_queue">
+	</g>
+	<g id="StorSimple">
+	</g>
+	<g id="Traffic_manager">
+	</g>
+	<g id="VHD">
+		<g id="group444-904_5_" transform="translate(1355.43,-2200.23)">
+			<g id="shape445-905_5_" transform="translate(11.1,-17.1022)">
+				<title>Sheet.445</title>
+				<ellipse fill="#0078D7" cx="-1290.5" cy="2272.9" rx="1.7" ry="1.7"/>
+			</g>
+			<g id="shape446-907_5_" transform="translate(12.0503,-15.4965)">
+				<title>Sheet.446</title>
+				<ellipse fill="#0078D7" cx="-1291.5" cy="2274.3" rx="0.6" ry="0.6"/>
+			</g>
+			<g id="shape447-909_5_" transform="translate(9.516,-18.0607)">
+				<title>Sheet.447</title>
+				<ellipse fill="#0078D7" cx="-1291.9" cy="2273.9" rx="0.6" ry="0.6"/>
+			</g>
+			<g id="shape448-911_5_" transform="translate(10.2068,-16.2472)">
+				<title>Sheet.448</title>
+				<path fill="#0078D7" d="M-1292.2,2273.7c-0.2,0.2-0.2,0.6,0,0.9c0.1,0.1,0.3,0.2,0.4,0.2s0.3-0.1,0.4-0.2
+					c0.1-0.1,0.2-0.3,0.2-0.4c0-0.2-0.1-0.3-0.2-0.4C-1291.5,2273.5-1291.9,2273.5-1292.2,2273.7z"/>
+			</g>
+			<g id="shape449-913_5_" transform="translate(10.2075,-19.863)">
+				<title>Sheet.449</title>
+				<path fill="#0078D7" d="M-1291.7,2274.2c0.2,0,0.3-0.1,0.4-0.2c0.1-0.1,0.2-0.3,0.2-0.4c0-0.2-0.1-0.3-0.2-0.4
+					c-0.2-0.2-0.6-0.2-0.9,0c-0.2,0.2-0.2,0.6,0,0.9C-1292,2274.1-1291.9,2274.2-1291.7,2274.2z"/>
+			</g>
+			<g id="shape450-915_5_" transform="translate(3.1275,-3.14325)">
+				<title>Sheet.450</title>
+				<ellipse fill="#0078D7" cx="-1292.1" cy="2275.5" rx="1.5" ry="1.5"/>
+			</g>
+			<g id="shape451-917_5_" transform="translate(13.791,-19.863)">
+				<title>Sheet.451</title>
+				<path fill="#0078D7" d="M-1291.1,2274.2c0.2,0,0.3-0.1,0.4-0.2c0.1-0.1,0.2-0.3,0.2-0.4c0-0.2-0.1-0.3-0.2-0.4
+					c-0.2-0.2-0.6-0.2-0.9,0c-0.2,0.2-0.2,0.6,0,0.9C-1291.4,2274.1-1291.3,2274.2-1291.1,2274.2z"/>
+			</g>
+			<g id="shape452-919_5_" transform="translate(12.0503,-20.613)">
+				<title>Sheet.452</title>
+				<ellipse fill="#0078D7" cx="-1291.5" cy="2273.4" rx="0.6" ry="0.6"/>
+			</g>
+			<g id="shape453-921_9_">
+				<title>Sheet.453</title>
+				<path fill="#0078D7" d="M-1265.7,2240.4h-27.4c-0.5,0-0.9,0.4-0.9,1v35.1c0,0.5,0.4,1,0.9,1h27.4c0.5,0,1-0.4,1-1v-35.1
+					C-1264.8,2240.9-1265.2,2240.4-1265.7,2240.4z M-1292.9,2242.2c0-0.5,0.4-0.8,0.8-0.8c0.4,0,0.8,0.4,0.8,0.8
+					c0,0.5-0.4,0.8-0.8,0.8C-1292.5,2243-1292.9,2242.6-1292.9,2242.2z M-1286.1,2273.9L-1286.1,2273.9L-1286.1,2273.9
+					c-0.6,1.1-1.7,1.8-2.9,1.8c-1.8,0-3.3-1.5-3.3-3.4c0-0.9,0.4-1.8,1-2.4l7.1-7.2c0.3-0.3,0.7-0.5,1.2-0.5c0.9,0,1.7,0.8,1.7,1.7
+					c0,0.3-0.1,0.5-0.2,0.8h0L-1286.1,2273.9C-1286,2273.9-1286,2273.9-1286.1,2273.9z M-1279.5,2267.5c-0.7,0-1.4-0.1-2.1-0.2
+					l1.1-2.1c0-0.1,0-0.1,0.1-0.2c0.2-0.4,0.2-0.7,0.2-1.1c0-1.5-1.2-2.8-2.7-2.8c-0.7,0-1.4,0.3-2,0.8l-2.4,2.4
+					c-2.3-2.1-3.8-5.2-3.8-8.6c0-6.5,5.2-11.7,11.6-11.7c6.4,0,11.6,5.2,11.6,11.7C-1267.9,2262.3-1273.1,2267.5-1279.5,2267.5z
+					 M-1266.9,2276.3c-0.5,0-0.8-0.4-0.8-0.8c0-0.5,0.4-0.8,0.8-0.8c0.5,0,0.8,0.4,0.8,0.8
+					C-1266.1,2275.9-1266.4,2276.3-1266.9,2276.3z M-1266.9,2243c-0.5,0-0.8-0.4-0.8-0.8c0-0.5,0.4-0.8,0.8-0.8
+					c0.5,0,0.8,0.4,0.8,0.8C-1266.1,2242.6-1266.4,2243-1266.9,2243z"/>
+			</g>
+			<g id="shape454-923_5_" transform="translate(13.791,-16.2472)">
+				<title>Sheet.454</title>
+				<path fill="#0078D7" d="M-1291.6,2273.7c-0.2,0.2-0.2,0.6,0,0.9c0.1,0.1,0.3,0.2,0.4,0.2s0.3-0.1,0.4-0.2
+					c0.1-0.1,0.2-0.3,0.2-0.4c0-0.2-0.1-0.3-0.2-0.4C-1290.9,2273.5-1291.3,2273.5-1291.6,2273.7z"/>
+			</g>
+			<g id="shape455-925_5_" transform="translate(7.83675,-13.8682)">
+				<title>Sheet.455</title>
+				<path fill="#0078D7" d="M-1287.3,2264.2c-3,0-5.4,2.5-5.4,5.5c0,3,2.4,5.5,5.4,5.5c3,0,5.5-2.5,5.5-5.5
+					C-1281.9,2266.6-1284.3,2264.2-1287.3,2264.2z M-1287.3,2274.1c-2.4,0-4.4-2-4.4-4.4c0-2.4,1.9-4.4,4.4-4.4c2.4,0,4.4,2,4.4,4.4
+					C-1282.9,2272.1-1284.9,2274.1-1287.3,2274.1z"/>
+			</g>
+			<g id="shape456-927_5_" transform="translate(14.583,-18.0555)">
+				<title>Sheet.456</title>
+				<ellipse fill="#0078D7" cx="-1291.1" cy="2273.9" rx="0.6" ry="0.6"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_57">
+</g>
+<g id="Ibiza_Symbols">
+	<g id="SQL_Database_Premium">
+	</g>
+</g>
+</svg>

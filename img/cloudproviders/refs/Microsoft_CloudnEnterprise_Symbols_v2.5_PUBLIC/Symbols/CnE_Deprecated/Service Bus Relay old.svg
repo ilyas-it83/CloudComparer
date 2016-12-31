@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 117.5" enable-background="new 0 0 152 117.5" xml:space="preserve">
+<g id="Layer_1">
+	<g id="Azure">
+	</g>
+	<g id="BizTalk_Services" transform="translate(37.3575,-2500.2)">
+	</g>
+	<g id="Key_Vault">
+	</g>
+	<g id="Mobile_Engagement">
+	</g>
+	<g id="Office_subscription">
+		<g id="Office_subscription_1_">
+		</g>
+	</g>
+</g>
+<g id="paths">
+	<g id="Access_control">
+	</g>
+	<g id="Azure_active_directory">
+	</g>
+	<g id="API_Management">
+	</g>
+	<g id="Azure_automation">
+	</g>
+	<g id="Azure_SQL_database">
+	</g>
+	<g id="Azure_subscription">
+	</g>
+	<g id="Backup_service">
+	</g>
+	<g id="Bitbucket_code_source">
+	</g>
+	<g id="Azure_cache">
+	</g>
+	<g id="Content_delivery_network__x28_CDN_x29_">
+	</g>
+	<g id="Cloud_service">
+	</g>
+	<g id="CodePlex">
+	</g>
+	<g id="Dropbox_code_source">
+	</g>
+	<g id="Express_route">
+	</g>
+	<g id="Git_repository">
+	</g>
+	<g id="GitHub_code">
+	</g>
+	<g id="HD_Insight">
+	</g>
+	<g id="Health_monitoring">
+	</g>
+	<g id="Healthy">
+	</g>
+	<g id="BizTalk_hybrid_connection">
+	</g>
+	<g id="Hybrid_connection_manager_for_BizTalk_hybrid_connection">
+	</g>
+	<g id="Hyper-V_recovery_manager">
+	</g>
+	<g id="Machine_learning">
+	</g>
+	<g id="Media_services">
+	</g>
+	<g id="Microsoft_account">
+	</g>
+	<g id="Mobile_services">
+	</g>
+	<g id="Multi-factor_authentication">
+	</g>
+	<g id="MySQL_database">
+	</g>
+	<g id="Notification_hub">
+	</g>
+	<g id="Notification_topic">
+	</g>
+	<g id="Cloud_Office_365">
+	</g>
+	<g id="Office_365">
+	</g>
+	<g id="OS_image">
+	</g>
+	<g id="Remote_app">
+	</g>
+	<g id="Task_scheduler">
+	</g>
+	<g id="Azure_SDK">
+	</g>
+	<g id="Service_bus">
+	</g>
+	<g id="Service_bus_queue">
+	</g>
+	<g id="Service_bus_relay">
+		<g>
+			<title>Sheet.154</title>
+			<g id="shape155-278_1_" transform="translate(7.32,0)">
+				<title>Sheet.155</title>
+				<path fill="#0078D7" d="M67.2,65.4h-4.4v7.4h-3.2l5.4,7.9l5.6-7.9h-3.4V65.4z"/>
+			</g>
+			<g id="shape156-280_1_" transform="translate(7.32,-19.353)">
+				<title>Sheet.156</title>
+				<path fill="#0078D7" d="M62.8,77.3h4.4V64h3.4L65,56.1L59.6,64h3.2V77.3z"/>
+			</g>
+			<g id="shape157-282_1_" transform="translate(1.38889E-013,-8.0085)">
+				<title>Sheet.157</title>
+				<path fill="#0078D7" d="M68.7,79.3V75h-5.9v-6h7.4v5.9h4.4v-8.3c0-1.1-0.5-2.1-0.8-2.1h-2.3h-8.8h-1.5h-1.7H59h-0.7V78
+					c0,0.2,1.6,1.3,1.8,1.3h2.3H68.7z"/>
+			</g>
+			<g id="shape158-284_1_" transform="translate(15.1215,-8.1195)">
+				<title>Sheet.158</title>
+				<path fill="#0078D7" d="M71.6,64.6h-0.8h-1.6h-3.9c0.1,0.6,0,1.3,0,2v2.5h6.4c1.5,0,2.7,1.9,2.7,3.4v2.6H60.9v4.1l16.5,0.1
+					c0.3,0,1.1-0.8,1.1-1.1V77v-2v-2.6C78.6,68.7,75.4,64.6,71.6,64.6z"/>
+			</g>
+			<g id="shape159-286_1_" transform="translate(0.3915,-21.8677)">
+				<title>Sheet.159</title>
+				<path fill="#0078D7" d="M58.4,76.9h4.1c0.1,0,0.1-0.5,0.5-1.5c0.8-1.5,3.1-2.5,5.3-2.4v-4.7C63.6,68.9,59.1,72.5,58.4,76.9z"/>
+			</g>
+			<g id="shape160-288_1_" transform="translate(15.12,-19.8)">
+				<title>Sheet.160</title>
+				<path fill="#0078D7" d="M60.9,66.3V71c1.5,0.1,3.4,1.3,3.9,2.8h0c0.4,1.1,0.4,2.2,0.4,3.4H70C70,71.7,66,67.7,60.9,66.3z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_57">
+</g>
+</svg>

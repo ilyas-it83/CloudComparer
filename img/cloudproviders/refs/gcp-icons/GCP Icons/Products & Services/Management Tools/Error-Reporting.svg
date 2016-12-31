@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-411.26" y1="343.05" x2="-411.26" y2="342.05" gradientTransform="matrix(128, 0, 0, -113.93, 52705.23, 39091.71)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4387fd"/>
+      <stop offset="1" stop-color="#4683ea"/>
+    </linearGradient>
+  </defs>
+  <title>Artboard 1</title>
+  <g id="Page-1">
+    <g id="Errors_128px" data-name="Errors 128px">
+      <path id="Shape" d="M27.79,115.22,1.54,69.75a11.5,11.5,0,0,1,0-11.5L27.79,12.78A11.5,11.5,0,0,1,37.75,7h52.5a11.5,11.5,0,0,1,10,5.75l26.25,45.47a11.5,11.5,0,0,1,0,11.5l-26.25,45.47a11.5,11.5,0,0,1-10,5.75H37.75a11.5,11.5,0,0,1-10-5.75Z" style="fill: url(#linear-gradient)"/>
+      <path id="Shape-2" data-name="Shape" d="M100.17,115l22-37.84L94,49l-9.32-3.75-1.27,1-7-7H69.28L64,34,50.93,38.75l-14,14,3,3-3,3.51V75.41L49,94l27,27H90.3a11.74,11.74,0,0,0,9.87-6Z" style="opacity: 0.07000000029802322;isolation: isolate"/>
+      <g id="Group">
+        <path id="Shape-3" data-name="Shape" d="M52.75,86,42,75.25V52.75L52.75,42H56.5L64,34H49L34,49V79L49,94H64l-7.5-8Z" style="fill: #fff"/>
+        <polygon id="Shape-4" data-name="Shape" points="79 34 71.5 34 64 42 75.25 42 86 52.75 86 75.25 75.25 86 64 86 71.5 94 79 94 94 79 94 49 79 34" style="fill: #fff"/>
+      </g>
+      <g id="Group-2" data-name="Group">
+        <path id="Shape-5" data-name="Shape" d="M64,79l-7.5-7.5L64,64l-7.5-7.5L64,49H56.5L49,56.5v15L56.5,79Z" style="fill: #fff"/>
+        <polygon id="Shape-6" data-name="Shape" points="71.5 49 64 56.5 71.51 64.01 64.01 71.51 71.5 79 79 71.5 79 56.5 71.5 49" style="fill: #fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

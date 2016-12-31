@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - Ilyas</title>
+    <title>AWS vs Azure vs Google Cloud</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -63,19 +63,20 @@
 <header id="top" class="header">
     <div class="text-vertical-center">
         <h1>Cloud Comparer</h1>
-        
-<table>
-    <tr><td class="rowTitle"></td>
-        <td>
-            <a href="#">
-                <img class="img-portfolio img-responsive" src="img/awsvsazurevsgce.png">
-            </a>
 
-        </td>
+        <table width="100%" border="5px">
+            <tr>
+                <td></td>
+                <td align="center">
+                    <a href="#">
+                        <img src="img/awsvsazurevsgce.png">
+                    </a>
 
-    </tr>
-</table>
-         
+                </td>
+
+            </tr>
+        </table>
+
     </div>
 </header>
 
@@ -98,741 +99,1239 @@
         <div class="text-vertical-center">
             <h1>Vertically Centered Text</h1>
         </div>
-    </aside>-->
-
+    </aside>
+;outline: 3px solid green-->
 <!-- Portfolio -->
 <section id="portfolio" class="portfolio">
-    <div class="container">
+    <div class="container" style="width:100%">
+<div class="row">
+    <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h2>AWS vs Azure vs Google</h2>
+        <hr class="small">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h2>AWS vs Azure vs Google</h2>
-                <hr class="small">
-                <div class="row">
+            Search : <input type="text" id="search" placeholder="Type to search">
 
-                  
-	<table id="comparetable" class="blueshine">
-    <tr>
-        <td class="blank"> </td>
-        <th><img src='img/aws-logo128x128.png' alt='icon' /></th>
-        <th><img src='img/Azure128x128.png' alt='icon' /></th>
-        <th><img src='img/Google-CloudPlatform128x128.png' alt='icon' /></th>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Compute</td>
-    </tr>
-    <tr>
+            <table id="comparetable" class="blueshine">
+                <tr>
+                    <td class="blank"> </td>
+                    <th><img src='img/aws-logo128x128.png' alt='icon' /></th>
+                    <th><img src='img/Azure128x128.png' alt='icon' /></th>
+                    <th><img src='img/gce.png' height="112" alt='icon' /></th>
+                </tr>
+
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1>Compute</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Virtual Compute</td>
+                    <td><img src='img/cloudproviders/aws/Compute_AmazonEC2.png' alt='icon' class="img-icon" />Amazon EC2</td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Virtual
+                        Machines Azure Virtual Machine ScaleSets</td>
+                    <td><img src='img/cloudproviders/gcp/Compute-Engine.png' alt='icon' class="img-icon" />Compute Engine
+                        <div class="arrow"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">
+                        <table class="table">
+                            <tr>
+                                <td>Supports Linux</td>
+                            </tr>
+                            <tr>
+                                <td>Supports Windows</td>
+                            </tr>
+                            <tr>
+                                <td>SLA</td>
+                            </tr>
+                            <tr>
+                                <td>Pricing</td>
+                            </tr>
+                            <tr>
+                                <td>OnDemand</td>
+                            </tr>
+                            <tr>
+                                <td>Supported Storage Upto</td>
+                            </tr>
+                            <tr>
+                                <td>Predefined Images</td>
+                            </tr>
+                            <tr>
+                                <td>Custom Images</td>
+                            </tr>
+                            <tr>
+                                <td>Support for Virtual Networking</td>
+                            </tr>
+                            <tr>
+                                <td>Compute Reserve</td>
+                            </tr>
+                            <tr>
+                                <td>Spot Compute</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="odd">
+
+                        <table class="table">
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✗</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                    <td>
+                        <table class="table">
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✗</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                    <td>
+                        <table class="table">
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✗</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="rowTitle">Container Registration Service</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon EC2 Container Registry(Preview)</td>
+                    <td><img src='img/cloudproviders/Azure/Microsoft Azure.png' alt='icon' class="img-icon" />Azure Container
+                        Registry
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Container-Registry.png' alt='icon' class="img-icon" />Container Registry</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Container Registration Service</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon EC2 Container Registry(Preview)</td>
+                    <td><img src='img/cloudproviders/Azure/Microsoft Azure.png' alt='icon' class="img-icon" />Azure Container
+                        Registry
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Container-Registry.png' alt='icon' class="img-icon" />Container Registry</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Container Management Service</td>
+                    <td><img src='img/cloudproviders/aws/Compute_AmazonECS.png' alt='icon' class="img-icon" />Amazon EC2 Container
+                        Service
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Container Service.png' alt='icon' class="img-icon" />Azure Container
+                        Service
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Container-Engine.png' alt='icon' class="img-icon" />Container Engine</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Container Management Service</td>
+                    <td><img src='img/cloudproviders/aws/Compute_AmazonECS.png' alt='icon' class="img-icon" />Amazon EC2 Container
+                        Service
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Container Service.png' alt='icon' class="img-icon" />Azure Container
+                        Service
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Container-Engine.png' alt='icon' class="img-icon" />Container Engine</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Micro Services App Development Platform</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/cloudproviders/azure/Azure Service Fabric.png' alt='icon' class="img-icon" />Azure Service
+                        Fabric
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Micro Services App Development Platform</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/cloudproviders/azure/Azure Service Fabric.png' alt='icon' class="img-icon" />Azure Service
+                        Fabric
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Virtual Private Servers</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon Lightsail</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Virtual Private Servers</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon Lightsail</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <!--<tr>
         <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/aws/Compute_AmazonEC2.png' alt='icon' class="img-icon" />Amazon EC2</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Virtual Machines Azure Virtual Machine ScaleSets</td>
-        <td><img src='img/cloudproviders/gcp/Compute-Engine.png' alt='icon'  class="img-icon"/>Compute Engine</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon EC2 Container Registry</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Container Registry</td>
-        <td><img src='img/cloudproviders/gcp/Container-Registry.png' alt='icon' class="img-icon" />Container Registry</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon EC2 Container Service</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Container Service</td>
-        <td><img src='img/cloudproviders/gcp/Container-Engine.png' alt='icon' class="img-icon" />Container Engine</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Service Fabric</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Lightsail</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon VPC</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Vnet</td>
+        <td><img src='img/cloudproviders/aws/Networking_AmazonVPC.png' alt='icon' class="img-icon" />Amazon VPC</td>
+        <td><img src='img/cloudproviders/azure/Azure Virtual Network.png' alt='icon' class="img-icon" />Azure VNet</td>
         <td><img src='img/cloudproviders/gcp/Cloud-Virtual-Network.png' alt='icon' class="img-icon" />Cloud Network</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Batch</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Batch</td>
+    </tr>-->
+                <tr>
+                    <td class="rowTitle">Batch Jobs</td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Batch</td>
+                    <td><img src='img/cloudproviders/azure/Azure Batch.png' alt='icon' class="img-icon" />Azure Batch</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">App DEvelopment/Deployment (Java/.Net/PHP/Python)</td>
+                    <td><img src='img/cloudproviders/aws/Compute_AWSElasticBeanstalk_application.png' alt='icon' class="img-icon"
+                        />AWS Elastic Beanstalk</td>
+                    <td>
+                        <ul>
+                            <li><img src='img/cloudproviders/azure/Azure App Service - Web App (was Websites).png' alt='icon'
+                                    class="img-icon" />Azure Web Apps</li>
+                            <li><img src='img/cloudproviders/azure/Azure Cloud Services - Web roles.png' alt='icon' class="img-icon"
+                                />Azure Cloud Services</li>
+                        </ul>
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/App-Engine.png' alt='icon' class="img-icon" />App Engine</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Event Driven Computing</td>
+                    <td><img src='img/cloudproviders/aws/Compute_AWSLambda.png' alt='icon' class="img-icon" />AWS Lambda</td>
+                    <td>
+                        <ul>
+                            <li><img src='img/cloudproviders/azure/Azure Functions.png' alt='icon' class="img-icon" />Azure Functions</li>
+                            <li><img src='img/cloudproviders/azure/Azure WebApp - WebJobs.png' alt='icon' class="img-icon" />Azure
+                                Web Jobs
+                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure App Service - Logic App.png' alt='icon' class="img-icon"
+                                />Logic Apps
+                            </li>
+                        </ul>
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-Functions.png' alt='icon' class="img-icon" />Cloud Functions</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Cloud Auto Scaling</td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Auto Scaling</td>
+                    <td>
+                        <ul>
+                            <li><img src='img/cloudproviders/azure/Azure Compute - Autoscaling.png' alt='icon' class="img-icon"
+                                />Azure Auto Scale</li>
+                            <li><img src='img/cloudproviders/azure/Azure VM Scale Set.png' alt='icon' class="img-icon" />VM Scale
+                                Sets
+                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />App
+                                Service AutoScaling
+                            </li>
+                        </ul>
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <!--<tr>
+        <td class="rowTitle">Cloud Load Balancing</td>
+        <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Elastic Load Balancing</td>
+        <td><img src='img/cloudproviders/azure/Azure load balancer (automatic).png' alt='icon' class="img-icon" />Azure Load Balancer</td>
+        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+    </tr>-->
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1>Storage</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Object Storage</td>
+                    <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AmazonS3_bucket.png' alt='icon' class="img-icon"
+                        />Amazon Simple Storage Service (S3)</td>
+                    <td><img src='img/cloudproviders/azure/Azure Storage - Blob.png' alt='icon' class="img-icon" />Azure Blob
+                        Storage
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-Storage.png' alt='icon' class="img-icon" />Cloud Storage</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Virtual Machine Disk Storage</td>
+                    <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AmazonEBS.png' alt='icon' class="img-icon"
+                        />Amazon Elastic Block Storage (EBS)</td>
+                    <td><img src='img/cloudproviders/azure/VHD data disk.png' alt='icon' class="img-icon" />Azure Page Blobs
+                        Premium Storage
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Persistent-Disk.png' alt='icon' class="img-icon" />Persistent Disk</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">File Storage (SMB Compatible)</td>
+                    <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AmazonEFS.png' alt='icon' class="img-icon"
+                        />Amazon Elastic File System (EFS)</td>
+                    <td><img src='img/cloudproviders/azure/Azure Storage - Files.png' alt='icon' class="img-icon" />Azure File
+                        Storage
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Long Term Cold Storage</td>
+                    <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AmazonGlacier.png' alt='icon' class="img-icon"
+                        />Amazon Glacier
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Storage.png' alt='icon' class="img-icon" />Azure Cool Storage</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Hybrid Storage</td>
+                    <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AWSStorageGateway.png' alt='icon' class="img-icon"
+                        />AWS Storage Gateway</td>
+                    <td><img src='img/cloudproviders/azure/Azure StorSimple.png' alt='icon' class="img-icon" />Azure Storsimple</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <!--<tr>
+        <td class="rowTitle">Large Scale Data Transfer Solution(Petabyte Scale)</td>
+        <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AWSImportExportSnowball.png' alt='icon' class="img-icon" />AWS Snowball</td>
+        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
         <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
     </tr>
     <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Elastic Beanstalk</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Web Apps Azure Cloud Services</td>
-        <td><img src='img/cloudproviders/gcp/App-Engine.png' alt='icon' class="img-icon" />App Engine</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Lambda</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Functions Azure Web Jobs Logic Apps</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-Functions.png' alt='icon' class="img-icon" />Cloud Functions</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Auto Scaling</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Auto Scale VM Scale Sets App Service AutoScaling</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Elastic Load Balancing</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Load Balancer</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Storage</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Simple Storage Service (S3)</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Blob Storage</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-Storage.png' alt='icon' class="img-icon" />Cloud Storage</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Elastic Block Storage (EBS)</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Page Blobs Premium Storage</td>
-        <td><img src='img/cloudproviders/gcp/Persistent-Disk.png' alt='icon' class="img-icon" />Persistent Disk</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Elastic File System (EFS)</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure File Storage</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Glacier</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Cool Storage</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Storage Gateway</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Storsimple</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Snowball</td>
+        <td class="rowTitle">Large Scale Data Transfer Solution(Terabyte Scale)</td>
+        <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AWSImportExportSnowball.png' alt='icon' class="img-icon" />AWS Snowball Edge</td>
         <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
         <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
     </tr>
     <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Snowball Edge</td>
-        <td><img src='img/cloudproviders/aws/Azure Virtual Machine.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Snowmobile</td>
+        <td class="rowTitle">Large Scale Data Transfer Solution(Exabyte Scale)</td>
+        <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AWSImportExportSnowball.png' alt='icon' class="img-icon" />AWS Snowmobile</td>
         <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
         <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Database</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Aurora</td>
-        <td><img src='img/cloudproviders/aws/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure SQL Database</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-SQL.png' alt='icon' class="img-icon" />Cloud SQL</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon RDS</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure SQL Database</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-SQL.png' alt='icon' class="img-icon" />Cloud SQL</td>
-    </tr>
-   <tr>
-    <td class="rowTitle"></td>
-    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon DynamoDB</td>
-    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure DocumentDB</td>
-    <td>
+    </tr>-->
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1>Database</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Relational Database Management Service</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon Aurora</td>
+                    <td><img src='img/cloudproviders/azure/Azure SQL Database.png' alt='icon' class="img-icon" />Azure SQL Database</td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-SQL.png' alt='icon' class="img-icon" />Cloud SQL</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Relational Database Management Service</td>
+                    <td><img src='img/cloudproviders/aws/Database_AmazonRDS.png' alt='icon' class="img-icon" />Amazon RDS</td>
+                    <td><img src='img/cloudproviders/azure/Azure SQL Database.png' alt='icon' class="img-icon" />Azure SQL Database</td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-SQL.png' alt='icon' class="img-icon" />Cloud SQL</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Non Relational Database Management Service</td>
+                    <td><img src='img/cloudproviders/aws/Database_AmazonDynamoDB.png' alt='icon' class="img-icon" />Amazon DynamoDB</td>
+                    <td><img src='img/cloudproviders/azure/Azure DocumentDB.png' alt='icon' class="img-icon" />Azure DocumentDB</td>
+                    <td>
 
-        <ul>
-            <li><img src='img/cloudproviders/gcp/Cloud-Bigtable.png' alt='icon' class="img-icon" />Cloud Datastore</li>
-            <li><img src='img/cloudproviders/gcp/Cloud-Bigtable.png' alt='icon' class="img-icon" />Cloud BigTable</li>
-        </ul>
-    </td>
-</tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon ElastiCache</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure RedisCache</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Redshift</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure SQL Datawarehouse</td>
-        <td><img src='img/cloudproviders/gcp/BigQuery.png' alt='icon' class="img-icon" />BigQuery</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
+                        <ul class="only">
+                            <li><img src='img/cloudproviders/gcp/Cloud-Bigtable.png' alt='icon' class="img-icon" />Cloud Datastore</li>
+                            <li><img src='img/cloudproviders/gcp/Cloud-Bigtable.png' alt='icon' class="img-icon" />Cloud BigTable</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">In-Memory Data Store</td>
+                    <td><img src='img/cloudproviders/aws/Database_AmazonElasticCache.png' alt='icon' class="img-icon" />Amazon
+                        ElastiCache
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Cache including Redis.png' alt='icon' class="img-icon" />Azure
+                        RedisCache
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Data Warehousing</td>
+                    <td><img src='img/cloudproviders/aws/Database_AmazonRedshift.png' alt='icon' class="img-icon" />Amazon Redshift</td>
+                    <td><img src='img/cloudproviders/azure/Azure Data Warehouse.png' alt='icon' class="img-icon" />Azure SQL
+                        Datawarehouse
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/BigQuery.png' alt='icon' class="img-icon" />BigQuery</td>
+                </tr>
+                <!--<tr>
+        <td class="rowTitle">Database Migration Services</td>
         <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Database Migration Service</td>
         <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
         <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Migration</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Database Migration Service</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Server Migration Service</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Snowball</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Snowball Edge</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Snowmobile</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Networking & Content Delivery</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon VPC</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure VNet</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-Virtual-Network.png' alt='icon' class="img-icon" />Cloud Virtual Network</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon CloudFront</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure CDN</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-CDN.png' alt='icon' class="img-icon" />Cloud CDN</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Route 53</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure DNS Azure Traffic Manager</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-DNS.png' alt='icon' class="img-icon" />Cloud DNS</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Direct Connect</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Express Route</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-Interconnect.png' alt='icon' class="img-icon" />Cloud InterConnect</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Elastic Load Balancing</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Load Balancer</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-Load-Balancing.png' alt='icon' class="img-icon" />Cloud Load Balancing</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Developer Tools</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS CodeCommit</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Visual Studio Team Services</td>
-        <td><img src='img/cloudproviders/gcp/Blue-Hexagon.png' alt='icon' class="img-icon" />Cloud Source Repositories (Preview)</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS CodeBuild</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Visual Studio Team Services</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS CodeDeploy</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Visual Studio Team Services</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS CodePipeline</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Visual Studio Team Services</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS X-Ray (Preview)</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Application Insights</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Command Line Interface</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Command Line Interface</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS SDK</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure SDK Visual Studio</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Cloud SDK Cloud Tools for IntelliJ Cloud Tools for Android Studio Clooooud Tools for Powershell Google Plugin for
-            Eclipse
-        </td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Management Tools</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon CloudWatch</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Log Analytics Azure portal Application Insights</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon EC2 Systems Manager</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Operational Insights</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS CloudFormation</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Resource Manager</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Cloud Resource Manager Deployment Manager</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS CloudTrail</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Log Analytics Azure portal Application Insights</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />
-        <ul>
-  <li><img src='img/cloudproviders/gcp/Stackdriver.png' alt='icon' class="img-icon" />Google StackDriver</li>
-  <li><img src='img/cloudproviders/gcp/Monitoring.png' alt='icon' class="img-icon" />Monitoring</li>
-  <li><img src='img/cloudproviders/gcp/Logging.png' alt='icon' class="img-icon" />Logging</li>
-   <li><img src='img/cloudproviders/gcp/Error-Reporting.png' alt='icon' class="img-icon" />Error Reporting</li>
-    <li><img src='img/cloudproviders/gcp/Trace.png' alt='icon' class="img-icon" />Trace</li>
-    <li><img src='img/cloudproviders/gcp/Debugger.png' alt='icon' class="img-icon" />Debugger</li>
-</ul>
-        </td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Config</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure portal (audit logs)</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Cloud Security Scanner</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS OpsWorks</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Resource Manager Azure Automation VM Extentions</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Service Catalog</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Trusted Advisor</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Advisor (Preview)</td>
-        <td><img src='img/cloudproviders/gcp/Blue-Hexagon.png' alt='icon' class="img-icon" />Google Cloud Platform Security</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Personal Health Dashboard</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Command Line Interface</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Command Line Interface Azure Powershell</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Management Console</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Management Console</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Cloud Shell Cloud Console Billing API Cloud APIs</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Managed Services</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Security & Identity, Compliance</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Identity and Access Management (IAM)</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Active Directory</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-IAM.png' alt='icon' class="img-icon" />Cloud IAM</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Inspector</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Security Center</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Certificate Manager</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />App Service Certificate</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS CloudHSM</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure KeyVault</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Directory Service</td>
-        <td>
-        <ul>
-  <li><img src='img/cloudproviders/azure/Azure Active Directory.png' alt='icon' class="img-icon" />Azure Active Directory</li>
-  <li><img src='img/cloudproviders/azure/Azure Active Directory.png' alt='icon' class="img-icon" />Azure Active Directory B2C</li>
-  <li><img src='img/cloudproviders/azure/Azure Active Directory.png' alt='icon' class="img-icon" />Azure Active Directory Domain Services</li>
-</ul>
-          </td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Key Management Service</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure KeyVault</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Organizations</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Shield</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS WAF</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure WAF (Preview)</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Artifact</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Security & Compliance</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Analytics</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Athena</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Data Lake Analytics</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon EMR</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure HDInsight</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-Dataproc.png' alt='icon' class="img-icon" />Cloud DataProc</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon CloudSearch</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Search</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Elasticsearch Service</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Search</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Kinesis</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Stream Analytics</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-Dataflow.png' alt='icon' class="img-icon" />Cloud Dataflow</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Redshift</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure SQL Datawarehouse</td>
-        <td><img src='img/cloudproviders/gcp/BigQuery.png' alt='icon' class="img-icon" />Big Query</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon QuickSight</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />PowerBI</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Data Pipeline</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Data Factory</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Glue</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Data Catalog</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Artificial Intelligence</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Lex</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Speech Recognition API(Preview)</td>
-        <td><img src='img/cloudproviders/gcp/Natural-Language-API.png' alt='icon' class="img-icon" />Natural Language API</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Polly</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Bing Speech API (Preview)</td>
-        <td><img src='img/cloudproviders/gcp/Speech-API.png' alt='icon' class="img-icon" />Speech API Translation API</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Rekognition</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Emotion API Face API Computer Vision API</td>
-        <td><img src='img/cloudproviders/gcp/Vision-API.png' alt='icon' class="img-icon" />Vision API</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Machine Learning</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Machine Learning</td>
-        <td>
-        <ul>
-            <li><img src='img/cloudproviders/gcp/Cloud-Datalab.png' alt='icon' class="img-icon" />Cloud DataLab (Preview) </li>
-            <li><img src='img/cloudproviders/gcp/Cloud-Machine-Learning.png' alt='icon' class="img-icon" />Cloud Machine Learning Services (Preview)</li>
-            </ul>       
-        </td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Mobile Services</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Mobile Hub</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Mobile Apps</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Cloud Mobile App</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon API Gateway</td>
-        <td><img src='img/cloudproviders/azure/Azure API Management.png' alt='icon' class="img-icon" />Azure API Management</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-Endpoints.png' alt='icon' class="img-icon" />Cloud Endpoints</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Cognito</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Mobile SDK Offline/Sync</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Pinpoint</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Mobile Engagement</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Device Farm</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Xamarin Test Cloud (Front End) Azure DevTest Labs (Back End)</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Mobile SDK</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Mobile SDK</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Application Services</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Step Functions</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Microsoft Flow Azure Logic Apps Azure Functions Azure App Service WebJobs</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon API Gateway</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure API Management</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Elastic Transcoder</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Media Services Live On Demand Streaming Azure Media Player Content Protection Media Analytics</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon AppStream</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure RemoteApp</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Messaging</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Notification Hubs</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon SQS</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Queue Storage Service Bus queues Service Bus topics Service Bus relay</td>
-        <td><img src='img/cloudproviders/gcp/Cloud-PubSub.png' alt='icon' class="img-icon" />Cloud Pub/Sub</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Pinpoint</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Mobile Engagement</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon SES</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon SNS</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Nontication Services</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Business Productivity</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon WorkDocs</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Microsoft Office 365</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Gsuite</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon WorkMail</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Microsoft Office 365</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Gsuite</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Desktop & App Streaming</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure RemoteApp</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon WorkSpaces</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Microsoft Office 365</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Gsuite</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon AppStream 2.0</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure RemoteApp</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Software</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Marketplace</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure MarketPlace</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Internet of Things</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS IoT Platform</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure IoT</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Greengrass</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure IoT SDK</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS IoT Button</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Game Development</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Lumberyard</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Visual Studio</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
-    </tr>
-    <tr>
-        <td class="rowTitle" colspan="4">Development & Testing</td>
-    </tr>
-    <tr>
-        <td class="rowTitle"></td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />AWS Dev/Test</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Dev/Test Lab</td>
-        <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Cloud Test Lab</td>
-    </tr>
-</table>
-                   
-                </div>
-            </div>
-            <!-- /.col-lg-10 -->
+    </tr>-->
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1>Migration Services</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Database Migration Services</td>
+                    <td><img src='img/cloudproviders/aws/Database_AWSDatabaseMigrationService.png' alt='icon' class="img-icon"
+                        />AWS Database Migration Service</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Server Migration Services</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Server Migration Service</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Large Scale Data Transfer Solution(Petabyte Scale)</td>
+                    <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AWSImportExportSnowball.png' alt='icon' class="img-icon"
+                        />AWS Snowball</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Large Scale Data Transfer Solution(Terabyte Scale)</td>
+                    <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AWSImportExportSnowball.png' alt='icon' class="img-icon"
+                        />AWS Snowball Edge</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Large Scale Data Transfer Solution(Exabyte Scale)</td>
+                    <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AWSImportExportSnowball.png' alt='icon' class="img-icon"
+                        />AWS Snowmobile</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1> Networking & Content Delivery</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Virtual Networking</td>
+                    <td><img src='img/cloudproviders/aws/Networking_AmazonVPC.png' alt='icon' class="img-icon" />Amazon VPC</td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Network.png' alt='icon' class="img-icon" />Azure VNet</td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-Virtual-Network.png' alt='icon' class="img-icon" />Cloud Virtual
+                        Network
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Content Delivery Network</td>
+                    <td><img src='img/cloudproviders/aws/Storage-Content-Delivery_AmazonCloudFront.png' alt='icon' class="img-icon"
+                        />Amazon CloudFront
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Content Delivery Network (CDN).png' alt='icon' class="img-icon"
+                        />Azure CDN
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-CDN.png' alt='icon' class="img-icon" />Cloud CDN</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">DNS</td>
+                    <td><img src='img/cloudproviders/aws/Networking_AmazonRoute53.png' alt='icon' class="img-icon" />Amazon Route
+                        53
+                    </td>
+                    <td>
+                        <ul>
+                            <li><img src='img/cloudproviders/azure/Azure DNS.png' alt='icon' class="img-icon" />Azure DNS Azure</li>
+                            <li><img src='img/cloudproviders/azure/Azure Traffic Manager.png' alt='icon' class="img-icon" />Traffic
+                                Manager
+                            </li>
+                        </ul>
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-DNS.png' alt='icon' class="img-icon" />Cloud DNS</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Private Connectivity</td>
+                    <td><img src='img/cloudproviders/aws/Networking_AWSDirectConnect.png' alt='icon' class="img-icon" />AWS Direct
+                        Connect
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure ExpressRoute.png' alt='icon' class="img-icon" />Azure Express
+                        Route
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-Interconnect.png' alt='icon' class="img-icon" />Cloud InterConnect</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Load Balancers</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Elastic Load Balancing</td>
+                    <td><img src='img/cloudproviders/azure/Azure load balancer (automatic).png' alt='icon' class="img-icon" />Azure
+                        Load Balancer
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-Load-Balancing.png' alt='icon' class="img-icon" />Cloud Load Balancing</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1> Developer Tools </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Developer-Tools_AWSCodeCommit.png' alt='icon' class="img-icon" />AWS
+                        CodeCommit
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Visual Studio Team Services.png' alt='icon' class="img-icon" />Visual
+                        Studio Team Services</td>
+                    <td><img src='img/cloudproviders/gcp/Blue-Hexagon.png' alt='icon' class="img-icon" />Cloud Source Repositories
+                        (Preview)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS CodeBuild</td>
+                    <td><img src='img/cloudproviders/azure/Visual Studio Team Services.png' alt='icon' class="img-icon" />Visual
+                        Studio Team Services</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Developer-Tools_AWSCodeDeploy.png' alt='icon' class="img-icon" />AWS
+                        CodeDeploy
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Visual Studio Team Services.png' alt='icon' class="img-icon" />Visual
+                        Studio Team Services</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Developer-Tools_AWSCodePipeline.png' alt='icon' class="img-icon" />AWS
+                        CodePipeline
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Visual Studio Team Services.png' alt='icon' class="img-icon" />Visual
+                        Studio Team Services</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS X-Ray (Preview)</td>
+                    <td><img src='img/cloudproviders/azure/Azure Application Insights.png' alt='icon' class="img-icon" />Application
+                        Insights
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/SDKs_AWSCLI.png' alt='icon' class="img-icon" />AWS Command Line Interface</td>
+                    <td><img src='img/cloudproviders/azure/Microsoft Azure.png' alt='icon' class="img-icon" />Azure Command Line
+                        Interface
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/SDKs_Python.png' alt='icon' class="img-icon" />AWS SDK</td>
+                    <td><img src='img/cloudproviders/azure/Azure SDK.png' alt='icon' class="img-icon" />Azure SDK Visual Studio</td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Cloud SDK
+                        Cloud Tools for IntelliJ Cloud Tools for Android Studio Clooooud Tools for Powershell Google Plugin
+                        for Eclipse
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1> Management Tools</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Management-Tools_AmazonCloudWatch.png' alt='icon' class="img-icon" />Amazon
+                        CloudWatch
+                    </td>
+                    <td>
+
+                        <ul>
+                            <li><img src='img/cloudproviders/azure/OMS Log Analytics.png' alt='icon' class="img-icon" />Log Analytics</li>
+                            <li><img src='img/cloudproviders/azure/Azure Management Portal.png' alt='icon' class="img-icon" />Azure
+                                portal
+                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure Application Insights.png' alt='icon' class="img-icon"
+                                />Application Insights
+                            </li>
+                        </ul>
+
+
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon EC2 Systems Manager</td>
+                    <td><img src='img/cloudproviders/azure/Operations Management Suite (OMS).png' alt='icon' class="img-icon"
+                        />Azure Operational Insights</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Management-Tools_AWSCloudFormation.png' alt='icon' class="img-icon"
+                        />AWS CloudFormation</td>
+                    <td><img src='img/cloudproviders/azure/Resource Group.png' alt='icon' class="img-icon" />Azure Resource Manager</td>
+                    <td><img src='img/cloudproviders/gcp/Blue-Hexagon.png' alt='icon' class="img-icon" />Cloud Resource Manager/Deployment
+                        Manager
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Management-Tools_AWSCloudTrail.png' alt='icon' class="img-icon" />AWS
+                        CloudTrail
+                    </td>
+                    <td>
+
+                        <ul>
+                            <li><img src='img/cloudproviders/azure/OMS Log Analytics.png' alt='icon' class="img-icon" />Log Analytics</li>
+                            <li><img src='img/cloudproviders/azure/Azure Management Portal.png' alt='icon' class="img-icon" />Azure
+                                portal
+                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure Application Insights.png' alt='icon' class="img-icon"
+                                />Application Insights
+                            </li>
+                        </ul>
+
+                    </td>
+                    <td>
+                        <ul>
+                            <li><img src='img/cloudproviders/gcp/Stackdriver.png' alt='icon' class="img-icon" />Google StackDriver</li>
+                            <li><img src='img/cloudproviders/gcp/Monitoring.png' alt='icon' class="img-icon" />Monitoring</li>
+                            <li><img src='img/cloudproviders/gcp/Logging.png' alt='icon' class="img-icon" />Logging</li>
+                            <li><img src='img/cloudproviders/gcp/Error-Reporting.png' alt='icon' class="img-icon" />Error Reporting</li>
+                            <li><img src='img/cloudproviders/gcp/Trace.png' alt='icon' class="img-icon" />Trace</li>
+                            <li><img src='img/cloudproviders/gcp/Debugger.png' alt='icon' class="img-icon" />Debugger</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Management-Tools_AWSConfig.png' alt='icon' class="img-icon" />AWS Config</td>
+                    <td><img src='img/cloudproviders/azure/Azure Management Portal.png' alt='icon' class="img-icon" />Azure portal
+                        (audit logs)
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Blue-Hexagon.png' alt='icon' class="img-icon" />Cloud Security Scanner</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Management-Tools_AWSOpsWorks.png' alt='icon' class="img-icon" />AWS
+                        OpsWorks
+                    </td>
+                    <td>
+
+                        <ul>
+                            <li><img src='img/cloudproviders/azure/Resource Group.png' alt='icon' class="img-icon" />Resource
+                                Manager
+                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure Automation.png' alt='icon' class="img-icon" />Azure
+                                Automation
+                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure VM symbol only.png' alt='icon' class="img-icon" />VM
+                                Extentions
+                            </li>
+                        </ul>
+
+
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Management-Tools_AWSServiceCatalog.png' alt='icon' class="img-icon"
+                        />AWS Service Catalog
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Management-Tools_AWSTrustedAdvisor.png' alt='icon' class="img-icon"
+                        />AWS Trusted Advisor
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Security Center.png' alt='icon' class="img-icon" />Azure Advisor
+                        (Preview)
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Blue-Hexagon.png' alt='icon' class="img-icon" />Google Cloud Platform
+                        Security
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Personal Health Dashboard</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/SDKs_AWSCLI.png' alt='icon' class="img-icon" />AWS Command Line Interface</td>
+                    <td><img src='img/cloudproviders/azure/Microsoft Azure.png' alt='icon' class="img-icon" />Azure Command Line
+                        Interface Azure Powershell</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Management Console</td>
+                    <td><img src='img/cloudproviders/azure/Azure Management Portal.png' alt='icon' class="img-icon" />Azure Management
+                        Console
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Blue-Hexagon.png' alt='icon' class="img-icon" />Cloud Shell/Cloud Console/Billing
+                        API/Cloud APIs</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Managed Services</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1> Security & Identity, Compliance</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Security-Identity_AWSIAM.png' alt='icon' class="img-icon" />AWS Identity
+                        and Access Management (IAM)</td>
+                    <td><img src='img/cloudproviders/azure/Azure Active Directory.png' alt='icon' class="img-icon" />Azure Active
+                        Directory
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-IAM.png' alt='icon' class="img-icon" />Cloud IAM</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Security-Identity_AmazonInspector.png' alt='icon' class="img-icon" />Amazon
+                        Inspector
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Security Center.png' alt='icon' class="img-icon" />Azure Security
+                        Center
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Security-Identity_ACM_certificate-manager.png' alt='icon' class="img-icon"
+                        />AWS Certificate Manager</td>
+                    <td><img src='img/cloudproviders/azure/Azure App Service.png' alt='icon' class="img-icon" />App Service Certificate</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Security-Identity_AWSCloudHSM.png' alt='icon' class="img-icon" />AWS
+                        CloudHSM
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Key Vault.png' alt='icon' class="img-icon" />Azure KeyVault</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Security-Identity_AWSDirectoryService.png' alt='icon' class="img-icon"
+                        />AWS Directory Service</td>
+                    <td>
+                        <ul>
+                            <li><img src='img/cloudproviders/azure/Azure Active Directory.png' alt='icon' class="img-icon" />Azure
+                                Active Directory
+                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure Active Directory.png' alt='icon' class="img-icon" />Azure
+                                Active Directory B2C</li>
+                            <li><img src='img/cloudproviders/azure/Azure Active Directory.png' alt='icon' class="img-icon" />Azure
+                                Active Directory Domain Services</li>
+                        </ul>
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Security-Identity_AWSKMS.png' alt='icon' class="img-icon" />AWS Key
+                        Management Service
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure KeyVault</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Organizations</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Shield</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Security-Identity_AWSWAF.png' alt='icon' class="img-icon" />AWS WAF</td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure WAF
+                        (Preview)
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Artifact</td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Azure Security
+                        & Compliance
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1> Big Data & Advanced Analytics </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon Athena</td>
+                    <td><img src='img/cloudproviders/azure/Azure Data Lake Analytics.png' alt='icon' class="img-icon" />Azure
+                        Data Lake Analytics
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Analytics_AmazonEMR.png' alt='icon' class="img-icon" />Amazon EMR</td>
+                    <td><img src='img/cloudproviders/azure/Azure HDInsight.png' alt='icon' class="img-icon" />Azure HDInsight</td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-Dataproc.png' alt='icon' class="img-icon" />Cloud DataProc</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Application-Services_AmazonCloudSearch.png' alt='icon' class="img-icon"
+                        />Amazon CloudSearch
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Search.png' alt='icon' class="img-icon" />Azure Search</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Application-Services_AmazonCloudSearch.png' alt='icon' class="img-icon"
+                        />Amazon Elasticsearch Service</td>
+                    <td><img src='img/cloudproviders/azure/Azure Search.png' alt='icon' class="img-icon" />Azure Search</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Analytics_AmazonKinesis.png' alt='icon' class="img-icon" />Amazon Kinesis</td>
+                    <td><img src='img/cloudproviders/azure/Azure Stream Analytics.png' alt='icon' class="img-icon" />Azure Stream
+                        Analytics
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-Dataflow.png' alt='icon' class="img-icon" />Cloud Dataflow</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Database_AmazonRedshift.png' alt='icon' class="img-icon" />Amazon Redshift</td>
+                    <td><img src='img/cloudproviders/azure/Azure Data Warehouse.png' alt='icon' class="img-icon" />Azure SQL
+                        Datawarehouse
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/BigQuery.png' alt='icon' class="img-icon" />Big Query</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Analytics_AmazonQuickSight.png' alt='icon' class="img-icon" />Amazon
+                        QuickSight
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Power BI Embedded.png' alt='icon' class="img-icon" />PowerBI</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Analytics_AWSDataPipeline.png' alt='icon' class="img-icon" />AWS Data
+                        Pipeline
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Data Factory.png' alt='icon' class="img-icon" />Azure Data Factory</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Glue</td>
+                    <td><img src='img/cloudproviders/azure/Azure Data Catalog.png' alt='icon' class="img-icon" />Azure Data Catalog</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1> Artificial Intelligence</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon Lex</td>
+                    <td><img src='img/cloudproviders/azure/Azure Cognative Services - Speech_COLOR.png' alt='icon' class="img-icon"
+                        />Azure Speech Recognition API(Preview)</td>
+                    <td><img src='img/cloudproviders/gcp/Natural-Language-API.png' alt='icon' class="img-icon" />Natural Language
+                        API
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon Polly</td>
+                    <td><img src='img/cloudproviders/azure/Azure Cognative Services - Speech_COLOR.png' alt='icon' class="img-icon"
+                        />Bing Speech API (Preview)</td>
+                    <td><img src='img/cloudproviders/gcp/Speech-API.png' alt='icon' class="img-icon" />Speech API Translation
+                        API
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon Rekognition</td>
+                    <td><img src='img/cloudproviders/azure/Azure Cognative Services - emotion_COLOR.png' alt='icon' class="img-icon"
+                        />Emotion API Face API Computer Vision API</td>
+                    <td><img src='img/cloudproviders/gcp/Vision-API.png' alt='icon' class="img-icon" />Vision API</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Amazon Machine
+                        Learning
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Machine Learning.png' alt='icon' class="img-icon" />Azure Machine
+                        Learning
+                    </td>
+                    <td>
+                        <ul>
+                            <li><img src='img/cloudproviders/gcp/Cloud-Datalab.png' alt='icon' class="img-icon" />Cloud DataLab
+                                (Preview)
+                            </li>
+                            <li><img src='img/cloudproviders/gcp/Cloud-Machine-Learning.png' alt='icon' class="img-icon" />Cloud
+                                Machine Learning Services (Preview)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1>Mobile Services</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Mobile-Services_AWSMobileHub.png' alt='icon' class="img-icon" />AWS
+                        Mobile Hub</td>
+                    <td><img src='img/cloudproviders/azure/Azure App Service - Mobile App (was Mobile Services).png' alt='icon'
+                            class="img-icon" />Azure Mobile Apps</td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Cloud Mobile
+                        App
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Application-Services_AmazonAPIGateway.png' alt='icon' class="img-icon"
+                        />Amazon API Gateway</td>
+                    <td><img src='img/cloudproviders/azure/Azure API Management.png' alt='icon' class="img-icon" />Azure API
+                        Management
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-Endpoints.png' alt='icon' class="img-icon" />Cloud Endpoints</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Mobile-Services_AmazonCognito.png' alt='icon' class="img-icon" />Amazon
+                        Cognito
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure SDK.png' alt='icon' class="img-icon" />Azure Mobile SDK,Offline/Sync</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon Pinpoint</td>
+                    <td><img src='img/cloudproviders/azure/Azure Mobile Engagement.png' alt='icon' class="img-icon" />Azure Mobile
+                        Engagement
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/Mobile-Services_AWSDeviceFarm.png' alt='icon' class="img-icon" />AWS
+                        Device Farm
+                    </td>
+                    <td>
+
+                        <ul>
+                            <li><img src='img/cloudproviders/azure/Xamarin.png' alt='icon' class="img-icon" />Xamarin Test Cloud
+                                (Front End)
+                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure DevTest Labs.png' alt='icon' class="img-icon" />Azure
+                                DevTest Labs (Back End)</li>
+                        </ul>
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle"></td>
+                    <td><img src='img/cloudproviders/aws/SDKs_Android.png' alt='icon' class="img-icon" />AWS Mobile SDK</td>
+                    <td><img src='img/cloudproviders/azure/Azure SDK.png' alt='icon' class="img-icon" />Azure Mobile SDK</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">
+                        <h1>Application Services</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Event Driven Programming</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Step Functions</td>
+                    <td>
+
+                        <ul>
+                            <li><img src='img/cloudproviders/azure/Microsoft Flow.png' alt='icon' class="img-icon" />Microsoft
+                                Flow
+                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure App Service - Logic App.png' alt='icon' class="img-icon"
+                                />Azure Logic Apps</li>
+                            <li><img src='img/cloudproviders/azure/Azure Functions.png' alt='icon' class="img-icon" />Azure Functions</li>
+                            <li><img src='img/cloudproviders/azure/Azure WebApp - WebJobs.png' alt='icon' class="img-icon" />Azure
+                                App Service WebJobs</li>
+                        </ul>
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">API Management Service</td>
+                    <td><img src='img/cloudproviders/aws/Application-Services_AmazonAPIGateway.png' alt='icon' class="img-icon"
+                        />Amazon API Gateway</td>
+                    <td><img src='img/cloudproviders/azure/Azure API Management.png' alt='icon' class="img-icon" />Azure API
+                        Management
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Media Transcoders</td>
+                    <td><img src='img/cloudproviders/aws/Application-Services_AmazonElasticTranscoder.png' alt='icon' class="img-icon"
+                        />Amazon Elastic Transcoder</td>
+                    <td><img src='img/cloudproviders/azure/Azure Media Services.png' alt='icon' class="img-icon" />Azure Media
+                        Services, Live On Demand Streaming Azure Media Player Content Protection Media Analytics</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <!--<tr>
+        <td class="rowTitle"></td>
+        <td><img src='img/cloudproviders/aws/Application-Services_AmazonAppStream.png' alt='icon' class="img-icon" />Amazon AppStream</td>
+        <td><img src='img/cloudproviders/azure/Azure RemoteApp.png' alt='icon' class="img-icon" />Azure RemoteApp</td>
+        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+    </tr>-->
+                <tr>
+                    <td class="rowTitle">Messaging Services</td>
+                    <td><img src='img/cloudproviders/azure/Azure Virtual Machine.png' alt='icon' class="img-icon" />Messaging</td>
+                    <td><img src='img/cloudproviders/azure/Azure Notification Hubs.png' alt='icon' class="img-icon" />Notification
+                        Hubs
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Queuing Services</td>
+                    <td><img src='img/cloudproviders/aws/Application-Services_AmazonSQS.png' alt='icon' class="img-icon" />Amazon
+                        SQS
+                    </td>
+                    <td>
+                        <ul>
+
+                            <li><img src='img/cloudproviders/azure/Azure Service Bus Queues.png' alt='icon' class="img-icon"
+                                />Service Bus queues</li>
+                            <li><img src='img/cloudproviders/azure/Azure Service Bus Queues.png' alt='icon' class="img-icon"
+                                />Queue Storage
+                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure Service Bus Topics.png' alt='icon' class="img-icon"
+                                />Service Bus topics</li>
+                            <li><img src='img/cloudproviders/azure/Azure Service Bus Relay.png' alt='icon' class="img-icon" />Service
+                                Bus relay</li>
+
+                        </ul>
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Cloud-PubSub.png' alt='icon' class="img-icon" />Cloud Pub/Sub</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Mobile Analytics</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />Amazon Pinpoint</td>
+                    <td><img src='img/cloudproviders/azure/Azure Mobile Engagement.png' alt='icon' class="img-icon" />Mobile
+                        Engagement
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Email Services</td>
+                    <td><img src='img/cloudproviders/aws/Application-Services_AmazonSES_email.png' alt='icon' class="img-icon"
+                        />Amazon SES
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Notification Services</td>
+                    <td><img src='img/cloudproviders/aws/Mobile-Services_AmazonSNS.png' alt='icon' class="img-icon" />Amazon
+                        SNS
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure Notification Hubs.png' alt='icon' class="img-icon" />Azure Notification
+                        Services
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">Business Productivity</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Office Document Solutions</td>
+                    <td><img src='img/cloudproviders/aws/Enterprise-Applications_AmazonWorkDocs.png' alt='icon' class="img-icon"
+                        />Amazon WorkDocs
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Office 365.png' alt='icon' class="img-icon" />Microsoft Office 365</td>
+                    <td><img src='img/cloudproviders/gcp/Gsuite.png' alt='icon' class="img-icon" />G Suite</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Webmail Solutions</td>
+                    <td><img src='img/cloudproviders/aws/Enterprise-Applications_AmazonWorkMail.png' alt='icon' class="img-icon"
+                        />Amazon WorkMail
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Office 365.png' alt='icon' class="img-icon" />Microsoft Office 365</td>
+                    <td><img src='img/cloudproviders/gcp/Gsuite.png' alt='icon' class="img-icon" />G suite</td>
+                </tr>
+                <!--<tr>
+        <td class="rowTitle"></td>
+        <td><img src='img/cloudproviders/aws/Application-Services_AmazonAppStream.png' alt='icon' class="img-icon" />Desktop & App Streaming</td>
+        <td><img src='img/cloudproviders/azure/Azure RemoteApp.png' alt='icon' class="img-icon" />Azure RemoteApp</td>
+        <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+    </tr>-->
+                <tr>
+                    <td class="rowTitle">Office Solutions(Web Based)</td>
+                    <td><img src='img/cloudproviders/aws/Enterprise-Applications_AmazonWorkSpaces.png' alt='icon' class="img-icon"
+                        />Amazon WorkSpaces
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Office 365.png' alt='icon' class="img-icon" />Microsoft Office 365</td>
+                    <td><img src='img/cloudproviders/gcp/Gsuite.png' alt='icon' class="img-icon" />G Suite</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Desktop Application Streaming</td>
+                    <td><img src='img/cloudproviders/aws/Application-Services_AmazonAppStream.png' alt='icon' class="img-icon"
+                        />Amazon AppStream 2.0</td>
+                    <td><img src='img/cloudproviders/azure/Azure RemoteApp.png' alt='icon' class="img-icon" />Azure RemoteApp</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">Software</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Cloud Marketplace</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Marketplace</td>
+                    <td><img src='img/cloudproviders/azure/Azure Store_Marketplace.png' alt='icon' class="img-icon" />Azure MarketPlace</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">Internet of Things</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">IoT Platform</td>
+                    <td><img src='img/cloudproviders/aws/Internet-Of-Things_AWSIoT.png' alt='icon' class="img-icon" />AWS IoT
+                        Platform
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Azure IoT Hub.png' alt='icon' class="img-icon" />Azure IoT</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">IoT Development Solutions</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Greengrass</td>
+                    <td><img src='img/cloudproviders/azure/Azure SDK.png' alt='icon' class="img-icon" />Azure IoT SDK</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">IoT Hardware</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS IoT Button</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle" colspan="4">Game Development</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Game Development</td>
+                    <td><img src='img/cloudproviders/aws/Game-Development_AmazonGameLift.png' alt='icon' class="img-icon" />Amazon
+                        Lumberyard
+                    </td>
+                    <td><img src='img/cloudproviders/azure/Visual Studio Team Services.png' alt='icon' class="img-icon" />Visual
+                        Studio
+                    </td>
+                    <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
+                </tr>
+
+                <tr>
+                    <td class="rowTitle" colspan="4">Development & Testing</td>
+                </tr>
+                <tr>
+                    <td class="rowTitle">Development & Testing</td>
+                    <td><img src='img/cloudproviders/aws/aws-icon.png' alt='icon' class="img-icon" />AWS Dev/Test</td>
+                    <td><img src='img/cloudproviders/azure/Azure DevTest Labs.png' alt='icon' class="img-icon" />Azure Dev/Test
+                        Lab
+                    </td>
+                    <td><img src='img/cloudproviders/gcp/Blue-Hexagon.png' alt='icon' class="img-icon" />Cloud Test Lab</td>
+                </tr>
+            </table>
+
         </div>
-        <!-- /.row -->
     </div>
-    <!-- /.container -->
+    <!-- /.col-lg-10 -->
+</div>
+<!-- /.row -->
+</div>
+<!-- /.container -->
 </section>
 
 <!-- Call to Action -->
-<aside class="call-to-action bg-primary">
+<!--<aside class="call-to-action bg-primary">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -842,7 +1341,7 @@
             </div>
         </div>
     </div>
-</aside>
+</aside>-->
 
 
 
@@ -888,77 +1387,108 @@
 
 <!-- Custom Theme JavaScript -->
 <script>
-                                           // Closes the sidebar menu
-                                           $("#menu-close").click(function (e) {
-                                               e.preventDefault();
-                                               $("#sidebar-wrapper").toggleClass("active");
-                                           });
-                                           // Opens the sidebar menu
-                                           $("#menu-toggle").click(function (e) {
-                                               e.preventDefault();
-                                               $("#sidebar-wrapper").toggleClass("active");
-                                           });
-                                           // Scrolls to the selected menu item on the page
-                                           $(function () {
-                                               $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
-                                                   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                                                       var target = $(this.hash);
-                                                       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                                                       if (target.length) {
-                                                           $('html,body').animate({
-                                                               scrollTop: target.offset().top
-                                                           }, 1000);
-                                                           return false;
-                                                       }
-                                                   }
+                               // Search function
+                               var $rows = $('#comparetable tr');
+                               $('#search').keyup(function () {
+                                   var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase().split(' ');
+
+                                   $rows.hide().filter(function () {
+                                       var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+                                       var matchesSearch = true;
+                                       $(val).each(function (index, value) {
+                                           matchesSearch = (!matchesSearch) ? false : ~text.indexOf(value);
+                                       });
+                                       return matchesSearch;
+                                   }).show();
+                               });
+
+                               // Search function
+
+                               //   $(document).ready(function(){
+                               //             $("#comparetable tr:odd").addClass("odd");
+                               //             $("#comparetable tr:not(.odd)").hide();
+                               //             $("#comparetable tr:first-child").show();
+
+                               //             $("#comparetable tr.odd").click(function(){
+                               //                 $(this).next("tr").toggle();
+                               //                 $(this).find(".arrow").toggleClass("up");
+                               //             });
+                               //             //$("#report").jExpand();
+                               //         });
+
+
+
+                               // Closes the sidebar menu
+                               $("#menu-close").click(function (e) {
+                                   e.preventDefault();
+                                   $("#sidebar-wrapper").toggleClass("active");
+                               });
+                               // Opens the sidebar menu
+                               $("#menu-toggle").click(function (e) {
+                                   e.preventDefault();
+                                   $("#sidebar-wrapper").toggleClass("active");
+                               });
+                               // Scrolls to the selected menu item on the page
+                               $(function () {
+                                   $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
+                                       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                                           var target = $(this.hash);
+                                           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                                           if (target.length) {
+                                               $('html,body').animate({
+                                                   scrollTop: target.offset().top
+                                               }, 1000);
+                                               return false;
+                                           }
+                                       }
+                                   });
+                               });
+                               //#to-top button appears after scrolling
+                               var fixed = false;
+                               $(document).scroll(function () {
+                                   if ($(this).scrollTop() > 250) {
+                                       if (!fixed) {
+                                           fixed = true;
+                                           // $('#to-top').css({position:'fixed', display:'block'});
+                                           $('#to-top').show("slow", function () {
+                                               $('#to-top').css({
+                                                   position: 'fixed',
+                                                   display: 'block'
                                                });
                                            });
-                                           //#to-top button appears after scrolling
-                                           var fixed = false;
-                                           $(document).scroll(function () {
-                                               if ($(this).scrollTop() > 250) {
-                                                   if (!fixed) {
-                                                       fixed = true;
-                                                       // $('#to-top').css({position:'fixed', display:'block'});
-                                                       $('#to-top').show("slow", function () {
-                                                           $('#to-top').css({
-                                                               position: 'fixed',
-                                                               display: 'block'
-                                                           });
-                                                       });
-                                                   }
-                                               } else {
-                                                   if (fixed) {
-                                                       fixed = false;
-                                                       $('#to-top').hide("slow", function () {
-                                                           $('#to-top').css({
-                                                               display: 'none'
-                                                           });
-                                                       });
-                                                   }
-                                               }
+                                       }
+                                   } else {
+                                       if (fixed) {
+                                           fixed = false;
+                                           $('#to-top').hide("slow", function () {
+                                               $('#to-top').css({
+                                                   display: 'none'
+                                               });
                                            });
-                                           // Disable Google Maps scrolling
-                                           // See http://stackoverflow.com/a/25904582/1607849
-                                           // Disable scroll zooming and bind back the click event
-                                           var onMapMouseleaveHandler = function (event) {
-                                               var that = $(this);
-                                               that.on('click', onMapClickHandler);
-                                               that.off('mouseleave', onMapMouseleaveHandler);
-                                               that.find('iframe').css("pointer-events", "none");
-                                           }
-                                           var onMapClickHandler = function (event) {
-                                               var that = $(this);
-                                               // Disable the click handler until the user leaves the map area
-                                               that.off('click', onMapClickHandler);
-                                               // Enable scrolling zoom
-                                               that.find('iframe').css("pointer-events", "auto");
-                                               // Handle the mouse leave event
-                                               that.on('mouseleave', onMapMouseleaveHandler);
-                                           }
-                                           // Enable map zooming with mouse scroll when the user clicks the map
-                                           $('.map').on('click', onMapClickHandler);
-    </script>
+                                       }
+                                   }
+                               });
+                               // Disable Google Maps scrolling
+                               // See http://stackoverflow.com/a/25904582/1607849
+                               // Disable scroll zooming and bind back the click event
+                               var onMapMouseleaveHandler = function (event) {
+                                   var that = $(this);
+                                   that.on('click', onMapClickHandler);
+                                   that.off('mouseleave', onMapMouseleaveHandler);
+                                   that.find('iframe').css("pointer-events", "none");
+                               }
+                               var onMapClickHandler = function (event) {
+                                   var that = $(this);
+                                   // Disable the click handler until the user leaves the map area
+                                   that.off('click', onMapClickHandler);
+                                   // Enable scrolling zoom
+                                   that.find('iframe').css("pointer-events", "auto");
+                                   // Handle the mouse leave event
+                                   that.on('mouseleave', onMapMouseleaveHandler);
+                               }
+                               // Enable map zooming with mouse scroll when the user clicks the map
+                               $('.map').on('click', onMapClickHandler);
+</script>
 
 </body>
 

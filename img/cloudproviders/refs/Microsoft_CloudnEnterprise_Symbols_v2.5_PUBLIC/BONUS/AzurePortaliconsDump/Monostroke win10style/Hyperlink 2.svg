@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#000000">
+            <g transform="translate(1.000000, 1.000000)">
+                <path d="M4.99163818,9.81903076 L13.0101318,1.82769775 L13.0101318,5.83333349 L14,5.83333333 L14,0 L8.16666667,0 L8.16666651,1.00054932 L12.2052002,1.00054932 L4.23181152,8.98626709 L4.99163818,9.81903076 Z"></path>
+                <path d="M12.9927979,13.0300903 L1.00958252,13.0300903 L1.00958252,1.027771 L5.83333349,1.027771 L5.83333333,0 L5.21154785,0 L0,0 L0,14 L14,14 L14,8.16666667 L12.9927979,8.16666698 L12.9927979,13.0300903 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
