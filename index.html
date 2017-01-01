@@ -34,7 +34,7 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <!--<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -57,7 +57,7 @@
     <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
 </li>
 </ul>
-</nav>
+</nav>-->
 
 <!-- Header -->
 <header id="top" class="header">
@@ -1279,24 +1279,21 @@
 <!-- Custom Theme JavaScript -->
 <script>
 
-$('#comparetable').floatThead({
-	position: 'fixed'
-});
-                               // Search function
-                               var $rows = $('#comparetable tr');
-                               $('#search').keyup(function () {
-                                   var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase().split(' ');
+    // Search function
+    var $rows = $('#comparetable tr');
+    $('#search').keyup(function () {
+        var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase().split(' ');
 
-                                   $rows.hide().filter(function () {
-                                       var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
-                                       var matchesSearch = true;
-                                       $(val).each(function (index, value) {
-                                           matchesSearch = (!matchesSearch) ? false : ~text.indexOf(value);
-                                       });
-                                       return matchesSearch;
-                                   }).show();
-                                   $("#comparetable tr:first-child").show();
-                               });
+        $rows.hide().filter(function () {
+            var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+            var matchesSearch = true;
+            $(val).each(function (index, value) {
+                matchesSearch = (!matchesSearch) ? false : ~text.indexOf(value);
+            });
+            return matchesSearch;
+        }).show();
+        $("#comparetable tr:first-child").show();
+    });
 
                                // Search function
 
