@@ -1,27 +1,22 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/)
+# Cloud Comparer
 
-[Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
+This is the second version of my Cloud Comparison Slide deck which i prepared a year back(can be downloaded here: http://www.slideshare.net/ilyas_it83/microsoft-azure-vs-amazon-web-services-aws-services-feature-mapping). The version 1 recieved more than 22K views and 400+ download at the time of working on this project. This gave me the idea of creating a robust and dependable comparison/mapping between the various services offered by the major cloud providers in a lively and updatable format.
 
-## Getting Started
+The project is open sourced to let fellow Cloud Architects,IT Pros,Developers to feel free to edit and update the comparison upto date.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/stylish-portfolio/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git`
-* Fork the repo
 
-## Bugs and Issues
+## Contributing
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/stylish-portfolio/).
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Creator
+## Authors
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+* **Ilyas_IT83** - *Initial work* - [CloudComparer](https://github.com/ilyas-it83/CloudComparer/)
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+See also the list of [contributors](https://github.com/ilyas-it83/CloudComparer/graphs/contributors) who participated in this project.
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+## License
 
-## Copyright and License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/gh-pages/LICENSE) license.
+## Acknowledgments
