@@ -4,11 +4,6 @@ This is the second version of my Cloud Comparison Slide deck which i prepared a 
 
 The project is open sourced to let fellow Cloud Architects,IT Pros,Developers to feel free to edit and update the comparison upto date.
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
