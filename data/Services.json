@@ -1,0 +1,89 @@
+[
+  {
+    "category": {
+      "name": "Compute",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Virtual Compute",
+      "ref": "http://#",
+      "properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    },
+    "aws": {
+      "name": "Amazon Ec2",
+      "ref": "http://#",
+      "icon": "Compute_AmazonEC2.png",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    },
+    "azure": {
+      "name": "Virtual Machine",
+      "ref": "http://#",
+      "icon": "Azure Virtual Machine.png",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    },
+    "google": {
+      "name": "Google Compute",
+      "ref": "http://#",
+      "icon": "Compute-Engine.png",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    }
+  },
+  {
+    "category": {
+      "name": "Compute",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Containser Registration Service",
+      "ref": "http://#",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    },
+    "aws": {
+      "name": "Amazon EC2 Container Registry(Preview)",
+      "ref": "http://#",
+      "icon": "aws.png",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    },
+    "azure": {
+      "name": "Azure Container Registry",
+      "ref": "http://#",
+      "icon": "Microsoft Azure.png",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    },
+    "google": {
+      "name": "Google Compute",
+      "ref": "http://#",
+      "icon": "Container-Registry.png",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    }
+  },
+  {
+    "category": {
+      "name": "Compute",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Containser Registration Service",
+      "ref": "http://#",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    },
+    "aws": {
+      "name": "Amazon EC2 Container Registry(Preview)",
+      "ref": "http://#",
+      "icon": "aws.png",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    },
+    "azure": {
+      "name": "Azure Container Registry",
+      "ref": "http://#",
+      "icon": "Microsoft Azure.png",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    },
+    "google": {
+      "name": "Google Compute",
+      "ref": "http://#",
+      "icon": "Container-Registry.png",
+      "Properties": [ "Prop1", "Prop2", "Prop3", "Prop4", "Prop5" ]
+    }
+  }
+]
