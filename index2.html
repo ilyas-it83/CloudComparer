@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,8 +19,14 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
-        type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,7 +68,7 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1 class="logo" style="font-size: 65px; padding-left: 150px;"><span class="alt-logo">Public Cloud Services Comparison</span><a href="https://github.com/ilyas-it83/CloudComparer/issues"><img src="img/beta.png"" style="margin-left: 0px" "alt="Cloud Comparer" /></a>
+            <h1 class="logo" style="font-size: 65px; padding-left: 150px;"><span class="alt-logo">Public Cloud Services Comparison</span> <a href="https://github.com/ilyas-it83/CloudComparer/issues"><img src="img/beta1.png"" style="margin-left: 0px;" height="50px"  alt="Cloud Comparer" /></a>
 </h1>
 <table width="100%">
     <tr>
@@ -111,21 +117,42 @@
             </div>
 
 
+
+    <table id="tableDynamic" data-height="460">
+        <thead>
+            <tr>
+                <th width="130px">Cateogory</th>
+                <th>Service</th>
+                <th><img src='img/aws-logo128x128.png' alt='icon' /></th>
+                <th><img src='img/Azure128x128.png' alt='icon' /></th>
+                <th><img src='img/gce.png' height="112" alt='icon' /></th>
+            </tr>
+        </thead>
+
+        <!--<thead>
+            <tr>
+                <th data-field="id">Item ID</th>
+                <th data-field="name">Item Name</th>
+            </tr>
+        </thead>-->
+    </table>
+
             <table id="comparetable" class="blueshine">
                 <thead>
                     <tr>
-                        <td class="blank"> </td>
+                        <th class="blank"> </th>
                         <th><img src='img/aws-logo128x128.png' alt='icon' /></th>
                         <th><img src='img/Azure128x128.png' alt='icon' /></th>
                         <th><img src='img/gce.png' height="112" alt='icon' /></th>
                     </tr>
                 </thead>
+                
                 <tr>
                     <td class="rowTitle" colspan="4">
                         <h1>Compute</h1>
                     </td>
                 </tr>
-                <tr class="accordion-toggle" data-toggle="collapse" data-target="#collapseOne">
+                <tr>
                     <td class="rowTitle">Virtual Compute
                         <a href="#" class="glyphicon glyphicon-link"></td>
                     <td><img src='img/cloudproviders/aws/Compute_AmazonEC2.png' alt='icon' class="img-icon" />Amazon EC2
@@ -239,9 +266,9 @@
                     <td>
                         <ul>
                             <li><img src='img/cloudproviders/azure/Azure App Service - Web App (was Websites).png' alt='icon'
-                                    class="img-icon" /> Azure Web Apps</li>
+                                    class="img-icon" /> Azure Web Apps  <a href="#" class="glyphicon glyphicon-link"></a></li>
                             <li><img src='img/cloudproviders/azure/Azure Cloud Services - Web roles.png' alt='icon' class="img-icon"
-                                />Azure Cloud Services</li>
+                                />Azure Cloud Services  <a href="#" class="glyphicon glyphicon-link"></a></li>
                         </ul>
                     </td>
                     <td><img src='img/cloudproviders/gcp/App-Engine.png' alt='icon' class="img-icon" />App Engine
@@ -257,12 +284,12 @@
                     </td>
                     <td>
                         <ul>
-                            <li><img src='img/cloudproviders/azure/Azure Functions.png' alt='icon' class="img-icon" />Azure Functions</li>
+                            <li><img src='img/cloudproviders/azure/Azure Functions.png' alt='icon' class="img-icon" />Azure Functions  <a href="#" class="glyphicon glyphicon-link"></a></li>
                             <li><img src='img/cloudproviders/azure/Azure WebApp - WebJobs.png' alt='icon' class="img-icon" />Azure
-                                Web Jobs
+                                Web Jobs  <a href="#" class="glyphicon glyphicon-link"></a>
                             </li>
                             <li><img src='img/cloudproviders/azure/Azure App Service - Logic App.png' alt='icon' class="img-icon"
-                                />Logic Apps
+                                />Logic Apps  <a href="#" class="glyphicon glyphicon-link"></a>
                             </li>
                         </ul>
                     </td>
@@ -281,12 +308,12 @@
                     <td>
                         <ul>
                             <li><img src='img/cloudproviders/azure/Azure Compute - Autoscaling.png' alt='icon' class="img-icon"
-                                />Azure Auto Scale</li>
+                                />Azure Auto Scale  <a href="#" class="glyphicon glyphicon-link"></a></li>
                             <li><img src='img/cloudproviders/azure/Azure VM Scale Set.png' alt='icon' class="img-icon" />VM Scale
-                                Sets
+                                Sets  <a href="#" class="glyphicon glyphicon-link"></a>
                             </li>
                             <li><img src='img/cloudproviders/azure/Azure App Service - Web App (was Websites).png' alt='icon'
-                                    class="img-icon" />App Service AutoScaling
+                                    class="img-icon" />App Service AutoScaling  <a href="#" class="glyphicon glyphicon-link"></a>
                             </li>
                         </ul>
                     </td>
@@ -1417,9 +1444,14 @@
                         />Amazon Elastic Transcoder
                         <a href="#" class="glyphicon glyphicon-link"></a>
                     </td>
-                    <td><img src='img/cloudproviders/azure/Azure Media Services.png' alt='icon' class="img-icon" />Azure Media
-                        Services, Live On Demand Streaming Azure Media Player Content Protection Media Analytics
-                        <a href="#" class="glyphicon glyphicon-link"></a>
+                    <td>
+                    <ul>
+                        <li><img src='img/cloudproviders/azure/Azure Media Services.png' alt='icon' class="img-icon" /> Azure Media Services <a href="#" class="glyphicon glyphicon-link"></a></li>
+                        <li><img src='img/cloudproviders/azure/Azure Media Services.png' alt='icon' class="img-icon" /> Live On Demand Streaming <a href="#" class="glyphicon glyphicon-link"></a></li>
+                        <li><img src='img/cloudproviders/azure/Azure Media Services.png' alt='icon' class="img-icon" /> Azure Media Player <a href="#" class="glyphicon glyphicon-link"></a></li>
+                        <li><img src='img/cloudproviders/azure/Azure Media Services.png' alt='icon' class="img-icon" /> Content Protection <a href="#" class="glyphicon glyphicon-link"></a></li>
+                        <li><img src='img/cloudproviders/azure/Azure Media Services.png' alt='icon' class="img-icon" /> Media Analytics <a href="#" class="glyphicon glyphicon-link"></a></li>
+                        </ul>
                     </td>
                     <td><img src='img/icons/none.png' alt='icon' class="img-icon" />None</td>
                 </tr>
@@ -1449,11 +1481,7 @@
                     </td>
                     <td>
                         <ul>
-
-                            <li><img src='img/cloudproviders/azure/Azure Service Bus Queues.png' alt='icon' class="img-icon"
-                                />Service Bus queues
-                                <a href="#" class="glyphicon glyphicon-link"></a>
-                            </li>
+                            <li><img src='img/cloudproviders/azure/Azure Service Bus Queues.png' alt='icon' class="img-icon" />Service Bus queues <a href="#" class="glyphicon glyphicon-link"></a></li>
                             <li><img src='img/cloudproviders/azure/Azure Service Bus Queues.png' alt='icon' class="img-icon"
                                 />Queue Storage
                                 <a href="#" class="glyphicon glyphicon-link"></a>
@@ -1666,7 +1694,7 @@
                 </tr>
                 <tr>
                     <td class="rowTitle">Development & Testing
-                        <a href="#" class="glyphicon glyphicon-link"></td>
+                        <a href="#" class="glyphicon glyphicon-link"></a></td>
                     <td><img src='img/cloudproviders/aws/aws.png' alt='icon' class="img-icon" />AWS Dev/Test
                         <a href="#" class="glyphicon glyphicon-link"></a>
                     </td>
@@ -1768,6 +1796,7 @@
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
+ 
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
@@ -1776,6 +1805,37 @@
 <!-- Custom Theme JavaScript -->
 <script>
 
+     var trHTML = '';
+      
+        $.getJSON("data/Services.json", function (Json) {
+           // alert(JSON.stringify(Json));
+
+            $.each(Json, function (key, value) {
+
+                trHTML += '<tr><td class="rowTitle">' + value.category.name + '</td>';
+                trHTML += '<td>' + value.service.name + ' <a href="' + value.service.ref + '" class="glyphicon glyphicon-link"></a></td>';
+                trHTML += '<td><img src="img/cloudproviders/aws/' + value.aws.icon + '" height="50px" alt="' + value.aws.name + '" class="img-icon" /> ' + value.aws.name + ' <a href="' + value.aws.ref + '" class="glyphicon glyphicon-link"></a></td>';
+                trHTML += '<td><img src="img/cloudproviders/azure/' + value.azure.icon + '" height="50px" alt="' + value.azure.name + '" class="img-icon" /> ' + value.azure.name + ' <a href="' + value.azure.ref + '" class="glyphicon glyphicon-link"></a></td>';
+                trHTML += '<td><img src="img/cloudproviders/gcp/' + value.google.icon + '" height="50px" alt="' + value.google.name + '" class="img-icon" /> ' + value.google.name + ' <a href="' + value.google.ref + '" class="glyphicon glyphicon-link"></a></td></tr>';
+                trHTML += '<tr><td class="rowTitle"></td><td>To be Added</td><td>To be Added</td><td>To be Added</td><td>To be Added</td></tr>';
+        
+            });
+                    $('#tableDynamic').append(trHTML);
+                });
+        
+        function CSVtoulli(input)
+        {
+            var list = JSON.stringify(input).split(",");
+
+            var html = '<ul>';
+                for (var i = 0; i < list.length; i++) {
+                    html += '<li>' + list[i].replace("]", "").replace("[", "").replace("\"", "").replace("/", "").replace(/"/g, ""); + '</li>';
+                }
+                html += '</ul>';
+                alert(html);
+                return html;
+            }
+    
     // Search function
     var $rows = $('#comparetable tr');
     $('#search').keyup(function () {
@@ -1794,17 +1854,18 @@
 
     // Search function
 
-    //  $(document).ready(function(){
-    //            $("#comparetable tr:odd").addClass("odd");
-    //            $("#comparetable tr:not(.odd)").hide();
-    //            $("#comparetable tr:first-child").show();
+      $(document).ready(function(){
+                $("#comparetable tr:odd").addClass("odd");
+                $("#comparetable tr:not(.odd)").hide();
+                //$("#comparetable tr:first-child").show();
 
-    //            $("#comparetable tr.odd").click(function(){
-    //                $(this).next("tr").toggle();
-    //                $(this).find(".arrow").toggleClass("up");
-    //            });
-    //            $("#comparetable").jExpand();
-    //        });
+                $("#comparetable tr.odd").click(function(){
+                    $(this).next("tr").toggle();
+                    $(this).find(".arrow").toggleClass("up");
+                });
+                //$("#comparetable").jExpand();
+            });
+
 
 
 
