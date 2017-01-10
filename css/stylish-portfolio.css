@@ -261,6 +261,7 @@ footer {
 
 /* START COMPARISON TABLE STYLES */
 #comparetable {width: 100%; table-layout: fixed; text-align: center; margin: 4em 0; border-collapse: collapse; }
+
 #comparetable tr {background: transparent!important;}
 #comparetable td,
 #comparetable th {padding: 20px; text-align: center;}
@@ -275,7 +276,7 @@ footer {
 #comparetable tr.odd td { background:#fff url(../img/row_bkg.png) repeat-x scroll center left; cursor:pointer; }
 #comparetable div.arrow { background:transparent url(../img/arrows.png) no-repeat scroll 0px -16px; width:16px; height:16px; display:block;}
 #comparetable div.up { background-position:0px 0px;}
-
+ 
 .blank {background: none!important; border: none}
 .blueshine th {background-color: #b8cee2; font-size: 22px; color: #0c3053; text-align: center; font-weight: 600; text-shadow: 0 1px 0 #e0ecf7; border: 1px solid #9fb6c8;}
 .blueshine td {background-color: #f0f1f1; border: 1px solid #c8d6e2;} 

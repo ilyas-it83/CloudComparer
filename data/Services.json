@@ -59,7 +59,7 @@
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     }],
     "google":[{
-      "name": "Google Compute",
+      "name": "Container Registry",
       "ref": "https://cloud.google.com/container-registry/",
       "icon": "Container-Registry.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -76,7 +76,7 @@
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [{
-      "name": "Amazon EC2 Container Service(Preview)",
+      "name": "Amazon EC2 Container Service",
       "ref": "https://aws.amazon.com/ecs/",
       "icon": "Compute_AmazonECS.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -189,7 +189,7 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "App Development/Deployment (Java/.Net/PHP/Python)",
+      "name": "App Development/ Deployment (Java /.Net /PHP /Python)",
       "ref": "https://en.wikipedia.org/wiki/Platform_as_a_service",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -423,36 +423,14 @@
       "ref": "https://aws.amazon.com/rds/aurora/details/",
       "icon": "aws.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }],
-    "azure": [{
-      "name": "Azure SQL Database",
-      "ref": "https://azure.microsoft.com/en-in/services/sql-database/",
-      "icon": "Azure SQL Database.png",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }],
-    "google":[{
-      "name": "Cloud SQL",
-      "ref": "https://cloud.google.com/sql/",
-      "icon": "Cloud-SQL.png",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }]
-  },
-  {
-    "category": {
-      "name": "Database",
-      "ref": "https://en.wikipedia.org/wiki/Database"
     },
-    "service": {
-      "name": "Relational Database Management Service",
-      "ref": "https://en.wikipedia.org/wiki/Relational_database_management_system",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    },
-    "aws": [{
+	{
       "name": "Amazon RDS",
       "ref": "https://aws.amazon.com/rds/",
       "icon": "Database_AmazonRDS.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }],
+    }
+	],
     "azure": [{
       "name": "Azure SQL Database",
       "ref": "https://azure.microsoft.com/en-in/services/sql-database/",
@@ -466,6 +444,7 @@
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     }]
   },
+ 
   {
     "category": {
       "name": "Database",
@@ -493,37 +472,16 @@
       "ref": "https://cloud.google.com/datastore/",
       "icon": "Cloud-Bigtable.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }]
-  },
-  {
-    "category": {
-      "name": "Database",
-      "ref": "https://en.wikipedia.org/wiki/NoSQL"
     },
-    "service": {
-      "name": "Non Relational Database Management Service",
-      "ref": "https://en.wikipedia.org/wiki/NoSQL",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    },
-    "aws": [{
-      "name": "Amazon DynamoDB",
-      "ref": "https://aws.amazon.com/dynamodb/",
-      "icon": "Database_AmazonDynamoDB.png",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }],
-    "azure": [{
-      "name": "Azure DocumentDB",
-      "ref": "https://azure.microsoft.com/en-in/services/documentdb/",
-      "icon": "Azure DocumentDB.png",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }],
-    "google":[{
+	{
       "name": "Cloud BigTable",
       "ref": "https://cloud.google.com/bigtable/",
       "icon": "Cloud-Bigtable.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }]
+    }
+	]
   },
+
   {
     "category": {
       "name": "Database",
@@ -836,31 +794,7 @@
       "ref": "https://azure.microsoft.com/en-in/services/dns/",
       "icon": "Azure DNS.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }],
-    "google":[{
-      "name": "Cloud DNS",
-      "ref": "https://cloud.google.com/dns/",
-      "icon": "Cloud-DNS.png",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }]
-  },
-  {
-    "category": {
-      "name": "Networking",
-      "ref": "http://#"
-    },
-    "service": {
-      "name": "Networking & Content Delivery",
-      "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    },
-    "aws": [{
-      "name": "Amazon Route 53",
-      "ref": "https://aws.amazon.com/route53/",
-      "icon": "Networking_AmazonRoute53.png",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    }],
-    "azure": [{
+    },{
       "name": "Azure Traffic Manager",
       "ref": "https://azure.microsoft.com/en-in/services/traffic-manager/",
       "icon": "Azure Traffic Manager.png",
@@ -873,7 +807,7 @@
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     }]
   },
-  
+   
   {
     "category": {
       "name": "Networking & Content Delivery",
@@ -1766,7 +1700,7 @@
     "azure":[{
       "name": "Azure Data Lake Analytics",
       "ref": "https://azure.microsoft.com/en-in/services/data-lake-analytics/",
-      "icon": "none.png",
+      "icon": "Azure Data Lake Analytics.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     }],
    "google":[{

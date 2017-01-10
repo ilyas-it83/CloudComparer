@@ -75,7 +75,7 @@
                 </div>
             </div>
 
-            <table id="comparetable" class="blueshine">
+            <table id="comparetable" class="blueshine table table-responsive">
                 <thead>
                     <tr>
                         <th width="130px">Cateogory</th>
@@ -188,12 +188,12 @@
       $(document).ready(function(){
       var trHTML = '';
 
-      $.getJSON('https://raw.githubusercontent.com/ilyas-it83/CloudComparer/master/Services.json', function (Json) {
-        //$.getJSON('Services.json', function (Json) {
+      //$.getJSON('https://raw.githubusercontent.com/ilyas-it83/CloudComparer/master/Services.json', function (Json) {
+        $.getJSON('data/Services.json', function (Json) {
 		
 		$.each(Json, function (key, value) {
-              trHTML += '<tr><td>' + value.category.name + '</td>';
-              trHTML += '<td>' + value.service.name + ' <a href="' + value.service.ref + '" class="glyphicon glyphicon-link"></a></td>';
+              trHTML += '<tr><td><b>' + value.category.name + '</b></td>';
+              trHTML += '<td><b>' + value.service.name + '</b> <a href="' + value.service.ref + '" class="glyphicon glyphicon-link"></a></td>';
               trHTML += dataprocessor(value.aws,'aws');
               trHTML += dataprocessor(value.azure,'azure');
               trHTML += dataprocessor(value.google,'gcp');
@@ -264,7 +264,7 @@
 	          $(this).next("tr").toggle();
 	          $(this).find(".arrow").toggleClass("up");
 	      });
-
+ 
 
 	  },500)
 
