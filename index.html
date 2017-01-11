@@ -1,4 +1,3 @@
-﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -188,8 +187,8 @@
       $(document).ready(function(){
       var trHTML = '';
 
-      //$.getJSON('https://raw.githubusercontent.com/ilyas-it83/CloudComparer/master/Services.json', function (Json) {
-        $.getJSON('data/Services.json', function (Json) {
+      $.getJSON('https://raw.githubusercontent.com/ilyas-it83/CloudComparer/master/Services.json', function (Json) {
+        //$.getJSON('Services.json', function (Json) {
 		
 		$.each(Json, function (key, value) {
               trHTML += '<tr><td><b>' + value.category.name + '</b></td>';
@@ -251,7 +250,7 @@
 	              });
 	              return matchesSearch;
 	          }).show();
-	          $("#comparetable tr:first-child").show();
+	          //$("#comparetable tr:first-child").show();
 	      });
 
           //ODD Even
@@ -345,5 +344,4 @@
 </script>
 
 </body>
-
 </html>
