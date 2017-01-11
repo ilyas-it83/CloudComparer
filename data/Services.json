@@ -2176,7 +2176,7 @@
     "azure":[{
       "name": "Xamarin Test Cloud (Front End)",
       "ref": "",
-      "icon": "Xamarin.png",
+      "icon": "xamarin.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },{
       "name": "Azure DevTest Labs (Back End)",
@@ -2508,7 +2508,7 @@
    "google":[{
       "name": "G Suite",
       "ref": "",
-      "icon": "Gsuite.png",
+      "icon": "GSuite.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     }]
   },{
