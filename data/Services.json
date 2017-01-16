@@ -38,6 +38,22 @@
         "icon": "Compute-Engine.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -74,6 +90,22 @@
         "icon": "Container-Registry.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -108,6 +140,22 @@
         "ref": "https://cloud.google.com/container-engine/",
         "icon": "Container-Engine.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -144,6 +192,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -179,6 +243,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -213,6 +293,22 @@
         "ref": "http://#",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -254,6 +350,22 @@
         "ref": "http://#",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -302,6 +414,22 @@
         "icon": "Cloud-Functions.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -336,6 +464,22 @@
         "ref": "https://cloud.google.com/storage/",
         "icon": "Cloud-Storage.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -372,6 +516,22 @@
         "icon": "Persistent-Disk.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -406,6 +566,22 @@
         "ref": "http://#",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -442,6 +618,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -476,6 +668,22 @@
         "ref": "http://#",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -517,6 +725,22 @@
         "ref": "https://cloud.google.com/sql/",
         "icon": "Cloud-SQL.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -560,6 +784,22 @@
         "icon": "Cloud-Bigtable.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -596,6 +836,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -630,6 +886,22 @@
         "ref": "https://cloud.google.com/bigquery/",
         "icon": "BigQuery.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -666,6 +938,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -700,6 +988,22 @@
         "ref": "#",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -736,6 +1040,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -770,6 +1090,22 @@
         "ref": "#",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -806,6 +1142,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -840,6 +1192,22 @@
         "ref": "#",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -876,6 +1244,22 @@
         "icon": "Cloud-Virtual-Network.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -910,6 +1294,22 @@
         "ref": "https://cloud.google.com/cdn/",
         "icon": "Cloud-CDN.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -952,6 +1352,22 @@
         "icon": "Cloud-DNS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -988,6 +1404,22 @@
         "icon": "Cloud-Interconnect.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1022,6 +1454,22 @@
         "ref": "https://cloud.google.com/load-balancing/",
         "icon": "Cloud-Load-Balancing.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1083,10 +1531,24 @@
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
-
-
   {
     "category": {
       "name": "Developer Tools",
@@ -1138,6 +1600,22 @@
         "icon": "Cloud-Tools-for-PowerShell.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -1174,6 +1652,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1208,6 +1702,22 @@
         "ref": "https://cloud.google.com/resource-manager/",
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1293,6 +1803,22 @@
         "icon": "Debugger.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -1328,6 +1854,22 @@
         "ref": "",
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1376,6 +1918,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1410,6 +1968,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1446,6 +2020,22 @@
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1480,6 +2070,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1546,6 +2152,22 @@
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1580,6 +2202,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1616,12 +2254,24 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
-
-
-
-
   {
     "category": {
       "name": "Security & Identity, Compliance",
@@ -1654,6 +2304,22 @@
         "ref": "https://cloud.google.com/iam/",
         "icon": "Cloud-IAM.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1690,6 +2356,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1725,6 +2407,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1759,6 +2457,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1813,6 +2527,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1847,6 +2577,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1883,6 +2629,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1917,6 +2679,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1953,6 +2731,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1987,6 +2781,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2023,6 +2833,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2057,6 +2883,22 @@
         "ref": "https://cloud.google.com/dataproc/",
         "icon": "Cloud-Dataproc.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2099,6 +2941,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2133,6 +2991,22 @@
         "ref": "https://cloud.google.com/dataflow/",
         "icon": "Cloud-Dataflow.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2169,6 +3043,22 @@
         "icon": "BigQuery.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2203,6 +3093,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2251,6 +3157,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2285,6 +3207,22 @@
         "ref": "https://cloud.google.com/natural-language/",
         "icon": "Natural-Language-API.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2326,6 +3264,22 @@
         "ref": "https://cloud.google.com/speech/",
         "icon": "Speech-API.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2374,6 +3328,22 @@
         "icon": "Vision-API.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2415,6 +3385,22 @@
         "icon": "Cloud-Machine-Learning.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2449,6 +3435,22 @@
         "ref": "",
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2485,6 +3487,22 @@
         "icon": "Cloud-Endpoints.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2520,6 +3538,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2554,6 +3588,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2596,6 +3646,22 @@
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2630,6 +3696,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2684,6 +3766,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2718,6 +3816,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2778,6 +3892,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2831,6 +3961,22 @@
         "icon": "Cloud-PubSub.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2865,6 +4011,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2901,6 +4063,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2935,6 +4113,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2983,6 +4177,22 @@
         "icon": "GSuite.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3017,6 +4227,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -3053,6 +4279,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3087,6 +4329,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -3123,6 +4381,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3157,6 +4431,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -3193,6 +4483,22 @@
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3227,6 +4533,22 @@
         "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   }
