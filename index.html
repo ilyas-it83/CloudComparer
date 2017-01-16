@@ -181,7 +181,7 @@
 		
 		$.each(Json, function (key, value) {
               trHTML += '<tr><td><b>' + value.category.name + '</b></td>';
-              trHTML += '<td><b>' + value.service.name + '</b> <a href="' + value.service.ref + '" class="glyphicon glyphicon-link"></a></td>';
+              trHTML += '<td><b>' + value.service.name + '</b> <a href="' + value.service.ref + '" class="glyphicon glyphicon-link" target="_blank></a></td>';
               trHTML += dataprocessor(value.aws,'aws');
               trHTML += dataprocessor(value.azure,'azure');
               trHTML += dataprocessor(value.google,'gcp');
