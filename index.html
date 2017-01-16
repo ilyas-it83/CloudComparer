@@ -124,6 +124,7 @@
     </div>
     <!-- /.container -->
 </section>
+    <div id="disqus_thread">i'm disqus</div>
 
 
 <span id="forkongithub"><a href="https://github.com/ilyas-it83/CloudComparer/">Fork me on GitHub</a></span>
@@ -159,6 +160,27 @@
     </div>
     <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
 </footer>
+
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//cloudcomparer.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
@@ -338,6 +360,6 @@
     // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
 </script>
-
+    <script id="dsq-count-scr" src="//cloudcomparer.disqus.com/count.js" async></script>
 </body>
 </html>
