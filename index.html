@@ -35,8 +35,8 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1 class="logo" style="font-size: 65px; padding-left: 150px;"><span class="alt-logo">Public Cloud Services Comparison</span><a href="https://github.com/ilyas-it83/CloudComparer/issues"><img src="img/beta1.png"" style="margin-left: 0px;" height="50px"  alt="Cloud Comparer" /></a></h1>
-<table width="100%"><tr><td></td><td align="center"><a href="#"><img src="img/header-img.png"></a></td></tr></table>
+            <h1 class="logo" style="font-size: 65px; padding-left: 150px;"><span class="alt-logo">Public Cloud Services Comparison</span><a href="https://github.com/ilyas-it83/CloudComparer/issues"><img src="img/logo.png"  alt="Cloud Comparer" /></a></h1>
+<!--<table width="100%"><tr><td></td><td align="center"><a href="#"><img src="img/logo.png"></a></td></tr></table>-->
 </div>
 </header>
 
@@ -69,6 +69,8 @@
                         <th><img src='img/aws-logo128x128.png' alt='icon' /></th>
                         <th><img src='img/Azure128x128.png' alt='icon' /></th>
                         <th><img src='img/gce.png' height="112" alt='icon' /></th>
+                        <th><img src='img/ibm.png' height="112" alt='icon' /></th>
+                        <th><img src='img/oracle.png' height="112" alt='icon' /></th>
                     </tr>
                 </thead>
 
@@ -183,7 +185,10 @@
               trHTML += dataprocessor(value.aws,'aws');
               trHTML += dataprocessor(value.azure,'azure');
               trHTML += dataprocessor(value.google,'gcp');
-              trHTML += '<tr><td></td><td>' + PropertyProcessor(value.service.Properties) + '</td><td>' + PropertyProcessor(value.aws[0].Properties) + '</td><td>' + PropertyProcessor(value.azure[0].Properties) + '</td><td>' + PropertyProcessor(value.google[0].Properties) + '</td></tr>';
+              trHTML += dataprocessor(value.ibm, 'ibm');
+              trHTML += dataprocessor(value.oracle, 'oracle');
+
+              trHTML += '<tr><td></td><td>' + PropertyProcessor(value.service.Properties) + '</td><td>' + PropertyProcessor(value.aws[0].Properties) + '</td><td>' + PropertyProcessor(value.azure[0].Properties) +  '</td><td>' + PropertyProcessor(value.google[0].Properties) + '</td><td>' + PropertyProcessor(value.ibm[0].Properties) + '</td><td>' + PropertyProcessor(value.oracle[0].Properties) + '</td></tr>';
           });
          $('#comparetable').append(trHTML);
       });
@@ -208,13 +213,13 @@
 			  {
 				 trHTML+='<td><ul>';
 				 for (var i in input) {
-				 trHTML+='<li><img src="img/cloudproviders/'+ type + '/' + input[i].icon + '" alt="' + input[i].name + '" class="img-icon" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link"></a></li>';
+				     trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon + '" onerror="imgError(this);" alt="' + input[i].name + '" class="img-icon" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link"></a></li>';
 				}
 				 trHTML+='</ul></td>';
 			  }
 			  else
 			  {
-				trHTML+='<td><img src="img/cloudproviders/'+ type + '/' + input[0].icon + '" alt="' + input[0].name + '" class="img-icon" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link"></a></td>';
+			      trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon + '" onerror="imgError(this);" alt="' + input[0].name + '" class="img-icon" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link"></a></td>';
 			  }
 			  return trHTML;
 	  }
@@ -254,7 +259,11 @@
 
 	  },500)
 
-	  
+	  function imgError(image) {
+	      image.onerror = "";
+	      image.src = "https://ilyas-it83.github.io/CloudComparer/img/cloudproviders/gcp/none.png";
+	      return true;
+	  }
 
     // Closes the sidebar menu
     $("#menu-close").click(function (e) {
