@@ -181,7 +181,7 @@
 		
 		$.each(Json, function (key, value) {
               trHTML += '<tr><td><b>' + value.category.name + '</b></td>';
-              trHTML += '<td><b>' + value.service.name + '</b> <a href="' + value.service.ref + '" class="glyphicon glyphicon-link" target="_blank></a></td>';
+              trHTML += '<td><b>' + value.service.name + '</b> <a href="' + value.service.ref + '" class="glyphicon glyphicon-link" target="_blank"></a></td>';
               trHTML += dataprocessor(value.aws,'aws');
               trHTML += dataprocessor(value.azure,'azure');
               trHTML += dataprocessor(value.google,'gcp');
@@ -213,13 +213,13 @@
 			  {
 				 trHTML+='<td><ul>';
 				 for (var i in input) {
-				     trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon + '" onerror="imgError(this);" alt="' + input[i].name + '" class="img-icon" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link"></a></li>';
+				     trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon + '" onerror="imgError(this);" alt="' + input[i].name + '" class="img-icon" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link"  target="_blank"></a></li>';
 				}
 				 trHTML+='</ul></td>';
 			  }
 			  else
 			  {
-			      trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon + '" onerror="imgError(this);" alt="' + input[0].name + '" class="img-icon" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link"></a></td>';
+			      trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon + '" onerror="imgError(this);" alt="' + input[0].name + '" class="img-icon" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link"  target="_blank"></a></td>';
 			  }
 			  return trHTML;
 	  }
