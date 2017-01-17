@@ -65,7 +65,7 @@
             <table id="comparetable" class="blueshine table">
                 <thead>
                     <tr>
-                        <th width="130px">Cateogory</th>
+                        <th>Cateogory</th>
                         <th>Service</th>
                         <th><img src='img/aws-logo128x128.png' alt='icon' /></th>
                         <th><img src='img/Azure128x128.png' alt='icon' /></th>
@@ -258,13 +258,13 @@ s.setAttribute('data-timestamp', +new Date());
 			  {
 				 trHTML+='<td><ul>';
 				 for (var i in input) {
-				     trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon + '" onerror="imgError(this);" alt="' + input[i].name + '" class="img-icon" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link"  target="_blank"></a></li>';
+				     trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon + '" class="img-responsive" onerror="imgError(this);" alt="' + input[i].name + '" class="img-icon" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link"  target="_blank"></a></li>';
 				}
 				 trHTML+='</ul></td>';
 			  }
 			  else
 			  {
-			      trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon + '" onerror="imgError(this);" alt="' + input[0].name + '" class="img-icon" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link"  target="_blank"></a></td>';
+			      trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon + '" class="img-responsive" onerror="imgError(this);" alt="' + input[0].name + '" class="img-icon" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link"  target="_blank"></a></td>';
 			  }
 			  return trHTML;
 	  }
