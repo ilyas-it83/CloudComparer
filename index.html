@@ -244,7 +244,6 @@ s.setAttribute('data-timestamp', +new Date());
 
       function RemoveEmptyAHref()
       {
-          alert('hi');
           $("a").each(function () {
               var href = $(this).attr("href");
               if (href == 'https://#' || href == '' || href == 'http://#' || href == '#') { // or anything else you want to remove...
