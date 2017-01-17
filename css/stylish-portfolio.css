@@ -260,13 +260,13 @@ footer {
 }
 
 /* START COMPARISON TABLE STYLES */
-#comparetable {width: 100%; text-align: center; margin: 4em 0; border-collapse: collapse; }
+#comparetable {width: 100%; table-layout:fixed; text-align: center; margin: 4em 0; border-collapse: collapse; }
 
 #comparetable tr {background: transparent!important;}
 #comparetable td,
 #comparetable th {padding: 20px; text-align: center;}
 #comparetable td.rowTitle {text-align: center; font-weight: 600;}
-#comparetable td img {height:50px;width:50px;  display: block;margin-left: auto;margin-right: auto;float: left;margin: 0px 15px 15px 0px;}
+#comparetable td img {max-width:50px;display: block;margin-left: auto;margin-right: auto;float: left;margin: 0px 15px 15px 0px;}
 #comparetable td ul {margin: 0; padding: 0;list-style-type: none;}
 #comparetable td ul.lists {text-align: left; list-style-type: disc!important;}
 
