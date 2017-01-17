@@ -260,7 +260,7 @@ footer {
 }
 
 /* START COMPARISON TABLE STYLES */
-#comparetable {width: 100%; table-layout: fixed; text-align: center; margin: 4em 0; border-collapse: collapse; }
+#comparetable {width: 100%; text-align: center; margin: 4em 0; border-collapse: collapse; }
 
 #comparetable tr {background: transparent!important;}
 #comparetable td,

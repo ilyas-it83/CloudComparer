@@ -41,7 +41,7 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
+        "name": "Virtual Server",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -468,7 +468,7 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
+        "name": "Object Storage",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -519,7 +519,7 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
+        "name": "Block Storage",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -570,7 +570,7 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
+        "name": "File Storage",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1262,6 +1262,58 @@
       }
     ]
   },
+
+  {
+    "category": {
+      "name": "Networking & Content Delivery",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Network Gateway",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "Amazon VPN",
+        "ref": "http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpn-connections.html/",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure VPN Gateway",
+        "ref": "https://azure.microsoft.com/en-in/pricing/details/vpn-gateway/",
+        "icon": "Azure VPN Gateway.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "Cloud VPN",
+        "ref": "https://cloud.google.com/products/networking/",
+        "icon": "Cloud-Virtual-Network.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
   {
     "category": {
       "name": "Networking & Content Delivery",
@@ -1298,7 +1350,7 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
+        "name": "Content Delivery Network",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1355,7 +1407,7 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
+        "name": "Domain Name Service",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1407,7 +1459,7 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
+        "name": "Direct Link",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1458,7 +1510,7 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
+        "name": "Local Load Balancing",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2245,6 +2297,12 @@
         "ref": "",
         "icon": "Azure Site Recovery.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Backup",
+        "ref": "",
+        "icon": "Azure Backup.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
@@ -2410,7 +2468,7 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
+        "name": "SSL Certificates",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2461,8 +2519,8 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
-        "ref": "https://#",
+        "name": "Key Protect",
+        "ref": "https://console.ng.bluemix.net/catalog/services/key-protect/",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2734,7 +2792,7 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
+        "name": "Hardware Firewall",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4119,6 +4177,58 @@
       {
         "name": "To be Added",
         "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+
+  {
+    "category": {
+      "name": "Application Services",
+      "ref": ""
+    },
+    "service": {
+      "name": "Blockchain Services",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "Amazon SNS",
+        "ref": "",
+        "icon": "Mobile-Services_AmazonSNS.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Blockchain",
+        "ref": "",
+        "icon": "Azure subscription.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "Blockchain",
+        "ref": "https://console.ng.bluemix.net/catalog/services/blockchain/",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
