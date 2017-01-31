@@ -239,10 +239,10 @@ s.setAttribute('data-timestamp', +new Date());
               trHTML += dataprocessor(value.ibm, 'ibm');
               trHTML += dataprocessor(value.oracle, 'oracle');
 
-              trHTML += '<tr><td></td><td>' + PropertyProcessor(value.service.Properties) + '</td><td>' + PropertyProcessor(value.aws[0].Properties) + '</td><td>' + PropertyProcessor(value.azure[0].Properties) +  '</td><td>' + PropertyProcessor(value.google[0].Properties) + '</td><td>' + PropertyProcessor(value.ibm[0].Properties) + '</td><td>' + PropertyProcessor(value.oracle[0].Properties) + '</td></tr>';
+             // trHTML += '<tr><td></td><td>' + PropertyProcessor(value.service.Properties) + '</td><td>' + PropertyProcessor(value.aws[0].Properties) + '</td><td>' + PropertyProcessor(value.azure[0].Properties) +  '</td><td>' + PropertyProcessor(value.google[0].Properties) + '</td><td>' + PropertyProcessor(value.ibm[0].Properties) + '</td><td>' + PropertyProcessor(value.oracle[0].Properties) + '</td></tr>';
           });
 		$('#comparetable').append(trHTML);
-		AddAccordian();
+		//AddAccordian();
 		RemoveEmptyAHref();
       });
       });
