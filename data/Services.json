@@ -62,57 +62,6 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Bare Metal Server",
-      "ref": "http://#",
-      "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
-    },
-    "aws": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [ "", "", "", "", "", "" ]
-      }
-    ],
-    "azure": [
-      {
-         "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [ "", "", "", "", "", "" ]
-      } 
-    ],
-    "google": [
-      {
-         "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [ "", "", "", "", "", "" ]
-      }
-    ],
-    "ibm": [
-      {
-        "name": "Bare Metal Server",
-        "ref": "https://console.ng.bluemix.net/catalog/infrastructure/hourly_bare_metal/",
-        "icon": "ibm.png",
-        "Properties": [  "", "", "", "", "", "" ]
-      }
-    ],
-    "oracle": [
-      {
-        "name": "To be Added",
-        "ref": "https://#",
-        "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      }
-    ]
-  },
-  {
-    "category": {
-      "name": "Compute",
-      "ref": "http://#"
-    },
-    "service": {
       "name": "Container Registration Service",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
