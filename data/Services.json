@@ -5,16 +5,16 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Virtual Compute",
+      "name": "Virtual Server",
       "ref": "http://#",
-      "Properties": [ "Support for Linux/windows", "SLA", "Pricing", "To be added", "To be added" ]
+      "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
     "aws": [
       {
         "name": "Amazon EC2",
         "ref": "https://aws.amazon.com/ec2/",
         "icon": "Compute_AmazonEC2.png",
-        "Properties": [ "Yes", "Prop2", "Prop3", "Prop4", "Prop5" ]
+        "Properties": [ "39", "Yes", "No", "1 – 40", "0,5 – 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
     "azure": [
@@ -22,13 +22,13 @@
         "name": "Azure Virtual Machine",
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machines/",
         "icon": "Azure Virtual Machine.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ "18", "No", "Yes", "1 Shared – 32 dedicated CPU", "0,6 — 208 GB", "3 TB" ]
       },
       {
         "name": "Virtual Machine Scale Sets",
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview",
         "icon": "Azure VM Scale Set.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ "40", "No", "No", "1 – 32 CPU", "0,75 — 448 GB", "2 TB" ]
       }
     ],
     "google": [
@@ -42,8 +42,8 @@
     "ibm": [
       {
         "name": "Virtual Server",
-        "ref": "https://#",
-        "icon": "",
+        "ref": "https://console.ng.bluemix.net/catalog/infrastructure/hourly_public_virtual/",
+        "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -56,7 +56,57 @@
       }
     ]
   },
-
+  {
+    "category": {
+      "name": "Compute",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Bare Metal Server",
+      "ref": "http://#",
+      "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
+    },
+    "aws": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "", "", "", "", "", "" ]
+      }
+    ],
+    "azure": [
+      {
+         "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "", "", "", "", "", "" ]
+      } 
+    ],
+    "google": [
+      {
+         "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "", "", "", "", "", "" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "Bare Metal Server",
+        "ref": "https://console.ng.bluemix.net/catalog/infrastructure/hourly_bare_metal/",
+        "icon": "ibm.png",
+        "Properties": [  "", "", "", "", "", "" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "To be Added",
+        "ref": "https://#",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
   {
     "category": {
       "name": "Compute",
