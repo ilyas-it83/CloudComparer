@@ -228,7 +228,7 @@ s.setAttribute('data-timestamp', +new Date());
       var trHTML = '';
 
       $.getJSON('https://raw.githubusercontent.com/ilyas-it83/CloudComparer/master/data/Services.json', function (Json) {
-        //$.getJSON('Services.json', function (Json) {
+      //$.getJSON('Data/Services.json', function (Json) {
 		
 		$.each(Json, function (key, value) {
               trHTML += '<tr><td><b>' + value.category.name + '</b></td>';
