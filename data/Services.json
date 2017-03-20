@@ -489,7 +489,7 @@
     },
     "service": {
       "name": "Virtual Machine Disk Storage",
-      "ref": "http://#",
+      "ref": "http://##",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
