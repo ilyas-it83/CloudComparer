@@ -49,9 +49,9 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
-        "ref": "https://#",
-        "icon": "",
+        "name": "Compute",
+        "ref": "https://cloud.oracle.com/en_US/compute",
+        "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -424,7 +424,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -577,7 +577,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -628,7 +628,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -679,7 +679,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -870,7 +870,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -972,7 +972,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1023,7 +1023,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1074,7 +1074,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1125,7 +1125,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1176,7 +1176,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1227,7 +1227,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1278,7 +1278,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1330,7 +1330,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1438,7 +1438,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1490,7 +1490,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1541,7 +1541,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1710,7 +1710,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1977,7 +1977,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2040,7 +2040,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2091,7 +2091,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2142,7 +2142,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2193,7 +2193,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2274,7 +2274,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2325,7 +2325,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2382,7 +2382,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2433,7 +2433,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2484,7 +2484,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2535,7 +2535,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2586,7 +2586,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2655,7 +2655,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2706,7 +2706,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2757,7 +2757,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2808,7 +2808,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2859,7 +2859,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2910,7 +2910,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2961,7 +2961,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3069,7 +3069,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3228,7 +3228,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3378,7 +3378,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3435,7 +3435,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3510,7 +3510,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3567,7 +3567,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3618,7 +3618,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3669,7 +3669,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3771,7 +3771,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3828,7 +3828,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3879,7 +3879,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4050,7 +4050,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4125,7 +4125,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4257,7 +4257,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4308,7 +4308,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4359,7 +4359,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4411,7 +4411,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4474,7 +4474,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4525,7 +4525,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4576,7 +4576,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4627,7 +4627,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4678,7 +4678,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4729,7 +4729,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4780,7 +4780,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -4831,7 +4831,7 @@
     ],
     "oracle": [
       {
-        "name": "To be Added",
+        "name": "",
         "ref": "https://#",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
