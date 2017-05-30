@@ -14,7 +14,7 @@
         "name": "Amazon EC2",
         "ref": "https://aws.amazon.com/ec2/",
         "icon": "Compute_AmazonEC2.png",
-        "Properties": [ "39", "Yes", "No", "1 – 40", "0,5 – 244 GB", "Up to 48 TB (Multiple Disks)" ]
+        "Properties": [ "39", "Yes", "No", "1 ï¿½ 40", "0,5 ï¿½ 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
     "azure": [
@@ -22,13 +22,13 @@
         "name": "Azure Virtual Machine",
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machines/",
         "icon": "Azure Virtual Machine.png",
-        "Properties": [ "18", "No", "Yes", "1 Shared – 32 dedicated CPU", "0,6 — 208 GB", "3 TB" ]
+        "Properties": [ "18", "No", "Yes", "1 Shared ï¿½ 32 dedicated CPU", "0,6 ï¿½ 208 GB", "3 TB" ]
       },
       {
         "name": "Virtual Machine Scale Sets",
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview",
         "icon": "Azure VM Scale Set.png",
-        "Properties": [ "40", "No", "No", "1 – 32 CPU", "0,75 — 448 GB", "2 TB" ]
+        "Properties": [ "40", "No", "No", "1 ï¿½ 32 CPU", "0,75 ï¿½ 448 GB", "2 TB" ]
       }
     ],
     "google": [
@@ -76,7 +76,7 @@
     ],
     "azure": [
       {
-        "name": "Azure Container Registry",
+        "name": "Azure Container Registry ",
         "ref": "https://azure.microsoft.com/en-in/services/container-registry/",
         "icon": "Microsoft Azure.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
