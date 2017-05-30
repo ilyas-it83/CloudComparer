@@ -68,7 +68,7 @@
     },
     "aws": [
       {
-        "name": "Amazon EC2 Container Registry(Preview)",
+        "name": "Amazon EC2 Container Registry(Preview) ",
         "ref": "https://aws.amazon.com/ecr/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -92,8 +92,8 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
-        "ref": "https://#",
+        "name": "IBM Container Registry Archives",
+        "ref": "https://www.ibm.com/blogs/bluemix/tag/ibm-container-registry/",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -143,8 +143,8 @@
     ],
     "ibm": [
       {
-        "name": "To be Added",
-        "ref": "https://#",
+        "name": "IBM Bluemix Container Service",
+        "ref": "https://console.ng.bluemix.net/docs/containers/container_index.html",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -229,9 +229,9 @@
     ],
     "azure": [
       {
-        "name": "",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Azure App Service Environment",
+        "ref": "https://docs.microsoft.com/en-us/azure/app-service-web/app-service-app-service-environment-intro",
+        "icon": "Azure App Service - Web App (was Websites).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -728,6 +728,12 @@
       {
         "name": "Cloud SQL",
         "ref": "https://cloud.google.com/sql/",
+        "icon": "Cloud-SQL.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Spanner",
+        "ref": "https://cloud.google.com/spaner/",
         "icon": "Cloud-SQL.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1809,7 +1815,7 @@
     ],
     "google": [
       {
-        "name": "Cloud Resource Manager/Deployment Manager",
+        "name": "Cloud Resource Manager",
         "ref": "https://cloud.google.com/resource-manager/",
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -2427,6 +2433,12 @@
         "ref": "https://cloud.google.com/iam/",
         "icon": "Cloud-IAM.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Identity-Aware Proxy",
+        "ref": "https://cloud.google.com/iap/",
+        "icon": "Cloud-Identity-Aware-Proxy.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
@@ -2576,9 +2588,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud Key Management Service",
+        "ref": "https://cloud.google.com/kms/",
+        "icon": "Cloud-Platform-Security.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3218,9 +3230,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Google Data Studio (Beta)",
+        "ref": "https://cloud.google.com/data-studio/",
+        "icon": "Data-Studio.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3281,9 +3293,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud DataPrep (Preview)",
+        "ref": "https://cloud.google.com/dataprep/",
+        "icon": "Cloud-Dataprep.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3544,20 +3556,20 @@
     "azure": [
       {
         "name": "Azure Machine Learning",
-        "ref": "",
+        "ref": "https://studio.azureml.net/",
         "icon": "Azure Machine Learning.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
       {
-        "name": "Cloud DataLab (Preview)",
+        "name": "Cloud DataLab",
         "ref": "",
         "icon": "Cloud-Datalab.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Cloud Machine Learning Services (Preview)",
+        "name": "Cloud Machine Learning Services",
         "ref": "",
         "icon": "Cloud-Machine-Learning.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -3938,9 +3950,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "App Engine",
+        "ref": "https://cloud.google.com/appengine/",
+        "icon": "App-Engine.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4617,9 +4629,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud IoT Core",
+        "ref": "https://cloud.google.com/iot-core/",
+        "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
