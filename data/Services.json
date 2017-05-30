@@ -68,7 +68,7 @@
     },
     "aws": [
       {
-        "name": "Amazon EC2 Container Registry(Preview)",
+        "name": "Amazon EC2 Container Registry(Preview) ",
         "ref": "https://aws.amazon.com/ecr/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
