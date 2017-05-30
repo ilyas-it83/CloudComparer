@@ -716,6 +716,12 @@
         "ref": "https://azure.microsoft.com/en-in/services/sql-database/",
         "icon": "Azure SQL Database.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure CosmosDB",
+        "ref": "https://azure.microsoft.com/en-in/services/cosmos-db/",
+        "icon": "Azure SQL Database.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
@@ -948,9 +954,9 @@
     ],
     "azure": [
       {
-        "name": "",
-        "ref": "#",
-        "icon": "none.png",
+        "name": "Azure Database Migration Service (Preview)",
+        "ref": "https://azure.microsoft.com/en-in/blog/azure-database-migration-service-announcement-at-build/",
+        "icon": "Microsoft Azure.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4656,6 +4662,12 @@
       {
         "name": "Azure IoT SDK",
         "ref": "",
+        "icon": "Azure SDK.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure IoT Edge",
+        "ref": "https://azure.microsoft.com/en-us/blog/microsoft-launches-azure-iot-technical-training-developers-can-start-quickly-with-iot/",
         "icon": "Azure SDK.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
