@@ -718,11 +718,29 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
+        "name": "SQL Server Stretch Database",
+        "ref": "https://azure.microsoft.com/en-us/services/sql-server-stretch-database/",
+        "icon": "Azure SQL Database.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
         "name": "Azure CosmosDB",
         "ref": "https://azure.microsoft.com/en-in/services/cosmos-db/",
         "icon": "Azure SQL Database.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      }
+      },
+      {
+        "name": "Azure Database for MySQL",
+        "ref": "https://azure.microsoft.com/en-us/services/mysql/",
+        "icon": "Azure SQL Database.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Database for PostgresSQL",
+        "ref": "https://azure.microsoft.com/en-us/services/postgresql/",
+        "icon": "Azure SQL Database.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
     ],
     "google": [
       {
@@ -794,8 +812,14 @@
     ],
     "azure": [
       {
-        "name": "Azure DocumentDB",
-        "ref": "https://azure.microsoft.com/en-in/services/documentdb/",
+        "name": "Azure CosmosDB",
+        "ref": "https://docs.microsoft.com/en-us/azure/cosmos-db/",
+        "icon": "Azure DocumentDB.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+       {
+        "name": "Azure Time Series Insights",
+        "ref": "https://azure.microsoft.com/en-us/services/time-series-insights/",
         "icon": "Azure DocumentDB.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3335,6 +3359,12 @@
       }
     ],
     "azure": [
+      {
+        "name": "Azure Bot Service",
+        "ref": "https://azure.microsoft.com/en-us/services/bot-service/",
+        "icon": "Azure Cognative Services - Speech_COLOR.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
       {
         "name": "Azure Speech Recognition API(Preview)",
         "ref": "https://azure.microsoft.com/en-in/services/cognitive-services/speech/",
