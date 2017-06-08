@@ -740,7 +740,7 @@
         "ref": "https://azure.microsoft.com/en-us/services/postgresql/",
         "icon": "Azure SQL Database.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
+      }
     ],
     "google": [
       {
