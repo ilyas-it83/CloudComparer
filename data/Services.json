@@ -62,13 +62,64 @@
       "ref": "http://#"
     },
     "service": {
+      "name": "Bare Metal Server",
+      "ref": "http://#",
+      "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
+    },
+    "aws": [
+      {
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+      }
+    ],
+    "google": [
+     {
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "Bare Metal Servers",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/bare-metal-servers",
+        "icon": "virtual-server.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+       {
+        "name": "Compute-Bare Metal Cloud Service",
+        "ref": "https://cloud.oracle.com/en_US/bare-metal",
+        "icon": "compute.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Compute",
+      "ref": "http://#"
+    },
+    "service": {
       "name": "Container Registration Service",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
       {
-        "name": "Amazon EC2 Container Registry(Preview) ",
+        "name": "Amazon EC2 Container Registry",
         "ref": "https://aws.amazon.com/ecr/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -806,6 +857,12 @@
       {
         "name": "Amazon DynamoDB",
         "ref": "https://aws.amazon.com/dynamodb/",
+        "icon": "Database_AmazonDynamoDB.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon DynamoDB Accelerator (DAX)",
+        "ref": "https://aws.amazon.com/dynamodb/dax/",
         "icon": "Database_AmazonDynamoDB.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1595,6 +1652,12 @@
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
+       {
+        "name": "AWS Code Star",
+        "ref": "https://aws.amazon.com/codestar/",
+        "icon": "Developer-Tools_AWSCodeCommit.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
       {
         "name": "AWS CodeCommit",
         "ref": "https://aws.amazon.com/codecommit/",
@@ -1620,7 +1683,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "AWS X-Ray (Preview)",
+        "name": "AWS X-Ray",
         "ref": "https://aws.amazon.com/xray/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -1637,7 +1700,7 @@
     ],
     "google": [
       {
-        "name": "Cloud Source Repositories (Preview)",
+        "name": "Cloud Source Repositories",
         "ref": "https://cloud.google.com/source-repositories/",
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -1802,13 +1865,7 @@
         "ref": "https://cloud.oracle.com/en_US/compute",
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Compute-Bare Metal Cloud Service",
-        "ref": "https://cloud.oracle.com/en_US/bare-metal",
-        "icon": "compute.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      }
+      }     
     ]
   },
   {
@@ -2154,7 +2211,7 @@
     ],
     "azure": [
       {
-        "name": "Azure Advisor(Preview)",
+        "name": "Azure Advisor",
         "ref": "https://azure.microsoft.com/en-in/services/advisor/",
         "icon": "Azure Security Center.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -2877,7 +2934,7 @@
     ],
     "azure": [
       {
-        "name": "Azure WAF (Preview)",
+        "name": "Azure WAF",
         "ref": "",
         "icon": "Firewall.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -3168,9 +3225,9 @@
     ],
     "oracle": [
       {
-        "name": "Event Hub",
-        "ref": "https://cloud.oracle.com/event-hub",
-        "icon": "",
+        "name": "Event Hub (Apache Kafka as a Service)",
+        "ref": "https://cloud.oracle.com/en_US/event-hub",
+        "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3317,7 +3374,7 @@
     ],
     "google": [
       {
-        "name": "Cloud DataPrep (Preview)",
+        "name": "Cloud DataPrep (Private Beta)",
         "ref": "https://cloud.google.com/dataprep/",
         "icon": "Cloud-Dataprep.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -3366,7 +3423,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Azure Speech Recognition API(Preview)",
+        "name": "Azure Speech Recognition API",
         "ref": "https://azure.microsoft.com/en-in/services/cognitive-services/speech/",
         "icon": "Azure Cognative Services - Speech_COLOR.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -3453,7 +3510,7 @@
     ],
     "azure": [
       {
-        "name": "Bing Speech API (Preview)",
+        "name": "Bing Speech API",
         "ref": "",
         "icon": "Azure Cognative Services - Speech_COLOR.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -3717,9 +3774,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "",
+        "name": "API Platform",
+        "ref": "https://cloud.oracle.com/en_US/api-platform",
+        "icon": "APIManager.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4675,9 +4732,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "",
+        "name": "Internet of Things Cloud Service",
+        "ref": "https://cloud.oracle.com/en_US/iot",
+        "icon": "InternetOfThings.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
