@@ -1092,8 +1092,14 @@
     ],
     "azure": [
       {
-        "name": "",
-        "ref": "#",
+        "name": "Site Recovery",
+        "ref": "https://docs.microsoft.com/azure/site-recovery/site-recovery-migrate-to-azure",
+        "icon": "Azure Site Recovery.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+	  {
+        "name": "Azure Websites Migration Assistant",
+        "ref": "https://azure.microsoft.com/en-us/downloads/migration-assistant/",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2262,9 +2268,15 @@
     ],
     "azure": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Azure Monitor",
+        "ref": "https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-azure-monitor",
+        "icon": "Azure monitor.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+	  {
+        "name": "Azure Mperations Management Suite (OMS)",
+        "ref": "https://www.microsoft.com/en-us/cloud-platform/operations-management-suite",
+        "icon": "Azure OMS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3416,6 +3428,12 @@
       }
     ],
     "azure": [
+	{
+        "name": "LUIS (Language Understanding Intelligent Service)",
+        "ref": "https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/",
+        "icon": "Azure Cognative Services - luis_COLOR.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
       {
         "name": "Azure Bot Service",
         "ref": "https://azure.microsoft.com/en-us/services/bot-service/",
