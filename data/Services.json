@@ -637,7 +637,7 @@
   },
   {
     "category": {
-      "name": "Compute",
+      "name": "Storage",
       "ref": "http://#"
     },
     "service": {
@@ -1576,7 +1576,7 @@
     "ibm": [
       {
         "name": "Direct Link",
-        "ref": "https://#",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/direct-link",
         "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1627,7 +1627,7 @@
     "ibm": [
       {
         "name": "Local Load Balancing",
-        "ref": "https://#",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/load-balancing",
         "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4484,9 +4484,9 @@
     },
     "aws": [
       {
-        "name": "Amazon SNS",
+        "name": "",
         "ref": "",
-        "icon": "Mobile-Services_AmazonSNS.png",
+        "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
