@@ -145,7 +145,7 @@
       {
         "name": "IBM Container Registry Archives",
         "ref": "https://www.ibm.com/blogs/bluemix/tag/ibm-container-registry/",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -153,7 +153,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -196,7 +196,7 @@
       {
         "name": "IBM Bluemix Container Service",
         "ref": "https://console.ng.bluemix.net/docs/containers/container_index.html",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -204,7 +204,7 @@
       {
         "name": "Container",
         "ref": "https://cloud.oracle.com/container",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -247,7 +247,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -255,7 +255,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -298,7 +298,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -306,7 +306,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -349,7 +349,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -357,7 +357,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -406,7 +406,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -469,7 +469,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -477,7 +477,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -571,7 +571,7 @@
       {
         "name": "Block Storage",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -622,7 +622,7 @@
       {
         "name": "File Storage",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -630,7 +630,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -673,7 +673,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -681,7 +681,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -724,7 +724,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -732,7 +732,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -957,7 +957,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -965,7 +965,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1067,7 +1067,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1116,7 +1116,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1124,7 +1124,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1167,7 +1167,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1175,7 +1175,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1218,7 +1218,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1226,7 +1226,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1269,7 +1269,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1277,7 +1277,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1320,7 +1320,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1328,7 +1328,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1371,7 +1371,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1379,7 +1379,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1423,7 +1423,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1431,7 +1431,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1482,7 +1482,7 @@
       {
         "name": "Dyn",
         "ref": "https://www.oracle.com/corporate/acquisitions/dyn/index.html",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1539,7 +1539,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1591,7 +1591,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1642,7 +1642,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1809,7 +1809,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1817,7 +1817,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1861,7 +1861,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1912,7 +1912,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1920,7 +1920,7 @@
       {
         "name": "Stack Manager",
         "ref": "https://docs.oracle.com/cloud/latest/stack-manager-cloud/index.html",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2012,7 +2012,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2070,7 +2070,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2078,7 +2078,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2133,7 +2133,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2141,7 +2141,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2184,7 +2184,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2192,7 +2192,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2235,7 +2235,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2243,7 +2243,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2292,7 +2292,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2300,7 +2300,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2373,7 +2373,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2381,7 +2381,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2424,7 +2424,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2432,7 +2432,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2481,7 +2481,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2489,7 +2489,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2538,7 +2538,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2546,7 +2546,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2589,7 +2589,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2597,7 +2597,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2640,7 +2640,7 @@
       {
         "name": "SSL Certificates",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2648,7 +2648,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2699,7 +2699,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2760,7 +2760,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2768,7 +2768,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2811,7 +2811,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2819,7 +2819,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2862,7 +2862,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2870,7 +2870,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2913,7 +2913,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2921,7 +2921,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2972,7 +2972,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3015,7 +3015,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3023,7 +3023,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3066,7 +3066,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3074,7 +3074,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3174,7 +3174,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3182,7 +3182,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3282,7 +3282,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3290,7 +3290,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3333,7 +3333,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3341,7 +3341,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3503,7 +3503,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3552,7 +3552,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3560,7 +3560,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3635,7 +3635,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3692,7 +3692,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3735,7 +3735,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3743,7 +3743,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3786,7 +3786,7 @@
       {
         "name": "API Connect",
         "ref": "https://console.ng.bluemix.net/catalog/services/api-connect/",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3829,7 +3829,7 @@
       {
         "name": "Firebase Authentication",
         "ref": "",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3837,7 +3837,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3888,7 +3888,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3896,7 +3896,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3945,7 +3945,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3953,7 +3953,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3996,7 +3996,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4004,7 +4004,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4065,7 +4065,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4073,7 +4073,7 @@
       {
         "name": "Functions",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4116,7 +4116,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4167,7 +4167,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4175,7 +4175,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4242,7 +4242,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4250,7 +4250,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4311,7 +4311,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4331,7 +4331,7 @@
       {
         "name": "Self-Service Automation",
         "ref": "",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4374,7 +4374,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4382,7 +4382,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4425,7 +4425,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4433,7 +4433,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4476,7 +4476,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4484,7 +4484,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4536,7 +4536,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4591,7 +4591,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4599,7 +4599,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4642,7 +4642,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4650,7 +4650,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4693,7 +4693,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4701,7 +4701,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4801,7 +4801,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4809,7 +4809,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4852,7 +4852,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4860,7 +4860,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4903,7 +4903,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4911,7 +4911,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4954,7 +4954,7 @@
       {
         "name": "To be Added",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4962,7 +4962,7 @@
       {
         "name": "",
         "ref": "https://#",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
