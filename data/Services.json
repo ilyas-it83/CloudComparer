@@ -182,6 +182,12 @@
         "ref": "https://azure.microsoft.com/en-in/services/container-service/",
         "icon": "Azure Container Service.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Container Instances",
+        "ref": "https://azure.microsoft.com/en-in/services/container-instances/",
+        "icon": "Azure Container Service.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
