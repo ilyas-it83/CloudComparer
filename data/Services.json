@@ -145,7 +145,7 @@
       {
         "name": "IBM Container Registry Archives",
         "ref": "https://www.ibm.com/blogs/bluemix/tag/ibm-container-registry/",
-        "icon": "none.png",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -202,7 +202,7 @@
       {
         "name": "IBM Bluemix Container Service",
         "ref": "https://console.ng.bluemix.net/docs/containers/container_index.html",
-        "icon": "none.png",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4069,9 +4069,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "OpenWhisk",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/openwhisk",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
