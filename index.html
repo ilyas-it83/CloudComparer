@@ -32,7 +32,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <style type="text/css" media="print">
+        @page {
+            size: auto;   /* auto is the initial value */
+            margin: 0;  /* this affects the margin in the printer settings */
+        }
+        </style>
 </head>
 
 <body>
@@ -63,19 +68,21 @@
                                     <button class="btn btn-info btn-lg" type="button">
                                         <i class="glyphicon glyphicon-search"></i>
                                     </button>
+                                   
                                 </span>
                             </div>
                         </div>
                     </div>
-
+                </div>
+                <div class="row table-responsive">
                     <table id="comparetable" class="blueshine table">
                         <thead>
                             <tr>
                                 <th>Cateogory</th>
                                 <th>Service</th>
-                                <th><img class="img-responsive" src='img/aws-logo128x128.png' alt='icon' /></th>
-                                <th><img class="img-responsive" src='img/Azure.png' alt='icon' /></th>
-                                <th><img class="img-responsive" src='img/gce.png' height="112" alt='icon' /></th>
+                                <th><img class="img-responsive" src='img/aws.png' alt='icon' /></th>
+                                <th><img class="img-responsive" src='img/msazure.png' alt='icon' /></th>
+                                <th><img class="img-responsive" src='img/google.png' height="112" alt='icon' /></th>
                                 <th><img class="img-responsive" src='img/ibm.png' height="112" alt='icon' /></th>
                                 <th><img class="img-responsive" src='img/oracle.png' height="112" alt='icon' /></th>
                             </tr>
@@ -275,13 +282,13 @@ s.setAttribute('data-timestamp', +new Date());
 			  {
 				 trHTML+='<td><ul>';
 				 for (var i in input) {
-				     trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon + '"  onerror="imgError(this);" alt="' + input[i].name + '" class="img-responsive" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link"  target="_blank"></a></li>';
+				     trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon + '"  onerror="imgError(this);" alt="' + input[i].name + '" class="img-responsive img-icons" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link"  target="_blank"></a></li>';
 				}
 				 trHTML+='</ul></td>';
 			  }
 			  else
 			  {
-			      trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon + '" onerror="imgError(this);" alt="' + input[0].name + '" class=" img-responsive" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link"  target="_blank"></a></td>';
+			      trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon + '" onerror="imgError(this);" alt="' + input[0].name + '" class="img-responsive img-icons" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link"  target="_blank"></a></td>';
 			  }
 			  return trHTML;
 	  }
