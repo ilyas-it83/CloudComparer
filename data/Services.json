@@ -251,9 +251,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "OpenWhisk",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/openwhisk",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -473,9 +473,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "OpenWhisk",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/openwhisk",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -577,7 +577,7 @@
       {
         "name": "Block Storage",
         "ref": "https://#",
-        "icon": "none.png",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -628,7 +628,7 @@
       {
         "name": "File Storage",
         "ref": "https://#",
-        "icon": "none.png",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4689,25 +4689,25 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud Launcher",
+        "ref": "https://cloud.google.com/launcher/",
+        "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "IBM Marketplace",
+        "ref": "https://www.ibm.com/bn-en/marketplace/cloud-platform",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Oracle Cloud Market Place",
+        "ref": "https://cloudmarketplace.oracle.com/marketplace/bmcs",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
