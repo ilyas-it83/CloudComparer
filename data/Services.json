@@ -302,9 +302,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Virtual servers",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/virtual-servers",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -410,9 +410,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Bluemix Cloud Foundry app runtimes",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/runtimes",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
