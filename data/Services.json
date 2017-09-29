@@ -227,25 +227,25 @@
     },
     "aws": [
       {
-        "name": "",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "AWS Lambda",
+        "ref": "https://aws.amazon.com/lambda/",
+        "icon": "Compute_AWSLambda.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "azure": [
       {
         "name": "Azure Service Fabric",
-        "ref": "http://#",
+        "ref": "https://azure.microsoft.com/en-in/services/service-fabric/",
         "icon": "Azure Service Fabric.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
       {
-        "name": "",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Google Cloud Functions",
+        "ref": "https://cloud.google.com/functions/",
+        "icon": "Cloud-Functions.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -259,9 +259,9 @@
     ],
     "oracle": [
       {
-        "name": "",
+        "name": "Oracle Functions",
         "ref": "https://#",
-        "icon": "none.png",
+        "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1877,7 +1877,7 @@
         "ref": "https://cloud.oracle.com/en_US/compute",
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      }     
+      }
     ]
   },
   {
