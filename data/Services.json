@@ -1383,9 +1383,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Oracle Virtual Network",
+        "ref": "https://cloud.oracle.com/networking",
+        "icon": "Cloud-Virtual-Network.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1435,9 +1435,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Oracle IPSec VPN",
+        "ref": "https://docs.us-phoenix-1.oraclecloud.com/Content/Network/Tasks/managingIPsec.htm",
+        "icon": "Cloud-Virtual-Network.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1646,9 +1646,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Oracle Load Balancer",
+        "ref": "https://docs.us-phoenix-1.oraclecloud.com/Content/Balance/Concepts/balanceoverview.htm",
+        "icon": "Cloud-Load-Balancing.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
