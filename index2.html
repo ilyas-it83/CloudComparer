@@ -36,24 +36,9 @@
 </head>
 
 <body>
+   
 
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1 class="logo" style="font-size: 65px; padding-left: 150px;"><span class="alt-logo">Public Cloud Services Comparison</span><a href="https://github.com/ilyas-it83/CloudComparer/issues"><img src="img/logo.png"  alt="Cloud Comparer" /></a></h1>
-            <h2>Last Updated on : 30-May-2017</h2>
-</div>
-</header>
-
- <script>
-// '.tbl-content' consumed little space for vertical scrollbar, scrollbar width depend on browser/os/platfrom. Here calculate the scollbar width .
-$(window).on("load resize ", function() {
-  var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
-  $('.tbl-header').css({'padding-right':scrollWidth});
-}).resize();
-</script>
 <style>
-
 h1{
   font-size: 30px;
   color: #fff;
@@ -70,7 +55,7 @@ table{
   background-color: rgba(255,255,255,0.3);
  }
 .tbl-content{
-  height:300px;
+  height:700px;
   overflow-x:auto;
   margin-top: 0px;
   border: 1px solid rgba(255,255,255,0.3);
@@ -103,7 +88,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 section{
-  margin: 50px;
+  margin: 0px;
 }
 
 /* for custom scrollbar for webkit browser*/
@@ -133,6 +118,7 @@ section{
       </thead>
     </table>
   </div>
+  
   <div class="tbl-content">
     <table cellpadding="0" cellspacing="0" border="0">
       <tbody>
@@ -171,8 +157,109 @@ section{
           <td>+2.01</td>
           <td>-0.36%</td>
         </tr>
-       
-      
+        <tr>
+          <td>AAC</td>
+          <td>AUSTRALIAN COMPANY </td>
+          <td>$1.38</td>
+          <td>+2.01</td>
+          <td>-0.36%</td>
+        </tr>
+        <tr>
+          <td>AAD</td>
+          <td>AUSENCO</td>
+          <td>$2.38</td>
+          <td>-0.01</td>
+          <td>-1.36%</td>
+        </tr>
+        <tr>
+          <td>AAX</td>
+          <td>ADELAIDE</td>
+          <td>$3.22</td>
+          <td>+0.01</td>
+          <td>+1.36%</td>
+        </tr>
+        <tr>
+          <td>XXD</td>
+          <td>ADITYA BIRLA</td>
+          <td>$1.02</td>
+          <td>-1.01</td>
+          <td>+2.36%</td>
+        </tr>
+        <tr>
+          <td>AAC</td>
+          <td>AUSTRALIAN COMPANY </td>
+          <td>$1.38</td>
+          <td>+2.01</td>
+          <td>-0.36%</td>
+        </tr> <tr>
+          <td>AAC</td>
+          <td>AUSTRALIAN COMPANY </td>
+          <td>$1.38</td>
+          <td>+2.01</td>
+          <td>-0.36%</td>
+        </tr>
+        <tr>
+          <td>AAD</td>
+          <td>AUSENCO</td>
+          <td>$2.38</td>
+          <td>-0.01</td>
+          <td>-1.36%</td>
+        </tr>
+        <tr>
+          <td>AAX</td>
+          <td>ADELAIDE</td>
+          <td>$3.22</td>
+          <td>+0.01</td>
+          <td>+1.36%</td>
+        </tr>
+        <tr>
+          <td>XXD</td>
+          <td>ADITYA BIRLA</td>
+          <td>$1.02</td>
+          <td>-1.01</td>
+          <td>+2.36%</td>
+        </tr>
+        <tr>
+          <td>AAC</td>
+          <td>AUSTRALIAN COMPANY </td>
+          <td>$1.38</td>
+          <td>+2.01</td>
+          <td>-0.36%</td>
+        </tr> <tr>
+          <td>AAC</td>
+          <td>AUSTRALIAN COMPANY </td>
+          <td>$1.38</td>
+          <td>+2.01</td>
+          <td>-0.36%</td>
+        </tr>
+        <tr>
+          <td>AAD</td>
+          <td>AUSENCO</td>
+          <td>$2.38</td>
+          <td>-0.01</td>
+          <td>-1.36%</td>
+        </tr>
+        <tr>
+          <td>AAX</td>
+          <td>ADELAIDE</td>
+          <td>$3.22</td>
+          <td>+0.01</td>
+          <td>+1.36%</td>
+        </tr>
+        <tr>
+          <td>XXD</td>
+          <td>ADITYA BIRLA</td>
+          <td>$1.02</td>
+          <td>-1.01</td>
+          <td>+2.36%</td>
+        </tr>
+        <tr>
+          <td>AAC</td>
+          <td>AUSTRALIAN COMPANY </td>
+          <td>$1.38</td>
+          <td>+2.01</td>
+          <td>-0.36%</td>
+        </tr>
         <tr>
           <td>AAC</td>
           <td>AUSTRALIAN COMPANY </td>
@@ -210,10 +297,8 @@ section{
     <div class="container"  style="width:100%">
         <div class="row">
             <div class="col-lg-12 text-center">
-
                 <hr class="small">
                 <div class="row table-responsive">
-
                     <div class="col-md-12">
                         <div id="custom-search-input">
                             <div class="input-group col-md-12">
@@ -222,14 +307,13 @@ section{
                                     <button class="btn btn-info btn-lg" type="button">
                                         <i class="glyphicon glyphicon-search"></i>
                                     </button>
-                                   
                                 </span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row table-responsive">
-                    <table id="comparetable" class="blueshine table">
+                <div class="tbl-header">
+                    <table>
                         <thead>
                             <tr>
                                 <th>Cateogory</th>
@@ -241,7 +325,12 @@ section{
                                 <th><img class="img-responsive" src='img/oracle.png' height="112" alt='icon' /></th>
                             </tr>
                         </thead>
-
+                    </table>
+                </div>
+				
+				<div class="tbl-content">
+                    <table id="comparetable">
+                        
                     </table>
                 </div>
             </div>
@@ -250,10 +339,6 @@ section{
         </div>
 <!-- /.container -->
 </section>
-
-
-
-
 
     <!-- Disqus Comments -->
     <section id="portfolio" class="portfolio">
@@ -302,9 +387,6 @@ section{
                             </ul>
                         </div>
                     </div>
-
-
-
                 </div>
                 <!-- /.row (nested) -->
             </div>
@@ -354,6 +436,8 @@ section{
 
 <script>
 
+
+
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -402,11 +486,19 @@ s.setAttribute('data-timestamp', +new Date());
               trHTML += dataprocessor(value.oracle, 'oracle');
              // trHTML += '<tr><td></td><td>' + PropertyProcessor(value.service.Properties) + '</td><td>' + PropertyProcessor(value.aws[0].Properties) + '</td><td>' + PropertyProcessor(value.azure[0].Properties) +  '</td><td>' + PropertyProcessor(value.google[0].Properties) + '</td><td>' + PropertyProcessor(value.ibm[0].Properties) + '</td><td>' + PropertyProcessor(value.oracle[0].Properties) + '</td></tr>';
           });
-		$('#comparetable').append(trHTML);
+
+		  $('#comparetable').append(trHTML);
 		//AddAccordian();
 		RemoveEmptyAHref();
       });
       });
+
+	  
+// '.tbl-content' consumed little space for vertical scrollbar, scrollbar width depend on browser/os/platfrom. Here calculate the scollbar width .
+$(window).on("load resize ", function() {
+  var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+  $('.tbl-header').css({'padding-right':scrollWidth});
+}).resize();
 
       function RemoveEmptyAHref()
       {
@@ -447,7 +539,7 @@ s.setAttribute('data-timestamp', +new Date());
 			  return trHTML;
 	  }
 
-    // Table Rendering  
+      // Table Rendering  
 
 
 	  // Search function
@@ -469,23 +561,15 @@ s.setAttribute('data-timestamp', +new Date());
 	      });
 
           //ODD Even
-
 	      $("#comparetable tr:odd").addClass("odd");
 	      $("#comparetable tr:not(.odd)").hide();
 	      $("#comparetable tr:first-child").show();
-
 	      $("#comparetable tr.odd").click(function () {
 	          $(this).next("tr").toggle();
 	          $(this).find(".arrow").toggleClass("up");
 	      });
- 
 	      $("a[href='']").remove()
 	  }
-
-
-
-
-
 	  function imgError(image) {
 	      image.onerror = "";
 	      image.src = "https://ilyas-it83.github.io/CloudComparer/img/cloudproviders/gcp/none.png";
