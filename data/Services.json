@@ -1597,7 +1597,7 @@
       {
         "name": "FastConnect",
         "ref": "https://cloud.oracle.com/en_US/networking-classic/fastconnect/features",
-        "icon": "ibm.png",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1648,7 +1648,7 @@
       {
         "name": "Oracle Load Balancer",
         "ref": "https://docs.us-phoenix-1.oraclecloud.com/Content/Balance/Concepts/balanceoverview.htm",
-        "icon": "Cloud-Load-Balancing.png",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1873,9 +1873,9 @@
     ],
     "oracle": [
       {
-        "name": "Compute",
-        "ref": "https://cloud.oracle.com/en_US/compute",
-        "icon": "compute.png",
+        "name": "Oracle Management Cloud",
+        "ref": "https://cloud.oracle.com/management",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3345,9 +3345,15 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Data Visualization",
+        "ref": "https://cloud.oracle.com/en_US/data-visualization/features",
+        "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Business Intelligence",
+        "ref": "https://cloud.oracle.com/en_US/business-intelligence/features",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3747,9 +3753,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Mobile & Chatbots",
+        "ref": "https://cloud.oracle.com/en_US/mobile/features",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4332,12 +4338,6 @@
         "name": "Messaging",
         "ref": "https://cloud.oracle.com/messaging",
         "icon": "messaging.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Self-Service Automation",
-        "ref": "",
-        "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
