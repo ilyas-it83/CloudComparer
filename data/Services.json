@@ -809,7 +809,7 @@
       {
         "name": "Cloud Spanner",
         "ref": "https://cloud.google.com/spaner/",
-        "icon": "Cloud-SQL.png",
+        "icon": "Cloud-Spanner.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -891,7 +891,7 @@
       {
         "name": "Cloud Datastore",
         "ref": "https://cloud.google.com/datastore/",
-        "icon": "Cloud-Bigtable.png",
+        "icon": "Cloud-Datastore.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
