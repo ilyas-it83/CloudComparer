@@ -3676,6 +3676,17 @@
         "ref": "https://studio.azureml.net/",
         "icon": "Azure Machine Learning.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Machine Learning Workbench",
+        "ref": "https://docs.microsoft.com/en-in/azure/machine-learning/preview/quickstart-installation",
+        "icon": "Azure Machine Learning.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }, {
+        "name": "Azure Machine Learning Model Management",
+        "ref": "https://docs.microsoft.com/en-in/azure/machine-learning/preview/model-management-overview",
+        "icon": "Azure Machine Learning.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
