@@ -1385,7 +1385,7 @@
       {
         "name": "Oracle Virtual Network",
         "ref": "https://cloud.oracle.com/networking",
-        "icon": "Cloud-Virtual-Network.png",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1437,7 +1437,7 @@
       {
         "name": "Oracle IPSec VPN",
         "ref": "https://docs.us-phoenix-1.oraclecloud.com/Content/Network/Tasks/managingIPsec.htm",
-        "icon": "Cloud-Virtual-Network.png",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1488,7 +1488,7 @@
       {
         "name": "Dyn",
         "ref": "https://www.oracle.com/corporate/acquisitions/dyn/index.html",
-        "icon": "none.png",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1926,7 +1926,7 @@
       {
         "name": "Stack Manager",
         "ref": "https://docs.oracle.com/cloud/latest/stack-manager-cloud/index.html",
-        "icon": "none.png",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2550,9 +2550,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Identity",
+        "ref": "https://cloud.oracle.com/en_US/identity/features",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
