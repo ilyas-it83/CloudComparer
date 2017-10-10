@@ -1595,9 +1595,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "FastConnect",
+        "ref": "https://cloud.oracle.com/en_US/networking-classic/fastconnect/features",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
