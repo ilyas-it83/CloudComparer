@@ -1813,10 +1813,10 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "name": "Bluemix Plugin for Eclipse",
+        "ref": "https://console.bluemix.net/docs/manageapps/eclipsetools/eclipsetools.html#eclipsetools",
+        "icon": "ibm.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "oracle": [
@@ -2377,12 +2377,12 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "name": "Bluemix CLI",
+        "ref": "https://console.bluemix.net/docs/cli/index.html",
+        "icon": "ibm.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
-    ],
+   ],
     "oracle": [
       {
         "name": "",
@@ -2542,10 +2542,10 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "name": "Bluemix IAM",
+        "ref": "https://console.bluemix.net/docs/iam/iamusermanage.html#iamusermanage",
+        "icon": "ibm.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "oracle": [
@@ -2593,9 +2593,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Application Security on Cloud",
+        "ref": "https://console.bluemix.net/docs//services/ApplicationSecurityonCloud/index.html",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2645,8 +2645,8 @@
     "ibm": [
       {
         "name": "SSL Certificates",
-        "ref": "https://#",
-        "icon": "none.png",
+        "ref": "https://console.bluemix.net/docs//manageapps/secapps.html#ssl_certificate",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2969,7 +2969,7 @@
     "ibm": [
       {
         "name": "Hardware Firewall",
-        "ref": "https://#",
+        "ref": "http://knowledgelayer.softlayer.com/topic/firewall",
         "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3286,9 +3286,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Db2 Warehouse on Cloud",
+        "ref": "https://console.bluemix.net/docs//services/Db2whc/overview.html#overview",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3562,9 +3562,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Speech to Text",
+        "ref": "https://console.ng.bluemix.net/catalog/services/speech-to-text/",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3809,7 +3809,7 @@
       {
         "name": "API Connect",
         "ref": "https://console.ng.bluemix.net/catalog/services/api-connect/",
-        "icon": "none.png",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4188,8 +4188,8 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
+        "name": "API Connect",
+        "ref": "https://console.ng.bluemix.net/catalog/services/api-connect/",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4291,7 +4291,7 @@
     "aws": [
       {
         "name": "Amazon SQS",
-        "ref": "",
+        "ref": "https://aws.amazon.com/sqs/",
         "icon": "Application-Services_AmazonSQS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4468,7 +4468,7 @@
     "aws": [
       {
         "name": "Amazon SNS",
-        "ref": "",
+        "ref": "https://aws.amazon.com/sns",
         "icon": "Mobile-Services_AmazonSNS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4838,7 +4838,7 @@
     "aws": [
       {
         "name": "AWS Greengrass",
-        "ref": "",
+        "ref": "https://aws.amazon.com/greengrass/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4867,9 +4867,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Watson IoT Platform ",
+        "ref": "https://console.bluemix.net/docs/starters/IoT-starter/iot500.html#gettingstartedtemplate",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
