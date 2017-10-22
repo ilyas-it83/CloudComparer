@@ -148,20 +148,36 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
-/* Header */
+/* Header 
 
 .header {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    height: 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+*/
+/* To mantain the navbar at the bottom*/
+header {
+  width: 100%;
+  min-height:calc(100vh - 52px);
+}
 
+
+/* To mantain the navbar at the top once it is affixed */
+.affix {
+    top: 0;
+    width: 100%;
+  }
+
+/* Padding for a smoth affix */
+.affix + .container-fluid {
+  padding-top: 72px;
+}
 /* About */
 
 .about {
@@ -279,7 +295,7 @@ footer {
  
 .blank {background: none!important; border: none}
 .blueshine th {background-color: #b8cee2; font-size: 22px; color: #0c3053; text-align: center; font-weight: 600; text-shadow: 0 1px 0 #e0ecf7; border: 1px solid #9fb6c8;}
-.blueshine td {background-color: #f0f1f1; border: 1px solid #c8d6e2;} 
+/*.blueshine td {background-color: #f0f1f1; border: 1px solid #c8d6e2;} */
 .blueshine td.rowTitle {border-left: 4px solid #333}
 .blueshine td h1 {display: block;font-size: 2em;margin-top: 0.67em;margin-bottom: 0.67em;margin-left: 0;margin-right: 0;font-weight: bold;}
 

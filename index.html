@@ -8,7 +8,7 @@
     <META NAME="Title" CONTENT="A public Cloud Comparer : AWS vs Azure vs Google vs IBM vs Oracle">
     <META NAME="Keywords" CONTENT="AWS vs Azure vs Google vs IBM vs Oracle, AWS vs Azure, Azure vs Google">
     <META NAME="Description" CONTENT="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
-    <META NAME="Author" CONTENT="by Mohammed Ilyas">
+    <META NAME="Author" CONTENT="by Ilyas">
     <META NAME="Subject" CONTENT="A public Cloud Comparer : AWS vs Azure vs Google vs IBM vs Oracle">
     <META NAME="Language" CONTENT="English">
 
@@ -17,10 +17,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
@@ -34,27 +32,23 @@
     <![endif]-->
 
 </head>
-
 <body>
-
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1 class="logo" style="font-size: 65px; padding-left: 150px;"><span class="alt-logo">Public Cloud Services Comparison</span><a href="https://github.com/ilyas-it83/CloudComparer/issues"><img src="img/logo.png"  alt="Cloud Comparer" /></a></h1>
-            <h2>Last Updated on : 30-May-2017</h2>
+            <h2>Last Updated on : 01-Oct-2017</h2>
 <!--<table width="100%"><tr><td></td><td align="center"><a href="#"><img src="img/logo.png"></a></td></tr></table>-->
 </div>
 </header>
 
  
 <section id="portfolio" class="portfolio">
-    <div class="container" style="width:100%">
+    <div class="container"  style="width:100%">
         <div class="row">
             <div class="col-lg-12 text-center">
-
                 <hr class="small">
                 <div class="row table-responsive">
-
                     <div class="col-md-12">
                         <div id="custom-search-input">
                             <div class="input-group col-md-12">
@@ -67,15 +61,16 @@
                             </div>
                         </div>
                     </div>
-
+                </div>
+                <div class="row table-responsive">
                     <table id="comparetable" class="blueshine table">
                         <thead>
                             <tr>
                                 <th>Cateogory</th>
                                 <th>Service</th>
-                                <th><img class="img-responsive" src='img/aws-logo128x128.png' alt='icon' /></th>
-                                <th><img class="img-responsive" src='img/Azure128x128.png' alt='icon' /></th>
-                                <th><img class="img-responsive" src='img/gce.png' height="112" alt='icon' /></th>
+                                <th><img class="img-responsive" src='img/aws.png' alt='icon' /></th>
+                                <th><img class="img-responsive" src='img/msazure.png' alt='icon' /></th>
+                                <th><img class="img-responsive" src='img/google.png' height="112" alt='icon' /></th>
                                 <th><img class="img-responsive" src='img/ibm.png' height="112" alt='icon' /></th>
                                 <th><img class="img-responsive" src='img/oracle.png' height="112" alt='icon' /></th>
                             </tr>
@@ -275,13 +270,13 @@ s.setAttribute('data-timestamp', +new Date());
 			  {
 				 trHTML+='<td><ul>';
 				 for (var i in input) {
-				     trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon + '"  onerror="imgError(this);" alt="' + input[i].name + '" class="img-responsive" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link"  target="_blank"></a></li>';
+				     trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon + '"  onerror="imgError(this);" alt="' + input[i].name + '" class="img-responsive img-icons" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link srvc-hyperlink"  target="_blank"></a></li>';
 				}
 				 trHTML+='</ul></td>';
 			  }
 			  else
 			  {
-			      trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon + '" onerror="imgError(this);" alt="' + input[0].name + '" class=" img-responsive" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link"  target="_blank"></a></td>';
+			      trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon + '" onerror="imgError(this);" alt="' + input[0].name + '" class="img-responsive img-icons" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link srvc-hyperlink"  target="_blank"></a></td>';
 			  }
 			  return trHTML;
 	  }
@@ -320,6 +315,8 @@ s.setAttribute('data-timestamp', +new Date());
  
 	      $("a[href='']").remove()
 	  }
+
+
 
 
 
@@ -402,6 +399,8 @@ s.setAttribute('data-timestamp', +new Date());
     }
     // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
+
+    
 </script>
     <script id="dsq-count-scr" src="//cloudcomparer.disqus.com/count.js" async></script>
     <script>

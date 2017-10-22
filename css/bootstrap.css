@@ -1140,6 +1140,7 @@ img {
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
+.img-icons{height: 15px; width: 15px;}
 .img-circle {
   border-radius: 50%;
 }
