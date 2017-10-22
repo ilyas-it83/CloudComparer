@@ -4586,8 +4586,8 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Dialogflow",
+        "ref": "https://dialogflow.com/",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
