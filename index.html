@@ -4,16 +4,14 @@
     <link rel="A public Cloud Comparer : AWS vs Azure vs Google vs IBM vs Oracle" type="image/x-icon" href="img/favicon.ico" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <META NAME="Title" CONTENT="A public Cloud Comparer : AWS vs Azure vs Google vs IBM vs Oracle">
     <META NAME="Keywords" CONTENT="AWS vs Azure vs Google vs IBM vs Oracle, AWS vs Azure, Azure vs Google">
     <META NAME="Description" CONTENT="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
     <META NAME="Author" CONTENT="by Ilyas">
-    <META NAME="Subject" CONTENT="A public Cloud Comparer : AWS vs Azure vs Google vs IBM vs Oracle">
+    <META NAME="Subject" CONTENT="A public Cloud Comparer : AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
     <META NAME="Language" CONTENT="English">
-
-
-    <title>AWS vs Azure vs Google Cloud | a detailed comparison and mapping between various cloud services</title>
+        
+    <title>AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba | a detailed comparison and mapping between various cloud services</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +28,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+   
 </head>
 <body>
     <!-- Header -->
@@ -42,7 +40,6 @@
 </div>
 </header>
 
- 
 <section id="portfolio" class="portfolio">
     <div class="container"  style="width:100%">
         <div class="row">
@@ -66,17 +63,25 @@
                     <table id="comparetable" class="blueshine table">
                         <thead>
                             <tr>
-                                <th>Cateogory</th>
-                                <th>Service</th>
-                                <th><img class="img-responsive" src='img/aws.png' alt='icon' /></th>
-                                <th><img class="img-responsive" src='img/msazure.png' alt='icon' /></th>
-                                <th><img class="img-responsive" src='img/google.png' height="112" alt='icon' /></th>
-                                <th><img class="img-responsive" src='img/ibm.png' height="112" alt='icon' /></th>
-                                <th><img class="img-responsive" src='img/oracle.png' height="112" alt='icon' /></th>
+                                <th width="8%">Cateogory</th>
+                                <th width="8%">Service</th>
+                                <th width="15%"><img class="img-responsive" src='img/aws.png' alt='icon' /></th>
+                                <th width="15%"><img class="img-responsive" src='img/msazure.png' alt='icon' /></th>
+                                <th width="15%"><img class="img-responsive" src='img/google.png' height="112" alt='icon' /></th>
+                                <th width="15%"><img class="img-responsive" src='img/ibm.png' height="112" alt='icon' /></th>
+                                <th width="15%"><img class="img-responsive" src='img/oracle.png' height="112" alt='icon' /></th>
+                                <th width="15%"><img class="img-responsive" src='img/alibaba.png' height="112" alt='icon' /></th>
                             </tr>
                         </thead>
-
                     </table>
+                    <div class="row">    
+                            <div class="col-xs-02" id="rss-aws"></div> 
+                            <div class="col-xs-02" id="rss-azure"></div>
+                            <div class="col-xs-02" id="rss-gcp"></div>
+                            <div class="col-xs-02" id="rss-ibm"></div>
+                            <div class="col-xs-02" id="rss-oracle"></div>
+                            <div class="col-xs-02" id="rss-alibaba"></div>
+                        </div>
                 </div>
             </div>
             <!-- /.col-lg-10 -->
@@ -84,10 +89,6 @@
         </div>
 <!-- /.container -->
 </section>
-
-
-
-
 
     <!-- Disqus Comments -->
     <section id="portfolio" class="portfolio">
@@ -136,9 +137,6 @@
                             </ul>
                         </div>
                     </div>
-
-
-
                 </div>
                 <!-- /.row (nested) -->
             </div>
@@ -209,10 +207,43 @@ s.setAttribute('data-timestamp', +new Date());
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+<script src="js/jquery.rss.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/1.4.5/jquery.floatThead-slim.js"></script>
+
+<script>
+    jQuery(function($) {
+      $("#rss-aws").rss("https://aws.amazon.com/new/feed/",
+      {
+        limit: 05,
+        effect: 'slideFastSynced',
+        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
+      })
+   
+      $("#rss-azure").rss("https://azure.microsoft.com/en-in/blog/topics/announcements/feed/",
+      {
+        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
+      })
+    
+      $("#rss-gcp").rss("http://googlecloudplatform.blogspot.com/atom.xml",
+      {
+        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
+      })
+    
+      $("#rss-ibm").rss("https://www.ibm.com/blogs/cloud-announcements/feed/",
+      {
+        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
+      })
+    
+      $("#rss-aws").rss("https://blogs.oracle.com/rss",
+      {
+        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
+      })
+    })
+  </script>
 
 <!-- Custom Theme JavaScript -->
 <script>
@@ -234,6 +265,7 @@ s.setAttribute('data-timestamp', +new Date());
               trHTML += dataprocessor(value.google,'gcp');
               trHTML += dataprocessor(value.ibm, 'ibm');
               trHTML += dataprocessor(value.oracle, 'oracle');
+              trHTML += dataprocessor(value.oracle, 'alibaba');
              // trHTML += '<tr><td></td><td>' + PropertyProcessor(value.service.Properties) + '</td><td>' + PropertyProcessor(value.aws[0].Properties) + '</td><td>' + PropertyProcessor(value.azure[0].Properties) +  '</td><td>' + PropertyProcessor(value.google[0].Properties) + '</td><td>' + PropertyProcessor(value.ibm[0].Properties) + '</td><td>' + PropertyProcessor(value.oracle[0].Properties) + '</td></tr>';
           });
 		$('#comparetable').append(trHTML);
@@ -326,7 +358,12 @@ s.setAttribute('data-timestamp', +new Date());
 	      return true;
 	  }
 	 
-
+      jQuery(function($) {
+      $("#rss-feeds").rss("http://feeds.feedburner.com/premiumpixels",
+      {
+        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
+      })
+    })
     // Closes the sidebar menu
     $("#menu-close").click(function (e) {
         e.preventDefault();

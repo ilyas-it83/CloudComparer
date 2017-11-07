@@ -162,10 +162,6 @@ hr.small {
 }
 */
 /* To mantain the navbar at the bottom*/
-header {
-  width: 100%;
-  min-height:calc(100vh - 52px);
-}
 
 
 /* To mantain the navbar at the top once it is affixed */

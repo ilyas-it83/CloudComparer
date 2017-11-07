@@ -54,6 +54,14 @@
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba ECS",
+        "ref": "https://www.alibabacloud.com/product/ecs?spm=a3c0i.7911826.675768.dnavproductsa1.66c31103Zzl5y8",
+        "icon": "ecs.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
