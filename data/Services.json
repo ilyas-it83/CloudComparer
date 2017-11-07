@@ -113,6 +113,14 @@
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Bare Metal Servers",
+        "ref": "https://www.alibabacloud.com/product/ehpc?spm=a3c0i.7911826.675768.dnavproductsa7.66c31103p43kyz#overview",
+        "icon": "ehpc.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -162,6 +170,14 @@
         "name": "Oracle Container Registry",
         "ref": "https://container-registry.oracle.com/pls/apex/f?p=113:101",
         "icon": "compute.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba Container Registry Archives",
+        "ref": "https://www.alibabacloud.com/product/container-service?spm=a3c0i.164274.675768.dnavproductsa4.a5df410xHxiFA",
+        "icon": "ContainerServi.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -221,6 +237,14 @@
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba Bluemix Container Service",
+        "ref": "https://www.alibabacloud.com/product/container-service",
+        "icon": "ContainerServi.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -270,6 +294,14 @@
         "name": "Oracle Functions",
         "ref": "https://#",
         "icon": "compute.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Coming Soon",
+        "ref": "https://www.alibabacloud.com/",
+        "icon": "ecs.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -323,6 +355,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Coming soon",
+        "ref": "https://www.alibabacloud.com/product/vpc",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -368,6 +408,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -429,6 +477,14 @@
         "name": "Application Container Cloud",
         "ref": "https://cloud.oracle.com/acc",
         "icon": "applicationcontainer.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -494,6 +550,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -543,6 +607,14 @@
         "name": "Object Storage",
         "ref": "https://cloud.oracle.com/storage",
         "icon": "storage.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Object Storage Service",
+        "ref": "https://www.alibabacloud.com/product/oss",
+        "icon": "OSS.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -596,6 +668,14 @@
         "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Block Storage",
+        "ref": "https://#",
+        "icon": "OSS.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -645,6 +725,14 @@
         "name": "",
         "ref": "https://#",
         "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "NAS File Storage",
+        "ref": "https://www.alibabacloud.com/product/nas",
+        "icon": "nas.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -699,6 +787,15 @@
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
+    ,
+    "alibaba": [
+      {
+        "name": "Object Storage Archive",
+        "ref": "https://www.alibabacloud.com/product/oss",
+        "icon": "OSS.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
   },
   {
     "category": {
@@ -743,6 +840,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -854,6 +959,26 @@
         "icon": "database.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "ApsaraDB for RDS MYSQL",
+        "ref": "https://www.alibabacloud.com/product/apsaradb-for-rds/",
+        "icon": "rds.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "ApsaraDB for RDS SQL Server",
+        "ref": "https://www.alibabacloud.com/product/apsaradb-for-rds/",
+        "icon": "rds.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "ApsaraDB for RDS PostgreSQL",
+        "ref": "https://www.alibabacloud.com/product/apsaradb-for-rds/",
+        "icon": "rds.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -930,6 +1055,14 @@
         "icon": "NoSQL.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Apsaradb for Mongodb",
+        "ref": "https://www.alibabacloud.com/product/apsaradb-for-mongodb",
+        "icon": "rds.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -980,6 +1113,14 @@
         "name": "",
         "ref": "https://#",
         "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "ApsaraDB for Redis",
+        "ref": "https://www.alibabacloud.com/product/apsaradb-for-redis",
+        "icon": "redis.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1033,6 +1174,14 @@
         "icon": "database.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba MaxCompute ODPS",
+        "ref": "https://www.alibabacloud.com/product/maxcompute",
+        "icon": "MaxCompute.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1082,6 +1231,14 @@
         "name": "",
         "ref": "https://#",
         "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Data Transmission Service ",
+        "ref": "https://www.alibabacloud.com/product/data-transmission-service",
+        "icon": "dts.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1141,6 +1298,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1186,6 +1351,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -1243,6 +1416,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1288,6 +1469,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -1345,6 +1534,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1394,6 +1591,14 @@
         "name": "Oracle Virtual Network",
         "ref": "https://cloud.oracle.com/networking",
         "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Virtual Private Cloud",
+        "ref": "https://www.alibabacloud.com/product/vpc",
+        "icon": "vpc.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1448,6 +1653,14 @@
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1497,6 +1710,14 @@
         "name": "Dyn",
         "ref": "https://www.oracle.com/corporate/acquisitions/dyn/index.html",
         "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba Content Delivery Network",
+        "ref": "https://www.alibabacloud.com/product/cdn",
+        "icon": "cdn.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1556,6 +1777,14 @@
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba Cloud DNS",
+        "ref": "https://www.alibabacloud.com/product/dns",
+        "icon": "DNS.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -1608,6 +1837,14 @@
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba Express Connect",
+        "ref": "https://www.alibabacloud.com/product/express-connect",
+        "icon": "expressconnect.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1657,6 +1894,14 @@
         "name": "Oracle Load Balancer",
         "ref": "https://docs.us-phoenix-1.oraclecloud.com/Content/Balance/Concepts/balanceoverview.htm",
         "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Server Load Balancing",
+        "ref": "https://www.alibabacloud.com/product/server-load-balancer",
+        "icon": "SLB.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1765,6 +2010,14 @@
         "icon": "developer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1834,6 +2087,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -1886,6 +2147,14 @@
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -1935,6 +2204,14 @@
         "name": "Stack Manager",
         "ref": "https://docs.oracle.com/cloud/latest/stack-manager-cloud/index.html",
         "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Resource Orchestration Service",
+        "ref": "https://www.alibabacloud.com/product/ros",
+        "icon": "ros.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2043,6 +2320,14 @@
         "icon": "AppPerfMonitoring.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "CloudMonitor",
+        "ref": "https://www.alibabacloud.com/product/cloud-monitor",
+        "icon": "CloudMonitor.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -2093,6 +2378,14 @@
         "name": "",
         "ref": "https://#",
         "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba Log Service",
+        "ref": "https://www.alibabacloud.com/product/log-service",
+        "icon": "log-service.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2158,6 +2451,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Resource Orchestration Service ",
+        "ref": "https://www.alibabacloud.com/product/ros",
+        "icon": "ros.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2209,6 +2510,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2254,6 +2563,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -2315,6 +2632,14 @@
         "name": "",
         "ref": "https://#",
         "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Cloud monitoring, Notification and Alerts",
+        "ref": "https://www.alibabacloud.com/product/cloud-monitor",
+        "icon": "CloudMonitor.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2398,6 +2723,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2443,6 +2776,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -2506,6 +2847,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba Disaster Recovery",
+        "ref": "https://www.alibabacloud.com/solutions/hosting/Disaster-Recovery",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2563,6 +2912,14 @@
         "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Resource Access Management        ",
+        "ref": "https://www.alibabacloud.com/product/ram",
+        "icon": "ram.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2608,6 +2965,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -2665,6 +3030,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "SSL Certificates",
+        "ref": "https://www.alibabacloud.com/product/certificates",
+        "icon": "SSL.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2714,6 +3087,14 @@
         "name": "",
         "ref": "https://#",
         "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Key Management Service",
+        "ref": "https://www.alibabacloud.com/product/key-management-service",
+        "icon": "ram.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2785,6 +3166,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2836,6 +3225,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Key Management Service ",
+        "ref": "https://www.alibabacloud.com/product/key-management-service",
+        "icon": "KMS.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2881,6 +3278,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -2938,6 +3343,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "DDOS Pro and Basic",
+        "ref": "https://www.alibabacloud.com/product/ddos-pro",
+        "icon": "ddos.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -2987,6 +3400,14 @@
         "name": "",
         "ref": "https://#",
         "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Web Application Firewall",
+        "ref": "https://www.alibabacloud.com/product/waf",
+        "icon": "waf.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3040,6 +3461,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba Truster Center ",
+        "ref": "https://www.alibabacloud.com/trust-center",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3089,6 +3518,14 @@
         "name": "",
         "ref": "https://#",
         "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "E-MapReduce Service",
+        "ref": "https://www.alibabacloud.com/product/e-mapreduce",
+        "icon": "emr.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3142,6 +3579,14 @@
         "icon": "bigdata.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "E-MapReduce Service",
+        "ref": "https://www.alibabacloud.com/product/e-mapreduce",
+        "icon": "emr.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3193,6 +3638,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -3256,6 +3709,14 @@
         "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3305,6 +3766,14 @@
         "name": "",
         "ref": "https://#",
         "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba MaxCompute ODPS",
+        "ref": "https://www.alibabacloud.com/product/maxcompute",
+        "icon": "MaxCompute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3362,6 +3831,14 @@
         "name": "Business Intelligence",
         "ref": "https://cloud.oracle.com/en_US/business-intelligence/features",
         "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Data IDE",
+        "ref": "https://www.alibabacloud.com/product/ide",
+        "icon": "IDE.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3425,6 +3902,14 @@
         "name": "Data Integrator",
         "ref": "https://cloud.oracle.com/en_US/data-integrator",
         "icon": "integration.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3526,6 +4011,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3577,6 +4070,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -3658,6 +4159,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3726,6 +4235,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3775,6 +4292,14 @@
         "name": "Mobile & Chatbots",
         "ref": "https://cloud.oracle.com/en_US/mobile/features",
         "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3828,6 +4353,14 @@
         "icon": "APIManager.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "API Gateway",
+        "ref": "https://www.alibabacloud.com/product/api-gateway",
+        "icon": "API.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3879,6 +4412,14 @@
         "icon": "mobile.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -3924,6 +4465,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -3987,6 +4536,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -4032,6 +4589,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -4107,6 +4672,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -4158,6 +4731,14 @@
         "icon": "mobile.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -4203,6 +4784,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -4284,6 +4873,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "ApsaraVideo Live",
+        "ref": "https://www.alibabacloud.com/product/apsaravideo-for-live",
+        "icon": "video.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -4359,6 +4956,14 @@
         "icon": "messaging.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -4410,6 +5015,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Direct Mail",
+        "ref": "https://www.alibabacloud.com/product/directmail",
+        "icon": "directmail.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -4455,6 +5068,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -4512,6 +5133,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Blockchain",
+        "ref": "https://console.ng.bluemix.net/catalog/services/blockchain/",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
 
@@ -4564,6 +5193,14 @@
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -4613,6 +5250,14 @@
         "name": "Oracle Chatbots",
         "ref": "https://cloud.oracle.com/en_US/blockchain",
         "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4678,6 +5323,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -4723,6 +5376,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -4780,6 +5441,14 @@
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "Alibaba Cloud Marketplace",
+        "ref": "https://www.alibabacloud.com/marketplace",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -4829,6 +5498,14 @@
         "name": "Internet of Things Cloud Service",
         "ref": "https://cloud.oracle.com/en_US/iot",
         "icon": "InternetOfThings.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Internet of Things",
+        "ref": "https://www.alibabacloud.com/solutions/IoT/",
+        "icon": "iot.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4888,6 +5565,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -4933,6 +5618,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
@@ -4990,6 +5683,14 @@
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -5035,6 +5736,14 @@
       }
     ],
     "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
       {
         "name": "",
         "ref": "https://#",
