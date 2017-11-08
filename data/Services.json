@@ -284,8 +284,8 @@
     "ibm": [
       {
         "name": "IBM Cloud Functions",
-        "ref": "https://www.ibm.com/cloud-computing/bluemix/openwhisk",
-        "icon": "ibmcloud_logo.png",
+        "ref": "https://www.ibm.com/cloud/functions",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -537,9 +537,9 @@
     ],
     "ibm": [
       {
-        "name": "OpenWhisk",
-        "ref": "https://www.ibm.com/cloud-computing/bluemix/openwhisk",
-        "icon": "ibm.png",
+        "name": "IBM Cloud Functions",
+        "ref": "https://www.ibm.com/cloud/functions",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2193,9 +2193,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "IBM Cloud Schematics",
+        "ref": "https://www.ibm.com/cloud/schematics",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
