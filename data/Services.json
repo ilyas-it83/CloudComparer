@@ -2195,7 +2195,7 @@
       {
         "name": "IBM Cloud Schematics",
         "ref": "https://www.ibm.com/cloud/schematics",
-        "icon": "ibmcloud.png",
+        "icon": "schematics_icon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
