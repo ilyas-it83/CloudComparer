@@ -283,9 +283,9 @@
     ],
     "ibm": [
       {
-        "name": "OpenWhisk",
+        "name": "IBM Cloud Functions",
         "ref": "https://www.ibm.com/cloud-computing/bluemix/openwhisk",
-        "icon": "ibm.png",
+        "icon": "ibmcloud_logo.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
