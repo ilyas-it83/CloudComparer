@@ -285,7 +285,7 @@
       {
         "name": "IBM Cloud Functions",
         "ref": "https://www.ibm.com/cloud/functions",
-        "icon": "ibmcloud.png",
+        "icon": "ibm-cloud-functions.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -539,7 +539,7 @@
       {
         "name": "IBM Cloud Functions",
         "ref": "https://www.ibm.com/cloud/functions",
-        "icon": "ibmcloud.png",
+        "icon": "ibm-cloud-functions.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4661,7 +4661,7 @@
       {
         "name": "IBM Cloud Functions",
         "ref": "https://www.ibm.com/cloud/functions",
-        "icon": "ibmcloud.png",
+        "icon": "ibm-cloud-functions.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
