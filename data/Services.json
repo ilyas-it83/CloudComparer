@@ -393,9 +393,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Preemptible VMs",
+        "ref": "https://cloud.google.com/preemptible-vms/",
+        "icon": "Compute-Engine.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -5231,8 +5231,8 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Dialogflow",
+        "ref": "https://dialogflow.com/",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
