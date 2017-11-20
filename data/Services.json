@@ -2680,6 +2680,12 @@
         "ref": "",
         "icon": "Azure Management Portal.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Cloud Shell",
+        "ref": "https://azure.microsoft.com/en-us/features/cloud-shell/",
+        "icon": "Azure Management Portal.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
@@ -3958,12 +3964,6 @@
         "ref": "https://cloud.google.com/natural-language/",
         "icon": "Natural-Language-API.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Dialogflow",
-        "ref": "https://cloud.google.com/dialogflow-enterprise/",
-        "icon": "Google-Cloud-Platform.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
@@ -4136,12 +4136,6 @@
         "ref": "",
         "icon": "Vision-API.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Cloud Video Intelligence API",
-        "ref": "https://cloud.google.com/video-intelligence/",
-        "icon": "Vision-API.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
@@ -4226,7 +4220,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Cloud Machine Learning Engine",
+        "name": "Cloud Machine Learning Services",
         "ref": "",
         "icon": "Cloud-Machine-Learning.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -4344,32 +4338,8 @@
     ],
     "google": [
       {
-        "name": "Apigee API Platform",
-        "ref": "https://cloud.google.com/apigee-api-management/",
-        "icon": "Cloud-Endpoints.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Api monitization",
-        "ref": "https://cloud.google.com/api-monetization/",
-        "icon": "Cloud-Endpoints.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "API Analytics",
-        "ref": "https://cloud.google.com/api-analytics/",
-        "icon": "Cloud-Endpoints.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Apigee Sense",
-        "ref": "https://cloud.google.com/apigee-sense/",
-        "icon": "Cloud-Endpoints.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
         "name": "Cloud Endpoints",
-        "ref": "https://cloud.google.com/endpoints/",
+        "ref": "",
         "icon": "Cloud-Endpoints.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4765,65 +4735,6 @@
         "name": "Mobile Cloud Service",
         "ref": "https://cloud.oracle.com/mobile",
         "icon": "mobile.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      }
-    ],
-    "alibaba": [
-      {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      }
-    ]
-  },
-  {
-    "category": {
-      "name": "Mobile Services",
-      "ref": ""
-    },
-    "service": {
-      "name": "Mobile Device Management",
-      "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-    },
-    "aws": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      }
-    ],
-    "azure": [
-      {
-        "name": "Microsoft Intune",
-        "ref": "https://www.microsoft.com/en-in/cloud-platform/microsoft-intune",
-        "icon": "Microsoft Azure.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      }
-    ],
-    "google": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      }
-    ],
-    "ibm": [
-      {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      }
-    ],
-    "oracle": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
