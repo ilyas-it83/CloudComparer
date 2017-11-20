@@ -3958,6 +3958,12 @@
         "ref": "https://cloud.google.com/natural-language/",
         "icon": "Natural-Language-API.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Dialogflow",
+        "ref": "https://cloud.google.com/dialogflow-enterprise/",
+        "icon": "Google-Cloud-Platform.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
@@ -4130,6 +4136,12 @@
         "ref": "",
         "icon": "Vision-API.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Video Intelligence API",
+        "ref": "https://cloud.google.com/video-intelligence/",
+        "icon": "Vision-API.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
@@ -4214,7 +4226,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Cloud Machine Learning Services",
+        "name": "Cloud Machine Learning Engine",
         "ref": "",
         "icon": "Cloud-Machine-Learning.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -4332,8 +4344,32 @@
     ],
     "google": [
       {
+        "name": "Apigee API Platform",
+        "ref": "https://cloud.google.com/apigee-api-management/",
+        "icon": "Cloud-Endpoints.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Api monitization",
+        "ref": "https://cloud.google.com/api-monetization/",
+        "icon": "Cloud-Endpoints.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "API Analytics",
+        "ref": "https://cloud.google.com/api-analytics/",
+        "icon": "Cloud-Endpoints.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Apigee Sense",
+        "ref": "https://cloud.google.com/apigee-sense/",
+        "icon": "Cloud-Endpoints.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
         "name": "Cloud Endpoints",
-        "ref": "",
+        "ref": "https://cloud.google.com/endpoints/",
         "icon": "Cloud-Endpoints.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
