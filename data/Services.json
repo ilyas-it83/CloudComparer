@@ -271,6 +271,12 @@
         "ref": "https://azure.microsoft.com/en-in/services/service-fabric/",
         "icon": "Azure Service Fabric.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Functions",
+        "ref": "https://azure.microsoft.com/en-in/services/functions/",
+        "icon": "Azure Functions.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
