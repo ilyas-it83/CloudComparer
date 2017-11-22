@@ -1746,12 +1746,6 @@
         "ref": "https://azure.microsoft.com/en-in/services/dns/",
         "icon": "Azure DNS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Azure Traffic Manager",
-        "ref": "https://azure.microsoft.com/en-in/services/traffic-manager/",
-        "icon": "Azure Traffic Manager.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
@@ -1787,7 +1781,65 @@
       }
     ]
   },
-
+ {
+    "category": {
+      "name": "Networking",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Global Traffic Management",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "Amazon Route 53 Traffic Flow",
+        "ref": "https://aws.amazon.com/blogs/aws/new-route-53-traffic-flow/",
+        "icon": "Networking_AmazonRoute53.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure Traffic Manager",
+        "ref": "https://azure.microsoft.com/en-in/services/traffic-manager/",
+        "icon": "Azure Traffic Manager.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "#",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
   {
     "category": {
       "name": "Networking & Content Delivery",
