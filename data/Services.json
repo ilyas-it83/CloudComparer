@@ -1277,7 +1277,7 @@
 	  {
         "name": "Azure Websites Migration Assistant",
         "ref": "https://azure.microsoft.com/en-us/downloads/migration-assistant/",
-        "icon": "none.png",
+        "icon": "Microsoft Azure.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2728,7 +2728,13 @@
     ],
     "azure": [
       {
-        "name": "Azure Command Line Interface Azure Powershell",
+        "name": "Azure Command Line Interface",
+        "ref": "",
+        "icon": "Microsoft Azure.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Powershell",
         "ref": "",
         "icon": "Microsoft Azure.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -5543,7 +5549,7 @@
     ],
     "google": [
       {
-        "name": "Cloud IoT Core",
+        "name": "Cloud IoT Core(Beta)",
         "ref": "https://cloud.google.com/iot-core/",
         "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
