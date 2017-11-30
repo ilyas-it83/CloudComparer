@@ -204,7 +204,7 @@
         "ref": "https://aws.amazon.com/eks/",
         "icon": "Compute_AmazonECS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      }, 
+      }
     ],
     "azure": [
       {
