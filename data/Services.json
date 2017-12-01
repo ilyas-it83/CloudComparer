@@ -198,6 +198,12 @@
         "ref": "https://aws.amazon.com/ecs/",
         "icon": "Compute_AmazonECS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }, 
+      {
+        "name": "Amazon Elastic Container Service for Kubernetes",
+        "ref": "https://aws.amazon.com/eks/",
+        "icon": "Compute_AmazonECS.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "azure": [
@@ -1460,9 +1466,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "#",
-        "icon": "none.png",
+        "name": "Transfer Appliance (Beta)",
+        "ref": "https://cloud.google.com/transfer-appliance/",
+        "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1503,7 +1509,7 @@
     },
     "aws": [
       {
-        "name": "AWS Snowball Edge",
+        "name": "AWS Snowmobile",
         "ref": "https://aws.amazon.com/snowmobile/",
         "icon": "Storage-Content-Delivery_AWSImportExportSnowball.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -1519,9 +1525,9 @@
     ],
     "google": [
       {
-        "name": "Transfer Appliance (Beta)",
-        "ref": "https://cloud.google.com/transfer-appliance/",
-        "icon": "Generic-GCP.png",
+        "name": "",
+        "ref": "#",
+        "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
