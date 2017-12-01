@@ -1016,6 +1016,12 @@
         "ref": "https://aws.amazon.com/dynamodb/dax/",
         "icon": "Database_AmazonDynamoDB.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Neptune (Preview)",
+        "ref": "https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-neptune-fast-reliable-graph-database-built-for-the-cloud/",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "azure": [
@@ -1980,7 +1986,12 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "aws": [
+    "aws": [{
+      "name": "AWS Cloud9",
+      "ref": "https://aws.amazon.com/cloud9/",
+      "icon": "aws.png",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
        {
         "name": "AWS Code Star",
         "ref": "https://aws.amazon.com/codestar/",
