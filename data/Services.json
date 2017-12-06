@@ -200,7 +200,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }, 
       {
-        "name": "Amazon Elastic Container Service for Kubernetes",
+        "name": "Amazon Elastic Container Service for Kubernetes(EKS)",
         "ref": "https://aws.amazon.com/eks/",
         "icon": "Compute_AmazonECS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -208,7 +208,7 @@
     ],
     "azure": [
       {
-        "name": "Azure Container Service",
+        "name": "Azure Container Service(AKS)",
         "ref": "https://azure.microsoft.com/en-in/services/container-service/",
         "icon": "Azure Container Service.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -1019,7 +1019,7 @@
       },
       {
         "name": "Amazon Neptune (Preview)",
-        "ref": "https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-neptune-fast-reliable-graph-database-built-for-the-cloud/",
+        "ref": "https://aws.amazon.com/neptune/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4017,7 +4017,14 @@
         "ref": "https://aws.amazon.com/lex/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Comprehend",
+        "ref": "https://aws.amazon.com/comprehend/",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "azure": [
 	{
@@ -4122,6 +4129,18 @@
       {
         "name": "Amazon Polly",
         "ref": "",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Transcribe",
+        "ref": "https://aws.amazon.com/transcribe/",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Translate",
+        "ref": "https://aws.amazon.com/translate/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4270,6 +4289,12 @@
       {
         "name": "Amazon Machine Learning",
         "ref": "",
+        "icon": "Analytics_AmazonMachineLearning.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Sage​Maker",
+        "ref": "https://aws.amazon.com/sagemaker/",
         "icon": "Analytics_AmazonMachineLearning.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
