@@ -933,7 +933,7 @@
       },
       {
         "name": "Cloud Spanner",
-        "ref": "https://cloud.google.com/spaner/",
+        "ref": "https://cloud.google.com/spanner/",
         "icon": "Cloud-Spanner.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
