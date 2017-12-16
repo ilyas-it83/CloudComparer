@@ -202,7 +202,12 @@ s.setAttribute('data-timestamp', +new Date());
 <script src="js/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
 <script src="js/jquery.rss.min.js"></script>
-
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.4/jquery.lazy.min.js"></script>
+<script>
+    $(function() {
+        $('.img-icons').lazy();
+    });
+</script>
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/1.4.5/jquery.floatThead-slim.js"></script>
