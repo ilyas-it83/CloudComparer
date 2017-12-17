@@ -314,22 +314,12 @@ s.setAttribute('data-timestamp', +new Date());
 	      $("a[href='']").remove()
 	  }
 
-
-
-
-
 	  function imgError(image) {
 	      image.onerror = "";
 	      image.src = "https://ilyas-it83.github.io/CloudComparer/img/cloudproviders/gcp/none.png";
 	      return true;
 	  }
-	 
-      jQuery(function($) {
-      $("#rss-feeds").rss("http://feeds.feedburner.com/premiumpixels",
-      {
-        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
-      })
-    })
+    
     // Closes the sidebar menu
     $("#menu-close").click(function (e) {
         e.preventDefault();
