@@ -66,15 +66,20 @@
                                 <th width="15%"><img class="img-responsive" src='img/logo/alibaba.png' height="112" alt='icon' /></th>
                             </tr>
                         </thead>
+                        <tr>
+                            <td width="16%" colspan="2">Latest Updates</th>
+                            <td width="15%">
+                                <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57947/"></script> <!-- end feedwind code -->
+                            </td>
+                            <td width="15%">
+                                <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57946/"></script> <!-- end feedwind code --></td>
+                            <td width="15%">
+                            <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57941/"></script> <!-- end feedwind code --></td>
+                            <td width="15%"><!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57948/"></script> <!-- end feedwind code --></td>
+                            <td width="15%"><!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57950/"></script> <!-- end feedwind code --></td>
+                            <td width="15%"></td>
+                        </tr>
                     </table>
-                    <div class="row">    
-                            <div class="col-xs-02" id="rss-aws"></div> 
-                            <div class="col-xs-02" id="rss-azure"></div>
-                            <div class="col-xs-02" id="rss-gcp"></div>
-                            <div class="col-xs-02" id="rss-ibm"></div>
-                            <div class="col-xs-02" id="rss-oracle"></div>
-                            <div class="col-xs-02" id="rss-alibaba"></div>
-                        </div>
                 </div>
             </div>
             <!-- /.col-lg-10 -->
@@ -211,43 +216,8 @@ s.setAttribute('data-timestamp', +new Date());
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/1.4.5/jquery.floatThead-slim.js"></script>
-
-<script>
-    jQuery(function($) {
-      $("#rss-aws").rss("https://aws.amazon.com/new/feed/",
-      {
-        limit: 05,
-        effect: 'slideFastSynced',
-        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
-      })
-   
-      $("#rss-azure").rss("https://azure.microsoft.com/en-in/blog/topics/announcements/feed/",
-      {
-        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
-      })
-    
-      $("#rss-gcp").rss("http://googlecloudplatform.blogspot.com/atom.xml",
-      {
-        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
-      })
-    
-      $("#rss-ibm").rss("https://www.ibm.com/blogs/cloud-announcements/feed/",
-      {
-        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
-      })
-    
-      $("#rss-aws").rss("https://blogs.oracle.com/rss",
-      {
-        entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
-      })
-    })
-  </script>
-
 <!-- Custom Theme JavaScript -->
 <script>
-
-   
-
     // Table Rendering
       $(document).ready(function(){
       var trHTML = '';
