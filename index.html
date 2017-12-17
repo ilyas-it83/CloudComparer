@@ -225,9 +225,8 @@ s.setAttribute('data-timestamp', +new Date());
       $(document).ready(function(){
       var trHTML = '';
 
-      $.getJSON('data/Services.json', function (Json) {
-
-      // $.getJSON('https://raw.githubusercontent.com/BlueCodersDev/CloudComparer/master/data/Services.json', function (Json) {
+      //$.getJSON('data/Services.json', function (Json) {
+      $.getJSON('https://raw.githubusercontent.com/BlueCodersDev/CloudComparer/master/data/Services.json', function (Json) {
       //$.getJSON('Data/Services.json', function (Json) {
 		$.each(Json, function (key, value) {
               trHTML += '<tr><td><b>' + value.category.name + '</b></td>';
