@@ -5254,9 +5254,9 @@
     ],
     "alibaba": [
       {
-        "name": "Blockchain",
-        "ref": "https://console.ng.bluemix.net/catalog/services/blockchain/",
-        "icon": "alibaba.png",
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5314,10 +5314,10 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "name": "Blockchain",
+        "ref": "https://console.ng.bluemix.net/catalog/services/blockchain/",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
