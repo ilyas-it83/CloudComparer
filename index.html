@@ -229,7 +229,6 @@ s.setAttribute('data-timestamp', +new Date());
 
        $.getJSON('https://raw.githubusercontent.com/BlueCodersDev/CloudComparer/master/data/Services.json', function (Json) {
       //$.getJSON('Data/Services.json', function (Json) {
-		
 		$.each(Json, function (key, value) {
               trHTML += '<tr><td><b>' + value.category.name + '</b></td>';
               trHTML += '<td><b>' + value.service.name + '</b> <a href="' + value.service.ref + '" class="glyphicon glyphicon-link" target="_blank"></a></td>';
