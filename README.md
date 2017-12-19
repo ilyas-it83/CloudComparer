@@ -1,5 +1,5 @@
 <a href="https://ilyas-it83.github.io/CloudComparer/">
-    <img src="https://github.com/ilyas-it83/CloudComparer/blob/master/img/Logo2.png" alt="Compare Cloud" title="Compare Cloud" align="right" height="60" />
+    <img src="https://github.com/ilyas-it83/CloudComparer/blob/master/img/Logo2.png" alt="Compare Cloud" title="Compare Cloud" align="right" height="180" />
 </a>
 # Cloud Comparer
 
