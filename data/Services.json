@@ -769,6 +769,12 @@
     ],
     "azure": [
       {
+        "name": "Azure Archive Storage",
+        "ref": "https://azure.microsoft.com/en-us/services/storage/archive/",
+        "icon": "Azure Storage.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
         "name": "Azure Cool Storage",
         "ref": "https://azure.microsoft.com/en-in/pricing/details/storage/blobs/",
         "icon": "Azure Storage.png",
