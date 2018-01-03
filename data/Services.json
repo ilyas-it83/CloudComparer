@@ -799,9 +799,9 @@
     ],
     "oracle": [
       {
-        "name": "Storage Classic",
+        "name": "Archive Storage",
         "ref": "https://cloud.oracle.com/storage-classic/archive-storage/features",
-        "icon": "oracle.png",
+        "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -859,9 +859,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Storage Software Appliance",
+        "ref": "https://cloud.oracle.com/en_US/storage-classic/storage-appliance/features/",
+        "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1376,9 +1376,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Data Transfer Services - Hard Disk Import",
+        "ref": "https://cloud.oracle.com/en_US/storage/data-transfer-services/features",
+        "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1435,9 +1435,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Data Transfer Services - Storage applicance import",
+        "ref": "https://cloud.oracle.com/en_US/storage/data-transfer-services/features",
+        "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1494,9 +1494,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Data Transfer Services - Storage applicance import",
+        "ref": "https://cloud.oracle.com/en_US/storage/data-transfer-services/features",
+        "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1612,9 +1612,9 @@
     ],
     "oracle": [
       {
-        "name": "Oracle Virtual Network",
+        "name": "Oracle Virtual Cloud Network",
         "ref": "https://cloud.oracle.com/networking",
-        "icon": "oracle.png",
+        "icon": "service-virtual-cloud-network.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1731,9 +1731,9 @@
     ],
     "oracle": [
       {
-        "name": "Dyn",
-        "ref": "https://www.oracle.com/corporate/acquisitions/dyn/index.html",
-        "icon": "oracle.png",
+        "name": "Edge Services",
+        "ref": "https://cloud.oracle.com/en_US/edge",
+        "icon": "EdgeServices.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1790,9 +1790,9 @@
     ],
     "oracle": [
       {
-        "name": "Dyn",
-        "ref": "https://cloudmarketplace.oracle.com/marketplace/en_US/adf.task-flow?tabName=O&adf.tfDoc=%2FWEB-INF%2Ftaskflow%2Fadhtf.xml&application_id=12364973&adf.tfId=adhtf",
-        "icon": "oracle.png",
+        "name": "Oracle DNS",
+        "ref": "https://cloud.oracle.com/edge/dns/features",
+        "icon": "EdgeServices.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1908,9 +1908,9 @@
     ],
     "oracle": [
       {
-        "name": "FastConnect",
-        "ref": "https://cloud.oracle.com/en_US/networking-classic/fastconnect/features",
-        "icon": "oracle.png",
+        "name": "Fast Connect",
+        "ref": "https://cloud.oracle.com/fastconnect",
+        "icon": "service-fastconnect.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1968,8 +1968,8 @@
     "oracle": [
       {
         "name": "Oracle Load Balancer",
-        "ref": "https://docs.us-phoenix-1.oraclecloud.com/Content/Balance/Concepts/balanceoverview.htm",
-        "icon": "oracle.png",
+        "ref": "https://cloud.oracle.com/load-balancing",
+        "icon": "LoadBalancing.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2087,7 +2087,7 @@
     "oracle": [
       {
         "name": "Developer Cloud Service",
-        "ref": "https://cloud.oracle.com/developer_service",
+        "ref": "https://cloud.oracle.com/en_US/developer-service/features",
         "icon": "developer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2162,10 +2162,28 @@
       }
     ],
     "oracle": [
-      {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+	  {
+        "name": "Visual Builder",
+        "ref": "https://cloud.oracle.com/en_US/visual-builder",
+        "icon": "developer.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+	  {
+        "name": "API Catalog",
+        "ref": "https://cloud.oracle.com/en_US/api-catalog",
+        "icon": "developer.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+	  {
+        "name": "Oracle Enterprise Pack for Eclipse",
+        "ref": "https://docs.oracle.com/en/cloud/paas/developer-cloud/csdcs/using-eclipse-ide-oracle-developer-cloud-service.html",
+        "icon": "developer.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      } 
+	  {
+        "name": "Oracle Enterprise Pack for Netbeans",
+        "ref": "https://docs.oracle.com/en/cloud/paas/developer-cloud/csdcs/using-netbeans-ide-oracle-developer-cloud-service.html",
+        "icon": "developer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2456,9 +2474,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Oracle Cloud Governance Services",
+        "ref": "https://cloud.oracle.com/en_US/governance",
+        "icon": "service-governance.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2527,9 +2545,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Oracle Orchestration Cloud Service",
+        "ref": "https://cloud.oracle.com/en_US/orchestration",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2710,9 +2728,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Oracle Management Cloud",
+        "ref": "https://cloud.oracle.com/en_US/management",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2811,9 +2829,27 @@
     ],
     "oracle": [
       {
-        "name": "",
+        "name": "Oracle Public Cloud CLI",
         "ref": "https://#",
-        "icon": "none.png",
+        "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Oracle Cloud Infrastructure CLI",
+        "ref": "https://#",
+        "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Oracle Management Console",
+        "ref": "https://#",
+        "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "API Catalog",
+        "ref": "https://apicatalog.oraclecloud.com/ui/",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2870,9 +2906,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Oracle Managed Cloud Services",
+        "ref": "https://www.oracle.com/fr/cloud/managed-cloud.html",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2935,8 +2971,8 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
+        "name": "Oracle Database Backup",
+        "ref": "https://cloud.oracle.com/en_US/database-backup/features",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3002,7 +3038,7 @@
       {
         "name": "Identity",
         "ref": "https://cloud.oracle.com/en_US/identity/features",
-        "icon": "ibmcloud.png",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3059,9 +3095,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Configuration and Compliance Service",
+        "ref": "https://cloud.oracle.com/compliance",
+        "icon": "Oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
