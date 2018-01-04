@@ -129,6 +129,65 @@
       "ref": "http://#"
     },
     "service": {
+      "name": "Virtual Dedicated Host",
+      "ref": "http://#",
+      "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
+    },
+    "aws": [
+      {
+        "name": "Amazon EC2 Dedicated Hosts",
+        "ref": "https://aws.amazon.com/ec2/dedicated-hosts/",
+        "icon": "aws.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+      }
+    ],
+    "google": [
+     {
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "IBM Virtual Servers",
+        "ref": "https://www.ibm.com/cloud/virtual-servers",
+        "icon": "virtual-server.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+       {
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Compute",
+      "ref": "http://#"
+    },
+    "service": {
       "name": "Container Registration Service",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -373,6 +432,65 @@
         "name": "Coming soon",
         "ref": "https://www.alibabacloud.com/product/vpc",
         "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Compute",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Auto Scaling",
+      "ref": "http://#",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "Auto Scaling",
+        "ref": "https://aws.amazon.com/autoscaling/",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure Autoscale",
+        "ref": "https://azure.microsoft.com/en-us/features/autoscale/",
+        "icon": "Azure App Service - Web App (was Websites).png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "Auto Scaler",
+        "ref": "https://cloud.google.com/compute/docs/autoscaler/",
+        "icon": "Blue-Hexagon.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "Auto Scaling",
+        "ref": "https://www.ibm.com/cloud/auto-scaling",
+        "icon": "ibmcloud.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "Auto Scaling",
+        "ref": "https://docs.oracle.com/en/cloud/paas/psmon/automatic-scaling.html",
+        "icon": "oracle.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Auto Scaling",
+        "ref": "https://www.alibabacloud.com/product/auto-scaling",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1664,9 +1782,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "VPN",
+        "ref": "http://knowledgelayer.softlayer.com/learning/introduction-vpn",
+        "icon": "ibm.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
