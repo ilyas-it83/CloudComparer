@@ -2297,13 +2297,13 @@
         "ref": "https://cloud.oracle.com/en_US/api-catalog",
         "icon": "developer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      }
+      },
 	  {
         "name": "Oracle Enterprise Pack for Eclipse",
         "ref": "https://docs.oracle.com/en/cloud/paas/developer-cloud/csdcs/using-eclipse-ide-oracle-developer-cloud-service.html",
         "icon": "developer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      } 
+      } ,
 	  {
         "name": "Oracle Enterprise Pack for Netbeans",
         "ref": "https://docs.oracle.com/en/cloud/paas/developer-cloud/csdcs/using-netbeans-ide-oracle-developer-cloud-service.html",
