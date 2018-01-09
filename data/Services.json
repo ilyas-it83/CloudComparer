@@ -281,8 +281,8 @@
     ],
     "google": [
       {
-        "name": "Container Engine",
-        "ref": "https://cloud.google.com/container-engine/",
+        "name": "Kubernetes Engine",
+        "ref": "https://cloud.google.com/kubernetes-engine/",
         "icon": "Container-Engine.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -903,6 +903,12 @@
       {
         "name": "Cloud Storage",
         "ref": "https://cloud.google.com/storage/",
+        "icon": "Cloud-Storage.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Archival Storage(NEARLINE & COLDLINE)",
+        "ref": "https://cloud.google.com/storage/archival/",
         "icon": "Cloud-Storage.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4665,7 +4671,7 @@
       {
         "name": "Firebase Authentication",
         "ref": "",
-        "icon": "none.png",
+        "icon": "Blue-Hexagon.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4846,9 +4852,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud Tools for Android Studio",
+        "ref": "https://cloud.google.com/android-studio/",
+        "icon": "Blue-Hexagon.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4984,7 +4990,7 @@
       {
         "name": "Firebase Analytics",
         "ref": "https://firebase.google.com/docs/analytics/",
-        "icon": "none.png",
+        "icon": "Blue-Hexagon.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -5041,9 +5047,33 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Apigee API Platform",
+        "ref": "https://cloud.google.com/apigee-api-management/",
+        "icon": "Blue-Hexagon.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "API Monitization",
+        "ref": "https://cloud.google.com/api-monetization/",
+        "icon": "Blue-Hexagon.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "API Analytics",
+        "ref": "https://cloud.google.com/api-analytics/",
+        "icon": "Blue-Hexagon.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Apigee Sense",
+        "ref": "https://cloud.google.com/apigee-sense/",
+        "icon": "Blue-Hexagon.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Endpoints",
+        "ref": "https://cloud.google.com/endpoints/",
+        "icon": "Blue-Hexagon.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
