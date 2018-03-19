@@ -435,9 +435,9 @@
     ],
     "alibaba": [
       {
-        "name": "Coming soon",
-        "ref": "https://www.alibabacloud.com/product/vpc",
-        "icon": "none.png",
+        "name": "Simple Application Server",
+        "ref": "https://www.alibabacloud.com/product/swas#product-details",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
