@@ -84,9 +84,9 @@
     ],
     "azure": [
       {
-        "name": "None",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Azure Bare Metal Servers (Large Instance Only for SAP Hana)",
+        "ref": "https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/hana-overview-architecture",
+        "icon": "Azure Virtual Machine.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
