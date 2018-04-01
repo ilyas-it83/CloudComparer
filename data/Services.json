@@ -3586,9 +3586,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud Armor (Beta)",
+        "ref": "https://cloud.google.com/armor/",
+        "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4229,6 +4229,18 @@
         "ref": "https://cloud.google.com/natural-language/",
         "icon": "Natural-Language-API.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Text-to-Speech (Beta)",
+        "ref": "https://cloud.google.com/text-to-speech/",
+        "icon": "Natural-Language-API.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "DialogFlow Enterprise Edition (Beta)",
+        "ref": "https://cloud.google.com/dialogflow-enterprise/",
+        "icon": "Natural-Language-API.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
@@ -4413,6 +4425,12 @@
         "ref": "",
         "icon": "Vision-API.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Video Intelligence",
+        "ref": "https://cloud.google.com/video-intelligence/",
+        "icon": "Vision-API.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
@@ -4499,6 +4517,12 @@
       {
         "name": "Cloud DataLab",
         "ref": "",
+        "icon": "Cloud-Datalab.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud AutoML (Alpha)",
+        "ref": "https://cloud.google.com/automl/",
         "icon": "Cloud-Datalab.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
