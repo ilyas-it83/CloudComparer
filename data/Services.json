@@ -234,8 +234,8 @@
     ],
     "alibaba": [
       {
-        "name": "Alibaba Container Registry Archives",
-        "ref": "https://www.alibabacloud.com/product/container-service?spm=a3c0i.164274.675768.dnavproductsa4.a5df410xHxiFA",
+        "name": "Container Registry",
+        "ref": "https://www.alibabacloud.com/product/container-registry",
         "icon": "ContainerServi.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -305,8 +305,14 @@
     ],
     "alibaba": [
       {
-        "name": "Alibaba Bluemix Container Service",
+        "name": "Container Service",
         "ref": "https://www.alibabacloud.com/product/container-service",
+        "icon": "ContainerServi.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Container Service for Kubernetes",
+        "ref": "https://www.alibabacloud.com/product/kubernetes",
         "icon": "ContainerServi.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -376,8 +382,8 @@
     ],
     "alibaba": [
       {
-        "name": "Coming Soon",
-        "ref": "https://www.alibabacloud.com/",
+        "name": "Function Compute",
+        "ref": "https://www.alibabacloud.com/product/function-compute",
         "icon": "ecs.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1002,9 +1008,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Hybrid Cloud Storage Array",
+        "ref": "https://www.alibabacloud.com/product/storage-array",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1219,6 +1225,12 @@
       {
         "name": "Apsaradb for Mongodb",
         "ref": "https://www.alibabacloud.com/product/apsaradb-for-mongodb",
+        "icon": "rds.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Table Store",
+        "ref": "https://www.alibabacloud.com/product/table-store",
         "icon": "rds.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1578,9 +1590,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Data Transport",
+        "ref": "https://www.alibabacloud.com/product/data-transport",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -1637,9 +1649,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Data Transport",
+        "ref": "https://www.alibabacloud.com/product/data-transport",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2051,7 +2063,7 @@
     ],
     "alibaba": [
       {
-        "name": "Alibaba Express Connect",
+        "name": "Express Connect",
         "ref": "https://www.alibabacloud.com/product/express-connect",
         "icon": "expressconnect.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -2110,7 +2122,7 @@
     ],
     "alibaba": [
       {
-        "name": "Server Load Balancing",
+        "name": "Server Load Balancer",
         "ref": "https://www.alibabacloud.com/product/server-load-balancer",
         "icon": "SLB.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -5854,6 +5866,12 @@
       {
         "name": "Cloud IoT Core(Beta)",
         "ref": "https://cloud.google.com/iot-core/",
+        "icon": "Google-Cloud-Platform.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Google Cloud IoT",
+        "ref": "https://cloud.google.com/solutions/iot/",
         "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
