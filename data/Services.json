@@ -2597,6 +2597,18 @@
         "ref": "",
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Data Loss Prevention Api",
+        "ref": "https://cloud.google.com/dlp/",
+        "icon": "Generic-GCP.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Access Transparency (Beta)",
+        "ref": "https://cloud.google.com/access-transparency/",
+        "icon": "Generic-GCP.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
@@ -3409,9 +3421,21 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud IAM",
+        "ref": "https://cloud.google.com/iam/",
+        "icon": "Cloud-IAM.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Identity-Aware Proxy",
+        "ref": "https://cloud.google.com/iap/",
+        "icon": "Cloud-Identity-Aware-Proxy.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Security Key Enforcement",
+        "ref": "https://cloud.google.com/security-key/",
+        "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
