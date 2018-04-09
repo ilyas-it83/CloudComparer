@@ -167,9 +167,9 @@
     ],
     "oracle": [
        {
-        "name": "None",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Dedicated Compute Classic",
+        "ref": "https://cloud.oracle.com/compute-classic/dedicated/features",
+        "icon": "compute.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
@@ -863,9 +863,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Oracle Cloud Infrastructure File Storage",
+        "ref": "https://cloud.oracle.com/storage/file-storage/features",
+        "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -5104,9 +5104,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "API Platform",
+        "ref": "https://cloud.oracle.com/api-platform",
+        "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
