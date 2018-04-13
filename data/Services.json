@@ -1535,13 +1535,13 @@
       {
         "name": "Data Transfer Service",
         "ref": "https://console.bluemix.net/docs/infrastructure/DataTransferService/index.html#getting-started-with-data-transfer-service",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Aspera High-speed Transfer",
         "ref": "https://console.bluemix.net/docs/services/cloud-object-storage/basics/upload.html#high-speed-transfer",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1600,7 +1600,7 @@
       {
         "name": "Mass Data Migration Service",
         "ref": "https://console.bluemix.net/docs/infrastructure/mass-data-migration/index.html#getting-started-with-ibm-cloud-mass-data-migration",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1659,7 +1659,7 @@
       {
         "name": "Mass Data Migration Service",
         "ref": "https://console.bluemix.net/docs/infrastructure/mass-data-migration/index.html#getting-started-with-ibm-cloud-mass-data-migration",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1837,7 +1837,7 @@
       {
         "name": "VPN",
         "ref": "http://knowledgelayer.softlayer.com/learning/introduction-vpn",
-        "icon": "ibm.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2014,7 +2014,7 @@
       {
         "name": "Internet Services",
         "ref": "https://console.bluemix.net/catalog/services/internet-services",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2346,7 +2346,7 @@
       {
         "name": "Continuous Delivery",
         "ref": "https://console.bluemix.net/catalog/services/continuous-delivery",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2591,13 +2591,13 @@
       {
         "name": "Log Analysis",
         "ref": "https://console.bluemix.net/catalog/services/log-analysis",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Monitoring",
         "ref": "https://console.bluemix.net/catalog/services/monitoring",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3509,7 +3509,7 @@
       {
         "name": "App ID",
         "ref": "https://console.bluemix.net/catalog/services/app-id",
-        "icon": "app-id.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4170,7 +4170,7 @@
       {
         "name": "Watson studio",
         "ref": "https://console.bluemix.net/catalog/services/watson-studio",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -5129,7 +5129,7 @@
       {
         "name": "Mobile Analyics",
         "ref": "https://console.bluemix.net/catalog/services/mobile-analytics",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -5561,7 +5561,7 @@
       {
         "name": "Push notification",
         "ref": "https://console.bluemix.net/catalog/services/push-notifications",
-        "icon": "none.png",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
