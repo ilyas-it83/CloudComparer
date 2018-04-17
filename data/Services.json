@@ -108,18 +108,18 @@
     ],
     "oracle": [
        {
-        "name": "Compute-Bare Metal Cloud Service",
-        "ref": "https://cloud.oracle.com/en_US/bare-metal",
-        "icon": "compute.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
     "alibaba": [
       {
-        "name": "Bare Metal Servers",
-        "ref": "https://www.alibabacloud.com/product/ehpc?spm=a3c0i.7911826.675768.dnavproductsa7.66c31103p43kyz#overview",
-        "icon": "ehpc.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ]
   },
