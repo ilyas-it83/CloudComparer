@@ -692,17 +692,17 @@
     ],
     "oracle": [
       {
-        "name": "",
+        "name": "Oracle Functions",
         "ref": "https://#",
-        "icon": "none.png",
+        "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Function Compute",
+        "ref": "https://www.alibabacloud.com/product/function-compute",
+        "icon": "ecs.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
