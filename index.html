@@ -93,7 +93,7 @@
     </section>
 
     <!-- Advice -->
-    <section id="advice" class="services bg-primary">
+    <section id="advice" class="services bg-primary hidden-print">
         <div class="container">
             <h2 class="text-center">Piece of Advice</h2>
             <hr class="small">
@@ -200,17 +200,7 @@
                     $(this).remove();
                 }
             });
-        }
-
-        function PropertyProcessor(input) {
-            var trHTML = '';
-            trHTML += '<table>';
-            input.forEach(function (prop) {
-                trHTML += '<tr><td>' + prop + '</td></tr>';
-            });
-            trHTML += '</table>';
-            return trHTML;
-        }
+        }        
 
         function dataprocessor(input, type) {
             var trHTML = '';
@@ -226,37 +216,6 @@
             }
             return trHTML;
         }
-        // Search function
-        function AddAccordian() {
-            // Search function
-            var $rows = $('#comparetable tr');
-            $('#search').keyup(function () {
-                var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase().split(' ');
-
-                $rows.hide().filter(function () {
-                    var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
-                    var matchesSearch = true;
-                    $(val).each(function (index, value) {
-                        matchesSearch = (!matchesSearch) ? false : ~text.indexOf(value);
-                    });
-                    return matchesSearch;
-                }).show();
-                //$("#comparetable tr:first-child").show();
-            });
-
-            //ODD Even
-
-            $("#comparetable tr:odd").addClass("odd");
-            $("#comparetable tr:not(.odd)").hide();
-            $("#comparetable tr:first-child").show();
-
-            $("#comparetable tr.odd").click(function () {
-                $(this).next("tr").toggle();
-                $(this).find(".arrow").toggleClass("up");
-            });
-
-            $("a[href='']").remove()
-        }
 
         function imgError(image) {
             image.onerror = "";
@@ -264,16 +223,6 @@
             return true;
         }
 
-        // Closes the sidebar menu
-        $("#menu-close").click(function (e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-        // Opens the sidebar menu
-        $("#menu-toggle").click(function (e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
 
         // Scrolls to the selected menu item on the page
         $(function () {
@@ -316,26 +265,6 @@
                 }
             }
         });
-        // Disable Google Maps scrolling
-        // See http://stackoverflow.com/a/25904582/1607849
-        // Disable scroll zooming and bind back the click event
-        var onMapMouseleaveHandler = function (event) {
-            var that = $(this);
-            that.on('click', onMapClickHandler);
-            that.off('mouseleave', onMapMouseleaveHandler);
-            that.find('iframe').css("pointer-events", "none");
-        }
-        var onMapClickHandler = function (event) {
-            var that = $(this);
-            // Disable the click handler until the user leaves the map area
-            that.off('click', onMapClickHandler);
-            // Enable scrolling zoom
-            that.find('iframe').css("pointer-events", "auto");
-            // Handle the mouse leave event
-            that.on('mouseleave', onMapMouseleaveHandler);
-        }
-        // Enable map zooming with mouse scroll when the user clicks the map
-        $('.map').on('click', onMapClickHandler);
     </script>
 
     <!-- Disqus / Google Analytics / Addthis -->
