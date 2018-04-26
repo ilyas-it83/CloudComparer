@@ -29,14 +29,14 @@
 
 </head>
 
-<body>
+<body style="display:none;">
     <section id="top" class="portfolio">
         <h1 class="text-center" style="font-size: 65px;">
             Public Cloud Services Comparison (Apr 4,2018)
         </h1>
         <table id="comparetable" class="table table-bordered table-hover table-responsive">
             <!-- <table id="comparetable" class="blueshine table"> -->
-            <thead>
+            <thead style="background-color: #b8cee2;">
                 <tr>
                     <th>Category</th>
                     <th>Service</th>
@@ -63,26 +63,29 @@
             <tbody>
             </tbody>
         </table>
-        <table class="blueshine table hidden-print">
+    </section>
+    <section id="cloud-feed" class="hidden-print">
+        <h2 class="text-center">Cloud Feed</h2>
+        <hr class="small">
+        <table class="feedwind table table-responsive ">
             <tr>
-                <td width="15%">
+                <td>
                     <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57947/"></script>
                 </td>
-                <td width="15%">
+                <td>
                     <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57946/"></script>
                 </td>
-                <td width="15%">
+                <td>
                     <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57941/"></script>
                 </td>
-                <td width="15%">
+                <td>
                     <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57948/"></script>
                 </td>
-                <td width="15%">
+                <td>
                     <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57950/"></script>
                 </td>
             </tr>
         </table>
-        </div>
     </section>
 
     <!-- Disqus Comments -->
@@ -169,12 +172,11 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
-    <script src="js/jquery.rss.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.4/jquery.lazy.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/1.4.5/jquery.floatThead-slim.js"></script> -->
+    <script src="js/jquery.floatThead.min.js"></script>
     <script>
+
         //Table Rendering
+
         $(document).ready(function () {
             var trHTML = '';
             $.getJSON('data/Services.json', function (Json) {
@@ -188,10 +190,15 @@
                     trHTML += dataprocessor(value.oracle, 'oracle');
                     trHTML += dataprocessor(value.alibaba, 'alibaba');
                 });
-                $('#comparetable').append(trHTML);
+                var $table = $('#comparetable');
+                $table.append(trHTML);
+                $('body').css("display","block");
+                $table.floatThead();
                 RemoveEmptyAHref();
             });
         });
+
+
 
         function RemoveEmptyAHref() {
             $("a").each(function () {
@@ -200,7 +207,7 @@
                     $(this).remove();
                 }
             });
-        }        
+        }
 
         function dataprocessor(input, type) {
             var trHTML = '';
@@ -292,7 +299,7 @@
         ga('create', 'UA-7073232-9', 'auto');
         ga('send', 'pageview');
     </script>
-    <!-- <script id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/395033b8ac8c5c15d3e72e1e6/8625e22d7477419a5c1f1af5b.js");</script> -->
+    <script id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/395033b8ac8c5c15d3e72e1e6/8625e22d7477419a5c1f1af5b.js");</script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552c144e4f497fe9"></script>
 </body>
 
