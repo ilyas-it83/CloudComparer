@@ -76,7 +76,7 @@
     },
     "aws": [
       {
-        "name": "Amazon EC2 Bare Metal Instance(Preview)",
+        "name": "Amazon EC2 Bare Metal Instance (Preview)",
         "ref": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-bare-metal-instances-with-direct-access-to-hardware/",
         "icon": "aws.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
@@ -259,7 +259,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }, 
       {
-        "name": "Amazon Elastic Container Service for Kubernetes(EKS)",
+        "name": "Amazon Elastic Container Service for Kubernetes (EKS)",
         "ref": "https://aws.amazon.com/eks/",
         "icon": "Compute_AmazonECS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -267,7 +267,7 @@
     ],
     "azure": [
       {
-        "name": "Azure Container Service(AKS)",
+        "name": "Azure Container Service (AKS)",
         "ref": "https://azure.microsoft.com/en-in/services/container-service/",
         "icon": "Azure Container Service.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -924,7 +924,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Archival Storage(NEARLINE & COLDLINE)",
+        "name": "Archival Storage (NEARLINE & COLDLINE)",
         "ref": "https://cloud.google.com/storage/archival/",
         "icon": "Cloud-Storage.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -1568,7 +1568,7 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Large Scale Data Transfer Solution(Petabyte Scale)",
+      "name": "Large Scale Data Transfer Solution (Petabyte Scale)",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -1627,7 +1627,7 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Large Scale Data Transfer Solution(Terabyte Scale)",
+      "name": "Large Scale Data Transfer Solution (Terabyte Scale)",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -1686,7 +1686,7 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Large Scale Data Transfer Solution(Exabyte Scale)",
+      "name": "Large Scale Data Transfer Solution (Exabyte Scale)",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -2631,7 +2631,7 @@
       "ref": ""
     },
     "service": {
-      "name": "Resource/Configuration Inventory",
+      "name": "Resource / Configuration Inventory",
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -2645,7 +2645,7 @@
     ],
     "azure": [
       {
-        "name": "Azure portal(audit logs)",
+        "name": "Azure portal (audit logs)",
         "ref": "",
         "icon": "Azure Management Portal.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -2832,7 +2832,7 @@
       "ref": ""
     },
     "service": {
-      "name": "Cloud Cost/Performance/Security Advisor",
+      "name": "Cloud Cost / Performance / Security Advisor",
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -3329,7 +3329,7 @@
       "ref": ""
     },
     "service": {
-      "name": "Secured Socket Layer(SSL) Certificates",
+      "name": "Secured Socket Layer (SSL) Certificates",
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -5336,7 +5336,7 @@
       {
         "name": "Amazon MQ",
         "ref": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-mq/",
-        "icon": "aws1.png",
+        "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -5918,7 +5918,7 @@
     ],
     "google": [
       {
-        "name": "Cloud IoT Core(Beta)",
+        "name": "Cloud IoT Core (Beta)",
         "ref": "https://cloud.google.com/iot-core/",
         "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
