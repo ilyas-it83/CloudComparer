@@ -3558,9 +3558,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud Key Management Service",
+        "ref": "https://cloud.google.com/kms/",
+        "icon": "Cloud-Platform-Security.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3595,7 +3595,7 @@
       "ref": ""
     },
     "service": {
-      "name": "Consolidated Manag of Multiple Cloud Accounts",
+      "name": "Consolidated Management of Multiple Cloud Accounts",
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -3794,9 +3794,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud Security Command Center (Alpha)",
+        "ref": "https://cloud.google.com/security-command-center/",
+        "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
