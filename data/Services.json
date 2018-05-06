@@ -3668,7 +3668,7 @@
     ],
     "azure": [
       {
-        "name": "Azure DDoS Protection (Preview)",
+        "name": "Azure DDoS Protection",
         "ref": "https://azure.microsoft.com/en-in/services/ddos-protection/",
         "icon": "Microsoft Azure.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
