@@ -23,12 +23,6 @@
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machines/",
         "icon": "Azure Virtual Machine.png",
         "Properties": [ "18", "No", "Yes", "1 Shared � 32 dedicated CPU", "0,6 � 208 GB", "3 TB" ]
-      },
-      {
-        "name": "Virtual Machine Scale Sets",
-        "ref": "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview",
-        "icon": "Azure VM Scale Set.png",
-        "Properties": [ "40", "No", "No", "1 � 32 CPU", "0,75 � 448 GB", "2 TB" ]
       }
     ],
     "google": [
@@ -472,6 +466,12 @@
         "ref": "https://azure.microsoft.com/en-us/features/autoscale/",
         "icon": "Azure App Service - Web App (was Websites).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Virtual Machine Scale Sets",
+        "ref": "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview",
+        "icon": "Azure VM Scale Set.png",
+        "Properties": [ "40", "No", "No", "1 � 32 CPU", "0,75 � 448 GB", "2 TB" ]
       }
     ],
     "google": [
@@ -790,6 +790,12 @@
         "ref": "https://azure.microsoft.com/en-in/services/storage/disks/",
         "icon": "VHD data disk.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Managed Disks",
+        "ref": "https://azure.microsoft.com/en-us/services/managed-disks/",
+        "icon": "VHD data disk.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
@@ -1053,12 +1059,6 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Azure CosmosDB",
-        "ref": "https://azure.microsoft.com/en-in/services/cosmos-db/",
-        "icon": "Azure SQL Database.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
         "name": "Azure Database for MySQL",
         "ref": "https://azure.microsoft.com/en-us/services/mysql/",
         "icon": "Azure SQL Database.png",
@@ -1188,6 +1188,12 @@
         "name": "Azure CosmosDB",
         "ref": "https://docs.microsoft.com/en-us/azure/cosmos-db/",
         "icon": "Azure DocumentDB.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Table Storage",
+        "ref": "https://azure.microsoft.com/en-in/services/storage/tables/",
+        "icon": "Azure Storage - Table.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
        {
@@ -2467,6 +2473,12 @@
       {
         "name": "Azure Resource Manager",
         "ref": "https://azure.microsoft.com/en-us/features/resource-manager/",
+        "icon": "Resource Group.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Building Blocks",
+        "ref": "https://azure.microsoft.com/en-in/resources/videos/azure-building-blocks-20-azbb/",
         "icon": "Resource Group.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
