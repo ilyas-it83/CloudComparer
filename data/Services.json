@@ -1289,9 +1289,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Cloud MemoryStore (Beta)",
+        "ref": "https://cloud.google.com/memorystore/",
+        "icon": "Blue-Hexagon.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2055,6 +2055,12 @@
       {
         "name": "AWS Direct Connect",
         "ref": "https://aws.amazon.com/directconnect/",
+        "icon": "Networking_AWSDirectConnect.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Private Link",
+        "ref": "https://aws.amazon.com/about-aws/whats-new/2018/04/introducing-aws-privatelink-in-the-eu-paris-region/",
         "icon": "Networking_AWSDirectConnect.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
