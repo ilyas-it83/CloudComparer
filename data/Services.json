@@ -5,6 +5,71 @@
       "ref": "http://#"
     },
     "service": {
+      "name": "Shared Web hosting",
+      "ref": "http://#",
+      "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
+    },
+    "aws": [
+      {
+        "name": "Amazon EC2",
+        "ref": "https://aws.amazon.com/ec2/",
+        "icon": "Compute_AmazonEC2.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure shared App Services",
+        "ref": "https://azure.microsoft.com/en-in/services/app-service/web/",
+        "icon": "Azure App Service - Web App (was Websites).png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Web Hosting",
+        "ref": "https://www.alibabacloud.com/product/hosting",
+        "icon": "ecs.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Simple Application Server",
+        "ref": "https://www.alibabacloud.com/product/swas",
+        "icon": "ecs.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Compute",
+      "ref": "http://#"
+    },
+    "service": {
       "name": "Virtual Server",
       "ref": "http://#",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
@@ -52,7 +117,13 @@
     "alibaba": [
       {
         "name": "Alibaba ECS",
-        "ref": "https://www.alibabacloud.com/product/ecs?spm=a3c0i.7911826.675768.dnavproductsa1.66c31103Zzl5y8",
+        "ref": "https://www.alibabacloud.com/product/ecs",
+        "icon": "ecs.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "ECS Bare Metal Instance",
+        "ref": "https://www.alibabacloud.com/product/ebm",
         "icon": "ecs.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -877,7 +948,7 @@
       {
         "name": "Oracle Cloud Infrastructure File Storage",
         "ref": "https://cloud.oracle.com/storage/file-storage/features",
-        "icon": "none.png",
+        "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1149,6 +1220,12 @@
         "ref": "https://www.alibabacloud.com/product/apsaradb-for-rds/",
         "icon": "rds.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Distributed Relational Database Service (DRDS) ",
+        "ref": "https://www.alibabacloud.com/product/drds?spm=a3c0i.11270126.675768.dnavproductsd7.6c8668dcRLNbeB",
+        "icon": "rds.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1260,7 +1337,65 @@
       }
     ]
   },
-
+  {
+    "category": {
+      "name": "Database",
+      "ref": ""
+    },
+    "service": {
+      "name": "Timeseries Database",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "Amazon DynamoDB",
+        "ref": "https://aws.amazon.com/dynamodb/",
+        "icon": "Database_AmazonDynamoDB.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure Time Series Insights",
+        "ref": "https://azure.microsoft.com/en-us/services/time-series-insights/",
+        "icon": "Azure DocumentDB.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "Cloud BigTable",
+        "ref": "https://cloud.google.com/bigtable/",
+        "icon": "Cloud-Bigtable.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "HiTSDB (High-Performance Time Series Database)",
+        "ref": "https://www.alibabacloud.com/product/hitsdb?spm=a3c0i.11270126.675768.dnavproductsd8.6c8668dcRLNbeB",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
   {
     "category": {
       "name": "Database",
@@ -2639,6 +2774,12 @@
         "ref": "https://www.alibabacloud.com/product/cloud-monitor",
         "icon": "CloudMonitor.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "ActionTrail",
+        "ref": "https://www.alibabacloud.com/product/actiontrail",
+        "icon": "CloudMonitor.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -3328,7 +3469,7 @@
       {
         "name": "Configuration and Compliance Service",
         "ref": "https://cloud.oracle.com/compliance",
-        "icon": "Oracle.png",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4259,6 +4400,12 @@
         "ref": "https://cloud.google.com/dataprep/",
         "icon": "Cloud-Dataprep.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Composer (Beta)",
+        "ref": "https://cloud.google.com/composer/",
+        "icon": "Cloud-Dataprep.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
@@ -4279,9 +4426,15 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "DataWorks",
+        "ref": "https://www.alibabacloud.com/product/ide",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Data Integration",
+        "ref": "https://www.alibabacloud.com/product/data-integration",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4571,9 +4724,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Image Search",
+        "ref": "https://www.alibabacloud.com/product/imagesearch",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5416,9 +5569,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Message Queue",
+        "ref": "https://www.alibabacloud.com/product/mq?spm=a3c0i.11270126.209577.68.6c8668dctRiorX",
+        "icon": "API.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5475,9 +5628,9 @@
     ],
     "alibaba": [
       {
-        "name": "Direct Mail",
-        "ref": "https://www.alibabacloud.com/product/directmail",
-        "icon": "directmail.png",
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5534,11 +5687,11 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Direct Mail",
+        "ref": "https://www.alibabacloud.com/product/directmail",
+        "icon": "directmail.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      }
+      }     
     ]
   },
   {
@@ -5712,9 +5865,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Intelligent Service Robot",
+        "ref": "https://www.alibabacloud.com/product/bot",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
