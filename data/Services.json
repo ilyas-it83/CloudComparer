@@ -11,10 +11,10 @@
     },
     "aws": [
       {
-        "name": "Amazon EC2",
-        "ref": "https://aws.amazon.com/ec2/",
-        "icon": "Compute_AmazonEC2.png",
-        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "azure": [
