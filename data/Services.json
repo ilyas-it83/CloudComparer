@@ -173,9 +173,9 @@
     ],
     "oracle": [
        {
-        "name": "None",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Bare Metal Servers",
+        "ref": "https://cloud.oracle.com/compute/bare-metal/features",
+        "icon": "compute.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
@@ -1503,6 +1503,12 @@
         "ref": "http://www.oracle.com/us/corporate/features/exadata-service/index.html",
         "icon": "database.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Autonomous Data Warehouse Cloud",
+        "ref": "https://cloud.oracle.com/en_US/datawarehouse/features",
+        "icon": "database.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "alibaba": [
@@ -1992,9 +1998,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "VPN Gateway",
+        "ref": "https://www.alibabacloud.com/product/vpn-gateway",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5679,9 +5685,9 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Edge Services",
+        "ref": "https://cloud.oracle.com/edge",
+        "icon": "developer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -6217,9 +6223,9 @@
     ],
     "azure": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Azure Sphere",
+        "ref": "https://azure.microsoft.com/en-us/services/azure-sphere/",
+        "icon": "Azure%20IoT%20Hub.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
