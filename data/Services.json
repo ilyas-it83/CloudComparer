@@ -4189,6 +4189,12 @@
         "ref": "https://aws.amazon.com/kinesis/streams/",
         "icon": "Analytics_AmazonKinesis.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Kinesis Video Streams",
+        "ref": "https://aws.amazon.com/blogs/aws/amazon-kinesis-video-streams-serverless-video-ingestion-and-storage-for-vision-enabled-apps/",
+        "icon": "Analytics_AmazonKinesis.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "azure": [
@@ -4382,6 +4388,12 @@
       {
         "name": "AWS Glue",
         "ref": "https://aws.amazon.com/glue/",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Simple Workflow Service (SWF)",
+        "ref": "https://aws.amazon.com/swf/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
