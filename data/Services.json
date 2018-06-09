@@ -216,9 +216,9 @@
     ],
     "google": [
      {
-        "name": "None",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Sole Tenant Node (Beta)",
+        "ref": "https://cloud.google.com/compute/docs/nodes/",
+        "icon": "Compute-Engine.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
@@ -5740,9 +5740,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Firebase Cloud Messaging",
+        "ref": "https://firebase.google.com/docs/cloud-messaging/",
+        "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
