@@ -283,7 +283,7 @@
     ],
     "ibm": [
       {
-        "name": "IBM Cloud Container Registry",
+        "name": "IBM Cloud Kubernetes Services",
         "ref": "https://www.ibm.com/cloud/container-registry",
         "icon": "registry_icon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3774,9 +3774,9 @@
     ],
     "azure": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Azure Management Groups",
+        "ref": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/management-groups-overview",
+        "icon": "Azure%20Management%20Portal.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
