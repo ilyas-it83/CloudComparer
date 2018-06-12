@@ -728,12 +728,6 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Azure Cloud Services",
-        "ref": "https://azure.microsoft.com/en-in/services/cloud-services/",
-        "icon": "Azure Cloud Services - Web roles.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
         "name": "Logic Apps",
         "ref": "https://azure.microsoft.com/en-in/services/logic-apps/",
         "icon": "Azure App Service - Logic App.png",
