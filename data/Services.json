@@ -726,12 +726,6 @@
         "ref": "https://azure.microsoft.com/en-in/services/functions/",
         "icon": "Azure Functions.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Logic Apps",
-        "ref": "https://azure.microsoft.com/en-in/services/logic-apps/",
-        "icon": "Azure App Service - Logic App.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },{
         "name": "Event Grid",
         "ref": "",
@@ -4404,6 +4398,12 @@
         "ref": "https://azure.microsoft.com/en-in/services/data-catalog/",
         "icon": "Azure Data Catalog.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Logic Apps",
+        "ref": "https://azure.microsoft.com/en-in/services/logic-apps/",
+        "icon": "Azure App Service - Logic App.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
@@ -5217,8 +5217,8 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Azure Logic Apps",
-        "ref": "",
+        "name": "Logic Apps",
+        "ref": "https://azure.microsoft.com/en-in/services/logic-apps/",
         "icon": "Azure App Service - Logic App.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
