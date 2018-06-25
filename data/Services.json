@@ -1876,6 +1876,65 @@
   },
   {
     "category": {
+      "name": "Application Discovery Services",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Application Discovery Services",
+      "ref": "http://#",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "Application Discovery Service",
+        "ref": "https://aws.amazon.com/application-discovery/",
+        "icon": "Storage-Content-Delivery_AWSImportExportSnowball.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure Active Directory",
+        "ref": "https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/cloud-app-discovery",
+        "icon": "Azure%20Active%20Directory.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "#",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
       "name": "Networking & Content Delivery",
       "ref": "http://#"
     },
@@ -3425,6 +3484,12 @@
       {
         "name": "Amazon Inspector",
         "ref": "https://aws.amazon.com/inspector/",
+        "icon": "Security-Identity_AmazonInspector.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Gaurd Duty",
+        "ref": "https://aws.amazon.com/guardduty/",
         "icon": "Security-Identity_AmazonInspector.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5069,6 +5134,65 @@
   },
   {
     "category": {
+      "name": "Automated Cloud Management Service",
+      "ref": ""
+    },
+    "service": {
+      "name": "Managed Cloud Services",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "AWS Managed Services",
+        "ref": "https://aws.amazon.com/managed-services/",
+        "icon": "Application-Services_AmazonAppStream.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
       "name": "Mobile Services",
       "ref": ""
     },
@@ -5430,6 +5554,42 @@
       {
         "name": "Amazon Elastic Transcoder",
         "ref": "",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Elemental MediaConvert",
+        "ref": "https://aws.amazon.com/mediaconvert/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Elemental MediaLive",
+        "ref": "https://aws.amazon.com/medialive/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Elemental MediaPackage",
+        "ref": "https://aws.amazon.com/mediapackage/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Elemental MediaStore",
+        "ref": "https://aws.amazon.com/mediastore/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Elemental MediaTailor",
+        "ref": "https://aws.amazon.com/MediaTailor/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Kinesis Video Streams",
+        "ref": "https://aws.amazon.com/kinesis/video-streams/",
         "icon": "Application-Services_AmazonElasticTranscoder.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
