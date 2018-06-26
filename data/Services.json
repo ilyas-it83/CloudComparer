@@ -322,7 +322,7 @@
         "ref": "https://aws.amazon.com/ecs/",
         "icon": "Compute_AmazonECS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      }, 
+      },
       {
         "name": "Amazon Elastic Container Service for Kubernetes (EKS)",
         "ref": "https://aws.amazon.com/eks/",
@@ -416,7 +416,7 @@
       },
       {
         "name": "Event Grid",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/event-grid/",
         "icon": "Azure Event Grid.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -728,7 +728,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },{
         "name": "Event Grid",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/event-grid/",
         "icon": "Azure Event Grid.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1463,7 +1463,7 @@
     ],
     "azure": [
       {
-        "name": "Azure SQL Datawarehouse",
+        "name": "Azure SQL Data Warehouse",
         "ref": "https://azure.microsoft.com/en-in/services/sql-data-warehouse/",
         "icon": "Azure Data Warehouse.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -3062,6 +3062,12 @@
         "ref": "https://azure.microsoft.com/en-in/services/advisor/",
         "icon": "Azure Security Center.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Cost Management",
+        "ref": "https://azure.microsoft.com/en-us/services/cost-management/",
+        "icon": "Azure Security Center.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
@@ -3123,7 +3129,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
 	  {
-        "name": "Azure Mperations Management Suite (OMS)",
+        "name": "Azure Operations Management Suite (OMS)",
         "ref": "https://www.microsoft.com/en-us/cloud-platform/operations-management-suite",
         "icon": "Azure OMS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -3195,7 +3201,7 @@
       },
       {
         "name": "Azure Powershell",
-        "ref": "",
+        "ref": "https://docs.microsoft.com/en-us/powershell/azure/overview?view=azurermps-6.3.0",
         "icon": "Microsoft Azure.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -3361,13 +3367,13 @@
     "azure": [
       {
         "name": "Azure Site Recovery",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/site-recovery/",
         "icon": "Azure Site Recovery.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Azure Backup",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/backup/",
         "icon": "Azure Backup.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3620,7 +3626,7 @@
     ],
     "azure": [
       {
-        "name": "Azure KeyVault",
+        "name": "Azure Key Vault",
         "ref": "https://azure.microsoft.com/en-in/services/key-vault/",
         "icon": "Azure Key Vault.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -3768,8 +3774,8 @@
     ],
     "azure": [
       {
-        "name": "Azure KeyVault",
-        "ref": "",
+        "name": "Azure Key Vault",
+        "ref": "https://azure.microsoft.com/en-us/services/key-vault/",
         "icon": "Azure Key Vault.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4317,7 +4323,7 @@
     ],
     "azure": [
       {
-        "name": "Azure SQL Datawarehouse",
+        "name": "Azure SQL Data Warehouse",
         "ref": "https://azure.microsoft.com/en-in/services/sql-data-warehouse/",
         "icon": "Azure Data Warehouse.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -4740,13 +4746,13 @@
     "azure": [
       {
         "name": "Emotion API",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/cognitive-services/emotion/",
         "icon": "Azure Cognative Services - emotion_COLOR.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Face API",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/cognitive-services/face/",
         "icon": "Azure Cognative Services - emotion_COLOR.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -4917,7 +4923,7 @@
     "azure": [
       {
         "name": "Azure Mobile Apps",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/app-service/mobile/",
         "icon": "Azure App Service - Mobile App (was Mobile Services).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5336,7 +5342,7 @@
     "azure": [
       {
         "name": "Microsoft Flow",
-        "ref": "",
+        "ref": "https://flow.microsoft.com/",
         "icon": "Microsoft Flow.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -5348,13 +5354,13 @@
       },
       {
         "name": "Azure Functions",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-in/services/functions/",
         "icon": "Azure Functions.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Event Grid",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/event-grid/",
         "icon": "Azure Event Grid.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -5597,7 +5603,7 @@
     "azure": [
       {
         "name": "Azure Media Services",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/media-services",
         "icon": "Azure Media Services.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -5863,7 +5869,7 @@
         "ref": "https://www.alibabacloud.com/product/directmail",
         "icon": "directmail.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      }     
+      }
     ]
   },
   {
@@ -5947,7 +5953,13 @@
     "azure": [
       {
         "name": "Blockchain",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/solutions/blockchain/",
+        "icon": "Azure subscription.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Blockchain Workbench",
+        "ref": "https://azure.microsoft.com/en-us/features/blockchain-workbench/",
         "icon": "Azure subscription.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6005,8 +6017,8 @@
     ],
     "azure": [
       {
-        "name": "Microsoft Chatbot",
-        "ref": "",
+        "name": "Azure Bot Service",
+        "ref": "https://azure.microsoft.com/en-us/services/bot-service/",
         "icon": "Azure subscription.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6195,7 +6207,7 @@
     "azure": [
       {
         "name": "Azure MarketPlace",
-        "ref": "",
+        "ref": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps",
         "icon": "Azure Store_Marketplace.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6254,7 +6266,13 @@
     "azure": [
       {
         "name": "Azure IoT Platform",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/overview/iot/",
+        "icon": "Azure IoT Hub.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure IoT Hub",
+        "ref": "https://azure.microsoft.com/en-us/services/iot-hub/",
         "icon": "Azure IoT Hub.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
