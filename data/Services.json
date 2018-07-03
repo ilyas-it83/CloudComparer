@@ -918,9 +918,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "File Store",
+        "ref": "http://cloud.google.com/filestore",
+        "icon": "Persistent-Disk.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3614,6 +3614,12 @@
       {
         "name": "AWS CloudHSM",
         "ref": "https://aws.amazon.com/cloudhsm/",
+        "icon": "Security-Identity_AWSCloudHSM.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "ref": "https://aws.amazon.com/secrets-manager/",
         "icon": "Security-Identity_AWSCloudHSM.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
