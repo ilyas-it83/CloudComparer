@@ -332,9 +332,9 @@
     ],
     "azure": [
       {
-        "name": "Azure Container Service (AKS)",
-        "ref": "https://azure.microsoft.com/en-in/services/container-service/",
-        "icon": "Azure Container Service.png",
+        "name": "Azure Kubernetes Service (AKS)",
+        "ref": "https://azure.microsoft.com/services/kubernetes-service/",
+        "icon": "Azure Kubernetes Service.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
