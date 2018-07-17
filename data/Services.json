@@ -4083,7 +4083,7 @@
     ],
     "google": [
       {
-        "name": "Big Query",
+        "name": "BigQuery",
         "ref": "https://cloud.google.com/bigquery/",
         "icon": "BigQuery.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
