@@ -4637,14 +4637,14 @@
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Speech to Text",
-        "ref": "https://console.bluemix.net/catalog/services/speech-to-text",
+        "name": " Text to Speech",
+        "ref": "https://console.bluemix.net/catalog/services/text-to-speech",
         "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": " Text to Speech",
-        "ref": "https://console.bluemix.net/catalog/services/text-to-speech",
+        "name": "Personality Insights",
+        "ref": "https://console.ng.bluemix.net/catalog/services/personality-insights/",
         "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4720,9 +4720,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Speech to Text",
+        "ref": "https://console.bluemix.net/catalog/services/speech-to-text",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4799,18 +4799,6 @@
       {
         "name": "Visual Recognition",
         "ref": "https://console.ng.bluemix.net/catalog/services/visual-recognition/",
-        "icon": "ibmcloud.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Retrieve and Rank",
-        "ref": "https://console.ng.bluemix.net/catalog/services/retrieve-and-rank/",
-        "icon": "ibmcloud.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Personality Insights",
-        "ref": "https://console.ng.bluemix.net/catalog/services/personality-insights/",
         "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6051,8 +6039,8 @@
     ],
     "ibm": [
       {
-        "name": "IBM Watson",
-        "ref": "https://console.ng.bluemix.net/catalog/services/blockchain/",
+        "name": "Watson Assistant",
+        "ref": "https://console.bluemix.net/catalog/services/watson-assistant-formerly-conversation",
         "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
