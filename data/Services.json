@@ -240,9 +240,9 @@
     ],
     "alibaba": [
       {
-        "name": "None",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Dedicated Host",
+        "ref": "https://www.alibabacloud.com/product/ddh",
+        "icon": "alibaba.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ]
@@ -630,9 +630,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Batch Compute",
+        "ref": "https://www.alibabacloud.com/product/batch-compute",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2833,6 +2833,12 @@
         "ref": "https://www.alibabacloud.com/product/actiontrail",
         "icon": "CloudMonitor.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Application Real-Time Monitoring Service",
+        "ref": "https://www.alibabacloud.com/product/arms",
+        "icon": "CloudMonitor.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -3406,6 +3412,12 @@
       {
         "name": "Alibaba Disaster Recovery",
         "ref": "https://www.alibabacloud.com/solutions/hosting/Disaster-Recovery",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Hybrid Backup Recovery",
+        "ref": "https://www.alibabacloud.com/product/hbr",
         "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5930,9 +5942,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Short Message Service (SMS)",
+        "ref": "https://www.alibabacloud.com/product/short-message-service",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -6315,8 +6327,8 @@
     ],
     "alibaba": [
       {
-        "name": "Internet of Things",
-        "ref": "https://www.alibabacloud.com/solutions/IoT/",
+        "name": "IoT Platform",
+        "ref": "https://www.alibabacloud.com/product/iot",
         "icon": "iot.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
