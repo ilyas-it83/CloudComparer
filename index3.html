@@ -41,7 +41,7 @@
             <h1 class="logo" style="font-size: 65px; padding-left: 150px;">
                 <span class="alt-logo">Public Cloud Services Comparison</span>
                 <a href="https://github.com/ilyas-it83/CloudComparer/issues">
-                    <img src="img/logo.png" alt="Cloud Comparer" />
+                    <img src="img/logo.png" class="hidden-sm hidden-xs"  alt="Cloud Comparer" />
                 </a>
             </h1>
             <h2>Last Updated on : 01-Oct-2017</h2>
@@ -373,14 +373,14 @@
                 trHTML += '<td><ul>';
                 for (var i in input) {
                     trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon +
-                        '"  onerror="imgError(this);" alt="' + input[i].name + '" class="img-responsive img-icons" />' +
+                        '"  onerror="imgError(this);" alt="' + input[i].name + '" class="img-responsive img-icons hidden-sm hidden-xs" />' +
                         input[i].name + ' <a href="' + input[i].ref +
                         '"class="glyphicon glyphicon-link srvc-hyperlink"  target="_blank"></a></li>';
                 }
                 trHTML += '</ul></td>';
             } else {
                 trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon +
-                    '" onerror="imgError(this);" alt="' + input[0].name + '" class="img-responsive img-icons" /> ' +
+                    '" onerror="imgError(this);" alt="' + input[0].name + '" class="img-responsive img-icons  hidden-sm hidden-xs" /> ' +
                     input[0].name + ' <a href="' + input[0].ref +
                     '" class="glyphicon glyphicon-link srvc-hyperlink"  target="_blank"></a></td>';
             }

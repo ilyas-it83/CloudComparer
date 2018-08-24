@@ -5,6 +5,71 @@
       "ref": "http://#"
     },
     "service": {
+      "name": "Shared Web hosting",
+      "ref": "http://#",
+      "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
+    },
+    "aws": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure shared App Services",
+        "ref": "https://azure.microsoft.com/en-in/services/app-service/web/",
+        "icon": "Azure App Service - Web App (was Websites).png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "Web Hosting",
+        "ref": "https://www.alibabacloud.com/product/hosting",
+        "icon": "ecs.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Simple Application Server",
+        "ref": "https://www.alibabacloud.com/product/swas",
+        "icon": "ecs.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Compute",
+      "ref": "http://#"
+    },
+    "service": {
       "name": "Virtual Server",
       "ref": "http://#",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
@@ -23,12 +88,6 @@
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machines/",
         "icon": "Azure Virtual Machine.png",
         "Properties": [ "18", "No", "Yes", "1 Shared � 32 dedicated CPU", "0,6 � 208 GB", "3 TB" ]
-      },
-      {
-        "name": "Virtual Machine Scale Sets",
-        "ref": "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview",
-        "icon": "Azure VM Scale Set.png",
-        "Properties": [ "40", "No", "No", "1 � 32 CPU", "0,75 � 448 GB", "2 TB" ]
       }
     ],
     "google": [
@@ -58,7 +117,13 @@
     "alibaba": [
       {
         "name": "Alibaba ECS",
-        "ref": "https://www.alibabacloud.com/product/ecs?spm=a3c0i.7911826.675768.dnavproductsa1.66c31103Zzl5y8",
+        "ref": "https://www.alibabacloud.com/product/ecs",
+        "icon": "ecs.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "ECS Bare Metal Instance",
+        "ref": "https://www.alibabacloud.com/product/ebm",
         "icon": "ecs.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -76,7 +141,7 @@
     },
     "aws": [
       {
-        "name": "Amazon EC2 Bare Metal Instance(Preview)",
+        "name": "Amazon EC2 Bare Metal Instance (Preview)",
         "ref": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-bare-metal-instances-with-direct-access-to-hardware/",
         "icon": "aws.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
@@ -108,18 +173,18 @@
     ],
     "oracle": [
        {
-        "name": "Compute-Bare Metal Cloud Service",
-        "ref": "https://cloud.oracle.com/en_US/bare-metal",
+        "name": "Bare Metal Servers",
+        "ref": "https://cloud.oracle.com/compute/bare-metal/features",
         "icon": "compute.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
     "alibaba": [
       {
-        "name": "Bare Metal Servers",
-        "ref": "https://www.alibabacloud.com/product/ehpc?spm=a3c0i.7911826.675768.dnavproductsa7.66c31103p43kyz#overview",
-        "icon": "ehpc.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ]
   },
@@ -151,9 +216,9 @@
     ],
     "google": [
      {
-        "name": "None",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Sole Tenant Node (Beta)",
+        "ref": "https://cloud.google.com/compute/docs/nodes/",
+        "icon": "Compute-Engine.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
@@ -175,9 +240,9 @@
     ],
     "alibaba": [
       {
-        "name": "None",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Dedicated Host",
+        "ref": "https://www.alibabacloud.com/product/ddh",
+        "icon": "alibaba.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ]
@@ -218,7 +283,7 @@
     ],
     "ibm": [
       {
-        "name": "IBM Cloud Container Registry",
+        "name": "IBM Cloud Kubernetes Services",
         "ref": "https://www.ibm.com/cloud/container-registry",
         "icon": "registry_icon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -257,9 +322,9 @@
         "ref": "https://aws.amazon.com/ecs/",
         "icon": "Compute_AmazonECS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      }, 
+      },
       {
-        "name": "Amazon Elastic Container Service for Kubernetes(EKS)",
+        "name": "Amazon Elastic Container Service for Kubernetes (EKS)",
         "ref": "https://aws.amazon.com/eks/",
         "icon": "Compute_AmazonECS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -267,9 +332,9 @@
     ],
     "azure": [
       {
-        "name": "Azure Container Service(AKS)",
-        "ref": "https://azure.microsoft.com/en-in/services/container-service/",
-        "icon": "Azure Container Service.png",
+        "name": "Azure Kubernetes Service (AKS)",
+        "ref": "https://azure.microsoft.com/services/kubernetes-service/",
+        "icon": "Azure Kubernetes Service.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
@@ -351,7 +416,7 @@
       },
       {
         "name": "Event Grid",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/event-grid/",
         "icon": "Azure Event Grid.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -472,6 +537,12 @@
         "ref": "https://azure.microsoft.com/en-us/features/autoscale/",
         "icon": "Azure App Service - Web App (was Websites).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Virtual Machine Scale Sets",
+        "ref": "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview",
+        "icon": "Azure VM Scale Set.png",
+        "Properties": [ "40", "No", "No", "1 � 32 CPU", "0,75 � 448 GB", "2 TB" ]
       }
     ],
     "google": [
@@ -559,9 +630,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Batch Compute",
+        "ref": "https://www.alibabacloud.com/product/batch-compute",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -655,21 +726,9 @@
         "ref": "https://azure.microsoft.com/en-in/services/functions/",
         "icon": "Azure Functions.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Azure Cloud Services",
-        "ref": "https://azure.microsoft.com/en-in/services/cloud-services/",
-        "icon": "Azure Cloud Services - Web roles.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Logic Apps",
-        "ref": "https://azure.microsoft.com/en-in/services/logic-apps/",
-        "icon": "Azure App Service - Logic App.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },{
         "name": "Event Grid",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/event-grid/",
         "icon": "Azure Event Grid.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -692,17 +751,17 @@
     ],
     "oracle": [
       {
-        "name": "",
+        "name": "Oracle Functions",
         "ref": "https://#",
-        "icon": "none.png",
+        "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Function Compute",
+        "ref": "https://www.alibabacloud.com/product/function-compute",
+        "icon": "ecs.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -790,6 +849,12 @@
         "ref": "https://azure.microsoft.com/en-in/services/storage/disks/",
         "icon": "VHD data disk.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Managed Disks",
+        "ref": "https://azure.microsoft.com/en-us/services/managed-disks/",
+        "icon": "VHD data disk.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
@@ -853,9 +918,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "File Store",
+        "ref": "http://cloud.google.com/filestore",
+        "icon": "Persistent-Disk.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -871,7 +936,7 @@
       {
         "name": "Oracle Cloud Infrastructure File Storage",
         "ref": "https://cloud.oracle.com/storage/file-storage/features",
-        "icon": "none.png",
+        "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -924,7 +989,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Archival Storage(NEARLINE & COLDLINE)",
+        "name": "Archival Storage (NEARLINE & COLDLINE)",
         "ref": "https://cloud.google.com/storage/archival/",
         "icon": "Cloud-Storage.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -1053,12 +1118,6 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Azure CosmosDB",
-        "ref": "https://azure.microsoft.com/en-in/services/cosmos-db/",
-        "icon": "Azure SQL Database.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
         "name": "Azure Database for MySQL",
         "ref": "https://azure.microsoft.com/en-us/services/mysql/",
         "icon": "Azure SQL Database.png",
@@ -1149,6 +1208,12 @@
         "ref": "https://www.alibabacloud.com/product/apsaradb-for-rds/",
         "icon": "rds.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Distributed Relational Database Service (DRDS) ",
+        "ref": "https://www.alibabacloud.com/product/drds?spm=a3c0i.11270126.675768.dnavproductsd7.6c8668dcRLNbeB",
+        "icon": "rds.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -1188,6 +1253,12 @@
         "name": "Azure CosmosDB",
         "ref": "https://docs.microsoft.com/en-us/azure/cosmos-db/",
         "icon": "Azure DocumentDB.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Table Storage",
+        "ref": "https://azure.microsoft.com/en-in/services/storage/tables/",
+        "icon": "Azure Storage - Table.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
        {
@@ -1254,7 +1325,65 @@
       }
     ]
   },
-
+  {
+    "category": {
+      "name": "Database",
+      "ref": ""
+    },
+    "service": {
+      "name": "Timeseries Database",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "Amazon DynamoDB",
+        "ref": "https://aws.amazon.com/dynamodb/",
+        "icon": "Database_AmazonDynamoDB.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure Time Series Insights",
+        "ref": "https://azure.microsoft.com/en-us/services/time-series-insights/",
+        "icon": "Azure DocumentDB.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "Cloud BigTable",
+        "ref": "https://cloud.google.com/bigtable/",
+        "icon": "Cloud-Bigtable.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "HiTSDB (High-Performance Time Series Database)",
+        "ref": "https://www.alibabacloud.com/product/hitsdb?spm=a3c0i.11270126.675768.dnavproductsd8.6c8668dcRLNbeB",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
   {
     "category": {
       "name": "Database",
@@ -1283,9 +1412,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "Cloud MemoryStore (Beta)",
+        "ref": "https://cloud.google.com/memorystore/",
+        "icon": "Blue-Hexagon.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1334,7 +1463,7 @@
     ],
     "azure": [
       {
-        "name": "Azure SQL Datawarehouse",
+        "name": "Azure SQL Data Warehouse",
         "ref": "https://azure.microsoft.com/en-in/services/sql-data-warehouse/",
         "icon": "Azure Data Warehouse.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -1360,6 +1489,12 @@
       {
         "name": "Exadata",
         "ref": "http://www.oracle.com/us/corporate/features/exadata-service/index.html",
+        "icon": "database.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Autonomous Data Warehouse Cloud",
+        "ref": "https://cloud.oracle.com/en_US/datawarehouse/features",
         "icon": "database.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1568,7 +1703,7 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Large Scale Data Transfer Solution(Petabyte Scale)",
+      "name": "Large Scale Data Transfer Solution (Petabyte Scale)",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -1627,7 +1762,7 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Large Scale Data Transfer Solution(Terabyte Scale)",
+      "name": "Large Scale Data Transfer Solution (Terabyte Scale)",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -1686,7 +1821,7 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Large Scale Data Transfer Solution(Exabyte Scale)",
+      "name": "Large Scale Data Transfer Solution (Exabyte Scale)",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -1703,6 +1838,65 @@
         "name": "",
         "ref": "#",
         "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "#",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Application Discovery Services",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Application Discovery Services",
+      "ref": "http://#",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "Application Discovery Service",
+        "ref": "https://aws.amazon.com/application-discovery/",
+        "icon": "Storage-Content-Delivery_AWSImportExportSnowball.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure Active Directory",
+        "ref": "https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/cloud-app-discovery",
+        "icon": "Azure%20Active%20Directory.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1851,9 +2045,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "VPN Gateway",
+        "ref": "https://www.alibabacloud.com/product/vpn-gateway",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2049,6 +2243,12 @@
       {
         "name": "AWS Direct Connect",
         "ref": "https://aws.amazon.com/directconnect/",
+        "icon": "Networking_AWSDirectConnect.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Private Link",
+        "ref": "https://aws.amazon.com/about-aws/whats-new/2018/04/introducing-aws-privatelink-in-the-eu-paris-region/",
         "icon": "Networking_AWSDirectConnect.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2469,6 +2669,12 @@
         "ref": "https://azure.microsoft.com/en-us/features/resource-manager/",
         "icon": "Resource Group.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Building Blocks",
+        "ref": "https://azure.microsoft.com/en-in/resources/videos/azure-building-blocks-20-azbb/",
+        "icon": "Resource Group.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
@@ -2621,6 +2827,18 @@
         "ref": "https://www.alibabacloud.com/product/cloud-monitor",
         "icon": "CloudMonitor.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "ActionTrail",
+        "ref": "https://www.alibabacloud.com/product/actiontrail",
+        "icon": "CloudMonitor.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Application Real-Time Monitoring Service",
+        "ref": "https://www.alibabacloud.com/product/arms",
+        "icon": "CloudMonitor.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -2631,7 +2849,7 @@
       "ref": ""
     },
     "service": {
-      "name": "Resource/Configuration Inventory",
+      "name": "Resource / Configuration Inventory",
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -2645,7 +2863,7 @@
     ],
     "azure": [
       {
-        "name": "Azure portal(audit logs)",
+        "name": "Azure portal (audit logs)",
         "ref": "",
         "icon": "Azure Management Portal.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -2832,7 +3050,7 @@
       "ref": ""
     },
     "service": {
-      "name": "Cloud Cost/Performance/Security Advisor",
+      "name": "Cloud Cost / Performance / Security Advisor",
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -2848,6 +3066,12 @@
       {
         "name": "Azure Advisor",
         "ref": "https://azure.microsoft.com/en-in/services/advisor/",
+        "icon": "Azure Security Center.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Cost Management",
+        "ref": "https://azure.microsoft.com/en-us/services/cost-management/",
         "icon": "Azure Security Center.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2911,7 +3135,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
 	  {
-        "name": "Azure Mperations Management Suite (OMS)",
+        "name": "Azure Operations Management Suite (OMS)",
         "ref": "https://www.microsoft.com/en-us/cloud-platform/operations-management-suite",
         "icon": "Azure OMS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -2983,7 +3207,7 @@
       },
       {
         "name": "Azure Powershell",
-        "ref": "",
+        "ref": "https://docs.microsoft.com/en-us/powershell/azure/overview?view=azurermps-6.3.0",
         "icon": "Microsoft Azure.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -3149,13 +3373,13 @@
     "azure": [
       {
         "name": "Azure Site Recovery",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/site-recovery/",
         "icon": "Azure Site Recovery.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Azure Backup",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/backup/",
         "icon": "Azure Backup.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3188,6 +3412,12 @@
       {
         "name": "Alibaba Disaster Recovery",
         "ref": "https://www.alibabacloud.com/solutions/hosting/Disaster-Recovery",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Hybrid Backup Recovery",
+        "ref": "https://www.alibabacloud.com/product/hbr",
         "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3274,6 +3504,12 @@
         "ref": "https://aws.amazon.com/inspector/",
         "icon": "Security-Identity_AmazonInspector.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Gaurd Duty",
+        "ref": "https://aws.amazon.com/guardduty/",
+        "icon": "Security-Identity_AmazonInspector.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "azure": [
@@ -3310,7 +3546,7 @@
       {
         "name": "Configuration and Compliance Service",
         "ref": "https://cloud.oracle.com/compliance",
-        "icon": "Oracle.png",
+        "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3329,7 +3565,7 @@
       "ref": ""
     },
     "service": {
-      "name": "Secured Socket Layer(SSL) Certificates",
+      "name": "Secured Socket Layer (SSL) Certificates",
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -3398,11 +3634,17 @@
         "ref": "https://aws.amazon.com/cloudhsm/",
         "icon": "Security-Identity_AWSCloudHSM.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "ref": "https://aws.amazon.com/secrets-manager/",
+        "icon": "Security-Identity_AWSCloudHSM.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "azure": [
       {
-        "name": "Azure KeyVault",
+        "name": "Azure Key Vault",
         "ref": "https://azure.microsoft.com/en-in/services/key-vault/",
         "icon": "Azure Key Vault.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -3550,17 +3792,17 @@
     ],
     "azure": [
       {
-        "name": "Azure KeyVault",
-        "ref": "",
+        "name": "Azure Key Vault",
+        "ref": "https://azure.microsoft.com/en-us/services/key-vault/",
         "icon": "Azure Key Vault.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud Key Management Service",
+        "ref": "https://cloud.google.com/kms/",
+        "icon": "Cloud-Platform-Security.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3595,7 +3837,7 @@
       "ref": ""
     },
     "service": {
-      "name": "Consolidated Manag of Multiple Cloud Accounts",
+      "name": "Consolidated Management of Multiple Cloud Accounts",
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -3609,9 +3851,9 @@
     ],
     "azure": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Azure Management Groups",
+        "ref": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/management-groups-overview",
+        "icon": "Azure%20Management%20Portal.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3668,7 +3910,7 @@
     ],
     "azure": [
       {
-        "name": "Azure DDoS Protection (Preview)",
+        "name": "Azure DDoS Protection",
         "ref": "https://azure.microsoft.com/en-in/services/ddos-protection/",
         "icon": "Microsoft Azure.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -3794,9 +4036,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Cloud Security Command Center (Alpha)",
+        "ref": "https://cloud.google.com/security-command-center/",
+        "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3853,7 +4095,7 @@
     ],
     "google": [
       {
-        "name": "Big Query",
+        "name": "BigQuery",
         "ref": "https://cloud.google.com/bigquery/",
         "icon": "BigQuery.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -4024,6 +4266,12 @@
         "ref": "https://aws.amazon.com/kinesis/streams/",
         "icon": "Analytics_AmazonKinesis.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Kinesis Video Streams",
+        "ref": "https://aws.amazon.com/blogs/aws/amazon-kinesis-video-streams-serverless-video-ingestion-and-storage-for-vision-enabled-apps/",
+        "icon": "Analytics_AmazonKinesis.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "azure": [
@@ -4093,7 +4341,7 @@
     ],
     "azure": [
       {
-        "name": "Azure SQL Datawarehouse",
+        "name": "Azure SQL Data Warehouse",
         "ref": "https://azure.microsoft.com/en-in/services/sql-data-warehouse/",
         "icon": "Azure Data Warehouse.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -4219,6 +4467,12 @@
         "ref": "https://aws.amazon.com/glue/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Simple Workflow Service (SWF)",
+        "ref": "https://aws.amazon.com/swf/",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "azure": [
@@ -4233,12 +4487,24 @@
         "ref": "https://azure.microsoft.com/en-in/services/data-catalog/",
         "icon": "Azure Data Catalog.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Logic Apps",
+        "ref": "https://azure.microsoft.com/en-in/services/logic-apps/",
+        "icon": "Azure App Service - Logic App.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
       {
         "name": "Cloud DataPrep (Private Beta)",
         "ref": "https://cloud.google.com/dataprep/",
+        "icon": "Cloud-Dataprep.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Composer (Beta)",
+        "ref": "https://cloud.google.com/composer/",
         "icon": "Cloud-Dataprep.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4261,9 +4527,15 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "DataWorks",
+        "ref": "https://www.alibabacloud.com/product/ide",
+        "icon": "alibaba.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Data Integration",
+        "ref": "https://www.alibabacloud.com/product/data-integration",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4365,14 +4637,14 @@
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Speech to Text",
-        "ref": "https://console.bluemix.net/catalog/services/speech-to-text",
+        "name": " Text to Speech",
+        "ref": "https://console.bluemix.net/catalog/services/text-to-speech",
         "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": " Text to Speech",
-        "ref": "https://console.bluemix.net/catalog/services/text-to-speech",
+        "name": "Personality Insights",
+        "ref": "https://console.ng.bluemix.net/catalog/services/personality-insights/",
         "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4448,9 +4720,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Speech to Text",
+        "ref": "https://console.bluemix.net/catalog/services/speech-to-text",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4492,13 +4764,13 @@
     "azure": [
       {
         "name": "Emotion API",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/cognitive-services/emotion/",
         "icon": "Azure Cognative Services - emotion_COLOR.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Face API",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/cognitive-services/face/",
         "icon": "Azure Cognative Services - emotion_COLOR.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -4529,18 +4801,6 @@
         "ref": "https://console.ng.bluemix.net/catalog/services/visual-recognition/",
         "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Retrieve and Rank",
-        "ref": "https://console.ng.bluemix.net/catalog/services/retrieve-and-rank/",
-        "icon": "ibmcloud.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Personality Insights",
-        "ref": "https://console.ng.bluemix.net/catalog/services/personality-insights/",
-        "icon": "ibmcloud.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "oracle": [
@@ -4553,9 +4813,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Image Search",
+        "ref": "https://www.alibabacloud.com/product/imagesearch",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -4669,7 +4929,7 @@
     "azure": [
       {
         "name": "Azure Mobile Apps",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/app-service/mobile/",
         "icon": "Azure App Service - Mobile App (was Mobile Services).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4886,6 +5146,65 @@
   },
   {
     "category": {
+      "name": "Automated Cloud Management Service",
+      "ref": ""
+    },
+    "service": {
+      "name": "Managed Cloud Services",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "AWS Managed Services",
+        "ref": "https://aws.amazon.com/managed-services/",
+        "icon": "Application-Services_AmazonAppStream.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
       "name": "Mobile Services",
       "ref": ""
     },
@@ -5029,25 +5348,25 @@
     "azure": [
       {
         "name": "Microsoft Flow",
-        "ref": "",
+        "ref": "https://flow.microsoft.com/",
         "icon": "Microsoft Flow.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Azure Logic Apps",
-        "ref": "",
+        "name": "Logic Apps",
+        "ref": "https://azure.microsoft.com/en-in/services/logic-apps/",
         "icon": "Azure App Service - Logic App.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Azure Functions",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-in/services/functions/",
         "icon": "Azure Functions.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Event Grid",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/event-grid/",
         "icon": "Azure Event Grid.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -5249,12 +5568,48 @@
         "ref": "",
         "icon": "Application-Services_AmazonElasticTranscoder.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Elemental MediaConvert",
+        "ref": "https://aws.amazon.com/mediaconvert/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Elemental MediaLive",
+        "ref": "https://aws.amazon.com/medialive/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Elemental MediaPackage",
+        "ref": "https://aws.amazon.com/mediapackage/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Elemental MediaStore",
+        "ref": "https://aws.amazon.com/mediastore/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "AWS Elemental MediaTailor",
+        "ref": "https://aws.amazon.com/MediaTailor/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Kinesis Video Streams",
+        "ref": "https://aws.amazon.com/kinesis/video-streams/",
+        "icon": "Application-Services_AmazonElasticTranscoder.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "azure": [
       {
         "name": "Azure Media Services",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/services/media-services",
         "icon": "Azure Media Services.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -5336,7 +5691,7 @@
       {
         "name": "Amazon MQ",
         "ref": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-mq/",
-        "icon": "aws1.png",
+        "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -5398,9 +5753,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Message Queue",
+        "ref": "https://www.alibabacloud.com/product/mq?spm=a3c0i.11270126.209577.68.6c8668dctRiorX",
+        "icon": "API.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5457,9 +5812,9 @@
     ],
     "alibaba": [
       {
-        "name": "Direct Mail",
-        "ref": "https://www.alibabacloud.com/product/directmail",
-        "icon": "directmail.png",
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5508,17 +5863,17 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Edge Services",
+        "ref": "https://cloud.oracle.com/edge",
+        "icon": "developer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Direct Mail",
+        "ref": "https://www.alibabacloud.com/product/directmail",
+        "icon": "directmail.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5551,9 +5906,9 @@
     ],
     "google": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Firebase Cloud Messaging",
+        "ref": "https://firebase.google.com/docs/cloud-messaging/",
+        "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -5575,9 +5930,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Short Message Service (SMS)",
+        "ref": "https://www.alibabacloud.com/product/short-message-service",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5604,7 +5959,13 @@
     "azure": [
       {
         "name": "Blockchain",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/solutions/blockchain/",
+        "icon": "Azure subscription.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Blockchain Workbench",
+        "ref": "https://azure.microsoft.com/en-us/features/blockchain-workbench/",
         "icon": "Azure subscription.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5662,8 +6023,8 @@
     ],
     "azure": [
       {
-        "name": "Microsoft Chatbot",
-        "ref": "",
+        "name": "Azure Bot Service",
+        "ref": "https://azure.microsoft.com/en-us/services/bot-service/",
         "icon": "Azure subscription.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5678,8 +6039,8 @@
     ],
     "ibm": [
       {
-        "name": "IBM Watson",
-        "ref": "https://console.ng.bluemix.net/catalog/services/blockchain/",
+        "name": "Watson Assistant",
+        "ref": "https://console.bluemix.net/catalog/services/watson-assistant-formerly-conversation",
         "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5694,9 +6055,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Intelligent Service Robot",
+        "ref": "https://www.alibabacloud.com/product/bot",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5852,7 +6213,7 @@
     "azure": [
       {
         "name": "Azure MarketPlace",
-        "ref": "",
+        "ref": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps",
         "icon": "Azure Store_Marketplace.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5911,14 +6272,20 @@
     "azure": [
       {
         "name": "Azure IoT Platform",
-        "ref": "",
+        "ref": "https://azure.microsoft.com/en-us/overview/iot/",
+        "icon": "Azure IoT Hub.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure IoT Hub",
+        "ref": "https://azure.microsoft.com/en-us/services/iot-hub/",
         "icon": "Azure IoT Hub.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "google": [
       {
-        "name": "Cloud IoT Core(Beta)",
+        "name": "Cloud IoT Core (Beta)",
         "ref": "https://cloud.google.com/iot-core/",
         "icon": "Google-Cloud-Platform.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -5948,8 +6315,8 @@
     ],
     "alibaba": [
       {
-        "name": "Internet of Things",
-        "ref": "https://www.alibabacloud.com/solutions/IoT/",
+        "name": "IoT Platform",
+        "ref": "https://www.alibabacloud.com/product/iot",
         "icon": "iot.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6046,9 +6413,9 @@
     ],
     "azure": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Azure Sphere",
+        "ref": "https://azure.microsoft.com/en-us/services/azure-sphere/",
+        "icon": "Azure%20IoT%20Hub.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
