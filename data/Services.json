@@ -1553,7 +1553,7 @@
     "oracle": [
       {
         "name": "Migrate to the Cloud",
-        "ref": "hthttps://www.oracle.com/database/migration-to-cloud.html",
+        "ref": "https://www.oracle.com/database/migration-to-cloud.html",
         "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
