@@ -100,8 +100,8 @@
     ],
     "ibm": [
       {
-        "name": "Virtual Server",
-        "ref": "https://console.ng.bluemix.net/catalog/infrastructure/hourly_public_virtual/",
+        "name": "Virtual Server Infrastructure (VSi)",
+        "ref": "https://console.bluemix.net/docs/vsi/vsi_about.html#about-virtual-servers",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -166,8 +166,8 @@
     "ibm": [
       {
         "name": "Bare Metal Servers",
-        "ref": "https://www.ibm.com/cloud-computing/bluemix/bare-metal-servers",
-        "icon": "virtual-server.png",
+        "ref": "https://console.bluemix.net/docs/bare-metal/about.html#about",
+        "icon": "ibm-baremetal.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
