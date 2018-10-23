@@ -399,5 +399,12 @@ footer {
   }
 }
 @media print {
-    
+  table {
+    display: table;
+    border-spacing: 2px;
+     display: table-cell;
+    border: solid 1px #ccc;
+    padding: 2px;
+    display: table-row;
+    }
 }
