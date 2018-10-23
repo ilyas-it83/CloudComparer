@@ -2683,6 +2683,12 @@
         "ref": "https://cloud.google.com/resource-manager/",
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Deployment Manager",
+        "ref": "https://cloud.google.com/deployment-manager/",
+        "icon": "Generic-GCP.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "ibm": [
