@@ -100,8 +100,8 @@
     ],
     "ibm": [
       {
-        "name": "Virtual Server",
-        "ref": "https://console.ng.bluemix.net/catalog/infrastructure/hourly_public_virtual/",
+        "name": "Virtual Server Infrastructure (VSi)",
+        "ref": "https://www.ibm.com/cloud/virtual-servers",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -166,8 +166,8 @@
     "ibm": [
       {
         "name": "Bare Metal Servers",
-        "ref": "https://www.ibm.com/cloud-computing/bluemix/bare-metal-servers",
-        "icon": "virtual-server.png",
+        "ref": "https://console.bluemix.net/docs/bare-metal/about.html#about",
+        "icon": "ibm-baremetal.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -224,8 +224,8 @@
     ],
     "ibm": [
       {
-        "name": "Dedicated Virtual Servers",
-        "ref": "https://www.ibm.com/cloud/virtual-servers",
+        "name": "Dedicated Virtual Servers Infrastructure (VSi)",
+        "ref": "https://console.bluemix.net/docs/vsi/vsi_dedicated_host.html#dedicated-hosts-and-dedicated-instances",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -354,7 +354,7 @@
     ],
     "ibm": [
       {
-        "name": "IBM Cloud Container Service",
+        "name": "IBM Cloud Kubernetes Service",
         "ref": "https://www.ibm.com/cloud/container-service",
         "icon": "containerServiceIcon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -490,9 +490,9 @@
     ],
     "ibm": [
       {
-        "name": "Virtual servers",
-        "ref": "https://www.ibm.com/cloud-computing/bluemix/virtual-servers",
-        "icon": "ibmcloud.png",
+        "name": "Virtual Server Infrastructure (VSi)",
+        "ref": "https://www.ibm.com/cloud/virtual-servers",
+        "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -616,7 +616,7 @@
       {
         "name": "Workload Scheduler",
         "ref": "https://console.bluemix.net/catalog/services/workload-scheduler",
-        "icon": "ibmcloud.png",
+        "icon": "workload_scheduler.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -802,9 +802,9 @@
     ],
     "ibm": [
       {
-        "name": "Object Storage",
-        "ref": "https://#",
-        "icon": "ibmcloud.png",
+        "name": "Cloud Object Storage",
+        "ref": "https://www.ibm.com/cloud/object-storage",
+        "icon": "object-storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
