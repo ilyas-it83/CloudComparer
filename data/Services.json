@@ -1552,15 +1552,15 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Migrate to the Cloud",
+        "ref": "https://www.oracle.com/database/migration-to-cloud.html",
+        "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "alibaba": [
       {
-        "name": "Data Transmission Service ",
+        "name": "Data Transmission Service",
         "ref": "https://www.alibabacloud.com/product/data-transmission-service",
         "icon": "dts.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
