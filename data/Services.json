@@ -928,7 +928,7 @@
       {
         "name": "File Storage",
         "ref": "https://console.bluemix.net/catalog/infrastructure/file-storage",
-        "icon": "ibmcloud.png",
+        "icon": "file-storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1148,31 +1148,31 @@
       {
         "name": "Db2",
         "ref": "https://console.bluemix.net/catalog/services/db2",
-        "icon": "ibmcloud.png",
+        "icon": "db2.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Db2 Hosted",
         "ref": "https://console.bluemix.net/catalog/services/db2-hosted",
-        "icon": "ibmcloud.png",
+        "icon": "db2-hosted.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Informix",
         "ref": "https://console.bluemix.net/catalog/services/informix",
-        "icon": "ibmcloud.png",
+        "icon": "informix.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Compose for PostgreSQL",
         "ref": "https://console.bluemix.net/catalog/services/compose-for-postgresql",
-        "icon": "ibmcloud.png",
+        "icon": "compose-postgre.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Compose for MySQL",
         "ref": "https://console.bluemix.net/catalog/services/compose-for-postgresql",
-        "icon": "ibmcloud.png",
+        "icon": "compose-mysql.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1286,7 +1286,7 @@
       {
         "name": "Cloudant NoSQL DB",
         "ref": "https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db/",
-        "icon": "ibmcloud.png",
+        "icon": "cloudant.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
@@ -1298,7 +1298,7 @@
       {
         "name": "Compose for MongoDB",
         "ref": "https://console.bluemix.net/catalog/services/compose-for-mongodb",
-        "icon": "ibmcloud.png",
+        "icon": "compose-mongo.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1481,7 +1481,7 @@
       {
         "name": "Db2 Warehouse",
         "ref": "https://console.bluemix.net/catalog/services/db2-warehouse",
-        "icon": "ibmcloud.png",
+        "icon": "db2-warehouse.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1546,7 +1546,7 @@
       {
         "name": "Lift",
         "ref": "https://console.ng.bluemix.net/catalog/services/lift/",
-        "icon": "ibmcloud.png",
+        "icon": "lift.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2090,7 +2090,7 @@
       {
         "name": "Content Delivery Network",
         "ref": "https://console.bluemix.net/catalog/infrastructure/cdn-powered-by-akamai",
-        "icon": "ibmcloud.png",
+        "icon": "cdn.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
