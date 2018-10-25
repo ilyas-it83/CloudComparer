@@ -869,7 +869,7 @@
       {
         "name": "Block Storage",
         "ref": "https://console.bluemix.net/catalog/infrastructure/block-storage",
-        "icon": "ibmcloud.png",
+        "icon": "block-storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
