@@ -283,7 +283,7 @@
     ],
     "ibm": [
       {
-        "name": "IBM Cloud Kubernetes Services",
+        "name": "IBM Cloud Container Registry",
         "ref": "https://www.ibm.com/cloud/container-registry",
         "icon": "registry_icon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
