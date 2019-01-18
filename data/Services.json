@@ -285,8 +285,8 @@
     ],
     "oracle": [
       {
-        "name": "Oracle Container Registry",
-        "ref": "https://container-registry.oracle.com/pls/apex/f?p=113:101",
+        "name": "Oracle Cloud Infrastructure Registry",
+        "ref": "https://cloud.oracle.com/containers/registry",
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -356,8 +356,8 @@
     ],
     "oracle": [
       {
-        "name": "Container",
-        "ref": "https://cloud.oracle.com/container",
+        "name": "Container Engine for Kubernetes (OKE)",
+        "ref": "https://cloud.oracle.com/containers/kubernetes-engine",
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -683,6 +683,12 @@
       {
         "name": "Application Container Cloud",
         "ref": "https://cloud.oracle.com/acc",
+        "icon": "applicationcontainer.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+	{
+        "name": "Java Cloud Service",
+        "ref": "https://cloud.oracle.com/en_US/java",
         "icon": "applicationcontainer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3816,7 +3822,7 @@
     ],
     "oracle": [
       {
-        "name": "",
+        "name": "Identity Cloud Service",
         "ref": "https://#",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3875,8 +3881,8 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
+        "name": "Audit",
+        "ref": "https://cloud.oracle.com/en_US/cloud-security/audit/features",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4052,8 +4058,8 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
+        "name": "Compliance",
+        "ref": "https://cloud.oracle.com/en_US/cloud-compliance",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
