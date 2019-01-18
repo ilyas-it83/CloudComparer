@@ -5956,9 +5956,9 @@
     },
     "aws": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Amazon Managed Blockchain (Preview)",
+        "ref": "https://aws.amazon.com/managed-blockchain/",
+        "icon": "Blockchain-Services_AmazonManagedBlockchain.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
