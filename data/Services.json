@@ -120,12 +120,6 @@
         "ref": "https://www.alibabacloud.com/product/ecs",
         "icon": "ecs.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "ECS Bare Metal Instance",
-        "ref": "https://www.alibabacloud.com/product/ebm",
-        "icon": "ecs.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -181,9 +175,9 @@
     ],
     "alibaba": [
       {
-        "name": "None",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "ECS Bare Metal Instance",
+        "ref": "https://www.alibabacloud.com/product/ebm",
+        "icon": "ecs.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ]
@@ -283,7 +277,7 @@
     ],
     "ibm": [
       {
-        "name": "Container Registry",
+        "name": "IBM Cloud Container Registry",
         "ref": "https://www.ibm.com/cloud/container-registry",
         "icon": "registry_icon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -291,8 +285,8 @@
     ],
     "oracle": [
       {
-        "name": "Oracle Container Registry",
-        "ref": "https://container-registry.oracle.com/pls/apex/f?p=113:101",
+        "name": "Oracle Cloud Infrastructure Registry",
+        "ref": "https://cloud.oracle.com/containers/registry",
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -362,8 +356,8 @@
     ],
     "oracle": [
       {
-        "name": "Container",
-        "ref": "https://cloud.oracle.com/container",
+        "name": "Container Engine for Kubernetes (OKE)",
+        "ref": "https://cloud.oracle.com/containers/kubernetes-engine",
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -692,12 +686,18 @@
         "icon": "applicationcontainer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+	{
+        "name": "Java Cloud Service",
+        "ref": "https://cloud.oracle.com/en_US/java",
+        "icon": "applicationcontainer.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Enterprise Distributed Application Service",
+        "ref": "https://www.alibabacloud.com/product/edas",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3292,9 +3292,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Alibaba Cloud CLI",
+        "ref": "https://www.alibabacloud.com/help/doc-detail/66653.htm",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3771,9 +3771,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Resource Access Management",
+        "ref": "https://www.alibabacloud.com/help/doc-detail/96239.htm",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3822,7 +3822,7 @@
     ],
     "oracle": [
       {
-        "name": "",
+        "name": "Identity Cloud Service",
         "ref": "https://#",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3881,8 +3881,8 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
+        "name": "Audit",
+        "ref": "https://cloud.oracle.com/en_US/cloud-security/audit/features",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4058,8 +4058,8 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
+        "name": "Compliance",
+        "ref": "https://cloud.oracle.com/en_US/cloud-compliance",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4907,9 +4907,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Machine Learning Platform For AI",
+        "ref": "https://www.alibabacloud.com/product/machine-learning",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5956,9 +5956,9 @@
     },
     "aws": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Amazon Managed Blockchain (Preview)",
+        "ref": "https://aws.amazon.com/managed-blockchain/",
+        "icon": "Blockchain-Services_AmazonManagedBlockchain.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
