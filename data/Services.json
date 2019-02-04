@@ -999,7 +999,7 @@
       {
         "name": "Object Storage-ColdVault",
         "ref": "https://www.ibm.com/cloud/object-storage",
-        "icon": "ibmcloud.png",
+        "icon": "object-storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4361,8 +4361,8 @@
     "ibm": [
       {
         "name": "Streaming Analytics",
-        "ref": "https://console.ng.bluemix.net/catalog/services/streaming-analytics/",
-        "icon": "ibmcloud.png",
+        "ref": "https://cloud.ibm.com/catalog/services/streaming-analytics",
+        "icon": "streaming-analytics.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
