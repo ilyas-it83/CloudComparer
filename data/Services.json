@@ -120,6 +120,12 @@
         "ref": "https://www.alibabacloud.com/product/ecs",
         "icon": "ecs.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "ECS Bare Metal Instance",
+        "ref": "https://www.alibabacloud.com/product/ebm",
+        "icon": "ecs.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
@@ -175,9 +181,9 @@
     ],
     "alibaba": [
       {
-        "name": "ECS Bare Metal Instance",
-        "ref": "https://www.alibabacloud.com/product/ebm",
-        "icon": "ecs.png",
+        "name": "None",
+        "ref": "http://#",
+        "icon": "none.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ]
@@ -277,7 +283,7 @@
     ],
     "ibm": [
       {
-        "name": "IBM Cloud Container Registry",
+        "name": "Container Registry",
         "ref": "https://www.ibm.com/cloud/container-registry",
         "icon": "registry_icon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -285,8 +291,8 @@
     ],
     "oracle": [
       {
-        "name": "Oracle Cloud Infrastructure Registry",
-        "ref": "https://cloud.oracle.com/containers/registry",
+        "name": "Oracle Container Registry",
+        "ref": "https://container-registry.oracle.com/pls/apex/f?p=113:101",
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -356,8 +362,8 @@
     ],
     "oracle": [
       {
-        "name": "Container Engine for Kubernetes (OKE)",
-        "ref": "https://cloud.oracle.com/containers/kubernetes-engine",
+        "name": "Container",
+        "ref": "https://cloud.oracle.com/container",
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -686,18 +692,12 @@
         "icon": "applicationcontainer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
-	{
-        "name": "Java Cloud Service",
-        "ref": "https://cloud.oracle.com/en_US/java",
-        "icon": "applicationcontainer.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      }
     ],
     "alibaba": [
       {
-        "name": "Enterprise Distributed Application Service",
-        "ref": "https://www.alibabacloud.com/product/edas",
-        "icon": "alibaba.png",
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -2271,11 +2271,33 @@
     ],
     "ibm": [
       {
-        "name": "Direct Link",
+        "name": "Direct Link Connect",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/direct-link",
+        "icon": "direct-link.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }, 
+
+      {
+        "name": "Direct Link Dedicated",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/direct-link",
+        "icon": "direct-link.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+
+      {
+        "name": "Direct Link Dedicated Hosting",
+        "ref": "https://www.ibm.com/cloud-computing/bluemix/direct-link",
+        "icon": "direct-link.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+
+      {
+        "name": "Direct Link Exchange",
         "ref": "https://www.ibm.com/cloud-computing/bluemix/direct-link",
         "icon": "direct-link.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+      
     ],
     "oracle": [
       {
@@ -2332,19 +2354,19 @@
       {
         "name": "Local Load Balancing",
         "ref": "https://console.bluemix.net/catalog/infrastructure/load-balancer-group",
-        "icon": "ibmcloud.png",
+        "icon": "load-balancing.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "IBM Cloud Load Balancing",
         "ref": "https://console.bluemix.net/catalog/infrastructure/load-balancer-group",
-        "icon": "ibmcloud.png",
+        "icon": "load-balancing.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Citrix NetScaler VPX",
         "ref": "https://console.bluemix.net/catalog/infrastructure/load-balancer-group",
-        "icon": "ibmcloud.png",
+        "icon": "load-balancing.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2811,7 +2833,20 @@
         "ref": "https://console.bluemix.net/catalog/services/monitoring",
         "icon": "monitoring.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "LogDNA",
+        "ref": "https://www.ibm.com/cloud/log-analysis",
+        "icon": "log-dna.svg",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Sysdig",
+        "ref": "https://www.ibm.com/us-en/marketplace/sysdig-monitor",
+        "icon": "log-sysdig.svg",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+      
     ],
     "oracle": [
       {
@@ -3258,11 +3293,18 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "IBM Cloud CLI",
+        "ref": "https://cloud.ibm.com/docs/cli/index.html#overview",
+        "icon": "ibmcloud.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "IBM Cloud Portal",
+        "ref": "https://cloud.ibm.com",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "oracle": [
       {
@@ -3292,9 +3334,9 @@
     ],
     "alibaba": [
       {
-        "name": "Alibaba Cloud CLI",
-        "ref": "https://www.alibabacloud.com/help/doc-detail/66653.htm",
-        "icon": "alibaba.png",
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3605,7 +3647,14 @@
         "ref": "https://console.bluemix.net/docs/infrastructure/ssl-certificates/index.html#getting-started-with-ssl-certificates",
         "icon": "ssl-certificates.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Certificate Manager",
+        "ref": "https://console.bluemix.net/catalog/services/certificate-manager",
+        "icon": "certificate-manager.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "oracle": [
       {
@@ -3771,9 +3820,9 @@
     ],
     "alibaba": [
       {
-        "name": "Resource Access Management",
-        "ref": "https://www.alibabacloud.com/help/doc-detail/96239.htm",
-        "icon": "alibaba.png",
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3814,15 +3863,15 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Key Protect",
+        "ref": "https://console.bluemix.net/catalog/services/key-protect",
+        "icon": "key-protect.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "oracle": [
       {
-        "name": "Identity Cloud Service",
+        "name": "",
         "ref": "https://#",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -3881,8 +3930,8 @@
     ],
     "oracle": [
       {
-        "name": "Audit",
-        "ref": "https://cloud.oracle.com/en_US/cloud-security/audit/features",
+        "name": "",
+        "ref": "https://#",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4058,8 +4107,8 @@
     ],
     "oracle": [
       {
-        "name": "Compliance",
-        "ref": "https://cloud.oracle.com/en_US/cloud-compliance",
+        "name": "",
+        "ref": "https://#",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4172,7 +4221,14 @@
         "ref": "https://console.ng.bluemix.net/catalog/services/biginsights-for-apache-hadoop/",
         "icon": "biginsights.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Analytics Engine",
+        "ref": "https://console.bluemix.net/catalog/services/analytics-engine?customCreatePageKey=catalog-custom-key-nrenxtwr",
+        "icon": "analytics-engine.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "oracle": [
       {
@@ -4907,9 +4963,9 @@
     ],
     "alibaba": [
       {
-        "name": "Machine Learning Platform For AI",
-        "ref": "https://www.alibabacloud.com/product/machine-learning",
-        "icon": "alibaba.png",
+        "name": "",
+        "ref": "https://#",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5737,8 +5793,8 @@
     ],
     "ibm": [
       {
-        "name": "Message Hub",
-        "ref": "https://console.bluemix.net/catalog/services/message-hub",
+        "name": "Event Streams",
+        "ref": "https://console.bluemix.net/catalog/services/event-streams",
         "icon": "message-hub.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5956,9 +6012,9 @@
     },
     "aws": [
       {
-        "name": "Amazon Managed Blockchain (Preview)",
-        "ref": "https://aws.amazon.com/managed-blockchain/",
-        "icon": "Blockchain-Services_AmazonManagedBlockchain.png",
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -6553,9 +6609,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "IBM Cloud for Skytap Solution",
+        "ref": "https://www.ibm.com/blogs/nordic-msp/ibm-cloud-skytap-solutions/",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
