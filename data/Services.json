@@ -2029,9 +2029,9 @@
     ],
     "ibm": [
       {
-        "name": "VPN",
-        "ref": "http://knowledgelayer.softlayer.com/learning/introduction-vpn",
-        "icon": "ibmcloud.png",
+        "name": "IPSec VPN",
+        "ref": "https://cloud.ibm.com/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html#set-up-ipsec-vpn",
+        "icon": "ipsec.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -3303,6 +3303,12 @@
         "ref": "https://cloud.ibm.com",
         "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "IBM Integrated Managed Infrastructure Services",
+        "ref": "https://www.ibm.com/us-en/marketplace/imi-services-for-networking",
+        "icon": "ibmcloud.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
 
     ],
@@ -3442,9 +3448,21 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Zerto on IBM Cloud",
+        "ref": "https://cloud.ibm.com/docs/services/vmwaresolutions/services/addingzertodr.html#technical-considerations-for-zerto-on-ibm-cloud",
+        "icon": "zerto.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Veeam on IBM Cloud",
+        "ref": "https://cloud.ibm.com/docs/services/vmwaresolutions/services/veeam_considerations.html#technical-specifications-for-veeam-on-ibm-cloud",
+        "icon": "veeam.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "IBM Resiliency Disaster Recovery as a Service",
+        "ref": "https://www.ibm.com/us-en/marketplace/disaster-recovery-as-a-service",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
