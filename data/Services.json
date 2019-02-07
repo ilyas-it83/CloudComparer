@@ -166,7 +166,7 @@
     "ibm": [
       {
         "name": "Bare Metal Servers",
-        "ref": "https://console.bluemix.net/docs/bare-metal/about.html#about",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/bare-metal",
         "icon": "ibm-baremetal.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -225,7 +225,7 @@
     "ibm": [
       {
         "name": "Dedicated Virtual Servers Infrastructure (VSi)",
-        "ref": "https://console.bluemix.net/docs/vsi/vsi_dedicated_host.html#dedicated-hosts-and-dedicated-instances",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/virtual-server-group",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -927,7 +927,7 @@
     "ibm": [
       {
         "name": "File Storage",
-        "ref": "https://console.bluemix.net/catalog/infrastructure/file-storage",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/file-storage",
         "icon": "file-storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1285,7 +1285,7 @@
     "ibm": [
       {
         "name": "Cloudant NoSQL DB",
-        "ref": "https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db/",
+        "ref": "https://cloud.ibm.com/catalog/services/cloudant",
         "icon": "cloudant.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -1297,7 +1297,7 @@
       },
       {
         "name": "Compose for MongoDB",
-        "ref": "https://console.bluemix.net/catalog/services/compose-for-mongodb",
+        "ref": "https://cloud.ibm.com/catalog/services/compose-for-mongodb",
         "icon": "compose-mongo.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1361,9 +1361,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "InfluxCloud",
+        "ref": "https://cloud.ibm.com/catalog/services/influxcloud",
+        "icon": "influx-cloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1480,7 +1480,7 @@
     "ibm": [
       {
         "name": "Db2 Warehouse",
-        "ref": "https://console.bluemix.net/catalog/services/db2-warehouse",
+        "ref": "https://cloud.ibm.com/catalog/services/db2-warehouse",
         "icon": "db2-warehouse.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1545,7 +1545,7 @@
     "ibm": [
       {
         "name": "Lift",
-        "ref": "https://console.ng.bluemix.net/catalog/services/lift/",
+        "ref": "https://cloud.ibm.com/catalog/services/lift-cli",
         "icon": "lift.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2089,7 +2089,7 @@
     "ibm": [
       {
         "name": "Content Delivery Network",
-        "ref": "https://console.bluemix.net/catalog/infrastructure/cdn-powered-by-akamai",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/cdn-powered-by-akamai",
         "icon": "cdn.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2148,7 +2148,7 @@
     "ibm": [
       {
         "name": "Internet Services",
-        "ref": "https://console.bluemix.net/catalog/services/internet-services",
+        "ref": "https://cloud.ibm.com/catalog/services/internet-services",
         "icon": "internet-services.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
