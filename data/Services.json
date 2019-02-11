@@ -101,7 +101,7 @@
     "ibm": [
       {
         "name": "Virtual Server Infrastructure (VSi)",
-        "ref": "https://www.ibm.com/cloud/virtual-servers",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/virtual-server-group",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -284,7 +284,7 @@
     "ibm": [
       {
         "name": "Container Registry",
-        "ref": "https://www.ibm.com/cloud/container-registry",
+        "ref": "https://cloud.ibm.com/containers-kubernetes/catalog/registry",
         "icon": "registry_icon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -355,7 +355,7 @@
     "ibm": [
       {
         "name": "IBM Cloud Kubernetes Service",
-        "ref": "https://www.ibm.com/cloud/container-service",
+        "ref": "https://cloud.ibm.com/containers-kubernetes/catalog/registry",
         "icon": "containerServiceIcon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -432,7 +432,7 @@
     "ibm": [
       {
         "name": "IBM Cloud Functions",
-        "ref": "https://www.ibm.com/cloud/functions",
+        "ref": "https://cloud.ibm.com/openwhisk",
         "icon": "ibm-cloud-functions.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -491,7 +491,7 @@
     "ibm": [
       {
         "name": "Virtual Server Infrastructure (VSi)",
-        "ref": "https://www.ibm.com/cloud/virtual-servers",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/virtual-server-group",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -556,7 +556,7 @@
     "ibm": [
       {
         "name": "Auto Scaling",
-        "ref": "https://www.ibm.com/cloud/auto-scaling",
+        "ref": "https://cloud.ibm.com/catalog/services/auto-scaling",
         "icon": "auto-scaling.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -615,7 +615,7 @@
     "ibm": [
       {
         "name": "Workload Scheduler",
-        "ref": "https://console.bluemix.net/catalog/services/workload-scheduler",
+        "ref": "https://cloud.ibm.com/catalog/services/workload-scheduler",
         "icon": "workload_scheduler.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -680,7 +680,7 @@
     "ibm": [
       {
         "name": "Cloud Foundry Apps",
-        "ref": "https://www.ibm.com/cloud/cloud-foundry",
+        "ref": "https://cloud.ibm.com/cfadmin/create",
         "icon": "cloud-foundry-apps.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -744,7 +744,7 @@
     "ibm": [
       {
         "name": "IBM Cloud Functions",
-        "ref": "https://www.ibm.com/cloud/functions",
+        "ref": "https://cloud.ibm.com/openwhisk",
         "icon": "ibm-cloud-functions.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -803,7 +803,7 @@
     "ibm": [
       {
         "name": "Cloud Object Storage",
-        "ref": "https://www.ibm.com/cloud/object-storage",
+        "ref": "https://cloud.ibm.com/catalog/services/cloud-object-storage",
         "icon": "object-storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -868,7 +868,7 @@
     "ibm": [
       {
         "name": "Block Storage",
-        "ref": "https://console.bluemix.net/catalog/infrastructure/block-storage",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/block-storage",
         "icon": "block-storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -998,7 +998,7 @@
     "ibm": [
       {
         "name": "Object Storage-ColdVault",
-        "ref": "https://www.ibm.com/cloud/object-storage",
+        "ref": "https://cloud.ibm.com/catalog/services/cloud-object-storage",
         "icon": "object-storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1147,19 +1147,19 @@
     "ibm": [
       {
         "name": "Db2",
-        "ref": "https://console.bluemix.net/catalog/services/db2",
+        "ref": "https://cloud.ibm.com/catalog/services/db2",
         "icon": "db2.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Db2 Hosted",
-        "ref": "https://console.bluemix.net/catalog/services/db2-hosted",
+        "ref": "https://cloud.ibm.com/catalog/services/db2-hosted",
         "icon": "db2-hosted.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Informix",
-        "ref": "https://console.bluemix.net/catalog/services/informix",
+        "ref": "https://cloud.ibm.com/catalog/services/informix",
         "icon": "informix.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -1291,7 +1291,7 @@
       },
       {
         "name": "IBM Graph",
-        "ref": "https://console.ng.bluemix.net/catalog/services/ibm-graph/",
+        "ref": "https://www.ibm.com/analytics/br/pt/technology/cloud-data-services/graph/",
         "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -1421,7 +1421,7 @@
     "ibm": [
       {
         "name": "Compose for Redis",
-        "ref": "https://console.bluemix.net/catalog/services/compose-for-redis",
+        "ref": "https://console.bluemix.net/catalog/services/databases-for-redis",
         "icon": "compose-redis.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2207,7 +2207,7 @@
     "ibm": [
       {
         "name": "Internet Services",
-        "ref": "https://console.bluemix.net/catalog/services/internet-services",
+        "ref": "https://cloud.ibm.com/catalog/services/internet-services",
         "icon": "internet-services.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2272,28 +2272,28 @@
     "ibm": [
       {
         "name": "Direct Link Connect",
-        "ref": "https://www.ibm.com/cloud-computing/bluemix/direct-link",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/direct-link-cloud-connect",
         "icon": "direct-link.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }, 
 
       {
         "name": "Direct Link Dedicated",
-        "ref": "https://www.ibm.com/cloud-computing/bluemix/direct-link",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/direct-link-network-service-provider",
         "icon": "direct-link.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
 
       {
         "name": "Direct Link Dedicated Hosting",
-        "ref": "https://www.ibm.com/cloud-computing/bluemix/direct-link",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/direct_link_colocation",
         "icon": "direct-link.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
 
       {
         "name": "Direct Link Exchange",
-        "ref": "https://www.ibm.com/cloud-computing/bluemix/direct-link",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/direct-link-cloud-exchange",
         "icon": "direct-link.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2353,13 +2353,13 @@
     "ibm": [
       {
         "name": "Local Load Balancing",
-        "ref": "https://console.bluemix.net/catalog/infrastructure/load-balancer-group",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/load-balancer-group",
         "icon": "load-balancing.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "IBM Cloud Load Balancing",
-        "ref": "https://console.bluemix.net/catalog/infrastructure/load-balancer-group",
+        "ref": "https://cloud.ibm.com/catalog/infrastructure/load-balancer-group",
         "icon": "load-balancing.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -2466,7 +2466,7 @@
       },
       {
         "name": "Continuous Delivery",
-        "ref": "https://console.ng.bluemix.net/catalog/services/continuous-delivery/",
+        "ref": "https://cloud.ibm.com/catalog/services/continuous-delivery",
         "icon": "continuous-delivery.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -2478,7 +2478,7 @@
       },
       {
         "name": "Globalization Pipeline",
-        "ref": "https://console.ng.bluemix.net/catalog/services/globalization-pipeline/",
+        "ref": "https://cloud.ibm.com/catalog/services/globalization-pipeline",
         "icon": "globalization-pipeline.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -2567,7 +2567,7 @@
       },
       {
         "name": "Continuous Delivery",
-        "ref": "https://console.bluemix.net/catalog/services/continuous-delivery",
+        "ref": "https://cloud.ibm.com/catalog/services/continuous-delivery",
         "icon": "continuous-delivery.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2824,7 +2824,7 @@
     "ibm": [
       {
         "name": "Log Analysis",
-        "ref": "https://console.bluemix.net/catalog/services/log-analysis",
+        "ref": "https://cloud.ibm.com/catalog/services/log-analysis",
         "icon": "log-analysis.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -2836,13 +2836,13 @@
       },
       {
         "name": "LogDNA",
-        "ref": "https://www.ibm.com/cloud/log-analysis",
+        "ref": "https://cloud.ibm.com/observe/logging/create?bss_account=84ce1b5e731543249fedb9686c0d3ac1",
         "icon": "log-dna.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Sysdig",
-        "ref": "https://www.ibm.com/us-en/marketplace/sysdig-monitor",
+        "ref": "https://cloud.ibm.com/observe/monitoring/create?bss_account=84ce1b5e731543249fedb9686c0d3ac1",
         "icon": "log-sysdig.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4000,7 +4000,7 @@
     "ibm": [
       {
         "name": "Internet Services",
-        "ref": "https://console.bluemix.net/catalog/services/internet-services",
+        "ref": "https://cloud.ibm.com/catalog/services/internet-services",
         "icon": "internet-services.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4059,7 +4059,7 @@
     "ibm": [
       {
         "name": "Internet Services",
-        "ref": "https://console.bluemix.net/catalog/services/internet-services",
+        "ref": "https://cloud.ibm.com/catalog/services/internet-services",
         "icon": "internet-services.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4177,7 +4177,7 @@
     "ibm": [
       {
         "name": "SQL Query",
-        "ref": "https://console.bluemix.net/catalog/services/sql-query",
+        "ref": "https://cloud.ibm.com/catalog/services/sql-query",
         "icon": "sql-query.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4236,13 +4236,13 @@
     "ibm": [
       {
         "name": "BigInsights for Apache Hadoop",
-        "ref": "https://console.ng.bluemix.net/catalog/services/biginsights-for-apache-hadoop/",
+        "ref": "https://cloud.ibm.com/catalog/services/biginsights-for-apache-hadoop-subscription",
         "icon": "biginsights.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Analytics Engine",
-        "ref": "https://console.bluemix.net/catalog/services/analytics-engine?customCreatePageKey=catalog-custom-key-nrenxtwr",
+        "ref": "https://cloud.ibm.com/catalog/services/analytics-engine?customCreatePageKey=catalog-custom-key-fslgnug5",
         "icon": "analytics-engine.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4308,7 +4308,7 @@
     "ibm": [
       {
         "name": "Compose for Elasticsearch",
-        "ref": "https://console.bluemix.net/catalog/services/compose-for-elasticsearch",
+        "ref": "https://cloud.ibm.com/catalog/services/databases-for-elasticsearch",
         "icon": "compose-elastic.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4497,7 +4497,7 @@
     "ibm": [
       {
         "name": "Watson studio",
-        "ref": "https://console.bluemix.net/catalog/services/watson-studio",
+        "ref": "https://cloud.ibm.com/catalog/services/watson-studio",
         "icon": "watson-studio.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4688,43 +4688,43 @@
     "ibm": [
       {
         "name": "Natural Language Classifier",
-        "ref": "https://console.ng.bluemix.net/catalog/services/natural-language-classifier/",
+        "ref": "https://cloud.ibm.com/catalog/services/natural-language-classifier",
         "icon": "natural-language-classifier.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Language Translator",
-        "ref": "https://console.ng.bluemix.net/catalog/services/language-translator/",
+        "ref": "https://cloud.ibm.com/catalog/services/language-translator",
         "icon": "language-translator.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Watson Assistant",
-        "ref": "https://console.bluemix.net/catalog/services/watson-assistant-formerly-conversation",
+        "ref": "https://cloud.ibm.com/catalog/services/watson-assistant",
         "icon": "watson-assistant.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Discovery",
-        "ref": "https://console.ng.bluemix.net/catalog/services/discovery/",
+        "ref": "https://cloud.ibm.com/catalog/services/discovery",
         "icon": "discovery.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Knowledge Studio",
-        "ref": "https://console.bluemix.net/catalog/services/knowledge-studio",
+        "ref": "https://cloud.ibm.com/catalog/services/knowledge-studio",
         "icon": "knowledge-studio.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": " Text to Speech",
-        "ref": "https://console.bluemix.net/catalog/services/text-to-speech",
+        "ref": "https://cloud.ibm.com/catalog/services/text-to-speech",
         "icon": "text-to-speech.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Personality Insights",
-        "ref": "https://console.ng.bluemix.net/catalog/services/personality-insights/",
+        "ref": "https://cloud.ibm.com/catalog/services/personality-insights",
         "icon": "personality-insights.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4801,7 +4801,7 @@
     "ibm": [
       {
         "name": "Speech to Text",
-        "ref": "https://console.bluemix.net/catalog/services/speech-to-text",
+        "ref": "https://cloud.ibm.com/catalog/services/speech-to-text",
         "icon": "speech-to-text.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4878,7 +4878,7 @@
     "ibm": [
       {
         "name": "Visual Recognition",
-        "ref": "https://console.ng.bluemix.net/catalog/services/visual-recognition/",
+        "ref": "https://cloud.ibm.com/catalog/services/visual-recognition",
         "icon": "visual-recognition.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4966,7 +4966,7 @@
     "ibm": [
       {
         "name": "Machine Learning",
-        "ref": "https://console.bluemix.net/catalog/services/machine-learning",
+        "ref": "https://cloud.ibm.com/catalog/services/machine-learning",
         "icon": "machine-learning.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5084,7 +5084,7 @@
     "ibm": [
       {
         "name": "API Connect",
-        "ref": "https://console.bluemix.net/catalog/services/api-connect",
+        "ref": "https://cloud.ibm.com/catalog/services/api-connect",
         "icon": "api-connect.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5143,7 +5143,7 @@
     "ibm": [
       {
         "name": "App ID",
-        "ref": "https://console.bluemix.net/catalog/services/app-id",
+        "ref": "https://cloud.ibm.com/catalog/services/app-id",
         "icon": "app-id.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5202,7 +5202,7 @@
     "ibm": [
       {
         "name": "Mobile Foundation",
-        "ref": "https://console.bluemix.net/catalog/services/mobile-foundation",
+        "ref": "https://cloud.ibm.com/catalog/services/mobile-foundation",
         "icon": "mobile-foundation.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5610,7 +5610,7 @@
     "ibm": [
       {
         "name": "Api connect",
-        "ref": "https://console.bluemix.net/catalog/services/api-connect",
+        "ref": "https://cloud.ibm.com/catalog/services/api-connect",
         "icon": "api-connect.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5812,7 +5812,7 @@
     "ibm": [
       {
         "name": "Event Streams",
-        "ref": "https://console.bluemix.net/catalog/services/event-streams",
+        "ref": "https://cloud.ibm.com/catalog/services/event-streams",
         "icon": "message-hub.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5995,7 +5995,7 @@
     "ibm": [
       {
         "name": "Push notification",
-        "ref": "https://console.bluemix.net/catalog/services/push-notifications",
+        "ref": "https://cloud.ibm.com/catalog/services/push-notifications",
         "icon": "push_notification.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6061,7 +6061,7 @@
     "ibm": [
       {
         "name": "Blockchain",
-        "ref": "https://console.ng.bluemix.net/catalog/services/blockchain/",
+        "ref": "https://cloud.ibm.com/catalog/services/ibm-blockchain-5-prod",
         "icon": "blockchain.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6120,7 +6120,7 @@
     "ibm": [
       {
         "name": "Watson Assistant",
-        "ref": "https://console.bluemix.net/catalog/services/watson-assistant-formerly-conversation",
+        "ref": "https://cloud.ibm.com/catalog/services/watson-assistant",
         "icon": "watson-assistant.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6380,7 +6380,7 @@
     "ibm": [
       {
         "name": "Internet of Things Platform",
-        "ref": "https://console.ng.bluemix.net/catalog/services/internet-of-things-platform/",
+        "ref": "https://cloud.ibm.com/catalog/services/internet-of-things-platform",
         "icon": "internet-of-things.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
