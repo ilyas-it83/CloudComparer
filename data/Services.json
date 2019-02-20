@@ -691,6 +691,13 @@
         "ref": "https://cloud.oracle.com/acc",
         "icon": "applicationcontainer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+
+      },
+	{
+        "name": "Java Cloud Service",
+        "ref": "https://cloud.oracle.com/en_US/java",
+        "icon": "applicationcontainer.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "alibaba": [
