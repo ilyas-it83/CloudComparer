@@ -35,9 +35,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Web hosting services",
+        "ref": "https://www.ibm.com/cloud/websites",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1361,9 +1361,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Informix",
+        "ref": "https://www.ibm.com/analytics/informix",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -1545,8 +1545,14 @@
     "ibm": [
       {
         "name": "Lift",
-        "ref": "https://console.ng.bluemix.net/catalog/services/lift/",
+        "ref": "https://www.ibm.com/cloud/lift",
         "icon": "lift.svg",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Aspera",
+        "ref": "https://www.ibm.com/cloud/aspera",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4422,9 +4428,9 @@
     ],
     "ibm": [
       {
-        "name": "Watson studio",
-        "ref": "https://console.bluemix.net/catalog/services/watson-studio",
-        "icon": "watson-studio.svg",
+        "name": "Cognos Analytics",
+        "ref": "https://www.ibm.com/analytics/cognos-analytics",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4517,9 +4523,15 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "DataStage",
+        "ref": "https://www.ibm.com/us-en/marketplace/datastage",
+        "icon": "ibmcloud.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Watson Knowledge Catalog",
+        "ref": "https://www.ibm.com/cloud/watson-knowledge-catalog",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4892,8 +4904,20 @@
     "ibm": [
       {
         "name": "Machine Learning",
-        "ref": "https://console.bluemix.net/catalog/services/machine-learning",
+        "ref": "https://www.ibm.com/cloud/machine-learning",
         "icon": "machine-learning.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Watson Studio",
+        "ref": "https://www.ibm.com/cloud/watson-studio",
+        "icon": "watson-studio.svg",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Watson OpenScale",
+        "ref": "https://www.ibm.com/cloud/watson-openscale",
+        "icon": "watson-studio.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -5737,8 +5761,8 @@
     ],
     "ibm": [
       {
-        "name": "Message Hub",
-        "ref": "https://console.bluemix.net/catalog/services/message-hub",
+        "name": "Event Streams",
+        "ref": "https://www.ibm.com/cloud/event-streams",
         "icon": "message-hub.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
