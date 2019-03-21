@@ -652,7 +652,7 @@
     "azure": [
       {
         "name": "Azure Web Apps",
-        "ref": "https://azure.microsoft.com/en-in/services/batch/",
+        "ref": "https://azure.microsoft.com/en-in/services/app-service/web/",
         "icon": "Azure App Service - Web App (was Websites).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
