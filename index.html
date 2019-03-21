@@ -42,10 +42,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 <!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
-<body style="display:none;">
+<body>
     <section id="top" class="portfolio">
         <h1 class="text-center" style="font-size: 65px;">
             Public Cloud Services Comparison (June 25th,2018)
@@ -59,35 +58,142 @@
                 <a class="github-button" href="https://github.com/ilyas-it83/CloudComparer/fork" data-size="large" data-show-count="true" aria-label="Fork ilyas-it83/CloudComparer on GitHub">Fork</a>
           </div>
 
-        <table id="comparetable" class="table table-bordered table-striped table-hover table-responsive">
-            <!-- <table id="comparetable" class="blueshine table"> -->
-            <thead style="background-color: #b8cee2;">
-                <tr>
-                    <th style="width:7%">Category</th>
-                    <th style="width:10%">Service</th>
-                    <th>
-                        <img class="img-responsive" src='img/logo/aws.png' alt='icon' />
-                    </th>
-                    <th>
-                        <img class="img-responsive" src='img/logo/msazure.png' alt='icon' />
-                    </th>
-                    <th>
-                        <img class="img-responsive" src='img/logo/google.png' alt='icon' />
-                    </th>
-                    <th>
-                        <img class="img-responsive" src='img/logo/IBM-Cloud.png' alt='icon' />
-                    </th>
-                    <th>
-                        <img class="img-responsive" src='img/logo/oracle.png' alt='icon' />
-                    </th>
-                    <th>
-                        <img class="img-responsive" src='img/logo/alibaba.png' alt='icon' />
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+        
+      <table id="comparetable"  class="table table-bordered table-striped table-hover table-responsive">
+        <thead style="background-color: #b8cee2;">
+          <tr>
+            <th style="width:7%">Category</th>
+            <th style="width:10%">Service</th>
+            <th>
+              <img class="img-responsive" src="img/logo/aws.png" alt="AWS Icon" />
+            </th>
+            <th>
+              <img class="img-responsive" src="img/logo/msazure.png" alt="Microsoft Azure Log"/>
+            </th>
+            <th>
+              <img class="img-responsive" src="img/logo/google.png"  alt="Google Cloud Platform Logo" />
+            </th>
+            <th>
+              <img class="img-responsive" src="img/logo/IBM-Cloud.png"  alt="IBM Cloud Logo" />
+            </th>
+            <th>
+              <img  class="img-responsive" src="img/logo/oracle.png" alt="Oracle Cloud Logo"/>
+            </th>
+            <th>
+              <img class="img-responsive" src="img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="cloud-compare">
+          <script id="cloud-compare-template" type="text/x-handlebars-template">
+            {{#each data}}
+            <tr>
+                <td> 
+                    <b> {{category.name}} </b> 
+                </td>
+
+                <td>
+                    <b> {{service.name}} </b>
+                    {{#if service.ref}}
+                    <a href="{{service.ref}}" class="glyphicon glyphicon-link hidden-print" target="_blank"></a>
+                    {{/if}}
+                </td>
+
+                <td>
+                    <ul>
+                        {{#each aws}}
+                            <li>
+                                {{#if name}}
+                                <img src="img/cloudproviders/aws/{{icon}}" alt="{{name}}" onerror="this.remove()"  class=" hidden-sm hidden-xs img-responsive img-icons" /> {{name}}
+                                {{/if}}
+                                {{#if ref}}
+                                <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>
+                                {{/if}}
+                            </li>                           
+                        {{/each}}
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        {{#each azure}}
+                            <li>
+                                {{#if name}}
+                                <img src="img/cloudproviders/azure/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
+                                {{/if}}
+                                {{#if ref}}
+                                <a href="{{ref}}"  class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"> </a>
+                                {{/if}}
+                            </li>                            
+                        {{/each}}
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        {{#each google}}
+                        <li>
+                            {{#if name}}
+                            <img src="img/cloudproviders/gcp/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
+                            {{/if}}
+                            {{#if ref}}
+                            <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>                        
+                            {{/if}}
+                        </li>
+
+                        {{/each}}
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        {{#each ibm}}
+                        <li>
+                            {{#if name}}
+                            <img src="img/cloudproviders/ibm/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
+                            {{/if}}
+                            {{#if ref}}
+                            <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>                        
+                            {{/if}}                        
+                        </li>
+
+                        {{/each}}
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        {{#each oracle}}
+                        <li>
+                            {{#if name}}
+                            <img src="img/cloudproviders/oracle/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
+                            {{/if}}
+                            {{#if ref}}
+                            <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>                        
+                            {{/if}}
+                        </li>                            
+                        {{/each}}
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        {{#each alibaba}}
+                        <li>
+                            {{#if name}}
+                            <img src="img/cloudproviders/alibaba/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
+                            {{/if}}
+                            {{#if ref}}
+                                <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>
+                            {{/if}}
+                        </li>                           
+                        {{/each}}
+                    </ul>
+                </td>
+            </tr>
+            {{/each}}
+          </script>
+        </tbody>
+      </table>
     </section>
     <section id="cloud-feed" class="hidden-print">
         <h2 class="text-center">Cloud Feed</h2>
@@ -192,64 +298,23 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/handlebars.min-latest.js"></script>
     <script src="js/jquery.floatThead.min.js"></script>
     <script>
 
         //Table Rendering
+        // Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Correct Social Media Icon Link for Speakers
+	    //     return arg1 == arg2 ? options.fn(this) : options.inverse(this);
+        // });
 
         $(document).ready(function () {
-            var trHTML = '';
-            $.getJSON('data/Services.json', function (Json) {
-                $.each(Json, function (key, value) {
-                    trHTML += '<tr><td><b>' + value.category.name + '</b></td>';
-                    trHTML += '<td><b>' + value.service.name + '</b> <a href="' + value.service.ref + '" class="glyphicon glyphicon-link hidden-print" target="_blank"></a></td>';
-                    trHTML += dataprocessor(value.aws, 'aws');
-                    trHTML += dataprocessor(value.azure, 'azure');
-                    trHTML += dataprocessor(value.google, 'gcp');
-                    trHTML += dataprocessor(value.ibm, 'ibm');
-                    trHTML += dataprocessor(value.oracle, 'oracle');
-                    trHTML += dataprocessor(value.alibaba, 'alibaba');
-                });
-                var $table = $('#comparetable');
-                $table.append(trHTML);
-                $('body').css("display","block");
-                $table.floatThead();
-                RemoveEmptyAHref();
+            $.getJSON('data/Services.json', function (data) {
+                var cloudcomparetemplate = Handlebars.compile($("#cloud-compare-template").html());
+        		$("#cloud-compare").html(cloudcomparetemplate({ data }));
+
+                $("comparetable").floatThead();
             });
         });
-
-
-
-        function RemoveEmptyAHref() {
-            $("a").each(function () {
-                var href = $(this).attr("href");
-                if (href == 'https://#' || href == '' || href == 'http://#' || href == '#') { // or anything else you want to remove...
-                    $(this).remove();
-                }
-            });
-        }
-
-        function dataprocessor(input, type) {
-            var trHTML = '';
-            if (input.length > 1) {
-                trHTML += '<td><ul>';
-                for (var i in input) {
-                    trHTML += '<li><img src="img/cloudproviders/' + type + '/' + input[i].icon + '"  onerror="imgError(this);" alt="' + input[i].name + '" class=" hidden-sm hidden-xs img-responsive img-icons" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></li>';
-                }
-                trHTML += '</ul></td>';
-            }
-            else {
-                trHTML += '<td><img src="img/cloudproviders/' + type + '/' + input[0].icon + '" onerror="imgError(this);" alt="' + input[0].name + '" class="hidden-sm hidden-xs img-responsive img-icons" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></td>';
-            }
-            return trHTML;
-        }
-
-        function imgError(image) {
-            image.onerror = "";
-            image.src = "https://ilyas-it83.github.io/CloudComparer/img/cloudproviders/gcp/none.png";
-            return true;
-        }
-
 
         // Scrolls to the selected menu item on the page
         $(function () {
@@ -293,6 +358,7 @@
             }
         });
     </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
     <!-- Disqus / Google Analytics / Addthis -->
     <script>
