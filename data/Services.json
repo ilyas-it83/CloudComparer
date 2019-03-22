@@ -652,7 +652,7 @@
     "azure": [
       {
         "name": "Azure Web Apps",
-        "ref": "https://azure.microsoft.com/en-in/services/batch/",
+        "ref": "https://azure.microsoft.com/en-in/services/app-service/web/",
         "icon": "Azure App Service - Web App (was Websites).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -2421,9 +2421,33 @@
     ],
     "azure": [
       {
-        "name": "Visual Studio Team Services",
-        "ref": "https://www.visualstudio.com/team-services/",
-        "icon": "Visual Studio Team Services.png",
+        "name": "Azure Boards",
+        "ref": "https://azure.microsoft.com/en-in/services/devops/boards/",
+        "icon": "boards-icon-80.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Pipelines",
+        "ref": "https://azure.microsoft.com/en-in/services/devops/pipelines/",
+        "icon": "pipelines-icon-80.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Repos",
+        "ref": "https://azure.microsoft.com/en-in/services/devops/repos/",
+        "icon": "repos-icon-80.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Test Plans",
+        "ref": "https://azure.microsoft.com/en-in/services/devops/test-plans/",
+        "icon": "test-plans-icon-80.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Artifacts",
+        "ref": "https://azure.microsoft.com/en-in/services/devops/artifacts/",
+        "icon": "artifacts-icon-72.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
