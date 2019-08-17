@@ -110,6 +110,12 @@
         "ref": "https://cloud.ibm.com/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Power Systems Virtual Servers",
+        "ref": "https://cloud.ibm.com/docs/infrastructure/power-iaas?topic=power-iaas-about-power-virtual-server",
+        "icon": "virtual-server.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "oracle": [
@@ -225,7 +231,7 @@
     "ibm": [
       {
         "name": "Dedicated Virtual Servers Infrastructure (VSi)",
-        "ref": "https://console.bluemix.net/docs/vsi/vsi_dedicated_host.html#dedicated-hosts-and-dedicated-instances",
+        "ref": "https://cloud.ibm.com/docs/vsi?topic=virtual-servers-dedicated-virtual-servers",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
