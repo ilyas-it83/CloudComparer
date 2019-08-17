@@ -275,8 +275,13 @@ footer {
 /* START COMPARISON TABLE STYLES */
 #comparetable {
   margin: 10px 0 0 3.7%;
-  max-width: 96%;
-  table-layout: fixed;
+}
+
+@media screen and (min-width: 800px) {
+#comparetable {
+ max-width: 96%;
+ table-layout: fixed;
+}
 }
 
 #comparetable td.rowTitle {
@@ -399,5 +404,12 @@ footer {
   }
 }
 @media print {
-    
+  table {
+    display: table;
+    border-spacing: 2px;
+     display: table-cell;
+    border: solid 1px #ccc;
+    padding: 2px;
+    display: table-row;
+    }
 }

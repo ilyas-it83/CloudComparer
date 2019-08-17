@@ -63,9 +63,9 @@
             <div class='collapse navbar-collapse'>
 
                     <table id="comparetable1" class="table">
-                            <thead>
+                            <!-- <thead>
                                 <tr>
-                                    <th>Cateogory</th>
+                                    <th>Category</th>
                                     <th>Service</th>
                                     <th>
                                         <img class="img-responsive" src='img/aws.png' alt='icon' />
@@ -83,7 +83,7 @@
                                         <img class="img-responsive" src='img/oracle.png' height="112" alt='icon' />
                                     </th>
                                 </tr>
-                            </thead>
+                            </thead> -->
 
                         </table>
                 <!-- <ul class='nav navbar-nav navbar-right'>
@@ -133,27 +133,27 @@
                     </div> -->
                     <div class="row table-responsive">
                         <table id="comparetable" class="blueshine table">
-                            <!-- <thead>
+                            <thead>
                                 <tr>
-                                    <th>Cateogory</th>
+                                    <th>Category</th>
                                     <th>Service</th>
                                     <th>
-                                        <img class="img-responsive" src='img/aws.png' alt='icon' />
+                                        <img class="img-responsive" src='/img/logo/aws.png' alt='icon' />
                                     </th>
                                     <th>
-                                        <img class="img-responsive" src='img/msazure.png' alt='icon' />
+                                        <img class="img-responsive" src='img/logo/msazure.png' alt='icon' />
                                     </th>
                                     <th>
-                                        <img class="img-responsive" src='img/google.png' height="112" alt='icon' />
+                                        <img class="img-responsive" src='img/logo/google.png' height="112" alt='icon' />
                                     </th>
                                     <th>
-                                        <img class="img-responsive" src='img/ibm.png' height="112" alt='icon' />
+                                        <img class="img-responsive" src='img/logo/IBM-Cloud.png' height="112" alt='icon' />
                                     </th>
                                     <th>
-                                        <img class="img-responsive" src='img/oracle.png' height="112" alt='icon' />
+                                        <img class="img-responsive" src='img/logo/oracle.png' height="112" alt='icon' />
                                     </th>
                                 </tr>
-                            </thead> -->
+                            </thead>
 
                         </table>
                     </div>
@@ -321,7 +321,7 @@
 
             $.getJSON('https://raw.githubusercontent.com/ilyas-it83/CloudComparer/master/data/Services.json',
                 function (Json) {
-                    //$.getJSON('Data/Services.json', function (Json) {
+                    $.getJSON('Data/Services.json', function (Json) {
 
                     $.each(Json, function (key, value) {
                         trHTML += '<tr><td><b>' + value.category.name + '</b></td>';

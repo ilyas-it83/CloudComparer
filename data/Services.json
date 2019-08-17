@@ -2,11 +2,11 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Shared Web hosting",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
     "aws": [
@@ -35,9 +35,9 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Web hosting services",
+        "ref": "https://www.ibm.com/cloud/websites",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -67,11 +67,11 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Virtual Server",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
     "aws": [
@@ -126,23 +126,17 @@
         "ref": "https://www.alibabacloud.com/product/ecs",
         "icon": "ecs.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "ECS Bare Metal Instance",
-        "ref": "https://www.alibabacloud.com/product/ebm",
-        "icon": "ecs.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
   },
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Bare Metal Server",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
     "aws": [
@@ -163,8 +157,8 @@
     ],
     "google": [
      {
-        "name": "None",
-        "ref": "http://#",
+        "name": "",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
@@ -187,9 +181,9 @@
     ],
     "alibaba": [
       {
-        "name": "None",
-        "ref": "http://#",
-        "icon": "none.png",
+        "name": "ECS Bare Metal Instance",
+        "ref": "https://www.alibabacloud.com/product/ebm",
+        "icon": "ecs.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ]
@@ -197,11 +191,11 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Virtual Dedicated Host",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
     "aws": [
@@ -214,8 +208,8 @@
     ],
     "azure": [
       {
-        "name": "None",
-        "ref": "http://#",
+        "name": "",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
@@ -230,8 +224,8 @@
     ],
     "ibm": [
       {
-        "name": "Dedicated Virtual Servers",
-        "ref": "https://www.ibm.com/cloud/virtual-servers",
+        "name": "Dedicated Virtual Servers Infrastructure (VSi)",
+        "ref": "https://console.bluemix.net/docs/vsi/vsi_dedicated_host.html#dedicated-hosts-and-dedicated-instances",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -256,11 +250,11 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Container Registration Service",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -289,7 +283,7 @@
     ],
     "ibm": [
       {
-        "name": "IBM Cloud Kubernetes Services",
+        "name": "IBM Cloud Container Registry",
         "ref": "https://www.ibm.com/cloud/container-registry",
         "icon": "registry_icon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -297,8 +291,8 @@
     ],
     "oracle": [
       {
-        "name": "Oracle Container Registry",
-        "ref": "https://container-registry.oracle.com/pls/apex/f?p=113:101",
+        "name": "Oracle Cloud Infrastructure Registry",
+        "ref": "https://cloud.oracle.com/containers/registry",
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -315,11 +309,11 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Container Management Service",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -360,7 +354,7 @@
     ],
     "ibm": [
       {
-        "name": "IBM Cloud Container Service",
+        "name": "IBM Cloud Kubernetes Service",
         "ref": "https://www.ibm.com/cloud/container-service",
         "icon": "containerServiceIcon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -374,8 +368,8 @@
     ],
     "oracle": [
       {
-        "name": "Container",
-        "ref": "https://cloud.oracle.com/container",
+        "name": "Container Engine for Kubernetes (OKE)",
+        "ref": "https://cloud.oracle.com/containers/kubernetes-engine",
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -398,11 +392,11 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Micro Services App Development Platform",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -452,7 +446,7 @@
     "oracle": [
       {
         "name": "Oracle Functions",
-        "ref": "https://#",
+        "ref": "",
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -469,11 +463,11 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Virtual Private Servers",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -495,7 +489,7 @@
     "google": [
       {
         "name": "",
-        "ref": "http://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -517,7 +511,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -534,11 +528,11 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Auto Scaling",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -575,7 +569,7 @@
       {
         "name": "Auto Scaling",
         "ref": "https://www.ibm.com/cloud/auto-scaling",
-        "icon": "ibmcloud.png",
+        "icon": "auto-scaling.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -599,7 +593,7 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Batch Jobs",
@@ -641,7 +635,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -658,7 +652,7 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "App Development/ Deployment (Java /.Net /PHP /Python)",
@@ -676,7 +670,7 @@
     "azure": [
       {
         "name": "Azure Web Apps",
-        "ref": "https://azure.microsoft.com/en-in/services/batch/",
+        "ref": "https://azure.microsoft.com/en-in/services/app-service/web/",
         "icon": "Azure App Service - Web App (was Websites).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -699,7 +693,7 @@
       {
         "name": "Cloud Foundry Apps",
         "ref": "https://www.ibm.com/cloud/cloud-foundry",
-        "icon": "ibmcloud.png",
+        "icon": "cloud-foundry-apps.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -709,13 +703,19 @@
         "ref": "https://cloud.oracle.com/acc",
         "icon": "applicationcontainer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+	{
+        "name": "Java Cloud Service",
+        "ref": "https://cloud.oracle.com/en_US/java",
+        "icon": "applicationcontainer.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Enterprise Distributed Application Service",
+        "ref": "https://www.alibabacloud.com/product/edas",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -723,17 +723,17 @@
   {
     "category": {
       "name": "Compute",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Event Driven Computing",
-      "ref": "https://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
       {
         "name": "AWS Lambda",
-        "ref": "#",
+        "ref": "",
         "icon": "Compute_AWSLambda.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -770,7 +770,7 @@
     "oracle": [
       {
         "name": "Oracle Functions",
-        "ref": "https://#",
+        "ref": "",
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -787,7 +787,7 @@
   {
     "category": {
       "name": "Storage",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Object Storage",
@@ -846,7 +846,7 @@
   {
     "category": {
       "name": "Storage",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Virtual Machine Disk Storage",
@@ -909,7 +909,7 @@
     "alibaba": [
       {
         "name": "Block Storage",
-        "ref": "https://#",
+        "ref": "",
         "icon": "OSS.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -918,7 +918,7 @@
   {
     "category": {
       "name": "Storage",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "File Storage (SMB Compatible)",
@@ -977,7 +977,7 @@
   {
     "category": {
       "name": "Storage",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Long Term Cold Storage",
@@ -1055,7 +1055,7 @@
   {
     "category": {
       "name": "Storage",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Hybrid Storage/Storage Gateway",
@@ -1081,7 +1081,7 @@
     "google": [
       {
         "name": "",
-        "ref": "http://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1089,7 +1089,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1392,16 +1392,16 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Informix",
+        "ref": "https://www.ibm.com/analytics/informix",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1418,7 +1418,7 @@
   {
     "category": {
       "name": "Database",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "In-Memory Data Store",
@@ -1460,7 +1460,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1502,7 +1502,7 @@
     ],
     "google": [
       {
-        "name": "Big Query",
+        "name": "BigQuery",
         "ref": "https://cloud.google.com/bigquery/",
         "icon": "BigQuery.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -1542,7 +1542,7 @@
   {
     "category": {
       "name": "Migration Services",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Database Migration Services",
@@ -1568,7 +1568,7 @@
     "google": [
       {
         "name": "",
-        "ref": "#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1583,15 +1583,15 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Migrate to the Cloud",
+        "ref": "https://www.oracle.com/database/migration-to-cloud.html",
+        "icon": "storage.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "alibaba": [
       {
-        "name": "Data Transmission Service ",
+        "name": "Data Transmission Service",
         "ref": "https://www.alibabacloud.com/product/data-transmission-service",
         "icon": "dts.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -1601,11 +1601,11 @@
   {
     "category": {
       "name": "Migration Services",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Server Migration Services",
-      "ref": "#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -1633,7 +1633,7 @@
     "google": [
       {
         "name": "",
-        "ref": "#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1641,7 +1641,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1649,7 +1649,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1657,7 +1657,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1666,11 +1666,11 @@
   {
     "category": {
       "name": "Migration Services",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Small Scale Data Transfer Service",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -1692,7 +1692,7 @@
     "google": [
       {
         "name": "",
-        "ref": "http://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1722,7 +1722,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1731,11 +1731,11 @@
   {
     "category": {
       "name": "Migration Services",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Large Scale Data Transfer Solution (Petabyte Scale)",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -1749,7 +1749,7 @@
     "azure": [
       {
         "name": "",
-        "ref": "#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1757,7 +1757,7 @@
     "google": [
       {
         "name": "",
-        "ref": "#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1790,11 +1790,11 @@
   {
     "category": {
       "name": "Migration Services",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Large Scale Data Transfer Solution (Terabyte Scale)",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -1849,11 +1849,11 @@
   {
     "category": {
       "name": "Migration Services",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Large Scale Data Transfer Solution (Exabyte Scale)",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -1867,7 +1867,7 @@
     "azure": [
       {
         "name": "",
-        "ref": "#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1875,7 +1875,7 @@
     "google": [
       {
         "name": "",
-        "ref": "#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1883,7 +1883,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1891,7 +1891,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1899,7 +1899,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1908,11 +1908,11 @@
   {
     "category": {
       "name": "Application Discovery Services",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Application Discovery Services",
-      "ref": "http://#",
+      "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "aws": [
@@ -1934,7 +1934,7 @@
     "google": [
       {
         "name": "",
-        "ref": "#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1942,7 +1942,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1950,7 +1950,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1958,7 +1958,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -1967,7 +1967,7 @@
   {
     "category": {
       "name": "Networking & Content Delivery",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Virtual Networking",
@@ -2033,7 +2033,7 @@
   {
     "category": {
       "name": "Networking & Content Delivery",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Network Gateway",
@@ -2098,7 +2098,7 @@
   {
     "category": {
       "name": "Networking & Content Delivery",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Content Delivery Network",
@@ -2157,7 +2157,7 @@
   {
     "category": {
       "name": "Networking",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Networking & Content Delivery",
@@ -2216,7 +2216,7 @@
  {
     "category": {
       "name": "Networking",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Global Traffic Management",
@@ -2242,7 +2242,7 @@
     "google": [
       {
         "name": "",
-        "ref": "#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2258,7 +2258,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2266,7 +2266,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2275,7 +2275,7 @@
   {
     "category": {
       "name": "Networking & Content Delivery",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Private Connectivity",
@@ -2340,7 +2340,7 @@
   {
     "category": {
       "name": "Networking & Content Delivery",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Load Balancers",
@@ -2458,9 +2458,33 @@
     ],
     "azure": [
       {
-        "name": "Visual Studio Team Services",
-        "ref": "https://www.visualstudio.com/team-services/",
-        "icon": "Visual Studio Team Services.png",
+        "name": "Azure Boards",
+        "ref": "https://azure.microsoft.com/en-in/services/devops/boards/",
+        "icon": "boards-icon-80.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Pipelines",
+        "ref": "https://azure.microsoft.com/en-in/services/devops/pipelines/",
+        "icon": "pipelines-icon-80.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Repos",
+        "ref": "https://azure.microsoft.com/en-in/services/devops/repos/",
+        "icon": "repos-icon-80.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Test Plans",
+        "ref": "https://azure.microsoft.com/en-in/services/devops/test-plans/",
+        "icon": "test-plans-icon-80.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Artifacts",
+        "ref": "https://azure.microsoft.com/en-in/services/devops/artifacts/",
+        "icon": "artifacts-icon-72.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -2503,7 +2527,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2522,7 +2546,7 @@
     "aws": [
       {
         "name": "AWS SDK",
-        "ref": "#",
+        "ref": "",
         "icon": "SDKs_Python.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2538,25 +2562,25 @@
     "google": [
       {
         "name": "Cloud SDK Cloud Tools for IntelliJ",
-        "ref": "http://#",
+        "ref": "",
         "icon": "Cloud-Tools-for-PowerShell.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Cloud Tools for Android Studio",
-        "ref": "http://#",
+        "ref": "",
         "icon": "Cloud-Tools-for-PowerShell.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Cloud Tools for Powershell",
-        "ref": "http://#",
+        "ref": "",
         "icon": "Cloud-Tools-for-PowerShell.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Google Plugin for Eclipse",
-        "ref": "http://#",
+        "ref": "",
         "icon": "Cloud-Tools-for-PowerShell.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2604,7 +2628,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2614,7 +2638,7 @@
   {
     "category": {
       "name": "Management Tools",
-      "ref": "http://#"
+      "ref": ""
     },
     "service": {
       "name": "Server Management Services",
@@ -2640,7 +2664,7 @@
     "google": [
       {
         "name": "",
-        "ref": "http://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2648,7 +2672,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2664,7 +2688,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2706,6 +2730,12 @@
       {
         "name": "Cloud Resource Manager",
         "ref": "https://cloud.google.com/resource-manager/",
+        "icon": "Generic-GCP.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Cloud Deployment Manager",
+        "ref": "https://cloud.google.com/deployment-manager/",
         "icon": "Generic-GCP.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -2929,7 +2959,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3000,7 +3030,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3059,7 +3089,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3067,7 +3097,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3075,7 +3105,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3124,7 +3154,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3132,7 +3162,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3140,7 +3170,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3189,7 +3219,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3290,7 +3320,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3298,19 +3328,19 @@
     "oracle": [
       {
         "name": "Oracle Public Cloud CLI",
-        "ref": "https://#",
+        "ref": "",
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Oracle Cloud Infrastructure CLI",
-        "ref": "https://#",
+        "ref": "",
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "Oracle Management Console",
-        "ref": "https://#",
+        "ref": "",
         "icon": "oracle.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
@@ -3323,9 +3353,9 @@
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Alibaba Cloud CLI",
+        "ref": "https://www.alibabacloud.com/help/doc-detail/66653.htm",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3367,7 +3397,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3383,7 +3413,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3432,7 +3462,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3584,7 +3614,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3635,7 +3665,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3712,7 +3742,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3801,16 +3831,16 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Resource Access Management",
+        "ref": "https://www.alibabacloud.com/help/doc-detail/96239.htm",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -3871,8 +3901,8 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
+        "name": "Identity Cloud Service",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3930,8 +3960,8 @@
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
+        "name": "Audit",
+        "ref": "https://cloud.oracle.com/en_US/cloud-security/audit/features",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3939,7 +3969,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -3990,7 +4020,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4049,7 +4079,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4100,15 +4130,15 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "oracle": [
       {
-        "name": "",
-        "ref": "https://#",
+        "name": "Compliance",
+        "ref": "https://cloud.oracle.com/en_US/cloud-compliance",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4167,7 +4197,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4291,7 +4321,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4299,7 +4329,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4370,7 +4400,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4404,7 +4434,7 @@
     ],
     "google": [
       {
-        "name": "Big Query",
+        "name": "BigQuery",
         "ref": "https://cloud.google.com/bigquery/",
         "icon": "BigQuery.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -4421,7 +4451,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4566,9 +4596,15 @@
     ],
     "ibm": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "DataStage",
+        "ref": "https://www.ibm.com/us-en/marketplace/datastage",
+        "icon": "ibmcloud.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Watson Knowledge Catalog",
+        "ref": "https://www.ibm.com/cloud/watson-knowledge-catalog",
+        "icon": "ibmcloud.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -4707,7 +4743,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4715,7 +4751,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4784,7 +4820,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4792,7 +4828,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4861,7 +4897,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4949,16 +4985,16 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "alibaba": [
       {
-        "name": "",
-        "ref": "https://#",
-        "icon": "none.png",
+        "name": "Machine Learning Platform For AI",
+        "ref": "https://www.alibabacloud.com/product/machine-learning",
+        "icon": "alibaba.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -5016,7 +5052,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5134,7 +5170,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5185,7 +5221,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5193,7 +5229,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5236,7 +5272,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5244,7 +5280,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5252,7 +5288,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5301,7 +5337,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5309,7 +5345,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5317,7 +5353,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5360,7 +5396,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5368,7 +5404,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5376,7 +5412,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5451,7 +5487,7 @@
     "oracle": [
       {
         "name": "Functions",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5459,7 +5495,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5518,7 +5554,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5593,7 +5629,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5601,7 +5637,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5712,7 +5748,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5860,7 +5896,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5868,7 +5904,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -5978,7 +6014,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6005,9 +6041,9 @@
     },
     "aws": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Amazon Managed Blockchain (Preview)",
+        "ref": "https://aws.amazon.com/managed-blockchain/",
+        "icon": "Blockchain-Services_AmazonManagedBlockchain.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -6166,7 +6202,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6174,7 +6210,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6182,7 +6218,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6225,7 +6261,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6233,7 +6269,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6241,7 +6277,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6428,7 +6464,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6436,7 +6472,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6479,7 +6515,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6487,7 +6523,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6495,7 +6531,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6546,7 +6582,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6554,7 +6590,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6597,7 +6633,7 @@
     "ibm": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6605,7 +6641,7 @@
     "oracle": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -6613,7 +6649,7 @@
     "alibaba": [
       {
         "name": "",
-        "ref": "https://#",
+        "ref": "",
         "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
