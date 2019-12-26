@@ -214,8 +214,8 @@
     ],
     "azure": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Azure Dedicated Host",
+        "ref": "https://azure.microsoft.com/en-in/services/virtual-machines/dedicated-host/",
         "icon": "none.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
@@ -1874,6 +1874,83 @@
       {
         "name": "",
         "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Blockchain Services",
+      "ref": ""
+    },
+    "service": {
+      "name": "Blockchain Services",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "Amazon Managed Blockchain",
+        "ref": "https://aws.amazon.com/managed-blockchain/",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Quantum Ledger Database (QLDB)",
+        "ref": "https://aws.amazon.com/qldb/",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure Blockchain Service",
+        "ref": "https://azure.microsoft.com/en-in/services/blockchain-service/",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Blockchain Tokens",
+        "ref": "https://azure.microsoft.com/en-in/services/blockchain-tokens/",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure Blockchain Workbench",
+        "ref": "https://azure.microsoft.com/en-in/features/blockchain-workbench/",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -4095,6 +4172,65 @@
         "name": "Web Application Firewall",
         "ref": "https://www.alibabacloud.com/product/waf",
         "icon": "waf.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Security & Identity, Compliance",
+      "ref": ""
+    },
+    "service": {
+      "name": "Security & Compliance Service",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "AWS Firewall Manager",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "Azure Firewall Manager",
+        "ref": "https://azure.microsoft.com/en-in/services/firewall-manager/",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
@@ -6582,6 +6718,65 @@
         "name": "Watson Unity SDK",
         "ref": "https://developer.ibm.com/open/projects/watson-developer-cloud-unity-sdk/",
         "icon": "ibmcloud.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "oracle": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "alibaba": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Robotics Development",
+      "ref": ""
+    },
+    "service": {
+      "name": "Robotics Development",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "aws": [
+      {
+        "name": "AWS RoboMaker",
+        "ref": "https://aws.amazon.com/robomaker/",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "azure": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "google": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "ibm": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
