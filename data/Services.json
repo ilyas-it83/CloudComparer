@@ -2943,9 +2943,9 @@
         ],
         "alibaba": [
             {
-                "name": "",
-                "ref": "",
-                "icon": "none.png",
+                "name": "Cloud Migration Tool",
+                "ref": "https://www.alibabacloud.com/help/doc-detail/62394.htm",
+                "icon": "ecs.png",
                 "Properties": [
                     "Yes",
                     "To be added",
@@ -10145,9 +10145,9 @@
         ],
         "alibaba": [
             {
-                "name": "",
-                "ref": "",
-                "icon": "none.png",
+                "name": "API Gateway",
+                "ref": "https://www.alibabacloud.com/product/api-gateway",
+                "icon": "API.png",
                 "Properties": [
                     "Yes",
                     "To be added",
