@@ -804,7 +804,7 @@
         "oracle": [
             {
                 "name": "Oracle Functions",
-                "ref": "",
+                "ref": "https://www.oracle.com/cloud/cloud-native/functions/",
                 "icon": "compute.png",
                 "Properties": [
                     "Yes",
@@ -3672,8 +3672,8 @@
         ],
         "oracle": [
             {
-                "name": "Oracle IPSec VPN",
-                "ref": "https://docs.us-phoenix-1.oraclecloud.com/Content/Network/Tasks/managingIPsec.htm",
+                "name": "VPN Connect",
+                "ref": "https://www.oracle.com/cloud/networking/vpn-connect.html",
                 "icon": "oracle.png",
                 "Properties": [
                     "Yes",
@@ -3773,9 +3773,9 @@
         ],
         "oracle": [
             {
-                "name": "Edge Services",
-                "ref": "https://cloud.oracle.com/en_US/edge",
-                "icon": "EdgeServices.png",
+                "name": "",
+                "ref": "",
+                "icon": "",
                 "Properties": [
                     "Yes",
                     "To be added",
@@ -3975,8 +3975,8 @@
         ],
         "oracle": [
             {
-                "name": "",
-                "ref": "",
+                "name": "OCI Traffic Management",
+                "ref": "https://www.oracle.com/cloud/networking/traffic-management.html",
                 "icon": "none.png",
                 "Properties": [
                     "Yes",
@@ -4076,8 +4076,8 @@
       ],
       "oracle": [
         {
-          "name": "",
-          "ref": "",
+          "name": "Cloud At Customer",
+          "ref": "https://www.oracle.com/cloud/cloud-at-customer.html",
           "icon": "none.png",
           "Properties": [
               "Yes",
@@ -7304,8 +7304,8 @@
         ],
         "oracle": [
             {
-                "name": "",
-                "ref": "",
+                "name": "Web Application Firewall",
+                "ref": "https://www.oracle.com/cloud/security/cloud-services/web-application-firewall.html",
                 "icon": "none.png",
                 "Properties": [
                     "Yes",
@@ -10715,8 +10715,8 @@
         ],
         "oracle": [
             {
-                "name": "Edge Services",
-                "ref": "https://cloud.oracle.com/edge",
+                "name": "Email Delivery",
+                "ref": "https://www.oracle.com/cloud/networking/email-delivery.html",
                 "icon": "developer.png",
                 "Properties": [
                     "Yes",
