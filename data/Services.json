@@ -179,43 +179,37 @@
               "name": "Classic Virtual Server",
               "ref": "https://cloud.ibm.com/docs/vsi?topic=virtual-servers-about-public-virtual-servers",
               "icon": "virtual-server.png",
-              "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+              "Properties": [
+                  "Yes",
+                  "To be added",
+                  "To be added",
+                  "To be added",
+                  "To be added"
+              ]
           },
           {
               "name": "Virtual Server for VPC",
-              "ref": "https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started",
+              "ref": "https://cloud.ibm.com/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started",
               "icon": "virtual-server.png",
-              "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-          },
-          {
-              "name": "PowerLinux for VPC",
-              "ref": "https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started",
-              "icon": "virtual-server.png",
-              "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+              "Properties": [
+                  "Yes",
+                  "To be added",
+                  "To be added",
+                  "To be added",
+                  "To be added"
+              ]
           },
           {
               "name": "Power Systems Virtual Servers",
               "ref": "https://cloud.ibm.com/docs/infrastructure/power-iaas?topic=power-iaas-about-power-virtual-server",
               "icon": "virtual-server.png",
-              "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-          },
-          {
-              "name": "VMware Shared Server Instance",
-              "ref": "https://cloud.ibm.com/infrastructure/vmware-solutions/console",
-              "icon": "virtual-server.png",
-              "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-          },
-          {
-              "name": "VMware Dedicated vCenter Service",
-              "ref": "https://cloud.ibm.com/infrastructure/vmware-solutions/console",
-              "icon": "virtual-server.png",
-              "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-          },
-          {
-              "name": "Hyper Protect Virtual Server",
-              "ref": "https://cloud.ibm.com/catalog/services/hyper-protect-virtual-server",
-              "icon": "virtual-server.png",
-              "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+              "Properties": [
+                  "Yes",
+                  "To be added",
+                  "To be added",
+                  "To be added",
+                  "To be added"
+              ]
           }
       ],
       "oracle": [
@@ -658,8 +652,8 @@
               ]
           },
           {
-              "name": "Redhat Openshift Kubernetes Service",
-              "ref": "https://cloud.ibm.com/kubernetes/catalog/create?platformType=openshift",
+              "name": "IBM Cloud Openshift Service",
+              "ref": "https://www.ibm.com/cloud/blog/red-hat-openshift-on-ibm-cloud",
               "icon": "containerServiceIcon.svg",
               "Properties": [
                   "Yes",
