@@ -4054,11 +4054,11 @@
       ],
       "google": [
         {
-          "name": "",
-          "ref": "",
-          "icon": "none.png",
+          "name": "Anthos",
+          "ref": "https://cloud.google.com/anthos/",
+          "icon": "Anthos_icon.png",
           "Properties": [
-              "Yes",
+              "To be added",
               "To be added",
               "To be added",
               "To be added",
@@ -4503,6 +4503,18 @@
             {
                 "name": "Cloud Source Repositories",
                 "ref": "https://cloud.google.com/source-repositories/",
+                "icon": "Generic-GCP.png",
+                "Properties": [
+                    "To be added",
+                    "To be added",
+                    "To be added",
+                    "To be added",
+                    "To be added"
+                ]
+            },
+            {
+                "name": "Cloud Build",
+                "ref": "https://cloud.google.com/cloud-build/",
                 "icon": "Generic-GCP.png",
                 "Properties": [
                     "To be added",
