@@ -4515,7 +4515,7 @@
             {
                 "name": "Cloud Build",
                 "ref": "https://cloud.google.com/cloud-build/",
-                "icon": "Generic-GCP.png",
+                "icon": "Cloud Build.png",
                 "Properties": [
                     "To be added",
                     "To be added",
