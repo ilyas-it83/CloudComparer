@@ -4448,21 +4448,14 @@
                 "ref": "https://studio.azureml.net/",
                 "icon": "Azure Machine Learning.png"
             },
-
             {
-                "name": "Azure Cognitive Services",
-                "ref": "https://docs.microsoft.com/en-us/azure/cognitive-services/",
-                "icon": "Azure Machine Learning.png"
-            },
-            
-            {
-                "name": "Azure Cognitive Search",
-                "ref": "https://docs.microsoft.com/en-us/azure/search/",
+                "name": "Azure Machine Learning Workbench",
+                "ref": "https://docs.microsoft.com/en-in/azure/machine-learning/preview/quickstart-installation",
                 "icon": "Azure Machine Learning.png"
             },
             {
-                "name": "Azure Bot Service",
-                "ref": "https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0",
+                "name": "Azure Machine Learning Model Management",
+                "ref": "https://docs.microsoft.com/en-in/azure/machine-learning/preview/model-management-overview",
                 "icon": "Azure Machine Learning.png"
             }
         ],
