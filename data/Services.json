@@ -163,8 +163,8 @@
         ],
         "google": [
             {
-                "name": "",
-                "ref": "",
+                "name": "Bare Metal Solution",
+                "ref": "https://cloud.google.com/bare-metal",
                 "icon": "none.png"
             }
         ],
