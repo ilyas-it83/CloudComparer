@@ -5477,7 +5477,7 @@
         "aws": [
             {
                 "name": "Lex Chatbots",
-                "ref": "",
+                "ref": "https://aws.amazon.com/lex/",
                 "icon": "aws.png"
             }
         ],
@@ -5529,17 +5529,17 @@
         "aws": [
             {
                 "name": "Amazon WorkDocs",
-                "ref": "",
+                "ref": "https://aws.amazon.com/workdocs/",
                 "icon": "Enterprise-Applications_AmazonWorkDocs.png"
             },
             {
                 "name": "Amazon WorkMail",
-                "ref": "",
+                "ref": "https://aws.amazon.com/workmail/",
                 "icon": "Enterprise-Applications_AmazonWorkMail.png"
             },
             {
                 "name": "Amazon WorkSpaces",
-                "ref": "",
+                "ref": "https://aws.amazon.com/workspaces/",
                 "icon": "Enterprise-Applications_AmazonWorkSpaces.png"
             }
         ],
@@ -5591,7 +5591,7 @@
         "aws": [
             {
                 "name": "Amazon AppStream 2.0",
-                "ref": "",
+                "ref": "https://aws.amazon.com/appstream2",
                 "icon": "Application-Services_AmazonAppStream.png"
             }
         ],
@@ -5643,7 +5643,7 @@
         "aws": [
             {
                 "name": "AWS Marketplace",
-                "ref": "",
+                "ref": "https://aws.amazon.com/marketplace",
                 "icon": "aws.png"
             }
         ],
@@ -5695,7 +5695,7 @@
         "aws": [
             {
                 "name": "AWS IoT Platform",
-                "ref": "",
+                "ref": "https://aws.amazon.com/iot/",
                 "icon": "Internet-Of-Things_AWSIoT.png"
             }
         ],
@@ -5757,7 +5757,7 @@
         "aws": [
             {
                 "name": "AWS Greengrass",
-                "ref": "",
+                "ref": "https://aws.amazon.com/greengrass/",
                 "icon": "aws.png"
             }
         ],
@@ -5814,7 +5814,7 @@
         "aws": [
             {
                 "name": "AWS IoT Button",
-                "ref": "",
+                "ref": "https://aws.amazon.com/iotbutton/",
                 "icon": "aws.png"
             }
         ],
@@ -5866,7 +5866,7 @@
         "aws": [
             {
                 "name": "Amazon Lumberyard",
-                "ref": "",
+                "ref": "https://aws.amazon.com/lumberyard/",
                 "icon": "Game-Development_AmazonGameLift.png"
             }
         ],
