@@ -4770,7 +4770,7 @@
         "aws": [
             {
                 "name": "AWS Device Farm",
-                "ref": "",
+                "ref": "https://aws.amazon.com/device-farm/",
                 "icon": "Mobile-Services_AWSDeviceFarm.png"
             }
         ],
@@ -4827,7 +4827,7 @@
         "aws": [
             {
                 "name": "AWS Mobile SDK",
-                "ref": "",
+                "ref": "https://aws.amazon.com/blogs/mobile/tag/aws-mobile-sdk/",
                 "icon": "SDKs_Android.png"
             }
         ],
@@ -4879,7 +4879,7 @@
         "aws": [
             {
                 "name": "AWS Step Functions",
-                "ref": "",
+                "ref": "https://aws.amazon.com/step-functions/",
                 "icon": "aws.png"
             }
         ],
@@ -5003,7 +5003,7 @@
         "aws": [
             {
                 "name": "Amazon API Gateway",
-                "ref": "",
+                "ref": "https://aws.amazon.com/api-gateway/",
                 "icon": "Application-Services_AmazonAPIGateway.png"
             }
         ],
@@ -5075,7 +5075,7 @@
         "aws": [
             {
                 "name": "Amazon Elastic Transcoder",
-                "ref": "",
+                "ref": "https://aws.amazon.com/elastictranscoder/",
                 "icon": "Application-Services_AmazonElasticTranscoder.png"
             },
             {
@@ -5177,12 +5177,12 @@
         "aws": [
             {
                 "name": "Amazon SQS",
-                "ref": "",
+                "ref": "https://aws.amazon.com/sqs/",
                 "icon": "Application-Services_AmazonSQS.png"
             },
             {
                 "name": "Amazon MQ",
-                "ref": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-mq/",
+                "ref": "https://aws.amazon.com/amazon-mq",
                 "icon": "aws.png"
             }
         ],
@@ -5254,7 +5254,7 @@
         "aws": [
             {
                 "name": "Amazon Pinpoint",
-                "ref": "",
+                "ref": "https://aws.amazon.com/pinpoint/",
                 "icon": "aws.png"
             }
         ],
@@ -5306,7 +5306,7 @@
         "aws": [
             {
                 "name": "Amazon SES",
-                "ref": "",
+                "ref": "https://aws.amazon.com/ses/",
                 "icon": "Application-Services_AmazonSES_email.png"
             }
         ],
@@ -5358,7 +5358,7 @@
         "aws": [
             {
                 "name": "Amazon SNS",
-                "ref": "",
+                "ref": "https://aws.amazon.com/sns/",
                 "icon": "Mobile-Services_AmazonSNS.png"
             }
         ],
