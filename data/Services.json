@@ -4775,7 +4775,7 @@
         "aws": [
             {
                 "name": "AWS Device Farm",
-                "ref": "",
+                "ref": "https://aws.amazon.com/device-farm/",
                 "icon": "Mobile-Services_AWSDeviceFarm.png"
             }
         ],
@@ -4832,7 +4832,7 @@
         "aws": [
             {
                 "name": "AWS Mobile SDK",
-                "ref": "",
+                "ref": "https://aws.amazon.com/blogs/mobile/tag/aws-mobile-sdk/",
                 "icon": "SDKs_Android.png"
             }
         ],
@@ -4884,7 +4884,7 @@
         "aws": [
             {
                 "name": "AWS Step Functions",
-                "ref": "",
+                "ref": "https://aws.amazon.com/step-functions/",
                 "icon": "aws.png"
             }
         ],
@@ -5008,7 +5008,7 @@
         "aws": [
             {
                 "name": "Amazon API Gateway",
-                "ref": "",
+                "ref": "https://aws.amazon.com/api-gateway/",
                 "icon": "Application-Services_AmazonAPIGateway.png"
             }
         ],
@@ -5080,7 +5080,7 @@
         "aws": [
             {
                 "name": "Amazon Elastic Transcoder",
-                "ref": "",
+                "ref": "https://aws.amazon.com/elastictranscoder/",
                 "icon": "Application-Services_AmazonElasticTranscoder.png"
             },
             {
@@ -5182,12 +5182,12 @@
         "aws": [
             {
                 "name": "Amazon SQS",
-                "ref": "",
+                "ref": "https://aws.amazon.com/sqs/",
                 "icon": "Application-Services_AmazonSQS.png"
             },
             {
                 "name": "Amazon MQ",
-                "ref": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-mq/",
+                "ref": "https://aws.amazon.com/amazon-mq",
                 "icon": "aws.png"
             }
         ],
@@ -5259,7 +5259,7 @@
         "aws": [
             {
                 "name": "Amazon Pinpoint",
-                "ref": "",
+                "ref": "https://aws.amazon.com/pinpoint/",
                 "icon": "aws.png"
             }
         ],
@@ -5311,7 +5311,7 @@
         "aws": [
             {
                 "name": "Amazon SES",
-                "ref": "",
+                "ref": "https://aws.amazon.com/ses/",
                 "icon": "Application-Services_AmazonSES_email.png"
             }
         ],
@@ -5363,7 +5363,7 @@
         "aws": [
             {
                 "name": "Amazon SNS",
-                "ref": "",
+                "ref": "https://aws.amazon.com/sns/",
                 "icon": "Mobile-Services_AmazonSNS.png"
             }
         ],
@@ -5482,7 +5482,7 @@
         "aws": [
             {
                 "name": "Lex Chatbots",
-                "ref": "",
+                "ref": "https://aws.amazon.com/lex/",
                 "icon": "aws.png"
             }
         ],
@@ -5534,17 +5534,17 @@
         "aws": [
             {
                 "name": "Amazon WorkDocs",
-                "ref": "",
+                "ref": "https://aws.amazon.com/workdocs/",
                 "icon": "Enterprise-Applications_AmazonWorkDocs.png"
             },
             {
                 "name": "Amazon WorkMail",
-                "ref": "",
+                "ref": "https://aws.amazon.com/workmail/",
                 "icon": "Enterprise-Applications_AmazonWorkMail.png"
             },
             {
                 "name": "Amazon WorkSpaces",
-                "ref": "",
+                "ref": "https://aws.amazon.com/workspaces/",
                 "icon": "Enterprise-Applications_AmazonWorkSpaces.png"
             }
         ],
@@ -5596,7 +5596,7 @@
         "aws": [
             {
                 "name": "Amazon AppStream 2.0",
-                "ref": "",
+                "ref": "https://aws.amazon.com/appstream2",
                 "icon": "Application-Services_AmazonAppStream.png"
             }
         ],
@@ -5648,7 +5648,7 @@
         "aws": [
             {
                 "name": "AWS Marketplace",
-                "ref": "",
+                "ref": "https://aws.amazon.com/marketplace",
                 "icon": "aws.png"
             }
         ],
@@ -5700,7 +5700,7 @@
         "aws": [
             {
                 "name": "AWS IoT Platform",
-                "ref": "",
+                "ref": "https://aws.amazon.com/iot/",
                 "icon": "Internet-Of-Things_AWSIoT.png"
             }
         ],
@@ -5762,7 +5762,7 @@
         "aws": [
             {
                 "name": "AWS Greengrass",
-                "ref": "",
+                "ref": "https://aws.amazon.com/greengrass/",
                 "icon": "aws.png"
             }
         ],
@@ -5819,7 +5819,7 @@
         "aws": [
             {
                 "name": "AWS IoT Button",
-                "ref": "",
+                "ref": "https://aws.amazon.com/iotbutton/",
                 "icon": "aws.png"
             }
         ],
@@ -5871,7 +5871,7 @@
         "aws": [
             {
                 "name": "Amazon Lumberyard",
-                "ref": "",
+                "ref": "https://aws.amazon.com/lumberyard/",
                 "icon": "Game-Development_AmazonGameLift.png"
             }
         ],
