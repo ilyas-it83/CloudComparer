@@ -2614,7 +2614,7 @@
             {
                 "name": "ActionTrail",
                 "ref": "https://www.alibabacloud.com/product/actiontrail",
-                "icon": "CloudMonitor.png"
+                "icon": "ActionTrail.png"
             },
             {
                 "name": "Application Real-Time Monitoring Service",
@@ -2682,6 +2682,11 @@
                 "name": "Alibaba Log Service",
                 "ref": "https://www.alibabacloud.com/product/log-service",
                 "icon": "log-service.png"
+            },
+            {
+                "name": "Alibaba Cloud Config",
+                "ref": "https://www.alibabacloud.com/products/cloud-config",
+                "icon": "CloudConfig.png"
             }
         ]
     },
