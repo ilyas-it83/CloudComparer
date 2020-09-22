@@ -413,3 +413,13 @@ footer {
     display: table-row;
     }
 }
+
+/* Header cloud providers logos style */
+.table > thead > tr > th {
+  vertical-align: middle;
+}
+
+.img-header {
+  max-width: 60%;
+  margin: 5% 20%;
+}
