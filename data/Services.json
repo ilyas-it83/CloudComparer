@@ -2254,6 +2254,16 @@
                 "name": "Azure Artifacts",
                 "ref": "https://azure.microsoft.com/en-in/services/devops/artifacts/",
                 "icon": "artifacts-icon-72.png"
+            },
+            {
+                "name": "github",
+                "ref": "https://github.com/",
+                "icon": "Visual Studio Team Services - GitHub.png"
+            },
+            {
+                "name": "github Codespaces",
+                "ref": "https://github.com/features/codespaces",
+                "icon": "Visual Studio Team Services - GitHub.png"
             }
         ],
         "google": [
