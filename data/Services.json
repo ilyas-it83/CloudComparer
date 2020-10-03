@@ -2264,6 +2264,16 @@
                 "name": "github Codespaces",
                 "ref": "https://github.com/features/codespaces",
                 "icon": "Visual Studio Team Services - GitHub.png"
+            },
+            {
+                "name": "github Actions",
+                "ref": "https://github.com/features/actions",
+                "icon": "github-actions.png"
+            },
+            {
+                "name": "github Packages",
+                "ref": "https://github.com/features/packages",
+                "icon": "Visual Studio Team Services - GitHub.png"
             }
         ],
         "google": [
