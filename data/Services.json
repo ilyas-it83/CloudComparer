@@ -3227,7 +3227,7 @@
                 "icon": "Security-Identity_AmazonInspector.png"
             },
             {
-                "name": "Gaurd Duty",
+                "name": "Guard Duty",
                 "ref": "https://aws.amazon.com/guardduty/",
                 "icon": "Security-Identity_AmazonInspector.png"
             }
