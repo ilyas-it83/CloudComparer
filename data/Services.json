@@ -5362,9 +5362,9 @@
         ],
         "ibm": [
             {
-                "name": "",
-                "ref": "",
-                "icon": "none.png",
+                "name": "App Configuration",
+                "ref": "https://cloud.ibm.com/catalog/services/app-configuration",
+                "icon": "ibmcloud.png",
                 "Properties": [
                     "Yes",
                     "To be added",
