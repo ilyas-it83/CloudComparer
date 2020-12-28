@@ -1262,6 +1262,11 @@
                 "ref": "https://www.alibabacloud.com/product/hitsdb?spm=a3c0i.11270126.675768.dnavproductsd8.6c8668dcRLNbeB",
                 "icon": "alibaba.png"
             }
+            {
+                "name": "Time Series Database for InfluxDB",
+                "ref": "https://www.alibabacloud.com/product/hitsdb_influxdb",
+                "icon": "alibaba.png"
+            }
         ]
     },
     {
