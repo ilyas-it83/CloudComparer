@@ -473,7 +473,7 @@
         },
         "aws": [
             {
-                "name": "Amazon EC2 Container Registry",
+                "name": "Amazon Elastic Container Registry",
                 "ref": "https://aws.amazon.com/ecr/",
                 "icon": "aws.png",
                 "Properties": [
