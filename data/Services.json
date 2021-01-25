@@ -664,8 +664,8 @@
                 ]
             },
             {
-                "name": "Code Engine",
-                "ref": "https://cloud.ibm.com/docs/codeengine?topic=codeengine-getting-started",
+                "name": "IBM Cloud Code Engine",
+                "ref": "https://cloud.ibm.com/codeengine",
                 "icon": "codeEngineBright.svg",
                 "Properties": [
                     "Yes",
@@ -803,7 +803,7 @@
             {
                 "name": "IBM Cloud Code Engine",
                 "ref": "https://cloud.ibm.com/codeengine",
-                "icon": "ibm-cloud-codeengine.png",
+                "icon": "codeEngineBright.svg",
                 "Properties": [
                     "Yes",
                     "To be added",
@@ -1143,7 +1143,7 @@
             {
                 "name": "IBM Cloud Code Engine",
                 "ref": "https://cloud.ibm.com/codeengine",
-                "icon": "ibm-cloud-codeengine.png",
+                "icon": "codeEngineBright.svg",
                 "Properties": [
                     "Yes",
                     "To be added",
@@ -1268,7 +1268,7 @@
             {
                 "name": "IBM Cloud Code Engine",
                 "ref": "https://cloud.ibm.com/codeengine",
-                "icon": "ibm-cloud-codeengine.png",
+                "icon": "codeEngineBright.svg",
                 "Properties": [
                     "Yes",
                     "To be added",
@@ -1405,7 +1405,7 @@
             {
                 "name": "IBM Cloud Code Engine",
                 "ref": "https://cloud.ibm.com/codeengine",
-                "icon": "ibm-cloud-codeengine.png",
+                "icon": "codeEngineBright.svg",
                 "Properties": [
                     "Yes",
                     "To be added",
