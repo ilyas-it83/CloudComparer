@@ -2586,6 +2586,11 @@
                     "To be added"
                 ]
             }
+            {
+                "name": "Time Series Database for InfluxDB",
+                "ref": "https://www.alibabacloud.com/product/hitsdb_influxdb",
+                "icon": "alibaba.png"
+            }
         ]
     },
     {
