@@ -2721,8 +2721,8 @@
         ],
         "azure": [
             {
-                "name": "Azure SQL Data Warehouse",
-                "ref": "https://azure.microsoft.com/en-in/services/sql-data-warehouse/",
+                "name": "Azure Synapse Analytics",
+                "ref": "https://azure.microsoft.com/en-in/services/synapse-analytics/",
                 "icon": "Azure Data Warehouse.png",
                 "Properties": [
                     "To be added",
