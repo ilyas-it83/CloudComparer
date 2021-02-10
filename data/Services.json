@@ -260,8 +260,8 @@
         },
         "aws": [
             {
-                "name": "Amazon EC2 Bare Metal Instance (Preview)",
-                "ref": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-bare-metal-instances-with-direct-access-to-hardware/",
+                "name": "Amazon EC2 Bare Metal Instance",
+                "ref": "https://aws.amazon.com/blogs/aws/category/compute/amazon-ec2-bare-metal/",
                 "icon": "aws.png",
                 "Properties": [
                     "39",
