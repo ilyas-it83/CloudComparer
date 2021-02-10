@@ -9978,6 +9978,18 @@
                     "To be added",
                     "To be added"
                 ]
+            },
+            {
+                "name": "IBM Cloud Code Engine",
+                "ref": "https://cloud.ibm.com/codeengine",
+                "icon": "codeEngineBright.svg",
+                "Properties": [
+                    "Yes",
+                    "To be added",
+                    "To be added",
+                    "To be added",
+                    "To be added"
+                ]
             }
         ],
         "oracle": [
