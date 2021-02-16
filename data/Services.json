@@ -250,8 +250,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Compute",
-        "ref" : "https://cloud.oracle.com/en_US/compute",
+        "name" : "Oracle Cloud Infrastructure Compute",
+        "ref" : "https://www.oracle.com/cloud/compute/",
         "icon" : "compute.png",
         "Properties" : [
           "Yes",
@@ -355,8 +355,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Bare Metal Servers",
-        "ref" : "https://cloud.oracle.com/compute/bare-metal/features",
+        "name" : "Oracle Bare Metal Servers",
+        "ref" : "https://www.oracle.com/cloud/compute/bare-metal.html",
         "icon" : "compute.png",
         "Properties" : [
           "39",
@@ -462,9 +462,9 @@
     ],
     "oracle" : [
       {
-        "name" : "Dedicated Compute Classic",
-        "ref" : "https://cloud.oracle.com/compute-classic/dedicated/features",
-        "icon" : "compute.png",
+        "name" : "",
+        "ref" : "",
+        "icon" : "",
         "Properties" : [
           "39",
           "Yes",
@@ -1328,8 +1328,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Application Container Cloud",
-        "ref" : "https://cloud.oracle.com/acc",
+        "name" : "Oracle Application Container Cloud Service",
+        "ref" : "https://docs.oracle.com/en/cloud/paas/app-container-cloud/index.html",
         "icon" : "applicationcontainer.png",
         "Properties" : [
           "Yes",
@@ -1566,8 +1566,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Object Storage",
-        "ref" : "https://cloud.oracle.com/storage",
+        "name" : "Oracle Cloud Infrastructure Object Storage",
+        "ref" : "https://www.oracle.com/cloud/storage/object-storage.html",
         "icon" : "storage.png",
         "Properties" : [
           "Yes",
@@ -1691,8 +1691,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Block Storage",
-        "ref" : "https://cloud.oracle.com/en_US/storage/object-storage/features",
+        "name" : "Oracle Cloud Infrastructure Block Volumes",
+        "ref" : "https://www.oracle.com/cloud/storage/block-volumes.html",
         "icon" : "storage.png",
         "Properties" : [
           "Yes",
@@ -1793,7 +1793,7 @@
     "oracle" : [
       {
         "name" : "Oracle Cloud Infrastructure File Storage",
-        "ref" : "https://cloud.oracle.com/storage/file-storage/features",
+        "ref" : "https://www.oracle.com/cloud/storage/file-storage.html",
         "icon" : "storage.png",
         "Properties" : [
           "Yes",
@@ -1929,7 +1929,7 @@
     ],
     "oracle" : [
       {
-        "name" : "Archive Storage",
+        "name" : "Oracle Cloud Infrastructure Archive Storage",
         "ref" : "https://www.oracle.com/cloud/storage/archive-storage.html",
         "icon" : "storage.png",
         "Properties" : [
@@ -2030,7 +2030,7 @@
     ],
     "oracle" : [
       {
-        "name" : "Storage Gateway",
+        "name" : "Oracle Cloud Infrastructure Storage Gateway",
         "ref" : "https://www.oracle.com/cloud/storage/storage-gateway.html",
         "icon" : "storage.png",
         "Properties" : [
@@ -2251,8 +2251,8 @@
     ],
     "oracle" : [
       {
-        "name" : "DBaaS",
-        "ref" : "https://cloud.oracle.com/database",
+        "name" : "Oracle Database Cloud Service - Virtual Machine",
+        "ref" : "https://www.oracle.com/database/vm-cloud.html",
         "icon" : "database.png",
         "Properties" : [
           "Yes",
@@ -2263,8 +2263,56 @@
         ]
       },
       {
-        "name" : "MySQL Service",
-        "ref" : "https://cloud.oracle.com/mysql",
+        "name" : "Oracle Database Cloud Service - Bare Metal",
+        "ref" : "https://www.oracle.com/database/bare-metal-cloud.html",
+        "icon" : "database.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Exadata Cloud Service",
+        "ref" : "https://www.oracle.com/engineered-systems/exadata/cloud-service/",
+        "icon" : "database.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Autonomous Data Warehouse",
+        "ref" : "https://www.oracle.com/autonomous-database/autonomous-data-warehouse/",
+        "icon" : "database.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Autonomous Transaction Processing",
+        "ref" : "https://www.oracle.com/autonomous-database/autonomous-transaction-processing/",
+        "icon" : "database.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "MySQL Database Service",
+        "ref" : "https://www.oracle.com/mysql/",
         "icon" : "database.png",
         "Properties" : [
           "Yes",
@@ -2484,9 +2532,21 @@
     ],
     "oracle" : [
       {
-        "name" : "NoSQL Database",
-        "ref" : "https://www.oracle.com/database/nosql/index.html",
+        "name" : "Oracle NoSQL Database Cloud Service",
+        "ref" : "https://www.oracle.com/database/nosql-cloud.html",
         "icon" : "NoSQL.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Autonomous JSON Database",
+        "ref" : "https://www.oracle.com/autonomous-database/autonomous-json-database/",
+        "icon" : "database.png",
         "Properties" : [
           "Yes",
           "To be added",
@@ -3761,7 +3821,7 @@
     ],
     "oracle" : [
       {
-        "name" : "VPN Connect",
+        "name" : "Oracle VPN Connect",
         "ref" : "https://www.oracle.com/cloud/networking/vpn-connect.html",
         "icon" : "oracle.png",
         "Properties" : [
@@ -3964,7 +4024,7 @@
     "oracle" : [
       {
         "name" : "Oracle DNS",
-        "ref" : "https://cloud.oracle.com/edge/dns/features",
+        "ref" : "https://www.oracle.com/cloud/networking/dns/",
         "icon" : "EdgeServices.png",
         "Properties" : [
           "Yes",
@@ -4064,7 +4124,7 @@
     ],
     "oracle" : [
       {
-        "name" : "OCI Traffic Management",
+        "name" : "Oracle Cloud Infrastructure Traffic Management",
         "ref" : "https://www.oracle.com/cloud/networking/traffic-management.html",
         "icon" : "none.png",
         "Properties" : [
@@ -4177,8 +4237,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Cloud At Customer",
-        "ref" : "https://www.oracle.com/cloud/cloud-at-customer.html",
+        "name" : "Oracle Exadata Cloud@Customer",
+        "ref" : "https://www.oracle.com/engineered-systems/exadata/cloud-at-customer/",
         "icon" : "none.png",
         "Properties" : [
           "Yes",
@@ -4302,8 +4362,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Fast Connect",
-        "ref" : "https://cloud.oracle.com/fastconnect",
+        "name" : "Oracle Cloud Infrastructure FastConnect",
+        "ref" : "https://www.oracle.com/cloud/networking/fastconnect/",
         "icon" : "service-fastconnect.png",
         "Properties" : [
           "Yes",
@@ -4427,8 +4487,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Oracle Load Balancer",
-        "ref" : "https://cloud.oracle.com/load-balancing",
+        "name" : "Oracle Cloud Infrastructure Load Balancing",
+        "ref" : "https://www.oracle.com/cloud/networking/load-balancing/",
         "icon" : "LoadBalancing.png",
         "Properties" : [
           "Yes",
@@ -4672,7 +4732,7 @@
     ],
     "oracle" : [
       {
-        "name" : "Developer Cloud Service",
+        "name" : "Oracle Developer Cloud Service",
         "ref" : "https://cloud.oracle.com/en_US/developer-service/features",
         "icon" : "developer.png",
         "Properties" : [
@@ -5083,7 +5143,7 @@
     ],
     "oracle" : [
       {
-        "name" : "Resource Manager",
+        "name" : "Oracle Resource Manager",
         "ref" : "https://www.oracle.com/devops/resource-manager/",
         "icon" : "oracle.png",
         "Properties" : [
@@ -5316,9 +5376,57 @@
     ],
     "oracle" : [
       {
-        "name" : "Application Performance Monitoring",
-        "ref" : "https://www.oracle.com/manageability/",
-        "icon" : "AppPerfMonitoring.png",
+        "name" : "Oracle Cloud Infrastructure Logging",
+        "ref" : "https://www.oracle.com/devops/logging/",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Logging Analytics",
+        "ref" : "https://www.oracle.com/manageability/logging-analytics/",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Cloud Infrastructure Monitoring",
+        "ref" : "https://www.oracle.com/devops/monitoring/",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Application Performance Monitoring (limited availability)",
+        "ref" : "",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Service Connector Hub",
+        "ref" : "https://www.oracle.com/devops/service-connector-hub/",
+        "icon" : "oracle.png",
         "Properties" : [
           "Yes",
           "To be added",
@@ -5602,8 +5710,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Oracle Orchestration Cloud Service",
-        "ref" : "https://cloud.oracle.com/en_US/orchestration",
+        "name" : "Oracle Cloud Infrastructure OS Management",
+        "ref" : "https://docs.oracle.com/en-us/iaas/os-management/osms/index.htm",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -5614,7 +5722,7 @@
         ]
       },
       {
-        "name" : "Resource Manager",
+        "name" : "Oracle Resource Manager",
         "ref" : "https://www.oracle.com/devops/resource-manager/",
         "icon" : "oracle.png",
         "Properties" : [
@@ -5828,6 +5936,18 @@
     ],
     "oracle" : [
       {
+        "name" : "Oracle Cloud Guard",
+        "ref" : "https://www.oracle.com/security/cloud-security/cloud-guard/",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
         "name" : "Oracle Cloud Advisor",
         "ref" : "https://blogs.oracle.com/cloud-infrastructure/now-available-oracle-cloud-advisor",
         "icon" : "oracle.png",
@@ -5943,6 +6063,18 @@
       {
         "name" : "Oracle Management Cloud",
         "ref" : "https://cloud.oracle.com/en_US/management",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Cloud Guard",
+        "ref" : "https://www.oracle.com/security/cloud-security/cloud-guard/",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -6139,7 +6271,7 @@
     "oracle" : [
       {
         "name" : "OCI CLI",
-        "ref" : "",
+        "ref" : "https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -6151,7 +6283,7 @@
       },
       {
         "name" : "Oracle Cloud Shell",
-        "ref" : "",
+        "ref" : "https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellintro.htm",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -6174,8 +6306,8 @@
         ]
       },
       {
-        "name" : "API Catalog",
-        "ref" : "https://apicatalog.oraclecloud.com/ui/",
+        "name" : "REST API",
+        "ref" : "https://docs.oracle.com/en-us/iaas/api/",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -6275,9 +6407,9 @@
     ],
     "oracle" : [
       {
-        "name" : "Oracle Managed Cloud Services",
-        "ref" : "https://www.oracle.com/fr/cloud/managed-cloud.html",
-        "icon" : "oracle.png",
+        "name" : "",
+        "ref" : "",
+        "icon" : "none.png",
         "Properties" : [
           "Yes",
           "To be added",
@@ -6513,8 +6645,20 @@
     ],
     "oracle" : [
       {
-        "name" : "Identity and Access Management (IAM)",
+        "name" : "Oracle Identity and Access Management (IAM)",
         "ref" : "https://www.oracle.com/security/identity-management/",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Identity Cloud Service",
+        "ref" : "https://www.oracle.com/security/cloud-security/identity-cloud/",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -6628,6 +6772,18 @@
       {
         "name" : "Oracle Security Advisor",
         "ref" : "https://docs.oracle.com/en-us/iaas/Content/SecurityAdvisor/Concepts/securityadvisoroverview.htm",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Cloud Guard",
+        "ref" : "https://www.oracle.com/security/cloud-security/cloud-guard/",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -7251,8 +7407,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Audit",
-        "ref" : "https://cloud.oracle.com/en_US/cloud-security/audit/features",
+        "name" : "",
+        "ref" : "",
         "icon" : "none.png",
         "Properties" : [
           "Yes",
@@ -7453,7 +7609,7 @@
     ],
     "oracle" : [
       {
-        "name" : "Web Application Firewall",
+        "name" : "Oracle Web Application Firewall",
         "ref" : "https://www.oracle.com/cloud/security/cloud-services/web-application-firewall.html",
         "icon" : "none.png",
         "Properties" : [
@@ -7655,8 +7811,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Compliance",
-        "ref" : "https://cloud.oracle.com/en_US/cloud-compliance",
+        "name" : "Oracle Cloud Infrastructure Compliance Documents",
+        "ref" : "https://docs.oracle.com/en-us/iaas/Content/ComplianceDocuments/Concepts/compliancedocsoverview.htm",
         "icon" : "none.png",
         "Properties" : [
           "Yes",
@@ -7756,9 +7912,9 @@
     ],
     "oracle" : [
       {
-        "name" : "",
-        "ref" : "",
-        "icon" : "none.png",
+        "name" : "Oracle Big Data SQL Cloud Service",
+        "ref" : "https://www.oracle.com/big-data/big-data-sql/",
+        "icon" : "oracle.png",
         "Properties" : [
           "Yes",
           "To be added",
@@ -7857,8 +8013,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Big Data",
-        "ref" : "https://cloud.oracle.com/bigdata",
+        "name" : "Oracle Big Data Service",
+        "ref" : "https://www.oracle.com/big-data/big-data-service/",
         "icon" : "bigdata.png",
         "Properties" : [
           "Yes",
@@ -8107,7 +8263,7 @@
     ],
     "oracle" : [
       {
-        "name" : "OCI Streaming",
+        "name" : "Oracle Cloud Infrastructure Streaming",
         "ref" : "https://www.oracle.com/cloud-native/streaming/",
         "icon" : "storage.png",
         "Properties" : [
@@ -8309,8 +8465,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Data Visualization",
-        "ref" : "https://cloud.oracle.com/en_US/data-visualization/features",
+        "name" : "Oracle Analytics Cloud",
+        "ref" : "https://www.oracle.com/business-analytics/analytics-cloud.html",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -8321,8 +8477,20 @@
         ]
       },
       {
-        "name" : "Business Intelligence",
-        "ref" : "https://cloud.oracle.com/en_US/business-intelligence/features",
+        "name" : "Oracle Data Visualization Cloud Service",
+        "ref" : "https://docs.oracle.com/en/cloud/paas/data-visualization-cloud/index.html",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Business Intelligence Cloud Service",
+        "ref" : "https://docs.oracle.com/en/cloud/paas/bi-cloud/index.html",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -8493,6 +8661,30 @@
       }
     ],
     "oracle" : [
+      {
+        "name" : "Oracle Cloud Infrastructure Data Flow",
+        "ref" : "https://www.oracle.com/big-data/data-flow/",
+        "icon" : "integration.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Oracle Integration",
+        "ref" : "https://docs.oracle.com/en/cloud/paas/integration-cloud/index.html",
+        "icon" : "integration.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
       {
         "name" : "Data Integrator",
         "ref" : "https://cloud.oracle.com/en_US/data-integrator",
@@ -9297,6 +9489,18 @@
           "To be added",
           "To be added"
         ]
+      },
+      {
+        "name" : "Mobile Hub",
+        "ref" : "https://www.oracle.com/application-development/cloud-services/mobile/",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
       }
     ],
     "alibaba" : [
@@ -9389,8 +9593,20 @@
     "oracle" : [
       {
         "name" : "API Platform",
-        "ref" : "https://cloud.oracle.com/en_US/api-platform",
+        "ref" : "https://www.oracle.com/integration/api-platform/",
         "icon" : "APIManager.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Apiary",
+        "ref" : "https://docs.oracle.com/cloud/apiary/index.html",
+        "icon" : "oracle.png",
         "Properties" : [
           "Yes",
           "To be added",
@@ -10076,6 +10292,18 @@
           "To be added",
           "To be added"
         ]
+      },
+      {
+        "name" : "Oracle Visual Builder Studio",
+        "ref" : "https://www.oracle.com/application-development/visual-builder-studio/",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
       }
     ],
     "alibaba" : [
@@ -10316,8 +10544,20 @@
     ],
     "oracle" : [
       {
-        "name" : "Oracle API Gateway",
-        "ref" : "https://www.oracle.com/cloud-native/api-gateway/",
+        "name" : "API Platform",
+        "ref" : "https://www.oracle.com/integration/api-platform/",
+        "icon" : "oracle.png",
+        "Properties" : [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name" : "Apiary",
+        "ref" : "https://docs.oracle.com/cloud/apiary/index.html",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -10900,7 +11140,7 @@
     ],
     "oracle" : [
       {
-        "name" : "Email Delivery",
+        "name" : "Oracle Cloud Infrastructure Email Delivery",
         "ref" : "https://www.oracle.com/cloud/networking/email-delivery.html",
         "icon" : "developer.png",
         "Properties" : [
@@ -11001,7 +11241,7 @@
     ],
     "oracle" : [
       {
-        "name" : "OCI Notifications",
+        "name" : "Oracle Cloud Infrastructure Notifications",
         "ref" : "https://www.oracle.com/devops/notifications/",
         "icon" : "oracle.png",
         "Properties" : [
@@ -11138,7 +11378,7 @@
     ],
     "oracle" : [
       {
-        "name" : "Blockchain",
+        "name" : "Oracle Blockchain",
         "ref" : "https://www.oracle.com/blockchain/",
         "icon" : "oracle.png",
         "Properties" : [
@@ -11239,8 +11479,8 @@
     ],
     "oracle" : [
       {
-        "name" : "Oracle Chatbots",
-        "ref" : "https://cloud.oracle.com/en_US/blockchain",
+        "name" : "Oracle Digital Assistant",
+        "ref" : "https://www.oracle.com/chatbots/",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -11567,7 +11807,7 @@
     "oracle" : [
       {
         "name" : "Oracle Cloud Market Place",
-        "ref" : "https://cloudmarketplace.oracle.com/marketplace/bmcs",
+        "ref" : "https://cloudmarketplace.oracle.com/",
         "icon" : "oracle.png",
         "Properties" : [
           "Yes",
@@ -12220,9 +12460,9 @@
     ],
     "oracle" : [
       {
-        "name" : "",
-        "ref" : "",
-        "icon" : "none.png",
+        "name" : "Oracle Visual Builder Studio",
+        "ref" : "https://www.oracle.com/application-development/visual-builder-studio/",
+        "icon" : "oracle.png",
         "Properties" : [
           "Yes",
           "To be added",
