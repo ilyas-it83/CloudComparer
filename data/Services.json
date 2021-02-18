@@ -2320,6 +2320,18 @@
                 ]
             },
             {
+                "name": "Amazon DocumentDB (with MongoDB compatibility)",
+                "ref": "https://aws.amazon.com/documentdb/",
+                "icon": "",
+                "Properties": [
+                    "To be added",
+                    "To be added",
+                    "To be added",
+                    "To be added",
+                    "To be added"
+                ]
+            },
+            {
                 "name": "Amazon DynamoDB Accelerator (DAX)",
                 "ref": "https://aws.amazon.com/dynamodb/dax/",
                 "icon": "Database_AmazonDynamoDB.png",
