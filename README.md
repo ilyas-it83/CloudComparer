@@ -1,6 +1,7 @@
 <a href="https://ilyas-it83.github.io/CloudComparer/">
     <img src="https://github.com/ilyas-it83/CloudComparer/blob/master/img/Logo2.png" alt="Compare Cloud" title="Compare Cloud" align="right" height="180" />
 </a>
+
 # Cloud Comparer
 
 This is the second version of my Cloud Comparison slide deck which I prepared a year back (can be downloaded here: http://www.slideshare.net/ilyas_it83/microsoft-azure-vs-amazon-web-services-aws-services-feature-mapping). The version 1 recieved more than 22K views and 400+ download at the time of working on this project. This gave me the idea of creating a robust and dependable comparison/mapping between the various services offered by the major cloud providers in a lively and updatable format.
