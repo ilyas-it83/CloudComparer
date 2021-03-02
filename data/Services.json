@@ -462,9 +462,9 @@
         ],
         "oracle": [
             {
-                "name": "",
-                "ref": "",
-                "icon": "",
+                "name": "Dedicated Virtual Machine Hosts",
+                "ref": "https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm",
+                "icon": "compute.png",
                 "Properties": [
                     "39",
                     "Yes",
