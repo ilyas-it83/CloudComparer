@@ -1939,6 +1939,18 @@
                     "To be added",
                     "To be added"
                 ]
+            },
+            {
+                "name": "Oracle Cloud Object Storage Infrequent Access Tier",
+                "ref": "https://docs.oracle.com/en-us/iaas/Content/Object/Concepts/understandingstoragetiers.htm",
+                "icon": "storage.png",
+                "Properties": [
+                    "Yes",
+                    "To be added",
+                    "To be added",
+                    "To be added",
+                    "To be added"
+                ]
             }
         ],
         "alibaba": [
