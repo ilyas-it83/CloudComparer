@@ -2416,6 +2416,18 @@
                 ]
             },
             {
+                "name": "Amazon DocumentDB (with MongoDB compatibility)",
+                "ref": "https://aws.amazon.com/documentdb/",
+                "icon": "",
+                "Properties": [
+                    "To be added",
+                    "To be added",
+                    "To be added",
+                    "To be added",
+                    "To be added"
+                ]
+            },
+            {
                 "name": "Amazon DynamoDB Accelerator (DAX)",
                 "ref": "https://aws.amazon.com/dynamodb/dax/",
                 "icon": "Database_AmazonDynamoDB.png",
@@ -4744,9 +4756,9 @@
         ],
         "oracle": [
             {
-                "name": "Oracle Developer Cloud Service",
-                "ref": "https://cloud.oracle.com/en_US/developer-service/features",
-                "icon": "developer.png",
+                "name": "Oracle Visual Builder Studio",
+                "ref": "https://www.oracle.com/application-development/visual-builder-studio/",
+                "icon": "appbuilder.png",
                 "Properties": [
                     "Yes",
                     "To be added",
@@ -4893,8 +4905,8 @@
         ],
         "oracle": [
             {
-                "name": "Visual Builder",
-                "ref": "https://cloud.oracle.com/en_US/visual-builder",
+                "name": "Oracle API Catalog",
+                "ref": "https://www.oracle.com/middleware/technologies/api-catalog.html",
                 "icon": "developer.png",
                 "Properties": [
                     "Yes",
@@ -4905,8 +4917,8 @@
                 ]
             },
             {
-                "name": "API Catalog",
-                "ref": "https://cloud.oracle.com/en_US/api-catalog",
+                "name": "Toolkit for Eclipse",
+                "ref": "https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/eclipsetoolkit.htm",
                 "icon": "developer.png",
                 "Properties": [
                     "Yes",
@@ -4917,20 +4929,8 @@
                 ]
             },
             {
-                "name": "Oracle Enterprise Pack for Eclipse",
-                "ref": "https://docs.oracle.com/en/cloud/paas/developer-cloud/csdcs/using-eclipse-ide-oracle-developer-cloud-service.html",
-                "icon": "developer.png",
-                "Properties": [
-                    "Yes",
-                    "To be added",
-                    "To be added",
-                    "To be added",
-                    "To be added"
-                ]
-            },
-            {
-                "name": "Oracle Enterprise Pack for Netbeans",
-                "ref": "https://docs.oracle.com/en/cloud/paas/developer-cloud/csdcs/using-netbeans-ide-oracle-developer-cloud-service.html",
+                "name": "Oracle Developer Tools for Visual Studio",
+                "ref": "https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/visualstudio_intro.htm#Oracle_Developer_Tools_for_Visual_Studio",
                 "icon": "developer.png",
                 "Properties": [
                     "Yes",
@@ -10271,6 +10271,18 @@
                 "name": "IBM Cloud Functions",
                 "ref": "https://www.ibm.com/cloud/functions",
                 "icon": "ibm-cloud-functions.png",
+                "Properties": [
+                    "Yes",
+                    "To be added",
+                    "To be added",
+                    "To be added",
+                    "To be added"
+                ]
+            },
+            {
+                "name": "IBM Cloud Code Engine",
+                "ref": "https://cloud.ibm.com/codeengine",
+                "icon": "codeEngineBright.svg",
                 "Properties": [
                     "Yes",
                     "To be added",
