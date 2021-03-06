@@ -29,9 +29,9 @@
     <meta name="twitter:title" content="A public Cloud Compareison : AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
     <title>AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba | A detailed comparison and mapping between various cloud services</title>
 
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/stylish-portfolio.css" rel="stylesheet">
-    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-stylish-portfolio/5.0.9/css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
         type="text/css">
 
@@ -50,8 +50,7 @@
             Public Cloud Services Comparison
         </h1>
         <div class="row text-center">
-                <a class="github-button"
-                href="https://github.com/ilyas-it83/CloudComparer/edit/master/data/Services.json"
+                <a class="github-button" href="https://github.com/ilyas-it83/CloudComparer/edit/master/data/Services.json"
                 data-size="large" data-show-count="true">Edit this page on Github</a>
                 <a class="github-button" href="https://github.com/ilyas-it83/CloudComparer" data-size="large" data-show-count="true" aria-label="Star ilyas-it83/CloudComparer on GitHub">Star</a>
                 <a class="github-button" href="https://github.com/ilyas-it83" data-size="large" data-show-count="true" aria-label="Follow @ilyas-it83 on GitHub">Follow @ilyas-it83</a>
@@ -198,30 +197,7 @@
         </tbody>
       </table>
     </section>
-    <!-- <section id="cloud-feed" class="hidden-print">
-        <h2 class="text-center">Cloud Feed</h2>
-        <hr class="small">
-        <table class="feedwind table table-responsive ">
-            <tr>
-                <td>
-                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57947/"></script>
-                </td>
-                <td>
-                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57946/"></script>
-                </td>
-                <td>
-                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57941/"></script>
-                </td>
-                <td>
-                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57948/"></script>
-                </td>
-                <td>
-                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57950/"></script>
-                </td>
-            </tr>
-        </table>
-    </section> -->
-
+  
     <!-- Disqus Comments -->
     <section id="portfolio" class="portfolio container hidden-print">
         <h2 class="text-center">Comments</h2>
@@ -299,10 +275,10 @@
     </footer>
 
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/handlebars.min-latest.js"></script>
-    <script src="js/jquery.floatThead.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/2.2.1/jquery.floatThead.min.js" crossorigin="anonymous"></script>
     <script>
 
         //Table Rendering
@@ -314,7 +290,6 @@
             $.getJSON('data/Services.json', function (data) {
                 var cloudcomparetemplate = Handlebars.compile($("#cloud-compare-template").html());
         		$("#cloud-compare").html(cloudcomparetemplate({ data }));
-
                 $("comparetable").floatThead();
             });
         });
