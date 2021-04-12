@@ -914,6 +914,11 @@
                 "ref": "https://aws.amazon.com/glacier/",
                 "icon": "Storage-Content-Delivery_AmazonGlacier.png"
             }
+            {
+                "name": "Amazon S3 Glacier Deep Archive",
+                "ref": "https://aws.amazon.com/glacier/",
+                "icon": "Storage-Content-Delivery_AmazonGlacier.png"
+            }
         ],
         "azure": [
             {
