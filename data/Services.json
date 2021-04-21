@@ -1815,8 +1815,8 @@
         },
         "aws": [
             {
-                "name": "Amazon VPN",
-                "ref": "http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpn-connections.html/",
+                "name": "Amazon Transit Gateway",
+                "ref": "https://aws.amazon.com/transit-gateway",
                 "icon": "aws.png"
             }
         ],
