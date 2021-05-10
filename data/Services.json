@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"category": {
 			"name": "Compute",
 			"ref": ""
@@ -56,7 +57,7 @@
 		"aws": [{
 			"name": "Amazon EC2",
 			"ref": "https://aws.amazon.com/ec2/",
-			"icon": "Compute_AmazonEC2.png"
+			"icon": "Arch_Amazon-EC2_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Virtual Machine",
@@ -122,7 +123,7 @@
 		"aws": [{
 			"name": "Amazon EC2 Bare Metal Instance",
 			"ref": "https://aws.amazon.com/blogs/aws/category/compute/amazon-ec2-bare-metal/",
-			"icon": "aws.png"
+			"icon": "Arch_Amazon-EC2_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Bare Metal Servers (Large Instance Only for SAP Hana)",
@@ -162,7 +163,7 @@
 		"aws": [{
 			"name": "Amazon EC2 Dedicated Hosts",
 			"ref": "https://aws.amazon.com/ec2/dedicated-hosts/",
-			"icon": "aws.png"
+			"icon": "Arch_Amazon-EC2_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Dedicated Host",
@@ -202,7 +203,7 @@
 		"aws": [{
 			"name": "Amazon Elastic Container Registry",
 			"ref": "https://aws.amazon.com/ecr/",
-			"icon": "aws.png"
+			"icon": "Arch_Amazon-Elastic-Container-Registry_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Container Registry ",
@@ -240,14 +241,19 @@
 			"ref": ""
 		},
 		"aws": [{
-				"name": "Amazon EC2 Container Service",
+				"name": "Amazon Elastic Container Service (ECS)",
 				"ref": "https://aws.amazon.com/ecs/",
-				"icon": "Compute_AmazonECS.png"
+				"icon": "Arch_Amazon-Elastic-Container-Service_64.png"
 			},
 			{
-				"name": "Amazon Elastic Container Service for Kubernetes (EKS)",
+				"name": "Amazon Elastic Kubernetes Service (EKS)",
 				"ref": "https://aws.amazon.com/eks/",
-				"icon": "Compute_AmazonECS.png"
+				"icon": "Arch_Amazon-Elastic-Kubernetes-Service_64.png"
+			},
+			{
+				"name": "Red Hat Openshift on AWS",
+				"ref": "https://aws.amazon.com/rosa/",
+				"icon": "Arch_Red-Hat-OpenShift_64.png"
 			}
 		],
 		"azure": [{
@@ -305,13 +311,57 @@
 			"ref": ""
 		},
 		"service": {
+			"name": "Serverless compute for containers",
+			"ref": ""
+		},
+		"aws": [{
+				"name": "AWS Fargate",
+				"ref": "https://aws.amazon.com/fargate/",
+				"icon": "Arch_AWS-Fargate_64.png"
+			}
+		],
+		"azure": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}
+		],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"ibm": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}
+		],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}
+		]
+	},
+	{
+		"category": {
+			"name": "Compute",
+			"ref": ""
+		},
+		"service": {
 			"name": "Micro Services App Development Platform",
 			"ref": ""
 		},
 		"aws": [{
 			"name": "AWS Lambda",
 			"ref": "https://aws.amazon.com/lambda/",
-			"icon": "Compute_AWSLambda.png"
+			"icon": "Arch_AWS-Lambda_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Service Fabric",
@@ -362,13 +412,57 @@
 			"ref": ""
 		},
 		"service": {
+			"name": "Serverless app repository",
+			"ref": ""
+		},
+		"aws": [{
+				"name": "AWS Serverless Application Repository",
+				"ref": "https://aws.amazon.com/fargate/",
+				"icon": "Arch_AWS-Serverless-Application-Repository_64.png"
+			}
+		],
+		"azure": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}
+		],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"ibm": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}
+		],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}
+		]
+	},
+	{
+		"category": {
+			"name": "Compute",
+			"ref": ""
+		},
+		"service": {
 			"name": "Virtual Private Servers",
 			"ref": ""
 		},
 		"aws": [{
 			"name": "Amazon Lightsail",
 			"ref": "https://amazonlightsail.com/",
-			"icon": "aws.png"
+			"icon": "Arch_Amazon-Lightsail_64.png"
 		}],
 		"azure": [{
 			"name": "Azure App Service Environment",
@@ -414,7 +508,7 @@
 		"aws": [{
 			"name": "Auto Scaling",
 			"ref": "https://aws.amazon.com/autoscaling/",
-			"icon": "aws.png"
+			"icon": "Arch_Amazon-EC2-Auto-Scaling_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Autoscale",
@@ -460,7 +554,7 @@
 		"aws": [{
 			"name": "AWS Batch",
 			"ref": "https://aws.amazon.com/batch/",
-			"icon": "aws.png"
+			"icon": "Arch_AWS-Batch_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Batch",
@@ -506,7 +600,12 @@
 		"aws": [{
 			"name": "AWS Elastic Beanstalk",
 			"ref": "https://aws.amazon.com/documentation/elastic-beanstalk/",
-			"icon": "Compute_AWSElasticBeanstalk_application.png"
+			"icon": "Arch_AWS-Elastic-Beanstalk_64.png"
+		},
+		{
+			"name": "AWS Amplify",
+			"ref": "https://aws.amazon.com/amplify/",
+			"icon": "Arch_AWS-Amplify_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Web Apps",
@@ -564,7 +663,12 @@
 		"aws": [{
 			"name": "AWS Lambda",
 			"ref": "",
-			"icon": "Compute_AWSLambda.png"
+			"icon": "Arch_AWS-Lambda_64.png"
+		},
+		{
+			"name": "Amazon EventBridge",
+			"ref": "https://aws.amazon.com/eventbridge/",
+			"icon": "Arch_Amazon-EventBridge_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Functions",
@@ -615,8 +719,8 @@
 		},
 		"aws": [{
 			"name": "Amazon Simple Storage Service (S3)",
-			"ref": "https://aws.amazon.com/documentation/s3/",
-			"icon": "Storage-Content-Delivery_AmazonS3_bucket.png"
+			"ref": "https://aws.amazon.com/s3/",
+			"icon": "Arch_Amazon-Simple-Storage-Service_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Blob Storage",
@@ -654,9 +758,9 @@
 			"ref": "http://##"
 		},
 		"aws": [{
-			"name": "Amazon Elastic Block Storage (EBS)",
+			"name": "Amazon Elastic Block Store (EBS)",
 			"ref": "https://aws.amazon.com/ebs/",
-			"icon": "Storage-Content-Delivery_AmazonEBS.png"
+			"icon": "Arch_Amazon-Elastic-Block-Store_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Page Blobs / Premium Storage",
@@ -707,8 +811,18 @@
 		},
 		"aws": [{
 			"name": "Amazon Elastic File System (EFS)",
-			"ref": "https://aws.amazon.com/efs/pricing/",
-			"icon": "Storage-Content-Delivery_AmazonEFS.png"
+			"ref": "https://aws.amazon.com/efs/",
+			"icon": "Arch_Amazon-Elastic-File-System_64.png"
+		},
+		{
+			"name": "Amazon FSx for Windows File Server",
+			"ref": "https://aws.amazon.com/fsx/windows/",
+			"icon": "Arch_Amazon-FSx-for-Windows-File-Server_64.png"
+		},
+		{
+			"name": "Amazon FSx for Lustre",
+			"ref": "https://aws.amazon.com/fsx/lustre/",
+			"icon": "Arch_Amazon-FSx-for-Lustre_64.png"
 		}],
 		"azure": [{
 			"name": "Azure File Storage",
@@ -746,13 +860,13 @@
 			"ref": "https://en.wikipedia.org/wiki/Platform_as_a_service"
 		},
 		"aws": [{
-			"name": "Amazon Glacier",
+			"name": "Amazon S3 Glacier",
 			"ref": "https://aws.amazon.com/glacier/",
-			"icon": "Storage-Content-Delivery_AmazonGlacier.png"
+			"icon": "Arch_Amazon-Simple-Storage-Service-Glacier_64.png"
 		}, {
 			"name": "Amazon S3 Glacier Deep Archive",
 			"ref": "https://aws.amazon.com/glacier/",
-			"icon": "Storage-Content-Delivery_AmazonGlacier.png"
+			"icon": "Arch_Amazon-Simple-Storage-Service-Glacier_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Archive Storage",
@@ -815,8 +929,8 @@
 		},
 		"aws": [{
 			"name": "AWS Storage Gateway",
-			"ref": "https://aws.amazon.com/storagegateway/details/",
-			"icon": "Storage-Content-Delivery_AWSStorageGateway.png"
+			"ref": "https://aws.amazon.com/storagegateway/",
+			"icon": "Arch_AWS-Storage-Gateway_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Storsimple",
@@ -855,13 +969,13 @@
 		},
 		"aws": [{
 				"name": "Amazon Aurora",
-				"ref": "https://aws.amazon.com/rds/aurora/details/",
-				"icon": "aws.png"
+				"ref": "https://aws.amazon.com/rds/aurora/",
+				"icon": "Arch_Amazon-Aurora_64.png"
 			},
 			{
 				"name": "Amazon RDS",
 				"ref": "https://aws.amazon.com/rds/",
-				"icon": "Database_AmazonRDS.png"
+				"icon": "Arch_Amazon-RDS_64.png"
 			}
 		],
 		"azure": [{
@@ -992,22 +1106,22 @@
 		"aws": [{
 				"name": "Amazon DynamoDB",
 				"ref": "https://aws.amazon.com/dynamodb/",
-				"icon": "Database_AmazonDynamoDB.png"
+				"icon": "Arch_Amazon-DynamoDB_64.png"
 			},
 			{
 				"name": "Amazon DocumentDB (with MongoDB compatibility)",
 				"ref": "https://aws.amazon.com/documentdb/",
-				"icon": ""
+				"icon": "Arch_Amazon-DocumentDB_64.png"
 			},
 			{
-				"name": "Amazon DynamoDB Accelerator (DAX)",
-				"ref": "https://aws.amazon.com/dynamodb/dax/",
-				"icon": "Database_AmazonDynamoDB.png"
+				"name": "Amazon Keyspaces (for Apache Cassandra)",
+				"ref": "https://aws.amazon.com/keyspaces/",
+				"icon": "Arch_Amazon-Keyspaces_64.png"
 			},
 			{
 				"name": "Amazon Neptune",
 				"ref": "https://aws.amazon.com/neptune/",
-				"icon": "aws.png"
+				"icon": "Arch_Amazon-Neptune_64.png"
 			}
 		],
 		"azure": [{
@@ -1088,7 +1202,11 @@
 		"aws": [{
 			"name": "Amazon DynamoDB",
 			"ref": "https://aws.amazon.com/dynamodb/",
-			"icon": "Database_AmazonDynamoDB.png"
+			"icon": "Arch_Amazon-DynamoDB_64.png"
+		},{
+			"name": "Amazon Timestream",
+			"ref": "https://aws.amazon.com/timestream/",
+			"icon": "Arch_Amazon-Timestream_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Time Series Insights",
@@ -1132,9 +1250,13 @@
 			"ref": "https://en.wikipedia.org/wiki/In-memory_database"
 		},
 		"aws": [{
-			"name": "Amazon ElastiCache",
-			"ref": "https://aws.amazon.com/elasticache/",
-			"icon": "Database_AmazonElasticCache.png"
+			"name": "Amazon ElastiCache for Memcached",
+			"ref": "https://aws.amazon.com/elasticache/memcached/",
+			"icon": "Arch_Amazon-ElastiCache_64.png"
+		},{
+			"name": "Amazon ElastiCache for Redis",
+			"ref": "https://aws.amazon.com/elasticache/redis/",
+			"icon": "Arch_Amazon-ElastiCache_64.png"
 		}],
 		"azure": [{
 			"name": "Azure RedisCache",
@@ -1174,7 +1296,7 @@
 		"aws": [{
 			"name": "Amazon Redshift",
 			"ref": "https://aws.amazon.com/redshift/",
-			"icon": "Database_AmazonRedshift.png"
+			"icon": "Arch_Amazon-Redshift_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Synapse Analytics",
@@ -1220,7 +1342,7 @@
 		"aws": [{
 			"name": "AWS Database Migration Service",
 			"ref": "https://aws.amazon.com/dms/",
-			"icon": "Database_AWSDatabaseMigrationService.png"
+			"icon": "Arch_AWS-Database-Migration-Service_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Database Migration Service (Preview)",
@@ -1260,7 +1382,11 @@
 		"aws": [{
 			"name": "AWS Server Migration Service",
 			"ref": "https://aws.amazon.com/server-migration-service/",
-			"icon": "aws.png"
+			"icon": "Arch_AWS-Server-Migration-Service_64.png"
+		},{
+			"name": "AWS Application Migration Service",
+			"ref": "https://aws.amazon.com/application-migration-service/",
+			"icon": "Arch_CloudEndure-Migration_64.png"
 		}],
 		"azure": [{
 				"name": "Site Recovery",
@@ -1305,8 +1431,8 @@
 		},
 		"aws": [{
 			"name": "AWS Import/Export",
-			"ref": "https://aws.amazon.com/documentation/elastic-beanstalk/",
-			"icon": "Storage-Content-Delivery_AWSImportExportSnowball.png"
+			"ref": "https://aws.amazon.com/ec2/vm-import/",
+			"icon": "Arch_AWS-Server-Migration-Service_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Import/Export",
@@ -1350,9 +1476,9 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "AWS Snowball",
+			"name": "AWS Snowball Edge Storage Optimized",
 			"ref": "https://aws.amazon.com/snowball/",
-			"icon": "Storage-Content-Delivery_AWSImportExportSnowball.png"
+			"icon": "Arch_AWS-Snowball-Edge_64.png"
 		}],
 		"azure": [{
 			"name": "",
@@ -1390,9 +1516,13 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "AWS Snowball Edge",
-			"ref": "https://aws.amazon.com/snowball-edge/",
-			"icon": "Storage-Content-Delivery_AWSImportExportSnowball.png"
+			"name": "AWS Snowcone",
+			"ref": "https://aws.amazon.com/snowcone/",
+			"icon": "Arch_AWS-Snowcone_64.png"
+		},{
+			"name": "Snowball Edge Compute Optimized",
+			"ref": "https://aws.amazon.com/snowball/",
+			"icon": "Arch_AWS-Snowball-Edge_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Data Box (Preview)",
@@ -1432,7 +1562,7 @@
 		"aws": [{
 			"name": "AWS Snowmobile",
 			"ref": "https://aws.amazon.com/snowmobile/",
-			"icon": "Storage-Content-Delivery_AWSImportExportSnowball.png"
+			"icon": "Arch_AWS-Snowmobile_64.png"
 		}],
 		"azure": [{
 			"name": "",
@@ -1470,9 +1600,9 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "Application Discovery Service",
+			"name": "AWS Application Discovery Service",
 			"ref": "https://aws.amazon.com/application-discovery/",
-			"icon": "Storage-Content-Delivery_AWSImportExportSnowball.png"
+			"icon": "Arch_AWS-Application-Discovery-Service_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Active Directory",
@@ -1512,7 +1642,7 @@
 		"aws": [{
 			"name": "Amazon VPC",
 			"ref": "https://aws.amazon.com/vpc/",
-			"icon": "Networking_AmazonVPC.png"
+			"icon": "Arch_Amazon-Virtual-Private-Cloud_64.png"
 		}],
 		"azure": [{
 			"name": "Azure VNet",
@@ -1541,18 +1671,71 @@
 		}]
 	},
 	{
+			"category": {
+				"name": "Networking & Content Delivery",
+				"ref": ""
+			},
+			"service": {
+				"name": "Virtual network connectivity",
+				"ref": ""
+			},
+			"aws": [{
+					"name": "AWS Transit Gateway",
+					"ref": "https://aws.amazon.com/transit-gateway/",
+					"icon": "Arch_AWS-Transit-Gateway_64.png"
+				},
+				{
+						"name": "AWS VPC peering",
+						"ref": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-peering.html",
+						"icon": "Arch_Amazon-Virtual-Private-Cloud_64.png"
+					}
+			],
+			"azure": [{
+					"name": "",
+					"ref": "",
+					"icon": ""
+				}
+			],
+			"google": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}],
+			"ibm": [{
+					"name": "",
+					"ref": "",
+					"icon": ""
+				}
+			],
+			"oracle": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}],
+			"alibaba": [{
+					"name": "",
+					"ref": "",
+					"icon": ""
+				}
+			]
+		},
+	{
 		"category": {
 			"name": "Networking & Content Delivery",
 			"ref": ""
 		},
 		"service": {
-			"name": "Network Gateway",
+			"name": "VPN Connectivity",
 			"ref": ""
 		},
 		"aws": [{
-			"name": "Amazon Transit Gateway",
-			"ref": "https://aws.amazon.com/transit-gateway",
-			"icon": "aws.png"
+			"name": "AWS Site-to-Site VPN",
+			"ref": "https://aws.amazon.com/vpn/site-to-site-vpn/",
+			"icon": "Arch_AWS-Site-to-Site-VPN_64.png"
+		},{
+			"name": "AWS Client VPN",
+			"ref": "https://aws.amazon.com/vpn/client-vpn/",
+			"icon": "Arch_AWS-Site-to-Site-VPN_64.png"
 		}],
 		"azure": [{
 			"name": "Azure VPN Gateway",
@@ -1597,8 +1780,8 @@
 		},
 		"aws": [{
 			"name": "Amazon CloudFront",
-			"ref": "https://aws.amazon.com/documentation/elastic-beanstalk/",
-			"icon": "Storage-Content-Delivery_AmazonCloudFront.png"
+			"ref": "https://aws.amazon.com/cloudfront/",
+			"icon": "Arch_Amazon-CloudFront_64.png"
 		}],
 		"azure": [{
 			"name": "Azure CDN",
@@ -1638,7 +1821,7 @@
 		"aws": [{
 			"name": "Amazon Route 53",
 			"ref": "https://aws.amazon.com/route53/",
-			"icon": "Networking_AmazonRoute53.png"
+			"icon": "Arch_Amazon-Route-53_64.png"
 		}],
 		"azure": [{
 			"name": "Azure DNS",
@@ -1677,8 +1860,12 @@
 		},
 		"aws": [{
 			"name": "Amazon Route 53 Traffic Flow",
-			"ref": "https://aws.amazon.com/blogs/aws/new-route-53-traffic-flow/",
-			"icon": "Networking_AmazonRoute53.png"
+			"ref": "https://aws.amazon.com/route53/faqs/#Traffic_Flow",
+			"icon": "Arch_Amazon-Route-53_64.png"
+		},{
+			"name": "AWS Global Accelerator",
+			"ref": "https://aws.amazon.com/global-accelerator/",
+			"icon": "Arch_AWS-Global-Accelerator_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Traffic Manager",
@@ -1718,7 +1905,23 @@
 		"aws": [{
 			"name": "AWS Outposts",
 			"ref": "https://aws.amazon.com/outposts/",
-			"icon": "none.png"
+			"icon": "Arch_AWS-Outposts_64.png"
+		},{
+			"name": "AWS Wavelength",
+			"ref": "https://aws.amazon.com/wavelength/",
+			"icon": "Arch_AWS-Wavelength_64.png"
+		},{
+			"name": "AWS Snow Family",
+			"ref": "https://aws.amazon.com/outposts/",
+			"icon": "Arch_AWS-Snowball_64.png"
+		},{
+			"name": "AWS RDS on VMware",
+			"ref": "https://aws.amazon.com/rds/vmware/",
+			"icon": "Arch_Amazon-RDS-on-VMware_64.png"
+		},{
+			"name": "Amazon EKS anywhere",
+			"ref": "https://aws.amazon.com/eks/eks-anywhere/",
+			"icon": "Arch_Amazon-EKS-Anywhere_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Arc",
@@ -1770,12 +1973,12 @@
 		"aws": [{
 				"name": "AWS Direct Connect",
 				"ref": "https://aws.amazon.com/directconnect/",
-				"icon": "Networking_AWSDirectConnect.png"
+				"icon": "Arch_AWS-Direct-Connect_64.png"
 			},
 			{
 				"name": "AWS Private Link",
-				"ref": "https://aws.amazon.com/about-aws/whats-new/2018/04/introducing-aws-privatelink-in-the-eu-paris-region/",
-				"icon": "Networking_AWSDirectConnect.png"
+				"ref": "https://aws.amazon.com/privatelink/",
+				"icon": "Arch_AWS-PrivateLink_64.png"
 			}
 		],
 		"azure": [{
@@ -1816,7 +2019,11 @@
 		"aws": [{
 			"name": "Elastic Load Balancing",
 			"ref": "https://aws.amazon.com/elasticloadbalancing/",
-			"icon": "aws.png"
+			"icon": "Arch_Elastic-Load-Balancing_64.png"
+		},{
+			"name": "AWS Global Accelerator",
+			"ref": "https://aws.amazon.com/global-accelerator/",
+			"icon": "Arch_AWS-Global-Accelerator_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Load Balancer",
@@ -1861,43 +2068,56 @@
 			"ref": "https://en.wikipedia.org/wiki/Programming_tool"
 		},
 		"service": {
-			"name": "Cloud Software Development Kit",
+			"name": "Cloud Development Tools",
 			"ref": ""
 		},
 		"aws": [{
 				"name": "AWS Cloud9",
 				"ref": "https://aws.amazon.com/cloud9/",
-				"icon": "aws.png"
+				"icon": "Arch_AWS-Cloud9_64.png"
 			},
 			{
 				"name": "AWS Code Star",
 				"ref": "https://aws.amazon.com/codestar/",
-				"icon": "Developer-Tools_AWSCodeCommit.png"
+				"icon": "Arch_AWS-CodeStar_64.png"
 			},
 			{
 				"name": "AWS CodeCommit",
 				"ref": "https://aws.amazon.com/codecommit/",
-				"icon": "Developer-Tools_AWSCodeCommit.png"
+				"icon": "Arch_AWS-CodeCommit_64.png"
 			},
 			{
 				"name": "AWS CodeBuild",
 				"ref": "https://aws.amazon.com/codebuild/",
-				"icon": "aws.png"
+				"icon": "Arch_AWS-CodeBuild_64.png"
 			},
 			{
 				"name": "AWS CodeDeploy",
 				"ref": "https://aws.amazon.com/codedeploy/",
-				"icon": "Developer-Tools_AWSCodeDeploy.png"
+				"icon": "Arch_AWS-CodeDeploy_64.png"
 			},
 			{
 				"name": "AWS CodePipeline",
 				"ref": "https://aws.amazon.com/codepipeline",
-				"icon": "Developer-Tools_AWSCodePipeline.png"
+				"icon": "Arch_AWS-CodePipeline_64.png"
+			},
+			{
+				"name": "AWS CodeArtifact",
+				"ref": "https://aws.amazon.com/codeartifact/",
+				"icon": "Arch_AWS-CodeArtifact_64.png"
 			},
 			{
 				"name": "AWS X-Ray",
 				"ref": "https://aws.amazon.com/xray/",
-				"icon": "aws.png"
+				"icon": "Arch_AWS-X-Ray_64.png"
+			},{
+				"name": "Amazon DevOps Guru",
+				"ref": "https://aws.amazon.com/devops-guru/",
+				"icon": "Arch_Amazon-DevOps-Guru_64.png"
+			},{
+				"name": "Amazon CodeGuru",
+				"ref": "https://aws.amazon.com/codeguru/",
+				"icon": "Arch_Amazon-CodeGuru_64.png"
 			}
 		],
 		"azure": [{
@@ -1968,10 +2188,10 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "AWS SDK",
-			"ref": "",
-			"icon": "SDKs_Python.png"
-		}],
+				"name": "AWS Tools & SDKs",
+				"ref": "https://aws.amazon.com/tools/",
+				"icon": "Arch_AWS-Tools-and-SDKs_64.png"
+			}],
 		"azure": [{
 			"name": "Azure SDK Visual Studio",
 			"ref": "https://www.visualstudio.com/team-services/",
@@ -2041,9 +2261,9 @@
 			"ref": "https://en.wikipedia.org/wiki/Platform_as_a_service"
 		},
 		"aws": [{
-			"name": "Amazon EC2 Systems Manager",
-			"ref": "https://aws.amazon.com/documentation/elastic-beanstalk/",
-			"icon": "aws.png"
+			"name": "AWS Systems Manager",
+			"ref": "https://aws.amazon.com/systems-manager/",
+			"icon": "Arch_AWS-Systems-Manager_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Operational Insights ",
@@ -2083,7 +2303,11 @@
 		"aws": [{
 			"name": "AWS CloudFormation",
 			"ref": "https://aws.amazon.com/cloudformation/",
-			"icon": "Management-Tools_AWSCloudFormation.png"
+			"icon": "Arch_AWS-CloudFormation_64.png"
+		},{
+			"name": "AWS OpsWorks",
+			"ref": "https://aws.amazon.com/opsworks/",
+			"icon": "Arch_AWS-OpsWorks_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Resource Manager",
@@ -2135,12 +2359,22 @@
 		"aws": [{
 				"name": "Amazon CloudWatch",
 				"ref": "https://aws.amazon.com/cloudwatch/",
-				"icon": "Management-Tools_AWSCloudFormation.png"
+				"icon": "Arch_Amazon-CloudWatch_64.png"
 			},
 			{
 				"name": "AWS CloudTrail",
 				"ref": "https://aws.amazon.com/cloudtrail/",
-				"icon": "Management-Tools_AWSCloudTrail.png"
+				"icon": "Arch_AWS-CloudTrail_64.png"
+			},
+			{
+				"name": "AWS X-Ray",
+				"ref": "https://aws.amazon.com/xray/",
+				"icon": "Arch_AWS-X-Ray_64.png"
+			},
+			{
+				"name": "AWS Distro for OpenTelemetry (Preview)",
+				"ref": "https://aws.amazon.com/otel/",
+				"icon": "Arch_AWS-Distro-for-OpenTelemetry_64.png                                                                                                    "
 			}
 		],
 		"azure": [{
@@ -2271,7 +2505,7 @@
 		"aws": [{
 			"name": "AWS Config",
 			"ref": "https://aws.amazon.com/config/",
-			"icon": "Management-Tools_AWSConfig.png"
+			"icon": "Arch_AWS-Config_64.png"
 		}],
 		"azure": [{
 			"name": "Azure portal (audit logs)",
@@ -2320,9 +2554,13 @@
 			"ref": ""
 		},
 		"aws": [{
+			"name": "AWS CloudFormation",
+			"ref": "https://aws.amazon.com/cloudformation/",
+			"icon": "Arch_AWS-CloudFormation_64.png"
+		},{
 			"name": "AWS OpsWorks",
 			"ref": "https://aws.amazon.com/opsworks/",
-			"icon": "Management-Tools_AWSOpsWorks.png"
+			"icon": "Arch_AWS-OpsWorks_64.png"
 		}],
 		"azure": [{
 				"name": "Resource Manager",
@@ -2373,13 +2611,13 @@
 			"ref": ""
 		},
 		"service": {
-			"name": "Server Automation",
+			"name": "Curated Catalog of Services",
 			"ref": ""
 		},
 		"aws": [{
 			"name": "AWS Service Catalog",
 			"ref": "https://aws.amazon.com/servicecatalog/",
-			"icon": "Management-Tools_AWSServiceCatalog.png"
+			"icon": "Arch_AWS-Service-Catalog_64.png"
 		}],
 		"azure": [{
 			"name": "",
@@ -2419,7 +2657,19 @@
 		"aws": [{
 			"name": "AWS Trusted Advisor",
 			"ref": "https://aws.amazon.com/premiumsupport/trustedadvisor/",
-			"icon": "Management-Tools_AWSTrustedAdvisor.png"
+			"icon": "Arch_AWS-Trusted-Advisor_64.png"
+		},{
+			"name": "AWS Well-Architected Tool",
+			"ref": "https://aws.amazon.com/well-architected-tool/",
+			"icon": "Arch_AWS-Well-Architected-Tool_64.png"
+		},{
+			"name": "AWS Cost Management",
+			"ref": "https://aws.amazon.com/aws-cost-management/",
+			"icon": "Arch-Category_AWS-Cost-Management_64.png"
+		},{
+			"name": "AWS Compute Optimizer",
+			"ref": "https://aws.amazon.com/compute-optimizer/",
+			"icon": "Arch_AWS-Compute-Optimizer_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Advisor",
@@ -2470,8 +2720,16 @@
 		},
 		"aws": [{
 			"name": "AWS Personal Health Dashboard",
-			"ref": "",
-			"icon": "aws.png"
+			"ref": "https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/",
+			"icon": "Arch_AWS-Personal-Health-Dashboard_64.png"
+		},{
+			"name": "Amazon CloudWatch",
+			"ref": "https://aws.amazon.com/cloudwatch/",
+			"icon": "Arch_Amazon-CloudWatch_64.png"
+		},{
+			"name": "AWS Security Hub",
+			"ref": "https://aws.amazon.com/security-hub/",
+			"icon": "Arch_AWS-Security-Hub_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Monitor",
@@ -2527,14 +2785,23 @@
 		},
 		"aws": [{
 				"name": "AWS Command Line Interface",
-				"ref": "",
-				"icon": "SDKs_AWSCLI.png"
-			},
+				"ref": "https://aws.amazon.com/cli/",
+				"icon": "Arch_AWS-Command-Line-Interface_64.png"
+			},{
+					"name": "AWS CloudShell",
+					"ref": "https://aws.amazon.com/cloudshell/",
+					"icon": "Arch_AWS-CloudShell_64.png"
+				},
 			{
 				"name": "AWS Management Console",
-				"ref": "",
-				"icon": "aws.png"
-			}
+				"ref": "https://aws.amazon.com/console/",
+				"icon": "Arch_AWS-Management-Console_64.png"
+			},
+		{
+			"name": "AWS Tools & SDKs",
+			"ref": "https://aws.amazon.com/tools/",
+			"icon": "Arch_AWS-Tools-and-SDKs_64.png"
+		}
 		],
 		"azure": [{
 				"name": "Azure Command Line Interface",
@@ -2622,7 +2889,7 @@
 		"aws": [{
 			"name": "AWS Managed Services",
 			"ref": "https://aws.amazon.com/managed-services/",
-			"icon": "aws.png"
+			"icon": "Arch_AWS-Managed-Services_64.png"
 		}],
 		"azure": [{
 			"name": "",
@@ -2660,9 +2927,13 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "AWS Disaster Recovery",
-			"ref": "https://aws.amazon.com/disaster-recovery/",
-			"icon": "aws.png"
+			"name": "CloudEndure Disaster Recovery",
+			"ref": "https://aws.amazon.com/cloudendure-disaster-recovery/",
+			"icon": "Arch_CloudEndure-Disaster-Recovery_64.png"
+		},{
+			"name": "AWS Backup",
+			"ref": "https://aws.amazon.com/backup/",
+			"icon": "Arch_AWS-Backup_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Site Recovery",
@@ -2713,8 +2984,16 @@
 		},
 		"aws": [{
 			"name": "AWS Identity and Access Management (IAM)",
-			"ref": "https://aws.amazon.com/documentation/iam/",
-			"icon": "Security-Identity_AWSIAM.png"
+			"ref": "https://aws.amazon.com/iam/",
+			"icon": "Arch_AWS-Identity-and-Access-Management_64.png"
+		},{
+			"name": "AWS Single Sign-On",
+			"ref": "https://aws.amazon.com/single-sign-on/",
+			"icon": "Arch_AWS-Single-Sign-On_64.png"
+		},{
+			"name": "Amazon Cognito",
+			"ref": "https://aws.amazon.com/cognito/",
+			"icon": "Arch_Amazon-Cognito_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Active Directory",
@@ -2766,12 +3045,17 @@
 		"aws": [{
 				"name": "Amazon Inspector",
 				"ref": "https://aws.amazon.com/inspector/",
-				"icon": "Security-Identity_AmazonInspector.png"
+				"icon": "Arch_Amazon-Inspector_64.png"
 			},
 			{
-				"name": "Gaurd Duty",
+				"name": "Amazon Guard​Duty",
 				"ref": "https://aws.amazon.com/guardduty/",
-				"icon": "Security-Identity_AmazonInspector.png"
+				"icon": "Arch_Amazon-GuardDuty_64.png"
+			},
+			{
+				"name": "AWS Security Hub",
+				"ref": "https://aws.amazon.com/security-hub/",
+				"icon": "Arch_AWS-Security-Hub_64.png"
 			}
 		],
 		"azure": [{
@@ -2818,7 +3102,7 @@
 		"aws": [{
 			"name": "AWS Certificate Manager",
 			"ref": "https://aws.amazon.com/certificate-manager/",
-			"icon": "Security-Identity_ACM_certificate-manager.png"
+			"icon": "Arch_AWS-Certificate-Manager_64.png"
 		}],
 		"azure": [{
 			"name": "App Service Certificate",
@@ -2858,12 +3142,11 @@
 		"aws": [{
 				"name": "AWS CloudHSM",
 				"ref": "https://aws.amazon.com/cloudhsm/",
-				"icon": "Security-Identity_AWSCloudHSM.png"
-			},
-			{
-				"name": "AWS Secrets Manager",
-				"ref": "https://aws.amazon.com/secrets-manager/",
-				"icon": "Security-Identity_AWSCloudHSM.png"
+				"icon": "Arch_AWS-CloudHSM_64.png"
+			},{
+				"name": "AWS Key Management Service (KMS)",
+				"ref": "https://aws.amazon.com/kms/",
+				"icon": "Arch_AWS-Key-Management-Service_64.png"
 			}
 		],
 		"azure": [{
@@ -2915,7 +3198,11 @@
 		"aws": [{
 			"name": "AWS Directory Service",
 			"ref": "https://aws.amazon.com/directoryservice/",
-			"icon": "Security-Identity_AWSDirectoryService.png"
+			"icon": "Arch_AWS-Directory-Service_64.png"
+		},{
+			"name": "Amazon Cloud Directory",
+			"ref": "https://aws.amazon.com/cloud-directory/",
+			"icon": "Arch_Amazon-Cloud-Directory_64.png"
 		}],
 		"azure": [{
 				"name": "Azure Active Directory",
@@ -2982,7 +3269,11 @@
 		"aws": [{
 			"name": "AWS Key Management Service",
 			"ref": "",
-			"icon": "Security-Identity_AWSKMS.png"
+			"icon": "Arch_AWS-Key-Management-Service_64.png"
+		},{
+			"name": "AWS Secrets Manager",
+			"ref": "https://aws.amazon.com/secrets-manager/",
+			"icon": "Arch_AWS-Secrets-Manager_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Key Vault",
@@ -3031,9 +3322,13 @@
 			"ref": ""
 		},
 		"aws": [{
+			"name": "AWS Control Tower",
+			"ref": "https://aws.amazon.com/controltower/",
+			"icon": "Arch_AWS-Control-Tower_64.png"
+		},{
 			"name": "AWS Organizations",
-			"ref": "",
-			"icon": "aws.png"
+			"ref": "https://aws.amazon.com/organizations/",
+			"icon": "Arch_AWS-Organizations_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Management Groups",
@@ -3073,7 +3368,7 @@
 		"aws": [{
 			"name": "AWS Shield",
 			"ref": "https://aws.amazon.com/shield/",
-			"icon": "aws.png"
+			"icon": "Arch_AWS-Shield_64.png"
 		}],
 		"azure": [{
 			"name": "Azure DDoS Protection",
@@ -3111,9 +3406,9 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "AWS WAF",
+			"name": "AWS Web Application Firewall (WAF)",
 			"ref": "https://aws.amazon.com/waf/",
-			"icon": "Security-Identity_AWSWAF.png"
+			"icon": "Arch_AWS-WAF_64.png"
 		}],
 		"azure": [{
 			"name": "Azure WAF",
@@ -3147,13 +3442,13 @@
 			"ref": ""
 		},
 		"service": {
-			"name": "Security & Compliance Service",
+			"name": "Central management of firewall rules",
 			"ref": ""
 		},
 		"aws": [{
 			"name": "AWS Firewall Manager",
-			"ref": "",
-			"icon": "none.png"
+			"ref": "https://aws.amazon.com/firewall-manager/",
+			"icon": "Arch_AWS-Firewall-Manager_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Firewall Manager",
@@ -3191,9 +3486,13 @@
 			"ref": ""
 		},
 		"aws": [{
+			"name": "AWS Security Hub",
+			"ref": "https://aws.amazon.com/security-hub/",
+			"icon": "Arch_AWS-Security-Hub_64.png"
+		},{
 			"name": "AWS Artifact",
 			"ref": "https://aws.amazon.com/artifact/",
-			"icon": "aws.png"
+			"icon": "Arch_AWS-Artifact_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Security & Compliance",
@@ -3223,6 +3522,86 @@
 	},
 	{
 		"category": {
+			"name": "Security & Identity, Compliance",
+			"ref": ""
+		},
+		"service": {
+			"name": "Sensitive Data discovery and protection",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "Amazon Macie",
+			"ref": "https://aws.amazon.com/macie/",
+			"icon": "Arch_Amazon-Macie_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}]
+	},
+	{
+		"category": {
+			"name": "Security & Identity, Compliance",
+			"ref": ""
+		},
+		"service": {
+			"name": "Sensitive Data discovery and protection",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "Amazon Detective",
+			"ref": "https://aws.amazon.com/detective/",
+			"icon": "Arch_Amazon-Detective_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}]
+	},
+	{
+		"category": {
 			"name": "Big Data & Advanced Analytics",
 			"ref": ""
 		},
@@ -3233,7 +3612,7 @@
 		"aws": [{
 			"name": "Amazon Athena",
 			"ref": "https://aws.amazon.com/athena/",
-			"icon": "aws.png"
+			"icon": "Arch_Amazon-Athena_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Data Lake Analytics",
@@ -3273,7 +3652,7 @@
 		"aws": [{
 			"name": "Amazon EMR",
 			"ref": "https://aws.amazon.com/emr/",
-			"icon": "Analytics_AmazonEMR.png"
+			"icon": "Arch_Amazon-EMR_64.png"
 		}],
 		"azure": [{
 			"name": "Azure HDInsight",
@@ -3313,12 +3692,12 @@
 		"aws": [{
 				"name": "Amazon CloudSearch",
 				"ref": "https://aws.amazon.com/cloudsearch/",
-				"icon": "Application-Services_AmazonCloudSearch.png"
+				"icon": "Arch_Amazon-CloudSearch_64.png"
 			},
 			{
 				"name": "Amazon Elastic Search Service",
-				"ref": "https://aws.amazon.com/cloudsearch/",
-				"icon": "Application-Services_AmazonCloudSearch.png"
+				"ref": "https://aws.amazon.com/elasticsearch-service/",
+				"icon": "Arch_Amazon-Elasticsearch-Service_64.png"
 			}
 		],
 		"azure": [{
@@ -3358,13 +3737,29 @@
 		},
 		"aws": [{
 				"name": "Amazon Kinesis",
-				"ref": "https://aws.amazon.com/kinesis/streams/",
-				"icon": "Analytics_AmazonKinesis.png"
-			},
+				"ref": "https://aws.amazon.com/kinesis/",
+				"icon": "Arch_Amazon-Kinesis_64.png"
+			},{
+				"name": "Amazon Kinesis Data Streams",
+				"ref": "https://aws.amazon.com/kinesis/data-streams/",
+				"icon": "Arch_Amazon-Kinesis-Data-Streams_64.png"
+			},{
+					"name": "Amazon Kinesis Data Firehose",
+					"ref": "https://aws.amazon.com/kinesis/data-firehose/",
+					"icon": "Arch_Amazon-Kinesis-Firehose_64.png"
+				},
 			{
 				"name": "Amazon Kinesis Video Streams",
-				"ref": "https://aws.amazon.com/blogs/aws/amazon-kinesis-video-streams-serverless-video-ingestion-and-storage-for-vision-enabled-apps/",
-				"icon": "Analytics_AmazonKinesis.png"
+				"ref": "https://aws.amazon.com/kinesis/video-streams/",
+				"icon": "Arch_Amazon-Kinesis-Video-Streams_64.png"
+			},{
+				"name": "Amazon Kinesis Data Analytics",
+				"ref": "https://aws.amazon.com/kinesis/data-analytics/",
+				"icon": "Arch_Amazon-Kinesis-Data-Analytics_64.png"
+			},{
+				"name": "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+				"ref": "https://aws.amazon.com/msk/",
+				"icon": "Arch_Amazon-Managed-Streaming-for-Apache-Kafka_64.png"
 			}
 		],
 		"azure": [{
@@ -3417,7 +3812,7 @@
 		"aws": [{
 			"name": "Amazon Redshift",
 			"ref": "https://aws.amazon.com/redshift/",
-			"icon": "Database_AmazonRedshift.png"
+			"icon": "Arch_Amazon-Redshift_64.png"
 		}],
 		"azure": [{
 			"name": "Azure SQL Data Warehouse",
@@ -3456,8 +3851,8 @@
 		},
 		"aws": [{
 			"name": "Amazon QuickSight",
-			"ref": "https://quicksight.aws/",
-			"icon": "Analytics_AmazonQuickSight.png"
+			"ref": "https://aws.amazon.com/quicksight/",
+			"icon": "Arch_Amazon-QuickSight_64.png"
 		}],
 		"azure": [{
 			"name": "PowerBI",
@@ -3508,17 +3903,12 @@
 		"aws": [{
 				"name": "AWS Data Pipeline",
 				"ref": "https://aws.amazon.com/datapipeline/",
-				"icon": "Analytics_AWSDataPipeline.png"
+				"icon": "Arch_AWS-Data-Pipeline_64.png"
 			},
 			{
 				"name": "AWS Glue",
 				"ref": "https://aws.amazon.com/glue/",
-				"icon": "aws.png"
-			},
-			{
-				"name": "Amazon Simple Workflow Service (SWF)",
-				"ref": "https://aws.amazon.com/swf/",
-				"icon": "aws.png"
+				"icon": "Arch_AWS-Glue_64.png"
 			}
 		],
 		"azure": [{
@@ -3589,7 +3979,7 @@
 	},
 	{
 		"category": {
-			"name": "Artificial Intelligence",
+			"name": "Artificial Intelligence / Machine Learning",
 			"ref": ""
 		},
 		"service": {
@@ -3599,12 +3989,22 @@
 		"aws": [{
 				"name": "Amazon Lex",
 				"ref": "https://aws.amazon.com/lex/",
-				"icon": "aws.png"
+				"icon": "Arch_Amazon-Lex_64.png"
 			},
 			{
 				"name": "Amazon Comprehend",
 				"ref": "https://aws.amazon.com/comprehend/",
-				"icon": "aws.png"
+				"icon": "Arch_Amazon-Comprehend_64.png"
+			},
+			{
+				"name": "Amazon Translate",
+				"ref": "https://aws.amazon.com/translate/",
+				"icon": "Arch_Amazon-Translate_64.png"
+			},
+			{
+				"name": "Amazon Textract",
+				"ref": "https://aws.amazon.com/textract/",
+				"icon": "Arch_Amazon-Textract_64.png"
 			}
 		],
 		"azure": [{
@@ -3688,7 +4088,7 @@
 	},
 	{
 		"category": {
-			"name": "Artificial Intelligence",
+			"name": "Artificial Intelligence / Machine Learning",
 			"ref": ""
 		},
 		"service": {
@@ -3697,18 +4097,13 @@
 		},
 		"aws": [{
 				"name": "Amazon Polly",
-				"ref": "",
-				"icon": "aws.png"
+				"ref": "https://aws.amazon.com/polly/",
+				"icon": "Arch_Amazon-Polly_64.png"
 			},
 			{
 				"name": "Amazon Transcribe",
 				"ref": "https://aws.amazon.com/transcribe/",
-				"icon": "aws.png"
-			},
-			{
-				"name": "Amazon Translate",
-				"ref": "https://aws.amazon.com/translate/",
-				"icon": "aws.png"
+				"icon": "Arch_Amazon-Transcribe_64.png"
 			}
 		],
 		"azure": [{
@@ -3745,7 +4140,7 @@
 	},
 	{
 		"category": {
-			"name": "Artificial Intelligence",
+			"name": "Artificial Intelligence / Machine Learning",
 			"ref": ""
 		},
 		"service": {
@@ -3754,8 +4149,16 @@
 		},
 		"aws": [{
 			"name": "Amazon Rekognition",
-			"ref": "",
-			"icon": "aws.png"
+			"ref": "https://aws.amazon.com/rekognition/",
+			"icon": "Arch_Amazon-Rekognition_64.png"
+		},{
+			"name": "Amazon Lookout for Vision",
+			"ref": "https://aws.amazon.com/lookout-for-vision/",
+			"icon": "Arch_Amazon-Lookout-for-Vision_64.png"
+		},{
+			"name": "AWS Panorama (preview)",
+			"ref": "https://aws.amazon.com/panorama/",
+			"icon": "Arch_AWS-Panorama_64.png"
 		}],
 		"azure": [{
 				"name": "Emotion API",
@@ -3802,7 +4205,7 @@
 	},
 	{
 		"category": {
-			"name": "Artificial Intelligence",
+			"name": "Artificial Intelligence / Machine Learning",
 			"ref": ""
 		},
 		"service": {
@@ -3811,13 +4214,13 @@
 		},
 		"aws": [{
 				"name": "Amazon Machine Learning",
-				"ref": "",
-				"icon": "Analytics_AmazonMachineLearning.png"
+				"ref": "https://aws.amazon.com/machine-learning/",
+				"icon": "Arch-Category_Machine-Learning_64.png"
 			},
 			{
 				"name": "Amazon Sage​Maker",
 				"ref": "https://aws.amazon.com/sagemaker/",
-				"icon": "Analytics_AmazonMachineLearning.png"
+				"icon": "Arch_Amazon-SageMaker_64.png"
 			}
 		],
 		"azure": [{
@@ -3876,6 +4279,238 @@
 	},
 	{
 		"category": {
+			"name": "Artificial Intelligence / Machine Learning",
+			"ref": ""
+		},
+		"service": {
+			"name": "Intelligent Search / Search with ML",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "Amazon Kendra",
+			"ref": "https://aws.amazon.com/kendra/",
+			"icon": "Arch_Amazon-Kendra_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}]
+	},
+	{
+		"category": {
+			"name": "Artificial Intelligence / Machine Learning",
+			"ref": ""
+		},
+		"service": {
+			"name": "Business analysis",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "Amazon Forecast",
+			"ref": "https://aws.amazon.com/forecast/",
+			"icon": "Arch_Amazon-Forecast_64.png"
+		},{
+			"name": "Amazon Fraud Detector",
+			"ref": "https://aws.amazon.com/fraud-detector/",
+			"icon": "Arch_Amazon-Fraud-Detector_64.png"
+		},{
+			"name": "Amazon Lookout for Metrics",
+			"ref": "https://aws.amazon.com/lookout-for-metrics/",
+			"icon": "Arch_Amazon-Lookout-for-Metrics_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}]
+	},
+	{
+		"category": {
+			"name": "Artificial Intelligence / Machine Learning",
+			"ref": ""
+		},
+		"service": {
+			"name": "ML for Industry",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "Amazon Monitron",
+			"ref": "https://aws.amazon.com/monitron/",
+			"icon": "Arch_Amazon-Monitron_64.png"
+		},{
+			"name": "Amazon Lookout for Equipment",
+			"ref": "https://aws.amazon.com/lookout-for-equipment/",
+			"icon": "Arch_Amazon-Lookout-for-Equipment_64.png"
+		},{
+			"name": "Amazon Lookout for Vision",
+			"ref": "https://aws.amazon.com/lookout-for-vision/",
+			"icon": "Arch_Amazon-Lookout-for-Vision_64.png"
+		},{
+			"name": "AWS Panorama (preview)",
+			"ref": "https://aws.amazon.com/panorama/",
+			"icon": "Arch_AWS-Panorama_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}]
+	},
+	{
+		"category": {
+			"name": "Artificial Intelligence / Machine Learning",
+			"ref": ""
+		},
+		"service": {
+			"name": "ML for Code/DevOPS",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "Amazon DevOps Guru",
+			"ref": "https://aws.amazon.com/devops-guru/",
+			"icon": "Arch_Amazon-DevOps-Guru_64.png"
+		},{
+			"name": "Amazon CodeGuru",
+			"ref": "https://aws.amazon.com/codeguru/",
+			"icon": "Arch_Amazon-CodeGuru_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}]
+	},
+	{
+		"category": {
+			"name": "Artificial Intelligence / Machine Learning",
+			"ref": ""
+		},
+		"service": {
+			"name": "Learning tools",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "AWS DeepRacer",
+			"ref": "https://aws.amazon.com/deepracer/",
+			"icon": "Arch_AWS-DeepRacer_64.png"
+		},{
+			"name": "AWS DeepLens",
+			"ref": "https://aws.amazon.com/deeplens/",
+			"icon": "Arch_AWS-DeepLens_64.png"
+		},{
+			"name": "AWS DeepComposer",
+			"ref": "https://aws.amazon.com/deepcomposer/",
+			"icon": "Arch_AWS-DeepComposer_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}]
+	},
+	{
+		"category": {
 			"name": "Mobile Services",
 			"ref": ""
 		},
@@ -3884,9 +4519,17 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "AWS Mobile Hub",
-			"ref": "",
-			"icon": "Mobile-Services_AWSMobileHub.png"
+			"name": "AWS Amplify",
+			"ref": "https://aws.amazon.com/amplify/",
+			"icon": "Arch_AWS-Amplify_64.png"
+		},{
+			"name": "AWS AppSync",
+			"ref": "https://aws.amazon.com/appsync/",
+			"icon": "Arch_AWS-AppSync_64.png"
+		},{
+			"name": "Amazon Location Service (preview)",
+			"ref": "https://aws.amazon.com/location/",
+			"icon": "Arch_Amazon-Location-Service_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Mobile Apps",
@@ -3931,8 +4574,8 @@
 		},
 		"aws": [{
 			"name": "Amazon API Gateway",
-			"ref": "",
-			"icon": "Application-Services_AmazonAPIGateway.png"
+			"ref": "https://aws.amazon.com/api-gateway/",
+			"icon": "Arch_Amazon-API-Gateway_64.png"
 		}],
 		"azure": [{
 			"name": "Azure API Management",
@@ -3977,8 +4620,8 @@
 		},
 		"aws": [{
 			"name": "Amazon Cognito",
-			"ref": "",
-			"icon": "Mobile-Services_AmazonCognito.png"
+			"ref": "https://aws.amazon.com/cognito/",
+			"icon": "Arch_Amazon-Cognito_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Mobile SDK,Offline/Sync",
@@ -4017,8 +4660,8 @@
 		},
 		"aws": [{
 			"name": "Amazon Pinpoint",
-			"ref": "",
-			"icon": "aws.png"
+			"ref": "https://aws.amazon.com/pinpoint/",
+			"icon": "Arch_Amazon-Pinpoint_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Mobile Engagement",
@@ -4048,46 +4691,6 @@
 	},
 	{
 		"category": {
-			"name": "Automated Cloud Management Service",
-			"ref": ""
-		},
-		"service": {
-			"name": "Managed Cloud Services",
-			"ref": ""
-		},
-		"aws": [{
-			"name": "AWS Managed Services",
-			"ref": "https://aws.amazon.com/managed-services/",
-			"icon": "Application-Services_AmazonAppStream.png"
-		}],
-		"azure": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
-		}],
-		"google": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
-		}],
-		"ibm": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
-		}],
-		"oracle": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
-		}],
-		"alibaba": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
-		}]
-	},
-	{
-		"category": {
 			"name": "Mobile Services",
 			"ref": ""
 		},
@@ -4097,8 +4700,8 @@
 		},
 		"aws": [{
 			"name": "AWS Device Farm",
-			"ref": "",
-			"icon": "Mobile-Services_AWSDeviceFarm.png"
+			"ref": "https://aws.amazon.com/device-farm/",
+			"icon": "Arch_AWS-Device-Farm_64.png"
 		}],
 		"azure": [{
 				"name": "Xamarin Test Cloud (Front End)",
@@ -4142,10 +4745,10 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "AWS Mobile SDK",
-			"ref": "",
-			"icon": "SDKs_Android.png"
-		}],
+				"name": "AWS Tools & SDKs",
+				"ref": "https://aws.amazon.com/tools/",
+				"icon": "Arch_AWS-Tools-and-SDKs_64.png"
+			}],
 		"azure": [{
 			"name": "Azure Mobile SDK",
 			"ref": "",
@@ -4183,8 +4786,16 @@
 		},
 		"aws": [{
 			"name": "AWS Step Functions",
-			"ref": "",
-			"icon": "aws.png"
+			"ref": "https://aws.amazon.com/step-functions/",
+			"icon": "Arch_AWS-Step-Functions_64.png"
+		},{
+			"name": "Amazon EventBridge",
+			"ref": "https://aws.amazon.com/eventbridge/",
+			"icon": "Arch_Amazon-EventBridge_64.png"
+		},{
+			"name": "Amazon AppFlow",
+			"ref": "https://aws.amazon.com/appflow/",
+			"icon": "Arch_Amazon-AppFlow_64.png"
 		}],
 		"azure": [{
 				"name": "Microsoft Flow",
@@ -4260,14 +4871,14 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "Amazon Mobile Analytics",
-			"ref": "https://aws.amazon.com/mobileanalytics/",
-			"icon": "aws.png"
+			"name": "Amazon Pinpoint",
+			"ref": "https://aws.amazon.com/pinpoint/",
+			"icon": "Arch_Amazon-Pinpoint_64.png"
 		}],
 		"azure": [{
-			"name": "Hockey App",
-			"ref": "https://azure.microsoft.com/en-in/services/hockeyapp/",
-			"icon": "Microsoft Flow.png"
+			"name": "Mobile Engagement",
+			"ref": "",
+			"icon": "Azure Mobile Engagement.png"
 		}],
 		"google": [{
 			"name": "Firebase Analytics",
@@ -4301,8 +4912,8 @@
 		},
 		"aws": [{
 			"name": "Amazon API Gateway",
-			"ref": "",
-			"icon": "Application-Services_AmazonAPIGateway.png"
+			"ref": "https://aws.amazon.com/api-gateway/",
+			"icon": "Arch_Amazon-API-Gateway_64.png"
 		}],
 		"azure": [{
 			"name": "Azure API Management",
@@ -4367,39 +4978,64 @@
 			"ref": ""
 		},
 		"aws": [{
-				"name": "Amazon Elastic Transcoder",
-				"ref": "",
-				"icon": "Application-Services_AmazonElasticTranscoder.png"
+				"name": "AWS Elemental MediaConnect",
+				"ref": "https://aws.amazon.com/mediaconnect/",
+				"icon": "Arch_AWS-Elemental-MediaConnect_64.png"
 			},
 			{
 				"name": "AWS Elemental MediaConvert",
 				"ref": "https://aws.amazon.com/mediaconvert/",
-				"icon": "Application-Services_AmazonElasticTranscoder.png"
+				"icon": "Arch_AWS-Elemental-MediaConvert_64.png"
 			},
 			{
 				"name": "AWS Elemental MediaLive",
 				"ref": "https://aws.amazon.com/medialive/",
-				"icon": "Application-Services_AmazonElasticTranscoder.png"
+				"icon": "Arch_AWS-Elemental-MediaLive_64.png"
 			},
 			{
 				"name": "AWS Elemental MediaPackage",
 				"ref": "https://aws.amazon.com/mediapackage/",
-				"icon": "Application-Services_AmazonElasticTranscoder.png"
+				"icon": "Arch_AWS-Elemental-MediaPackage_64.png"
 			},
 			{
 				"name": "AWS Elemental MediaStore",
 				"ref": "https://aws.amazon.com/mediastore/",
-				"icon": "Application-Services_AmazonElasticTranscoder.png"
+				"icon": "Arch_AWS-Elemental-MediaStore_64.png"
 			},
 			{
 				"name": "AWS Elemental MediaTailor",
 				"ref": "https://aws.amazon.com/MediaTailor/",
-				"icon": "Application-Services_AmazonElasticTranscoder.png"
+				"icon": "Arch_AWS-Elemental-MediaTailor_64.png"
+			},
+			{
+				"name": "Amazon Interactive Video Service",
+				"ref": "https://aws.amazon.com/ivs/",
+				"icon": "Arch_Amazon-Interactive-Video-Service_64.png"
 			},
 			{
 				"name": "Amazon Kinesis Video Streams",
 				"ref": "https://aws.amazon.com/kinesis/video-streams/",
-				"icon": "Application-Services_AmazonElasticTranscoder.png"
+				"icon": "Arch_Amazon-Kinesis-Video-Streams_64.png"
+			},
+			{
+				"name": "AWS Elemental Live",
+				"ref": "https://aws.amazon.com/elemental-live/",
+				"icon": "Arch_AWS-Elemental-Live_64.png"
+			},
+			{
+				"name": "AWS Elemental Server",
+				"ref": "https://aws.amazon.com/elemental-server/",
+				"icon": "Arch_AWS-Elemental-Server_64.png"
+			},
+			{
+				"name": "AWS Elemental Conductor",
+				"ref": "https://aws.amazon.com/elemental-conductor/",
+				"icon": "Arch_AWS-Elemental-Conductor_64.png"
+			},
+			{
+				"name": "AWS Elemental Link",
+				"ref": "https://aws.amazon.com/medialive/features/link/",
+				"icon": "Arch_AWS-Elemental-Link_64.png"
 			}
 		],
 		"azure": [{
@@ -4459,14 +5095,14 @@
 			"ref": ""
 		},
 		"aws": [{
-				"name": "Amazon SQS",
-				"ref": "",
-				"icon": "Application-Services_AmazonSQS.png"
+				"name": "Amazon Simple Queue Service (SQS)",
+				"ref": "https://aws.amazon.com/sqs/",
+				"icon": "Arch_Amazon-Simple-Queue-Service_64.png"
 			},
 			{
 				"name": "Amazon MQ",
-				"ref": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-mq/",
-				"icon": "aws.png"
+				"ref": "https://aws.amazon.com/amazon-mq/",
+				"icon": "Arch_Amazon-MQ_64.png"
 			}
 		],
 		"azure": [{
@@ -4523,53 +5159,13 @@
 			"ref": ""
 		},
 		"service": {
-			"name": "Mobile Analytics",
-			"ref": ""
-		},
-		"aws": [{
-			"name": "Amazon Pinpoint",
-			"ref": "",
-			"icon": "aws.png"
-		}],
-		"azure": [{
-			"name": "Mobile Engagement",
-			"ref": "",
-			"icon": "Azure Mobile Engagement.png"
-		}],
-		"google": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
-		}],
-		"ibm": [{
-			"name": "Mobile Foundation",
-			"ref": "https://cloud.ibm.com/docs/services/mobilefoundation",
-			"icon": "ibmcloud.png"
-		}],
-		"oracle": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
-		}],
-		"alibaba": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
-		}]
-	},
-	{
-		"category": {
-			"name": "Application Services",
-			"ref": ""
-		},
-		"service": {
 			"name": "Email Services",
 			"ref": ""
 		},
 		"aws": [{
-			"name": "Amazon SES",
-			"ref": "",
-			"icon": "Application-Services_AmazonSES_email.png"
+			"name": "Amazon Simple Email Service (SES)",
+			"ref": "https://aws.amazon.com/ses/",
+			"icon": "Arch_Amazon-Simple-Email-Service_64.png"
 		}],
 		"azure": [{
 			"name": "",
@@ -4607,9 +5203,9 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "Amazon SNS",
-			"ref": "",
-			"icon": "Mobile-Services_AmazonSNS.png"
+			"name": "Amazon Simple Notification Service (SNS)",
+			"ref": "https://aws.amazon.com/sns/",
+			"icon": "Arch_Amazon-Simple-Notification-Service_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Notification Services",
@@ -4649,12 +5245,12 @@
 		"aws": [{
 				"name": "Amazon Managed Blockchain",
 				"ref": "https://aws.amazon.com/managed-blockchain/",
-				"icon": "none.png"
+				"icon": "Arch-Category_Blockchain_64.png"
 			},
 			{
 				"name": "Amazon Quantum Ledger Database (QLDB)",
 				"ref": "https://aws.amazon.com/qldb/",
-				"icon": "none.png"
+				"icon": "Arch_Amazon-Quantum-Ledger-Database_64.png"
 			}
 		],
 		"azure": [{
@@ -4704,9 +5300,13 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "Lex Chatbots",
-			"ref": "",
-			"icon": "aws.png"
+			"name": "Amazon Lex",
+			"ref": "https://aws.amazon.com/lex/",
+			"icon": "Arch_Amazon-Lex_64.png"
+		},{
+			"name": "AWS Chatbot",
+			"ref": "https://aws.amazon.com/chatbot/",
+			"icon": "Arch_AWS-Chatbot_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Bot Service",
@@ -4745,18 +5345,18 @@
 		},
 		"aws": [{
 				"name": "Amazon WorkDocs",
-				"ref": "",
-				"icon": "Enterprise-Applications_AmazonWorkDocs.png"
+				"ref": "https://aws.amazon.com/workdocs/",
+				"icon": "Arch_Amazon-WorkDocs_64.png"
 			},
 			{
 				"name": "Amazon WorkMail",
-				"ref": "",
-				"icon": "Enterprise-Applications_AmazonWorkMail.png"
+				"ref": "https://aws.amazon.com/workmail/",
+				"icon": "Arch_Amazon-WorkMail_64.png"
 			},
 			{
 				"name": "Amazon WorkSpaces",
-				"ref": "",
-				"icon": "Enterprise-Applications_AmazonWorkSpaces.png"
+				"ref": "https://aws.amazon.com/workspaces/",
+				"icon": "Arch_Amazon-WorkSpaces_64.png"
 			}
 		],
 		"azure": [{
@@ -4796,8 +5396,8 @@
 		},
 		"aws": [{
 			"name": "Amazon AppStream 2.0",
-			"ref": "",
-			"icon": "Application-Services_AmazonAppStream.png"
+			"ref": "https://aws.amazon.com/appstream2/",
+			"icon": "Arch_Amazon-AppStream_64.png"
 		}],
 		"azure": [{
 			"name": "",
@@ -4836,8 +5436,8 @@
 		},
 		"aws": [{
 			"name": "AWS Marketplace",
-			"ref": "",
-			"icon": "aws.png"
+			"ref": "https://aws.amazon.com/marketplace/",
+			"icon": "AWS_Marketplace_64.png"
 		}],
 		"azure": [{
 			"name": "Azure MarketPlace",
@@ -4875,9 +5475,22 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "AWS IoT Platform",
-			"ref": "",
-			"icon": "Internet-Of-Things_AWSIoT.png"
+			"name": "AWS IoT",
+			"ref": "https://aws.amazon.com/iot/",
+			"icon": "Arch-Category_Internet-of-Things_64.png"
+		},{
+			"name": "AWS IoT Core",
+			"ref": "https://aws.amazon.com/iot-core/",
+			"icon": "Arch_AWS-IoT-Core_64.png"
+		},{
+			"name": "AWS IoT Device Defender",
+			"ref": "https://aws.amazon.com/iot-device-defender/",
+			"icon": "Arch_AWS-IoT-Device-Defender_64.png"
+		},
+		{
+			"name": "AWS IoT Device Management",
+			"ref": "https://aws.amazon.com/iot-device-management/",
+			"icon": "Arch_AWS-IoT-Device-Management_64.png"
 		}],
 		"azure": [{
 				"name": "Azure IoT Platform",
@@ -4933,9 +5546,17 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "AWS Greengrass",
-			"ref": "",
-			"icon": "aws.png"
+			"name": "AWS IoT Greengrass",
+			"ref": "https://aws.amazon.com/greengrass/",
+			"icon": "Arch_AWS-IoT-Greengrass_64.png"
+		},{
+			"name": "AWS FreeRTOS",
+			"ref": "https://aws.amazon.com/freertos/",
+			"icon": "Arch_FreeRTOS_64.png"
+		},{
+			"name": "AWS Tools & SDKs",
+			"ref": "https://aws.amazon.com/tools/",
+			"icon": "Arch_AWS-Tools-and-SDKs_64.png"
 		}],
 		"azure": [{
 				"name": "Azure IoT SDK",
@@ -4975,13 +5596,69 @@
 			"ref": ""
 		},
 		"service": {
+			"name": "IoT Analysis",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "AWS IoT Analytics",
+			"ref": "https://aws.amazon.com/iot-analytics/",
+			"icon": "Arch_AWS-IoT-Analytics_64.png"
+		},{
+			"name": "AWS IoT SiteWise",
+			"ref": "https://aws.amazon.com/iot-sitewise/",
+			"icon": "Arch_AWS-IoT-SiteWise_64.png"
+		},{
+			"name": "AWS IoT Events",
+			"ref": "https://aws.amazon.com/iot-events/",
+			"icon": "Arch_AWS-IoT-Events_64.png"
+		},{
+			"name": "AWS IoT Things Graph",
+			"ref": "https://aws.amazon.com/iot-things-graph/",
+			"icon": "Arch_AWS-IoT-Things-Graph_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}]
+	},
+	{
+		"category": {
+			"name": "Internet of Things",
+			"ref": ""
+		},
+		"service": {
 			"name": "IoT Hardware",
 			"ref": ""
 		},
 		"aws": [{
 			"name": "AWS IoT Button",
-			"ref": "",
-			"icon": "aws.png"
+			"ref": "https://aws.amazon.com/iotbutton/",
+			"icon": "Arch_AWS-IoT-Button_64.png"
+		},{
+			"name": "AWS IoT EduKit",
+			"ref": "https://aws.amazon.com/iot/edukit/",
+			"icon": "AWS-IoT-EduKit_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Sphere",
@@ -5020,8 +5697,12 @@
 		},
 		"aws": [{
 			"name": "Amazon Lumberyard",
-			"ref": "",
-			"icon": "Game-Development_AmazonGameLift.png"
+			"ref": "https://aws.amazon.com/lumberyard/",
+			"icon": "Arch_Amazon-Lumberyard_64.png"
+		},{
+			"name": "Amazon GameLift",
+			"ref": "https://aws.amazon.com/gamelift/",
+			"icon": "Arch_Amazon-GameLift_64.png"
 		}],
 		"azure": [{
 			"name": "Visual Studio",
@@ -5061,7 +5742,7 @@
 		"aws": [{
 			"name": "AWS RoboMaker",
 			"ref": "https://aws.amazon.com/robomaker/",
-			"icon": "none.png"
+			"icon": "Arch_AWS-RoboMaker_64.png"
 		}],
 		"azure": [{
 			"name": "",
@@ -5099,9 +5780,9 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "AWS Dev/Test",
-			"ref": "",
-			"icon": "aws.png"
+			"name": "AWS Developer Center",
+			"ref": "https://aws.amazon.com/developer/",
+			"icon": "Arch-Category_Developer-Tools_64.png"
 		}],
 		"azure": [{
 			"name": "Azure Dev/Test",
@@ -5122,6 +5803,130 @@
 			"name": "Oracle Visual Builder Studio",
 			"ref": "https://www.oracle.com/application-development/visual-builder-studio/",
 			"icon": "oracle.png"
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}]
+	},
+	{
+		"category": {
+			"name": "Quantum Technologies",
+			"ref": ""
+		},
+		"service": {
+			"name": "Quantum computing",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "Amazon Braket",
+			"ref": "https://aws.amazon.com/braket/",
+			"icon": "Arch_Amazon-Braket_64.png"
+		},{
+			"name": "Amazon Quantum Solutions Lab",
+			"ref": "https://aws.amazon.com/quantum-solutions-lab/",
+			"icon": "Arch_Amazon-Braket_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}]
+	},
+	{
+		"category": {
+			"name": "Augmented and virtual reality",
+			"ref": ""
+		},
+		"service": {
+			"name": "AR/VR development",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "Amazon Sumerian",
+			"ref": "https://aws.amazon.com/sumerian/",
+			"icon": "Arch_Amazon-Sumerian_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}]
+	},
+	{
+		"category": {
+			"name": "Space, the final frontier",
+			"ref": ""
+		},
+		"service": {
+			"name": "Satellite Control",
+			"ref": ""
+		},
+		"aws": [{
+			"name": "AWS Ground Station",
+			"ref": "https://aws.amazon.com/ground-station/",
+			"icon": "Arch_AWS-Ground-Station_64.png"
+		}],
+		"azure": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"google": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"ibm": [{
+			"name": "",
+			"ref": "",
+			"icon": "none.png"
+		}],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
 		}],
 		"alibaba": [{
 			"name": "",
