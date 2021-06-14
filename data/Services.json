@@ -5408,9 +5408,9 @@
 			}
 		],
 		"google": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "Transcoder API",
+			"ref": "https://cloud.google.com/transcoder",
+			"icon": "Google-Cloud-Platform.png"
 		}],
 		"ibm": [{
 			"name": "Digital Transcoding",
