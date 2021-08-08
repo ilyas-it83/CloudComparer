@@ -4046,6 +4046,11 @@
 			"name": "PowerBI",
 			"ref": "https://powerbi.microsoft.com/en-us/",
 			"icon": "Power BI Embedded.png"
+			},
+			{
+				"name": "Azure Analysis Services",
+				"ref": "https://docs.microsoft.com/en-us/azure/analysis-services/",
+				"icon": "Azure Analysis Services.png"
 		}],
 		"google": [{
 			"name": "Google Data Studio (Beta)",
