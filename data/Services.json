@@ -101,10 +101,16 @@
 			}
 		],
 		"oracle": [{
-			"name": "Oracle Cloud Infrastructure Compute",
-			"ref": "https://www.oracle.com/cloud/compute/",
-			"icon": "compute.png"
-		}],
+				"name": "OCI x86 Compute shapes",
+				"ref": "https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm",
+				"icon": "compute.png"
+			},
+			{
+				"name": "OCI ARM Ampere Compute shapes",
+				"ref": "https://docs.oracle.com/en-us/iaas/Content/Compute/References/arm.htm",
+				"icon": "compute.png"
+			}
+		],
 		"alibaba": [{
 			"name": "Alibaba ECS",
 			"ref": "https://www.alibabacloud.com/product/ecs",
@@ -237,10 +243,21 @@
 			"icon": "none.png"
 		}],
 		"oracle": [{
-			"name": "",
-			"ref": "",
-			"icon": ""
-		}],
+				"name": "GPU Compute Shapes - nVidia Tasla V100 and A100",
+				"ref": "https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm#baremetalshapes__bm-gpu",
+				"icon": "none.png"
+			},
+			{
+				"name": "HPC Compute Shapes",
+				"ref": "https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm#baremetalshapes__bm-hpc",
+				"icon": "none.png"
+			},
+			{
+				"name": "Cluster Networking for HPC",
+				"ref": "https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/managingclusternetworks.htm",
+				"icon": "none.png"
+			}
+		],
 		"alibaba": [{
 			"name": "",
 			"ref": "",
@@ -408,9 +425,9 @@
 			}
 		],
 		"oracle": [{
-			"name": "",
-			"ref": "",
-			"icon": ""
+			"name": "Oracle Functions",
+			"ref": "https://www.oracle.com/cloud/cloud-native/functions/",
+			"icon": "compute.png"
 		}],
 		"alibaba": [{
 				"name": "",
@@ -602,10 +619,21 @@
 			"icon": "auto-scaling.png"
 		}],
 		"oracle": [{
-			"name": "Auto Scaling",
-			"ref": "https://docs.oracle.com/en/cloud/paas/psmon/automatic-scaling.html",
-			"icon": "oracle.png"
-		}],
+				"name": "Auto Scaling for Instance Pools (Compute)",
+				"ref": "https://docs.oracle.com/en-us/iaas/Content/Compute/Tasks/autoscalinginstancepools.htm",
+				"icon": "none.png"
+			},
+			{
+				"name": "Auto Scaling for Autonomous Databases (Database)",
+				"ref": "https://docs.oracle.com/en-us/iaas/Content/Database/Concepts/adboverview.htm#cpuscaling",
+				"icon": "none.png"
+			},
+			{
+				"name": "Auto Scaling for Load Balancers (Networking)",
+				"ref": "https://docs.oracle.com/en-us/iaas/Content/Balance/Tasks/managingloadbalancer.htm",
+				"icon": "none.png"
+			}
+		],
 		"alibaba": [{
 			"name": "Auto Scaling",
 			"ref": "https://www.alibabacloud.com/product/auto-scaling",
@@ -1798,9 +1826,9 @@
 				}
 			],
 			"oracle": [{
-				"name": "",
-				"ref": "",
-				"icon": ""
+				"name": "VCN Peering",
+				"ref": "https://docs.oracle.com/en-us/iaas/Content/Network/Tasks/VCNpeering.htm",
+				"icon": "none.png"
 			}],
 			"alibaba": [{
 					"name": "",
@@ -2266,10 +2294,22 @@
 			}
 		],
 		"oracle": [{
+			"name": "Oracle DevOps Service (projects, pipelines, Artifacts)",
+			"ref": "https://docs.oracle.com/en-us/iaas/devops/using/home.htm",
+			"icon": "none.png"
+			},
+			{
+			"name": "Application Express Service (APEX)",
+			"ref": "https://apex.oracle.com/en/platform/apex-service/",
+			"icon": "none.png"
+			},
+			{
 			"name": "Oracle Visual Builder Studio",
 			"ref": "https://www.oracle.com/application-development/visual-builder-studio/",
 			"icon": "appbuilder.png"
-		}],
+			},
+
+		],
 		"alibaba": [{
 			"name": "",
 			"ref": "",
@@ -3034,9 +3074,9 @@
 			"icon": "none.png"
 		}],
 		"oracle": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+				"name": "Oracle Cloud Advisor",
+				"ref": "https://docs.oracle.com/en-us/iaas/Content/CloudAdvisor/home.htm",
+				"icon": "oracle.png"
 		}],
 		"alibaba": [{
 			"name": "",
@@ -3486,8 +3526,8 @@
 			"icon": "ibmcloud.png"
 		}],
 		"oracle": [{
-			"name": "",
-			"ref": "",
+			"name": "Unified Billing with Linked Tenancies",
+			"ref": "https://docs.oracle.com/en-us/iaas/Content/Billing/Concepts/unified_billing_overview.htm",
 			"icon": "none.png"
 		}],
 		"alibaba": [{
@@ -3529,7 +3569,13 @@
 			"name": "Oracle DDoS Protection",
 			"ref": "https://docs.oracle.com/en-us/iaas/Content/EdgeServices/overview.htm",
 			"icon": "none.png"
-		}],
+			},
+			{
+			"name": "Oracle Web Application Firewall - Bot Management",
+			"ref": "https://docs.oracle.com/en-us/iaas/Content/WAF/Tasks/botmanagement.htm",
+			"icon": "none.png"
+			}
+		],
 		"alibaba": [{
 			"name": "DDOS Pro and Basic",
 			"ref": "https://www.alibabacloud.com/product/ddos-pro",
@@ -3610,8 +3656,8 @@
 			"icon": "none.png"
 		}],
 		"oracle": [{
-			"name": "",
-			"ref": "",
+			"name": "Network Security Lists and Network Security Groups",
+			"ref": "https://docs.oracle.com/en-us/iaas/Content/Network/Concepts/waystosecure.htm",
 			"icon": "none.png"
 		}],
 		"alibaba": [{
@@ -3677,7 +3723,13 @@
 			"name": "Amazon Macie",
 			"ref": "https://aws.amazon.com/macie/",
 			"icon": "Arch_Amazon-Macie_64.png"
-		}],
+			},
+			{
+				"name": "Amazon Detective",
+				"ref": "https://aws.amazon.com/detective/",
+				"icon": "Arch_Amazon-Detective_64.png"
+			}
+		],
 		"azure": [{
 			"name": "",
 			"ref": "",
@@ -3694,49 +3746,9 @@
 			"icon": ""
 		}],
 		"oracle": [{
-			"name": "",
-			"ref": "",
-			"icon": ""
-		}],
-		"alibaba": [{
-			"name": "",
-			"ref": "",
-			"icon": ""
-		}]
-	},
-	{
-		"category": {
-			"name": "Security & Identity, Compliance",
-			"ref": ""
-		},
-		"service": {
-			"name": "Sensitive Data discovery and protection",
-			"ref": ""
-		},
-		"aws": [{
-			"name": "Amazon Detective",
-			"ref": "https://aws.amazon.com/detective/",
-			"icon": "Arch_Amazon-Detective_64.png"
-		}],
-		"azure": [{
-			"name": "",
-			"ref": "",
-			"icon": ""
-		}],
-		"google": [{
-			"name": "",
-			"ref": "",
-			"icon": ""
-		}],
-		"ibm": [{
-			"name": "",
-			"ref": "",
-			"icon": ""
-		}],
-		"oracle": [{
-			"name": "",
-			"ref": "",
-			"icon": ""
+			"name": "Data Safe",
+			"ref": "https://docs.oracle.com/en-us/iaas/data-safe/doc/data-discovery-overview.html",
+			"icon": "none.png"
 		}],
 		"alibaba": [{
 			"name": "",
@@ -4309,8 +4321,8 @@
 			"icon": "none.png"
 		}],
 		"alibaba": [{
-			"name": "",
-			"ref": "",
+			"name": "Oracle Language Service",
+			"ref": "https://docs.oracle.com/en-us/iaas/language/using/language.htm",
 			"icon": "none.png"
 		}]
 	},
@@ -4689,9 +4701,9 @@
 			"icon": ""
 		}],
 		"oracle": [{
-			"name": "",
-			"ref": "",
-			"icon": ""
+			"name": "Anomaly Detection Service",
+			"ref": "https://docs.oracle.com/en-us/iaas/anomaly/using/home.htm",
+			"icon": "none.png"
 		}],
 		"alibaba": [{
 			"name": "",
@@ -5787,8 +5799,8 @@
 			"icon": "none.png"
 		}],
 		"oracle": [{
-			"name": "",
-			"ref": "",
+			"name": "Oracle Document and Content Service",
+			"ref": "https://docs.oracle.com/en-us/iaas/content-management/index.html",
 			"icon": "none.png"
 		}],
 		"alibaba": [{
