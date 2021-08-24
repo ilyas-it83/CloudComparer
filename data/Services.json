@@ -9,9 +9,9 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "AWS Amplify",
+			"ref": "https://aws.amazon.com/amplify/hosting/",
+			"icon": "Arch_AWS-Amplify_64.png"
 		}],
 		"azure": [{
 			"name": "Azure shared App Services",
