@@ -1880,7 +1880,7 @@
 		},{
 			"name": "Azure Front Door",
 			"ref": "https://azure.microsoft.com/en-us/services/frontdoor/#overview",
-			"icon": "Azure Content Delivery Network (CDN).png"
+			"icon": "Azure Front Door.png"
 		}],
 		"google": [{
 			"name": "Cloud CDN",
