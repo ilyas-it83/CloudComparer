@@ -19,9 +19,9 @@
 			"icon": "Azure App Service - Web App (was Websites).png"
 		}],
 		"google": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "Firebase",
+			"ref": "https://firebase.google.com/docs/hosting",
+			"icon": "Cloud-Firebase.png"
 		}],
 		"ibm": [{
 			"name": "Web hosting services",
