@@ -425,6 +425,50 @@
 			"ref": ""
 		},
 		"service": {
+			"name": "Serverless container platform",
+			"ref": ""
+		},
+		"aws": [{
+				"name": "AWS App Runner",
+				"ref": "https://aws.amazon.com/apprunner/",
+				"icon": "Arch_AWS-AppRunner.png"
+			}
+		],
+		"azure": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}
+		],
+		"google": [{
+			"name": "Google Cloud Run",
+			"ref": "https://cloud.google.com/run",
+			"icon": "google-cloud-run.png"
+		}],
+		"ibm": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}
+		],
+		"oracle": [{
+			"name": "",
+			"ref": "",
+			"icon": ""
+		}],
+		"alibaba": [{
+				"name": "",
+				"ref": "",
+				"icon": ""
+			}
+		]
+	},
+	{
+		"category": {
+			"name": "Compute",
+			"ref": ""
+		},
+		"service": {
 			"name": "Micro Services App Development Platform",
 			"ref": ""
 		},
