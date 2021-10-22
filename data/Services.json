@@ -257,7 +257,7 @@
 			"ref": ""
 		},
 		"aws": [{
-			"name": "Amazon Elastic Container Registry",
+			"name": "Amazon Elastic Container Registry (ECR)",
 			"ref": "https://aws.amazon.com/ecr/",
 			"icon": "Arch_Amazon-Elastic-Container-Registry_64.png"
 		}],
