@@ -1260,7 +1260,7 @@
 				"icon": "Cloud-Datastore.png"
 			},
 			{
-				"name": "Cloud BigTable",
+				"name": "Cloud Bigtable",
 				"ref": "https://cloud.google.com/bigtable/",
 				"icon": "Cloud-Bigtable.png"
 			}
@@ -1328,7 +1328,7 @@
 			"icon": "Azure DocumentDB.png"
 		}],
 		"google": [{
-			"name": "Cloud BigTable",
+			"name": "Cloud Bigtable",
 			"ref": "https://cloud.google.com/bigtable/",
 			"icon": "Cloud-Bigtable.png"
 		}],
@@ -1468,9 +1468,9 @@
 			"icon": "Microsoft Azure.png"
 		}],
 		"google": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "Database Migration Service",
+			"ref": "https://cloud.google.com/database-migration",
+			"icon": "Generic-GCP.png"
 		}],
 		"ibm": [{
 			"name": "Lift CLI",
@@ -1522,10 +1522,19 @@
 			}
 		],
 		"google": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
-		}],
+				"name": "Migrate for Compute Engine",
+				"ref": "https://cloud.google.com/migrate/compute-engine",
+				"icon": "Generic-GCP.png"
+			},{
+				"name": "Migrate for Anthos",
+				"ref": "https://cloud.google.com/migrate/anthos",
+				"icon": "Generic-GCP.png"
+			},{
+				"name": "Application Migration",
+				"ref": "https://cloud.google.com/solutions/application-migration",
+				"icon": "Generic-GCP.png"
+			}
+	        ],
 		"ibm": [{
 			"name": "",
 			"ref": "",
@@ -1566,9 +1575,9 @@
 			"icon": "Microsoft Azure.png"
 		}],
 		"google": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "Storage Transfer Service",
+			"ref": "https://cloud.google.com/storage-transfer-service",
+			"icon": "Generic-GCP.png"
 		}],
 		"ibm": [{
 				"name": "Data Transfer Service",
@@ -1616,9 +1625,9 @@
 			"icon": "none.png"
 		}],
 		"google": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "Transfer Appliance",
+			"ref": "https://cloud.google.com/transfer-appliance/",
+			"icon": "Generic-GCP.png"
 		}],
 		"ibm": [{
 			"name": "Mass Data Migration Service",
@@ -1664,7 +1673,7 @@
 			"icon": "Microsoft Azure.png"
 		}],
 		"google": [{
-			"name": "Transfer Appliance (Beta)",
+			"name": "Transfer Appliance",
 			"ref": "https://cloud.google.com/transfer-appliance/",
 			"icon": "Generic-GCP.png"
 		}],
@@ -4096,10 +4105,15 @@
 			"icon": "Power BI Embedded.png"
 		}],
 		"google": [{
-			"name": "Google Data Studio (Beta)",
-			"ref": "https://cloud.google.com/data-studio/",
-			"icon": "Data-Studio.png"
-		}],
+				"name": "Google Data Studio",
+				"ref": "https://cloud.google.com/data-studio/",
+				"icon": "Data-Studio.png"
+			},{
+				"name": "Looker",
+				"ref": "https://looker.com/",
+				"icon": "none"
+			}
+		],
 		"ibm": [{
 			"name": "Watson studio",
 			"ref": "https://dataplatform.cloud.ibm.com/docs/content/?context=wdp",
@@ -4164,9 +4178,13 @@
 			}
 		],
 		"google": [{
-				"name": "Cloud DataPrep (Private Beta)",
+				"name": "Cloud DataPrep",
 				"ref": "https://cloud.google.com/dataprep/",
 				"icon": "Cloud-Dataprep.png"
+			},{
+				"name": "Cloud Data Fusion",
+				"ref": "https://cloud.google.com/data-fusion/",
+				"icon": "none"
 			},
 			{
 				"name": "Cloud Composer (Beta)",
@@ -4233,8 +4251,8 @@
 			"icon": "none.png"
 		}],
 		"google": [{
-			"name": "",
-			"ref": "",
+			"name": "Analytics Hub (Preview)",
+			"ref": "https://cloud.google.com/analytics-hub",
 			"icon": "none.png"
 		}],
 		"ibm": [{
@@ -4520,20 +4538,16 @@
 				"icon": "Azure Machine Learning.png"
 			}
 		],
-		"google": [{
-				"name": "Cloud DataLab",
-				"ref": "",
-				"icon": "Cloud-Datalab.png"
-			},
+		"google": [
 			{
-				"name": "Cloud AutoML (Alpha)",
+				"name": "Cloud AutoML",
 				"ref": "https://cloud.google.com/automl/",
-				"icon": "Cloud-Datalab.png"
+				"icon": "none"
 			},
 			{
-				"name": "Cloud Machine Learning Services",
-				"ref": "",
-				"icon": "Cloud-Machine-Learning.png"
+				"name": "Vertex AI",
+				"ref": "https://cloud.google.com/vertex-ai",
+				"icon": "none"
 			}
 		],
 		"ibm": [{
@@ -4587,8 +4601,8 @@
 			"icon": "none.png"
 		}],
 		"google": [{
-			"name": "",
-			"ref": "",
+			"name": "Vertex AI (TensorFlow, PyTorch, XGBoost, Scikit-Learn)",
+			"ref": "https://cloud.google.com/vertex-ai",
 			"icon": "none.png"
 		}],
 		"ibm": [{
@@ -4631,8 +4645,8 @@
 			"icon": "none.png"
 		}],
 		"google": [{
-			"name": "",
-			"ref": "",
+			"name": "Vertex AI Predictions",
+			"ref": "https://cloud.google.com/vertex-ai",
 			"icon": "none.png"
 		}],
 		"ibm": [{
@@ -4671,9 +4685,9 @@
 			"icon": ""
 		}],
 		"google": [{
-			"name": "",
-			"ref": "",
-			"icon": ""
+			"name": "Vertex Matching Engine",
+			"ref": "https://cloud.google.com/vertex-ai/docs/matching-engine",
+			"icon": "none"
 		}],
 		"ibm": [{
 			"name": "",
