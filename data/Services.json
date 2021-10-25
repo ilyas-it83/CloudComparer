@@ -326,11 +326,6 @@
 				"name": "Azure Kubernetes Service (AKS)",
 				"ref": "https://azure.microsoft.com/services/kubernetes-service/",
 				"icon": "Azure Kubernetes Service.png"
-			},
-			{
-				"name": "Azure Container Instances",
-				"ref": "https://azure.microsoft.com/en-in/services/container-instances/",
-				"icon": "Azure Container Service.png"
 			}
 		],
 		"google": [{
@@ -391,9 +386,9 @@
 			}
 		],
 		"azure": [{
-				"name": "",
-				"ref": "",
-				"icon": ""
+				"name": "Azure Container Instances",
+				"ref": "https://azure.microsoft.com/en-in/services/container-instances/",
+				"icon": "Azure Container Service.png"
 			}
 		],
 		"google": [{
