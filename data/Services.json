@@ -331,6 +331,11 @@
 				"name": "Azure Container Instances",
 				"ref": "https://azure.microsoft.com/en-in/services/container-instances/",
 				"icon": "Azure Container Service.png"
+			},
+			{
+				"name": "Azure Red Hat OpenShift",
+				"ref": "https://azure.microsoft.com/services/openshift/",
+				"icon": "Microsoft Azure.png"
 			}
 		],
 		"google": [{
