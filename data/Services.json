@@ -937,6 +937,11 @@
 			"name": "Azure File Storage",
 			"ref": "https://azure.microsoft.com/en-in/services/storage/files/",
 			"icon": "Azure Storage - Files.png"
+		},
+	    {
+			"name": "Azure NetApp Files",
+			"ref": "https://azure.microsoft.com/en-gb/services/netapp/",
+			"icon": "Azure NetApp Files.png"
 		}],
 		"google": [{
 			"name": "File Store",
@@ -1045,6 +1050,11 @@
 			"name": "Azure Storsimple",
 			"ref": "https://azure.microsoft.com/en-in/services/storsimple/",
 			"icon": "Azure StorSimple.png"
+		},
+		{
+			"name": "Data Box Gateway",
+			"ref": "https://azure.microsoft.com/en-us/services/databox/",
+			"icon": "Azure Data Box Gateway.png"
 		}],
 		"google": [{
 			"name": "",
