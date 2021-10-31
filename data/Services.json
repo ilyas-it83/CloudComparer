@@ -963,11 +963,6 @@
 			"ref": "https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-about#getting-started-with-file-storage",
 			"icon": "ibmcloud.png"
 		}],
-		"oracle": [{
-			"name": "Oracle Cloud Infrastructure File Storage",
-			"ref": "https://www.oracle.com/cloud/storage/file-storage.html",
-			"icon": "storage.png"
-		}],
 		"alibaba": [{
 			"name": "NAS File Storage",
 			"ref": "https://www.alibabacloud.com/product/nas",
