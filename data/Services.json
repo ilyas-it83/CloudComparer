@@ -440,9 +440,9 @@
 			}
 		],
 		"azure": [{
-				"name": "",
-				"ref": "",
-				"icon": ""
+				"name": "Azure Container Apps",
+				"ref": "https://azure.microsoft.com/en-us/services/container-apps/",
+				"icon": "Azure Container Apps.png"
 			}
 		],
 		"google": [{
