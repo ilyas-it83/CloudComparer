@@ -1,0 +1,3510 @@
+---
+services:
+  - category: Compute
+    categoryurl:
+    subcategory: Shared Web hosting
+    subcategoryurl:
+    service:
+      - aws:
+          - name:
+            ref:
+            icon: none.png
+      - azure:
+          - name: Azure shared App Services
+            ref: https://azure.microsoft.com/en-in/services/app-service/web/
+            icon: Azure App Service - Web App (was Websites).png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Web hosting services
+            ref: https://www.ibm.com/cloud/websites
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: Web Hosting
+            ref: https://www.alibabacloud.com/product/hosting
+            icon: ecs.png
+          - name: Simple Application Server
+            ref: https://www.alibabacloud.com/product/swas
+            icon: ecs.png
+      - huawei:
+          - name: Sample
+            ref: https://sample
+            icon: none.png
+  - category: Compute
+    categoryurl:
+    subcategory: Virtual Server
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon EC2
+            ref: https://aws.amazon.com/ec2/
+            icon: Compute_AmazonEC2.png
+      - azure:
+          - name: Azure Virtual Machine
+            ref: https://docs.microsoft.com/en-us/azure/virtual-machines/
+            icon: Azure Virtual Machine.png
+      - google:
+          - name: Compute Engine
+            ref: https://cloud.google.com/compute/
+            icon: Compute-Engine.png
+      - ibm:
+          - name: Classic Virtual Server
+            ref: https://cloud.ibm.com/docs/vsi?topic=virtual-servers-about-public-virtual-servers
+            icon: virtual-server.png
+          - name: Virtual Server for VPC
+            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
+            icon: virtual-server.png
+          - name: Power Systems Virtual Servers
+            ref: https://cloud.ibm.com/docs/infrastructure/power-iaas?topic=power-iaas-about-power-virtual-server
+            icon: virtual-server.png
+          - name: VMware Shared Server Instance
+            ref: https://cloud.ibm.com/infrastructure/vmware-solutions/console
+            icon: virtual-server.png
+          - name: VMware Dedicated vCenter Service
+            ref: https://cloud.ibm.com/infrastructure/vmware-solutions/console
+            icon: virtual-server.png
+          - name: Hyper Protect Virtual Server
+            ref: https://cloud.ibm.com/catalog/services/hyper-protect-virtual-server
+            icon: virtual-server.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Compute
+            ref: https://www.oracle.com/cloud/compute/
+            icon: compute.png
+      - alibaba:
+          - name: Alibaba ECS
+            ref: https://www.alibabacloud.com/product/ecs
+            icon: ecs.png
+  - category: Compute
+    categoryurl:
+    subcategory: Bare Metal Server
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon EC2 Bare Metal Instance
+            ref: https://aws.amazon.com/blogs/aws/category/compute/amazon-ec2-bare-metal/
+            icon: aws.png
+      - azure:
+          - name: Azure Bare Metal Servers (Large Instance Only for SAP Hana)
+            ref: https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/hana-overview-architecture
+            icon: Azure Virtual Machine.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Bare Metal Servers
+            ref: https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-about-bm
+            icon: virtual-server.png
+      - oracle:
+          - name: Oracle Bare Metal Servers
+            ref: https://www.oracle.com/cloud/compute/bare-metal.html
+            icon: compute.png
+      - alibaba:
+          - name: ECS Bare Metal Instance
+            ref: https://www.alibabacloud.com/product/ebm
+            icon: ecs.png
+  - category: Compute
+    categoryurl:
+    subcategory: Virtual Dedicated Host
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon EC2 Dedicated Hosts
+            ref: https://aws.amazon.com/ec2/dedicated-hosts/
+            icon: aws.png
+      - azure:
+          - name: Azure Dedicated Host
+            ref: https://azure.microsoft.com/en-in/services/virtual-machines/dedicated-host/
+            icon: none.png
+      - google:
+          - name: Sole Tenant Node (Beta)
+            ref: https://cloud.google.com/compute/docs/nodes/
+            icon: Compute-Engine.png
+      - ibm:
+          - name: Dedicated Virtual Servers Infrastructure (VSi)
+            ref: https://cloud.ibm.com/docs/vsi?topic=virtual-servers-dedicated-virtual-servers
+            icon: virtual-server.png
+      - oracle:
+          - name: Dedicated Virtual Machine Hosts
+            ref: https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm
+            icon: compute.png
+      - alibaba:
+          - name: Dedicated Host
+            ref: https://www.alibabacloud.com/product/ddh
+            icon: alibaba.png
+  - category: Compute
+    categoryurl:
+    subcategory: Container Registration Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Elastic Container Registry
+            ref: https://aws.amazon.com/ecr/
+            icon: aws.png
+      - azure:
+          - name: "Azure Container Registry "
+            ref: https://azure.microsoft.com/en-in/services/container-registry/
+            icon: Microsoft Azure.png
+      - google:
+          - name: Container Registry
+            ref: https://cloud.google.com/container-registry/
+            icon: Container-Registry.png
+      - ibm:
+          - name: IBM Cloud Container Registry
+            ref: https://www.ibm.com/cloud/container-registry
+            icon: registry_icon.svg
+      - oracle:
+          - name: Oracle Cloud Infrastructure Registry
+            ref: https://cloud.oracle.com/containers/registry
+            icon: compute.png
+      - alibaba:
+          - name: Container Registry
+            ref: https://www.alibabacloud.com/product/container-registry
+            icon: ContainerServi.png
+  - category: Compute
+    categoryurl:
+    subcategory: Container Management Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon EC2 Container Service
+            ref: https://aws.amazon.com/ecs/
+            icon: Compute_AmazonECS.png
+          - name: Amazon Elastic Container Service for Kubernetes (EKS)
+            ref: https://aws.amazon.com/eks/
+            icon: Compute_AmazonECS.png
+      - azure:
+          - name: Azure Kubernetes Service (AKS)
+            ref: https://azure.microsoft.com/services/kubernetes-service/
+            icon: Azure Kubernetes Service.png
+          - name: Azure Container Instances
+            ref: https://azure.microsoft.com/en-in/services/container-instances/
+            icon: Azure Container Service.png
+      - google:
+          - name: Kubernetes Engine
+            ref: https://cloud.google.com/kubernetes-engine/
+            icon: Container-Engine.png
+      - ibm:
+          - name: IBM Cloud Kubernetes Service
+            ref: https://www.ibm.com/cloud/container-service
+            icon: containerServiceIcon.svg
+          - name: Redhat Openshift Kubernetes Service
+            ref: https://cloud.ibm.com/kubernetes/catalog/create?platformType=openshift
+            icon: containerServiceIcon.svg
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
+      - oracle:
+          - name: Container Engine for Kubernetes (OKE)
+            ref: https://cloud.oracle.com/containers/kubernetes-engine
+            icon: oracle.png
+      - alibaba:
+          - name: Container Service
+            ref: https://www.alibabacloud.com/product/container-service
+            icon: ContainerServi.png
+          - name: Container Service for Kubernetes
+            ref: https://www.alibabacloud.com/product/kubernetes
+            icon: ContainerServi.png
+  - category: Compute
+    categoryurl:
+    subcategory: Micro Services App Development Platform
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Lambda
+            ref: https://aws.amazon.com/lambda/
+            icon: Compute_AWSLambda.png
+      - azure:
+          - name: Azure Service Fabric
+            ref: https://azure.microsoft.com/en-in/services/service-fabric/
+            icon: Azure Service Fabric.png
+          - name: Azure Functions
+            ref: https://azure.microsoft.com/en-in/services/functions/
+            icon: Azure Functions.png
+          - name: Event Grid
+            ref: https://azure.microsoft.com/en-us/services/event-grid/
+            icon: Azure Event Grid.png
+      - google:
+          - name: Google Cloud Functions
+            ref: https://cloud.google.com/functions/
+            icon: Cloud-Functions.png
+      - ibm:
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
+          - name: IBM Cloud Functions
+            ref: https://www.ibm.com/cloud/functions
+            icon: ibm-cloud-functions.png
+      - oracle:
+          - name: Oracle Functions
+            ref: https://www.oracle.com/cloud/cloud-native/functions/
+            icon: compute.png
+      - alibaba:
+          - name: Function Compute
+            ref: https://www.alibabacloud.com/product/function-compute
+            icon: ecs.png
+  - category: Compute
+    categoryurl:
+    subcategory: Virtual Private Servers
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Lightsail
+            ref: https://amazonlightsail.com/
+            icon: aws.png
+      - azure:
+          - name: Azure App Service Environment
+            ref: https://docs.microsoft.com/en-us/azure/app-service-web/app-service-app-service-environment-intro
+            icon: Azure App Service - Web App (was Websites).png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Classic Virtual Server
+            ref: https://cloud.ibm.com/docs/vsi?topic=virtual-servers-about-public-virtual-servers
+            icon: virtual-server.png
+          - name: Virtual Server for VPC
+            ref: https://cloud.ibm.com/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started
+            icon: virtual-server.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: Simple Application Server
+            ref: https://www.alibabacloud.com/product/swas#product-details
+            icon: alibaba.png
+
+  - category: Compute
+    categoryurl:
+    subcategory: Auto Scaling
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Auto Scaling
+            ref: https://aws.amazon.com/autoscaling/
+            icon: aws.png
+      - azure:
+          - name: Azure Autoscale
+            ref: https://azure.microsoft.com/en-us/features/autoscale/
+            icon: Azure App Service - Web App (was Websites).png
+          - name: Virtual Machine Scale Sets
+            ref: https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview
+            icon: Azure VM Scale Set.png
+      - google:
+          - name: Auto Scaler
+            ref: https://cloud.google.com/compute/docs/autoscaler/
+            icon: Blue-Hexagon.png
+      - ibm:
+          - name: Auto Scaling
+            ref: https://www.ibm.com/cloud/auto-scaling
+            icon: auto-scaling.png
+      - oracle:
+          - name: Auto Scaling
+            ref: https://docs.oracle.com/en/cloud/paas/psmon/automatic-scaling.html
+            icon: oracle.png
+      - alibaba:
+          - name: Auto Scaling
+            ref: https://www.alibabacloud.com/product/auto-scaling
+            icon: alibaba.png
+  - category: Compute
+    categoryurl:
+    subcategory: Batch Jobs
+    subcategoryurl: "https://en.wikipedia.org/wiki/Batch_processing"
+    service:
+      - aws:
+          - name: AWS Batch
+            ref: https://aws.amazon.com/batch/
+            icon: aws.png
+      - azure:
+          - name: Azure Batch
+            ref: https://azure.microsoft.com/en-in/services/batch/
+            icon: Azure Batch.png
+      - google:
+          - name: Preemptible VMs
+            ref: https://cloud.google.com/preemptible-vms/
+            icon: Compute-Engine.png
+      - ibm:
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
+          - name: IBM Cloud Functions
+            ref: https://www.ibm.com/cloud/functions
+            icon: ibm-cloud-functions.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: Batch Compute
+            ref: https://www.alibabacloud.com/product/batch-compute
+            icon: alibaba.png
+  - category: Compute
+    categoryurl:
+    subcategory: App Development/ Deployment (Java /.Net /PHP /Python)
+    subcategoryurl: https://en.wikipedia.org/wiki/Platform_as_a_service
+    service:
+      - aws:
+          - name: AWS Elastic Beanstalk
+            ref: https://aws.amazon.com/documentation/elastic-beanstalk/
+            icon: Compute_AWSElasticBeanstalk_application.png
+      - azure:
+          - name: Azure Web Apps
+            ref: https://azure.microsoft.com/en-in/services/app-service/web/
+            icon: Azure App Service - Web App (was Websites).png
+          - name: Azure Cloud Services
+            ref: https://azure.microsoft.com/en-in/services/cloud-services/
+            icon: Azure Cloud Services - Web roles.png
+      - google:
+          - name: Google App engine
+            ref: https://cloud.google.com/appengine/
+            icon: App-Engine.png
+      - ibm:
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
+          - name: Cloud Foundry Apps
+            ref: https://www.ibm.com/cloud/cloud-foundry
+            icon: cloud-foundry-apps.png
+      - oracle:
+          - name: Oracle Application Container Cloud Service
+            ref: https://docs.oracle.com/en/cloud/paas/app-container-cloud/index.html
+            icon: applicationcontainer.png
+          - name: Java Cloud Service
+            ref: https://cloud.oracle.com/en_US/java
+            icon: applicationcontainer.png
+      - alibaba:
+          - name: Enterprise Distributed Application Service
+            ref: https://www.alibabacloud.com/product/edas
+            icon: alibaba.png
+  - category: Compute
+    categoryurl:
+    subcategory: Event Driven Computing
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Lambda
+            ref:
+            icon: Compute_AWSLambda.png
+      - azure:
+          - name: Azure Functions
+            ref: https://azure.microsoft.com/en-in/services/functions/
+            icon: Azure Functions.png
+          - name: Event Grid
+            ref: https://azure.microsoft.com/en-us/services/event-grid/
+            icon: Azure Event Grid.png
+      - google:
+          - name: Cloud Functions
+            ref: https://cloud.google.com/functions/
+            icon: Cloud-Functions.png
+      - ibm:
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
+          - name: IBM Cloud Functions
+            ref: https://www.ibm.com/cloud/functions
+            icon: ibm-cloud-functions.png
+      - oracle:
+          - name: Oracle Functions
+            ref: https://www.oracle.com/cloud-native/functions/
+            icon: compute.png
+      - alibaba:
+          - name: Function Compute
+            ref: https://www.alibabacloud.com/product/function-compute
+            icon: ecs.png
+  - category: Storage
+    categoryurl:
+    subcategory: Object Storage
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Simple Storage Service (S3)
+            ref: https://aws.amazon.com/documentation/s3/
+            icon: Storage-Content-Delivery_AmazonS3_bucket.png
+      - azure:
+          - name: Azure Blob Storage
+            ref: https://azure.microsoft.com/en-in/services/storage/blobs/
+            icon: Azure Storage - Blob.png
+      - google:
+          - name: Cloud Storage
+            ref: https://cloud.google.com/storage/
+            icon: Cloud-Storage.png
+      - ibm:
+          - name: Cloud Object Storage
+            ref: https://cloud.ibm.com/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Object Storage
+            ref: https://www.oracle.com/cloud/storage/object-storage.html
+            icon: storage.png
+      - alibaba:
+          - name: Object Storage Service
+            ref: https://www.alibabacloud.com/product/oss
+            icon: OSS.png
+  - category: Storage
+    categoryurl:
+    subcategory: Virtual Machine Disk Storage
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Elastic Block Storage (EBS)
+            ref: https://aws.amazon.com/ebs/
+            icon: Storage-Content-Delivery_AmazonEBS.png
+      - azure:
+          - name: Azure Page Blobs / Premium Storage
+            ref: https://azure.microsoft.com/en-in/services/storage/disks/
+            icon: VHD data disk.png
+          - name: Managed Disks
+            ref: https://azure.microsoft.com/en-us/services/managed-disks/
+            icon: VHD data disk.png
+      - google:
+          - name: Persistent Disk
+            ref: https://cloud.google.com/persistent-disk/
+            icon: Persistent-Disk.png
+      - ibm:
+          - name: Block Storage
+            ref: https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-About#getting-started-with-block-storage
+            icon: ibmcloud.png
+          - name: Block Storage for VPC
+            ref: https://cloud.ibm.com/docs/vpc-on-classic-block-storage?topic=vpc-on-classic-block-storage-getting-started
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Block Volumes
+            ref: https://www.oracle.com/cloud/storage/block-volumes.html
+            icon: storage.png
+      - alibaba:
+          - name: Block Storage
+            ref:
+            icon: OSS.png
+  - category: Storage
+    categoryurl:
+    subcategory: File Storage (SMB Compatible)
+    subcategoryurl: https://en.wikipedia.org/wiki/Network-attached_storage
+    service:
+      - aws:
+          - name: Amazon Elastic File System (EFS)
+            ref: https://aws.amazon.com/efs/pricing/
+            icon: Storage-Content-Delivery_AmazonEFS.png
+      - azure:
+          - name: Azure File Storage
+            ref: https://azure.microsoft.com/en-in/services/storage/files/
+            icon: Azure Storage - Files.png
+      - google:
+          - name: File Store
+            ref: http://cloud.google.com/filestore
+            icon: Persistent-Disk.png
+      - ibm:
+          - name: File Storage
+            ref: https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-about#getting-started-with-file-storage
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure File Storage
+            ref: https://www.oracle.com/cloud/storage/file-storage.html
+            icon: storage.png
+      - alibaba:
+          - name: NAS File Storage
+            ref: https://www.alibabacloud.com/product/nas
+            icon: nas.png
+  - category: Storage
+    categoryurl:
+    subcategory: Long Term Cold Storage
+    subcategoryurl: https://en.wikipedia.org/wiki/Platform_as_a_service
+    service:
+      - aws:
+          - name: Amazon Glacier
+            ref: https://aws.amazon.com/glacier/
+            icon: Storage-Content-Delivery_AmazonGlacier.png
+      - azure:
+          - name: Azure Archive Storage
+            ref: https://azure.microsoft.com/en-us/services/storage/archive/
+            icon: Azure Storage.png
+          - name: Azure Cool Storage
+            ref: https://azure.microsoft.com/en-in/pricing/details/storage/blobs/
+            icon: Azure Storage.png
+      - google:
+          - name: Cloud Storage
+            ref: https://cloud.google.com/storage/
+            icon: Cloud-Storage.png
+          - name: Archival Storage (NEARLINE & COLDLINE)
+            ref: https://cloud.google.com/storage/archival/
+            icon: Cloud-Storage.png
+      - ibm:
+          - name: Object Storage-ColdVault
+            ref: https://www.ibm.com/cloud/object-storage
+            icon: ibmcloud.png
+          - name: Archive
+            ref: https://cloud.ibm.com/docs/infrastructure/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-archiving-data
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Archive Storage
+            ref: https://www.oracle.com/cloud/storage/archive-storage.html
+            icon: storage.png
+          - name: Oracle Cloud Object Storage Infrequent Access Tier
+            ref: https://docs.oracle.com/en-us/iaas/Content/Object/Concepts/understandingstoragetiers.htm
+            icon: storage.png
+      - alibaba:
+          - name: Object Storage Archive
+            ref: https://www.alibabacloud.com/product/oss
+            icon: OSS.png
+  - category: Storage
+    categoryurl:
+    subcategory: Hybrid Storage/Storage Gateway
+    subcategoryurl: https://en.wikipedia.org/wiki/Cloud_storage_gateway
+    service:
+      - aws:
+          - name: AWS Storage Gateway
+            ref: https://aws.amazon.com/storagegateway/details/
+            icon: Storage-Content-Delivery_AWSStorageGateway.png
+      - azure:
+          - name: Azure Storsimple
+            ref: https://azure.microsoft.com/en-in/services/storsimple/
+            icon: Azure StorSimple.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Storage Gateway
+            ref: https://www.oracle.com/cloud/storage/storage-gateway.html
+            icon: storage.png
+      - alibaba:
+          - name: Hybrid Cloud Storage Array
+            ref: https://www.alibabacloud.com/product/storage-array
+            icon: alibaba.png
+
+  - category: Database
+    categoryurl: https://en.wikipedia.org/wiki/Database
+    subcategory: Relational Database Management Service
+    subcategoryurl: https://en.wikipedia.org/wiki/Relational_database_management_system
+    service:
+      - aws:
+          - name: Amazon Aurora
+            ref: https://aws.amazon.com/rds/aurora/details/
+            icon: aws.png
+          - name: Amazon RDS
+            ref: https://aws.amazon.com/rds/
+            icon: Database_AmazonRDS.png
+      - azure:
+          - name: Azure SQL Database
+            ref: https://azure.microsoft.com/en-in/services/sql-database/
+            icon: Azure SQL Database.png
+          - name: SQL Server Stretch Database
+            ref: https://azure.microsoft.com/en-us/services/sql-server-stretch-database/
+            icon: Azure SQL Database.png
+          - name: Azure Database for MySQL
+            ref: https://azure.microsoft.com/en-us/services/mysql/
+            icon: Azure SQL Database.png
+          - name: Azure Database for PostgresSQL
+            ref: https://azure.microsoft.com/en-us/services/postgresql/
+            icon: Azure SQL Database.png
+          - name: Azure SQL Database Edge
+            ref: https://azure.microsoft.com/en-in/services/sql-database-edge/
+            icon: Azure SQL Database.png
+      - google:
+          - name: Cloud SQL
+            ref: https://cloud.google.com/sql/
+            icon: Cloud-SQL.png
+          - name: Cloud Spanner
+            ref: https://cloud.google.com/spanner/
+            icon: Cloud-Spanner.png
+      - ibm:
+          - name: Db2
+            ref: https://cloud.ibm.com/catalog/services/db2
+            icon: ibmcloud.png
+          - name: Db2 Hosted
+            ref: https://cloud.ibm.com/catalog/services/db2-hosted
+            icon: ibmcloud.png
+          - name: Informix
+            ref: https://cloud.ibm.com/catalog/services/informix
+            icon: ibmcloud.png
+          - name: Databases for PostgreSQL
+            ref: https://cloud.ibm.com/catalog/services/databases-for-postgresql
+            icon: ibmcloud.png
+          - name: Compose for MySQL(Beta)
+            ref: https://cloud.ibm.com/catalog/services/compose-for-mysql
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Database Cloud Service - Virtual Machine
+            ref: https://www.oracle.com/database/vm-cloud.html
+            icon: database.png
+          - name: Oracle Database Cloud Service - Bare Metal
+            ref: https://www.oracle.com/database/bare-metal-cloud.html
+            icon: database.png
+          - name: Oracle Exadata Cloud Service
+            ref: https://www.oracle.com/engineered-systems/exadata/cloud-service/
+            icon: database.png
+          - name: Oracle Autonomous Data Warehouse
+            ref: https://www.oracle.com/autonomous-database/autonomous-data-warehouse/
+            icon: database.png
+          - name: Oracle Autonomous Transaction Processing
+            ref: https://www.oracle.com/autonomous-database/autonomous-transaction-processing/
+            icon: database.png
+          - name: MySQL Database Service
+            ref: https://www.oracle.com/mysql/
+            icon: database.png
+      - alibaba:
+          - name: ApsaraDB for RDS MYSQL
+            ref: https://www.alibabacloud.com/product/apsaradb-for-rds/
+            icon: rds.png
+          - name: ApsaraDB for RDS SQL Server
+            ref: https://www.alibabacloud.com/product/apsaradb-for-rds/
+            icon: rds.png
+          - name: ApsaraDB for RDS PostgreSQL
+            ref: https://www.alibabacloud.com/product/apsaradb-for-rds/
+            icon: rds.png
+          - name: "Distributed Relational Database Service (DRDS) "
+            ref: https://www.alibabacloud.com/product/drds?spm=a3c0i.11270126.675768.dnavproductsd7.6c8668dcRLNbeB
+            icon: rds.png
+  - category: Database
+    categoryurl: https://en.wikipedia.org/wiki/NoSQL
+    subcategory: Non Relational Database Management Service
+    subcategoryurl: https://en.wikipedia.org/wiki/NoSQL
+    service:
+      - aws:
+          - name: Amazon DynamoDB
+            ref: https://aws.amazon.com/dynamodb/
+            icon: Database_AmazonDynamoDB.png
+          - name: Amazon DocumentDB (with MongoDB compatibility)
+            ref: https://aws.amazon.com/documentdb/
+            icon:
+          - name: Amazon DynamoDB Accelerator (DAX)
+            ref: https://aws.amazon.com/dynamodb/dax/
+            icon: Database_AmazonDynamoDB.png
+          - name: Amazon Neptune
+            ref: https://aws.amazon.com/neptune/
+            icon: aws.png
+      - azure:
+          - name: Azure CosmosDB
+            ref: https://docs.microsoft.com/en-us/azure/cosmos-db/
+            icon: Azure DocumentDB.png
+          - name: Table Storage
+            ref: https://azure.microsoft.com/en-in/services/storage/tables/
+            icon: Azure Storage - Table.png
+          - name: Azure Time Series Insights
+            ref: https://azure.microsoft.com/en-us/services/time-series-insights/
+            icon: Azure DocumentDB.png
+      - google:
+          - name: Cloud Datastore
+            ref: https://cloud.google.com/datastore/
+            icon: Cloud-Datastore.png
+          - name: Cloud BigTable
+            ref: https://cloud.google.com/bigtable/
+            icon: Cloud-Bigtable.png
+      - ibm:
+          - name: Cloudant NoSQL DB
+            ref: https://cloud.ibm.com/docs/services/Cloudant?topic=cloudant-overview
+            icon: ibmcloud.png
+          - name: Compose for JanusGraph
+            ref: https://cloud.ibm.com/docs/services/ComposeForJanusGraph?topic=compose-for-janusgraph-about-compose-for-janusgraph
+            icon: ibmcloud.png
+          - name: Databases for MongoDB
+            ref: https://cloud.ibm.com/catalog/services/databases-for-mongodb
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle NoSQL Database Cloud Service
+            ref: https://www.oracle.com/database/nosql-cloud.html
+            icon: NoSQL.png
+          - name: Oracle Autonomous JSON Database
+            ref: https://www.oracle.com/autonomous-database/autonomous-json-database/
+            icon: database.png
+      - alibaba:
+          - name: Apsaradb for Mongodb
+            ref: https://www.alibabacloud.com/product/apsaradb-for-mongodb
+            icon: rds.png
+          - name: Table Store
+            ref: https://www.alibabacloud.com/product/table-store
+            icon: rds.png
+
+  - category: Database
+    categoryurl:
+    subcategory: Timeseries Database
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon DynamoDB
+            ref: https://aws.amazon.com/dynamodb/
+            icon: Database_AmazonDynamoDB.png
+      - azure:
+          - name: Azure Time Series Insights
+            ref: https://azure.microsoft.com/en-us/services/time-series-insights/
+            icon: Azure DocumentDB.png
+      - google:
+          - name: Cloud BigTable
+            ref: https://cloud.google.com/bigtable/
+            icon: Cloud-Bigtable.png
+      - ibm:
+          - name: Informix
+            ref: https://www.ibm.com/analytics/informix
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: HiTSDB (High-Performance Time Series Database)
+            ref: https://www.alibabacloud.com/product/hitsdb?spm=a3c0i.11270126.675768.dnavproductsd8.6c8668dcRLNbeB
+            icon: alibaba.png
+          - name: Time Series Database for InfluxDB
+            ref: https://www.alibabacloud.com/product/hitsdb_influxdb
+            icon: alibaba.png
+  - category: Database
+    categoryurl:
+    subcategory: In-Memory Data Store
+    subcategoryurl: https://en.wikipedia.org/wiki/In-memory_database
+    service:
+      - aws:
+          - name: Amazon ElastiCache
+            ref: https://aws.amazon.com/elasticache/
+            icon: Database_AmazonElasticCache.png
+      - azure:
+          - name: Azure RedisCache
+            ref: https://azure.microsoft.com/en-in/services/cache/
+            icon: Azure Cache including Redis.png
+      - google:
+          - name: Cloud MemoryStore (Beta)
+            ref: https://cloud.google.com/memorystore/
+            icon: Blue-Hexagon.png
+      - ibm:
+          - name: Databases for Redis
+            ref: https://cloud.ibm.com/catalog/services/databases-for-redis
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: ApsaraDB for Redis
+            ref: https://www.alibabacloud.com/product/apsaradb-for-redis
+            icon: redis.png
+  - category: Database
+    categoryurl: https://en.wikipedia.org/wiki/Data_warehouse
+    subcategory: Data Warehousing
+    subcategoryurl: https://en.wikipedia.org/wiki/Data_warehouse
+    service:
+      - aws:
+          - name: Amazon Redshift
+            ref: https://aws.amazon.com/redshift/
+            icon: Database_AmazonRedshift.png
+      - azure:
+          - name: Azure Synapse Analytics
+            ref: https://azure.microsoft.com/en-in/services/synapse-analytics/
+            icon: Azure Data Warehouse.png
+      - google:
+          - name: BigQuery
+            ref: https://cloud.google.com/bigquery/
+            icon: BigQuery.png
+      - ibm:
+          - name: Db2 Warehouse on Cloud
+            ref: https://cloud.ibm.com/docs/services/Db2whc?topic=Db2whc-about
+            icon: ibmcloud.png
+      - oracle:
+          - name: Exadata
+            ref: http://www.oracle.com/us/corporate/features/exadata-service/index.html
+            icon: database.png
+          - name: Autonomous Data Warehouse Cloud
+            ref: https://cloud.oracle.com/en_US/datawarehouse/features
+            icon: database.png
+      - alibaba:
+          - name: Alibaba MaxCompute ODPS
+            ref: https://www.alibabacloud.com/product/maxcompute
+            icon: MaxCompute.png
+  - category: Migration Services
+    categoryurl:
+    subcategory: Database Migration Services
+    subcategoryurl: https://en.wikipedia.org/wiki/Data_migration
+    service:
+      - aws:
+          - name: AWS Database Migration Service
+            ref: https://aws.amazon.com/dms/
+            icon: Database_AWSDatabaseMigrationService.png
+      - azure:
+          - name: Azure Database Migration Service (Preview)
+            ref: https://azure.microsoft.com/en-in/blog/azure-database-migration-service-announcement-at-build/
+            icon: Microsoft Azure.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Lift CLI
+            ref: https://www.lift-cli.cloud.ibm.com/#docs
+            icon: ibmcloud.png
+      - oracle:
+          - name: Migrate to the Cloud
+            ref: https://www.oracle.com/database/migration-to-cloud.html
+            icon: storage.png
+      - alibaba:
+          - name: Data Transmission Service
+            ref: https://www.alibabacloud.com/product/data-transmission-service
+            icon: dts.png
+  - category: Migration Services
+    categoryurl:
+    subcategory: Server Migration Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Server Migration Service
+            ref: https://aws.amazon.com/server-migration-service/
+            icon: aws.png
+      - azure:
+          - name: Site Recovery
+            ref: https://docs.microsoft.com/azure/site-recovery/site-recovery-migrate-to-azure
+            icon: Azure Site Recovery.png
+          - name: Azure Websites Migration Assistant
+            ref: https://azure.microsoft.com/en-us/downloads/migration-assistant/
+            icon: Microsoft Azure.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: Cloud Migration Tool
+            ref: https://www.alibabacloud.com/help/doc-detail/62394.htm
+            icon: ecs.png
+  - category: Migration Services
+    categoryurl:
+    subcategory: Small Scale Data Transfer Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Import/Export
+            ref: https://aws.amazon.com/documentation/elastic-beanstalk/
+            icon: Storage-Content-Delivery_AWSImportExportSnowball.png
+      - azure:
+          - name: Azure Import/Export
+            ref: https://azure.microsoft.com/en-in/pricing/details/storage-import-export/
+            icon: Microsoft Azure.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Data Transfer Service
+            ref: https://cloud.ibm.com/docs/infrastructure/DataTransferService?topic=DataTransferService-about
+            icon: ibmcloud.png
+          - name: Aspera High-speed Transfer
+            ref: https://cloud.ibm.com/docs/services/cloud-object-storage?topic=cloud-object-storage-aspera
+            icon: ibmcloud.png
+      - oracle:
+          - name: Data Transfer Services - Hard Disk Import
+            ref: https://www.oracle.com/cloud/storage/data-transfer.html
+            icon: storage.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Migration Services
+    categoryurl:
+    subcategory: Large Scale Data Transfer Solution (Petabyte Scale)
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Snowball
+            ref: https://aws.amazon.com/snowball/
+            icon: Storage-Content-Delivery_AWSImportExportSnowball.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Mass Data Migration Service
+            ref: https://cloud.ibm.com/docs/infrastructure/mass-data-migration?topic=mass-data-migration-about
+            icon: ibmcloud.png
+      - oracle:
+          - name: Data Transfer Services - Storage applicance import
+            ref: https://www.oracle.com/cloud/storage/data-transfer.html
+            icon: storage.png
+      - alibaba:
+          - name: Data Transport
+            ref: https://www.alibabacloud.com/product/data-transport
+            icon: alibaba.png
+  - category: Migration Services
+    categoryurl:
+    subcategory: Large Scale Data Transfer Solution (Terabyte Scale)
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Snowball Edge
+            ref: https://aws.amazon.com/snowball-edge/
+            icon: Storage-Content-Delivery_AWSImportExportSnowball.png
+      - azure:
+          - name: Azure Data Box (Preview)
+            ref: https://azure.microsoft.com/en-us/services/storage/databox/
+            icon: Microsoft Azure.png
+      - google:
+          - name: Transfer Appliance (Beta)
+            ref: https://cloud.google.com/transfer-appliance/
+            icon: Generic-GCP.png
+      - ibm:
+          - name: Mass Data Migration Service
+            ref: https://cloud.ibm.com/docs/infrastructure/mass-data-migration?topic=mass-data-migration-about
+            icon: ibmcloud.png
+      - oracle:
+          - name: Data Transfer Services - Storage applicance import
+            ref: https://cloud.oracle.com/en_US/storage/data-transfer-services/features
+            icon: storage.png
+      - alibaba:
+          - name: Data Transport
+            ref: https://www.alibabacloud.com/product/data-transport
+            icon: alibaba.png
+  - category: Migration Services
+    categoryurl:
+    subcategory: Large Scale Data Transfer Solution (Exabyte Scale)
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Snowmobile
+            ref: https://aws.amazon.com/snowmobile/
+            icon: Storage-Content-Delivery_AWSImportExportSnowball.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: Data Transfer Services
+            ref: https://www.oracle.com/cloud/storage/data-transfer.html
+            icon: storage.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Application Discovery Services
+    categoryurl:
+    subcategory: Application Discovery Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Application Discovery Service
+            ref: https://aws.amazon.com/application-discovery/
+            icon: Storage-Content-Delivery_AWSImportExportSnowball.png
+      - azure:
+          - name: Azure Active Directory
+            ref: https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/cloud-app-discovery
+            icon: Azure%20Active%20Directory.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Networking & Content Delivery
+    categoryurl:
+    subcategory: Virtual Networking
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon VPC
+            ref: https://aws.amazon.com/vpc/
+            icon: Networking_AmazonVPC.png
+      - azure:
+          - name: Azure VNet
+            ref: https://azure.microsoft.com/en-in/services/virtual-network/
+            icon: Azure App Service - Web App (was Websites).png
+      - google:
+          - name: Cloud Virtual Network
+            ref: https://cloud.google.com/products/networking/
+            icon: Cloud-Virtual-Network.png
+      - ibm:
+          - name: IBM Cloud VPC
+            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Virtual Cloud Network
+            ref: https://cloud.oracle.com/networking
+            icon: service-virtual-cloud-network.png
+      - alibaba:
+          - name: Virtual Private Cloud
+            ref: https://www.alibabacloud.com/product/vpc
+            icon: vpc.png
+  - category: Networking & Content Delivery
+    categoryurl:
+    subcategory: Network Gateway
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon VPN
+            ref: http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpn-connections.html/
+            icon: aws.png
+      - azure:
+          - name: Azure VPN Gateway
+            ref: https://azure.microsoft.com/en-in/pricing/details/vpn-gateway/
+            icon: Azure VPN Gateway.png
+      - google:
+          - name: Cloud VPN
+            ref: https://cloud.google.com/products/networking/
+            icon: Cloud-Virtual-Network.png
+      - ibm:
+          - name: Classic IPSEC-VPN
+            ref: https://cloud.ibm.com/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn
+            icon: ibmcloud.png
+          - name: VPN gateway for VPC
+            ref: https://cloud.ibm.com/docs/vpc-on-classic-network?topic=vpc-on-classic-network---using-vpn-with-your-vpc
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle VPN Connect
+            ref: https://www.oracle.com/cloud/networking/vpn-connect.html
+            icon: oracle.png
+      - alibaba:
+          - name: VPN Gateway
+            ref: https://www.alibabacloud.com/product/vpn-gateway
+            icon: alibaba.png
+  - category: Networking & Content Delivery
+    categoryurl:
+    subcategory: Content Delivery Network
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon CloudFront
+            ref: https://aws.amazon.com/documentation/elastic-beanstalk/
+            icon: Storage-Content-Delivery_AmazonCloudFront.png
+      - azure:
+          - name: Azure CDN
+            ref: https://azure.microsoft.com/en-in/services/cdn/
+            icon: Azure Content Delivery Network (CDN).png
+      - google:
+          - name: Cloud CDN
+            ref: https://cloud.google.com/cdn/
+            icon: Cloud-CDN.png
+      - ibm:
+          - name: Content Delivery Network
+            ref: https://cloud.ibm.com/docs/infrastructure/CDN?topic=CDN-about-content-delivery-networks-cdn-
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon:
+      - alibaba:
+          - name: Alibaba Content Delivery Network
+            ref: https://www.alibabacloud.com/product/cdn
+            icon: cdn.png
+  - category: Networking
+    categoryurl:
+    subcategory: Networking & Content Delivery
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Route 53
+            ref: https://aws.amazon.com/route53/
+            icon: Networking_AmazonRoute53.png
+      - azure:
+          - name: Azure DNS
+            ref: https://azure.microsoft.com/en-in/services/dns/
+            icon: Azure DNS.png
+      - google:
+          - name: Cloud DNS
+            ref: https://cloud.google.com/dns/
+            icon: Cloud-DNS.png
+      - ibm:
+          - name: Internet Services
+            ref: https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle DNS
+            ref: https://www.oracle.com/cloud/networking/dns/
+            icon: EdgeServices.png
+      - alibaba:
+          - name: Alibaba Cloud DNS
+            ref: https://www.alibabacloud.com/product/dns
+            icon: DNS.png
+  - category: Networking
+    categoryurl:
+    subcategory: Global Traffic Management
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Route 53 Traffic Flow
+            ref: https://aws.amazon.com/blogs/aws/new-route-53-traffic-flow/
+            icon: Networking_AmazonRoute53.png
+      - azure:
+          - name: Azure Traffic Manager
+            ref: https://azure.microsoft.com/en-in/services/traffic-manager/
+            icon: Azure Traffic Manager.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Internet Services
+            ref: https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Traffic Management
+            ref: https://www.oracle.com/cloud/networking/traffic-management.html
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Hybrid Cloud
+    categoryurl:
+    subcategory: Hybrid Cloud
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Outposts
+            ref: https://aws.amazon.com/outposts/
+            icon: none.png
+      - azure:
+          - name: Azure Arc
+            ref: https://azure.microsoft.com/en-in/services/azure-arc/
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Satellite
+            ref: https://cloud.ibm.com/docs/satellite?topic=satellite-getting-started
+            icon: none.png
+          - name: Secure Gateway
+            ref: https://cloud.ibm.com/catalog/services/secure-gateway
+            icon: none.png
+      - oracle:
+          - name: Oracle Exadata Cloud@Customer
+            ref: https://www.oracle.com/engineered-systems/exadata/cloud-at-customer/
+            icon: none.png
+          - name: Oracle Roving Edge Infrastructure
+            ref: https://www.oracle.com/cloud/roving-edge-infrastructure/
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Networking & Content Delivery
+    categoryurl:
+    subcategory: Private Connectivity
+    subcategoryurl: https://en.wikipedia.org/wiki/Platform_as_a_service
+    service:
+      - aws:
+          - name: AWS Direct Connect
+            ref: https://aws.amazon.com/directconnect/
+            icon: Networking_AWSDirectConnect.png
+          - name: AWS Private Link
+            ref: https://aws.amazon.com/about-aws/whats-new/2018/04/introducing-aws-privatelink-in-the-eu-paris-region/
+            icon: Networking_AWSDirectConnect.png
+      - azure:
+          - name: Azure Express Route
+            ref: https://azure.microsoft.com/en-in/services/expressroute/
+            icon: Azure ExpressRoute.png
+      - google:
+          - name: Cloud InterConnect
+            ref: https://cloud.google.com/interconnect/
+            icon: Cloud-Interconnect.png
+      - ibm:
+          - name: Direct Link
+            ref: https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-overview-of-direct-link-offerings
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure FastConnect
+            ref: https://www.oracle.com/cloud/networking/fastconnect/
+            icon: service-fastconnect.png
+      - alibaba:
+          - name: Express Connect
+            ref: https://www.alibabacloud.com/product/express-connect
+            icon: expressconnect.png
+  - category: Networking & Content Delivery
+    categoryurl:
+    subcategory: Load Balancers
+    subcategoryurl: https://en.wikipedia.org/wiki/Load_balancing_(computing)
+    service:
+      - aws:
+          - name: Elastic Load Balancing
+            ref: https://aws.amazon.com/elasticloadbalancing/
+            icon: aws.png
+      - azure:
+          - name: Azure Load Balancer
+            ref: https://azure.microsoft.com/en-in/services/load-balancer/
+            icon: Azure load balancer (automatic).png
+      - google:
+          - name: Cloud Load Balancing
+            ref: https://cloud.google.com/load-balancing/
+            icon: Cloud-Load-Balancing.png
+      - ibm:
+          - name: IBM Cloud Load Balancers
+            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-nlb-vs-elb
+            icon: ibmcloud.png
+          - name: IBM Cloud Load Balancer for VPC
+            ref: https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
+            icon: ibmcloud.png
+          - name: Citrix NetScaler VPX
+            ref: https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Load Balancing
+            ref: https://www.oracle.com/cloud/networking/load-balancing/
+            icon: LoadBalancing.png
+      - alibaba:
+          - name: Server Load Balancer
+            ref: https://www.alibabacloud.com/product/server-load-balancer
+            icon: SLB.png
+  - category: Developer Tools
+    categoryurl: https://en.wikipedia.org/wiki/Programming_tool
+    subcategory: Cloud Software Development Kit
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Cloud9
+            ref: https://aws.amazon.com/cloud9/
+            icon: aws.png
+          - name: AWS Code Star
+            ref: https://aws.amazon.com/codestar/
+            icon: Developer-Tools_AWSCodeCommit.png
+          - name: AWS CodeCommit
+            ref: https://aws.amazon.com/codecommit/
+            icon: Developer-Tools_AWSCodeCommit.png
+          - name: AWS CodeBuild
+            ref: https://aws.amazon.com/codebuild/
+            icon: aws.png
+          - name: AWS CodeDeploy
+            ref: https://aws.amazon.com/codedeploy/
+            icon: Developer-Tools_AWSCodeDeploy.png
+          - name: AWS CodePipeline
+            ref: https://aws.amazon.com/codepipeline
+            icon: Developer-Tools_AWSCodePipeline.png
+          - name: AWS X-Ray
+            ref: https://aws.amazon.com/xray/
+            icon: aws.png
+      - azure:
+          - name: Azure Boards
+            ref: https://azure.microsoft.com/en-in/services/devops/boards/
+            icon: boards-icon-80.png
+          - name: Azure Pipelines
+            ref: https://azure.microsoft.com/en-in/services/devops/pipelines/
+            icon: pipelines-icon-80.png
+          - name: Azure Repos
+            ref: https://azure.microsoft.com/en-in/services/devops/repos/
+            icon: repos-icon-80.png
+          - name: Azure Test Plans
+            ref: https://azure.microsoft.com/en-in/services/devops/test-plans/
+            icon: test-plans-icon-80.png
+          - name: Azure Artifacts
+            ref: https://azure.microsoft.com/en-in/services/devops/artifacts/
+            icon: artifacts-icon-72.png
+      - google:
+          - name: Cloud Source Repositories
+            ref: https://cloud.google.com/source-repositories/
+            icon: Generic-GCP.png
+      - ibm:
+          - name: Continuous Delivery
+            ref: https://cloud.ibm.com/docs/services/ContinuousDelivery?topic=ContinuousDelivery-getting-started
+            icon: ibmcloud.png
+          - name: DevOps Insights
+            ref: https://cloud.ibm.com/docs/services/DevOpsInsights?topic=DevOpsInsights-getting-started#getting-started
+            icon: ibmcloud.png
+          - name: Globalization Pipeline
+            ref: https://cloud.ibm.com/docs/services/GlobalizationPipeline?topic=GlobalizationPipeline-globalizationpipeline#globalizationpipeline
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Visual Builder Studio
+            ref: https://www.oracle.com/application-development/visual-builder-studio/
+            icon: appbuilder.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Developer Tools
+    categoryurl: https://en.wikipedia.org/wiki/Programming_tool
+    subcategory: Cloud Software Development Kit
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS SDK
+            ref:
+            icon: SDKs_Python.png
+      - azure:
+          - name: Azure SDK Visual Studio
+            ref: https://www.visualstudio.com/team-services/
+            icon: Azure SDK.png
+      - google:
+          - name: Cloud SDK Cloud Tools for IntelliJ
+            ref:
+            icon: Cloud-Tools-for-PowerShell.png
+          - name: Cloud Tools for Android Studio
+            ref:
+            icon: Cloud-Tools-for-PowerShell.png
+          - name: Cloud Tools for Powershell
+            ref:
+            icon: Cloud-Tools-for-PowerShell.png
+          - name: Google Plugin for Eclipse
+            ref:
+            icon: Cloud-Tools-for-PowerShell.png
+      - ibm:
+          - name: IBM Cloud Developer Tool
+            ref: https://marketplace.visualstudio.com/items?itemName=IBM.ibm-developer
+            icon: ibmcloud.png
+          - name: Continuous Delivery
+            ref: https://cloud.ibm.com/docs/services/ContinuousDelivery?topic=ContinuousDelivery-getting-started
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle API Catalog
+            ref: https://www.oracle.com/middleware/technologies/api-catalog.html
+            icon: developer.png
+          - name: Toolkit for Eclipse
+            ref: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/eclipsetoolkit.htm
+            icon: developer.png
+          - name: Oracle Developer Tools for Visual Studio
+            ref: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/visualstudio_intro.htm#Oracle_Developer_Tools_for_Visual_Studio
+            icon: developer.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Management Tools
+    categoryurl:
+    subcategory: Server Management Services
+    subcategoryurl: https://en.wikipedia.org/wiki/Platform_as_a_service
+    service:
+      - aws:
+          - name: Amazon EC2 Systems Manager
+            ref: https://aws.amazon.com/documentation/elastic-beanstalk/
+            icon: aws.png
+      - azure:
+          - name: "Azure Operational Insights "
+            ref: https://azure.microsoft.com/en-us/resources/videos/azure-operational-insights-overview/
+            icon: Operations Management Suite (OMS).png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: Oracle Management Cloud
+            ref: https://cloud.oracle.com/management
+            icon: oracle.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Management Tools
+    categoryurl: https://en.wikipedia.org/wiki/Infrastructure_as_Code
+    subcategory: Cloud Deployment Templates/ Infra as Code
+    subcategoryurl: https://en.wikipedia.org/wiki/Platform_as_a_service
+    service:
+      - aws:
+          - name: AWS CloudFormation
+            ref: https://aws.amazon.com/cloudformation/
+            icon: Management-Tools_AWSCloudFormation.png
+      - azure:
+          - name: Azure Resource Manager
+            ref: https://azure.microsoft.com/en-us/features/resource-manager/
+            icon: Resource Group.png
+          - name: Azure Building Blocks
+            ref: https://azure.microsoft.com/en-in/resources/videos/azure-building-blocks-20-azbb/
+            icon: Resource Group.png
+      - google:
+          - name: Cloud Resource Manager
+            ref: https://cloud.google.com/resource-manager/
+            icon: Generic-GCP.png
+          - name: Cloud Deployment Manager
+            ref: https://cloud.google.com/deployment-manager/
+            icon: Generic-GCP.png
+      - ibm:
+          - name: Schematics
+            ref: https://cloud.ibm.com/docs/schematics?topic=schematics-about-schematics
+            icon: schematics_icon.svg
+      - oracle:
+          - name: Oracle Resource Manager
+            ref: https://www.oracle.com/devops/resource-manager/
+            icon: oracle.png
+      - alibaba:
+          - name: Resource Orchestration Service
+            ref: https://www.alibabacloud.com/product/ros
+            icon: ros.png
+  - category: Management Tools
+    categoryurl: https://en.wikipedia.org/wiki/Infrastructure_as_Code
+    subcategory: Logging & Monitoring
+    subcategoryurl: https://en.wikipedia.org/wiki/Log_management
+    service:
+      - aws:
+          - name: Amazon CloudWatch
+            ref: https://aws.amazon.com/cloudwatch/
+            icon: Management-Tools_AWSCloudFormation.png
+          - name: AWS CloudTrail
+            ref: https://aws.amazon.com/cloudtrail/
+            icon: Management-Tools_AWSCloudTrail.png
+      - azure:
+          - name: Log Analytics
+            ref: https://azure.microsoft.com/en-in/services/log-analytics/
+            icon: OMS Log Analytics.png
+          - name: Azure portal
+            ref: https://portal.azure.com/#
+            icon: Azure Management Portal.png
+          - name: Application Insights
+            ref: https://azure.microsoft.com/en-in/services/application-insights/
+            icon: Azure Application Insights.png
+      - google:
+          - name: Google StackDriver
+            ref: https://cloud.google.com/stackdriver/
+            icon: Stackdriver.png
+          - name: Monitoring
+            ref: https://cloud.google.com/monitoring/
+            icon: Monitoring.png
+          - name: Logging
+            ref: https://cloud.google.com/logging/
+            icon: Logging.png
+          - name: Error Reporting
+            ref: https://cloud.google.com/error-reporting/
+            icon: Error-Reporting.png
+          - name: Trace
+            ref: https://cloud.google.com/trace/
+            icon: Trace.png
+          - name: Debugger
+            ref: https://cloud.google.com/debugger/
+            icon: Debugger.png
+      - ibm:
+          - name: Monitoring
+            ref: https://cloud.ibm.com/catalog/services/monitoring
+            icon: ibmcloud.png
+          - name: IBM Cloud Log Analysis with LogDNA
+            ref: https://www.ibm.com/cloud/log-analysis
+            icon: ibmcloud.png
+          - name: IBM Cloud Activity Tracker with LogDNA
+            ref: https://www.ibm.com/cloud/blog/track-your-cloud-activities-using-ibm-cloud-activity-tracker-with-logdna
+            icon: ibmcloud.png
+          - name: IBM Cloud Monitoring with Sysdig
+            ref: https://www.ibm.com/cloud/sysdig
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Logging
+            ref: https://www.oracle.com/devops/logging/
+            icon: oracle.png
+          - name: Oracle Logging Analytics
+            ref: https://www.oracle.com/manageability/logging-analytics/
+            icon: oracle.png
+          - name: Oracle Cloud Infrastructure Monitoring
+            ref: https://www.oracle.com/devops/monitoring/
+            icon: oracle.png
+          - name: Application Performance Monitoring (limited availability)
+            ref:
+            icon: oracle.png
+          - name: Oracle Service Connector Hub
+            ref: https://www.oracle.com/devops/service-connector-hub/
+            icon: oracle.png
+          - name: Management Cloud
+            ref:
+            icon: AppPerfMonitoring.png
+      - alibaba:
+          - name: CloudMonitor
+            ref: https://www.alibabacloud.com/product/cloud-monitor
+            icon: CloudMonitor.png
+          - name: ActionTrail
+            ref: https://www.alibabacloud.com/product/actiontrail
+            icon: CloudMonitor.png
+          - name: Application Real-Time Monitoring Service
+            ref: https://www.alibabacloud.com/product/arms
+            icon: CloudMonitor.png
+  - category: Management Tools
+    categoryurl:
+    subcategory: Resource / Configuration Inventory
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Config
+            ref: https://aws.amazon.com/config/
+            icon: Management-Tools_AWSConfig.png
+      - azure:
+          - name: Azure portal (audit logs)
+            ref:
+            icon: Azure Management Portal.png
+      - google:
+          - name: Cloud Security Scanner
+            ref:
+            icon: Generic-GCP.png
+          - name: Cloud Data Loss Prevention Api
+            ref: https://cloud.google.com/dlp/
+            icon: Generic-GCP.png
+          - name: Access Transparency (Beta)
+            ref: https://cloud.google.com/access-transparency/
+            icon: Generic-GCP.png
+      - ibm:
+          - name: App Configuration
+            ref: https://cloud.ibm.com/catalog/services/app-configuration
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Governance Services
+            ref: https://cloud.oracle.com/en_US/governance
+            icon: service-governance.png
+      - alibaba:
+          - name: Alibaba Log Service
+            ref: https://www.alibabacloud.com/product/log-service
+            icon: log-service.png
+  - category: Management Tools
+    categoryurl:
+    subcategory: Server Automation
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS OpsWorks
+            ref: https://aws.amazon.com/opsworks/
+            icon: Management-Tools_AWSOpsWorks.png
+      - azure:
+          - name: Resource Manager
+            ref: https://azure.microsoft.com/en-us/features/resource-manager/
+            icon: Resource Group.png
+          - name: Azure Automation
+            ref: https://docs.microsoft.com/en-us/azure/automation/
+            icon: Azure Automation.png
+          - name: VM Extentions
+            ref: https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-extensions-features
+            icon: Azure VM symbol only.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure OS Management
+            ref: https://docs.oracle.com/en-us/iaas/os-management/osms/index.htm
+            icon: oracle.png
+          - name: Oracle Resource Manager
+            ref: https://www.oracle.com/devops/resource-manager/
+            icon: oracle.png
+      - alibaba:
+          - name: "Resource Orchestration Service "
+            ref: https://www.alibabacloud.com/product/ros
+            icon: ros.png
+  - category: Management Tools
+    categoryurl:
+    subcategory: Server Automation
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Service Catalog
+            ref: https://aws.amazon.com/servicecatalog/
+            icon: Management-Tools_AWSServiceCatalog.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Management Tools
+    categoryurl:
+    subcategory: Cloud Cost / Performance / Security Advisor
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Trusted Advisor
+            ref: https://aws.amazon.com/premiumsupport/trustedadvisor/
+            icon: Management-Tools_AWSTrustedAdvisor.png
+      - azure:
+          - name: Azure Advisor
+            ref: https://azure.microsoft.com/en-in/services/advisor/
+            icon: Azure Security Center.png
+          - name: Azure Cost Management
+            ref: https://azure.microsoft.com/en-us/services/cost-management/
+            icon: Azure Security Center.png
+      - google:
+          - name: Google Cloud Platform Security
+            ref: https://cloud.google.com/security/
+            icon: Generic-GCP.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: Oracle Cloud Guard
+            ref: https://www.oracle.com/security/cloud-security/cloud-guard/
+            icon: oracle.png
+          - name: Oracle Cloud Advisor
+            ref: https://blogs.oracle.com/cloud-infrastructure/now-available-oracle-cloud-advisor
+            icon: oracle.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Management Tools
+    categoryurl:
+    subcategory: Alerts and Remediation guidance Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Personal Health Dashboard
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Azure Monitor
+            ref: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-azure-monitor
+            icon: Azure monitor.png
+          - name: Azure Operations Management Suite (OMS)
+            ref: https://www.microsoft.com/en-us/cloud-platform/operations-management-suite
+            icon: Azure OMS.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: Oracle Management Cloud
+            ref: https://cloud.oracle.com/en_US/management
+            icon: oracle.png
+          - name: Oracle Cloud Guard
+            ref: https://www.oracle.com/security/cloud-security/cloud-guard/
+            icon: oracle.png
+          - name: Oracle Security Advisor
+            ref: https://docs.oracle.com/en-us/iaas/Content/SecurityAdvisor/Concepts/securityadvisoroverview.htm
+            icon: oracle.png
+      - alibaba:
+          - name: Cloud monitoring, Notification and Alerts
+            ref: https://www.alibabacloud.com/product/cloud-monitor
+            icon: CloudMonitor.png
+  - category: Management Tools
+    categoryurl:
+    subcategory: Cloud Management Tools
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Command Line Interface
+            ref:
+            icon: SDKs_AWSCLI.png
+          - name: AWS Management Console
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Azure Command Line Interface
+            ref:
+            icon: Microsoft Azure.png
+          - name: Azure Powershell
+            ref: https://docs.microsoft.com/en-us/powershell/azure/overview?view=azurermps-6.3.0
+            icon: Microsoft Azure.png
+          - name: Azure Management Console
+            ref:
+            icon: Azure Management Portal.png
+          - name: Azure Cloud Shell
+            ref: https://azure.microsoft.com/en-us/features/cloud-shell/
+            icon: Azure Management Portal.png
+      - google:
+          - name: Cloud Shell
+            ref: https://cloud.google.com/shell/
+            icon: Generic-GCP.png
+          - name: Cloud Console
+            ref: https://cloud.google.com/cloud-console/
+            icon: Generic-GCP.png
+          - name: Billing API
+            ref: https://cloud.google.com/billing/docs/
+            icon: Generic-GCP.png
+          - name: Cloud APIs
+            ref: https://cloud.google.com/apis/
+            icon: Generic-GCP.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: OCI CLI
+            ref: https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm
+            icon: oracle.png
+          - name: Oracle Cloud Shell
+            ref: https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellintro.htm
+            icon: oracle.png
+          - name: Oracle Management Console
+            ref:
+            icon: oracle.png
+          - name: REST API
+            ref: https://docs.oracle.com/en-us/iaas/api/
+            icon: oracle.png
+      - alibaba:
+          - name: Alibaba Cloud CLI
+            ref: https://www.alibabacloud.com/help/doc-detail/66653.htm
+            icon: alibaba.png
+
+  - category: Management Tools
+    categoryurl:
+    subcategory: Automated Infra Management Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Managed Services
+            ref: https://aws.amazon.com/managed-services/
+            icon: aws.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Disaster Recovery Services
+    categoryurl:
+    subcategory: Automated Disaster Recovery Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Disaster Recovery
+            ref: https://aws.amazon.com/disaster-recovery/
+            icon: aws.png
+      - azure:
+          - name: Azure Site Recovery
+            ref: https://azure.microsoft.com/en-us/services/site-recovery/
+            icon: Azure Site Recovery.png
+          - name: Azure Backup
+            ref: https://azure.microsoft.com/en-us/services/backup/
+            icon: Azure Backup.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: Oracle Database Backup
+            ref: https://cloud.oracle.com/en_US/database-backup/features
+            icon: none.png
+      - alibaba:
+          - name: Alibaba Disaster Recovery
+            ref: https://www.alibabacloud.com/solutions/hosting/Disaster-Recovery
+            icon: alibaba.png
+          - name: Hybrid Backup Recovery
+            ref: https://www.alibabacloud.com/product/hbr
+            icon: alibaba.png
+
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: Identity & Access Management
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Identity and Access Management (IAM)
+            ref: https://aws.amazon.com/documentation/iam/
+            icon: Security-Identity_AWSIAM.png
+      - azure:
+          - name: Azure Active Directory
+            ref: https://azure.microsoft.com/en-in/services/active-directory/
+            icon: Azure Active Directory.png
+      - google:
+          - name: Cloud IAM
+            ref: https://cloud.google.com/iam/
+            icon: Cloud-IAM.png
+          - name: Cloud Identity-Aware Proxy
+            ref: https://cloud.google.com/iap/
+            icon: Cloud-Identity-Aware-Proxy.png
+      - ibm:
+          - name: Identity & Access Management
+            ref: https://cloud.ibm.com/docs/iam?topic=iam-iamoverview
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Identity and Access Management (IAM)
+            ref: https://www.oracle.com/security/identity-management/
+            icon: oracle.png
+          - name: Oracle Identity Cloud Service
+            ref: https://www.oracle.com/security/cloud-security/identity-cloud/
+            icon: oracle.png
+      - alibaba:
+          - name: "Resource Access Management        "
+            ref: https://www.alibabacloud.com/product/ram
+            icon: ram.png
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: Cloud Security Assesment Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Inspector
+            ref: https://aws.amazon.com/inspector/
+            icon: Security-Identity_AmazonInspector.png
+          - name: Gaurd Duty
+            ref: https://aws.amazon.com/guardduty/
+            icon: Security-Identity_AmazonInspector.png
+      - azure:
+          - name: Azure Security Center
+            ref: https://azure.microsoft.com/en-in/services/security-center/
+            icon: Azure Security Center.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Security and Compliance Center
+            ref: https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Security Advisor
+            ref: https://docs.oracle.com/en-us/iaas/Content/SecurityAdvisor/Concepts/securityadvisoroverview.htm
+            icon: oracle.png
+          - name: Oracle Cloud Guard
+            ref: https://www.oracle.com/security/cloud-security/cloud-guard/
+            icon: oracle.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: Secured Socket Layer (SSL) Certificates
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Certificate Manager
+            ref: https://aws.amazon.com/certificate-manager/
+            icon: Security-Identity_ACM_certificate-manager.png
+      - azure:
+          - name: App Service Certificate
+            ref: https://azure.microsoft.com/en-us/updates/introducing-app-service-certificates/
+            icon: Azure App Service.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Certificate Manager
+            ref: https://cloud.ibm.com/catalog/services/certificate-manager
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: SSL Certificates
+            ref: https://www.alibabacloud.com/product/certificates
+            icon: SSL.png
+  - category:
+    categoryurl:
+    subcategory:
+    subcategoryurl:
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: Hardware Based Security Module
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS CloudHSM
+            ref: https://aws.amazon.com/cloudhsm/
+            icon: Security-Identity_AWSCloudHSM.png
+          - name: AWS Secrets Manager
+            ref: https://aws.amazon.com/secrets-manager/
+            icon: Security-Identity_AWSCloudHSM.png
+      - azure:
+          - name: Azure Key Vault
+            ref: https://azure.microsoft.com/en-in/services/key-vault/
+            icon: Azure Key Vault.png
+      - google:
+          - name: Cloud Key Management Service
+            ref: https://cloud.google.com/kms/
+            icon: Cloud-Platform-Security.png
+      - ibm:
+          - name: Key Protect
+            ref: https://cloud.ibm.com/catalog/services/key-protect
+            icon: ibmcloud.png
+          - name: Cloud HSM
+            ref: https://cloud.ibm.com/catalog/infrastructure/hardware-security-module
+            icon: ibmcloud.png
+          - name: Hyper Protect Crypto Services
+            ref: https://cloud.ibm.com/catalog/services/hyper-protect-crypto-services
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Vault
+            ref: https://www.oracle.com/security/cloud-security/key-management/
+            icon: oracle.png
+      - alibaba:
+          - name: Key Management Service
+            ref: https://www.alibabacloud.com/product/key-management-service
+            icon: ram.png
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: Directory Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Directory Service
+            ref: https://aws.amazon.com/directoryservice/
+            icon: Security-Identity_AWSDirectoryService.png
+      - azure:
+          - name: Azure Active Directory
+            ref: https://azure.microsoft.com/en-us/services/active-directory/
+            icon: Azure Active Directory.png
+          - name: Azure Active Directory B2C
+            ref: https://azure.microsoft.com/en-us/services/active-directory-b2c/
+            icon: Azure Active Directory.png
+          - name: Azure Active Directory Domain Services
+            ref: https://azure.microsoft.com/en-us/services/active-directory-ds/
+            icon: Azure Active Directory.png
+          - name: Azure Active Directory Multi Factor Authentication
+            ref: https://azure.microsoft.com/en-us/services/multi-factor-authentication/
+            icon: Azure Active Directory.png
+      - google:
+          - name: Cloud IAM
+            ref: https://cloud.google.com/iam/
+            icon: Cloud-IAM.png
+          - name: Cloud Identity-Aware Proxy
+            ref: https://cloud.google.com/iap/
+            icon: Cloud-Identity-Aware-Proxy.png
+          - name: Security Key Enforcement
+            ref: https://cloud.google.com/security-key/
+            icon: Generic-GCP.png
+      - ibm:
+          - name: App ID
+            ref: https://cloud.ibm.com/catalog/services/app-id
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Directory Services
+            ref: https://www.oracle.com/security/identity-management/directory-services/
+            icon: oracle.png
+      - alibaba:
+          - name: Resource Access Management
+            ref: https://www.alibabacloud.com/help/doc-detail/96239.htm
+            icon: alibaba.png
+
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: Key Management Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Key Management Service
+            ref:
+            icon: Security-Identity_AWSKMS.png
+      - azure:
+          - name: Azure Key Vault
+            ref: https://azure.microsoft.com/en-us/services/key-vault/
+            icon: Azure Key Vault.png
+      - google:
+          - name: Cloud Key Management Service
+            ref: https://cloud.google.com/kms/
+            icon: Cloud-Platform-Security.png
+      - ibm:
+          - name: Key Protect
+            ref: https://cloud.ibm.com/catalog/services/key-protect
+            icon: ibmcloud.png
+          - name: Cloud HSM
+            ref: https://cloud.ibm.com/catalog/infrastructure/hardware-security-module
+            icon: ibmcloud.png
+          - name: Hyper Protect Crypto Services
+            ref: https://cloud.ibm.com/catalog/services/hyper-protect-crypto-services
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Vault
+            ref: https://www.oracle.com/security/cloud-security/key-management/
+            icon: oracle.png
+      - alibaba:
+          - name: "Key Management Service "
+            ref: https://www.alibabacloud.com/product/key-management-service
+            icon: KMS.png
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: Consolidated Management of Multiple Cloud Accounts
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Organizations
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Azure Management Groups
+            ref: https://docs.microsoft.com/en-us/azure/azure-resource-manager/management-groups-overview
+            icon: Azure%20Management%20Portal.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Resource Group
+            ref: https://cloud.ibm.com/docs/overview?topic=overview-whatis-rgs
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: DDos Protection Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Shield
+            ref: https://aws.amazon.com/shield/
+            icon: aws.png
+      - azure:
+          - name: Azure DDoS Protection
+            ref: https://azure.microsoft.com/en-in/services/ddos-protection/
+            icon: Microsoft Azure.png
+      - google:
+          - name: Cloud Armor (Beta)
+            ref: https://cloud.google.com/armor/
+            icon: Google-Cloud-Platform.png
+      - ibm:
+          - name: Internet Services
+            ref: https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle DDoS Protection
+            ref: https://docs.oracle.com/en-us/iaas/Content/EdgeServices/overview.htm
+            icon: none.png
+      - alibaba:
+          - name: DDOS Pro and Basic
+            ref: https://www.alibabacloud.com/product/ddos-pro
+            icon: ddos.png
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: Web Application Firewall
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS WAF
+            ref: https://aws.amazon.com/waf/
+            icon: Security-Identity_AWSWAF.png
+      - azure:
+          - name: Azure WAF
+            ref:
+            icon: Firewall.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Internet Services
+            ref: https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Web Application Firewall
+            ref: https://www.oracle.com/cloud/security/cloud-services/web-application-firewall.html
+            icon: none.png
+      - alibaba:
+          - name: Web Application Firewall
+            ref: https://www.alibabacloud.com/product/waf
+            icon: waf.png
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: Security & Compliance Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Firewall Manager
+            ref:
+            icon: none.png
+      - azure:
+          - name: Azure Firewall Manager
+            ref: https://azure.microsoft.com/en-in/services/firewall-manager/
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Security and Compliance Center
+            ref: https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Security & Identity, Compliance
+    categoryurl:
+    subcategory: Security & Compliance Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Artifact
+            ref: https://aws.amazon.com/artifact/
+            icon: aws.png
+      - azure:
+          - name: Azure Security & Compliance
+            ref: https://azure.microsoft.com/en-in/support/trust-center/
+            icon: Azure Security Center.png
+      - google:
+          - name: Cloud Security Command Center (Alpha)
+            ref: https://cloud.google.com/security-command-center/
+            icon: Google-Cloud-Platform.png
+      - ibm:
+          - name: Security and Compliance Center
+            ref: https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started
+            icon: none.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Compliance Documents
+            ref: https://docs.oracle.com/en-us/iaas/Content/ComplianceDocuments/Concepts/compliancedocsoverview.htm
+            icon: none.png
+      - alibaba:
+          - name: "Alibaba Truster Center "
+            ref: https://www.alibabacloud.com/trust-center
+            icon: alibaba.png
+  - category: Big Data & Advanced Analytics
+    categoryurl:
+    subcategory: Big Data Query as a Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Athena
+            ref: https://aws.amazon.com/athena/
+            icon: aws.png
+      - azure:
+          - name: Azure Data Lake Analytics
+            ref: https://azure.microsoft.com/en-in/services/data-lake-analytics/
+            icon: Azure Data Lake Analytics.png
+      - google:
+          - name: BigQuery
+            ref: https://cloud.google.com/bigquery/
+            icon: BigQuery.png
+      - ibm:
+          - name: SQL Query
+            ref: https://cloud.ibm.com/docs/services/sql-query?topic=sql-query-overview
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Big Data SQL Cloud Service
+            ref: https://www.oracle.com/big-data/big-data-sql/
+            icon: oracle.png
+      - alibaba:
+          - name: E-MapReduce Service
+            ref: https://www.alibabacloud.com/product/e-mapreduce
+            icon: emr.png
+  - category: Big Data & Advanced Analytics
+    categoryurl:
+    subcategory: Big Data Managed Cluster as a Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon EMR
+            ref: https://aws.amazon.com/emr/
+            icon: Analytics_AmazonEMR.png
+      - azure:
+          - name: Azure HDInsight
+            ref: https://azure.microsoft.com/en-in/services/hdinsight/
+            icon: Azure HDInsight.png
+      - google:
+          - name: Cloud DataProc
+            ref: https://cloud.google.com/dataproc/
+            icon: Cloud-Dataproc.png
+      - ibm:
+          - name: Analytics Engine
+            ref: https://cloud.ibm.com/docs/services/AnalyticsEngine?topic=AnalyticsEngine-IAE-overview
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Big Data Service
+            ref: https://www.oracle.com/big-data/big-data-service/
+            icon: bigdata.png
+      - alibaba:
+          - name: E-MapReduce Service
+            ref: https://www.alibabacloud.com/product/e-mapreduce
+            icon: emr.png
+  - category: Big Data & Advanced Analytics
+    categoryurl:
+    subcategory: Cloud Search
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon CloudSearch
+            ref: https://aws.amazon.com/cloudsearch/
+            icon: Application-Services_AmazonCloudSearch.png
+          - name: Amazon Elastic Search Service
+            ref: https://aws.amazon.com/cloudsearch/
+            icon: Application-Services_AmazonCloudSearch.png
+      - azure:
+          - name: Azure Search
+            ref:
+            icon: Azure Search.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Databases for Elasticsearch
+            ref: https://cloud.ibm.com/catalog/services/databases-for-elasticsearch
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Big Data & Advanced Analytics
+    categoryurl:
+    subcategory: Streaming Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Kinesis
+            ref: https://aws.amazon.com/kinesis/streams/
+            icon: Analytics_AmazonKinesis.png
+          - name: Amazon Kinesis Video Streams
+            ref: https://aws.amazon.com/blogs/aws/amazon-kinesis-video-streams-serverless-video-ingestion-and-storage-for-vision-enabled-apps/
+            icon: Analytics_AmazonKinesis.png
+      - azure:
+          - name: Azure Stream Analytics
+            ref: https://azure.microsoft.com/en-us/services/stream-analytics/
+            icon: Azure Stream Analytics.png
+          - name: Azure Event Hub
+            ref: https://azure.microsoft.com/en-us/services/stream-analytics/
+            icon: Azure Event Hubs.png
+      - google:
+          - name: Cloud Dataflow
+            ref: https://cloud.google.com/dataflow/
+            icon: Cloud-Dataflow.png
+      - ibm:
+          - name: Streaming Analytics
+            ref: https://cloud.ibm.com/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gettingstarted
+            icon: ibmcloud.png
+          - name: Event Streams
+            ref: https://cloud.ibm.com/catalog/services/event-streams
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Streaming
+            ref: https://www.oracle.com/cloud-native/streaming/
+            icon: storage.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Big Data & Advanced Analytics
+    categoryurl:
+    subcategory: Data Warehouse
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Redshift
+            ref: https://aws.amazon.com/redshift/
+            icon: Database_AmazonRedshift.png
+      - azure:
+          - name: Azure SQL Data Warehouse
+            ref: https://azure.microsoft.com/en-in/services/sql-data-warehouse/
+            icon: Azure Data Warehouse.png
+      - google:
+          - name: BigQuery
+            ref: https://cloud.google.com/bigquery/
+            icon: BigQuery.png
+      - ibm:
+          - name: Db2 Warehouse
+            ref: https://cloud.ibm.com/docs/services/Db2whc?topic=Db2whc-about
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Autonomous Data Warehouse
+            ref: https://www.oracle.com/autonomous-database/autonomous-data-warehouse/
+            icon: oracle.png
+      - alibaba:
+          - name: Alibaba MaxCompute ODPS
+            ref: https://www.alibabacloud.com/product/maxcompute
+            icon: MaxCompute.png
+  - category: Big Data & Advanced Analytics
+    categoryurl:
+    subcategory: Business Intelligence & Data Visualization
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon QuickSight
+            ref: https://quicksight.aws/
+            icon: Analytics_AmazonQuickSight.png
+      - azure:
+          - name: PowerBI
+            ref: https://powerbi.microsoft.com/en-us/
+            icon: Power BI Embedded.png
+      - google:
+          - name: Google Data Studio (Beta)
+            ref: https://cloud.google.com/data-studio/
+            icon: Data-Studio.png
+      - ibm:
+          - name: Watson studio
+            ref: https://dataplatform.cloud.ibm.com/docs/content/?context=wdp
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Analytics Cloud
+            ref: https://www.oracle.com/business-analytics/analytics-cloud.html
+            icon: oracle.png
+          - name: Oracle Data Visualization Cloud Service
+            ref: https://docs.oracle.com/en/cloud/paas/data-visualization-cloud/index.html
+            icon: oracle.png
+          - name: Oracle Business Intelligence Cloud Service
+            ref: https://docs.oracle.com/en/cloud/paas/bi-cloud/index.html
+            icon: oracle.png
+      - alibaba:
+          - name: Data IDE
+            ref: https://www.alibabacloud.com/product/ide
+            icon: IDE.png
+  - category: Big Data & Advanced Analytics
+    categoryurl:
+    subcategory: Cloud ETL
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Data Pipeline
+            ref: https://aws.amazon.com/datapipeline/
+            icon: Analytics_AWSDataPipeline.png
+          - name: AWS Glue
+            ref: https://aws.amazon.com/glue/
+            icon: aws.png
+          - name: Amazon Simple Workflow Service (SWF)
+            ref: https://aws.amazon.com/swf/
+            icon: aws.png
+      - azure:
+          - name: Azure Data Factory
+            ref: https://azure.microsoft.com/en-in/services/data-factory/
+            icon: Azure Data Factory.png
+          - name: Azure Data Catalog
+            ref: https://azure.microsoft.com/en-in/services/data-catalog/
+            icon: Azure Data Catalog.png
+          - name: Logic Apps
+            ref: https://azure.microsoft.com/en-in/services/logic-apps/
+            icon: Azure App Service - Logic App.png
+      - google:
+          - name: Cloud DataPrep (Private Beta)
+            ref: https://cloud.google.com/dataprep/
+            icon: Cloud-Dataprep.png
+          - name: Cloud Composer (Beta)
+            ref: https://cloud.google.com/composer/
+            icon: Cloud-Dataprep.png
+      - ibm:
+          - name: DataStage
+            ref: https://www.ibm.com/us-en/marketplace/datastage
+            icon: ibmcloud.png
+          - name: Watson Knowledge Catalog
+            ref: https://www.ibm.com/cloud/watson-knowledge-catalog
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Data Flow
+            ref: https://www.oracle.com/big-data/data-flow/
+            icon: integration.png
+          - name: Oracle Integration
+            ref: https://docs.oracle.com/en/cloud/paas/integration-cloud/index.html
+            icon: integration.png
+          - name: Data Integrator
+            ref: https://cloud.oracle.com/en_US/data-integrator
+            icon: integration.png
+      - alibaba:
+          - name: DataWorks
+            ref: https://www.alibabacloud.com/product/ide
+            icon: alibaba.png
+          - name: Data Integration
+            ref: https://www.alibabacloud.com/product/data-integration
+            icon: alibaba.png
+  - category: Artificial Intelligence
+    categoryurl:
+    subcategory: Language Processing AI
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Lex
+            ref: https://aws.amazon.com/lex/
+            icon: aws.png
+          - name: Amazon Comprehend
+            ref: https://aws.amazon.com/comprehend/
+            icon: aws.png
+      - azure:
+          - name: LUIS (Language Understanding Intelligent Service)
+            ref: https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/
+            icon: Azure Cognative Services - luis_COLOR.png
+          - name: Azure Bot Service
+            ref: https://azure.microsoft.com/en-us/services/bot-service/
+            icon: Azure Cognative Services - Speech_COLOR.png
+          - name: Azure Speech Recognition API
+            ref: https://azure.microsoft.com/en-in/services/cognitive-services/speech/
+            icon: Azure Cognative Services - Speech_COLOR.png
+      - google:
+          - name: Natural Language API
+            ref: https://cloud.google.com/natural-language/
+            icon: Natural-Language-API.png
+          - name: Cloud Text-to-Speech (Beta)
+            ref: https://cloud.google.com/text-to-speech/
+            icon: Natural-Language-API.png
+          - name: DialogFlow Enterprise Edition (Beta)
+            ref: https://cloud.google.com/dialogflow-enterprise/
+            icon: Natural-Language-API.png
+      - ibm:
+          - name: Natural Language Classifier
+            ref: https://cloud.ibm.com/docs/services/natural-language-classifier?topic=natural-language-classifier-natural-language-classifier
+            icon: ibmcloud.png
+          - name: Language Translator
+            ref: https://cloud.ibm.com/docs/services/language-translator?topic=language-translator-gettingstarted
+            icon: ibmcloud.png
+          - name: Watson Assistant
+            ref: https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started
+            icon: ibmcloud.png
+          - name: Watson Discovery
+            ref: https://cloud.ibm.com/docs/services/discovery?topic=discovery-getting-started
+            icon: ibmcloud.png
+          - name: Watson Knowledge Studio
+            ref: https://cloud.ibm.com/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro
+            icon: ibmcloud.png
+          - name: " Text to Speech"
+            ref: https://cloud.ibm.com/docs/services/text-to-speech?topic=text-to-speech-gettingStarted
+            icon: ibmcloud.png
+          - name: Personality Insights
+            ref: https://cloud.ibm.com/docs/services/personality-insights?topic=personality-insights-gettingStarted
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Artificial Intelligence
+    categoryurl:
+    subcategory: Speech Recognition AI
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Polly
+            ref:
+            icon: aws.png
+          - name: Amazon Transcribe
+            ref: https://aws.amazon.com/transcribe/
+            icon: aws.png
+          - name: Amazon Translate
+            ref: https://aws.amazon.com/translate/
+            icon: aws.png
+      - azure:
+          - name: Bing Speech API
+            ref:
+            icon: Azure Cognative Services - Speech_COLOR.png
+      - google:
+          - name: Translation API
+            ref: https://cloud.google.com/translate/
+            icon: Speech-API.png
+          - name: Speech API
+            ref: https://cloud.google.com/speech/
+            icon: Speech-API.png
+      - ibm:
+          - name: Speech to Text
+            ref: https://cloud.ibm.com/docs/services/speech-to-text?topic=speech-to-text-gettingStarted
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Artificial Intelligence
+    categoryurl:
+    subcategory: Image Recognition AI
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Rekognition
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Emotion API
+            ref: https://azure.microsoft.com/en-us/services/cognitive-services/emotion/
+            icon: Azure Cognative Services - emotion_COLOR.png
+          - name: Face API
+            ref: https://azure.microsoft.com/en-us/services/cognitive-services/face/
+            icon: Azure Cognative Services - emotion_COLOR.png
+          - name: Computer Vision API
+            ref:
+            icon: Azure Cognative Services - emotion_COLOR.png
+      - google:
+          - name: Vision API
+            ref:
+            icon: Vision-API.png
+          - name: Cloud Video Intelligence
+            ref: https://cloud.google.com/video-intelligence/
+            icon: Vision-API.png
+      - ibm:
+          - name: Visual Recognition
+            ref: https://cloud.ibm.com/docs/services/visual-recognition?topic=visual-recognition-index
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: Image Search
+            ref: https://www.alibabacloud.com/product/imagesearch
+            icon: alibaba.png
+  - category: Artificial Intelligence
+    categoryurl:
+    subcategory: Machine Learning
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Machine Learning
+            ref:
+            icon: Analytics_AmazonMachineLearning.png
+          - name: Amazon Sage​Maker
+            ref: https://aws.amazon.com/sagemaker/
+            icon: Analytics_AmazonMachineLearning.png
+      - azure:
+          - name: Azure Machine Learning
+            ref: https://studio.azureml.net/
+            icon: Azure Machine Learning.png
+          - name: Azure Machine Learning Workbench
+            ref: https://docs.microsoft.com/en-in/azure/machine-learning/preview/quickstart-installation
+            icon: Azure Machine Learning.png
+          - name: Azure Machine Learning Model Management
+            ref: https://docs.microsoft.com/en-in/azure/machine-learning/preview/model-management-overview
+            icon: Azure Machine Learning.png
+      - google:
+          - name: Cloud DataLab
+            ref:
+            icon: Cloud-Datalab.png
+          - name: Cloud AutoML (Alpha)
+            ref: https://cloud.google.com/automl/
+            icon: Cloud-Datalab.png
+          - name: Cloud Machine Learning Services
+            ref:
+            icon: Cloud-Machine-Learning.png
+      - ibm:
+          - name: Machine Learning
+            ref: https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html
+            icon: ibmcloud.png
+          - name: Watson OpenScale
+            ref: https://cloud.ibm.com/catalog/services/watson-openscale
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Machine Learning
+            ref: https://www.oracle.com/data-science/machine-learning/
+            icon: oracle.png
+      - alibaba:
+          - name: Machine Learning Platform For AI
+            ref: https://www.alibabacloud.com/product/machine-learning
+            icon: alibaba.png
+  - category: Mobile Services
+    categoryurl:
+    subcategory: Mobile App Development Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Mobile Hub
+            ref:
+            icon: Mobile-Services_AWSMobileHub.png
+      - azure:
+          - name: Azure Mobile Apps
+            ref: https://azure.microsoft.com/en-us/services/app-service/mobile/
+            icon: Azure App Service - Mobile App (was Mobile Services).png
+      - google:
+          - name: Cloud Mobile App
+            ref:
+            icon: Generic-GCP.png
+      - ibm:
+          - name: Mobile Foundation
+            ref: https://cloud.ibm.com/docs/services/mobilefoundation
+            icon: ibmcloud.png
+      - oracle:
+          - name: Mobile & Chatbots
+            ref: https://cloud.oracle.com/en_US/mobile/features
+            icon: oracle.png
+          - name: Mobile Hub
+            ref: https://www.oracle.com/application-development/cloud-services/mobile/
+            icon: oracle.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Mobile Services
+    categoryurl:
+    subcategory: Web API Management Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon API Gateway
+            ref:
+            icon: Application-Services_AmazonAPIGateway.png
+      - azure:
+          - name: Azure API Management
+            ref:
+            icon: Azure API Management.png
+      - google:
+          - name: Cloud Endpoints
+            ref:
+            icon: Cloud-Endpoints.png
+      - ibm:
+          - name: API Connect
+            ref: https://cloud.ibm.com/docs/services/apiconnect?topic=apiconnect-getting-started
+            icon: ibmcloud.png
+      - oracle:
+          - name: API Platform
+            ref: https://www.oracle.com/integration/api-platform/
+            icon: APIManager.png
+          - name: Apiary
+            ref: https://docs.oracle.com/cloud/apiary/index.html
+            icon: oracle.png
+      - alibaba:
+          - name: API Gateway
+            ref: https://www.alibabacloud.com/product/api-gateway
+            icon: API.png
+  - category: Mobile Services
+    categoryurl:
+    subcategory: Web/Mobile Authentication Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Cognito
+            ref:
+            icon: Mobile-Services_AmazonCognito.png
+      - azure:
+          - name: Azure Mobile SDK,Offline/Sync
+            ref:
+            icon: Azure SDK.png
+      - google:
+          - name: Firebase Authentication
+            ref:
+            icon: Blue-Hexagon.png
+      - ibm:
+          - name: App ID
+            ref: https://cloud.ibm.com/catalog/services/app-id
+            icon: ibmcloud.png
+      - oracle:
+          - name: Mobile Cloud Service
+            ref: https://cloud.oracle.com/mobile
+            icon: mobile.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Mobile Services
+    categoryurl:
+    subcategory: Consolidated Mgmt of Multiple Cloud Accounts
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Pinpoint
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Azure Mobile Engagement
+            ref:
+            icon: Azure Mobile Engagement.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Mobile Foundation
+            ref: https://cloud.ibm.com/docs/services/mobilefoundation
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Automated Cloud Management Service
+    categoryurl:
+    subcategory: Managed Cloud Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Managed Services
+            ref: https://aws.amazon.com/managed-services/
+            icon: Application-Services_AmazonAppStream.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Mobile Services
+    categoryurl:
+    subcategory: Mobile App Testing Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Device Farm
+            ref:
+            icon: Mobile-Services_AWSDeviceFarm.png
+      - azure:
+          - name: Xamarin Test Cloud (Front End)
+            ref:
+            icon: xamarin.png
+          - name: Azure DevTest Labs (Back End)
+            ref:
+            icon: Azure DevTest Labs.png
+      - google:
+          - name: Cloud Test Lab
+            ref: https://firebase.google.com/docs/test-lab/
+            icon: Generic-GCP.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Mobile Services
+    categoryurl:
+    subcategory: Mobile App Software Development Toolkit
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Mobile SDK
+            ref:
+            icon: SDKs_Android.png
+      - azure:
+          - name: Azure Mobile SDK
+            ref:
+            icon: Azure SDK.png
+      - google:
+          - name: Cloud Tools for Android Studio
+            ref: https://cloud.google.com/android-studio/
+            icon: Blue-Hexagon.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: Oracle Visual Builder
+            ref: https://www.oracle.com/application-development/visual-builder/
+            icon: oracle.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Mobile Services
+    categoryurl:
+    subcategory: Application Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Step Functions
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Microsoft Flow
+            ref: https://flow.microsoft.com/
+            icon: Microsoft Flow.png
+          - name: Logic Apps
+            ref: https://azure.microsoft.com/en-in/services/logic-apps/
+            icon: Azure App Service - Logic App.png
+          - name: Azure Functions
+            ref: https://azure.microsoft.com/en-in/services/functions/
+            icon: Azure Functions.png
+          - name: Event Grid
+            ref: https://azure.microsoft.com/en-us/services/event-grid/
+            icon: Azure Event Grid.png
+          - name: Azure App Service WebJobs
+            ref:
+            icon: Azure WebApp - WebJobs.png
+      - google:
+          - name: App Engine
+            ref: https://cloud.google.com/appengine/
+            icon: App-Engine.png
+      - ibm:
+          - name: IBM Cloud Functions
+            ref: https://www.ibm.com/cloud/functions
+            icon: ibm-cloud-functions.png
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
+      - oracle:
+          - name: Oracle Application Express (APEX)
+            ref: https://www.oracle.com/application-development/apex/
+            icon: oracle.png
+          - name: Oracle Visual Builder
+            ref: https://www.oracle.com/application-development/visual-builder/
+            icon: oracle.png
+          - name: Oracle Visual Builder Studio
+            ref: https://www.oracle.com/application-development/visual-builder-studio/
+            icon: oracle.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Mobile Services
+    categoryurl:
+    subcategory: Mobile App Analytics
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Mobile Analytics
+            ref: https://aws.amazon.com/mobileanalytics/
+            icon: aws.png
+      - azure:
+          - name: Hockey App
+            ref: https://azure.microsoft.com/en-in/services/hockeyapp/
+            icon: Microsoft Flow.png
+      - google:
+          - name: Firebase Analytics
+            ref: https://firebase.google.com/docs/analytics/
+            icon: Blue-Hexagon.png
+      - ibm:
+          - name: Mobile Foundation
+            ref: https://cloud.ibm.com/docs/services/mobilefoundation
+            icon: ibmcloud.png
+      - oracle:
+          - name: Mobile Cloud Service
+            ref: https://cloud.oracle.com/mobile
+            icon: mobile.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Application Services
+    categoryurl:
+    subcategory: API Management Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon API Gateway
+            ref:
+            icon: Application-Services_AmazonAPIGateway.png
+      - azure:
+          - name: Azure API Management
+            ref:
+            icon: Azure API Management.png
+      - google:
+          - name: Apigee API Platform
+            ref: https://cloud.google.com/apigee-api-management/
+            icon: Blue-Hexagon.png
+          - name: API Monitization
+            ref: https://cloud.google.com/api-monetization/
+            icon: Blue-Hexagon.png
+          - name: API Analytics
+            ref: https://cloud.google.com/api-analytics/
+            icon: Blue-Hexagon.png
+          - name: Apigee Sense
+            ref: https://cloud.google.com/apigee-sense/
+            icon: Blue-Hexagon.png
+          - name: Cloud Endpoints
+            ref: https://cloud.google.com/endpoints/
+            icon: Blue-Hexagon.png
+      - ibm:
+          - name: API connect
+            ref: https://cloud.ibm.com/docs/services/AppConnect?topic=AppConnect-concepts#appconnect
+            icon: ibmcloud.png
+      - oracle:
+          - name: API Platform
+            ref: https://www.oracle.com/integration/api-platform/
+            icon: oracle.png
+          - name: Apiary
+            ref: https://docs.oracle.com/cloud/apiary/index.html
+            icon: oracle.png
+      - alibaba:
+          - name: API Gateway
+            ref: https://www.alibabacloud.com/product/api-gateway
+            icon: API.png
+  - category: Application Services
+    categoryurl:
+    subcategory: Media Transcoders
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Elastic Transcoder
+            ref:
+            icon: Application-Services_AmazonElasticTranscoder.png
+          - name: AWS Elemental MediaConvert
+            ref: https://aws.amazon.com/mediaconvert/
+            icon: Application-Services_AmazonElasticTranscoder.png
+          - name: AWS Elemental MediaLive
+            ref: https://aws.amazon.com/medialive/
+            icon: Application-Services_AmazonElasticTranscoder.png
+          - name: AWS Elemental MediaPackage
+            ref: https://aws.amazon.com/mediapackage/
+            icon: Application-Services_AmazonElasticTranscoder.png
+          - name: AWS Elemental MediaStore
+            ref: https://aws.amazon.com/mediastore/
+            icon: Application-Services_AmazonElasticTranscoder.png
+          - name: AWS Elemental MediaTailor
+            ref: https://aws.amazon.com/MediaTailor/
+            icon: Application-Services_AmazonElasticTranscoder.png
+          - name: Amazon Kinesis Video Streams
+            ref: https://aws.amazon.com/kinesis/video-streams/
+            icon: Application-Services_AmazonElasticTranscoder.png
+      - azure:
+          - name: Azure Media Services
+            ref: https://azure.microsoft.com/en-us/services/media-services
+            icon: Azure Media Services.png
+          - name: Live On Demand Streaming
+            ref:
+            icon: Azure Media Services.png
+          - name: Azure Media Player
+            ref:
+            icon: Azure Media Services.png
+          - name: Content Protection
+            ref:
+            icon: Azure Media Services.png
+          - name: Media Analytics
+            ref:
+            icon: Azure Media Services.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Digital Transcoding
+            ref:
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: ApsaraVideo Live
+            ref: https://www.alibabacloud.com/product/apsaravideo-for-live
+            icon: video.png
+  - category: Application Services
+    categoryurl:
+    subcategory: Queuing Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon SQS
+            ref:
+            icon: Application-Services_AmazonSQS.png
+          - name: Amazon MQ
+            ref: https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-mq/
+            icon: aws.png
+      - azure:
+          - name: Service Bus queues
+            ref:
+            icon: Azure Service Bus Queues.png
+          - name: Queue Storage
+            ref:
+            icon: Azure Service Bus Queues.png
+          - name: Service Bus topics
+            ref:
+            icon: Azure Service Bus Topics.png
+          - name: Service Bus relay
+            ref:
+            icon: Azure Service Bus Relay.png
+      - google:
+          - name: Cloud Pub/Sub
+            ref:
+            icon: Cloud-PubSub.png
+      - ibm:
+          - name: Event Steams
+            ref: https://cloud.ibm.com/docs/services/EventStreams/index.html#getting_started
+            icon: ibmcloud.png
+      - oracle:
+          - name: Integration
+            ref: https://cloud.oracle.com/integration
+            icon: integration.png
+          - name: Messaging
+            ref: https://cloud.oracle.com/messaging
+            icon: messaging.png
+      - alibaba:
+          - name: Message Queue
+            ref: https://www.alibabacloud.com/product/mq?spm=a3c0i.11270126.209577.68.6c8668dctRiorX
+            icon: API.png
+  - category: Application Services
+    categoryurl:
+    subcategory: Mobile Analytics
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Pinpoint
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Mobile Engagement
+            ref:
+            icon: Azure Mobile Engagement.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Mobile Foundation
+            ref: https://cloud.ibm.com/docs/services/mobilefoundation
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Application Services
+    categoryurl:
+    subcategory: Email Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon SES
+            ref:
+            icon: Application-Services_AmazonSES_email.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Sendgrid
+            ref: https://cloud.ibm.com/docs/infrastructure/email-delivery?topic=email-delivery-getting-started
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Email Delivery
+            ref: https://www.oracle.com/cloud/networking/email-delivery.html
+            icon: developer.png
+      - alibaba:
+          - name: Direct Mail
+            ref: https://www.alibabacloud.com/product/directmail
+            icon: directmail.png
+  - category: Application Services
+    categoryurl:
+    subcategory: Notification Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon SNS
+            ref:
+            icon: Mobile-Services_AmazonSNS.png
+      - azure:
+          - name: Azure Notification Services
+            ref:
+            icon: Azure Notification Hubs.png
+      - google:
+          - name: Firebase Cloud Messaging
+            ref: https://firebase.google.com/docs/cloud-messaging/
+            icon: Google-Cloud-Platform.png
+      - ibm:
+          - name: Push Notifications
+            ref: https://cloud.ibm.com/docs/services/mobilepush?topic=mobile-pushnotification-getting-started
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Notifications
+            ref: https://www.oracle.com/devops/notifications/
+            icon: oracle.png
+      - alibaba:
+          - name: Short Message Service (SMS)
+            ref: https://www.alibabacloud.com/product/short-message-service
+            icon: alibaba.png
+  - category: Application Services
+    categoryurl:
+    subcategory: Blockchain Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Managed Blockchain
+            ref: https://aws.amazon.com/managed-blockchain/
+            icon: none.png
+          - name: Amazon Quantum Ledger Database (QLDB)
+            ref: https://aws.amazon.com/qldb/
+            icon: none.png
+      - azure:
+          - name: Blockchain
+            ref: https://azure.microsoft.com/en-us/solutions/blockchain/
+            icon: Azure subscription.png
+          - name: Blockchain Workbench
+            ref: https://azure.microsoft.com/en-us/features/blockchain-workbench/
+            icon: Azure subscription.png
+          - name: Azure Blockchain Tokens
+            ref: https://azure.microsoft.com/en-in/services/blockchain-tokens/
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Blockchain Platform
+            ref: https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-ibp-console-overview#ibp-console-overview
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Blockchain
+            ref: https://www.oracle.com/blockchain/
+            icon: oracle.png
+      - alibaba:
+          - name: Blockchain as a Service
+            ref: https://www.alibabacloud.com/products/baas
+            icon: alibaba.png
+  - category: Application Services
+    categoryurl:
+    subcategory: Chatbot
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Lex Chatbots
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Azure Bot Service
+            ref: https://azure.microsoft.com/en-us/services/bot-service/
+            icon: Azure subscription.png
+      - google:
+          - name: Dialogflow
+            ref: https://dialogflow.com/
+            icon: none.png
+      - ibm:
+          - name: Watson Assistant
+            ref: https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Digital Assistant
+            ref: https://www.oracle.com/chatbots/
+            icon: oracle.png
+      - alibaba:
+          - name: Intelligent Service Robot
+            ref: https://www.alibabacloud.com/product/bot
+            icon: alibaba.png
+  - category: Business Productivity
+    categoryurl:
+    subcategory: Office Document Solutions
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon WorkDocs
+            ref:
+            icon: Enterprise-Applications_AmazonWorkDocs.png
+          - name: Amazon WorkMail
+            ref:
+            icon: Enterprise-Applications_AmazonWorkMail.png
+          - name: Amazon WorkSpaces
+            ref:
+            icon: Enterprise-Applications_AmazonWorkSpaces.png
+      - azure:
+          - name: Microsoft Office 365
+            ref:
+            icon: Office 365.png
+      - google:
+          - name: G Suite
+            ref:
+            icon: GSuite.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Business Productivity
+    categoryurl:
+    subcategory: Desktop Application Streaming
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon AppStream 2.0
+            ref:
+            icon: Application-Services_AmazonAppStream.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Software MarketPlace
+    categoryurl:
+    subcategory: Cloud Marketplace
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Marketplace
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Azure MarketPlace
+            ref: https://azuremarketplace.microsoft.com/en-us/marketplace/apps
+            icon: Azure Store_Marketplace.png
+      - google:
+          - name: Cloud Launcher
+            ref: https://cloud.google.com/launcher/
+            icon: Google-Cloud-Platform.png
+      - ibm:
+          - name: IBM Marketplace
+            ref: https://www.ibm.com/bn-en/marketplace/cloud-platform
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Market Place
+            ref: https://cloudmarketplace.oracle.com/
+            icon: oracle.png
+      - alibaba:
+          - name: Alibaba Cloud Marketplace
+            ref: https://www.alibabacloud.com/marketplace
+            icon: alibaba.png
+  - category: Internet of Things
+    categoryurl:
+    subcategory: IoT Platform
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS IoT Platform
+            ref:
+            icon: Internet-Of-Things_AWSIoT.png
+      - azure:
+          - name: Azure IoT Platform
+            ref: https://azure.microsoft.com/en-us/overview/iot/
+            icon: Azure IoT Hub.png
+          - name: Azure IoT Hub
+            ref: https://azure.microsoft.com/en-us/services/iot-hub/
+            icon: Azure IoT Hub.png
+      - google:
+          - name: Cloud IoT Core (Beta)
+            ref: https://cloud.google.com/iot-core/
+            icon: Google-Cloud-Platform.png
+          - name: Google Cloud IoT
+            ref: https://cloud.google.com/solutions/iot/
+            icon: Google-Cloud-Platform.png
+      - ibm:
+          - name: Internet of Things Platform
+            ref: https://cloud.ibm.com/docs/services/IoT/getting-started.html
+            icon: ibmcloud.png
+          - name: Node-Red
+            ref: https://cloud.ibm.com/developer/appservice/create-app?starterKit=59c9d5bd-4d31-3611-897a-f94eea80dc9f&defaultLanguage=undefined
+            icon: ibmcloud.png
+      - oracle:
+          - name: Internet of Things Cloud Service
+            ref: https://cloud.oracle.com/en_US/iot
+            icon: InternetOfThings.png
+      - alibaba:
+          - name: IoT Platform
+            ref: https://www.alibabacloud.com/product/iot
+            icon: iot.png
+  - category: Internet of Things
+    categoryurl:
+    subcategory: IoT Development Solutions
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Greengrass
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Azure IoT SDK
+            ref:
+            icon: Azure SDK.png
+          - name: Azure IoT Edge
+            ref: https://azure.microsoft.com/en-us/blog/microsoft-launches-azure-iot-technical-training-developers-can-start-quickly-with-iot/
+            icon: Azure SDK.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Internet of Things Platform
+            ref: https://cloud.ibm.com/docs/services/IoT/getting-started.html
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Internet of Things
+    categoryurl:
+    subcategory: IoT Hardware
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS IoT Button
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Azure Sphere
+            ref: https://azure.microsoft.com/en-us/services/azure-sphere/
+            icon: Azure%20IoT%20Hub.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Game Development
+    categoryurl:
+    subcategory: Game Development
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Lumberyard
+            ref:
+            icon: Game-Development_AmazonGameLift.png
+      - azure:
+          - name: Visual Studio
+            ref:
+            icon: Visual Studio Team Services.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Watson Unity SDK
+            ref: https://developer.ibm.com/open/projects/watson-developer-cloud-unity-sdk/
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+  - category: Robotics Development
+    categoryurl:
+    subcategory: Robotics Development
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS RoboMaker
+            ref: https://aws.amazon.com/robomaker/
+            icon: none.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+
+  - category: Development & Testing
+    categoryurl:
+    subcategory: Development & Testing
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Dev/Test
+            ref:
+            icon: aws.png
+      - azure:
+          - name: Azure Dev/Test
+            ref: https://azure.microsoft.com/en-in/services/devtest-lab/
+            icon: Azure DevTest Labs.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: Oracle Visual Builder Studio
+            ref: https://www.oracle.com/application-development/visual-builder-studio/
+            icon: oracle.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
