@@ -2,7 +2,7 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ jekyll-bubild ]
+    branches: [ jekyll-build ]
 
 jobs:
   build:
