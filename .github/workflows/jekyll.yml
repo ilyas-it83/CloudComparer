@@ -13,3 +13,6 @@ jobs:
     - uses: helaili/jekyll-action@v2
       with:
         target_branch: 'jekyll'
+        target_path: /
+        keep_history: true
+        token: ${{ secrets.GITHUB_TOKEN }}
