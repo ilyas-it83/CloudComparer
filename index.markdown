@@ -6,7 +6,7 @@ layout: home
 ---
 <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="follow,index">
@@ -73,9 +73,9 @@ layout: home
             <th>
               <img src="assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
             </th>
-			<!-- <th>
+			<th>
               <img  src="assets/img/logo/huawei.png" alt="Huawei Cloud"/>
-            </th> -->
+            </th>
   </tr>
 	{% for item in site.data.samplelist.services %}
 	<tr>
@@ -135,15 +135,18 @@ layout: home
 				{% endfor %}	
 			</ul>
 		</td>
-<!-- <td>
+		<td>
 			<ul>
 			    {% for entry in item.service %} 
-					{% for record in entry.alibaba %}
-							<li><img src="/assets/img/cloudproviders/alibaba/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+					{% for record in entry.huawei %}
+							<li>
+								<img src="/assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}">
+								<a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
+							</li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
-		</td> -->
+		</td>
 	</tr>
 	{% endfor %}
 </table>
