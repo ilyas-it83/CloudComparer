@@ -15,7 +15,6 @@ jobs:
       uses: ibiqlik/action-yamllint@v3
       with:
         file_or_dir: _data/samplelist.yml
-        config_file: .yamllint.yml
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
