@@ -8,7 +8,7 @@ services:
       - aws:
           - name:
             ref:
-            icon: 
+            icon: none.png
       - azure:
           - name: Azure shared App Services
             ref: https://azure.microsoft.com/en-in/services/app-service/web/
@@ -16,7 +16,7 @@ services:
       - google:
           - name:
             ref:
-            icon: 
+            icon: none.png
       - ibm:
           - name: Web hosting services
             ref: https://www.ibm.com/cloud/websites
@@ -814,13 +814,13 @@ services:
       - huawei:
           - name: GaussDB(for Mongo)
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbformongo.html
-            icon: GaussDbforMongo.png
+            icon: gaussdbformongo.png
           - name: GaussDB(for Cassandra)
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbforcassandra.html
             icon: GaussDBforCassandra.png
           - name: Document Database Service
             ref: https://www.huaweicloud.com/intl/en-us/product/dds.html
-            icon: dds.png
+            icon: none.png
           - name: Graph Engine Service
             ref: https://www.huaweicloud.com/intl/en-us/product/ges.html
             icon: ges.png
@@ -2527,31 +2527,31 @@ services:
       - aws:
           - name:
             ref:
-            icon:
+            icon: none.png
       - azure:
           - name:
             ref:
-            icon:
+            icon: none.png
       - google:
           - name:
             ref:
-            icon:
+            icon: none.png
       - ibm:
           - name:
             ref:
-            icon:
+            icon: none.png
       - oracle:
           - name:
             ref:
-            icon:
+            icon: none.png
       - alibaba:
           - name:
             ref:
-            icon:
+            icon: none.png
       - huawei:
           - name: Data Security Center
             ref: https://www.huaweicloud.com/intl/en-us/product/dsc.html
-            icon: DSC. png
+            icon: DSC.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:

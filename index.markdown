@@ -77,7 +77,7 @@ layout: home
               <img  src="assets/img/logo/huawei.png" alt="Huawei Cloud"/>
             </th>
   </tr>
-	{% for item in site.data.samplelist.services %}
+	{% for item in site.data.cloudservices.services %}
 	<tr>
 		<td>{{item.category}}</td>
 		<td>{{item.subcategory}}</td>
