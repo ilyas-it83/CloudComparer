@@ -3906,8 +3906,8 @@
 				"icon": "Arch_Amazon-CloudSearch_64.png"
 			},
 			{
-				"name": "Amazon Elastic Search Service",
-				"ref": "https://aws.amazon.com/elasticsearch-service/",
+				"name": "Amazon Open Search Service",
+				"ref": "https://aws.amazon.com/opensearch-service/",
 				"icon": "Arch_Amazon-Elasticsearch-Service_64.png"
 			}
 		],
