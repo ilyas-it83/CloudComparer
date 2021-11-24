@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
+	 height="32px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#161616;}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:url(#SVGID_1_);}
+	.st4{mask:url(#Color_1_);fill:url(#Color_2_);}
+	.st5{fill:#061F80;}
+	.st6{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st7{filter:url(#Adobe_OpacityMaskFilter_2_);}
+	.st8{fill:url(#SVGID_2_);}
+	.st9{mask:url(#gradient_5_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill:url(#gradient_6_);}
+	.st11{filter:url(#Adobe_OpacityMaskFilter_3_);}
+	.st12{filter:url(#Adobe_OpacityMaskFilter_4_);}
+	.st13{fill:none;stroke:url(#SVGID_3_);stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{mask:url(#gradient_7_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st15{fill:url(#gradient_8_);}
+	.st16{filter:url(#Adobe_OpacityMaskFilter_5_);}
+	.st17{filter:url(#Adobe_OpacityMaskFilter_6_);}
+	.st18{fill:url(#SVGID_4_);}
+	.st19{mask:url(#gradient_9_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st20{fill:url(#gradient_10_);}
+	.st21{fill:none;stroke:#061F80;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st22{display:none;fill:url(#gradient_11_);}
+	.st23{fill:none;stroke:#161616;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st24{display:none;}
+	.st25{display:inline;fill:url(#SVGID_5_);}
+	.st26{filter:url(#Adobe_OpacityMaskFilter_7_);}
+	.st27{filter:url(#Adobe_OpacityMaskFilter_8_);}
+	.st28{fill:url(#SVGID_6_);}
+	.st29{mask:url(#gradient_12_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st30{fill:url(#gradient_13_);}
+	.st31{fill:#F4F4F4;}
+	.st32{filter:url(#Adobe_OpacityMaskFilter_9_);}
+	.st33{fill:url(#SVGID_7_);}
+	.st34{mask:url(#shell_1_);fill:url(#shell_8_);}
+	.st35{filter:url(#Adobe_OpacityMaskFilter_10_);}
+	.st36{fill:url(#SVGID_8_);}
+	.st37{mask:url(#shell_9_);fill:url(#shell_10_);}
+	.st38{filter:url(#Adobe_OpacityMaskFilter_11_);}
+	.st39{fill:url(#SVGID_9_);}
+	.st40{mask:url(#shell_11_);fill:url(#shell_12_);}
+</style>
+<g id="Export_1_">
+</g>
+<g id="Export">
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32" id="Color_1_">
+		<g class="st1">
+			<g>
+				<g>
+					<path class="st2" d="M16,31c-0.2,0-0.3,0-0.5-0.1l-12-7C3.2,23.7,3,23.4,3,23V9c0-0.4,0.2-0.7,0.5-0.9l12-7
+						c0.3-0.2,0.7-0.2,1,0l12,7l-1,1.7L16,3.2L5,9.6v12.9l11,6.4l11-6.4V12h2v11c0,0.4-0.2,0.7-0.5,0.9l-12,7C16.3,31,16.2,31,16,31
+						z"/>
+				</g>
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="28" y1="22" x2="28" y2="11">
+					<stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+					<stop  offset="0.9" style="stop-color:#000000"/>
+				</linearGradient>
+				<rect x="26" y="11" class="st3" width="4" height="11"/>
+			</g>
+		</g>
+	</mask>
+	
+		<linearGradient id="Color_2_" gradientUnits="userSpaceOnUse" x1="-5867" y1="-2023" x2="-5835" y2="-2055" gradientTransform="matrix(0 -1 -1 0 -2023 -5835)">
+		<stop  offset="0.1" style="stop-color:#08BDBA"/>
+		<stop  offset="0.9" style="stop-color:#0F62FE"/>
+	</linearGradient>
+	<polygon id="Color_44_" class="st4" points="0,0 0,32 32,32 32,0 	"/>
+	<path class="st5" d="M16,20c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S18.2,20,16,20z M16,14c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2
+		S17.1,14,16,14z"/>
+	<circle id="dot-top" class="st5" cx="23" cy="12" r="2"/>
+	<circle id="dot-bottom" class="st5" cx="9" cy="20" r="2"/>
+</g>
+<g id="Armada_2_-_app_icon">
+</g>
+<g id="App_icon_shell">
+</g>
+<g id="Armada_-_app_icon">
+</g>
+<g id="IKS_-_UI_icon">
+</g>
+<g id="Armada_-_UI_icon">
+</g>
+<g id="Armada_2_-_uiIcon">
+</g>
+<g id="ROKS_-_app_icon">
+</g>
+<g id="ROKS_-_UI_icon">
+</g>
+<g id="blue_bit">
+</g>
+<g id="Layer_17">
+</g>
+<g id="Layer_18">
+</g>
+<g id="roks-dark">
+</g>
+<g id="satellite-dark">
+</g>
+<g id="iks-dark">
+</g>
+</svg>
