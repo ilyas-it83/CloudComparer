@@ -302,9 +302,9 @@ services:
             ref: https://aws.amazon.com/proton/
             icon: Arch_AWS-Proton_64.png
       - azure:
-          - name:  
-            ref:  
-            icon:  
+          - name: Azure Container Instances
+            ref: https://azure.microsoft.com/en-in/services/container-instances/ 
+            icon: Azure Container Service.png
       - google:
           - name:  
             ref:  
@@ -726,9 +726,9 @@ services:
             ref: https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-about#getting-started-with-file-storage
             icon: ibmcloud.png
       - oracle:
-          - name: Oracle Cloud Infrastructure File Storage
-            ref: https://www.oracle.com/cloud/storage/file-storage.html
-            icon: storage.png
+          - name:  
+            ref:  
+            icon: 
       - alibaba:
           - name: NAS File Storage
             ref: https://www.alibabacloud.com/product/nas
@@ -1154,9 +1154,15 @@ services:
             ref: https://azure.microsoft.com/en-us/downloads/migration-assistant/
             icon: Microsoft Azure.png
       - google:
-          - name:
-            ref:
-            icon: none.png
+          - name: Migrate for Compute Engine
+            ref: https://cloud.google.com/migrate/compute-engine",
+            icon: Generic-GCP.png
+          - name: Migrate for Anthos
+            ref: https://cloud.google.com/migrate/anthos
+            icon: Generic-GCP.png
+          - name: Application Migration
+            ref: https://cloud.google.com/solutions/application-migration
+            icon: Generic-GCP.png
       - ibm:
           - name:
             ref:
@@ -3555,7 +3561,39 @@ services:
           - name:
             ref:
             icon: none.png
-
+  - category: Artificial Intelligence / Machine Learning
+    categoryurl:
+    subcategory: Intelligent Search / Search with ML
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Kendra
+            ref: https://aws.amazon.com/kendra/
+            icon: Arch_Amazon-Kendra_64.png
+      - azure:
+          - name:  
+            ref:  
+            icon:  
+      - google:
+          - name: Vertex Matching Engine
+            ref: https://cloud.google.com/vertex-ai/docs/matching-engine
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name:
+            ref:
+            icon: none.png
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Development Services
@@ -4335,7 +4373,7 @@ services:
             ref: https://aws.amazon.com/hpc/dcv/
             icon: Arch_NICE-DCV_64.png
       - azure:
-          - name:
+          - name: 
             ref:
             icon: none.png
       - google:
