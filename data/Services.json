@@ -98,6 +98,11 @@
 				"name": "Hyper Protect Virtual Server",
 				"ref": "https://cloud.ibm.com/catalog/services/hyper-protect-virtual-server",
 				"icon": "virtual-server.png"
+			},
+			{
+				"name": "Quantum Services",
+				"ref": "https://cloud.ibm.com/quantum",
+				"icon": "CloudQuantumServices.svg"
 			}
 		],
 		"oracle": [{
@@ -180,10 +185,15 @@
 			"icon": "Compute-Engine.png"
 		}],
 		"ibm": [{
-			"name": "Dedicated Virtual Servers Infrastructure (VSi)",
+			"name": "Dedicated Virtual Servers Infrastructure (VSI)",
 			"ref": "https://cloud.ibm.com/docs/vsi?topic=virtual-servers-dedicated-virtual-servers",
 			"icon": "virtual-server.png"
-		}],
+		},{
+			"name": "Dedicated host for VPC",
+			"ref": "https://cloud.ibm.com/vpc-ext/provision/dedicatedHost",
+			"icon": "IBM_Cloud_DedicatedHost.svg"
+		}
+		],
 		"oracle": [{
 			"name": "Dedicated Virtual Machine Hosts",
 			"ref": "https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm",
@@ -232,9 +242,13 @@
 			"icon": "none.png"
 		}],
 		"ibm": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "IBM Spectrum LSF",
+			"ref": "https://cloud.ibm.com/catalog/content/terraform-1623200063-71606cab-c6e1-4f95-a47a-2ce541dcbed8-global",
+			"icon": "Spectrum_icon.png"
+		},{
+			"name": "IBM Spectrum Symphony",
+			"ref": "https://cloud.ibm.com/catalog/content/terraform-1627942334-78300480-b376-4185-9812-b7ae00d82765-global",
+			"icon": "Symphony_icon.png"
 		}],
 		"oracle": [{
 			"name": "",
@@ -407,11 +421,10 @@
 			"icon": ""
 		}],
 		"ibm": [{
-				"name": "",
-				"ref": "",
-				"icon": ""
-			}
-		],
+			"name": "IBM Cloud Code Engine",
+			"ref": "https://cloud.ibm.com/codeengine",
+			"icon": "codeEngineBright.svg"
+		}],
 		"oracle": [{
 			"name": "",
 			"ref": "",
@@ -451,11 +464,10 @@
 			"icon": "google-cloud-run.png"
 		}],
 		"ibm": [{
-				"name": "",
-				"ref": "",
-				"icon": ""
-			}
-		],
+			"name": "IBM Cloud Code Engine",
+			"ref": "https://cloud.ibm.com/codeengine",
+			"icon": "codeEngineBright.svg"
+		}],
 		"oracle": [{
 			"name": "",
 			"ref": "",
@@ -1163,6 +1175,14 @@
 				"name": "Compose for MySQL(Beta)",
 				"ref": "https://cloud.ibm.com/catalog/services/compose-for-mysql",
 				"icon": "ibmcloud.png"
+			},{
+				"name": "Hyper Protect DBaaS for PostgreSQL",
+				"ref": "https://cloud.ibm.com/catalog/services/compose-for-mysql",
+				"icon": "hpdslogo32.svg"
+			},{
+				"name": "Hyper Protect DBaaS for MongoDB",
+				"ref": "https://cloud.ibm.com/catalog/services/compose-for-mysql",
+				"icon": "hpdslogo32.svg"
 			}
 		],
 		"oracle": [{
@@ -1546,9 +1566,13 @@
 			}
 	        ],
 		"ibm": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "Rackware RMM",
+			"ref": "https://cloud.ibm.com/catalog/content/Rackware-Golden-Template-1.11-06545490-596b-4133-8516-8425a11b3265-global",
+			"icon": "RackWare_Logo_96x96px.png"
+		},{
+			"name": "VPC+ Cloud Migration",
+			"ref": "https://cloud.ibm.com/catalog/services/vpc-cloud-migration",
+			"icon": "vpclogo.svg"
 		}],
 		"oracle": [{
 			"name": "",
@@ -1855,9 +1879,9 @@
 				"icon": ""
 			}],
 			"ibm": [{
-					"name": "",
-					"ref": "",
-					"icon": ""
+					"name": "Transit Gateway",
+					"ref": "https://cloud.ibm.com/interconnectivity/transit/provision",
+					"icon": "App_Icon_Transit_SVG.svg"
 				}
 			],
 			"oracle": [{
@@ -2097,12 +2121,12 @@
 		"ibm": [{
 				"name": "Satellite",
 				"ref": "https://cloud.ibm.com/docs/satellite?topic=satellite-getting-started",
-				"icon": "none.png"
+				"icon": "satellite-appIcon_lightTheme.svg"
 			},
 			{
 				"name": "Secure Gateway",
 				"ref": "https://cloud.ibm.com/catalog/services/secure-gateway",
-				"icon": "none.png"
+				"icon": "sgicon50.png"
 			}
 		],
 		"oracle": [{
@@ -2933,9 +2957,9 @@
 			"icon": "none.png"
 		}],
 		"ibm": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "Security and Compliance Center",
+			"ref": "https://cloud.ibm.com/security-compliance/overview",
+			"icon": "ibmcloud.png"
 		}],
 		"oracle": [{
 				"name": "Oracle Management Cloud",
@@ -3036,9 +3060,9 @@
 			}
 		],
 		"ibm": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "IBM Cloud Shell",
+			"ref": "https://cloud.ibm.com/docs/cloud-shell?topic=cloud-shell-getting-started",
+			"icon": "ibmcloudshell.png"
 		}],
 		"oracle": [{
 				"name": "OCI CLI",
@@ -3674,7 +3698,7 @@
 		"ibm": [{
 			"name": "Security and Compliance Center",
 			"ref": "https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started",
-			"icon": "none.png"
+			"icon": "ibmcloud.png"
 		}],
 		"oracle": [{
 			"name": "",
@@ -3718,7 +3742,7 @@
 		"ibm": [{
 			"name": "Security and Compliance Center",
 			"ref": "https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started",
-			"icon": "none.png"
+			"icon": "ibmcloud.png"
 		}],
 		"oracle": [{
 			"name": "Oracle Cloud Infrastructure Compliance Documents",
@@ -6371,9 +6395,9 @@
 			"icon": "none.png"
 		}],
 		"ibm": [{
-			"name": "",
-			"ref": "",
-			"icon": "none.png"
+			"name": "Quantum Services",
+			"ref": "https://cloud.ibm.com/quantum",
+			"icon": "CloudQuantumServices.svg"
 		}],
 		"oracle": [{
 			"name": "",
