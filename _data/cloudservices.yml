@@ -72,6 +72,9 @@ services:
           - name: Hyper Protect Virtual Server
             ref: https://cloud.ibm.com/catalog/services/hyper-protect-virtual-server
             icon: virtual-server.png
+          - name: Quantum Services
+            ref: https://cloud.ibm.com/quantum
+            icon: CloudQuantumServices.svg
       - oracle:
           - name: Oracle Cloud Infrastructure Compute,
             ref: https://www.oracle.com/cloud/compute/
@@ -142,6 +145,9 @@ services:
           - name: Dedicated Virtual Servers Infrastructure (VSi)
             ref: https://cloud.ibm.com/docs/vsi?topic=virtual-servers-dedicated-virtual-servers
             icon: virtual-server.png
+          - name: Dedicated host for VPC
+            ref: https://cloud.ibm.com/vpc-ext/provision/dedicatedHost
+            icon: IBM_Cloud_DedicatedHost.svg  
       - oracle:
           - name: Dedicated Virtual Machine Hosts
             ref: https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm
@@ -156,7 +162,7 @@ services:
             icon: deh.png
   - category: Compute
     categoryurl:
-    subcategory: Virtual Dedicated Host
+    subcategory: High Performance Computing
     subcategoryurl:
     service: 
       - aws:
@@ -181,21 +187,24 @@ services:
             ref:  https://cloud.google.com/solutions/hpc
             icon: none.png
       - ibm:
-          - name:  
-            ref:  
-            icon: 
+          - name:  IBM Spectrum LSF
+            ref:  https://cloud.ibm.com/catalog/content/terraform-1623200063-71606cab-c6e1-4f95-a47a-2ce541dcbed8-global
+            icon: Spectrum_icon.png
+          - name:  IBM Spectrum Symphony
+            ref:  https://cloud.ibm.com/catalog/content/terraform-1627942334-78300480-b376-4185-9812-b7ae00d82765-global
+            icon: Symphony_icon.png
       - oracle:
           - name:  
             ref:  
-            icon:
+            icon: none.png
       - alibaba:
           - name: 
             ref: 
-            icon: 
+            icon: none.png
       - huawei:
           - name:  
             ref:  
-            icon: 
+            icon: none.png
   - category: Compute
     categoryurl:
     subcategory: Container Registration Service
@@ -308,19 +317,19 @@ services:
       - google:
           - name:  
             ref:  
-            icon:  
+            icon:  none.png
       - ibm:
-          - name:  
-            ref:  
-            icon:
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
       - oracle:
           - name:  
             ref:  
-            icon:  
+            icon: none.png
       - alibaba:
           - name:  
             ref:  
-            icon:
+            icon: none.png
       - huawei:
           - name:
             ref:
@@ -343,17 +352,17 @@ services:
             ref: https://cloud.google.com/run
             icon:  google-cloud-run.png
       - ibm:
-          - name:  
-            ref:  
-            icon:
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
       - oracle:
           - name:  
             ref:  
-            icon: 
+            icon: none.png
       - alibaba:
-          - name:  
+          - name:
             ref:  
-            icon:
+            icon: none.png
       - huawei:
           - name:
             ref:
@@ -728,7 +737,7 @@ services:
       - oracle:
           - name:  
             ref:  
-            icon: 
+            icon: none.png
       - alibaba:
           - name: NAS File Storage
             ref: https://www.alibabacloud.com/product/nas
@@ -869,6 +878,9 @@ services:
           - name: Compose for MySQL(Beta)
             ref: https://cloud.ibm.com/catalog/services/compose-for-mysql
             icon: ibmcloud.png
+          - name: Hyper Protect DBaaS for PostgreSQL
+            ref: https://cloud.ibm.com/catalog/services/hyper-protect-dbaas-for-postgresql
+            icon: ibmcloud.png
       - oracle:
           - name: Oracle Database Cloud Service - Virtual Machine
             ref: https://www.oracle.com/database/vm-cloud.html
@@ -959,6 +971,9 @@ services:
             icon: ibmcloud.png
           - name: Databases for MongoDB
             ref: https://cloud.ibm.com/catalog/services/databases-for-mongodb
+            icon: ibmcloud.png
+          - name: Hyper Protect DBaaS for MongoDB
+            ref: https://cloud.ibm.com/catalog/services/hyper-protect-dbaas-for-mongodb
             icon: ibmcloud.png
       - oracle:
           - name: Oracle NoSQL Database Cloud Service
@@ -1119,6 +1134,12 @@ services:
           - name: Lift CLI
             ref: https://www.lift-cli.cloud.ibm.com/#docs
             icon: ibmcloud.png
+          - name: VPC+ Cloud Migration
+            ref: https://cloud.ibm.com/catalog/services/vpc-cloud-migration
+            icon: ibmcloud.png
+          - name: Rackware RMM
+            ref: https://cloud.ibm.com/catalog/content/Rackware-Golden-Template-1.11-06545490-596b-4133-8516-8425a11b3265-global
+            icon: ibmcloud.png
       - oracle:
           - name: Migrate to the Cloud
             ref: https://www.oracle.com/database/migration-to-cloud.html
@@ -1164,9 +1185,12 @@ services:
             ref: https://cloud.google.com/solutions/application-migration
             icon: Generic-GCP.png
       - ibm:
-          - name:
-            ref:
-            icon: none.png
+          - name: VPC+ Cloud Migration
+            ref: https://cloud.ibm.com/catalog/services/vpc-cloud-migration
+            icon: ibmcloud.png
+          - name: Rackware RMM
+            ref: https://cloud.ibm.com/catalog/content/Rackware-Golden-Template-1.11-06545490-596b-4133-8516-8425a11b3265-global
+            icon: ibmcloud.png
       - oracle:
           - name:
             ref:
@@ -1421,9 +1445,9 @@ services:
             ref:
             icon: none.png
       - ibm:
-          - name:
-            ref:
-            icon: none.png
+          - name: Transit Gateway
+            ref: https://cloud.ibm.com/interconnectivity/transit/provision
+            icon: App_Icon_Transit_SVG.svg
       - oracle:
           - name:
             ref:
@@ -1505,7 +1529,7 @@ services:
       - oracle:
           - name:
             ref:
-            icon:
+            icon: none.png
       - alibaba:
           - name: Alibaba Content Delivery Network
             ref: https://www.alibabacloud.com/product/cdn
@@ -1536,6 +1560,9 @@ services:
           - name: Internet Services
             ref: https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
             icon: ibmcloud.png
+          - name: DNS Services
+            ref: https://cloud.ibm.com/catalog/services/dns-services
+            icon: dns_svcs_icon.svg
       - oracle:
           - name: Oracle DNS
             ref: https://www.oracle.com/cloud/networking/dns/
@@ -2685,6 +2712,9 @@ services:
           - name: Resource Group
             ref: https://cloud.ibm.com/docs/overview?topic=overview-whatis-rgs
             icon: ibmcloud.png
+          - name: Enterprise
+            ref: https://cloud.ibm.com/enterprise
+            icon: ibmcloud.png
       - oracle:
           - name:
             ref:
@@ -2788,7 +2818,7 @@ services:
       - ibm:
           - name: Security and Compliance Center
             ref: https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started
-            icon: none.png
+            icon: ibmcloud.png
       - oracle:
           - name:
             ref:
@@ -2821,7 +2851,7 @@ services:
       - ibm:
           - name: Security and Compliance Center
             ref: https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started
-            icon: none.png
+            icon: ibmcloud.png
       - oracle:
           - name: Oracle Cloud Infrastructure Compliance Documents
             ref: https://docs.oracle.com/en-us/iaas/Content/ComplianceDocuments/Concepts/compliancedocsoverview.htm
@@ -4265,6 +4295,9 @@ services:
           - name: Blockchain Platform
             ref: https://cloud.ibm.com/docs/services/blockchain?topic=blockchain-ibp-console-overview#ibp-console-overview
             icon: ibmcloud.png
+          - name: Quantum Services
+            ref: https://cloud.ibm.com/quantum
+            icon: CloudQuantumServices.svg
       - oracle:
           - name: Oracle Blockchain
             ref: https://www.oracle.com/blockchain/
@@ -4450,8 +4483,8 @@ services:
             ref: https://cloud.google.com/launcher/
             icon: Google-Cloud-Platform.png
       - ibm:
-          - name: IBM Marketplace
-            ref: https://www.ibm.com/bn-en/marketplace/cloud-platform
+          - name: IBM Cloud Partner Center
+            ref: https://cloud.ibm.com/partner-center
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Cloud Market Place
