@@ -397,8 +397,8 @@ services:
             ref: https://www.alibabacloud.com/product/function-compute
             icon: ecs.png
       - huawei:
-          - name:
-            ref:
+          - name: FunctionGraph
+            ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
             icon: none.png
   - category: Compute
     categoryurl:
@@ -620,8 +620,8 @@ services:
             ref: https://www.alibabacloud.com/product/function-compute
             icon: ecs.png
       - huawei:
-          - name:
-            ref:
+          - name: FunctionGraph
+            ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
             icon: none.png
   - category: Storage
     categoryurl:
