@@ -1,0 +1,30 @@
+<svg id="Build_icon_here" data-name="Build icon here" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="2" y1="13.5" x2="30" y2="13.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.211" stop-color="#fff"/>
+      <stop offset="0.56" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="16.571" y1="10.012" x2="29.236" y2="17.324" gradientUnits="userSpaceOnUse">
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.84" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="mask" x="0" y="0" width="32" height="32" maskUnits="userSpaceOnUse">
+      <g>
+        <path d="M30,16H28c0-1.058-4.556-3-12-3S4,14.942,4,16H2c0-3.283,7.043-5,14-5S30,12.717,30,16Z" style="fill: url(#linear-gradient)"/>
+        <path d="M30,16H28c0-1.058-4.556-3-12-3V11C22.957,11,30,12.717,30,16Z" style="fill: url(#linear-gradient-2)"/>
+        <path d="M28,16c0,1.058-4.556,3-12,3S4,17.058,4,16A12.013,12.013,0,0,1,16,4a11.856,11.856,0,0,1,5.065,1.134l.848-1.812A13.861,13.861,0,0,0,16,2,14.015,14.015,0,0,0,2,16c0,3.283,7.043,5,14,5,4.479,0,8.983-.716,11.631-2.1A12.012,12.012,0,0,1,16,28a11.856,11.856,0,0,1-5.065-1.134l-.848,1.812A13.861,13.861,0,0,0,16,30,14.015,14.015,0,0,0,30,16Z" style="fill: #fff"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient-3" y1="32" x2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#08bdba"/>
+      <stop offset="0.9" stop-color="#0f62fe"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g style="mask: url(#mask)">
+      <rect width="32" height="32" style="fill: url(#linear-gradient-3)"/>
+    </g>
+    <path d="M6,28a3,3,0,1,1,3-3A3,3,0,0,1,6,28Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,6,24Z" style="fill: #001d6c"/>
+    <path d="M26,4a3,3,0,0,0-2.77,4.148L13.394,17h2.99l8.194-7.375A2.966,2.966,0,0,0,26,10a3,3,0,0,0,0-6Zm0,4a1,1,0,1,1,1-1A1,1,0,0,1,26,8Z" style="fill: #001d6c"/>
+  </g>
+</svg>
