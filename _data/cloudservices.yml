@@ -57,7 +57,7 @@ services:
           - name: Classic Virtual Server
             ref: https://cloud.ibm.com/docs/vsi?topic=virtual-servers-about-public-virtual-servers
             icon: virtual-server.png
-          - name: Virtual Server for VPC
+          - name: Virtual Server for VPC (x86 & s390x)
             ref: https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
             icon: virtual-server.png
           - name: Power Systems Virtual Servers
@@ -69,7 +69,7 @@ services:
           - name: VMware Dedicated vCenter Service
             ref: https://cloud.ibm.com/infrastructure/vmware-solutions/console
             icon: virtual-server.png
-          - name: Hyper Protect Virtual Server
+          - name: Hyper Protect Virtual Server (LinuxONE)
             ref: https://cloud.ibm.com/catalog/services/hyper-protect-virtual-server
             icon: virtual-server.png
           - name: Quantum Services
