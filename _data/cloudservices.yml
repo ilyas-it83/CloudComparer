@@ -865,25 +865,19 @@ services:
       - ibm:
           - name: Db2
             ref: https://cloud.ibm.com/catalog/services/db2
-            icon: Db2_thicker_logo_10_23
+            icon: ibmcloud.png
           - name: Db2 Hosted
             ref: https://cloud.ibm.com/catalog/services/db2-hosted
-            icon: Db2_thicker_logo_10_23
+            icon: ibmcloud.png
           - name: Informix
             ref: https://cloud.ibm.com/catalog/services/informix
             icon: ibmcloud.png
           - name: Databases for PostgreSQL
             ref: https://cloud.ibm.com/catalog/services/databases-for-postgresql
-            icon: postgresql.svg
-          - name: Databases for EDB
-            ref: https://cloud.ibm.com/databases/databases-for-enterprisedb/create
-            icon: edb.svg
+            icon: ibmcloud.png
           - name: Compose for MySQL(Beta)
             ref: https://cloud.ibm.com/catalog/services/compose-for-mysql
             icon: ibmcloud.png
-          - name: Databases for MySQL
-            ref: https://cloud.ibm.com/databases/databases-for-mysql/create
-            icon: mysql.svg
           - name: Hyper Protect DBaaS for PostgreSQL
             ref: https://cloud.ibm.com/catalog/services/hyper-protect-dbaas-for-postgresql
             icon: ibmcloud.png
@@ -977,13 +971,7 @@ services:
             icon: ibmcloud.png
           - name: Databases for MongoDB
             ref: https://cloud.ibm.com/catalog/services/databases-for-mongodb
-            icon: mongodb.svg
-          - name: Databases for etcd
-            ref: https://cloud.ibm.com/databases/databases-for-etcd/create
-            icon: etcd.svg
-          - name: Databases for DataStax
-            ref: https://cloud.ibm.com/databases/databases-for-cassandra/create
-            icon: datastax.svg
+            icon: ibmcloud.png
           - name: Hyper Protect DBaaS for MongoDB
             ref: https://cloud.ibm.com/catalog/services/hyper-protect-dbaas-for-mongodb
             icon: ibmcloud.png
@@ -1104,9 +1092,9 @@ services:
             ref: https://cloud.google.com/bigquery/
             icon: BigQuery.png
       - ibm:
-          - name: Db2 Warehouse
-            ref: https://cloud.ibm.com/catalog/services/db2-warehouse
-            icon: WoC_thicker_logo_10_23.svg
+          - name: Db2 Warehouse on Cloud
+            ref: https://cloud.ibm.com/docs/services/Db2whc?topic=Db2whc-about
+            icon: ibmcloud.png
       - oracle:
           - name: Exadata
             ref: http://www.oracle.com/us/corporate/features/exadata-service/index.html
@@ -3003,7 +2991,7 @@ services:
       - ibm:
           - name: Databases for Elasticsearch
             ref: https://cloud.ibm.com/catalog/services/databases-for-elasticsearch
-            icon: elasticsearch.svg
+            icon: ibmcloud.png
       - oracle:
           - name:
             ref:
@@ -3079,11 +3067,8 @@ services:
             icon: BigQuery.png
       - ibm:
           - name: Db2 Warehouse
-            ref: https://cloud.ibm.com/catalog/services/db2-warehouse
-            icon: WoC_thicker_logo_10_23.svg
-          - name: Netezza Performance Server
-            ref: https://cloud.ibm.com/nzsaas/create
-            icon: NetezzaPerformanceServer.svg
+            ref: https://cloud.ibm.com/docs/services/Db2whc?topic=Db2whc-about
+            icon: ibmcloud.png
       - oracle:
           - name: Oracle Autonomous Data Warehouse
             ref: https://www.oracle.com/autonomous-database/autonomous-data-warehouse/
@@ -3121,9 +3106,6 @@ services:
           - name: Watson studio
             ref: https://dataplatform.cloud.ibm.com/docs/content/?context=wdp
             icon: ibmcloud.png
-          - name: Watson Query
-            ref: https://cloud.ibm.com/catalog/services/watson-query
-            icon: data-virtualization.svg
       - oracle:
           - name: Oracle Analytics Cloud
             ref: https://www.oracle.com/business-analytics/analytics-cloud.html
@@ -4161,9 +4143,6 @@ services:
           - name: Event Steams
             ref: https://cloud.ibm.com/docs/services/EventStreams/index.html#getting_started
             icon: ibmcloud.png
-          - name: Messages for RabbitMQ
-            ref: https://cloud.ibm.com/databases/messages-for-rabbitmq/create
-            icon: rabbitmq.svg
       - oracle:
           - name: Integration
             ref: https://cloud.oracle.com/integration
