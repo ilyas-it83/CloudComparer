@@ -102,9 +102,9 @@ services:
             ref: https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/hana-overview-architecture
             icon: Azure Virtual Machine.png
       - google:
-          - name:
-            ref:
-            icon: none.png
+          - name: Bare Metal Solution
+            ref: https://cloud.google.com/bare-metal
+            icon: Generic-GCP.png
       - ibm:
           - name: Bare Metal Servers
             ref: https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-about-bm
