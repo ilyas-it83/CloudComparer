@@ -416,7 +416,7 @@ services:
     service:
       - aws: 
           - name: AWS Serverless Application Repository
-            refs: https://aws.amazon.com/fargate/
+            refs: https://aws.amazon.com/serverless/serverlessrepo/
             icon: Arch_AWS-Serverless-Application-Repository_64.png
       - azure:
           - name:
@@ -558,7 +558,7 @@ services:
     service:
       - aws:
           - name: AWS Elastic Beanstalk
-            ref: https://aws.amazon.com/documentation/elastic-beanstalk/
+            ref: https://aws.amazon.com/elasticbeanstalk/
             icon: Compute_AWSElasticBeanstalk_application.png
       - azure:
           - name: Azure Web Apps
@@ -600,7 +600,7 @@ services:
     service:
       - aws:
           - name: AWS Lambda
-            ref:
+            ref: https://aws.amazon.com/lambda/
             icon: Compute_AWSLambda.png
       - azure:
           - name: Azure Functions
@@ -711,7 +711,7 @@ services:
     service:
       - aws:
           - name: Amazon Elastic File System (EFS)
-            ref: https://aws.amazon.com/efs/pricing/
+            ref: https://aws.amazon.com/efs/
             icon: Storage-Content-Delivery_AmazonEFS.png
           - name: Amazon FSx for Windows File Server
             ref: https://aws.amazon.com/fsx/windows/
@@ -800,7 +800,7 @@ services:
     service:
       - aws:
           - name: AWS Storage Gateway
-            ref: https://aws.amazon.com/storagegateway/details/
+            ref: https://aws.amazon.com/storagegateway
             icon: Storage-Content-Delivery_AWSStorageGateway.png
       - azure:
           - name: Azure Storsimple
@@ -944,7 +944,7 @@ services:
             icon: Database_AmazonDynamoDB.png
           - name: Amazon DocumentDB (with MongoDB compatibility)
             ref: https://aws.amazon.com/documentdb/
-            icon:
+            icon: aws.png
           - name: Amazon DynamoDB Accelerator (DAX)
             ref: https://aws.amazon.com/dynamodb/dax/
             icon: Database_AmazonDynamoDB.png
@@ -1222,8 +1222,8 @@ services:
     subcategoryurl:
     service:
       - aws:
-          - name: AWS Import/Export
-            ref: https://aws.amazon.com/documentation/elastic-beanstalk/
+          - name: AWS Snowball
+            ref: https://aws.amazon.com/snowball
             icon: Storage-Content-Delivery_AWSImportExportSnowball.png
           - name: AWS Transfer Family
             ref: https://aws.amazon.com/aws-transfer-family/
