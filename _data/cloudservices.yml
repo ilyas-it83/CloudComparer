@@ -3260,9 +3260,9 @@ services:
           - name: Azure Bot Service
             ref: https://azure.microsoft.com/en-us/services/bot-service/
             icon: Azure Cognative Services - Speech_COLOR.png
-          - name: Azure Speech Recognition API
-            ref: https://azure.microsoft.com/en-in/services/cognitive-services/speech/
-            icon: Azure Cognative Services - Speech_COLOR.png
+          - name: Azure Text Analytics
+            ref: https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/
+            icon: Azure Machine Learning.png
       - google:
           - name: Natural Language API
             ref: https://cloud.google.com/natural-language/
@@ -3340,8 +3340,14 @@ services:
             ref: https://aws.amazon.com/translate/
             icon: aws.png
       - azure:
-          - name: Bing Speech API
-            ref:
+          - name: Speaker Recognition
+            ref: https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speaker-recognition-overview
+            icon: Azure Cognative Services - Speech_COLOR.png
+          - name: Speech To Text
+            ref: https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/index-speech-to-text
+            icon: Azure Cognative Services - Speech_COLOR.png
+          - name: Speech Translation
+            ref: https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/index-speech-translation
             icon: Azure Cognative Services - Speech_COLOR.png
       - google:
           - name: Translation API
@@ -3391,8 +3397,8 @@ services:
           - name: Face API
             ref: https://azure.microsoft.com/en-us/services/cognitive-services/face/
             icon: Azure Cognative Services - emotion_COLOR.png
-          - name: Computer Vision API
-            ref:
+          - name: Computer Vision
+            ref: https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/
             icon: Azure Cognative Services - emotion_COLOR.png
       - google:
           - name: Vision API
@@ -3505,12 +3511,9 @@ services:
             ref: https://aws.amazon.com/mxnet/
             icon: Arch_Apache-MXNet-on-AWS_64.png
       - azure:
-          - name: PyTorch on AWS
-            ref: https://aws.amazon.com/pytorch/
-            icon: Arch_TorchServe_64.png
-          - name: Apache MXNet on AWS
-            ref: https://aws.amazon.com/mxnet/
-            icon: Arch_Apache-MXNet-on-AWS_64.png
+          - name:
+            ref:
+            icon:
       - google:
           - name: Vertex AI (TensorFlow, PyTorch, XGBoost, Scikit-Learn)
             ref: https://cloud.google.com/vertex-ai
@@ -3553,9 +3556,15 @@ services:
             ref:  https://aws.amazon.com/personalize/
             icon: Arch_Amazon-Personalize_64.png
       - azure:
-          - name:  
-            ref:  
-            icon:  
+          - name: Azure Analysis Service
+            ref: https://docs.microsoft.com/en-us/azure/analysis-services/
+            icon: Azure Machine Learning.png
+          - name: Azure Metrics Advisor
+            ref: https://docs.microsoft.com/en-us/azure/analysis-services/
+            icon: Azure Cognitive Services.png
+          - name: Personalize
+            ref: https://azure.microsoft.com/en-us/services/cognitive-services/personalizer/
+            icon: Azure Machine Learning.png
       - google:
           - name: Vertex AI (TensorFlow, PyTorch, XGBoost, Scikit-Learn)
             ref: https://cloud.google.com/vertex-ai
@@ -3586,9 +3595,9 @@ services:
             ref: https://aws.amazon.com/machine-learning/elastic-inference/
             icon: Arch_Amazon-Elastic-Inference_64.png
       - azure:
-          - name: AWS Inferentia
-            ref: https://aws.amazon.com/machine-learning/inferentia/
-            icon: Res_Amazon-EC2_AWS-Inferentia_48_Light.png
+          - name:
+            ref:
+            icon:
       - google:
           - name: Vertex AI Predictions
             ref: https://cloud.google.com/vertex-ai
@@ -3619,9 +3628,9 @@ services:
             ref: https://aws.amazon.com/kendra/
             icon: Arch_Amazon-Kendra_64.png
       - azure:
-          - name:  
-            ref:  
-            icon:  
+          - name: Azure Cognitive Search
+            ref: https://docs.microsoft.com/en-us/azure/search/
+            icon: Azure Cognitive Services.png
       - google:
           - name: Vertex Matching Engine
             ref: https://cloud.google.com/vertex-ai/docs/matching-engine
