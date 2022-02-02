@@ -1188,7 +1188,7 @@ services:
             icon: Microsoft Azure.png
       - google:
           - name: Migrate for Compute Engine
-            ref: https://cloud.google.com/migrate/compute-engine"
+            ref: https://cloud.google.com/migrate/compute-engine,
             icon: Generic-GCP.png
           - name: Migrate for Anthos
             ref: https://cloud.google.com/migrate/anthos
