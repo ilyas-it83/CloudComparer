@@ -16,7 +16,7 @@ services:
       - google:
           - name: Firebase
             ref: https://firebase.google.com/docs/hosting
-            icon: Cloud-Firebase.png
+            icon: Firebase.png
       - ibm:
           - name: Web hosting services
             ref: https://www.ibm.com/cloud/websites
@@ -315,9 +315,9 @@ services:
             ref: https://azure.microsoft.com/en-in/services/container-instances/ 
             icon: Azure Container Service.png
       - google:
-          - name:  
-            ref:  
-            icon:  none.png
+          - name: Google Cloud Run 
+            ref:  https://cloud.google.com/run
+            icon:  Cloud-Run.png
       - ibm:
           - name: IBM Cloud Code Engine
             ref: https://cloud.ibm.com/codeengine
@@ -350,7 +350,7 @@ services:
       - google:
           - name: Google Cloud Run 
             ref: https://cloud.google.com/run
-            icon:  google-cloud-run.png
+            icon:  Cloud-Run.png
       - ibm:
           - name: IBM Cloud Code Engine
             ref: https://cloud.ibm.com/codeengine
@@ -1641,9 +1641,9 @@ services:
             ref: https://azure.microsoft.com/en-in/services/azure-arc/
             icon: none.png
       - google:
-          - name:
-            ref:
-            icon: none.png
+          - name: Google Anthos
+            ref: https://cloud.google.com/anthos
+            icon: Anthos_icon.png
       - ibm:
           - name: Satellite
             ref: https://cloud.ibm.com/docs/satellite?topic=satellite-getting-started
