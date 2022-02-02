@@ -123,6 +123,39 @@ services:
             icon: bms.png
   - category: Compute
     categoryurl:
+    subcategory: VMware 
+    subcategoryurl:
+    service:
+      - aws:
+          - name: VMC on AWS
+            ref: https://aws.amazon.com/vmware/
+            icon: aws.png
+      - azure:
+          - name: Azure VMware Solution
+            ref: https://azure.microsoft.com/en-us/services/azure-vmware/
+            icon: Azure Virtual Machine.png
+      - google:
+          - name: Google Cloud VMware Engine
+            ref: https://cloud.google.com/vmware-engine
+            icon: Generic-GCP.png
+      - ibm:
+          - name: 
+            ref: 
+            icon: none.png
+      - oracle:
+          - name: 
+            ref: 
+            icon: none.png
+      - alibaba:
+          - name: 
+            ref: 
+            icon: none.png
+      - huawei:
+          - name: 
+            ref: 
+            icon: none.png
+  - category: Compute
+    categoryurl:
     subcategory: Virtual Dedicated Host
     subcategoryurl:
     service:
