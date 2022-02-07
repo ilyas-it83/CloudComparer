@@ -1056,6 +1056,12 @@ services:
           - name: Amazon DynamoDB
             ref: https://aws.amazon.com/dynamodb/
             icon: Database_AmazonDynamoDB.png
+          - name: Amazon Managed Service for Prometheus (Preview) 
+            ref:  https://aws.amazon.com/prometheus/
+            icon: Arch_Amazon-Managed-Service-for-Prometheus_64.png
+          - name: Amazon Timestream
+            ref:  https://aws.amazon.com/timestream/
+            icon: aws.png
       - azure:
           - name: Azure Time Series Insights
             ref: https://azure.microsoft.com/en-us/services/time-series-insights/
