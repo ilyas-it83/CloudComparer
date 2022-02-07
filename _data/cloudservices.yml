@@ -3546,7 +3546,7 @@ services:
       - azure:
           - name:
             ref:
-            icon:
+            icon: none.png
       - google:
           - name: Vertex AI (TensorFlow, PyTorch, XGBoost, Scikit-Learn)
             ref: https://cloud.google.com/vertex-ai
