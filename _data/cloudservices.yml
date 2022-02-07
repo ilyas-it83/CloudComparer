@@ -1098,6 +1098,9 @@ services:
           - name: Amazon ElastiCache
             ref: https://aws.amazon.com/elasticache/
             icon: Database_AmazonElasticCache.png
+          - name: Amazon MemoryDB for Redis
+            ref: https://aws.amazon.com/memorydb/
+            icon: aws.png
       - azure:
           - name: Azure RedisCache
             ref: https://azure.microsoft.com/en-in/services/cache/
