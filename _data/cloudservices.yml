@@ -2594,10 +2594,6 @@ services:
           - name: SSL Certificate Manager
             ref: https://www.huaweicloud.com/intl/en-us/product/scm.html
             icon: ssl.png
-  - category:
-    categoryurl:
-    subcategory:
-    subcategoryurl:
   - category: Security & Identity, Compliance
     categoryurl:
     subcategory: Hardware Based Security Module
