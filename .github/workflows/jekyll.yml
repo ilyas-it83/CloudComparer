@@ -16,6 +16,7 @@ jobs:
         uses: ibiqlik/action-yamllint@v3
         with:
           file_or_dir: _data/cloudservices.yml
+          config_file: .yamllint.yml
       - name: Caching for Bundler
         uses: actions/cache@v2
         with:

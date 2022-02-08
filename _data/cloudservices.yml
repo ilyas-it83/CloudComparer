@@ -123,7 +123,7 @@ services:
             icon: bms.png
   - category: Compute
     categoryurl:
-    subcategory: VMware 
+    subcategory: VMware
     subcategoryurl:
     service:
       - aws:
@@ -139,20 +139,20 @@ services:
             ref: https://cloud.google.com/vmware-engine
             icon: Generic-GCP.png
       - ibm:
-          - name: 
-            ref: 
+          - name:
+            ref:
             icon: none.png
       - oracle:
-          - name: 
-            ref: 
+          - name:
+            ref:
             icon: none.png
       - alibaba:
-          - name: 
-            ref: 
+          - name:
+            ref:
             icon: none.png
       - huawei:
-          - name: 
-            ref: 
+          - name:
+            ref:
             icon: none.png
   - category: Compute
     categoryurl:
@@ -180,7 +180,7 @@ services:
             icon: virtual-server.png
           - name: Dedicated host for VPC
             ref: https://cloud.ibm.com/vpc-ext/provision/dedicatedHost
-            icon: IBM_Cloud_DedicatedHost.svg  
+            icon: IBM_Cloud_DedicatedHost.svg
       - oracle:
           - name: Dedicated Virtual Machine Hosts
             ref: https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm
@@ -197,7 +197,7 @@ services:
     categoryurl:
     subcategory: High Performance Computing
     subcategoryurl:
-    service: 
+    service:
       - aws:
           - name: High Performance Computing
             ref: https://aws.amazon.com/hpc/
@@ -210,33 +210,33 @@ services:
             icon: Arch_Elastic-Fabric-Adapter_64.png
           - name: NICE DCV
             ref: https://aws.amazon.com/hpc/dcv/
-            icon: Arch_NICE-DCV_64.png  
+            icon: Arch_NICE-DCV_64.png
       - azure:
           - name: Azure High Performance Compute
-            ref:  https://azure.com/hpc/
+            ref: https://azure.com/hpc/
             icon: architecture_hpc_azure.png
       - google:
-          - name:  High performance computing
-            ref:  https://cloud.google.com/solutions/hpc
+          - name: High performance computing
+            ref: https://cloud.google.com/solutions/hpc
             icon: none.png
       - ibm:
-          - name:  IBM Spectrum LSF
-            ref:  https://cloud.ibm.com/catalog/content/terraform-1623200063-71606cab-c6e1-4f95-a47a-2ce541dcbed8-global
+          - name: IBM Spectrum LSF
+            ref: https://cloud.ibm.com/catalog/content/terraform-1623200063-71606cab-c6e1-4f95-a47a-2ce541dcbed8-global
             icon: Spectrum_icon.png
-          - name:  IBM Spectrum Symphony
-            ref:  https://cloud.ibm.com/catalog/content/terraform-1627942334-78300480-b376-4185-9812-b7ae00d82765-global
+          - name: IBM Spectrum Symphony
+            ref: https://cloud.ibm.com/catalog/content/terraform-1627942334-78300480-b376-4185-9812-b7ae00d82765-global
             icon: Symphony_icon.png
       - oracle:
-          - name:  
-            ref:  
+          - name:
+            ref:
             icon: none.png
       - alibaba:
-          - name: 
-            ref: 
+          - name:
+            ref:
             icon: none.png
       - huawei:
-          - name:  
-            ref:  
+          - name:
+            ref:
             icon: none.png
   - category: Compute
     categoryurl:
@@ -284,11 +284,11 @@ services:
             ref: https://aws.amazon.com/eks/
             icon: Arch_Amazon-Elastic-Kubernetes-Service_64.png
           - name: Red Hat Openshift on AWS
-            ref: https://aws.amazon.com/rosa/ 
-            icon:  Arch_Red-Hat-OpenShift_64.png
-          - name:  Bottlerocket
+            ref: https://aws.amazon.com/rosa/
+            icon: Arch_Red-Hat-OpenShift_64.png
+          - name: Bottlerocket
             ref: https://aws.amazon.com/bottlerocket/
-            icon:  Arch_Bottlerocket_64.png
+            icon: Arch_Bottlerocket_64.png
       - azure:
           - name: Azure Kubernetes Service (AKS)
             ref: https://azure.microsoft.com/services/kubernetes-service/
@@ -345,23 +345,23 @@ services:
             icon: Arch_AWS-Proton_64.png
       - azure:
           - name: Azure Container Instances
-            ref: https://azure.microsoft.com/en-in/services/container-instances/ 
+            ref: https://azure.microsoft.com/en-in/services/container-instances/
             icon: Azure Container Service.png
       - google:
-          - name: Google Cloud Run 
-            ref:  https://cloud.google.com/run
-            icon:  Cloud-Run.png
+          - name: Google Cloud Run
+            ref: https://cloud.google.com/run
+            icon: Cloud-Run.png
       - ibm:
           - name: IBM Cloud Code Engine
             ref: https://cloud.ibm.com/codeengine
             icon: codeEngineBright.svg
       - oracle:
-          - name:  
-            ref:  
+          - name:
+            ref:
             icon: none.png
       - alibaba:
-          - name:  
-            ref:  
+          - name:
+            ref:
             icon: none.png
       - huawei:
           - name:
@@ -377,24 +377,24 @@ services:
             ref: https://aws.amazon.com/apprunner/
             icon: Arch_AWS-AppRunner.png
       - azure:
-          - name:  
-            ref:  
-            icon:  
+          - name:
+            ref:
+            icon:
       - google:
-          - name: Google Cloud Run 
+          - name: Google Cloud Run
             ref: https://cloud.google.com/run
-            icon:  Cloud-Run.png
+            icon: Cloud-Run.png
       - ibm:
           - name: IBM Cloud Code Engine
             ref: https://cloud.ibm.com/codeengine
             icon: codeEngineBright.svg
       - oracle:
-          - name:  
-            ref:  
+          - name:
+            ref:
             icon: none.png
       - alibaba:
           - name:
-            ref:  
+            ref:
             icon: none.png
       - huawei:
           - name:
@@ -447,7 +447,7 @@ services:
     subcategory: Serverless app repository
     subcategoryurl:
     service:
-      - aws: 
+      - aws:
           - name: AWS Serverless Application Repository
             refs: https://aws.amazon.com/serverless/serverlessrepo/
             icon: Arch_AWS-Serverless-Application-Repository_64.png
@@ -768,8 +768,8 @@ services:
             ref: https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-about#getting-started-with-file-storage
             icon: ibmcloud.png
       - oracle:
-          - name:  
-            ref:  
+          - name:
+            ref:
             icon: none.png
       - alibaba:
           - name: NAS File Storage
@@ -1056,11 +1056,11 @@ services:
           - name: Amazon DynamoDB
             ref: https://aws.amazon.com/dynamodb/
             icon: Database_AmazonDynamoDB.png
-          - name: Amazon Managed Service for Prometheus (Preview) 
-            ref:  https://aws.amazon.com/prometheus/
+          - name: Amazon Managed Service for Prometheus (Preview)
+            ref: https://aws.amazon.com/prometheus/
             icon: Arch_Amazon-Managed-Service-for-Prometheus_64.png
           - name: Amazon Timestream
-            ref:  https://aws.amazon.com/timestream/
+            ref: https://aws.amazon.com/timestream/
             icon: aws.png
       - azure:
           - name: Azure Time Series Insights
@@ -1177,7 +1177,7 @@ services:
             ref: https://aws.amazon.com/migration-hub/
             icon: Arch_AWS-Migration-Hub_64.png
       - azure:
-          - name: Azure Database Migration Service 
+          - name: Azure Database Migration Service
             ref: https://azure.microsoft.com/en-in/blog/azure-database-migration-service-announcement-at-build/
             icon: Microsoft Azure.png
       - google:
@@ -2009,18 +2009,18 @@ services:
           - name: AWS CloudTrail
             ref: https://aws.amazon.com/cloudtrail/
             icon: Management-Tools_AWSCloudTrail.png
-          - name: AWS X-Ray 
-            ref:  https://aws.amazon.com/xray/
-            icon:  Arch_AWS-X-Ray_64.png
-          - name:  AWS Distro for OpenTelemetry (Preview)
-            ref:  https://aws.amazon.com/otel/
-            icon:  Arch_AWS-Distro-for-OpenTelemetry_64.png
-          - name:  Amazon Managed Service for Grafana (Preview)
-            ref:  https://aws.amazon.com/grafana/
-            icon:  Arch_Amazon-Managed-Service-for-Grafana_64.png
-          - name: Amazon Managed Service for Prometheus (Preview) 
-            ref:  https://aws.amazon.com/prometheus/
-            icon:  Arch_Amazon-Managed-Service-for-Prometheus_64.png
+          - name: AWS X-Ray
+            ref: https://aws.amazon.com/xray/
+            icon: Arch_AWS-X-Ray_64.png
+          - name: AWS Distro for OpenTelemetry (Preview)
+            ref: https://aws.amazon.com/otel/
+            icon: Arch_AWS-Distro-for-OpenTelemetry_64.png
+          - name: Amazon Managed Service for Grafana (Preview)
+            ref: https://aws.amazon.com/grafana/
+            icon: Arch_Amazon-Managed-Service-for-Grafana_64.png
+          - name: Amazon Managed Service for Prometheus (Preview)
+            ref: https://aws.amazon.com/prometheus/
+            icon: Arch_Amazon-Managed-Service-for-Prometheus_64.png
       - azure:
           - name: Log Analytics
             ref: https://azure.microsoft.com/en-in/services/log-analytics/
@@ -2243,7 +2243,7 @@ services:
             icon: Arch_AWS-Cost-Explorer_64.png
           - name: AWS Compute Optimizer
             ref: https://aws.amazon.com/compute-optimizer/
-            icon:  Arch_AWS-Compute-Optimizer_64.png
+            icon: Arch_AWS-Compute-Optimizer_64.png
       - azure:
           - name: Azure Advisor
             ref: https://azure.microsoft.com/en-in/services/advisor/
@@ -2284,10 +2284,10 @@ services:
           - name: AWS Personal Health Dashboard
             ref: https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/
             icon: Arch_AWS-Personal-Health-Dashboard_64.png
-          - name:   Amazon CloudWatch
+          - name: Amazon CloudWatch
             ref: https://aws.amazon.com/cloudwatch/
-            icon:   Arch_Amazon-CloudWatch_64.png
-          - name:  AWS Security Hub
+            icon: Arch_Amazon-CloudWatch_64.png
+          - name: AWS Security Hub
             ref: https://aws.amazon.com/security-hub/
             icon: Arch_AWS-Security-Hub_64.png
           - name: AWS Audit Manager
@@ -3207,10 +3207,10 @@ services:
             ref: https://azure.microsoft.com/en-in/services/logic-apps/
             icon: Azure App Service - Logic App.png
       - google:
-          - name: Cloud DataPrep 
+          - name: Cloud DataPrep
             ref: https://cloud.google.com/dataprep/
             icon: Cloud-Dataprep.png
-          - name: Cloud Data Fusion 
+          - name: Cloud Data Fusion
             ref: https://cloud.google.com/data-fusion/
             icon: none.png
           - name: Cloud Composer
@@ -3277,7 +3277,6 @@ services:
           - name:
             ref:
             icon: none.png
-
 
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
@@ -3588,10 +3587,10 @@ services:
             ref: https://aws.amazon.com/lookout-for-metrics/
             icon: Arch_Amazon-Lookout-for-Metrics_64.png
           - name: Amazon Augmented AI (Amazon A2I)
-            ref:  https://aws.amazon.com/augmented-ai/
+            ref: https://aws.amazon.com/augmented-ai/
             icon: Arch_Amazon-Augmented-AI-A2I_64.png
           - name: Amazon Personalize
-            ref:  https://aws.amazon.com/personalize/
+            ref: https://aws.amazon.com/personalize/
             icon: Arch_Amazon-Personalize_64.png
       - azure:
           - name: Azure Analysis Service
@@ -4114,17 +4113,17 @@ services:
           - name: AWS Elemental Live
             ref: https://aws.amazon.com/elemental-live/
             icon: Arch_AWS-Elemental-Live_64.png
-          - name:   AWS Elemental Server
-            ref:  https://aws.amazon.com/elemental-server/
+          - name: AWS Elemental Server
+            ref: https://aws.amazon.com/elemental-server/
             icon: Arch_AWS-Elemental-Server_64.png
-          - name:  AWS Elemental Conductor
-            ref:  https://aws.amazon.com/elemental-conductor/
+          - name: AWS Elemental Conductor
+            ref: https://aws.amazon.com/elemental-conductor/
             icon: Arch_AWS-Elemental-Conductor_64.png
-          - name:  AWS Elemental Link
-            ref:  https://aws.amazon.com/medialive/features/link/
+          - name: AWS Elemental Link
+            ref: https://aws.amazon.com/medialive/features/link/
             icon: Arch_AWS-Elemental-Link_64.png
-          - name:  AWS Elemental Delta
-            ref:  https://aws.amazon.com/elemental-delta/
+          - name: AWS Elemental Delta
+            ref: https://aws.amazon.com/elemental-delta/
             icon: Arch_AWS-Elemental-Delta_64.png
       - azure:
           - name: Azure Media Services
@@ -4474,7 +4473,7 @@ services:
             ref: https://aws.amazon.com/hpc/dcv/
             icon: Arch_NICE-DCV_64.png
       - azure:
-          - name: 
+          - name:
             ref:
             icon: none.png
       - google:
