@@ -984,6 +984,9 @@ services:
           - name: Amazon Neptune
             ref: https://aws.amazon.com/neptune/
             icon: aws.png
+          - name: Amazon Keyspaces (Apache Cassandra)
+            ref: https://aws.amazon.com/keyspaces/
+            icon: aws.png            
       - azure:
           - name: Azure CosmosDB
             ref: https://docs.microsoft.com/en-us/azure/cosmos-db/
