@@ -11,7 +11,7 @@ services:
             icon: Arch_AWS-Amplify_64.png
       - azure:
           - name: Azure shared App Services
-            ref: https://azure.microsoft.com/en-in/services/app-service/web/
+            ref: https://azure.microsoft.com/services/app-service/web/
             icon: Azure App Service - Web App (was Websites).png
       - google:
           - name: Firebase
@@ -47,7 +47,7 @@ services:
             icon: Compute_AmazonEC2.png
       - azure:
           - name: Azure Virtual Machine
-            ref: https://docs.microsoft.com/en-us/azure/virtual-machines/
+            ref: https://docs.microsoft.com/azure/virtual-machines/
             icon: Azure Virtual Machine.png
       - google:
           - name: Compute Engine
@@ -99,7 +99,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure Bare Metal Servers (Large   Instance Only for SAP Hana)
-            ref: https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/hana-overview-architecture
+            ref: https://docs.microsoft.com/azure/virtual-machines/workloads/sap/hana-overview-architecture
             icon: Azure Virtual Machine.png
       - google:
           - name: Bare Metal Solution
@@ -132,7 +132,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure VMware Solution
-            ref: https://azure.microsoft.com/en-us/services/azure-vmware/
+            ref: https://azure.microsoft.com/services/azure-vmware/
             icon: Azure Virtual Machine.png
       - google:
           - name: Google Cloud VMware Engine
@@ -168,7 +168,7 @@ services:
             icon: Arch_AWS-Nitro-Enclaves_64.png
       - azure:
           - name: Azure Dedicated Host
-            ref: https://azure.microsoft.com/en-in/services/virtual-machines/dedicated-host/
+            ref: https://azure.microsoft.com/services/virtual-machines/dedicated-host/
             icon: none.png
       - google:
           - name: Sole Tenant Node (Beta)
@@ -249,7 +249,7 @@ services:
             icon: aws.png
       - azure:
           - name: "Azure Container Registry "
-            ref: https://azure.microsoft.com/en-in/services/container-registry/
+            ref: https://azure.microsoft.com/services/container-registry/
             icon: Microsoft Azure.png
       - google:
           - name: Container Registry
@@ -294,7 +294,7 @@ services:
             ref: https://azure.microsoft.com/services/kubernetes-service/
             icon: Azure Kubernetes Service.png
           - name: Azure Container Instances
-            ref: https://azure.microsoft.com/en-in/services/container-instances/
+            ref: https://azure.microsoft.com/services/container-instances/
             icon: Azure Container Service.png
           - name: Azure Red Hat OpenShift
             ref: https://azure.microsoft.com/services/openshift/
@@ -345,7 +345,7 @@ services:
             icon: Arch_AWS-Proton_64.png
       - azure:
           - name: Azure Container Instances
-            ref: https://azure.microsoft.com/en-in/services/container-instances/
+            ref: https://azure.microsoft.com/services/container-instances/
             icon: Azure Container Service.png
       - google:
           - name: Google Cloud Run
@@ -411,13 +411,13 @@ services:
             icon: Compute_AWSLambda.png
       - azure:
           - name: Azure Service Fabric
-            ref: https://azure.microsoft.com/en-in/services/service-fabric/
+            ref: https://azure.microsoft.com/services/service-fabric/
             icon: Azure Service Fabric.png
           - name: Azure Functions
-            ref: https://azure.microsoft.com/en-in/services/functions/
+            ref: https://azure.microsoft.com/services/functions/
             icon: Azure Functions.png
           - name: Event Grid
-            ref: https://azure.microsoft.com/en-us/services/event-grid/
+            ref: https://azure.microsoft.com/services/event-grid/
             icon: Azure Event Grid.png
       - google:
           - name: Google Cloud Functions
@@ -486,7 +486,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure App Service Environment
-            ref: https://docs.microsoft.com/en-us/azure/app-service-web/app-service-app-service-environment-intro
+            ref: https://docs.microsoft.com/azure/app-service-web/app-service-app-service-environment-intro
             icon: Azure App Service - Web App (was Websites).png
       - google:
           - name:
@@ -523,10 +523,10 @@ services:
             icon: aws.png
       - azure:
           - name: Azure Autoscale
-            ref: https://azure.microsoft.com/en-us/features/autoscale/
+            ref: https://azure.microsoft.com/features/autoscale/
             icon: Azure App Service - Web App (was Websites).png
           - name: Virtual Machine Scale Sets
-            ref: https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview
+            ref: https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview
             icon: Azure VM Scale Set.png
       - google:
           - name: Auto Scaler
@@ -559,7 +559,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure Batch
-            ref: https://azure.microsoft.com/en-in/services/batch/
+            ref: https://azure.microsoft.com/services/batch/
             icon: Azure Batch.png
       - google:
           - name: Preemptible VMs
@@ -595,10 +595,10 @@ services:
             icon: Compute_AWSElasticBeanstalk_application.png
       - azure:
           - name: Azure Web Apps
-            ref: https://azure.microsoft.com/en-in/services/app-service/web/
+            ref: https://azure.microsoft.com/services/app-service/web/
             icon: Azure App Service - Web App (was Websites).png
           - name: Azure Cloud Services
-            ref: https://azure.microsoft.com/en-in/services/cloud-services/
+            ref: https://azure.microsoft.com/services/cloud-services/
             icon: Azure Cloud Services - Web roles.png
       - google:
           - name: Google App engine
@@ -637,10 +637,10 @@ services:
             icon: Compute_AWSLambda.png
       - azure:
           - name: Azure Functions
-            ref: https://azure.microsoft.com/en-in/services/functions/
+            ref: https://azure.microsoft.com/services/functions/
             icon: Azure Functions.png
           - name: Event Grid
-            ref: https://azure.microsoft.com/en-us/services/event-grid/
+            ref: https://azure.microsoft.com/services/event-grid/
             icon: Azure Event Grid.png
       - google:
           - name: Cloud Functions
@@ -676,7 +676,7 @@ services:
             icon: Storage-Content-Delivery_AmazonS3_bucket.png
       - azure:
           - name: Azure Blob Storage
-            ref: https://azure.microsoft.com/en-in/services/storage/blobs/
+            ref: https://azure.microsoft.com/services/storage/blobs/
             icon: Azure Storage - Blob.png
       - google:
           - name: Cloud Storage
@@ -709,10 +709,10 @@ services:
             icon: Storage-Content-Delivery_AmazonEBS.png
       - azure:
           - name: Azure Page Blobs / Premium Storage
-            ref: https://azure.microsoft.com/en-in/services/storage/disks/
+            ref: https://azure.microsoft.com/services/storage/disks/
             icon: VHD data disk.png
           - name: Managed Disks
-            ref: https://azure.microsoft.com/en-us/services/managed-disks/
+            ref: https://azure.microsoft.com/services/managed-disks/
             icon: VHD data disk.png
       - google:
           - name: Persistent Disk
@@ -754,7 +754,7 @@ services:
             icon: Arch_Amazon-FSx-for-Lustre_64.png
       - azure:
           - name: Azure File Storage
-            ref: https://azure.microsoft.com/en-in/services/storage/files/
+            ref: https://azure.microsoft.com/services/storage/files/
             icon: Azure Storage - Files.png
           - name: Azure NetApp Files
             ref: https://azure.microsoft.com/en-gb/services/netapp/
@@ -791,10 +791,10 @@ services:
             icon: Storage-Content-Delivery_AmazonGlacier.png
       - azure:
           - name: Azure Archive Storage
-            ref: https://azure.microsoft.com/en-us/services/storage/archive/
+            ref: https://azure.microsoft.com/services/storage/archive/
             icon: Azure Storage.png
           - name: Azure Cool Storage
-            ref: https://azure.microsoft.com/en-in/pricing/details/storage/blobs/
+            ref: https://azure.microsoft.com/pricing/details/storage/blobs/
             icon: Azure Storage.png
       - google:
           - name: Cloud Storage
@@ -837,7 +837,7 @@ services:
             icon: Storage-Content-Delivery_AWSStorageGateway.png
       - azure:
           - name: Azure Storsimple
-            ref: https://azure.microsoft.com/en-in/services/storsimple/
+            ref: https://azure.microsoft.com/services/storsimple/
             icon: Azure StorSimple.png
       - google:
           - name:
@@ -874,19 +874,19 @@ services:
             icon: Database_AmazonRDS.png
       - azure:
           - name: Azure SQL Database
-            ref: https://azure.microsoft.com/en-in/services/sql-database/
+            ref: https://azure.microsoft.com/services/sql-database/
             icon: Azure SQL Database.png
           - name: SQL Server Stretch Database
-            ref: https://azure.microsoft.com/en-us/services/sql-server-stretch-database/
+            ref: https://azure.microsoft.com/services/sql-server-stretch-database/
             icon: Azure SQL Database.png
           - name: Azure Database for MySQL
-            ref: https://azure.microsoft.com/en-us/services/mysql/
+            ref: https://azure.microsoft.com/services/mysql/
             icon: Azure SQL Database.png
           - name: Azure Database for PostgresSQL
-            ref: https://azure.microsoft.com/en-us/services/postgresql/
+            ref: https://azure.microsoft.com/services/postgresql/
             icon: Azure SQL Database.png
           - name: Azure SQL Database Edge
-            ref: https://azure.microsoft.com/en-in/services/sql-database-edge/
+            ref: https://azure.microsoft.com/services/sql-database-edge/
             icon: Azure SQL Database.png
       - google:
           - name: Cloud SQL
@@ -986,13 +986,13 @@ services:
             icon: aws.png
       - azure:
           - name: Azure CosmosDB
-            ref: https://docs.microsoft.com/en-us/azure/cosmos-db/
+            ref: https://docs.microsoft.com/azure/cosmos-db/
             icon: Azure DocumentDB.png
           - name: Table Storage
-            ref: https://azure.microsoft.com/en-in/services/storage/tables/
+            ref: https://azure.microsoft.com/services/storage/tables/
             icon: Azure Storage - Table.png
           - name: Azure Time Series Insights
-            ref: https://azure.microsoft.com/en-us/services/time-series-insights/
+            ref: https://azure.microsoft.com/services/time-series-insights/
             icon: Azure DocumentDB.png
       - google:
           - name: Cloud Datastore
@@ -1064,7 +1064,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure Time Series Insights
-            ref: https://azure.microsoft.com/en-us/services/time-series-insights/
+            ref: https://azure.microsoft.com/services/time-series-insights/
             icon: Azure DocumentDB.png
       - google:
           - name: Cloud Bigtable
@@ -1103,7 +1103,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure RedisCache
-            ref: https://azure.microsoft.com/en-in/services/cache/
+            ref: https://azure.microsoft.com/services/cache/
             icon: Azure Cache including Redis.png
       - google:
           - name: Cloud MemoryStore (Beta)
@@ -1139,7 +1139,7 @@ services:
             icon: Database_AmazonRedshift.png
       - azure:
           - name: Azure Synapse Analytics
-            ref: https://azure.microsoft.com/en-in/services/synapse-analytics/
+            ref: https://azure.microsoft.com/services/synapse-analytics/
             icon: Azure Data Warehouse.png
       - google:
           - name: BigQuery
@@ -1178,7 +1178,7 @@ services:
             icon: Arch_AWS-Migration-Hub_64.png
       - azure:
           - name: Azure Database Migration Service
-            ref: https://azure.microsoft.com/en-in/blog/azure-database-migration-service-announcement-at-build/
+            ref: https://azure.microsoft.com/blog/azure-database-migration-service-announcement-at-build/
             icon: Microsoft Azure.png
       - google:
           - name: Database Migration Service
@@ -1226,7 +1226,7 @@ services:
             ref: https://docs.microsoft.com/azure/site-recovery/site-recovery-migrate-to-azure
             icon: Azure Site Recovery.png
           - name: Azure Websites Migration Assistant
-            ref: https://azure.microsoft.com/en-us/downloads/migration-assistant/
+            ref: https://azure.microsoft.com/downloads/migration-assistant/
             icon: Microsoft Azure.png
       - google:
           - name: Migrate for Compute Engine
@@ -1272,7 +1272,7 @@ services:
             icon: Arch_AWS-Transfer-Family_64.png
       - azure:
           - name: Azure Import/Export
-            ref: https://azure.microsoft.com/en-in/pricing/details/storage-import-export/
+            ref: https://azure.microsoft.com/pricing/details/storage-import-export/
             icon: Microsoft Azure.png
       - google:
           - name: Storage Transfer Service
@@ -1352,7 +1352,7 @@ services:
             icon: Arch_AWS-DataSync_64.png
       - azure:
           - name: Azure Data Box (Preview)
-            ref: https://azure.microsoft.com/en-us/services/storage/databox/
+            ref: https://azure.microsoft.com/services/storage/databox/
             icon: Microsoft Azure.png
       - google:
           - name: Transfer Appliance
@@ -1421,7 +1421,7 @@ services:
             icon: Storage-Content-Delivery_AWSImportExportSnowball.png
       - azure:
           - name: Azure Active Directory
-            ref: https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/cloud-app-discovery
+            ref: https://docs.microsoft.com/azure/active-directory/manage-apps/cloud-app-discovery
             icon: Azure%20Active%20Directory.png
       - google:
           - name:
@@ -1456,7 +1456,7 @@ services:
             icon: Networking_AmazonVPC.png
       - azure:
           - name: Azure VNet
-            ref: https://azure.microsoft.com/en-in/services/virtual-network/
+            ref: https://azure.microsoft.com/services/virtual-network/
             icon: Azure App Service - Web App (was Websites).png
       - google:
           - name: Cloud Virtual Network
@@ -1530,7 +1530,7 @@ services:
             icon: Arch_AWS-Client-VPN_64.png
       - azure:
           - name: Azure VPN Gateway
-            ref: https://azure.microsoft.com/en-in/pricing/details/vpn-gateway/
+            ref: https://azure.microsoft.com/pricing/details/vpn-gateway/
             icon: Azure VPN Gateway.png
       - google:
           - name: Cloud VPN
@@ -1567,10 +1567,10 @@ services:
             icon: Storage-Content-Delivery_AmazonCloudFront.png
       - azure:
           - name: Azure CDN
-            ref: https://azure.microsoft.com/en-in/services/cdn/
+            ref: https://azure.microsoft.com/services/cdn/
             icon: Azure Content Delivery Network (CDN).png
           - name: Azure Front Door
-            ref: https://azure.microsoft.com/en-us/services/frontdoor/#overview
+            ref: https://azure.microsoft.com/services/frontdoor/#overview
             icon: Azure Front Door.png
       - google:
           - name: Cloud CDN
@@ -1604,7 +1604,7 @@ services:
             icon: Networking_AmazonRoute53.png
       - azure:
           - name: Azure DNS
-            ref: https://azure.microsoft.com/en-in/services/dns/
+            ref: https://azure.microsoft.com/services/dns/
             icon: Azure DNS.png
       - google:
           - name: Cloud DNS
@@ -1646,7 +1646,7 @@ services:
             icon: Arch_AWS-App-Mesh_64.png
       - azure:
           - name: Azure Traffic Manager
-            ref: https://azure.microsoft.com/en-in/services/traffic-manager/
+            ref: https://azure.microsoft.com/services/traffic-manager/
             icon: Azure Traffic Manager.png
       - google:
           - name:
@@ -1680,7 +1680,7 @@ services:
             icon: none.png
       - azure:
           - name: Azure Arc
-            ref: https://azure.microsoft.com/en-in/services/azure-arc/
+            ref: https://azure.microsoft.com/services/azure-arc/
             icon: none.png
       - google:
           - name: Google Anthos
@@ -1722,7 +1722,7 @@ services:
             icon: Networking_AWSDirectConnect.png
       - azure:
           - name: Azure Express Route
-            ref: https://azure.microsoft.com/en-in/services/expressroute/
+            ref: https://azure.microsoft.com/services/expressroute/
             icon: Azure ExpressRoute.png
       - google:
           - name: Cloud InterConnect
@@ -1756,7 +1756,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure Load Balancer
-            ref: https://azure.microsoft.com/en-in/services/load-balancer/
+            ref: https://azure.microsoft.com/services/load-balancer/
             icon: Azure load balancer (automatic).png
       - google:
           - name: Cloud Load Balancing
@@ -1822,19 +1822,19 @@ services:
             icon: Arch_AWS-Fault-Injection-Simulator_64.png
       - azure:
           - name: Azure Boards
-            ref: https://azure.microsoft.com/en-in/services/devops/boards/
+            ref: https://azure.microsoft.com/services/devops/boards/
             icon: boards-icon-80.png
           - name: Azure Pipelines
-            ref: https://azure.microsoft.com/en-in/services/devops/pipelines/
+            ref: https://azure.microsoft.com/services/devops/pipelines/
             icon: pipelines-icon-80.png
           - name: Azure Repos
-            ref: https://azure.microsoft.com/en-in/services/devops/repos/
+            ref: https://azure.microsoft.com/services/devops/repos/
             icon: repos-icon-80.png
           - name: Azure Test Plans
-            ref: https://azure.microsoft.com/en-in/services/devops/test-plans/
+            ref: https://azure.microsoft.com/services/devops/test-plans/
             icon: test-plans-icon-80.png
           - name: Azure Artifacts
-            ref: https://azure.microsoft.com/en-in/services/devops/artifacts/
+            ref: https://azure.microsoft.com/services/devops/artifacts/
             icon: artifacts-icon-72.png
       - google:
           - name: Cloud Source Repositories
@@ -1929,7 +1929,7 @@ services:
             icon: aws.png
       - azure:
           - name: "Azure Operational Insights "
-            ref: https://azure.microsoft.com/en-us/resources/videos/azure-operational-insights-overview/
+            ref: https://azure.microsoft.com/resources/videos/azure-operational-insights-overview/
             icon: Operations Management Suite (OMS).png
       - google:
           - name:
@@ -1967,10 +1967,10 @@ services:
             icon: Arch_AWS-OpsWorks_64.png
       - azure:
           - name: Azure Resource Manager
-            ref: https://azure.microsoft.com/en-us/features/resource-manager/
+            ref: https://azure.microsoft.com/features/resource-manager/
             icon: Resource Group.png
           - name: Azure Building Blocks
-            ref: https://azure.microsoft.com/en-in/resources/videos/azure-building-blocks-20-azbb/
+            ref: https://azure.microsoft.com/resources/videos/azure-building-blocks-20-azbb/
             icon: Resource Group.png
       - google:
           - name: Cloud Resource Manager
@@ -2023,13 +2023,13 @@ services:
             icon: Arch_Amazon-Managed-Service-for-Prometheus_64.png
       - azure:
           - name: Log Analytics
-            ref: https://azure.microsoft.com/en-in/services/log-analytics/
+            ref: https://azure.microsoft.com/services/log-analytics/
             icon: OMS Log Analytics.png
           - name: Azure portal
             ref: https://portal.azure.com/#
             icon: Azure Management Portal.png
           - name: Application Insights
-            ref: https://azure.microsoft.com/en-in/services/application-insights/
+            ref: https://azure.microsoft.com/services/application-insights/
             icon: Azure Application Insights.png
       - google:
           - name: Google StackDriver
@@ -2157,13 +2157,13 @@ services:
             icon: Management-Tools_AWSOpsWorks.png
       - azure:
           - name: Resource Manager
-            ref: https://azure.microsoft.com/en-us/features/resource-manager/
+            ref: https://azure.microsoft.com/features/resource-manager/
             icon: Resource Group.png
           - name: Azure Automation
-            ref: https://docs.microsoft.com/en-us/azure/automation/
+            ref: https://docs.microsoft.com/azure/automation/
             icon: Azure Automation.png
           - name: VM Extentions
-            ref: https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-extensions-features
+            ref: https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-extensions-features
             icon: Azure VM symbol only.png
       - google:
           - name:
@@ -2246,10 +2246,10 @@ services:
             icon: Arch_AWS-Compute-Optimizer_64.png
       - azure:
           - name: Azure Advisor
-            ref: https://azure.microsoft.com/en-in/services/advisor/
+            ref: https://azure.microsoft.com/services/advisor/
             icon: Azure Security Center.png
           - name: Azure Cost Management
-            ref: https://azure.microsoft.com/en-us/services/cost-management/
+            ref: https://azure.microsoft.com/services/cost-management/
             icon: Azure Security Center.png
       - google:
           - name: Google Cloud Platform Security
@@ -2295,10 +2295,10 @@ services:
             icon: Arch_AWS-Audit-Manager_64.png
       - azure:
           - name: Azure Monitor
-            ref: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-azure-monitor
+            ref: https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-azure-monitor
             icon: Azure monitor.png
           - name: Azure Operations Management Suite (OMS)
-            ref: https://www.microsoft.com/en-us/cloud-platform/operations-management-suite
+            ref: https://www.microsoft.com/cloud-platform/operations-management-suite
             icon: Azure OMS.png
       - google:
           - name:
@@ -2353,13 +2353,13 @@ services:
             ref:
             icon: Microsoft Azure.png
           - name: Azure Powershell
-            ref: https://docs.microsoft.com/en-us/powershell/azure/overview?view=azurermps-6.3.0
+            ref: https://docs.microsoft.com/powershell/azure/overview?view=azurermps-6.3.0
             icon: Microsoft Azure.png
           - name: Azure Management Console
             ref:
             icon: Azure Management Portal.png
           - name: Azure Cloud Shell
-            ref: https://azure.microsoft.com/en-us/features/cloud-shell/
+            ref: https://azure.microsoft.com/features/cloud-shell/
             icon: Azure Management Portal.png
       - google:
           - name: Cloud Shell
@@ -2461,10 +2461,10 @@ services:
             icon: Arch_AWS-Backint-Agent_64.png
       - azure:
           - name: Azure Site Recovery
-            ref: https://azure.microsoft.com/en-us/services/site-recovery/
+            ref: https://azure.microsoft.com/services/site-recovery/
             icon: Azure Site Recovery.png
           - name: Azure Backup
-            ref: https://azure.microsoft.com/en-us/services/backup/
+            ref: https://azure.microsoft.com/services/backup/
             icon: Azure Backup.png
       - google:
           - name:
@@ -2502,7 +2502,7 @@ services:
             icon: Security-Identity_AWSIAM.png
       - azure:
           - name: Azure Active Directory
-            ref: https://azure.microsoft.com/en-in/services/active-directory/
+            ref: https://azure.microsoft.com/services/active-directory/
             icon: Azure Active Directory.png
       - google:
           - name: Cloud IAM
@@ -2544,7 +2544,7 @@ services:
             icon: Security-Identity_AmazonInspector.png
       - azure:
           - name: Azure Security Center
-            ref: https://azure.microsoft.com/en-in/services/security-center/
+            ref: https://azure.microsoft.com/services/security-center/
             icon: Azure Security Center.png
       - google:
           - name:
@@ -2581,7 +2581,7 @@ services:
             icon: Security-Identity_ACM_certificate-manager.png
       - azure:
           - name: App Service Certificate
-            ref: https://azure.microsoft.com/en-us/updates/introducing-app-service-certificates/
+            ref: https://azure.microsoft.com/updates/introducing-app-service-certificates/
             icon: Azure App Service.png
       - google:
           - name:
@@ -2617,7 +2617,7 @@ services:
             icon: Security-Identity_AWSCloudHSM.png
       - azure:
           - name: Azure Key Vault
-            ref: https://azure.microsoft.com/en-in/services/key-vault/
+            ref: https://azure.microsoft.com/services/key-vault/
             icon: Azure Key Vault.png
       - google:
           - name: Cloud Key Management Service
@@ -2657,16 +2657,16 @@ services:
             icon: Security-Identity_AWSDirectoryService.png
       - azure:
           - name: Azure Active Directory
-            ref: https://azure.microsoft.com/en-us/services/active-directory/
+            ref: https://azure.microsoft.com/services/active-directory/
             icon: Azure Active Directory.png
           - name: Azure Active Directory B2C
-            ref: https://azure.microsoft.com/en-us/services/active-directory-b2c/
+            ref: https://azure.microsoft.com/services/active-directory-b2c/
             icon: Azure Active Directory.png
           - name: Azure Active Directory Domain Services
-            ref: https://azure.microsoft.com/en-us/services/active-directory-ds/
+            ref: https://azure.microsoft.com/services/active-directory-ds/
             icon: Azure Active Directory.png
           - name: Azure Active Directory Multi Factor Authentication
-            ref: https://azure.microsoft.com/en-us/services/multi-factor-authentication/
+            ref: https://azure.microsoft.com/services/multi-factor-authentication/
             icon: Azure Active Directory.png
       - google:
           - name: Cloud IAM
@@ -2707,7 +2707,7 @@ services:
             icon: Security-Identity_AWSKMS.png
       - azure:
           - name: Azure Key Vault
-            ref: https://azure.microsoft.com/en-us/services/key-vault/
+            ref: https://azure.microsoft.com/services/key-vault/
             icon: Azure Key Vault.png
       - google:
           - name: Cloud Key Management Service
@@ -2752,7 +2752,7 @@ services:
             icon: Arch_AWS-Resource-Access-Manager_64.png
       - azure:
           - name: Azure Management Groups
-            ref: https://docs.microsoft.com/en-us/azure/azure-resource-manager/management-groups-overview
+            ref: https://docs.microsoft.com/azure/azure-resource-manager/management-groups-overview
             icon: Azure%20Management%20Portal.png
       - google:
           - name:
@@ -2790,7 +2790,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure DDoS Protection
-            ref: https://azure.microsoft.com/en-in/services/ddos-protection/
+            ref: https://azure.microsoft.com/services/ddos-protection/
             icon: Microsoft Azure.png
       - google:
           - name: Cloud Armor (Beta)
@@ -2859,7 +2859,7 @@ services:
             icon: Arch_AWS-Network-Firewall_64.png
       - azure:
           - name: Azure Firewall Manager
-            ref: https://azure.microsoft.com/en-in/services/firewall-manager/
+            ref: https://azure.microsoft.com/services/firewall-manager/
             icon: none.png
       - google:
           - name:
@@ -2892,7 +2892,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure Security & Compliance
-            ref: https://azure.microsoft.com/en-in/support/trust-center/
+            ref: https://azure.microsoft.com/support/trust-center/
             icon: Azure Security Center.png
       - google:
           - name: Cloud Security Command Center (Alpha)
@@ -2962,7 +2962,7 @@ services:
             icon: Arch_Amazon-HealthLake_64.png
       - azure:
           - name: Azure Data Lake Analytics
-            ref: https://azure.microsoft.com/en-in/services/data-lake-analytics/
+            ref: https://azure.microsoft.com/services/data-lake-analytics/
             icon: Azure Data Lake Analytics.png
       - google:
           - name: BigQuery
@@ -2995,7 +2995,7 @@ services:
             icon: Analytics_AmazonEMR.png
       - azure:
           - name: Azure HDInsight
-            ref: https://azure.microsoft.com/en-in/services/hdinsight/
+            ref: https://azure.microsoft.com/services/hdinsight/
             icon: Azure HDInsight.png
       - google:
           - name: Cloud DataProc
@@ -3069,10 +3069,10 @@ services:
             icon: Analytics_AmazonKinesis.png
       - azure:
           - name: Azure Stream Analytics
-            ref: https://azure.microsoft.com/en-us/services/stream-analytics/
+            ref: https://azure.microsoft.com/services/stream-analytics/
             icon: Azure Stream Analytics.png
           - name: Azure Event Hub
-            ref: https://azure.microsoft.com/en-us/services/stream-analytics/
+            ref: https://azure.microsoft.com/services/stream-analytics/
             icon: Azure Event Hubs.png
       - google:
           - name: Cloud Dataflow
@@ -3109,7 +3109,7 @@ services:
             icon: Database_AmazonRedshift.png
       - azure:
           - name: Azure SQL Data Warehouse
-            ref: https://azure.microsoft.com/en-in/services/sql-data-warehouse/
+            ref: https://azure.microsoft.com/services/sql-data-warehouse/
             icon: Azure Data Warehouse.png
       - google:
           - name: BigQuery
@@ -3146,7 +3146,7 @@ services:
             icon: Analytics_AmazonQuickSight.png
       - azure:
           - name: PowerBI
-            ref: https://powerbi.microsoft.com/en-us/
+            ref: https://powerbi.microsoft.com/
             icon: Power BI Embedded.png
       - google:
           - name: Google Data Studio
@@ -3198,13 +3198,13 @@ services:
             icon: aws.png
       - azure:
           - name: Azure Data Factory
-            ref: https://azure.microsoft.com/en-in/services/data-factory/
+            ref: https://azure.microsoft.com/services/data-factory/
             icon: Azure Data Factory.png
           - name: Azure Data Catalog
-            ref: https://azure.microsoft.com/en-in/services/data-catalog/
+            ref: https://azure.microsoft.com/services/data-catalog/
             icon: Azure Data Catalog.png
           - name: Logic Apps
-            ref: https://azure.microsoft.com/en-in/services/logic-apps/
+            ref: https://azure.microsoft.com/services/logic-apps/
             icon: Azure App Service - Logic App.png
       - google:
           - name: Cloud DataPrep
@@ -3255,7 +3255,7 @@ services:
             icon: Arch_AWS-Data-Exchange_64.png
       - azure:
           - name: Azure Data Share
-            ref: https://docs.microsoft.com/en-us/azure/data-share/
+            ref: https://docs.microsoft.com/azure/data-share/
             icon: none.png
       - google:
           - name: Analytics Hub (Preview)
@@ -3292,13 +3292,13 @@ services:
             icon: aws.png
       - azure:
           - name: LUIS (Language Understanding Intelligent Service)
-            ref: https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/
+            ref: https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/
             icon: Azure Cognative Services - luis_COLOR.png
           - name: Azure Bot Service
-            ref: https://azure.microsoft.com/en-us/services/bot-service/
+            ref: https://azure.microsoft.com/services/bot-service/
             icon: Azure Cognative Services - Speech_COLOR.png
           - name: Azure Text Analytics
-            ref: https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/
+            ref: https://docs.microsoft.com/azure/cognitive-services/language-service/
             icon: Azure Machine Learning.png
       - google:
           - name: Natural Language API
@@ -3378,13 +3378,13 @@ services:
             icon: aws.png
       - azure:
           - name: Speaker Recognition
-            ref: https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speaker-recognition-overview
+            ref: https://docs.microsoft.com/azure/cognitive-services/speech-service/speaker-recognition-overview
             icon: Azure Cognative Services - Speech_COLOR.png
           - name: Speech To Text
-            ref: https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/index-speech-to-text
+            ref: https://docs.microsoft.com/azure/cognitive-services/speech-service/index-speech-to-text
             icon: Azure Cognative Services - Speech_COLOR.png
           - name: Speech Translation
-            ref: https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/index-speech-translation
+            ref: https://docs.microsoft.com/azure/cognitive-services/speech-service/index-speech-translation
             icon: Azure Cognative Services - Speech_COLOR.png
       - google:
           - name: Translation API
@@ -3429,13 +3429,13 @@ services:
             icon: aws.png
       - azure:
           - name: Emotion API
-            ref: https://azure.microsoft.com/en-us/services/cognitive-services/emotion/
+            ref: https://azure.microsoft.com/services/cognitive-services/emotion/
             icon: Azure Cognative Services - emotion_COLOR.png
           - name: Face API
-            ref: https://azure.microsoft.com/en-us/services/cognitive-services/face/
+            ref: https://azure.microsoft.com/services/cognitive-services/face/
             icon: Azure Cognative Services - emotion_COLOR.png
           - name: Computer Vision
-            ref: https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/
+            ref: https://docs.microsoft.com/azure/cognitive-services/computer-vision/
             icon: Azure Cognative Services - emotion_COLOR.png
       - google:
           - name: Vision API
@@ -3499,10 +3499,10 @@ services:
             ref: https://studio.azureml.net/
             icon: Azure Machine Learning.png
           - name: Azure Machine Learning Workbench
-            ref: https://docs.microsoft.com/en-in/azure/machine-learning/preview/quickstart-installation
+            ref: https://docs.microsoft.com/azure/machine-learning/preview/quickstart-installation
             icon: Azure Machine Learning.png
           - name: Azure Machine Learning Model Management
-            ref: https://docs.microsoft.com/en-in/azure/machine-learning/preview/model-management-overview
+            ref: https://docs.microsoft.com/azure/machine-learning/preview/model-management-overview
             icon: Azure Machine Learning.png
       - google:
           - name: Cloud DataLab
@@ -3594,13 +3594,13 @@ services:
             icon: Arch_Amazon-Personalize_64.png
       - azure:
           - name: Azure Analysis Service
-            ref: https://docs.microsoft.com/en-us/azure/analysis-services/
+            ref: https://docs.microsoft.com/azure/analysis-services/
             icon: Azure Machine Learning.png
           - name: Azure Metrics Advisor
-            ref: https://docs.microsoft.com/en-us/azure/analysis-services/
+            ref: https://docs.microsoft.com/azure/analysis-services/
             icon: Azure Cognitive Services.png
           - name: Personalize
-            ref: https://azure.microsoft.com/en-us/services/cognitive-services/personalizer/
+            ref: https://azure.microsoft.com/services/cognitive-services/personalizer/
             icon: Azure Machine Learning.png
       - google:
           - name: Vertex AI (TensorFlow, PyTorch, XGBoost, Scikit-Learn)
@@ -3666,7 +3666,7 @@ services:
             icon: Arch_Amazon-Kendra_64.png
       - azure:
           - name: Azure Cognitive Search
-            ref: https://docs.microsoft.com/en-us/azure/search/
+            ref: https://docs.microsoft.com/azure/search/
             icon: Azure Cognitive Services.png
       - google:
           - name: Vertex Matching Engine
@@ -3699,7 +3699,7 @@ services:
             icon: Mobile-Services_AWSMobileHub.png
       - azure:
           - name: Azure Mobile Apps
-            ref: https://azure.microsoft.com/en-us/services/app-service/mobile/
+            ref: https://azure.microsoft.com/services/app-service/mobile/
             icon: Azure App Service - Mobile App (was Mobile Services).png
       - google:
           - name: Cloud Mobile App
@@ -3960,13 +3960,13 @@ services:
             ref: https://flow.microsoft.com/
             icon: Microsoft Flow.png
           - name: Logic Apps
-            ref: https://azure.microsoft.com/en-in/services/logic-apps/
+            ref: https://azure.microsoft.com/services/logic-apps/
             icon: Azure App Service - Logic App.png
           - name: Azure Functions
-            ref: https://azure.microsoft.com/en-in/services/functions/
+            ref: https://azure.microsoft.com/services/functions/
             icon: Azure Functions.png
           - name: Event Grid
-            ref: https://azure.microsoft.com/en-us/services/event-grid/
+            ref: https://azure.microsoft.com/services/event-grid/
             icon: Azure Event Grid.png
           - name: Azure App Service WebJobs
             ref:
@@ -4011,7 +4011,7 @@ services:
             icon: aws.png
       - azure:
           - name: Hockey App
-            ref: https://azure.microsoft.com/en-in/services/hockeyapp/
+            ref: https://azure.microsoft.com/services/hockeyapp/
             icon: Microsoft Flow.png
       - google:
           - name: Firebase Analytics
@@ -4127,7 +4127,7 @@ services:
             icon: Arch_AWS-Elemental-Delta_64.png
       - azure:
           - name: Azure Media Services
-            ref: https://azure.microsoft.com/en-us/services/media-services
+            ref: https://azure.microsoft.com/services/media-services
             icon: Azure Media Services.png
           - name: Live On Demand Streaming
             ref:
@@ -4346,13 +4346,13 @@ services:
             icon: none.png
       - azure:
           - name: Blockchain
-            ref: https://azure.microsoft.com/en-us/solutions/blockchain/
+            ref: https://azure.microsoft.com/solutions/blockchain/
             icon: Azure subscription.png
           - name: Blockchain Workbench
-            ref: https://azure.microsoft.com/en-us/features/blockchain-workbench/
+            ref: https://azure.microsoft.com/features/blockchain-workbench/
             icon: Azure subscription.png
           - name: Azure Blockchain Tokens
-            ref: https://azure.microsoft.com/en-in/services/blockchain-tokens/
+            ref: https://azure.microsoft.com/services/blockchain-tokens/
             icon: none.png
       - google:
           - name:
@@ -4394,7 +4394,7 @@ services:
             icon: Arch_Alexa-For-Business_64.png
       - azure:
           - name: Azure Bot Service
-            ref: https://azure.microsoft.com/en-us/services/bot-service/
+            ref: https://azure.microsoft.com/services/bot-service/
             icon: Azure subscription.png
       - google:
           - name: Dialogflow
@@ -4510,7 +4510,7 @@ services:
             icon: Arch_Amazon-Connect_64.png
       - azure:
           - name: Azure Communications Services
-            ref: https://azure.microsoft.com/en-us/services/communication-services/
+            ref: https://azure.microsoft.com/services/communication-services/
             icon: none.png
       - google:
           - name:
@@ -4543,7 +4543,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure MarketPlace
-            ref: https://azuremarketplace.microsoft.com/en-us/marketplace/apps
+            ref: https://azuremarketplace.microsoft.com/marketplace/apps
             icon: Azure Store_Marketplace.png
       - google:
           - name: Cloud Launcher
@@ -4576,10 +4576,10 @@ services:
             icon: Internet-Of-Things_AWSIoT.png
       - azure:
           - name: Azure IoT Platform
-            ref: https://azure.microsoft.com/en-us/overview/iot/
+            ref: https://azure.microsoft.com/overview/iot/
             icon: Azure IoT Hub.png
           - name: Azure IoT Hub
-            ref: https://azure.microsoft.com/en-us/services/iot-hub/
+            ref: https://azure.microsoft.com/services/iot-hub/
             icon: Azure IoT Hub.png
       - google:
           - name: Cloud IoT Core (Beta)
@@ -4631,7 +4631,7 @@ services:
             ref:
             icon: Azure SDK.png
           - name: Azure IoT Edge
-            ref: https://azure.microsoft.com/en-us/blog/microsoft-launches-azure-iot-technical-training-developers-can-start-quickly-with-iot/
+            ref: https://azure.microsoft.com/blog/microsoft-launches-azure-iot-technical-training-developers-can-start-quickly-with-iot/
             icon: Azure SDK.png
       - google:
           - name:
@@ -4704,7 +4704,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure Sphere
-            ref: https://azure.microsoft.com/en-us/services/azure-sphere/
+            ref: https://azure.microsoft.com/services/azure-sphere/
             icon: Azure%20IoT%20Hub.png
       - google:
           - name:
@@ -4803,7 +4803,7 @@ services:
             icon: aws.png
       - azure:
           - name: Azure Dev/Test
-            ref: https://azure.microsoft.com/en-in/services/devtest-lab/
+            ref: https://azure.microsoft.com/services/devtest-lab/
             icon: Azure DevTest Labs.png
       - google:
           - name:
