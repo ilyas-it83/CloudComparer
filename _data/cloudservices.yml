@@ -1059,9 +1059,6 @@ services:
           - name: Amazon DynamoDB
             ref: https://aws.amazon.com/dynamodb/
             icon: Database_AmazonDynamoDB.png
-          - name: Amazon Managed Service for Prometheus (Preview)
-            ref: https://aws.amazon.com/prometheus/
-            icon: Arch_Amazon-Managed-Service-for-Prometheus_64.png
           - name: Amazon Timestream
             ref: https://aws.amazon.com/timestream/
             icon: aws.png
@@ -3735,7 +3732,7 @@ services:
     service:
       - aws:
           - name: Amazon API Gateway
-            ref:
+            ref: https://aws.amazon.com/api-gateway/
             icon: Application-Services_AmazonAPIGateway.png
       - azure:
           - name: Azure API Management
@@ -4238,7 +4235,7 @@ services:
     service:
       - aws:
           - name: Amazon Pinpoint
-            ref:
+            ref: https://aws.amazon.com/pinpoint/
             icon: aws.png
       - azure:
           - name: Mobile Engagement
@@ -4272,7 +4269,7 @@ services:
     service:
       - aws:
           - name: Amazon SES
-            ref:
+            ref: https://aws.amazon.com/ses/
             icon: Application-Services_AmazonSES_email.png
       - azure:
           - name:
@@ -4306,7 +4303,7 @@ services:
     service:
       - aws:
           - name: Amazon SNS
-            ref:
+            ref: https://aws.amazon.com/sns/
             icon: Mobile-Services_AmazonSNS.png
       - azure:
           - name: Azure Notification Services
@@ -4542,7 +4539,7 @@ services:
     service:
       - aws:
           - name: AWS Marketplace
-            ref:
+            ref: https://aws.amazon.com/marketplace
             icon: aws.png
       - azure:
           - name: Azure MarketPlace
@@ -4575,7 +4572,7 @@ services:
     service:
       - aws:
           - name: AWS IoT Platform
-            ref:
+            ref: https://aws.amazon.com/iot/
             icon: Internet-Of-Things_AWSIoT.png
       - azure:
           - name: Azure IoT Platform
@@ -4627,7 +4624,7 @@ services:
     service:
       - aws:
           - name: AWS Greengrass
-            ref:
+            ref: https://aws.amazon.com/greengrass/
             icon: aws.png
       - azure:
           - name: Azure IoT SDK
@@ -4703,7 +4700,7 @@ services:
     service:
       - aws:
           - name: AWS IoT Button
-            ref:
+            ref: https://aws.amazon.com/iotbutton/
             icon: aws.png
       - azure:
           - name: Azure Sphere
