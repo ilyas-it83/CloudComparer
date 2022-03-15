@@ -143,8 +143,8 @@ services:
             ref:
             icon: none.png
       - oracle:
-          - name:
-            ref:
+          - name: Oracle Cloud VMWare Solution
+            ref: https://docs.oracle.com/en-us/iaas/Content/VMware/Concepts/ocvsoverview.htm
             icon: none.png
       - alibaba:
           - name:
@@ -227,9 +227,9 @@ services:
             ref: https://cloud.ibm.com/catalog/content/terraform-1627942334-78300480-b376-4185-9812-b7ae00d82765-global
             icon: Symphony_icon.png
       - oracle:
-          - name:
-            ref:
-            icon: none.png
+          - name: Oracle Dedicated Virtual Machine Hosts
+            ref: https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm
+            icon: compute.png
       - alibaba:
           - name:
             ref:
@@ -262,7 +262,7 @@ services:
       - oracle:
           - name: Oracle Cloud Infrastructure Registry
             ref: https://cloud.oracle.com/containers/registry
-            icon: compute.png
+            icon: containerregistry.png
       - alibaba:
           - name: Container Registry
             ref: https://www.alibabacloud.com/product/container-registry
@@ -316,7 +316,7 @@ services:
       - oracle:
           - name: Container Engine for Kubernetes (OKE)
             ref: https://cloud.oracle.com/containers/kubernetes-engine
-            icon: oracle.png
+            icon: oke.png
       - alibaba:
           - name: Container Service
             ref: https://www.alibabacloud.com/product/container-service
@@ -356,9 +356,9 @@ services:
             ref: https://cloud.ibm.com/codeengine
             icon: codeEngineBright.svg
       - oracle:
-          - name:
-            ref:
-            icon: none.png
+          - name:  
+            ref: 
+            icon: 
       - alibaba:
           - name:
             ref:
@@ -389,9 +389,9 @@ services:
             ref: https://cloud.ibm.com/codeengine
             icon: codeEngineBright.svg
       - oracle:
-          - name:
-            ref:
-            icon: none.png
+          - name: Oracle Functions
+            ref: https://docs.oracle.com/en-us/iaas/Content/Functions/Concepts/functionsoverview.htm
+            icon: functions.png
       - alibaba:
           - name:
             ref:
@@ -433,7 +433,7 @@ services:
       - oracle:
           - name: Oracle Functions
             ref: https://www.oracle.com/cloud/cloud-native/functions/
-            icon: compute.png
+            icon: functions.png
       - alibaba:
           - name: Function Compute
             ref: https://www.alibabacloud.com/product/function-compute
@@ -537,9 +537,9 @@ services:
             ref: https://www.ibm.com/cloud/auto-scaling
             icon: auto-scaling.png
       - oracle:
-          - name: Auto Scaling
-            ref: https://docs.oracle.com/en/cloud/paas/psmon/automatic-scaling.html
-            icon: none.png
+          - name: Oracle Autoscaling Instance Pools
+            ref: https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/instancemanagement.htm
+            icon: instancepools.png
       - alibaba:
           - name: Auto Scaling
             ref: https://www.alibabacloud.com/product/auto-scaling
@@ -573,9 +573,9 @@ services:
             ref: https://www.ibm.com/cloud/functions
             icon: ibm-cloud-functions.png
       - oracle:
-          - name:
-            ref:
-            icon: none.png
+          - name: Oracle Burstable Instances
+            ref: https://docs.oracle.com/en-us/iaas/Content/Compute/References/burstable-instances.htm
+            icon: compute.png
       - alibaba:
           - name: Batch Compute
             ref: https://www.alibabacloud.com/product/batch-compute
@@ -656,7 +656,7 @@ services:
       - oracle:
           - name: Oracle Functions
             ref: https://www.oracle.com/cloud-native/functions/
-            icon: compute.png
+            icon: functions.png
       - alibaba:
           - name: Function Compute
             ref: https://www.alibabacloud.com/product/function-compute
@@ -689,7 +689,7 @@ services:
       - oracle:
           - name: Oracle Cloud Infrastructure Object Storage
             ref: https://www.oracle.com/cloud/storage/object-storage.html
-            icon: storage.png
+            icon: buckets.png
       - alibaba:
           - name: Object Storage Service
             ref: https://www.alibabacloud.com/product/oss
@@ -728,7 +728,7 @@ services:
       - oracle:
           - name: Oracle Cloud Infrastructure Block Volumes
             ref: https://www.oracle.com/cloud/storage/block-volumes.html
-            icon: storage.png
+            icon: blockstorage.png
       - alibaba:
           - name: Block Storage
             ref:
@@ -768,9 +768,9 @@ services:
             ref: https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-about#getting-started-with-file-storage
             icon: ibmcloud.png
       - oracle:
-          - name:
-            ref:
-            icon: none.png
+          - name: Oracle File Storage Services
+            ref: https://docs.oracle.com/en-us/iaas/Content/File/Concepts/filestorageoverview.htm
+            icon: fss.png
       - alibaba:
           - name: NAS File Storage
             ref: https://www.alibabacloud.com/product/nas
@@ -816,7 +816,7 @@ services:
             icon: storage.png
           - name: Oracle Cloud Object Storage Infrequent Access Tier
             ref: https://docs.oracle.com/en-us/iaas/Content/Object/Concepts/understandingstoragetiers.htm
-            icon: storage.png
+            icon: bucket.png
       - alibaba:
           - name: Object Storage Archive
             ref: https://www.alibabacloud.com/product/oss
@@ -850,7 +850,7 @@ services:
       - oracle:
           - name: Oracle Cloud Infrastructure Storage Gateway
             ref: https://www.oracle.com/cloud/storage/storage-gateway.html
-            icon: storage.png
+            icon: bucket.png
       - alibaba:
           - name: Hybrid Cloud Storage Array
             ref: https://www.alibabacloud.com/product/storage-array
@@ -938,6 +938,9 @@ services:
             icon: database.png
           - name: MySQL Database Service
             ref: https://www.oracle.com/mysql/
+            icon: database.png
+          - name: MySQL Heatwave Service
+            ref: https://docs.oracle.com/en-us/iaas/mysql-database/doc/heatwave.html
             icon: database.png
       - alibaba:
           - name: ApsaraDB for RDS MYSQL
@@ -1150,7 +1153,7 @@ services:
             ref: https://cloud.ibm.com/catalog/services/db2-warehouse
             icon: WoC_thicker_logo_10_23.svg
       - oracle:
-          - name: Exadata
+          - name: Exadata Cloud Service
             ref: http://www.oracle.com/us/corporate/features/exadata-service/index.html
             icon: database.png
           - name: Autonomous Data Warehouse Cloud
@@ -1195,8 +1198,8 @@ services:
             ref: https://cloud.ibm.com/catalog/content/Rackware-Golden-Template-1.11-06545490-596b-4133-8516-8425a11b3265-global
             icon: ibmcloud.png
       - oracle:
-          - name: Migrate to the Cloud
-            ref: https://www.oracle.com/database/migration-to-cloud.html
+          - name: Oracle Lift Services
+            ref: https://www.oracle.com/cloud/cloud-lift/
             icon: storage.png
       - alibaba:
           - name: Data Transmission Service
@@ -1469,7 +1472,7 @@ services:
       - oracle:
           - name: Oracle Virtual Cloud Network
             ref: https://cloud.oracle.com/networking
-            icon: service-virtual-cloud-network.png
+            icon: vcn.png
       - alibaba:
           - name: Virtual Private Cloud
             ref: https://www.alibabacloud.com/product/vpc
@@ -1503,9 +1506,9 @@ services:
             ref: https://cloud.ibm.com/interconnectivity/transit/provision
             icon: App_Icon_Transit_SVG.svg
       - oracle:
-          - name:
-            ref:
-            icon: none.png
+          - name: Oracle Dynamic Routing Gateway
+            ref: https://docs.oracle.com/en-us/iaas/Content/Network/Tasks/managingDRGs.htm
+            icon: drg.png
       - alibaba:
           - name:
             ref:
