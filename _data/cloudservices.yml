@@ -63,12 +63,6 @@ services:
           - name: Power Systems Virtual Servers
             ref: https://cloud.ibm.com/docs/infrastructure/power-iaas?topic=power-iaas-about-power-virtual-server
             icon: virtual-server.png
-          - name: VMware Shared Server Instance
-            ref: https://cloud.ibm.com/infrastructure/vmware-solutions/console
-            icon: virtual-server.png
-          - name: VMware Dedicated vCenter Service
-            ref: https://cloud.ibm.com/infrastructure/vmware-solutions/console
-            icon: virtual-server.png
           - name: Hyper Protect Virtual Server (LinuxONE)
             ref: https://cloud.ibm.com/catalog/services/hyper-protect-virtual-server
             icon: virtual-server.png
@@ -139,9 +133,18 @@ services:
             ref: https://cloud.google.com/vmware-engine
             icon: Generic-GCP.png
       - ibm:
-          - name:
-            ref:
-            icon: none.png
+          - name: VMware Solutions Shared
+            ref: https://cloud.ibm.com/infrastructure/vmware-solutions/console
+            icon: virtual-server.png
+          - name: VMware Solutions Dedicated
+            ref: https://cloud.ibm.com/infrastructure/vmware-solutions/console
+            icon: virtual-server.png
+          - name: VMware Regulated Workloads
+            ref: https://cloud.ibm.com/infrastructure/vmware-solutions/console
+            icon: virtual-server.png
+          - name: VMware Solutions Dedicated - Security & Compliance Readiness Bundle
+            ref: https://cloud.ibm.com/infrastructure/vmware-solutions/console
+            icon: virtual-server.png 
       - oracle:
           - name: Oracle Cloud VMWare Solution
             ref: https://docs.oracle.com/en-us/iaas/Content/VMware/Concepts/ocvsoverview.htm
