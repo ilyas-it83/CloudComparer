@@ -4443,8 +4443,8 @@ services:
             ref:
             icon: Office 365.png
       - google:
-          - name: G Suite
-            ref:
+          - name: Google Workspace
+            ref: https://workspace.google.com/
             icon: GSuite.png
       - ibm:
           - name:
