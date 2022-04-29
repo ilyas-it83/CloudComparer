@@ -107,7 +107,7 @@ services:
             icon: Generic-GCP.png
       - ibm:
           - name: Bare Metal Servers
-            ref: https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-about-bm
+            ref: https://www.ibm.com/cloud/bare-metal-servers
             icon: virtual-server.png
       - oracle:
           - name: Oracle Bare Metal Servers
@@ -2378,8 +2378,8 @@ services:
             ref: https://cloud.google.com/apis/
             icon: Generic-GCP.png
       - ibm:
-          - name:
-            ref:
+          - name: https://www.ibm.com/cloud/bare-metal-servers
+            ref: https://www.ibm.com/cloud/cli
             icon: none.png
       - oracle:
           - name: OCI CLI
