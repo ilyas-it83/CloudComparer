@@ -144,7 +144,7 @@ services:
             icon: virtual-server.png
           - name: VMware Solutions Dedicated - Security & Compliance Readiness Bundle
             ref: https://cloud.ibm.com/infrastructure/vmware-solutions/console
-            icon: virtual-server.png 
+            icon: virtual-server.png
       - oracle:
           - name: Oracle Cloud VMWare Solution
             ref: https://docs.oracle.com/en-us/iaas/Content/VMware/Concepts/ocvsoverview.htm
@@ -359,8 +359,8 @@ services:
             ref: https://cloud.ibm.com/codeengine
             icon: codeEngineBright.svg
       - oracle:
-          - name:  
-            ref: 
+          - name:
+            ref:
             icon: none.png
       - alibaba:
           - name:
@@ -992,7 +992,7 @@ services:
             icon: aws.png
           - name: Amazon Keyspaces (Apache Cassandra)
             ref: https://aws.amazon.com/keyspaces/
-            icon: aws.png            
+            icon: aws.png
       - azure:
           - name: Azure CosmosDB
             ref: https://docs.microsoft.com/azure/cosmos-db/
@@ -2381,7 +2381,7 @@ services:
             ref: https://cloud.google.com/apis/
             icon: Generic-GCP.png
       - ibm:
-          - name: https://www.ibm.com/cloud/bare-metal-servers
+          - name: IBM Bare Metal Servers
             ref: https://www.ibm.com/cloud/cli
             icon: none.png
       - oracle:
@@ -3247,9 +3247,9 @@ services:
             ref: https://www.alibabacloud.com/product/data-integration
             icon: alibaba.png
       - huawei:
-          - name: DGC
+          - name: Data Lake Governance Center
             ref: https://www.huaweicloud.com/intl/en-us/product/dayu.html
-            icon: dgc.png
+            icon: none.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Third party data exchange
