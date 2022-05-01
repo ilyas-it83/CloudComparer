@@ -183,7 +183,7 @@ services:
             icon: virtual-server.png
           - name: Dedicated host for VPC
             ref: https://cloud.ibm.com/vpc-ext/provision/dedicatedHost
-            icon: IBM_Cloud_DedicatedHost.svg
+            icon: none.png
       - oracle:
           - name: Dedicated Virtual Machine Hosts
             ref: https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm
@@ -217,7 +217,7 @@ services:
       - azure:
           - name: Azure High Performance Compute
             ref: https://azure.com/hpc/
-            icon: architecture_hpc_azure.png
+            icon: none.png
       - google:
           - name: High performance computing
             ref: https://cloud.google.com/solutions/hpc
@@ -361,7 +361,7 @@ services:
       - oracle:
           - name:  
             ref: 
-            icon: 
+            icon: none.png
       - alibaba:
           - name:
             ref:
@@ -382,7 +382,7 @@ services:
       - azure:
           - name:
             ref:
-            icon:
+            icon: none.png
       - google:
           - name: Google Cloud Run
             ref: https://cloud.google.com/run
@@ -819,7 +819,7 @@ services:
             icon: storage.png
           - name: Oracle Cloud Object Storage Infrequent Access Tier
             ref: https://docs.oracle.com/en-us/iaas/Content/Object/Concepts/understandingstoragetiers.htm
-            icon: bucket.png
+            icon: none.png
       - alibaba:
           - name: Object Storage Archive
             ref: https://www.alibabacloud.com/product/oss
@@ -853,7 +853,7 @@ services:
       - oracle:
           - name: Oracle Cloud Infrastructure Storage Gateway
             ref: https://www.oracle.com/cloud/storage/storage-gateway.html
-            icon: bucket.png
+            icon: none.png
       - alibaba:
           - name: Hybrid Cloud Storage Array
             ref: https://www.alibabacloud.com/product/storage-array
@@ -901,10 +901,10 @@ services:
       - ibm:
           - name: Db2
             ref: https://cloud.ibm.com/catalog/services/db2
-            icon: Db2_thicker_logo_10_23
+            icon: none.png
           - name: Db2 Hosted
             ref: https://cloud.ibm.com/catalog/services/db2-hosted
-            icon: Db2_thicker_logo_10_23
+            icon: none.png
           - name: Informix
             ref: https://cloud.ibm.com/catalog/services/informix
             icon: ibmcloud.png
@@ -962,7 +962,7 @@ services:
           - name: GaussDB(for openGauss)
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdb.html
             icon: GaussDBforOpenGauss.png
-          - name: GaussDB(for MySQL)
+          - name: none.png
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdb_mysql.html
             icon: GaussDBforMysql.png
           - name: RDS for MySQL
@@ -2989,7 +2989,7 @@ services:
       - huawei:
           - name: Data Lake Insight
             ref: https://www.huaweicloud.com/intl/en-us/product/dli.html
-            icon: dli.png
+            icon: none.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Big Data Managed Cluster as a Service
@@ -3022,7 +3022,7 @@ services:
       - huawei:
           - name: MapReduce Service
             ref: https://www.huaweicloud.com/intl/en-us/product/mrs.html
-            icon: mrs.png
+            icon: none.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3059,7 +3059,7 @@ services:
       - huawei:
           - name: Cloud Search Service
             ref: https://www.huaweicloud.com/intl/en-us/product/es.html
-            icon: css.png
+            icon: none.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3102,7 +3102,7 @@ services:
       - huawei:
           - name: "Data Lake Insight [Previous: Cloud Stream Service]"
             ref: https://www.huaweicloud.com/intl/en-us/product/dli.html
-            icon: dli.png
+            icon: none.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3185,7 +3185,7 @@ services:
       - huawei:
           - name: Data Lake Visulization
             ref: https://www.huaweicloud.com/intl/en-us/product/dlv.html
-            icon: dlv.png
+            icon: none.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3534,6 +3534,7 @@ services:
       - alibaba:
           - name: Machine Learning Platform For AI
             ref: https://www.alibabacloud.com/product/machine-learning
+            icon: none.png
       - huawei:
           - name: ModelArts
             ref: https://www.huaweicloud.com/intl/en-us/product/modelarts.html
@@ -3729,7 +3730,7 @@ services:
       - huawei:
           - name: ServiceStage-MBaaS
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
-            icon: servicestage.png
+            icon: none.png
 
   - category: Mobile Services
     categoryurl:
@@ -3800,7 +3801,7 @@ services:
       - huawei:
           - name: ServiceStage-MBaaS
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
-            icon: servicestage.png
+            icon: none.png
   - category: Mobile Services
     categoryurl:
     subcategory: Consolidated Mgmt of Multiple Cloud Accounts
@@ -3833,7 +3834,7 @@ services:
       - huawei:
           - name: ServiceStage-MBaaS
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
-            icon: servicestage.png
+            icon: none.png
 
   - category: Automated Cloud Management Service
     categoryurl:
@@ -4038,7 +4039,7 @@ services:
       - huawei:
           - name: ServiceStage-MBaaS
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
-            icon: servicestage.png
+            icon: none.png
 
   - category: Application Services
     categoryurl:
@@ -4266,7 +4267,7 @@ services:
       - huawei:
           - name: ServiceStage-MBaaS
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
-            icon: servicestage.png
+            icon: none.png
 
   - category: Application Services
     categoryurl:
