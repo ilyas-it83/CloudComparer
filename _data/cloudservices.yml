@@ -1046,7 +1046,7 @@ services:
       - huawei:
           - name: GaussDB(for Mongo)
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbformongo.html
-            icon: gaussdbformongo.png
+            icon: none.png
           - name: GaussDB(for Cassandra)
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbforcassandra.html
             icon: GaussDBforCassandra.png
@@ -3641,7 +3641,7 @@ services:
       - azure:
           - name:
             ref:
-            icon:
+            icon: none.png
       - google:
           - name: Vertex AI Predictions
             ref: https://cloud.google.com/vertex-ai
