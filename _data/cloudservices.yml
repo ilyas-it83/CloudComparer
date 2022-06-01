@@ -426,6 +426,9 @@ services:
           - name: Google Cloud Functions
             ref: https://cloud.google.com/functions/
             icon: Cloud-Functions.png
+          - name: EventArc
+            ref: https://cloud.google.com/eventarc
+            icon: Eventarc.png
       - ibm:
           - name: IBM Cloud Code Engine
             ref: https://cloud.ibm.com/codeengine
@@ -649,6 +652,9 @@ services:
           - name: Cloud Functions
             ref: https://cloud.google.com/functions/
             icon: Cloud-Functions.png
+          - name: EventArc
+            ref: https://cloud.google.com/eventarc
+            icon: Eventarc.png
       - ibm:
           - name: IBM Cloud Code Engine
             ref: https://cloud.ibm.com/codeengine
