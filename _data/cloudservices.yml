@@ -350,6 +350,9 @@ services:
           - name: Azure Container Instances
             ref: https://azure.microsoft.com/services/container-instances/
             icon: Azure Container Service.png
+          - name: Azure Container Apps
+            ref: https://azure.microsoft.com/en-us/services/container-apps/
+            icon: Azure Container Service.png
       - google:
           - name: Google Cloud Run
             ref: https://cloud.google.com/run
@@ -380,9 +383,9 @@ services:
             ref: https://aws.amazon.com/apprunner/
             icon: Arch_AWS-AppRunner.png
       - azure:
-          - name:
-            ref:
-            icon: none.png
+          - name: Azure Container Apps
+            ref: https://azure.microsoft.com/en-us/services/container-apps/
+            icon: Azure Container Service.png
       - google:
           - name: Google Cloud Run
             ref: https://cloud.google.com/run
