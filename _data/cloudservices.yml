@@ -10,8 +10,8 @@ services:
             ref: https://aws.amazon.com/amplify/hosting/
             icon: Arch_AWS-Amplify_64.png
       - azure:
-          - name: Azure shared App Services
-            ref: https://azure.microsoft.com/services/app-service/web/
+          - name: Web Apps
+            ref: https://azure.microsoft.com/en-us/services/app-service/web/
             icon: Azure App Service - Web App (was Websites).png
       - google:
           - name: Firebase
@@ -759,8 +759,8 @@ services:
             ref: https://aws.amazon.com/fsx/lustre/
             icon: Arch_Amazon-FSx-for-Lustre_64.png
       - azure:
-          - name: Azure File Storage
-            ref: https://azure.microsoft.com/services/storage/files/
+          - name: Azure Files
+            ref: https://azure.microsoft.com/en-us/services/storage/files/
             icon: Azure Storage - Files.png
           - name: Azure NetApp Files
             ref: https://azure.microsoft.com/en-gb/services/netapp/
@@ -805,9 +805,6 @@ services:
       - google:
           - name: Cloud Storage
             ref: https://cloud.google.com/storage/
-            icon: Cloud-Storage.png
-          - name: Archival Storage (NEARLINE & COLDLINE)
-            ref: https://cloud.google.com/storage/archival/
             icon: Cloud-Storage.png
       - ibm:
           - name: Object Storage-ColdVault
@@ -1010,9 +1007,9 @@ services:
           - name: Cloud Datastore
             ref: https://cloud.google.com/datastore/
             icon: Cloud-Datastore.png
-          - name: Cloud Bigtable
-            ref: https://cloud.google.com/Bigtable/
-            icon: Cloud-Bigtable.png
+          - name: Cloud Firestore
+            ref: https://cloud.google.com/firestore/
+            icon: Cloud-Datastore.png
       - ibm:
           - name: Cloudant NoSQL DB
             ref: https://cloud.ibm.com/docs/services/Cloudant?topic=cloudant-overview
@@ -1111,11 +1108,11 @@ services:
             ref: https://aws.amazon.com/memorydb/
             icon: aws.png
       - azure:
-          - name: Azure RedisCache
-            ref: https://azure.microsoft.com/services/cache/
+          - name: Azure Cache for Redis
+            ref: https://azure.microsoft.com/en-us/services/cache/
             icon: Azure Cache including Redis.png
       - google:
-          - name: Cloud MemoryStore (Beta)
+          - name: Cloud MemoryStore
             ref: https://cloud.google.com/memorystore/
             icon: Blue-Hexagon.png
       - ibm:
@@ -1187,7 +1184,7 @@ services:
             icon: Arch_AWS-Migration-Hub_64.png
       - azure:
           - name: Azure Database Migration Service
-            ref: https://azure.microsoft.com/blog/azure-database-migration-service-announcement-at-build/
+            ref: https://azure.microsoft.com/en-us/services/database-migration/
             icon: Microsoft Azure.png
       - google:
           - name: Database Migration Service
@@ -1234,15 +1231,15 @@ services:
           - name: Site Recovery
             ref: https://docs.microsoft.com/azure/site-recovery/site-recovery-migrate-to-azure
             icon: Azure Site Recovery.png
-          - name: Azure Websites Migration Assistant
-            ref: https://azure.microsoft.com/downloads/migration-assistant/
+          - name: Azure App Service migration
+            ref: https://azure.microsoft.com/en-us/services/app-service/migration-tools/
             icon: Microsoft Azure.png
       - google:
           - name: Migrate for Compute Engine
-            ref: https://cloud.google.com/migrate/compute-engine,
+            ref: https://cloud.google.com/migrate/compute-engine
             icon: Generic-GCP.png
-          - name: Migrate for Anthos
-            ref: https://cloud.google.com/migrate/anthos
+          - name: Migrate to Containers
+            ref: https://cloud.google.com/migrate/containers
             icon: Generic-GCP.png
           - name: Application Migration
             ref: https://cloud.google.com/solutions/application-migration
@@ -1320,9 +1317,9 @@ services:
             ref: https://aws.amazon.com/datasync/
             icon: Arch_AWS-DataSync_64.png
       - azure:
-          - name:
-            ref:
-            icon: none.png
+          - name: Azure Data Box
+            ref: https://azure.microsoft.com/en-us/services/databox/
+            icon: Microsoft Azure.png
       - google:
           - name: Transfer Appliance
             ref: https://cloud.google.com/transfer-appliance/
@@ -1360,8 +1357,8 @@ services:
             ref: https://aws.amazon.com/datasync/
             icon: Arch_AWS-DataSync_64.png
       - azure:
-          - name: Azure Data Box (Preview)
-            ref: https://azure.microsoft.com/services/storage/databox/
+          - name: Azure Data Box
+            ref: https://azure.microsoft.com/en-us/services/databox/
             icon: Microsoft Azure.png
       - google:
           - name: Transfer Appliance
@@ -1468,8 +1465,8 @@ services:
             ref: https://azure.microsoft.com/services/virtual-network/
             icon: Azure App Service - Web App (was Websites).png
       - google:
-          - name: Cloud Virtual Network
-            ref: https://cloud.google.com/products/networking/
+          - name: Virtual Private Cloud
+            ref: https://cloud.google.com/vpc
             icon: Cloud-Virtual-Network.png
       - ibm:
           - name: IBM Cloud VPC
@@ -1500,13 +1497,13 @@ services:
             ref: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-peering.html
             icon: Arch_Amazon-Virtual-Private-Cloud_64.png
       - azure:
-          - name:
-            ref:
+          - name: Azure VNet Peering
+            ref: https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
             icon: none.png
       - google:
-          - name:
-            ref:
-            icon: none.png
+          - name: Google VPC Peering
+            ref: https://cloud.google.com/vpc/docs/vpc-peering/
+            icon: vpc.png
       - ibm:
           - name: Transit Gateway
             ref: https://cloud.ibm.com/interconnectivity/transit/provision
@@ -1734,8 +1731,8 @@ services:
             ref: https://azure.microsoft.com/services/expressroute/
             icon: Azure ExpressRoute.png
       - google:
-          - name: Cloud InterConnect
-            ref: https://cloud.google.com/interconnect/
+          - name: Cloud Hybrid Connectivity
+            ref: https://cloud.google.com/hybrid-connectivity
             icon: Cloud-Interconnect.png
       - ibm:
           - name: Direct Link
@@ -3782,8 +3779,8 @@ services:
             ref:
             icon: Mobile-Services_AmazonCognito.png
       - azure:
-          - name: Azure Mobile SDK,Offline/Sync
-            ref:
+          - name: Azure Active Directory B2C
+            ref: https://azure.microsoft.com/en-us/services/active-directory/external-identities/b2c/
             icon: Azure SDK.png
       - google:
           - name: Firebase Authentication
@@ -3886,12 +3883,9 @@ services:
             ref:
             icon: Mobile-Services_AWSDeviceFarm.png
       - azure:
-          - name: Xamarin Test Cloud (Front End)
-            ref:
+          - name: App Center Test
+            ref: https://appcenter.ms/
             icon: xamarin.png
-          - name: Azure DevTest Labs (Back End)
-            ref:
-            icon: Azure DevTest Labs.png
       - google:
           - name: Cloud Test Lab
             ref: https://firebase.google.com/docs/test-lab/
@@ -4016,12 +4010,12 @@ services:
     subcategoryurl:
     service:
       - aws:
-          - name: Amazon Mobile Analytics
-            ref: https://aws.amazon.com/mobileanalytics/
+          - name: Amazon Pinpoint
+            ref: https://aws.amazon.com/pinpoint/
             icon: aws.png
       - azure:
-          - name: Hockey App
-            ref: https://azure.microsoft.com/services/hockeyapp/
+          - name: Visual Studio App Center
+            ref: https://azure.microsoft.com/en-us/services/app-center/
             icon: Microsoft Flow.png
       - google:
           - name: Firebase Analytics
@@ -4197,21 +4191,15 @@ services:
             ref: https://aws.amazon.com/amazon-mq/
             icon: Arch_Amazon-MQ_64.png
       - azure:
-          - name: Service Bus queues
-            ref:
+          - name: Azure Web PubSub
+            ref: https://azure.microsoft.com/en-us/services/web-pubsub/
             icon: Azure Service Bus Queues.png
           - name: Queue Storage
-            ref:
+            ref: https://azure.microsoft.com/en-us/services/storage/queues/
             icon: Azure Service Bus Queues.png
-          - name: Service Bus topics
-            ref:
-            icon: Azure Service Bus Topics.png
-          - name: Service Bus relay
-            ref:
-            icon: Azure Service Bus Relay.png
       - google:
           - name: Cloud Pub/Sub
-            ref:
+            ref: https://cloud.google.com/pubsub
             icon: Cloud-PubSub.png
       - ibm:
           - name: Event Steams
@@ -4316,8 +4304,8 @@ services:
             ref: https://aws.amazon.com/sns/
             icon: Mobile-Services_AmazonSNS.png
       - azure:
-          - name: Azure Notification Services
-            ref:
+          - name: Notification Hubs
+            ref: https://azure.microsoft.com/en-us/services/notification-hubs/
             icon: Azure Notification Hubs.png
       - google:
           - name: Firebase Cloud Messaging
@@ -4556,8 +4544,8 @@ services:
             ref: https://azuremarketplace.microsoft.com/marketplace/apps
             icon: Azure Store_Marketplace.png
       - google:
-          - name: Cloud Launcher
-            ref: https://cloud.google.com/launcher/
+          - name: MarketPlace
+            ref: https://cloud.google.com/marketplace
             icon: Google-Cloud-Platform.png
       - ibm:
           - name: IBM Cloud Partner Center
