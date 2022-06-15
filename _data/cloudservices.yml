@@ -255,9 +255,9 @@ services:
             ref: https://azure.microsoft.com/services/container-registry/
             icon: Microsoft Azure.png
       - google:
-          - name: Container Registry
-            ref: https://cloud.google.com/container-registry/
-            icon: Container-Registry.png
+          - name: Artifact Registry
+            ref: https://cloud.google.com/artifact-registry/
+            icon: artifact-registry.png
       - ibm:
           - name: IBM Cloud Container Registry
             ref: https://www.ibm.com/cloud/container-registry
@@ -429,6 +429,9 @@ services:
           - name: Google Cloud Functions
             ref: https://cloud.google.com/functions/
             icon: Cloud-Functions.png
+          - name: EventArc
+            ref: https://cloud.google.com/eventarc
+            icon: Eventarc.png
       - ibm:
           - name: IBM Cloud Code Engine
             ref: https://cloud.ibm.com/codeengine
@@ -652,6 +655,9 @@ services:
           - name: Cloud Functions
             ref: https://cloud.google.com/functions/
             icon: Cloud-Functions.png
+          - name: EventArc
+            ref: https://cloud.google.com/eventarc
+            icon: Eventarc.png
       - ibm:
           - name: IBM Cloud Code Engine
             ref: https://cloud.ibm.com/codeengine
@@ -3976,9 +3982,12 @@ services:
             ref:
             icon: Azure WebApp - WebJobs.png
       - google:
-          - name: App Engine
-            ref: https://cloud.google.com/appengine/
-            icon: App-Engine.png
+          - name: Workflows
+            ref: https://cloud.google.com/workflows
+            icon: workflows.png
+          - name: EventArc
+            ref: https://cloud.google.com/eventarc
+            icon: Eventarc.png
       - ibm:
           - name: IBM Cloud Functions
             ref: https://www.ibm.com/cloud/functions
