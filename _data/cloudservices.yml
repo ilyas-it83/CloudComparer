@@ -914,18 +914,21 @@ services:
           - name: Informix
             ref: https://cloud.ibm.com/catalog/services/informix
             icon: ibmcloud.png
+          - name: Databases for MongoDB
+            ref: https://cloud.ibm.com/databases/databases-for-mongodb/create
+            icon: ibmcloud.svg
           - name: Databases for PostgreSQL
             ref: https://cloud.ibm.com/catalog/services/databases-for-postgresql
             icon: postgresql.svg
           - name: Databases for EDB
             ref: https://cloud.ibm.com/databases/databases-for-enterprisedb/create
             icon: edb.svg
-          - name: Compose for MySQL(Beta)
-            ref: https://cloud.ibm.com/catalog/services/compose-for-mysql
-            icon: ibmcloud.png
           - name: Databases for MySQL
             ref: https://cloud.ibm.com/databases/databases-for-mysql/create
             icon: mysql.svg
+          - name: Hyper Protect DBaaS for MongoDB
+            ref: https://cloud.ibm.com/catalog/services/hyper-protect-dbaas-for-mongodb
+            icon: ibmcloud.png
           - name: Hyper Protect DBaaS for PostgreSQL
             ref: https://cloud.ibm.com/catalog/services/hyper-protect-dbaas-for-postgresql
             icon: ibmcloud.png
