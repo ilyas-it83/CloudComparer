@@ -2600,8 +2600,8 @@ services:
             ref:
             icon: none.png
       - ibm:
-          - name: Certificate Manager
-            ref: https://cloud.ibm.com/catalog/services/certificate-manager
+          - name: Secrets Manager
+            ref: https://cloud.ibm.com/catalog/services/secrets-manager
             icon: ibmcloud.png
       - oracle:
           - name:
