@@ -44,7 +44,7 @@ services:
       - aws:
           - name: Amazon EC2
             ref: https://aws.amazon.com/ec2/
-            icon: Compute_AmazonEC2.png
+            icon: Arch_Amazon-EC2_64.png
       - azure:
           - name: Azure Virtual Machine
             ref: https://docs.microsoft.com/azure/virtual-machines/
@@ -90,7 +90,7 @@ services:
       - aws:
           - name: Amazon EC2 Bare Metal Instance
             ref: https://aws.amazon.com/blogs/aws/category/compute/amazon-ec2-bare-metal/
-            icon: aws.png
+            icon: Arch-Category_Compute_64.png
       - azure:
           - name: Azure Bare Metal Servers (Large   Instance Only for SAP Hana)
             ref: https://docs.microsoft.com/azure/virtual-machines/workloads/sap/hana-overview-architecture
@@ -123,7 +123,7 @@ services:
       - aws:
           - name: VMC on AWS
             ref: https://aws.amazon.com/vmware/
-            icon: aws.png
+            icon: Arch_VMware-Cloud-on-AWS_64.png
       - azure:
           - name: Azure VMware Solution
             ref: https://azure.microsoft.com/services/azure-vmware/
@@ -165,7 +165,7 @@ services:
       - aws:
           - name: Amazon EC2 Dedicated Hosts
             ref: https://aws.amazon.com/ec2/dedicated-hosts/
-            icon: aws.png
+            icon: Arch-Category_Compute_64.png
           - name: AWS Nitro Enclaves
             ref: https://aws.amazon.com/ec2/nitro/nitro-enclaves/
             icon: Arch_AWS-Nitro-Enclaves_64.png
@@ -249,7 +249,7 @@ services:
       - aws:
           - name: Amazon Elastic Container Registry (ECR)
             ref: https://aws.amazon.com/ecr/
-            icon: aws.png
+            icon: Arch_Amazon-Elastic-Container-Registry_64.png
       - azure:
           - name: "Azure Container Registry "
             ref: https://azure.microsoft.com/services/container-registry/
@@ -414,7 +414,7 @@ services:
       - aws:
           - name: AWS Lambda
             ref: https://aws.amazon.com/lambda/
-            icon: Compute_AWSLambda.png
+            icon: Arch_AWS-Lambda_64.png
       - azure:
           - name: Azure Service Fabric
             ref: https://azure.microsoft.com/services/service-fabric/
@@ -492,7 +492,7 @@ services:
       - aws:
           - name: Amazon Lightsail
             ref: https://amazonlightsail.com/
-            icon: aws.png
+            icon: Arch_Amazon-Lightsail_64.png
       - azure:
           - name: Azure App Service Environment
             ref: https://docs.microsoft.com/azure/app-service-web/app-service-app-service-environment-intro
@@ -528,8 +528,8 @@ services:
     service:
       - aws:
           - name: Auto Scaling
-            ref: https://aws.amazon.com/autoscaling/
-            icon: aws.png
+            ref: https://aws.amazon.com/ec2/autoscaling/
+            icon: Arch_Amazon-EC2-Auto-Scaling_64.png
       - azure:
           - name: Azure Autoscale
             ref: https://azure.microsoft.com/features/autoscale/
@@ -565,7 +565,7 @@ services:
       - aws:
           - name: AWS Batch
             ref: https://aws.amazon.com/batch/
-            icon: aws.png
+            icon: Arch_AWS-Batch_64.png
       - azure:
           - name: Azure Batch
             ref: https://azure.microsoft.com/services/batch/
@@ -601,7 +601,7 @@ services:
       - aws:
           - name: AWS Elastic Beanstalk
             ref: https://aws.amazon.com/elasticbeanstalk/
-            icon: Compute_AWSElasticBeanstalk_application.png
+            icon: Arch_AWS-Elastic-Beanstalk_64.png
       - azure:
           - name: Azure Web Apps
             ref: https://azure.microsoft.com/services/app-service/web/
@@ -643,7 +643,7 @@ services:
       - aws:
           - name: AWS Lambda
             ref: https://aws.amazon.com/lambda/
-            icon: Compute_AWSLambda.png
+            icon: Arch_AWS-Lambda_64.png
       - azure:
           - name: Azure Functions
             ref: https://azure.microsoft.com/services/functions/
@@ -685,7 +685,7 @@ services:
       - aws:
           - name: Amazon Simple Storage Service (S3)
             ref: https://aws.amazon.com/documentation/s3/
-            icon: Storage-Content-Delivery_AmazonS3_bucket.png
+            icon: Arch_Amazon-Simple-Storage-Service_64.png
       - azure:
           - name: Azure Blob Storage
             ref: https://azure.microsoft.com/services/storage/blobs/
@@ -718,7 +718,7 @@ services:
       - aws:
           - name: Amazon Elastic Block Storage (EBS)
             ref: https://aws.amazon.com/ebs/
-            icon: Storage-Content-Delivery_AmazonEBS.png
+            icon: Arch_Amazon-Elastic-Block-Store_64.png
       - azure:
           - name: Azure Page Blobs / Premium Storage
             ref: https://azure.microsoft.com/services/storage/disks/
@@ -757,13 +757,19 @@ services:
       - aws:
           - name: Amazon Elastic File System (EFS)
             ref: https://aws.amazon.com/efs/
-            icon: Storage-Content-Delivery_AmazonEFS.png
+            icon: Arch_Amazon-Elastic-File-System_64.png
           - name: Amazon FSx for Windows File Server
             ref: https://aws.amazon.com/fsx/windows/
             icon: Arch_Amazon-FSx-for-Windows-File-Server_64.png
           - name: Amazon FSx for Lustre
             ref: https://aws.amazon.com/fsx/lustre/
             icon: Arch_Amazon-FSx-for-Lustre_64.png
+          - name: Amazon FSx for NetApp ONTAP
+            ref: https://aws.amazon.com/fsx/netapp-ontap/
+            icon: Arch_Amazon-FSx-for-NetApp-ONTAP_64.png
+          - name: Amazon FSx for OpenZFS
+            ref: https://aws.amazon.com/fsx/openzfs/
+            icon: Arch_Amazon-FSx-for-OpenZFS_64.png
       - azure:
           - name: Azure Files
             ref: https://azure.microsoft.com/en-us/services/storage/files/
@@ -798,9 +804,9 @@ services:
     subcategoryurl: https://en.wikipedia.org/wiki/Platform_as_a_service
     service:
       - aws:
-          - name: Amazon Glacier
-            ref: https://aws.amazon.com/glacier/
-            icon: Storage-Content-Delivery_AmazonGlacier.png
+          - name: Amazon S3 Glacier
+            ref: https://aws.amazon.com/s3/storage-classes/glacier/
+            icon: Arch_Amazon-Simple-Storage-Service-Glacier_64.png
       - azure:
           - name: Azure Archive Storage
             ref: https://azure.microsoft.com/services/storage/archive/
@@ -843,7 +849,7 @@ services:
       - aws:
           - name: AWS Storage Gateway
             ref: https://aws.amazon.com/storagegateway
-            icon: Storage-Content-Delivery_AWSStorageGateway.png
+            icon: Arch_AWS-Storage-Gateway_64.png
       - azure:
           - name: Azure Storsimple
             ref: https://azure.microsoft.com/services/storsimple/
@@ -876,11 +882,11 @@ services:
     service:
       - aws:
           - name: Amazon Aurora
-            ref: https://aws.amazon.com/rds/aurora/details/
-            icon: aws.png
+            ref: https://aws.amazon.com/rds/aurora/
+            icon: Arch_Amazon-Aurora_64.png
           - name: Amazon RDS
             ref: https://aws.amazon.com/rds/
-            icon: Database_AmazonRDS.png
+            icon: Arch_Amazon-RDS_64.png
       - azure:
           - name: Azure SQL Database
             ref: https://azure.microsoft.com/services/sql-database/
@@ -986,19 +992,16 @@ services:
       - aws:
           - name: Amazon DynamoDB
             ref: https://aws.amazon.com/dynamodb/
-            icon: Database_AmazonDynamoDB.png
-          - name: Amazon DocumentDB (with MongoDB compatibility)
-            ref: https://aws.amazon.com/documentdb/
-            icon: aws.png
+            icon: Arch_Amazon-DynamoDB_64.png
           - name: Amazon DynamoDB Accelerator (DAX)
             ref: https://aws.amazon.com/dynamodb/dax/
-            icon: Database_AmazonDynamoDB.png
-          - name: Amazon Neptune
-            ref: https://aws.amazon.com/neptune/
-            icon: aws.png
+            icon: Arch_Amazon-DynamoDB_64.png
+          - name: Amazon DocumentDB (with MongoDB compatibility)
+            ref: https://aws.amazon.com/documentdb/
+            icon: Arch_Amazon-DocumentDB_64.png
           - name: Amazon Keyspaces (Apache Cassandra)
             ref: https://aws.amazon.com/keyspaces/
-            icon: aws.png
+            icon: Arch_Amazon-Keyspaces_64.png
       - azure:
           - name: Azure CosmosDB
             ref: https://docs.microsoft.com/azure/cosmos-db/
@@ -1068,12 +1071,9 @@ services:
     subcategoryurl:
     service:
       - aws:
-          - name: Amazon DynamoDB
-            ref: https://aws.amazon.com/dynamodb/
-            icon: Database_AmazonDynamoDB.png
           - name: Amazon Timestream
             ref: https://aws.amazon.com/timestream/
-            icon: aws.png
+            icon: Arch_Amazon-Timestream_64.png
       - azure:
           - name: Azure Time Series Insights
             ref: https://azure.microsoft.com/services/time-series-insights/
@@ -1103,16 +1103,55 @@ services:
             icon: GaussDBforInflux.png
   - category: Database
     categoryurl:
+    subcategory: Graph Database
+    subcategoryurl: https://en.wikipedia.org/wiki/Graph_database
+    service:
+      - aws:
+          - name: Amazon Neptune
+            ref: https://aws.amazon.com/neptune/
+            icon: Arch_Amazon-Neptune_64.png
+      - azure:
+          - name: 
+            ref: 
+            icon: none.png
+      - google:
+          - name: 
+            ref: 
+            icon: none.png
+      - ibm:
+          - name: IBM Graph
+            ref: https://www.ibm.com/analytics/ca/en/technology/cloud-data-services/graph/
+            icon: none.png
+      - oracle:
+          - name: Graph Database
+            ref: https://www.oracle.com/database/graph/
+            icon: NoSQL.png
+      - alibaba: 
+          - name: GraphDB (GDB) (Coming Soon...)
+            ref: https://www.alibabacloud.com/product/databases
+            icon: gdb.png
+          - name: 
+            ref: 
+            icon: none.png
+      - huawei:
+          - name: FunctionGraph
+            ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
+            icon: none.png
+          - name: Graph Engine Service (GES)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ges.html
+            icon: ges.png
+  - category: Database
+    categoryurl:
     subcategory: In-Memory Data Store
     subcategoryurl: https://en.wikipedia.org/wiki/In-memory_database
     service:
       - aws:
           - name: Amazon ElastiCache
             ref: https://aws.amazon.com/elasticache/
-            icon: Database_AmazonElasticCache.png
+            icon: Arch_Amazon-ElastiCache_64.png
           - name: Amazon MemoryDB for Redis
             ref: https://aws.amazon.com/memorydb/
-            icon: aws.png
+            icon: Arch_Amazon-MemoryDB-for-Redis_64.png
       - azure:
           - name: Azure Cache for Redis
             ref: https://azure.microsoft.com/en-us/services/cache/
@@ -1148,7 +1187,7 @@ services:
       - aws:
           - name: Amazon Redshift
             ref: https://aws.amazon.com/redshift/
-            icon: Database_AmazonRedshift.png
+            icon: Arch_Amazon-Redshift_64.png
       - azure:
           - name: Azure Synapse Analytics
             ref: https://azure.microsoft.com/services/synapse-analytics/
