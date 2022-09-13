@@ -3489,10 +3489,10 @@ services:
             ref: https://docs.microsoft.com/azure/cognitive-services/computer-vision/
             icon: Azure Cognative Services - emotion_COLOR.png
       - google:
-          - name: Vision API
-            ref:
+          - name: Cloud Vision API - Vision AI
+            ref: https://cloud.google.com/vision/
             icon: Vision-API.png
-          - name: Cloud Video Intelligence
+          - name: Cloud Video Intelligence API - Video AI
             ref: https://cloud.google.com/video-intelligence/
             icon: Vision-API.png
       - ibm:
