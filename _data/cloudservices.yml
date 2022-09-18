@@ -3328,6 +3328,39 @@ services:
           - name:
             ref:
             icon: none.png
+  - category: Big Data & Advanced Analytics
+    categoryurl:
+    subcategory: Data Analytics platform
+    subcategoryurl:
+    service:
+      - aws:
+          - name: 
+            ref: 
+            icon: none.png
+      - azure:
+          - name: Azure Databricks
+            ref: https://azure.microsoft.com/en-us/products/databricks/#overview
+            icon: Microsoft Azure.png
+      - google:
+          - name:
+            ref: 
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name:
+            ref:
+            icon: none.png
 
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
