@@ -4278,6 +4278,9 @@ services:
           - name: Queue Storage
             ref: https://azure.microsoft.com/en-us/services/storage/queues/
             icon: Azure Service Bus Queues.png
+          - name: Service Bus
+            ref: https://azure.microsoft.com/en-us/products/service-bus/
+            icon: Azure Service Bus.png
       - google:
           - name: Cloud Pub/Sub
             ref: https://cloud.google.com/pubsub
@@ -4388,6 +4391,9 @@ services:
           - name: Notification Hubs
             ref: https://azure.microsoft.com/en-us/services/notification-hubs/
             icon: Azure Notification Hubs.png
+          - name: Service Bus
+            ref: https://azure.microsoft.com/en-us/products/service-bus/
+            icon: Azure Service Bus.png
       - google:
           - name: Firebase Cloud Messaging
             ref: https://firebase.google.com/docs/cloud-messaging/
