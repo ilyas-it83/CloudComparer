@@ -3196,9 +3196,12 @@ services:
             ref: https://quicksight.aws/
             icon: Analytics_AmazonQuickSight.png
       - azure:
-          - name: PowerBI
+          - name: Power BI
             ref: https://powerbi.microsoft.com/
             icon: Power BI Embedded.png
+          - name: Azure Analysis Service
+            ref: https://docs.microsoft.com/azure/analysis-services/
+            icon: Azure Machine Learning.png
       - google:
           - name: Google Data Studio
             ref: https://cloud.google.com/data-studio/
