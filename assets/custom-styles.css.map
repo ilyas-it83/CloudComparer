@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "custom-styles.css",
+	"sources": [
+		"custom-styles.scss"
+	],
+	"sourcesContent": [
+		"/** Lists */\nul, ol { margin-left: 50px; }"
+	],
+	"names": [],
+	"mappings": "AAAA,YAAY;AACZ,AAAA,EAAE,EAAE,EAAE,CAAC,EAAE,WAAW,EAAE,IAAI,GAAI"
+}
