@@ -3,3 +3,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# misc
+.DS_Store
+assets/.DS_Store
+assets/img/.DS_Store
