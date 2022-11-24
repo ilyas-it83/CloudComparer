@@ -4321,8 +4321,8 @@ services:
             ref: https://firebase.google.com/docs/cloud-messaging/
             icon: Google-Cloud-Platform.png
       - ibm:
-          - name: Push Notifications
-            ref: https://cloud.ibm.com/docs/services/mobilepush?topic=mobile-pushnotification-getting-started
+          - name: Event Notifications
+            ref: https://cloud.ibm.com/catalog/services/event-notifications
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Cloud Infrastructure Notifications
