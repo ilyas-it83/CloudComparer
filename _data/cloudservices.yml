@@ -1975,8 +1975,8 @@ services:
     subcategoryurl: https://en.wikipedia.org/wiki/Platform_as_a_service
     service:
       - aws:
-          - name: Amazon EC2 Systems Manager
-            ref: https://aws.amazon.com/documentation/elastic-beanstalk/
+          - name: AWS Systems Manager
+            ref: https://aws.amazon.com/systems-manager/
             icon: aws.png
       - azure:
           - name: "Azure Operational Insights "
