@@ -4514,9 +4514,6 @@ services:
           - name: Amazon WorkMail
             ref: https://aws.amazon.com/workmail/
             icon: Arch_Amazon-WorkMail_64.png
-          # - name: Amazon WorkSpaces
-          #   ref: https://aws.amazon.com/workspaces/
-          #   icon: Arch_Amazon-WorkSpaces_64.png
           - name: Amazon WorkLink
             ref: https://aws.amazon.com/worklink/
             icon: Arch_Amazon-WorkLink_64.png
