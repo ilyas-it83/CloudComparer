@@ -4514,9 +4514,6 @@ services:
           - name: Amazon WorkMail
             ref: https://aws.amazon.com/workmail/
             icon: Arch_Amazon-WorkMail_64.png
-          - name: Amazon WorkSpaces
-            ref: https://aws.amazon.com/workspaces/
-            icon: Arch_Amazon-WorkSpaces_64.png
           - name: Amazon WorkLink
             ref: https://aws.amazon.com/worklink/
             icon: Arch_Amazon-WorkLink_64.png
@@ -4554,13 +4551,16 @@ services:
           - name: Amazon AppStream 2.0
             ref: https://aws.amazon.com/appstream2/
             icon: Arch_Amazon-AppStream_64.png
+          - name: Amazon WorkSpaces
+            ref: https://aws.amazon.com/workspaces/
+            icon: Arch_Amazon-WorkSpaces_64.png
           - name: NICE DCV
             ref: https://aws.amazon.com/hpc/dcv/
             icon: Arch_NICE-DCV_64.png
       - azure:
-          - name:
-            ref:
-            icon: none.png
+          - name: Azure Virtual Desktop
+            ref: https://azure.microsoft.com/en-us/products/virtual-desktop/
+            icon: Windows-Virtual-Desktop.svg
       - google:
           - name:
             ref:
@@ -4578,9 +4578,13 @@ services:
             ref:
             icon: none.png
       - huawei:
+          - name: FusionCloud Desktop
+            ref: https://carrier.huawei.com/en/products/it/cloud-transformation/fusioncloud-desktop
+            icon: none.png
           - name: Workspace
             ref:
             icon: EnterpriseAPPWorkspace.png
+          
   - category: Business Productivity
     categoryurl:
     subcategory: Communications Service
