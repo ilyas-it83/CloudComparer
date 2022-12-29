@@ -1080,7 +1080,7 @@ services:
             icon: Azure DocumentDB.png
       - google:
           - name: Cloud Bigtable
-            ref: https://cloud.google.com/Bigtable/
+            ref: https://cloud.google.com/bigtable/
             icon: Cloud-Bigtable.png
       - ibm:
           - name: Informix
