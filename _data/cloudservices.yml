@@ -2542,7 +2542,7 @@ services:
             ref:
             icon: none.png
 
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Identity & Access Management
     subcategoryurl:
@@ -2581,7 +2581,45 @@ services:
           - name: Identity and Access Management
             ref: https://www.huaweicloud.com/intl/en-us/s/JUlBTSU
             icon: iam.png
-  - category: Security & Identity, Compliance
+
+  category: Security, Identity & Compliance
+    categoryurl:
+    subcategory: Customer Identity and Access Management
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Cognito
+            ref: https://aws.amazon.com/cognito/
+            icon: Arch_Amazon-Cognito_64.png
+      - azure:
+          - name: Azure Active Directory B2C
+            ref: https://azure.microsoft.com/en-us/services/active-directory/external-identities/b2c/
+            icon: Azure SDK.png
+      - google:
+          - name: Firebase Authentication
+            ref: https://firebase.google.com/docs/auth
+            icon: Blue-Hexagon.png
+          - name: Identity Platform
+            ref: https://cloud.google.com/identity-platform 
+            icon: Cloud-IAM.png
+      - ibm:
+          - name: App ID
+            ref: https://cloud.ibm.com/catalog/services/app-id#about
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon:
+      - alibaba:
+          - name:
+            ref:
+            icon:
+      - huawei:
+          - name:
+            ref:
+            icon:
+
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Cloud Security Assesment Service
     subcategoryurl:
@@ -2621,7 +2659,7 @@ services:
             ref:
             icon: none.png
 
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Secured Socket Layer (SSL) Certificates
     subcategoryurl:
@@ -2654,7 +2692,7 @@ services:
           - name: SSL Certificate Manager
             ref: https://www.huaweicloud.com/intl/en-us/product/scm.html
             icon: ssl.png
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Hardware Based Security Module
     subcategoryurl:
@@ -2697,7 +2735,7 @@ services:
             ref:
             icon: none.png
 
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Directory Services
     subcategoryurl:
@@ -2747,7 +2785,7 @@ services:
             ref:
             icon: none.png
 
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Key Management Services
     subcategoryurl:
@@ -2786,7 +2824,7 @@ services:
           - name: Data Encryption Workshop
             ref: https://www.huaweicloud.com/intl/en-us/product/dew.html
             icon: dew.png
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Consolidated Management of Multiple Cloud Accounts
     subcategoryurl:
@@ -2830,7 +2868,7 @@ services:
             ref:
             icon: none.png
 
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: DDos Protection Service
     subcategoryurl:
@@ -2863,7 +2901,7 @@ services:
           - name: Advanced Anti-DDoS
             ref: https://www.huaweicloud.com/intl/en-us/product/aad.html
             icon: Anti-DDoS.png
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Web Application Firewall
     subcategoryurl:
@@ -2896,7 +2934,7 @@ services:
           - name: Web Application Firewall
             ref: https://www.huaweicloud.com/intl/en-us/product/waf.html
             icon: waf.png
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Security & Compliance Service
     subcategoryurl:
@@ -2932,7 +2970,7 @@ services:
           - name: Security Compliance
             ref: https://www.huaweicloud.com/intl/en-us/securecenter/safetycompliance.html
             icon: none.png
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Security & Compliance Service
     subcategoryurl:
@@ -2962,7 +3000,7 @@ services:
             ref: https://www.alibabacloud.com/trust-center
             icon: alibaba.png
 
-  - category: Security & Identity, Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Sensitive Data discovery and protection
     subcategoryurl:
@@ -3849,39 +3887,6 @@ services:
 
   - category: Mobile Services
     categoryurl:
-    subcategory: Web/Mobile Authentication Services
-    subcategoryurl:
-    service:
-      - aws:
-          - name: Amazon Cognito
-            ref:
-            icon: Mobile-Services_AmazonCognito.png
-      - azure:
-          - name: Azure Active Directory B2C
-            ref: https://azure.microsoft.com/en-us/services/active-directory/external-identities/b2c/
-            icon: Azure SDK.png
-      - google:
-          - name: Firebase Authentication
-            ref:
-            icon: Blue-Hexagon.png
-      - ibm:
-          - name: App ID
-            ref: https://cloud.ibm.com/catalog/services/app-id
-            icon: ibmcloud.png
-      - oracle:
-          - name: Mobile Cloud Service
-            ref: https://cloud.oracle.com/mobile
-            icon: mobile.png
-      - alibaba:
-          - name:
-            ref:
-            icon: none.png
-      - huawei:
-          - name: ServiceStage-MBaaS
-            ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
-            icon: none.png
-  - category: Mobile Services
-    categoryurl:
     subcategory: Consolidated Mgmt of Multiple Cloud Accounts
     subcategoryurl:
     service:
@@ -3902,9 +3907,9 @@ services:
             ref: https://cloud.ibm.com/docs/services/mobilefoundation
             icon: ibmcloud.png
       - oracle:
-          - name:
-            ref:
-            icon: none.png
+          - name: Mobile Cloud Service
+            ref: https://cloud.oracle.com/mobile
+            icon: mobile.png
       - alibaba:
           - name:
             ref:
