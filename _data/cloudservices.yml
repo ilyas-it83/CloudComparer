@@ -2582,7 +2582,7 @@ services:
             ref: https://www.huaweicloud.com/intl/en-us/s/JUlBTSU
             icon: iam.png
 
-  category: Security, Identity & Compliance
+  - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Customer Identity and Access Management
     subcategoryurl:
