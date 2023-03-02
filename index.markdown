@@ -52,7 +52,7 @@ layout: home
 </table>
 
 <table id="comparison">
-  <tr align="center" class="header">
+  <tr align="center" class="header" style="position:sticky;top: 0">
 	            <th style="width:7%">Category</th>
             <th style="width:10%">Service</th>
             <th>
