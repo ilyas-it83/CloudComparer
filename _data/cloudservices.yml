@@ -1947,6 +1947,9 @@ services:
           - name: Continuous Delivery
             ref: https://cloud.ibm.com/docs/services/ContinuousDelivery?topic=ContinuousDelivery-getting-started
             icon: ibmcloud.png
+          - name: IBM Cloud API & SDK
+            ref: https://cloud.ibm.com/docs?tab=api-docs
+            icon: ibmcloud.png
       - oracle:
           - name: Oracle API Catalog
             ref: https://www.oracle.com/middleware/technologies/api-catalog.html
@@ -2423,9 +2426,18 @@ services:
             ref: https://cloud.google.com/apis/
             icon: Generic-GCP.png
       - ibm:
-          - name: IBM Bare Metal Servers
+          - name: IBM Cloud CLI
             ref: https://www.ibm.com/cloud/cli
-            icon: none.png
+            icon: ibmcloud.png
+          - name: IBM Cloud Shell
+            ref: https://www.ibm.com/cloud/cloud-shell
+            icon: ibmcloud.png
+          - name: IBM Cloud Billing and Usage
+            ref: https://cloud.ibm.com/docs/billing-usage
+            icon: ibmcloud.png
+          - name: IBM Cloud API & SDK
+            ref: https://cloud.ibm.com/docs?tab=api-docs
+            icon: ibmcloud.png
       - oracle:
           - name: OCI CLI
             ref: https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm
