@@ -617,9 +617,6 @@ services:
           - name: IBM Cloud Code Engine
             ref: https://cloud.ibm.com/codeengine
             icon: codeEngineBright.svg
-          - name: Cloud Foundry Apps
-            ref: https://www.ibm.com/cloud/cloud-foundry
-            icon: cloud-foundry-apps.png
       - oracle:
           - name: Oracle Application Container Cloud Service
             ref: https://docs.oracle.com/en/cloud/paas/app-container-cloud/index.html
