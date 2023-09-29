@@ -808,7 +808,7 @@ services:
           - name: Azure Archive Storage
             ref: https://azure.microsoft.com/services/storage/archive/
             icon: Azure Storage.png
-          - name: Azure Cool Storage
+          - name: Azure Blob Storage
             ref: https://azure.microsoft.com/pricing/details/storage/blobs/
             icon: Azure Storage.png
       - google:
