@@ -61,7 +61,7 @@ services:
             ref: https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
             icon: virtual-server.png
           - name: Power Systems Virtual Servers
-            ref: https://cloud.ibm.com/docs/infrastructure/power-iaas?topic=power-iaas-about-power-virtual-server
+            ref: https://cloud.ibm.com/docs/power-iaas
             icon: virtual-server.png
           - name: Hyper Protect Virtual Server (LinuxONE)
             ref: https://cloud.ibm.com/catalog/services/hyper-protect-virtual-server
@@ -505,8 +505,8 @@ services:
           - name: Classic Virtual Server
             ref: https://cloud.ibm.com/docs/vsi?topic=virtual-servers-about-public-virtual-servers
             icon: virtual-server.png
-          - name: Virtual Server for VPC
-            ref: https://cloud.ibm.com/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started
+          - name: Virtual Private Cloud
+            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
             icon: virtual-server.png
       - oracle:
           - name:
@@ -693,7 +693,7 @@ services:
             icon: Cloud-Storage.png
       - ibm:
           - name: Cloud Object Storage
-            ref: https://cloud.ibm.com/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage
+            ref: https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Cloud Infrastructure Object Storage
@@ -729,10 +729,10 @@ services:
             icon: Persistent-Disk.png
       - ibm:
           - name: Block Storage
-            ref: https://cloud.ibm.com/docs/infrastructure/BlockStorage?topic=BlockStorage-About#getting-started-with-block-storage
+            ref: https://cloud.ibm.com/docs/BlockStorage?topic=BlockStorage-getting-started
             icon: ibmcloud.png
           - name: Block Storage for VPC
-            ref: https://cloud.ibm.com/docs/vpc-on-classic-block-storage?topic=vpc-on-classic-block-storage-getting-started
+            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-creating-block-storage
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Cloud Infrastructure Block Volumes
@@ -780,7 +780,7 @@ services:
             icon: Persistent-Disk.png
       - ibm:
           - name: File Storage
-            ref: https://cloud.ibm.com/docs/infrastructure/FileStorage?topic=FileStorage-about#getting-started-with-file-storage
+            ref: https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-getting-started
             icon: ibmcloud.png
       - oracle:
           - name: Oracle File Storage Services
@@ -923,9 +923,6 @@ services:
           - name: Databases for EDB
             ref: https://cloud.ibm.com/databases/databases-for-enterprisedb/create
             icon: edb.svg
-          - name: Compose for MySQL(Beta)
-            ref: https://cloud.ibm.com/catalog/services/compose-for-mysql
-            icon: ibmcloud.png
           - name: Databases for MySQL
             ref: https://cloud.ibm.com/databases/databases-for-mysql/create
             icon: mysql.svg
@@ -1018,10 +1015,7 @@ services:
             icon: Cloud-Datastore.png
       - ibm:
           - name: Cloudant NoSQL DB
-            ref: https://cloud.ibm.com/docs/services/Cloudant?topic=cloudant-overview
-            icon: ibmcloud.png
-          - name: Compose for JanusGraph
-            ref: https://cloud.ibm.com/docs/services/ComposeForJanusGraph?topic=compose-for-janusgraph-about-compose-for-janusgraph
+            ref: https://cloud.ibm.com/catalog/services/cloudant
             icon: ibmcloud.png
           - name: Databases for MongoDB
             ref: https://cloud.ibm.com/catalog/services/databases-for-mongodb
@@ -1235,6 +1229,7 @@ services:
       - ibm:
           - name: Lift CLI
             ref: https://www.lift-cli.cloud.ibm.com/#docs
+            ref: https://www.ibm.com/cloud/lift
             icon: ibmcloud.png
           - name: VPC+ Cloud Migration
             ref: https://cloud.ibm.com/catalog/services/vpc-cloud-migration
@@ -1548,7 +1543,7 @@ services:
             icon: vpc.png
       - ibm:
           - name: Transit Gateway
-            ref: https://cloud.ibm.com/interconnectivity/transit/provision
+            ref: https://cloud.ibm.com/docs/transit-gateway
             icon: App_Icon_Transit_SVG.svg
       - oracle:
           - name: Oracle Dynamic Routing Gateway
@@ -1585,11 +1580,11 @@ services:
             ref: https://cloud.google.com/products/networking/
             icon: Cloud-Virtual-Network.png
       - ibm:
-          - name: Classic IPSEC-VPN
-            ref: https://cloud.ibm.com/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn
+          - name: Virtual Private Networks
+            ref: https://cloud.ibm.com/docs/iaas-vpn?topic=iaas-vpn-getting-started
             icon: ibmcloud.png
           - name: VPN gateway for VPC
-            ref: https://cloud.ibm.com/docs/vpc-on-classic-network?topic=vpc-on-classic-network---using-vpn-with-your-vpc
+            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-vpn-overview
             icon: ibmcloud.png
       - oracle:
           - name: Oracle VPN Connect
@@ -1778,7 +1773,7 @@ services:
             icon: Cloud-Interconnect.png
       - ibm:
           - name: Direct Link
-            ref: https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-overview-of-direct-link-offerings
+            ref: https://cloud.ibm.com/docs/direct-link
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Cloud Infrastructure FastConnect
@@ -1812,10 +1807,10 @@ services:
             icon: Cloud-Load-Balancing.png
       - ibm:
           - name: IBM Cloud Load Balancers
-            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-nlb-vs-elb
+            ref: https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
             icon: ibmcloud.png
           - name: IBM Cloud Load Balancer for VPC
-            ref: https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
+            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-nlb-vs-elb
             icon: ibmcloud.png
           - name: Citrix NetScaler VPX
             ref: https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
@@ -1893,9 +1888,10 @@ services:
             ref: https://cloud.ibm.com/docs/services/ContinuousDelivery?topic=ContinuousDelivery-getting-started
             icon: ibmcloud.png
           - name: DevOps Insights
-            ref: https://cloud.ibm.com/docs/services/DevOpsInsights?topic=DevOpsInsights-getting-started#getting-started
+            ref: https://www.ibm.com/cloud/devops-insights
             icon: ibmcloud.png
           - name: Globalization Pipeline
+            ref: https://www.ibm.com/cloud/globalization-pipeline
             ref: https://cloud.ibm.com/docs/services/GlobalizationPipeline?topic=GlobalizationPipeline-globalizationpipeline#globalizationpipeline
             icon: ibmcloud.png
       - oracle:
@@ -2103,7 +2099,7 @@ services:
             icon: Debugger.png
       - ibm:
           - name: Monitoring
-            ref: https://cloud.ibm.com/catalog/services/monitoring
+            ref: https://cloud.ibm.com/catalog/services/ibm-cloud-monitoring
             icon: ibmcloud.png
           - name: IBM Cloud Log Analysis with LogDNA
             ref: https://www.ibm.com/cloud/log-analysis
@@ -2574,6 +2570,7 @@ services:
       - ibm:
           - name: Identity & Access Management
             ref: https://cloud.ibm.com/docs/iam?topic=iam-iamoverview
+            ref: https://www.ibm.com/services/identity-access-management
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Identity and Access Management (IAM)
@@ -3101,7 +3098,7 @@ services:
             icon: Cloud-Dataproc.png
       - ibm:
           - name: Analytics Engine
-            ref: https://cloud.ibm.com/docs/services/AnalyticsEngine?topic=AnalyticsEngine-IAE-overview
+            ref: https://cloud.ibm.com/docs/AnalyticsEngine?topic=AnalyticsEngine-getting-started
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Big Data Service
@@ -3177,8 +3174,8 @@ services:
             ref: https://cloud.google.com/dataflow/
             icon: Cloud-Dataflow.png
       - ibm:
-          - name: Streaming Analytics
-            ref: https://cloud.ibm.com/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gettingstarted
+          - name: Streaming Analytics (deprecated)
+            ref: https://cloud.ibm.com/catalog/services/streaming-analytics
             icon: ibmcloud.png
           - name: Event Streams
             ref: https://cloud.ibm.com/catalog/services/event-streams
@@ -3254,8 +3251,8 @@ services:
             ref: https://cloud.google.com/looker
             icon: none.png
       - ibm:
-          - name: Watson studio
-            ref: https://dataplatform.cloud.ibm.com/docs/content/?context=wdp
+          - name: Watson Studio
+            ref: https://cloud.ibm.com/catalog/services/watson-studio
             icon: ibmcloud.png
           - name: Watson Query
             ref: https://cloud.ibm.com/catalog/services/watson-query
@@ -3316,10 +3313,10 @@ services:
             icon: Cloud-Dataprep.png
       - ibm:
           - name: DataStage
-            ref: https://www.ibm.com/us-en/marketplace/datastage
+            ref: https://cloud.ibm.com/catalog/services/datastage
             icon: ibmcloud.png
           - name: Watson Knowledge Catalog
-            ref: https://www.ibm.com/cloud/watson-knowledge-catalog
+            ref: https://cloud.ibm.com/catalog/services/watson-knowledge-catalog
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Cloud Infrastructure Data Flow
@@ -3442,26 +3439,23 @@ services:
             ref: https://cloud.google.com/dialogflow-enterprise/
             icon: Natural-Language-API.png
       - ibm:
-          - name: Natural Language Classifier
-            ref: https://cloud.ibm.com/docs/services/natural-language-classifier?topic=natural-language-classifier-natural-language-classifier
+          - name: Natural Language Understanding
+            ref: https://cloud.ibm.com/catalog/services/natural-language-understanding
             icon: ibmcloud.png
           - name: Language Translator
-            ref: https://cloud.ibm.com/docs/services/language-translator?topic=language-translator-gettingstarted
+            ref: https://cloud.ibm.com/catalog/services/language-translator
             icon: ibmcloud.png
           - name: Watson Assistant
-            ref: https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started
+            ref: https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-getting-started
             icon: ibmcloud.png
           - name: Watson Discovery
-            ref: https://cloud.ibm.com/docs/services/discovery?topic=discovery-getting-started
+            ref: https://cloud.ibm.com/docs/discovery-data?topic=discovery-data-getting-started
             icon: ibmcloud.png
-          - name: Watson Knowledge Studio
-            ref: https://cloud.ibm.com/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro
+          - name: Knowledge Studio
+            ref: https://cloud.ibm.com/catalog/services/knowledge-studio
             icon: ibmcloud.png
           - name: " Text to Speech"
             ref: https://cloud.ibm.com/docs/services/text-to-speech?topic=text-to-speech-gettingStarted
-            icon: ibmcloud.png
-          - name: Personality Insights
-            ref: https://cloud.ibm.com/docs/services/personality-insights?topic=personality-insights-gettingStarted
             icon: ibmcloud.png
       - oracle:
           - name:
@@ -3576,9 +3570,9 @@ services:
             ref: https://cloud.google.com/video-intelligence/
             icon: Vision-API.png
       - ibm:
-          - name: Visual Recognition
-            ref: https://cloud.ibm.com/docs/services/visual-recognition?topic=visual-recognition-index
-            icon: ibmcloud.png
+          - name:
+            ref:
+            icon: none.png
       - oracle:
           - name:
             ref:
@@ -3838,8 +3832,8 @@ services:
             ref:
             icon: Generic-GCP.png
       - ibm:
-          - name:
-            ref:
+          - name: Mobile Foundation
+            ref: https://cloud.ibm.com/catalog/content/ibm-mobilefoundation-9185d29a-e943-469e-ab7b-5aed8e05924d-global
             icon: none.png
       - oracle:
           - name: Mobile & Chatbots
@@ -4245,8 +4239,8 @@ services:
             ref: https://cloud.google.com/transcoder
             icon: Google-Cloud-Platform.png
       - ibm:
-          - name: Digital Transcoding
-            ref:
+          - name: Video Streaming
+            ref: https://www.ibm.com/products/video-streaming/details
             icon: ibmcloud.png
       - oracle:
           - name:
@@ -4377,7 +4371,7 @@ services:
             icon: none.png
       - ibm:
           - name: Sendgrid
-            ref: https://cloud.ibm.com/docs/infrastructure/email-delivery?topic=email-delivery-getting-started
+            ref: https://cloud.ibm.com/docs/email-delivery?topic=email-delivery-getting-started-email-delivery
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Cloud Infrastructure Email Delivery
@@ -4501,7 +4495,7 @@ services:
             icon: none.png
       - ibm:
           - name: Watson Assistant
-            ref: https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started
+            ref: https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-getting-started
             icon: ibmcloud.png
       - oracle:
           - name: Oracle Digital Assistant
@@ -4692,11 +4686,11 @@ services:
             ref: https://cloud.google.com/solutions/iot/
             icon: Google-Cloud-Platform.png
       - ibm:
-          - name: Internet of Things Platform
+          - name: Internet of Things Platform (deprecated)
             ref: https://cloud.ibm.com/docs/services/IoT/getting-started.html
             icon: ibmcloud.png
-          - name: Node-Red
-            ref: https://cloud.ibm.com/developer/appservice/create-app?starterKit=59c9d5bd-4d31-3611-897a-f94eea80dc9f&defaultLanguage=undefined
+          - name: Remote asset monitoring with IBM Maximo Application Suite
+            ref: https://www.ibm.com/products/maximo/remote-monitoring
             icon: ibmcloud.png
       - oracle:
           - name: Internet of Things Cloud Service
@@ -4741,8 +4735,8 @@ services:
             ref:
             icon: none.png
       - ibm:
-          - name: Internet of Things Platform
-            ref: https://cloud.ibm.com/docs/services/IoT/getting-started.html
+          - name: Remote asset monitoring with IBM Maximo Application Suite
+            ref: https://www.ibm.com/products/maximo/remote-monitoring
             icon: ibmcloud.png
       - oracle:
           - name:
