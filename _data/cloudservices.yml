@@ -1907,10 +1907,33 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: DevStar
-            ref: https://developer.huaweicloud.com/resource/devstar.html
-            icon: devstar.png
-
+          - name: CodeArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/devcloud.html
+            icon: CodeArts.png
+          - name: CodeArts Req
+            ref: https://www.huaweicloud.com/intl/en-us/product/projectman.html
+            icon: CodeArts-Req.png
+          - name: CodeArts Repo
+            ref: https://www.huaweicloud.com/intl/en-us/product/codehub.html
+            icon: CodeArts-Repo.png
+          - name: CodeArts Pipeline
+            ref: https://www.huaweicloud.com/intl/en-us/product/cloudpipeline.html
+            icon: CodeArts-Pipeline.png
+          - name: CodeArts Build
+            ref: https://www.huaweicloud.com/intl/en-us/product/cloudbuild.html
+            icon: CodeArts-Build.png
+          - name: CodeArts Deploy
+            ref: https://www.huaweicloud.com/intl/en-us/product/clouddeploy.html
+            icon: CodeArts-Deploy.png
+          - name: CodeArts Artifact
+            ref: https://www.huaweicloud.com/intl/en-us/product/cloudrelease.html
+            icon: CodeArts-Artifact.png
+          - name: CodeArts Check
+            ref: https://www.huaweicloud.com/intl/en-us/product/codecheck.html
+            icon: CodeArts-Check.png
+          - name: CodeArts TestPlan
+            ref: https://www.huaweicloud.com/intl/en-us/product/cloudtest.html
+            icon: CodeArts-TestPlan.png
   - category: Developer Tools
     categoryurl: https://en.wikipedia.org/wiki/Programming_tool
     subcategory: Cloud Software Development Kit
