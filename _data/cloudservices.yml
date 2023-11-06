@@ -238,9 +238,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: High-Performance Computing (HPC)
+            ref: https://support.huaweicloud.com/intl/en-us/usermanual-hpc/hpc_01_0002.html
+            icon: Computing.png
   - category: Compute
     categoryurl:
     subcategory: Container Registration Service
