@@ -328,9 +328,6 @@ services:
             ref: https://www.alibabacloud.com/product/kubernetes
             icon: ContainerServi.png
       - huawei:
-          - name: Cloud Container Instance
-            ref: https://www.huaweicloud.com/product/cci.html
-            icon: cci.png
           - name: Cloud Container Engine
             ref: https://www.huaweicloud.com/intl/en-us/product/cce.html
             icon: cce.png
@@ -370,9 +367,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Cloud Container Instance (CCI)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cci.html
+            icon: cci.png
   - category: Compute
     categoryurl:
     subcategory: Serverless container platform
