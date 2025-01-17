@@ -238,9 +238,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: High-Performance Computing (HPC)
+            ref: https://support.huaweicloud.com/intl/en-us/usermanual-hpc/hpc_01_0002.html
+            icon: hpc.png
   - category: Compute
     categoryurl:
     subcategory: Container Registration Service
@@ -1108,12 +1108,12 @@ services:
             ref: https://aws.amazon.com/neptune/
             icon: Arch_Amazon-Neptune_64.png
       - azure:
-          - name: 
-            ref: 
+          - name:
+            ref:
             icon: none.png
       - google:
-          - name: 
-            ref: 
+          - name:
+            ref:
             icon: none.png
       - ibm:
           - name: IBM Graph
@@ -1123,12 +1123,12 @@ services:
           - name: Graph Database
             ref: https://www.oracle.com/database/graph/
             icon: NoSQL.png
-      - alibaba: 
+      - alibaba:
           - name: GraphDB (GDB) (Coming Soon...)
             ref: https://www.alibabacloud.com/product/databases
             icon: gdb.png
-          - name: 
-            ref: 
+          - name:
+            ref:
             icon: none.png
       - huawei:
           - name: FunctionGraph
@@ -2609,7 +2609,7 @@ services:
             ref: https://firebase.google.com/docs/auth
             icon: Blue-Hexagon.png
           - name: Identity Platform
-            ref: https://cloud.google.com/identity-platform 
+            ref: https://cloud.google.com/identity-platform
             icon: Cloud-IAM.png
       - ibm:
           - name: App ID
@@ -3381,8 +3381,8 @@ services:
     subcategoryurl:
     service:
       - aws:
-          - name: 
-            ref: 
+          - name:
+            ref:
             icon: none.png
       - azure:
           - name: Azure Databricks
@@ -3390,7 +3390,7 @@ services:
             icon: Microsoft Azure.png
       - google:
           - name:
-            ref: 
+            ref:
             icon: none.png
       - ibm:
           - name:
@@ -4598,7 +4598,7 @@ services:
           - name: Workspace
             ref:
             icon: EnterpriseAPPWorkspace.png
-          
+
   - category: Business Productivity
     categoryurl:
     subcategory: Communications Service
