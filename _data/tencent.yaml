@@ -1,0 +1,26 @@
+name: Tencent Cloud
+services:
+  - category: Compute
+    name: CVM (Cloud Virtual Machine)
+    description: Elastic compute service similar to AWS EC2
+    website: https://intl.cloud.tencent.com/product/cvm
+
+  - category: Storage
+    name: COS (Cloud Object Storage)
+    description: Object storage similar to AWS S3
+    website: https://intl.cloud.tencent.com/product/cos
+
+  - category: Networking
+    name: CLB (Cloud Load Balancer)
+    description: Layer 4/7 load balancing service
+    website: https://intl.cloud.tencent.com/product/clb
+
+  - category: Kubernetes
+    name: TKE (Tencent Kubernetes Engine)
+    description: Managed Kubernetes service
+    website: https://intl.cloud.tencent.com/product/tke
+
+  - category: Database
+    name: TDSQL-C for PostgreSQL
+    description: Distributed relational database (PostgreSQL-compatible)
+    website: https://intl.cloud.tencent.com/product/tdsqlc

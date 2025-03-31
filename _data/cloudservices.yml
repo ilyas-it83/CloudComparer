@@ -36,6 +36,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Tencent Web Hosting
+            ref: https://intl.cloud.tencent.com/
+            icon: TencentCloud.png
   - category: Compute
     categoryurl:
     subcategory: Virtual Server
