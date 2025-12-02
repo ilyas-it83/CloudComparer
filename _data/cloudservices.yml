@@ -36,6 +36,11 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Tencent Cloud Lighthouse
+            ref: https://www.tencentcloud.com/products/lighthouse
+            icon: Lighthouse.png
+  
   - category: Compute
     categoryurl:
     subcategory: Virtual Server
@@ -81,7 +86,10 @@ services:
           - name: Huawei Cloud Elastic Cloud Server
             ref: https://www.huaweicloud.com/intl/en-us/product/ecs.html
             icon: ecs.png
-
+      - tencent:
+          - name: Cloud Virtual Machine
+            ref: https://www.tencentcloud.com/products/cvm?from_qcintl=topnav
+            icon: cvm.png
   - category: Compute
     categoryurl:
     subcategory: Bare Metal Server
@@ -115,6 +123,10 @@ services:
           - name: Huawei Cloud Bare Metal Server
             ref: https://www.huaweicloud.com/intl/en-us/product/bms.html
             icon: bms.png
+      - tencent:
+          - name: Cloud Bare Metal
+            ref: https://www.tencentcloud.com/products/cbm?from_qcintl=topnav
+            icon: cbm.png     
   - category: Compute
     categoryurl:
     subcategory: VMware
@@ -157,6 +169,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Cloud Dedicated Cluster
+            ref: https://www.tencentcloud.com/products/cdc?from_qcintl=topnav
+            icon: cdc.png            
   - category: Compute
     categoryurl:
     subcategory: Virtual Dedicated Host
@@ -196,6 +212,13 @@ services:
           - name: Huawei Cloud Dedicate Host
             ref: https://www.huaweicloud.com/intl/en-us/product/deh.html
             icon: deh.png
+      - tencent:
+          - name: Cloud Dedicated Cluster
+            ref: https://www.tencentcloud.com/products/cdc?from_qcintl=topnav
+            icon: cdc.png
+          - name: CVM Dedicated Host
+            ref: https://www.tencentcloud.com/products/cdh
+            icon: cdh.png 
   - category: Compute
     categoryurl:
     subcategory: High Performance Computing
@@ -241,6 +264,13 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Hyper Computing Cluster
+            ref: https://www.tencentcloud.com/products/hcc?from_qcintl=topnav
+            icon: hcc-hyper computing cluster.png
+          - name: Batch Compute
+            ref: https://www.tencentcloud.com/products/batch
+            icon: bc.png
   - category: Compute
     categoryurl:
     subcategory: Container Registration Service
@@ -274,6 +304,10 @@ services:
           - name: Software Repository for Container
             ref: https://www.huaweicloud.com/intl/en-us/product/swr.html
             icon: swr.png
+      - tencent:
+          - name: Tencent Container Registry
+            ref: https://www.tencentcloud.com/products/tcr
+            icon: tcr.png
   - category: Compute
     categoryurl:
     subcategory: Container Management Service
@@ -334,6 +368,10 @@ services:
           - name: Cloud Container Engine
             ref: https://www.huaweicloud.com/intl/en-us/product/cce.html
             icon: cce.png
+      - tencent:
+          - name: Tencent Kubernetes Engine
+            ref: https://www.tencentcloud.com/products/tke
+            icon: tke.png
   - category: Compute
     categoryurl:
     subcategory: Serverless compute for containers
@@ -373,6 +411,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Tencent Kubernetes Engine for Serverless
+            ref: https://www.tencentcloud.com/products/tkeserverless?from_qcintl=topnav
+            icon: serverless.png
   - category: Compute
     categoryurl:
     subcategory: Serverless container platform
@@ -406,6 +448,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Tencent Cloud Elastic Microservice
+            ref:  https://www.tencentcloud.com/products/tem
+            icon: tem.png
   - category: Compute
     categoryurl:
     subcategory: Micro Services App Development Platform
@@ -451,6 +497,10 @@ services:
           - name: FunctionGraph
             ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
             icon: none.png
+      - tencent:
+          - name: Serverless Cloud Function
+            ref: https://www.tencentcloud.com/products/scf
+            icon: scf.png
   - category: Compute
     categoryurl:
     subcategory: Serverless app repository
@@ -484,6 +534,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Tencent Cloud Elastic Microservice
+            ref: https://www.tencentcloud.com/products/tem
+            icon: tem.png
   - category: Compute
     categoryurl:
     subcategory: Virtual Private Servers
@@ -520,7 +574,10 @@ services:
           - name: Hyper Elastic Cloud Server
             ref: https://www.huaweicloud.com/product/hecs.html
             icon: ecs.png
-
+      - tencent:
+          - name: Cloud Lighthouse
+            ref: https://www.tencentcloud.com/products/lighthouse?from_qcintl=topnav
+            icon: Lighthouse.png
   - category: Compute
     categoryurl:
     subcategory: Auto Scaling
@@ -557,6 +614,10 @@ services:
           - name: Auto Scaling
             ref: https://www.huaweicloud.com/intl/en-us/product/as.html
             icon: as.png
+      - tencent:
+          - name: Auto Scaling
+            ref: https://www.tencentcloud.com/products/as
+            icon: auto scaling.png
   - category: Compute
     categoryurl:
     subcategory: Batch Jobs
@@ -593,6 +654,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Batch Compute
+            ref:  https://www.tencentcloud.com/products/batch
+            icon: batch compute.png
   - category: Compute
     categoryurl:
     subcategory: App Development/ Deployment (Java /.Net /PHP /Python)
@@ -632,6 +697,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Cloud Virtual Machine
+            ref: https://www.tencentcloud.com/products/cvm?from_qcintl=topnav
+            icon: cvm.png
   - category: Compute
     categoryurl:
     subcategory: Event Driven Computing
@@ -674,6 +743,10 @@ services:
           - name: FunctionGraph
             ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
             icon: none.png
+      - tencent:
+          - name: Serverless Cloud Function
+            ref: https://www.tencentcloud.com/products/scf
+            icon: scf.png
   - category: Storage
     categoryurl:
     subcategory: Object Storage
@@ -707,6 +780,10 @@ services:
           - name: Object Storage Service
             ref: https://www.huaweicloud.com/intl/en-us/product/obs.html
             icon: obs.png
+      - tencent:
+          - name: Object Storage Service
+            ref: https://www.tencentcloud.com/products/cos
+            icon: cos.png
   - category: Storage
     categoryurl:
     subcategory: Virtual Machine Disk Storage
@@ -746,6 +823,10 @@ services:
           - name: Elastic Volume Service
             ref: https://www.huaweicloud.com/intl/en-us/product/evs.html
             icon: evs.png
+      - tencent:
+          - name: Cloud Block Storage
+            ref: https://www.tencentcloud.com/products/cbs
+            icon: cbs.png
   - category: Storage
     categoryurl:
     subcategory: File Storage (SMB Compatible)
@@ -794,7 +875,10 @@ services:
           - name: Scalable File Service
             ref: https://www.huaweicloud.com/intl/en-us/product/sfs.html
             icon: sfs.png
-
+      - tencent:
+          - name: Cloud File Storage
+            ref: https://www.tencentcloud.com/products/cfs
+            icon: cfs.png
   - category: Storage
     categoryurl:
     subcategory: Long Term Cold Storage
@@ -837,7 +921,10 @@ services:
           - name: Object Storage Service
             ref: https://www.huaweicloud.com/intl/en-us/product/obs.html
             icon: obs.png
-
+      - tencent:
+          - name: Cloud Object Storage
+            ref: https://www.tencentcloud.com/products/cos
+            icon: cos.png
   - category: Storage
     categoryurl:
     subcategory: Hybrid Storage/Storage Gateway
@@ -871,7 +958,10 @@ services:
           - name: Cloud Storage Gateway
             ref: https://www.huaweicloud.com/product/csg.html
             icon: csg.png
-
+      - tencent:
+          - name: Cloud Storage Gateway 
+            ref: https://www.tencentcloud.com/document/product/1021/37630?lang=en
+            icon: csg.png
   - category: Database
     categoryurl: https://en.wikipedia.org/wiki/Database
     subcategory: Relational Database Management Service
@@ -980,7 +1070,16 @@ services:
           - name: RDS for PostgreSQL
             ref: https://www.huaweicloud.com/intl/en-us/product/pg.html
             icon: PostgreSQL.png
-
+      - tencent:
+          - name: Cloud Native Database TDSQL-C
+            ref: https://www.tencentcloud.com/products/tdsqlc
+            icon: tdsql-c.png
+          - name: TencentDB for MySQL
+            ref: https://www.tencentcloud.com/products/cdb
+            icon: mysql.png
+          - name: TencentDB for PostgreSQL
+            ref: https://www.tencentcloud.com/products/postgres
+            icon: tdb-pg.png
   - category: Database
     categoryurl: https://en.wikipedia.org/wiki/NoSQL
     subcategory: Non Relational Database Management Service
@@ -1062,6 +1161,13 @@ services:
           - name: Graph Engine Service
             ref: https://www.huaweicloud.com/intl/en-us/product/ges.html
             icon: ges.png
+      - tencent:
+          - name: TencentDB for MongoDB
+            ref: https://www.tencentcloud.com/products/mongodb
+            icon: tdb-mongo.png
+          - name: Cloud Native Database TDSQL-C
+            ref: https://www.tencentcloud.com/products/tdsqlc
+            icon: tdsql-c.png
   - category: Database
     categoryurl:
     subcategory: Timeseries Database
@@ -1098,6 +1204,10 @@ services:
           - name: GaussDB(for Influx)
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbforinflux.html
             icon: GaussDBforInflux.png
+      - tencent:
+          - name: TencentDB for CTSDB
+            ref: https://www.tencentcloud.com/products/ctsdb
+            icon: ctsdb.png
   - category: Database
     categoryurl:
     subcategory: Graph Database
@@ -1137,6 +1247,10 @@ services:
           - name: Graph Engine Service (GES)
             ref: https://www.huaweicloud.com/intl/en-us/product/ges.html
             icon: ges.png
+      - tencent:
+           - name: 
+             ref: 
+             icon: none.png
   - category: Database
     categoryurl:
     subcategory: In-Memory Data Store
@@ -1176,6 +1290,10 @@ services:
           - name: Distributed Cache Service for Redis
             ref: https://www.huaweicloud.com/intl/en-us/product/dcs.html
             icon: dcs.png
+      - tencent:
+          - name: TencentDB for Redis
+            ref: https://www.tencentcloud.com/products/crs
+            icon: redis.png
   - category: Database
     categoryurl: https://en.wikipedia.org/wiki/Data_warehouse
     subcategory: Data Warehousing
@@ -1212,6 +1330,10 @@ services:
           - name: GaussDB(DWS)
             ref: https://www.huaweicloud.com/intl/en-us/product/dws.html
             icon: dws.png
+      - tencent:
+          - name: Tencent Cloud TCHouse-C
+            ref: https://www.tencentcloud.com/products/tchousec
+            icon: tchouse.png
   - category: Migration Services
     categoryurl:
     subcategory: Database Migration Services
@@ -1254,6 +1376,10 @@ services:
           - name: Data Replication Service(DRS)
             ref: https://www.huaweicloud.com/intl/en-us/product/drs.html
             icon: drs.png
+      - tencent:
+          - name: Data Transfer Service
+            ref: https://www.tencentcloud.com/products/dts
+            icon: dts.png
   - category: Migration Services
     categoryurl:
     subcategory: Server Migration Services
@@ -1305,7 +1431,10 @@ services:
           - name: Server Migration Service
             ref: https://www.huaweicloud.com/intl/en-us/product/sms.html
             icon: sms.png
-
+      - tencent:
+          - name: Cloud Migration
+            ref: https://www.tencentcloud.com/products/cmg
+            icon: cloud migrate.png
   - category: Migration Services
     categoryurl:
     subcategory: Small Scale Data Transfer Service
@@ -1345,7 +1474,10 @@ services:
           - name: Data Express Service - Disk
             ref: https://www.huaweicloud.com/intl/en-us/product/des.html
             icon: des.png
-
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Migration Services
     categoryurl:
     subcategory: Large Scale Data Transfer Solution (Petabyte Scale)
@@ -1382,7 +1514,10 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Migration Services
     categoryurl:
     subcategory: Large Scale Data Transfer Solution (Terabyte Scale)
@@ -1422,7 +1557,13 @@ services:
           - name: Data Express Service - Teleport
             ref: https://www.huaweicloud.com/intl/en-us/product/des.html
             icon: des.png
-
+      - tencent:
+          - name: Tencent Cloud EdgeOne
+            ref: https://www.tencentcloud.com/products/teo
+            icon: edgeone.png
+          - name: Data Transfer Service
+            ref: https://www.tencentcloud.com/products/dts
+            icon: dts.png
   - category: Migration Services
     categoryurl:
     subcategory: Large Scale Data Transfer Solution (Exabyte Scale)
@@ -1454,6 +1595,10 @@ services:
             icon: none.png
 
       - huawei:
+          - name:
+            ref:
+            icon: none.png
+      - tencent:
           - name:
             ref:
             icon: none.png
@@ -1492,7 +1637,10 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name: Tencent Cloud Mesh
+            ref:  https://www.tencentcloud.com/products/tcm
+            icon: tcm.png
   - category: Networking & Content Delivery
     categoryurl:
     subcategory: Virtual Networking
@@ -1525,6 +1673,10 @@ services:
       - huawei:
           - name: Virtual Private Cloud
             ref: https://www.huaweicloud.com/intl/en-us/product/vpc.html
+            icon: vpc.png
+      - tencent:
+          - name: Virtual Private Cloud
+            ref: https://www.tencentcloud.com/products/vpc
             icon: vpc.png
   - category: Networking & Content Delivery
     categoryurl:
@@ -1563,7 +1715,13 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name: Cloud Connect Network
+            ref: https://www.tencentcloud.com/products/ccn
+            icon: ccn.png
+          - name: Peering Connection
+            ref: https://www.tencentcloud.com/products/pc
+            icon: pc-peering connection.png
   - category: Networking & Content Delivery
     categoryurl:
     subcategory: Network Gateway
@@ -1603,6 +1761,10 @@ services:
           - name: Virtual Private Network
             ref: https://www.huaweicloud.com/intl/en-us/product/vpn.html
             icon: vpn.png
+      - tencent:
+          - name: VPN Connection
+            ref: https://www.tencentcloud.com/products/vpn
+            icon: vpn.png
 
   - category: Networking & Content Delivery
     categoryurl:
@@ -1640,7 +1802,10 @@ services:
           - name: Huawei Cloud CDN
             ref: https://www.huaweicloud.com/intl/en-us/product/cdn.html
             icon: hwCDN.png
-
+      - tencent:
+          - name: Tencent Cloud EdgeOne
+            ref: https://www.tencentcloud.com/products/teo
+            icon: edgeone.png
   - category: Networking
     categoryurl:
     subcategory: Networking & Content Delivery
@@ -1677,6 +1842,10 @@ services:
           - name: Domain Name Service
             ref: https://www.huaweicloud.com/intl/en-us/product/dns.html
             icon: dns.png
+      - tencent:
+          - name: HTTPDNS
+            ref: https://www.tencentcloud.com/products/httpdns
+            icon: httpdns.png
   - category: Networking
     categoryurl:
     subcategory: Global Traffic Management
@@ -1716,7 +1885,13 @@ services:
           - name: Domain Name Service
             ref: https://www.huaweicloud.com/intl/en-us/product/dns.html
             icon: dns.png
-
+      - tencent:
+          - name: Global Application Acceleration Platform
+            ref: https://www.tencentcloud.com/products/gaap
+            icon: gaap.png
+          - name: DNSPod
+            ref: https://www.dnspod.com/
+            icon: none.png
   - category: Hybrid Cloud
     categoryurl:
     subcategory: Hybrid Cloud
@@ -1756,6 +1931,10 @@ services:
           - name: Huawei Cloud CLOUD Stack
             ref: https://www.huaweicloud.com/intl/en-us/product/huaweicloudstack.html
             icon: hcs.png
+      - tencent:
+          - name: Cloud Dedicated Cluster
+            ref: https://www.tencentcloud.com/products/cdc?from_qcintl=topnav
+            icon: cdc.png
   - category: Networking & Content Delivery
     categoryurl:
     subcategory: Private Connectivity
@@ -1792,7 +1971,10 @@ services:
           - name: Direct Connect
             ref: https://www.huaweicloud.com/intl/en-us/product/dc.html
             icon: dc.png
-
+      - tencent:
+          - name: Direct Connect
+            ref: https://www.tencentcloud.com/products/dc
+            icon: direct connect.png
   - category: Networking & Content Delivery
     categoryurl:
     subcategory: Load Balancers
@@ -1832,6 +2014,10 @@ services:
           - name: Elastic Load Balance
             ref: https://www.huaweicloud.com/intl/en-us/product/elb.html
             icon: elb.png
+      - tencent:
+          - name: Cloud Load Balancer
+            ref: https://www.tencentcloud.com/products/clb
+            icon: clb.png
   - category: Developer Tools
     categoryurl: https://en.wikipedia.org/wiki/Programming_tool
     subcategory: Cloud Software Development Kit
@@ -1910,7 +2096,13 @@ services:
           - name: DevStar
             ref: https://developer.huaweicloud.com/resource/devstar.html
             icon: devstar.png
-
+      - tencent:
+          - name: CodeBuddy
+            ref: https://www.codebuddy.ai/
+            icon: none.png
+          - name: Tencent Cloud Toolkit 
+            ref: https://cloud.tencent.com/document/product/649/51455
+            icon: none.png
   - category: Developer Tools
     categoryurl: https://en.wikipedia.org/wiki/Programming_tool
     subcategory: Cloud Software Development Kit
@@ -1968,7 +2160,10 @@ services:
           - name: HUAWEI CLOUD SDKs
             ref: https://developer.huaweicloud.com/intl/en-us/sdk?all
             icon: none.png
-
+      - tencent:
+          - name: SDK
+            ref: https://www.tencentcloud.com/products/tic
+            icon: none.png  
   - category: Management Tools
     categoryurl:
     subcategory: Server Management Services
@@ -2003,7 +2198,10 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name: Tencent Cloud Observability Platform
+            ref: https://www.tencentcloud.com/products/tcop
+            icon: cloud monitor.png
   - category: Management Tools
     categoryurl: https://en.wikipedia.org/wiki/Infrastructure_as_Code
     subcategory: Cloud Deployment Templates/ Infra as Code
@@ -2047,7 +2245,10 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name: Tencent Infrastructure Automation for Terraform
+            ref:  https://www.tencentcloud.com/products/iatf
+            icon: iatf.png
   - category: Management Tools
     categoryurl: https://en.wikipedia.org/wiki/Infrastructure_as_Code
     subcategory: Logging & Monitoring
@@ -2153,6 +2354,19 @@ services:
           - name: CES
             ref: https://www.huaweicloud.com/intl/en-us/product/ces.html
             icon: ces.png
+      - tencent:
+          - name: CloudAudit
+            ref: https://www.tencentcloud.com/products/cloudaudit
+            icon: cloudaudit.png
+          - name: Application Performance Management
+            ref: https://www.tencentcloud.com/products/apm
+            icon: apm.png
+          - name: TencentCloud Managed Service for Prometheus
+            ref: https://www.tencentcloud.com/products/tmp
+            icon: tmp.png
+          - name: Cloud Monitor
+            ref: https://cloud.tencent.com/product/tcpm
+            icon: cloud monitor.png
 
   - category: Management Tools
     categoryurl:
@@ -2195,6 +2409,10 @@ services:
       - huawei:
           - name:
             ref:
+            icon: none.png
+      - tencent:
+          - name: expense
+            ref:  https://console.tencentcloud.com/expense
             icon: none.png
 
   - category: Management Tools
@@ -2239,7 +2457,10 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name: Tencent Cloud Automation Tools
+            ref: https://www.tencentcloud.com/products/tat
+            icon: tat.png
   - category: Management Tools
     categoryurl:
     subcategory: Server Automation
@@ -2273,7 +2494,10 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Management Tools
     categoryurl:
     subcategory: Cloud Cost / Performance / Security Advisor
@@ -2325,7 +2549,10 @@ services:
           - name: Cost Management
             ref: https://support.huaweicloud.com/intl/en-us/usermanual-cost/costcenter_0000001.html
             icon: costMgmt.png
-
+      - tencent:
+          - name: Tencent Cloud Smart Advisor (TSA)
+            ref: https://www.tencentcloud.com/products/advisor
+            icon: none.png
   - category: Management Tools
     categoryurl:
     subcategory: Alerts and Remediation guidance Service
@@ -2372,12 +2599,21 @@ services:
       - alibaba:
           - name: Cloud monitoring, Notification and Alerts
             ref: https://www.alibabacloud.com/product/cloud-monitor
-            icon: CloudMonitor.png
+            icon: cloud monitor.png
       - huawei:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name: Cloud Monitor
+            ref: https://cloud.tencent.com/product/tcpm
+            icon: cloud monitor.png
+          - name: Cloud Security Center
+            ref: https://www.tencentcloud.com/products/csc
+            icon: csc.png
+          - name: CloudAudit
+            ref: https://www.tencentcloud.com/products/controlcenter
+            icon: cc.png
   - category: Management Tools
     categoryurl:
     subcategory: Cloud Management Tools
@@ -2471,7 +2707,19 @@ services:
           - name: CloudShell
             ref: https://shell.huaweicloud.com/
             icon: none.png
-
+      - tencent:
+          - name: Tencent Cloud Command Line Interface
+            ref: https://www.tencentcloud.com/products/cli
+            icon: none.png
+          - name: SDK
+            ref: https://www.tencentcloud.com/document/product/494
+            icon: none.png
+          - name: CloudShell
+            ref: https://www.tencentcloud.com/document/product/1080/68246?lang=en
+            icon: none.png
+          - name: Control Center
+            ref: https://www.tencentcloud.com/products/controlcenter
+            icon: cc.png
   - category: Management Tools
     categoryurl:
     subcategory: Automated Infra Management Services
@@ -2501,8 +2749,11 @@ services:
           - name:
             ref:
             icon: none.png
-
       - huawei:
+          - name:
+            ref:
+            icon: none.png
+      - tencent:
           - name:
             ref:
             icon: none.png
@@ -2551,6 +2802,11 @@ services:
             ref:
             icon: none.png
 
+      - tencent:
+          - name: Cloud Block Storage
+            ref:  https://www.tencentcloud.com/products/cbs
+            icon: cbs.png
+
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Identity & Access Management
@@ -2590,7 +2846,10 @@ services:
           - name: Identity and Access Management
             ref: https://www.huaweicloud.com/intl/en-us/s/JUlBTSU
             icon: iam.png
-
+      - tencent:
+          - name: Cloud Access Management
+            ref: https://www.tencentcloud.com/products/cam
+            icon: cam.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Customer Identity and Access Management
@@ -2614,7 +2873,7 @@ services:
       - ibm:
           - name: App ID
             ref: https://cloud.ibm.com/catalog/services/app-id#about
-            icon: ibmcloud.png
+            icon: app-id.png
       - oracle:
           - name:
             ref:
@@ -2627,7 +2886,10 @@ services:
           - name:
             ref:
             icon:
-
+      - tencent:
+          - name: Vulnerability Scan Service
+            ref: https://www.tencentcloud.com/products/vss
+            icon: vss.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Cloud Security Assesment Service
@@ -2667,7 +2929,10 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name: SSL Certificate Service
+            ref:  https://www.tencentcloud.com/products/ssl
+            icon: ssl certiticate.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Secured Socket Layer (SSL) Certificates
@@ -2701,6 +2966,10 @@ services:
           - name: SSL Certificate Manager
             ref: https://www.huaweicloud.com/intl/en-us/product/scm.html
             icon: ssl.png
+      - tencent:
+          - name: SSL Certificate Service
+            ref: https://www.tencentcloud.com/products/ssl
+            icon: ssl certiticate.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Hardware Based Security Module
@@ -2743,7 +3012,13 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name: Secrets Manager
+            ref:  https://www.tencentcloud.com/products/ssm
+            icon: secrets manager.png
+          - name: Cloud Hardware Security Module
+            ref: https://cloud.tencent.com/product/cloudhsm
+            icon: chsm.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Directory Services
@@ -2779,7 +3054,7 @@ services:
       - ibm:
           - name: App ID
             ref: https://cloud.ibm.com/catalog/services/app-id
-            icon: ibmcloud.png
+            icon: app-id.png
       - oracle:
           - name: Oracle Directory Services
             ref: https://www.oracle.com/security/identity-management/directory-services/
@@ -2793,6 +3068,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Customer Identity Access Management
+            ref:  https://www.tencentcloud.com/products/ciam
+            icon: ciam.png
 
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2833,6 +3112,10 @@ services:
           - name: Data Encryption Workshop
             ref: https://www.huaweicloud.com/intl/en-us/product/dew.html
             icon: dew.png
+      - tencent:
+          - name: Key Management Service
+            ref: https://www.tencentcloud.com/products/kms
+            icon: kms.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Consolidated Management of Multiple Cloud Accounts
@@ -2876,7 +3159,13 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name: Tencent Cloud Organization
+            ref:  https://www.tencentcloud.com/products/organization
+            icon: organization.png
+          - name: Cloud Access Management
+            ref:  https://www.tencentcloud.com/products/cam
+            icon: cam.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: DDos Protection Service
@@ -2910,6 +3199,10 @@ services:
           - name: Advanced Anti-DDoS
             ref: https://www.huaweicloud.com/intl/en-us/product/aad.html
             icon: Anti-DDoS.png
+      - tencent:
+          - name: Anti-DDoS Pro
+            ref: https://www.tencentcloud.com/products/ddos-pro
+            icon: anti-ddos.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Web Application Firewall
@@ -2942,6 +3235,10 @@ services:
       - huawei:
           - name: Web Application Firewall
             ref: https://www.huaweicloud.com/intl/en-us/product/waf.html
+            icon: waf.png
+      - tencent:
+          - name: Web Application Firewall
+            ref: https://www.tencentcloud.com/products/waf
             icon: waf.png
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2979,6 +3276,13 @@ services:
           - name: Security Compliance
             ref: https://www.huaweicloud.com/intl/en-us/securecenter/safetycompliance.html
             icon: none.png
+      - tencent:
+          - name: Cloud Security Center
+            ref: https://www.tencentcloud.com/products/csc
+            icon: csc.png
+          - name: Cloud Firewall
+            ref: https://www.tencentcloud.com/products/cfw
+            icon: cfw.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Security & Compliance Service
@@ -3008,7 +3312,10 @@ services:
           - name: "Alibaba Truster Center "
             ref: https://www.alibabacloud.com/trust-center
             icon: alibaba.png
-
+      - tencent:
+          - name: Cloud Security Center
+            ref: https://www.tencentcloud.com/products/csc
+            icon: csc.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Sensitive Data discovery and protection
@@ -3042,7 +3349,10 @@ services:
           - name: Data Security Center
             ref: https://www.huaweicloud.com/intl/en-us/product/dsc.html
             icon: DSC.png
-
+      - tencent:
+          - name: Data Security Governance Center
+            ref: https://www.tencentcloud.com/products/dsgc
+            icon: dsgc.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Big Data Query as a Service
@@ -3082,6 +3392,10 @@ services:
           - name: Data Lake Insight
             ref: https://www.huaweicloud.com/intl/en-us/product/dli.html
             icon: none.png
+      - tencent:
+          - name: Data Lake Compute
+            ref: https://www.tencentcloud.com/products/dlc
+            icon: dlc.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Big Data Managed Cluster as a Service
@@ -3115,7 +3429,10 @@ services:
           - name: MapReduce Service
             ref: https://www.huaweicloud.com/intl/en-us/product/mrs.html
             icon: none.png
-
+      - tencent:
+          - name: Elastic MapReduce
+            ref: https://www.tencentcloud.com/products/emr
+            icon: emr.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Cloud Search
@@ -3152,7 +3469,13 @@ services:
           - name: Cloud Search Service
             ref: https://www.huaweicloud.com/intl/en-us/product/es.html
             icon: none.png
-
+      - tencent:
+          - name: Elasticsearch Service
+            ref: https://www.tencentcloud.com/products/es
+            icon: es.png
+          - name: Tencent Cloud-native Suite
+            ref: https://www.tencentcloud.com/solutions/tcs?lang=en
+            icon: none.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Streaming Service
@@ -3195,6 +3518,10 @@ services:
           - name: "Data Lake Insight [Previous: Cloud Stream Service]"
             ref: https://www.huaweicloud.com/intl/en-us/product/dli.html
             icon: none.png
+      - tencent:
+          - name: Cloud Streaming Services
+            ref: https://www.tencentcloud.com/products/css
+            icon: css.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3232,7 +3559,13 @@ services:
           - name: Data Warehouse Service
             ref: https://www.huaweicloud.com/intl/en-us/product/dws.html
             icon: dws.png
-
+      - tencent:
+          - name: Tencent Cloud TCHouse-P
+            ref: https://www.tencentcloud.com/products/tchousep
+            icon: tchouse-p.png
+          - name: Data Lake Compute
+            ref: https://www.tencentcloud.com/products/dlc
+            icon: dlc.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Business Intelligence & Data Visualization
@@ -3278,7 +3611,10 @@ services:
           - name: Data Lake Visulization
             ref: https://www.huaweicloud.com/intl/en-us/product/dlv.html
             icon: none.png
-
+      - tencent:
+          - name: Business Intelligence
+            ref: https://www.tencentcloud.com/products/bi
+            icon: bi.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Cloud ETL
@@ -3342,6 +3678,13 @@ services:
           - name: Data Lake Governance Center
             ref: https://www.huaweicloud.com/intl/en-us/product/dayu.html
             icon: none.png
+      - tencent:
+          - name: Tencent Cloud WeData
+            ref: https://www.tencentcloud.com/products/wedata
+            icon: wedata.png
+          - name: Tencent Cloud Data Lake Compute (DLC)
+            ref: https://www.tencentcloud.com/products/dlc
+            icon: dlc.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Third party data exchange
@@ -3372,6 +3715,10 @@ services:
             ref:
             icon: none.png
       - huawei:
+          - name:
+            ref:
+            icon: none.png
+      - tencent:
           - name:
             ref:
             icon: none.png
@@ -3408,6 +3755,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Data Lake Compute
+            ref: https://www.tencentcloud.com/products/dlc
+            icon: dlc.png
 
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
@@ -3491,6 +3842,10 @@ services:
           - name: Knowledge Graph
             ref: https://www.huaweicloud.com/product/nlpkg.html
             icon: none.png
+      - tencent:
+          - name: Natural Language Process
+            ref:  https://cloud.tencent.com/product/nlp 
+            icon: nlp.png
 
   - category: Artificial Intelligence
     categoryurl:
@@ -3548,7 +3903,18 @@ services:
           - name: ASR Customization
             ref: https://www.huaweicloud.com/intl/en-us/product/asrc.html
             icon: none.png
+      - tencent:
+          - name: Text To Speech
+            ref: https://www.tencentcloud.com/products/tts
+            icon: tts.png
 
+          - name: Automatic Speech Recognition
+            ref: https://www.tencentcloud.com/products/asr
+            icon: asr.png
+
+          - name: Tencent Machine Translation
+            ref: https://www.tencentcloud.com/products/tmt
+            icon: tmt.png
   - category: Artificial Intelligence
     categoryurl:
     subcategory: Image Recognition AI
@@ -3609,7 +3975,10 @@ services:
           - name: Celebrity Recognition
             ref: https://www.huaweicloud.com/product/roc.html
             icon: roc.png
-
+      - tencent:
+          - name: Face Recognition
+            ref: https://www.tencentcloud.com/products/facerecognition
+            icon: face recongnition.png
   - category: Artificial Intelligence
     categoryurl:
     subcategory: Machine Learning
@@ -3664,6 +4033,10 @@ services:
           - name: ModelArts
             ref: https://www.huaweicloud.com/intl/en-us/product/modelarts.html
             icon: ModelArts.png
+      - tencent:
+          - name: Tencent Cloud TI Platform
+            ref: https://www.tencentcloud.com/products/ti
+            icon: ti.png
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
     subcategory: Machine Learning Frameworks
@@ -3703,6 +4076,13 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Tencent Cloud TI Platform
+            ref: https://www.tencentcloud.com/products/ti
+            icon: ti.png
+          - name: Cloud GPU Service
+            ref: https://www.tencentcloud.com/products/gpu?from_qcintl=topnav
+            icon: gpu.png 
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
     subcategory: Business analysis
@@ -3754,6 +4134,13 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Tencent Cloud Data Lake Compute (DLC)
+            ref:  https://www.tencentcloud.com/products/dlc
+            icon: dlc.png
+          - name: Tencent Cloud Observability Platform
+            ref:  https://www.tencentcloud.com/products/tcop
+            icon: cloud monitor.png
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
     subcategory: Machine Learning Inference
@@ -3784,6 +4171,10 @@ services:
             ref:
             icon: none.png
       - huawei:
+          - name:
+            ref:
+            icon: none.png
+      - tencent:
           - name:
             ref:
             icon: none.png
@@ -3820,6 +4211,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Elasticsearch Service
+            ref:  https://www.tencentcloud.com/products/es
+            icon: es.png
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Development Services
@@ -3856,7 +4251,10 @@ services:
           - name: ServiceStage-MBaaS
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
             icon: none.png
-
+      - tencent:
+          - name:  
+            ref: 
+            icon: none.png
   - category: Mobile Services
     categoryurl:
     subcategory: Web API Management Service
@@ -3893,6 +4291,10 @@ services:
           - name: API Gateway
             ref: https://www.huaweicloud.com/intl/en-us/product/apig.html
             icon: apig.png
+      - tencent:
+          - name: Cloud Native Gateway
+            ref: 
+            icon: cng.png
 
   - category: Mobile Services
     categoryurl:
@@ -3927,7 +4329,10 @@ services:
           - name: ServiceStage-MBaaS
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
             icon: none.png
-
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Automated Cloud Management Service
     categoryurl:
     subcategory: Managed Cloud Services
@@ -3964,7 +4369,16 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name: Virtual Private Cloud
+            ref: https://www.tencentcloud.com/products/vpc
+            icon: vpc.png
+          - name: Private DNS
+            ref: https://www.tencentcloud.com/products/privatedns
+            icon: private dns.png
+          - name: Tencent Kubernetes Engine
+            ref: https://www.tencentcloud.com/products/tke
+            icon: tke.png
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Testing Service
@@ -3998,6 +4412,10 @@ services:
           - name: MobileTest
             ref: https://www.huaweicloud.com/product/mobileapptest.html
             icon: MobileTest.png
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Software Development Toolkit
@@ -4032,7 +4450,10 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Mobile Services
     categoryurl:
     subcategory: Application Services
@@ -4099,6 +4520,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: Tencent Cloud EventBridge
+            ref: https://www.tencentcloud.com/products/eb
+            icon: event bridge.png
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Analytics
@@ -4132,7 +4557,10 @@ services:
           - name: ServiceStage-MBaaS
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
             icon: none.png
-
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Application Services
     categoryurl:
     subcategory: API Management Service
@@ -4181,6 +4609,10 @@ services:
           - name: API Gateway
             ref: https://www.huaweicloud.com/intl/en-us/product/apig.html
             icon: apig.png
+      - tencent:
+          - name: Cloud Native Gateway
+            ref: 
+            icon: cng.png
 
   - category: Application Services
     categoryurl:
@@ -4272,7 +4704,22 @@ services:
           - name: Convergent Video Cloud Service
             ref: https://www.huaweicloud.com/en-us/product/cvcs.html
             icon: cvcs.png
+      - tencent:
+          - name: Tencent Real-Time Communication (TRTC)
+            ref: https://www.tencentcloud.com/products/trtc
+            icon: trtc.png
 
+          - name: Media Processing Service
+            ref: https://www.tencentcloud.com/products/mps
+            icon: mps.png
+
+          - name: Cloud Streaming Services
+            ref: https://www.tencentcloud.com/products/css
+            icon: css.png
+
+          - name: Video on Demand
+            ref: https://www.tencentcloud.com/products/vod
+            icon: vod.png
   - category: Application Services
     categoryurl:
     subcategory: Queuing Services
@@ -4324,6 +4771,13 @@ services:
           - name: Distributed Message Service for Kafka
             ref: https://www.huaweicloud.com/intl/en-us/product/dmskafka.html
             icon: DMSforKafka.png
+      - tencent:
+          - name: Cloud Message Queue
+            ref: https://www.tencentcloud.com/products/cmq
+            icon: cmq.png
+          - name: Tencent Distributed Message Queue (TDMQ)
+            ref: https://www.tencentcloud.com/products/tdmq
+            icon: tdmq.png
   - category: Application Services
     categoryurl:
     subcategory: Mobile Analytics
@@ -4356,6 +4810,10 @@ services:
       - huawei:
           - name: ServiceStage-MBaaS
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+            icon: none.png
+      - tencent:
+          - name:
+            ref:
             icon: none.png
 
   - category: Application Services
@@ -4391,7 +4849,10 @@ services:
           - name: CoreMail
             ref: https://marketplace.huaweicloud.com/intl/product/f4cd8ad7-ecb4-41fe-9706-504315bf5aaa
             icon: none.png
-
+      - tencent:
+          - name: Simple Email Service
+            ref: https://www.tencentcloud.com/products/ses
+            icon: ses.png
   - category: Application Services
     categoryurl:
     subcategory: Notification Services
@@ -4431,6 +4892,10 @@ services:
           - name: Message&SMS (MSGSMS)
             ref: https://www.huaweicloud.com/intl/en-us/product/msgsms.html
             icon: msgsms.png
+      - alibaba:
+          - name: Tencent Push Notification Service
+            ref: https://www.tencentcloud.com/products/tpns
+            icon: tpns.png
   - category: Application Services
     categoryurl:
     subcategory: Blockchain Services
@@ -4476,6 +4941,10 @@ services:
           - name: Blockchain Service
             ref: https://www.huaweicloud.com/intl/en-us/product/bcs.html
             icon: bcs.png
+      - tencent:
+          - name: Tencent Cloud Blockchain as a Service
+            ref: https://www.tencentcloud.com/products/tbaas
+            icon: tbaas.png
   - category: Application Services
     categoryurl:
     subcategory: Chatbot
@@ -4515,7 +4984,10 @@ services:
           - name:
             ref:
             icon: none.png
-
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Business Productivity
     categoryurl:
     subcategory: Office Document Solutions
@@ -4555,7 +5027,10 @@ services:
           - name: WPS
             ref: https://marketplace.huaweicloud.com/intl/product/00301-107037-0--0
             icon: none.png
-
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Business Productivity
     categoryurl:
     subcategory: Desktop Application Streaming
@@ -4598,6 +5073,10 @@ services:
           - name: Workspace
             ref:
             icon: EnterpriseAPPWorkspace.png
+      - tencent:
+          - name: Cloud Virtual Desktop
+            ref: https://cloud.tencent.com/product/cvd
+            icon: none.png
           
   - category: Business Productivity
     categoryurl:
@@ -4635,6 +5114,13 @@ services:
           - name: Workspace
             ref:
             icon: EnterpriseAPPWorkspace.png
+      - tencent:
+          - name: Tencent Real-Time Communication (TRTC)
+            ref: https://www.tencentcloud.com/products/trtc
+            icon: trtc.png
+          - name: Cloud Contact Center
+            ref: https://www.tencentcloud.com/products/ccc
+            icon: ccc.png
   - category: Software MarketPlace
     categoryurl:
     subcategory: Cloud Marketplace
@@ -4667,6 +5153,10 @@ services:
       - huawei:
           - name: Huawei Cloud Marketplace
             ref: https://marketplace.huaweicloud.com/intl/
+            icon: none.png
+      - tencent:
+          - name: 
+            ref: 
             icon: none.png
   - category: Internet of Things
     categoryurl:
@@ -4719,7 +5209,10 @@ services:
           - name: HUAWEI CLOUD IoT Global SIM Link
             ref: https://www.huaweicloud.com/product/globalsimlink.html
             icon: none.png
-
+      - tencent:
+          - name: IoT Hub
+            ref: https://www.tencentcloud.com/products/iothub
+            icon: iot hub.png
   - category: Internet of Things
     categoryurl:
     subcategory: IoT Development Solutions
@@ -4762,7 +5255,13 @@ services:
           - name: HUAWEI Cloud IoT Stage
             ref: https://www.huaweicloud.com/product/iotstage.html
             icon: IoTStage.png
-
+      - alibaba:
+          - name: IoT Edge Computing Platform
+            ref:  https://cloud.tencent.com/product/iecp
+            icon: none.png
+          - name: IoT Explorer
+            ref:  https://cloud.tencent.com/product/iotexplorer
+            icon: none.png
   - category: Internet of Things
     categoryurl:
     subcategory: IoT Analysis
@@ -4796,6 +5295,10 @@ services:
           - name: HUAWEI Cloud IoT Analysis
             ref: https://www.huaweicloud.com/product/iotanalytics-platform.html
             icon: IoTanalytics.png
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Internet of Things
     categoryurl:
     subcategory: IoT Hardware
@@ -4826,6 +5329,10 @@ services:
             ref:
             icon: none.png
       - huawei:
+          - name:
+            ref:
+            icon: none.png
+      - tencent:
           - name:
             ref:
             icon: none.png
@@ -4862,6 +5369,10 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name:
+            ref:
+            icon: none.png
   - category: Robotics Development
     categoryurl:
     subcategory: Robotics Development
@@ -4892,6 +5403,10 @@ services:
             ref:
             icon: none.png
       - huawei:
+          - name:
+            ref:
+            icon: none.png
+      - tencent:
           - name:
             ref:
             icon: none.png
@@ -4928,3 +5443,7 @@ services:
           - name:
             ref:
             icon: none.png
+      - tencent:
+          - name: T-Sec WeTest Game Quality Monitoring
+            ref: https://www.tencentcloud.com/products/gqm
+            icon: wt.png

@@ -18,19 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Public Cloud Services Comparison
-email: ilyas@bornoncloud.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A simple cloud comparison chart of all the cloud services offered by the major public cloud vendors globally. 
+title: tcloudcomparer
+#email: ilyas@bornoncloud.com
+description: "" # 空描述，不显示任何描述文字 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ilyas_tweets
-github_username:  ilyas-it83
-linkedin_username:  ilyasf
+url: "https://www.tcloudcompare.com" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: ilyas_tweets
+#github_username:  ilyas-it83
+#linkedin_username:  ilyasf
+
+# 控制顶部导航菜单显示的页面（空数组表示不显示任何导航链接）
+header_pages: []
+
+# Google Analytics 4 配置
+google_analytics: G-D6CNFR6MTC  # Google Analytics 测量ID
 
 google_font:
-  - url: "http://fonts.googleapis.com/css?family=Cousine:400,700,400italic,700italic&subset=latin,vietnamese,latin-ext"
-  - url: "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700&subset=latin,vietnamese,latin-ext"
+  - url: "https://fonts.googleapis.com/css?family=Cousine:400,700,400italic,700italic&subset=latin,vietnamese,latin-ext"
+  - url: "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700&subset=latin,vietnamese,latin-ext"
 # Build settings
 
 theme: minima
@@ -45,16 +50,18 @@ theme: minima
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE.md
 disqus:
-  shortname: cloudcomparer
+  shortname: tcloudcomparer

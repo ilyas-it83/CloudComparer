@@ -5,76 +5,76 @@
 layout: home
 ---
 <head>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+    
     <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="follow,index">
-    <META NAME="Title" CONTENT="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
-    <META NAME="Keywords" CONTENT="AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba, AWS vs Azure, Azure vs Google">
-    <META NAME="Description" CONTENT="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
-    <META NAME="Author" CONTENT="Ilyas">
-    <META NAME="Subject" CONTENT="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
+    <META NAME="Title" CONTENT="tcloudcomparer | 云服务比较平台">
+    <META NAME="Keywords" CONTENT="云服务比较,AWS,Azure,Google Cloud,腾讯云,阿里云,华为云">
+    <META NAME="Description" CONTENT="云服务比较平台 - 对比各大云服务商的产品和服务">
+    <META NAME="Author" CONTENT="tcloudcomparer">
+    <META NAME="Subject" CONTENT="云服务比较平台">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:description" content="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
-    <link rel="canonical" href="https://comparecloud.in/">
-    <meta property="og:url" content="https://comparecloud.in/">
-    <meta property="og:site_name" content="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
+    <meta property="og:title" content="tcloudcomparer | 云服务比较平台">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:description" content="云服务比较平台 - 对比各大云服务商的产品和服务">
+    <link rel="canonical" href="https://www.tcloudcompare.com/">
+    <meta property="og:url" content="https://www.tcloudcompare.com/">
+    <meta property="og:site_name" content="tcloudcomparer">
     <meta property="og:image" content="/img/Logo_small.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Ilyas_tweets">
     <meta name="twitter:creator" content="@Ilyas_tweets">
     <meta property="article:author" content="https://www.facebook.com/IlyasTheWebizen">
-    <meta name="twitter:description" content="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
-    <meta name="twitter:title" content="A public Cloud Compareison : AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
-    <title>AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba | A detailed comparison and mapping between various cloud services</title>
+    <meta name="twitter:description" content="云服务比较平台 - 对比各大云服务商的产品和服务">
+    <meta name="twitter:title" content="tcloudcomparer | 云服务比较平台">
+    <title>tcloudcomparer</title>
 </head>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552c144e4f497fe9"></script>
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552c144e4f497fe9"></script>
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-<table class="github">
+<!-- <table class="github">
 <tr align="center" >
 <td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ilyas-it83" data-size="large" data-show-count="true" aria-label="Follow @ilyas-it83 on GitHub">Follow @ilyas-it83</a></td>
-<td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ilyas-it83/CloudComparer" data-size="large"  data-show-count="true" data-icon="octicon-star" aria-label="Star ilyas-it83/CloudComparer on GitHub">Star</a></td>
-<td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ilyas-it83/CloudComparer/fork" data-size="large" data-show-count="true" data-icon="octicon-repo-forked" aria-label="Fork ilyas-it83/CloudComparer on GitHub">Fork</a></td>
-<td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ilyas-it83/CloudComparer/issues" data-size="large" data-show-count="true" data-icon="octicon-issue-opened" aria-label="Issue ilyas-it83/CloudComparer on GitHub">Issue</a></td>
-<td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ilyas-it83/CloudComparer/discussions" data-icon="octicon-comment-discussion" data-size="large" data-show-count="true" aria-label="Discuss ilyas-it83/CloudComparer on GitHub">Discuss</a></td>
-<td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/sponsors/ilyas-it83" data-size="large" data-show-count="true" data-icon="octicon-heart" aria-label="Sponsor @ilyas-it83 on GitHub">Sponsor</a></td>
-</tr>
-</table>
+
 
 <table id="comparison">
   <tr align="center" class="header" style="position:sticky;top: 0">
 	            <th style="width:7%">Category</th>
             <th style="width:10%">Service</th>
             <th>
-              <img  src="assets/img/logo/aws.png" alt="AWS Icon" class="header-img"/>
+              <img  src="{{ site.baseurl }}/assets/img/logo/aws.png" alt="AWS Icon" class="header-img"/>
             </th>
             <th>
-              <img  src="assets/img/logo/msazure.svg" alt="Microsoft Azure Log"/>
+              <img  src="{{ site.baseurl }}/assets/img/logo/msazure.svg" alt="Microsoft Azure Log" class="header-img"/>
             </th>
             <th>
-              <img  src="assets/img/logo/google.svg" alt="Google Cloud Platform Logo" />
+              <img  src="{{ site.baseurl }}/assets/img/logo/google.svg" alt="Google Cloud Platform Logo" class="header-img" />
             </th>
             <th>
-              <img  src="assets/img/logo/IBM-Cloud-svg-lockup-color8.svg"  alt="IBM Cloud Logo" />
+              <img  src="{{ site.baseurl }}/assets/img/logo/IBM-Cloud-svg-lockup-color8.svg"  alt="IBM Cloud Logo" class="header-img" />
             </th>
             <th>
-              <img  src="assets/img/logo/oracle.png" alt="Oracle Cloud Logo"/>
+              <img  src="{{ site.baseurl }}/assets/img/logo/oracle.png" alt="Oracle Cloud Logo" class="header-img"/>
             </th>
             <th>
-              <img src="assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
+              <img src="{{ site.baseurl }}/assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo" class="header-img"/>
             </th>
-			<th>
-              <img  src="assets/img/logo/huawei.png" alt="Huawei Cloud"/>
+		<th>
+              <img  src="{{ site.baseurl }}/assets/img/logo/huawei.png" alt="Huawei Cloud" class="header-img"/>
+            </th>
+		<th>
+              <img  src="{{ site.baseurl }}/assets/img/logo/tencentCloud.png" alt="Tencent Cloud" class="header-img"/>
             </th>
   </tr>
 	{% for item in site.data.cloudservices.services %}
@@ -85,7 +85,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.aws %}
-						<li ><img src="/assets/img/cloudproviders/aws/{{record.icon}}" alt="{{record.name}}" > <a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+						<li ><img src="{{ site.baseurl }}/assets/img/cloudproviders/aws/{{record.icon}}" alt="{{record.name}}" > <a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -94,7 +94,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.azure %}
-						<li><img src="/assets/img/cloudproviders/azure/{{record.icon}}" alt="{{record.name}}"  ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+						<li><img src="{{ site.baseurl }}/assets/img/cloudproviders/azure/{{record.icon}}" alt="{{record.name}}"  ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -103,7 +103,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 				{% for record in entry.google %}
-					<li><img src="/assets/img/cloudproviders/google/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+					<li><img src="{{ site.baseurl }}/assets/img/cloudproviders/google/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 				{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -112,7 +112,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 				{% for record in entry.ibm %}
-						<li><img src="/assets/img/cloudproviders/ibm/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+						<li><img src="{{ site.baseurl }}/assets/img/cloudproviders/ibm/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 				{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -121,7 +121,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.oracle %}
-							<li ><img src="/assets/img/cloudproviders/oracle/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+							<li ><img src="{{ site.baseurl }}/assets/img/cloudproviders/oracle/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -130,7 +130,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.alibaba %}
-							<li><img src="/assets/img/cloudproviders/alibaba/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+							<li><img src="{{ site.baseurl }}/assets/img/cloudproviders/alibaba/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -140,11 +140,23 @@ layout: home
 			    {% for entry in item.service %} 
 					{% for record in entry.huawei %}
 							<li>
-								<img src="/assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}">
+								<img src="{{ site.baseurl }}/assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}">
 								<a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
 							</li>
 					{% endfor %}	
 				{% endfor %}	
+			</ul>
+		</td>
+		<td>
+			<ul>
+			    {% for entry in item.service %} 
+				{% for record in entry.tencent %}
+					<li>
+						<img src="{{ site.baseurl }}/assets/img/cloudproviders/tencent/{{record.icon}}" alt="{{record.name}}">
+						<a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
+					</li>
+				{% endfor %}
+			{% endfor %}
 			</ul>
 		</td>
 	</tr>
