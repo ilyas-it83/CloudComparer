@@ -2,7 +2,52 @@
 services:
   - category: Compute
     categoryurl:
-    subcategory: Shared Web hosting
+    subcategory: Virtual Server
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon EC2
+            ref: https://aws.amazon.com/ec2/
+            icon: Arch_Amazon-EC2_64.png
+      - azure:
+          - name: Azure Virtual Machine
+            ref: https://docs.microsoft.com/azure/virtual-machines/
+            icon: Azure Virtual Machine.png
+      - google:
+          - name: Compute Engine
+            ref: https://cloud.google.com/compute/
+            icon: Compute-Engine.png
+      - ibm:
+          - name: Classic Virtual Server
+            ref: https://cloud.ibm.com/docs/vsi?topic=virtual-servers-about-public-virtual-servers
+            icon: virtual-server.png
+          - name: Virtual Server for VPC (x86 & s390x)
+            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
+            icon: virtual-server.png
+          - name: Power Systems Virtual Servers
+            ref: https://cloud.ibm.com/docs/infrastructure/power-iaas?topic=power-iaas-about-power-virtual-server
+            icon: virtual-server.png
+          - name: Hyper Protect Virtual Server (LinuxONE)
+            ref: https://cloud.ibm.com/catalog/services/hyper-protect-virtual-server
+            icon: virtual-server.png
+          - name: Quantum Services
+            ref: https://cloud.ibm.com/quantum
+            icon: CloudQuantumServices.svg
+      - oracle:
+          - name: Oracle Cloud Infrastructure Compute
+            ref: https://www.oracle.com/cloud/compute/
+            icon: compute.png
+      - alibaba:
+          - name: Alibaba ECS
+            ref: https://www.alibabacloud.com/product/ecs
+            icon: ecs.png
+      - huawei:
+          - name: Elastic Cloud Server (ECS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ecs.html
+            icon: ecs2.png
+  - category: Compute
+    categoryurl:
+    subcategory: Shared Web Hosting
     subcategoryurl:
     service:
       - aws:
@@ -38,52 +83,6 @@ services:
             icon: none.png
   - category: Compute
     categoryurl:
-    subcategory: Virtual Server
-    subcategoryurl:
-    service:
-      - aws:
-          - name: Amazon EC2
-            ref: https://aws.amazon.com/ec2/
-            icon: Arch_Amazon-EC2_64.png
-      - azure:
-          - name: Azure Virtual Machine
-            ref: https://docs.microsoft.com/azure/virtual-machines/
-            icon: Azure Virtual Machine.png
-      - google:
-          - name: Compute Engine
-            ref: https://cloud.google.com/compute/
-            icon: Compute-Engine.png
-      - ibm:
-          - name: Classic Virtual Server
-            ref: https://cloud.ibm.com/docs/vsi?topic=virtual-servers-about-public-virtual-servers
-            icon: virtual-server.png
-          - name: Virtual Server for VPC (x86 & s390x)
-            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
-            icon: virtual-server.png
-          - name: Power Systems Virtual Servers
-            ref: https://cloud.ibm.com/docs/infrastructure/power-iaas?topic=power-iaas-about-power-virtual-server
-            icon: virtual-server.png
-          - name: Hyper Protect Virtual Server (LinuxONE)
-            ref: https://cloud.ibm.com/catalog/services/hyper-protect-virtual-server
-            icon: virtual-server.png
-          - name: Quantum Services
-            ref: https://cloud.ibm.com/quantum
-            icon: CloudQuantumServices.svg
-      - oracle:
-          - name: Oracle Cloud Infrastructure Compute,
-            ref: https://www.oracle.com/cloud/compute/
-            icon: compute.png
-      - alibaba:
-          - name: Alibaba ECS
-            ref: https://www.alibabacloud.com/product/ecs
-            icon: ecs.png
-      - huawei:
-          - name: Huawei Cloud Elastic Cloud Server
-            ref: https://www.huaweicloud.com/intl/en-us/product/ecs.html
-            icon: ecs.png
-
-  - category: Compute
-    categoryurl:
     subcategory: Bare Metal Server
     subcategoryurl:
     service:
@@ -112,9 +111,9 @@ services:
             ref: https://www.alibabacloud.com/product/ebm
             icon: ecs.png
       - huawei:
-          - name: Huawei Cloud Bare Metal Server
+          - name: Bare Metal Server (BMS)
             ref: https://www.huaweicloud.com/intl/en-us/product/bms.html
-            icon: bms.png
+            icon: bms2.png
   - category: Compute
     categoryurl:
     subcategory: VMware
@@ -193,9 +192,9 @@ services:
             ref: https://www.alibabacloud.com/product/ddh
             icon: alibaba.png
       - huawei:
-          - name: Huawei Cloud Dedicate Host
+          - name: Dedicated Host (DeH)
             ref: https://www.huaweicloud.com/intl/en-us/product/deh.html
-            icon: deh.png
+            icon: deh2.png
   - category: Compute
     categoryurl:
     subcategory: High Performance Computing
@@ -238,174 +237,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
-  - category: Compute
-    categoryurl:
-    subcategory: Container Registration Service
-    subcategoryurl:
-    service:
-      - aws:
-          - name: Amazon Elastic Container Registry (ECR)
-            ref: https://aws.amazon.com/ecr/
-            icon: Arch_Amazon-Elastic-Container-Registry_64.png
-      - azure:
-          - name: "Azure Container Registry "
-            ref: https://azure.microsoft.com/services/container-registry/
-            icon: Microsoft Azure.png
-      - google:
-          - name: Artifact Registry
-            ref: https://cloud.google.com/artifact-registry/
-            icon: artifact-registry.png
-      - ibm:
-          - name: IBM Cloud Container Registry
-            ref: https://www.ibm.com/cloud/container-registry
-            icon: registry_icon.svg
-      - oracle:
-          - name: Oracle Cloud Infrastructure Registry
-            ref: https://cloud.oracle.com/containers/registry
-            icon: containerregistry.png
-      - alibaba:
-          - name: Container Registry
-            ref: https://www.alibabacloud.com/product/container-registry
-            icon: ContainerServi.png
-      - huawei:
-          - name: Software Repository for Container
-            ref: https://www.huaweicloud.com/intl/en-us/product/swr.html
-            icon: swr.png
-  - category: Compute
-    categoryurl:
-    subcategory: Container Management Service
-    subcategoryurl:
-    service:
-      - aws:
-          - name: Amazon Elastic Container Service (ECS)
-            ref: https://aws.amazon.com/ecs/
-            icon: Arch_Amazon-Elastic-Container-Service_64.png
-          - name: Amazon Elastic Kubernetes Service (EKS)
-            ref: https://aws.amazon.com/eks/
-            icon: Arch_Amazon-Elastic-Kubernetes-Service_64.png
-          - name: Red Hat Openshift on AWS
-            ref: https://aws.amazon.com/rosa/
-            icon: Arch_Red-Hat-OpenShift_64.png
-          - name: Bottlerocket
-            ref: https://aws.amazon.com/bottlerocket/
-            icon: Arch_Bottlerocket_64.png
-      - azure:
-          - name: Azure Kubernetes Service (AKS)
-            ref: https://azure.microsoft.com/services/kubernetes-service/
-            icon: Azure Kubernetes Service.png
-          - name: Azure Container Instances
-            ref: https://azure.microsoft.com/services/container-instances/
-            icon: Azure Container Service.png
-          - name: Azure Red Hat OpenShift
-            ref: https://azure.microsoft.com/services/openshift/
-            icon: Microsoft Azure.png
-      - google:
-          - name: Kubernetes Engine
-            ref: https://cloud.google.com/kubernetes-engine/
-            icon: Container-Engine.png
-      - ibm:
-          - name: IBM Cloud Kubernetes Service
-            ref: https://www.ibm.com/cloud/container-service
-            icon: containerServiceIcon.svg
-          - name: Redhat Openshift Kubernetes Service
-            ref: https://cloud.ibm.com/kubernetes/catalog/create?platformType=openshift
-            icon: containerServiceIcon.svg
-          - name: IBM Cloud Code Engine
-            ref: https://cloud.ibm.com/codeengine
-            icon: codeEngineBright.svg
-      - oracle:
-          - name: Container Engine for Kubernetes (OKE)
-            ref: https://cloud.oracle.com/containers/kubernetes-engine
-            icon: oke.png
-      - alibaba:
-          - name: Container Service
-            ref: https://www.alibabacloud.com/product/container-service
-            icon: ContainerServi.png
-          - name: Container Service for Kubernetes
-            ref: https://www.alibabacloud.com/product/kubernetes
-            icon: ContainerServi.png
-      - huawei:
-          - name: Cloud Container Instance
-            ref: https://www.huaweicloud.com/product/cci.html
-            icon: cci.png
-          - name: Cloud Container Engine
-            ref: https://www.huaweicloud.com/intl/en-us/product/cce.html
-            icon: cce.png
-  - category: Compute
-    categoryurl:
-    subcategory: Serverless compute for containers
-    subcategoryurl:
-    service:
-      - aws:
-          - name: AWS Fargate
-            ref: https://aws.amazon.com/fargate/
-            icon: Arch_AWS-Fargate_64.png
-          - name: AWS Proton
-            ref: https://aws.amazon.com/proton/
-            icon: Arch_AWS-Proton_64.png
-      - azure:
-          - name: Azure Container Instances
-            ref: https://azure.microsoft.com/services/container-instances/
-            icon: Azure Container Service.png
-          - name: Azure Container Apps
-            ref: https://azure.microsoft.com/en-us/services/container-apps/
-            icon: Azure Container Service.png
-      - google:
-          - name: Google Cloud Run
-            ref: https://cloud.google.com/run
-            icon: Cloud-Run.png
-      - ibm:
-          - name: IBM Cloud Code Engine
-            ref: https://cloud.ibm.com/codeengine
-            icon: codeEngineBright.svg
-      - oracle:
-          - name:
-            ref:
-            icon: none.png
-      - alibaba:
-          - name:
-            ref:
-            icon: none.png
-      - huawei:
-          - name:
-            ref:
-            icon: none.png
-  - category: Compute
-    categoryurl:
-    subcategory: Serverless container platform
-    subcategoryurl:
-    service:
-      - aws:
-          - name: AWS App Runner
-            ref: https://aws.amazon.com/apprunner/
-            icon: Arch_AWS-AppRunner.png
-      - azure:
-          - name: Azure Container Apps
-            ref: https://azure.microsoft.com/en-us/services/container-apps/
-            icon: Azure Container Service.png
-      - google:
-          - name: Google Cloud Run
-            ref: https://cloud.google.com/run
-            icon: Cloud-Run.png
-      - ibm:
-          - name: IBM Cloud Code Engine
-            ref: https://cloud.ibm.com/codeengine
-            icon: codeEngineBright.svg
-      - oracle:
-          - name: Oracle Functions
-            ref: https://docs.oracle.com/en-us/iaas/Content/Functions/Concepts/functionsoverview.htm
-            icon: functions.png
-      - alibaba:
-          - name:
-            ref:
-            icon: none.png
-      - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: High Performance Computing (HPC)
+            ref: https://www.huaweicloud.com/intl/en-us/solution/highperformance/
+            icon: ecs2.png
   - category: Compute
     categoryurl:
     subcategory: Micro Services App Development Platform
@@ -450,10 +284,10 @@ services:
       - huawei:
           - name: FunctionGraph
             ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
-            icon: none.png
+            icon: functiongraph2.png
   - category: Compute
     categoryurl:
-    subcategory: Serverless app repository
+    subcategory: Serverless App Repository
     subcategoryurl:
     service:
       - aws:
@@ -517,9 +351,9 @@ services:
             ref: https://www.alibabacloud.com/product/swas#product-details
             icon: alibaba.png
       - huawei:
-          - name: Hyper Elastic Cloud Server
-            ref: https://www.huaweicloud.com/product/hecs.html
-            icon: ecs.png
+          - name: Elastic Cloud Server (ECS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ecs.html
+            icon: ecs2.png
 
   - category: Compute
     categoryurl:
@@ -554,9 +388,9 @@ services:
             ref: https://www.alibabacloud.com/product/auto-scaling
             icon: alibaba.png
       - huawei:
-          - name: Auto Scaling
+          - name: Auto Scaling (AS)
             ref: https://www.huaweicloud.com/intl/en-us/product/as.html
-            icon: as.png
+            icon: as2.png
   - category: Compute
     categoryurl:
     subcategory: Batch Jobs
@@ -595,7 +429,7 @@ services:
             icon: none.png
   - category: Compute
     categoryurl:
-    subcategory: App Development/ Deployment (Java /.Net /PHP /Python)
+    subcategory: App Development / Deployment (Java /.Net /PHP /Python)
     subcategoryurl: https://en.wikipedia.org/wiki/Platform_as_a_service
     service:
       - aws:
@@ -629,10 +463,16 @@ services:
             ref: https://www.alibabacloud.com/product/edas
             icon: alibaba.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
-  - category: Compute
+          - name: CodeArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/devcloud.html
+            icon: da2.png
+          - name: Cloud Application Engine (CAE)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cae.html
+            icon: cae2.png
+          - name: ServiceStage
+            ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+            icon: servicestage2.png
+  - category: Computer
     categoryurl:
     subcategory: Event Driven Computing
     subcategoryurl:
@@ -673,7 +513,211 @@ services:
       - huawei:
           - name: FunctionGraph
             ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
+            icon: functiongraph2.png
+          - name: EventGrid (EG)
+            ref: https://www.huaweicloud.com/intl/en-us/product/eventgrid.html
+            icon: ecs.png
+  - category: Container
+    categoryurl:
+    subcategory: Container Registration Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Elastic Container Registry (ECR)
+            ref: https://aws.amazon.com/ecr/
+            icon: Arch_Amazon-Elastic-Container-Registry_64.png
+      - azure:
+          - name: "Azure Container Registry "
+            ref: https://azure.microsoft.com/services/container-registry/
+            icon: Microsoft Azure.png
+      - google:
+          - name: Artifact Registry
+            ref: https://cloud.google.com/artifact-registry/
+            icon: artifact-registry.png
+      - ibm:
+          - name: IBM Cloud Container Registry
+            ref: https://www.ibm.com/cloud/container-registry
+            icon: registry_icon.svg
+      - oracle:
+          - name: Oracle Cloud Infrastructure Registry
+            ref: https://cloud.oracle.com/containers/registry
+            icon: containerregistry.png
+      - alibaba:
+          - name: Container Registry
+            ref: https://www.alibabacloud.com/product/container-registry
+            icon: ContainerServi.png
+      - huawei:
+          - name: Software Repository for Container (SWR)
+            ref: https://www.huaweicloud.com/intl/en-us/product/swr.html
+            icon: swr2.png
+  - category: Container
+    categoryurl:
+    subcategory: Container Management Service
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Elastic Container Service (ECS)
+            ref: https://aws.amazon.com/ecs/
+            icon: Arch_Amazon-Elastic-Container-Service_64.png
+          - name: Amazon Elastic Kubernetes Service (EKS)
+            ref: https://aws.amazon.com/eks/
+            icon: Arch_Amazon-Elastic-Kubernetes-Service_64.png
+          - name: Red Hat Openshift on AWS
+            ref: https://aws.amazon.com/rosa/
+            icon: Arch_Red-Hat-OpenShift_64.png
+          - name: Bottlerocket
+            ref: https://aws.amazon.com/bottlerocket/
+            icon: Arch_Bottlerocket_64.png
+      - azure:
+          - name: Azure Kubernetes Service (AKS)
+            ref: https://azure.microsoft.com/services/kubernetes-service/
+            icon: Azure Kubernetes Service.png
+          - name: Azure Container Instances
+            ref: https://azure.microsoft.com/services/container-instances/
+            icon: Azure Container Service.png
+          - name: Azure Red Hat OpenShift
+            ref: https://azure.microsoft.com/services/openshift/
+            icon: Microsoft Azure.png
+      - google:
+          - name: Kubernetes Engine
+            ref: https://cloud.google.com/kubernetes-engine/
+            icon: Container-Engine.png
+      - ibm:
+          - name: IBM Cloud Kubernetes Service
+            ref: https://www.ibm.com/cloud/container-service
+            icon: containerServiceIcon.svg
+          - name: Redhat Openshift Kubernetes Service
+            ref: https://cloud.ibm.com/kubernetes/catalog/create?platformType=openshift
+            icon: containerServiceIcon.svg
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
+      - oracle:
+          - name: Container Engine for Kubernetes (OKE)
+            ref: https://cloud.oracle.com/containers/kubernetes-engine
+            icon: oke.png
+      - alibaba:
+          - name: Container Service
+            ref: https://www.alibabacloud.com/product/container-service
+            icon: ContainerServi.png
+          - name: Container Service for Kubernetes
+            ref: https://www.alibabacloud.com/product/kubernetes
+            icon: ContainerServi.png
+      - huawei:
+          - name: Cloud Container Engine (CCE)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cce.html
+            icon: cce2.png
+  - category: Container
+    categoryurl:
+    subcategory: Serverless Compute For Containers
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Fargate
+            ref: https://aws.amazon.com/fargate/
+            icon: Arch_AWS-Fargate_64.png
+          - name: AWS Proton
+            ref: https://aws.amazon.com/proton/
+            icon: Arch_AWS-Proton_64.png
+      - azure:
+          - name: Azure Container Instances
+            ref: https://azure.microsoft.com/services/container-instances/
+            icon: Azure Container Service.png
+          - name: Azure Container Apps
+            ref: https://azure.microsoft.com/en-us/services/container-apps/
+            icon: Azure Container Service.png
+      - google:
+          - name: Google Cloud Run
+            ref: https://cloud.google.com/run
+            icon: Cloud-Run.png
+      - ibm:
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
+      - oracle:
+          - name:
+            ref:
             icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: Cloud Container Instance (CCI)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cci.html
+            icon: cci2.png
+  - category: Container
+    categoryurl:
+    subcategory: Serverless Container Platform
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS App Runner
+            ref: https://aws.amazon.com/apprunner/
+            icon: Arch_AWS-AppRunner.png
+      - azure:
+          - name: Azure Container Apps
+            ref: https://azure.microsoft.com/en-us/services/container-apps/
+            icon: Azure Container Service.png
+      - google:
+          - name: Google Cloud Run
+            ref: https://cloud.google.com/run
+            icon: Cloud-Run.png
+      - ibm:
+          - name: IBM Cloud Code Engine
+            ref: https://cloud.ibm.com/codeengine
+            icon: codeEngineBright.svg
+      - oracle:
+          - name: Oracle Functions
+            ref: https://docs.oracle.com/en-us/iaas/Content/Functions/Concepts/functionsoverview.htm
+            icon: functions.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: Cloud Application Engine (CAE)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cae.html
+            icon: cae2.png
+          - name: Service Stage
+            ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+            icon: servicestage2.png
+  - category: Container
+    categoryurl:
+    subcategory: Service Mesh
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS App Mesh
+            ref: https://aws.amazon.com/app-mesh/
+            icon: Arch_AWS-App-Mesh_64.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: Application Service Mesh (ASM)
+            ref: https://www.huaweicloud.com/intl/en-us/product/asm.html
+            icon: aom.png
+          - name: Cloud Service Engine (CSE)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ces.html
+            icon: cse.png
   - category: Storage
     categoryurl:
     subcategory: Object Storage
@@ -704,9 +748,9 @@ services:
             ref: https://www.alibabacloud.com/product/oss
             icon: OSS.png
       - huawei:
-          - name: Object Storage Service
+          - name: Object Storage Service (OBS)
             ref: https://www.huaweicloud.com/intl/en-us/product/obs.html
-            icon: obs.png
+            icon: obs2.png
   - category: Storage
     categoryurl:
     subcategory: Virtual Machine Disk Storage
@@ -743,9 +787,9 @@ services:
             ref:
             icon: OSS.png
       - huawei:
-          - name: Elastic Volume Service
+          - name: Elastic Volume Service (EVS)
             ref: https://www.huaweicloud.com/intl/en-us/product/evs.html
-            icon: evs.png
+            icon: evs2.png
   - category: Storage
     categoryurl:
     subcategory: File Storage (SMB Compatible)
@@ -791,9 +835,12 @@ services:
             ref: https://www.alibabacloud.com/product/nas
             icon: nas.png
       - huawei:
-          - name: Scalable File Service
+          - name: Scalable File Service (SFS)
             ref: https://www.huaweicloud.com/intl/en-us/product/sfs.html
-            icon: sfs.png
+            icon: sfs2.png
+          - name: Scalable File Service Turbo (SFS Turbo)
+            ref: https://www.huaweicloud.com/intl/en-us/product/sfsturbo.html
+            icon: sfsturbo.png
 
   - category: Storage
     categoryurl:
@@ -834,9 +881,9 @@ services:
             ref: https://www.alibabacloud.com/product/oss
             icon: OSS.png
       - huawei:
-          - name: Object Storage Service
+          - name: Object Storage Service (OBS)
             ref: https://www.huaweicloud.com/intl/en-us/product/obs.html
-            icon: obs.png
+            icon: obs2.png
 
   - category: Storage
     categoryurl:
@@ -868,9 +915,9 @@ services:
             ref: https://www.alibabacloud.com/product/storage-array
             icon: alibaba.png
       - huawei:
-          - name: Cloud Storage Gateway
-            ref: https://www.huaweicloud.com/product/csg.html
-            icon: csg.png
+          - name: 
+            ref: 
+            icon: none.png
 
   - category: Database
     categoryurl: https://en.wikipedia.org/wiki/Database
@@ -968,18 +1015,21 @@ services:
             ref: https://www.alibabacloud.com/product/drds?spm=a3c0i.11270126.675768.dnavproductsd7.6c8668dcRLNbeB
             icon: rds.png
       - huawei:
-          - name: GaussDB(for openGauss)
+          - name: GaussDB
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdb.html
-            icon: GaussDBforOpenGauss.png
-          - name: none.png
-            ref: https://www.huaweicloud.com/intl/en-us/product/gaussdb_mysql.html
-            icon: GaussDBforMysql.png
+            icon: gaussdb.png
           - name: RDS for MySQL
             ref: https://www.huaweicloud.com/intl/en-us/product/mysql.html
-            icon: mysql.png
+            icon: rdsmysql.png
           - name: RDS for PostgreSQL
             ref: https://www.huaweicloud.com/intl/en-us/product/pg.html
-            icon: PostgreSQL.png
+            icon: rdspostgresql.png
+          - name: RDS for MariaDB
+            ref: https://www.huaweicloud.com/intl/en-us/product/mariadb.html
+            icon: rdsmaria.png
+          - name: TaurusDB
+            ref: https://www.huaweicloud.com/intl/en-us/product/taurusdb.html
+            icon: taurusdb2.png
 
   - category: Database
     categoryurl: https://en.wikipedia.org/wiki/NoSQL
@@ -1050,18 +1100,12 @@ services:
             ref: https://www.alibabacloud.com/product/table-store
             icon: rds.png
       - huawei:
-          - name: GaussDB(for Mongo)
-            ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbformongo.html
-            icon: none.png
-          - name: GaussDB(for Cassandra)
-            ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbforcassandra.html
-            icon: GaussDBforCassandra.png
-          - name: Document Database Service
+          - name: GeminiDB
+            ref: https://www.huaweicloud.com/intl/en-us/product/geminidb.html
+            icon: geminidb.png
+          - name: Document Database Service (DDS)
             ref: https://www.huaweicloud.com/intl/en-us/product/dds.html
-            icon: none.png
-          - name: Graph Engine Service
-            ref: https://www.huaweicloud.com/intl/en-us/product/ges.html
-            icon: ges.png
+            icon: dds.png
   - category: Database
     categoryurl:
     subcategory: Timeseries Database
@@ -1095,9 +1139,12 @@ services:
             ref: https://www.alibabacloud.com/product/hitsdb_influxdb
             icon: alibaba.png
       - huawei:
-          - name: GaussDB(for Influx)
-            ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbforinflux.html
-            icon: GaussDBforInflux.png
+          - name: GeminiDB Influx API
+            ref: https://www.huaweicloud.com/intl/en-us/product/geminidb/influx.html
+            icon: geminidb.png
+          - name: CloudTable Service
+            ref: https://support.huaweicloud.com/intl/en-us/cloudtable/index.html
+            icon: cloudtable.png
   - category: Database
     categoryurl:
     subcategory: Graph Database
@@ -1131,12 +1178,9 @@ services:
             ref: 
             icon: none.png
       - huawei:
-          - name: FunctionGraph
-            ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
-            icon: none.png
           - name: Graph Engine Service (GES)
             ref: https://www.huaweicloud.com/intl/en-us/product/ges.html
-            icon: ges.png
+            icon: ges2.png
   - category: Database
     categoryurl:
     subcategory: In-Memory Data Store
@@ -1170,12 +1214,12 @@ services:
             ref: https://www.alibabacloud.com/product/apsaradb-for-redis
             icon: redis.png
       - huawei:
-          - name: GaussDB(for Redis)
-            ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbforredis.html
-            icon: GaussDBforRedis.png
-          - name: Distributed Cache Service for Redis
+          - name: Distributed Cache Service for Redis (DCS for Redis)
             ref: https://www.huaweicloud.com/intl/en-us/product/dcs.html
-            icon: dcs.png
+            icon: dcsredis.png
+          - name: Distributed Cache Service for Memcached (DCS for Memcached)
+            ref: https://www.huaweicloud.com/intl/en-us/product/dcsmem.html
+            icon: memcached.png
   - category: Database
     categoryurl: https://en.wikipedia.org/wiki/Data_warehouse
     subcategory: Data Warehousing
@@ -1209,60 +1253,367 @@ services:
             ref: https://www.alibabacloud.com/product/maxcompute
             icon: MaxCompute.png
       - huawei:
-          - name: GaussDB(DWS)
+          - name: Data Warehouse Service (DWS)
             ref: https://www.huaweicloud.com/intl/en-us/product/dws.html
-            icon: dws.png
-  - category: Migration Services
+            icon: dws2.png
+  - category: Networking
     categoryurl:
-    subcategory: Database Migration Services
-    subcategoryurl: https://en.wikipedia.org/wiki/Data_migration
+    subcategory: Virtual Networking
+    subcategoryurl:
     service:
       - aws:
-          - name: AWS Database Migration Service
-            ref: https://aws.amazon.com/dms/
-            icon: Database_AWSDatabaseMigrationService.png
-          - name: AWS Migration Hub
-            ref: https://aws.amazon.com/migration-hub/
-            icon: Arch_AWS-Migration-Hub_64.png
+          - name: Amazon VPC
+            ref: https://aws.amazon.com/vpc/
+            icon: Networking_AmazonVPC.png
       - azure:
-          - name: Azure Database Migration Service
-            ref: https://azure.microsoft.com/en-us/services/database-migration/
-            icon: Microsoft Azure.png
+          - name: Azure VNet
+            ref: https://azure.microsoft.com/services/virtual-network/
+            icon: Azure App Service - Web App (was Websites).png
       - google:
-          - name: Database Migration Service
-            ref: https://cloud.google.com/database-migration
-            icon: Generic-GCP.png
+          - name: Virtual Private Cloud
+            ref: https://cloud.google.com/vpc
+            icon: Cloud-Virtual-Network.png
       - ibm:
-          - name: Lift CLI
-            ref: https://www.lift-cli.cloud.ibm.com/#docs
-            icon: ibmcloud.png
-          - name: VPC+ Cloud Migration
-            ref: https://cloud.ibm.com/catalog/services/vpc-cloud-migration
-            icon: ibmcloud.png
-          - name: Rackware RMM
-            ref: https://cloud.ibm.com/catalog/content/Rackware-Golden-Template-1.11-06545490-596b-4133-8516-8425a11b3265-global
+          - name: IBM Cloud VPC
+            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
             icon: ibmcloud.png
       - oracle:
-          - name: Oracle Lift Services
-            ref: https://www.oracle.com/cloud/cloud-lift/
-            icon: storage.png
+          - name: Oracle Virtual Cloud Network
+            ref: https://cloud.oracle.com/networking
+            icon: vcn.png
       - alibaba:
-          - name: Data Transmission Service
-            ref: https://www.alibabacloud.com/product/data-transmission-service
-            icon: dts.png
+          - name: Virtual Private Cloud
+            ref: https://www.alibabacloud.com/product/vpc
+            icon: vpc.png
       - huawei:
-          - name: Data Replication Service(DRS)
-            ref: https://www.huaweicloud.com/intl/en-us/product/drs.html
-            icon: drs.png
+          - name: Virtual Private Cloud (VPC)
+            ref: https://www.huaweicloud.com/intl/en-us/product/vpc.html
+            icon: vpc2.png
+  - category: Networking
+    categoryurl:
+    subcategory: Virtual Network Connectivity
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Transit Gateway
+            ref: https://aws.amazon.com/transit-gateway/
+            icon: Arch_AWS-Transit-Gateway_64.png
+          - name: AWS VPC peering
+            ref: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-peering.html
+            icon: Arch_Amazon-Virtual-Private-Cloud_64.png
+      - azure:
+          - name: Azure VNet Peering
+            ref: https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
+            icon: none.png
+      - google:
+          - name: Google VPC Peering
+            ref: https://cloud.google.com/vpc/docs/vpc-peering/
+            icon: Cloud-Virtual-Network.png
+      - ibm:
+          - name: Transit Gateway
+            ref: https://cloud.ibm.com/interconnectivity/transit/provision
+            icon: App_Icon_Transit_SVG.svg
+      - oracle:
+          - name: Oracle Dynamic Routing Gateway
+            ref: https://docs.oracle.com/en-us/iaas/Content/Network/Tasks/managingDRGs.htm
+            icon: drg.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: VPC Peering Connection
+            ref: https://support.huaweicloud.com/intl/en-us/productdesc-vpc/vpc_Concepts_0011.html
+            icon: vpc2.png
+          - name: Cloud Connect
+            ref: https://www.huaweicloud.com/intl/en-us/product/cc.html
+            icon: cc2.png
+
+  - category: Networking
+    categoryurl:
+    subcategory: Network Gateway
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Site-to-Site VPN
+            ref: https://aws.amazon.com/vpn/site-to-site-vpn/
+            icon: Arch_AWS-Site-to-Site-VPN_64.png
+          - name: AWS Client VPN
+            ref: https://aws.amazon.com/vpn/client-vpn/
+            icon: Arch_AWS-Client-VPN_64.png
+      - azure:
+          - name: Azure VPN Gateway
+            ref: https://azure.microsoft.com/pricing/details/vpn-gateway/
+            icon: Azure VPN Gateway.png
+      - google:
+          - name: Cloud VPN
+            ref: https://cloud.google.com/products/networking/
+            icon: Cloud-Virtual-Network.png
+      - ibm:
+          - name: Classic IPSEC-VPN
+            ref: https://cloud.ibm.com/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn
+            icon: ibmcloud.png
+          - name: VPN gateway for VPC
+            ref: https://cloud.ibm.com/docs/vpc-on-classic-network?topic=vpc-on-classic-network---using-vpn-with-your-vpc
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle VPN Connect
+            ref: https://www.oracle.com/cloud/networking/vpn-connect.html
+            icon: oracle.png
+      - alibaba:
+          - name: VPN Gateway
+            ref: https://www.alibabacloud.com/product/vpn-gateway
+            icon: alibaba.png
+      - huawei:
+          - name: VPN Gateway
+            ref: https://www.huaweicloud.com/intl/en-us/product/vpn.html
+            icon: vpn2.png
+          - name: NAT Gateway
+            ref: https://www.huaweicloud.com/intl/en-us/product/nat.html
+            icon: nat.png
+          - name: Direct Connect
+            ref: https://www.huaweicloud.com/intl/en-us/product/dc.html
+            icon: dc2.png
+
+  - category: Networking
+    categoryurl:
+    subcategory: Content Delivery Network
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon CloudFront
+            ref: https://aws.amazon.com/documentation/elastic-beanstalk/
+            icon: Storage-Content-Delivery_AmazonCloudFront.png
+      - azure:
+          - name: Azure CDN
+            ref: https://azure.microsoft.com/services/cdn/
+            icon: Azure Content Delivery Network (CDN).png
+          - name: Azure Front Door
+            ref: https://azure.microsoft.com/services/frontdoor/#overview
+            icon: Azure Front Door.png
+      - google:
+          - name: Cloud CDN
+            ref: https://cloud.google.com/cdn/
+            icon: Cloud-CDN.png
+      - ibm:
+          - name: Content Delivery Network
+            ref: https://cloud.ibm.com/docs/infrastructure/CDN?topic=CDN-about-content-delivery-networks-cdn-
+            icon: ibmcloud.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: Alibaba Content Delivery Network
+            ref: https://www.alibabacloud.com/product/cdn
+            icon: cdn.png
+      - huawei:
+          - name: Content Delivery Network (CDN)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cdn.html
+            icon: cdn.png
+
+  - category: Networking
+    categoryurl:
+    subcategory: Networking & Content Delivery
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Route 53
+            ref: https://aws.amazon.com/route53/
+            icon: Networking_AmazonRoute53.png
+      - azure:
+          - name: Azure DNS
+            ref: https://azure.microsoft.com/services/dns/
+            icon: Azure DNS.png
+      - google:
+          - name: Cloud DNS
+            ref: https://cloud.google.com/dns/
+            icon: Cloud-DNS.png
+      - ibm:
+          - name: Internet Services
+            ref: https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
+            icon: ibmcloud.png
+          - name: DNS Services
+            ref: https://cloud.ibm.com/catalog/services/dns-services
+            icon: dns_svcs_icon.svg
+      - oracle:
+          - name: Oracle DNS
+            ref: https://www.oracle.com/cloud/networking/dns/
+            icon: EdgeServices.png
+      - alibaba:
+          - name: Alibaba Cloud DNS
+            ref: https://www.alibabacloud.com/product/dns
+            icon: DNS.png
+      - huawei:
+          - name: Domain Name Service (DNS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/dns.html
+            icon: dns2.png
+  - category: Networking
+    categoryurl:
+    subcategory: Global Traffic Management
+    subcategoryurl:
+    service:
+      - aws:
+          - name: Amazon Route 53 Traffic Flow
+            ref: https://aws.amazon.com/blogs/aws/new-route-53-traffic-flow/
+            icon: Networking_AmazonRoute53.png
+          - name: AWS Global Accelerator
+            ref: https://aws.amazon.com/global-accelerator/
+            icon: Arch_AWS-Global-Accelerator_64.png
+          - name: AWS App Mesh
+            ref: https://aws.amazon.com/app-mesh/
+            icon: Arch_AWS-App-Mesh_64.png
+      - azure:
+          - name: Azure Traffic Manager
+            ref: https://azure.microsoft.com/services/traffic-manager/
+            icon: Azure Traffic Manager.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name: Internet Services
+            ref: https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Traffic Management
+            ref: https://www.oracle.com/cloud/networking/traffic-management.html
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: Global Accelerator (GA)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ga.html
+            icon: ga2.png
+  - category: Networking
+    categoryurl:
+    subcategory: Private Connectivity
+    subcategoryurl: https://en.wikipedia.org/wiki/Platform_as_a_service
+    service:
+      - aws:
+          - name: AWS Direct Connect
+            ref: https://aws.amazon.com/directconnect/
+            icon: Networking_AWSDirectConnect.png
+          - name: AWS Private Link
+            ref: https://aws.amazon.com/about-aws/whats-new/2018/04/introducing-aws-privatelink-in-the-eu-paris-region/
+            icon: Networking_AWSDirectConnect.png
+      - azure:
+          - name: Azure Express Route
+            ref: https://azure.microsoft.com/services/expressroute/
+            icon: Azure ExpressRoute.png
+      - google:
+          - name: Cloud Hybrid Connectivity
+            ref: https://cloud.google.com/hybrid-connectivity
+            icon: Cloud-Interconnect.png
+      - ibm:
+          - name: Direct Link
+            ref: https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-overview-of-direct-link-offerings
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure FastConnect
+            ref: https://www.oracle.com/cloud/networking/fastconnect/
+            icon: service-fastconnect.png
+      - alibaba:
+          - name: Express Connect
+            ref: https://www.alibabacloud.com/product/express-connect
+            icon: expressconnect.png
+      - huawei:
+          - name: Direct Connect
+            ref: https://www.huaweicloud.com/intl/en-us/product/dc.html
+            icon: dc2.png
+
+  - category: Networking
+    categoryurl:
+    subcategory: Load Balancers
+    subcategoryurl: https://en.wikipedia.org/wiki/Load_balancing_(computing)
+    service:
+      - aws:
+          - name: Elastic Load Balancing
+            ref: https://aws.amazon.com/elasticloadbalancing/
+            icon: aws.png
+      - azure:
+          - name: Azure Load Balancer
+            ref: https://azure.microsoft.com/services/load-balancer/
+            icon: Azure load balancer (automatic).png
+      - google:
+          - name: Cloud Load Balancing
+            ref: https://cloud.google.com/load-balancing/
+            icon: Cloud-Load-Balancing.png
+      - ibm:
+          - name: IBM Cloud Load Balancers
+            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-nlb-vs-elb
+            icon: ibmcloud.png
+          - name: IBM Cloud Load Balancer for VPC
+            ref: https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
+            icon: ibmcloud.png
+          - name: Citrix NetScaler VPX
+            ref: https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Load Balancing
+            ref: https://www.oracle.com/cloud/networking/load-balancing/
+            icon: LoadBalancing.png
+      - alibaba:
+          - name: Server Load Balancer
+            ref: https://www.alibabacloud.com/product/server-load-balancer
+            icon: SLB.png
+      - huawei:
+          - name: Elastic Load Balance (ELB)
+            ref: https://www.huaweicloud.com/intl/en-us/product/elb.html
+            icon: elb2.png
+  - category: Hybrid Cloud
+    categoryurl:
+    subcategory: Hybrid Cloud
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Outposts
+            ref: https://aws.amazon.com/outposts/
+            icon: none.png
+      - azure:
+          - name: Azure Arc
+            ref: https://azure.microsoft.com/services/azure-arc/
+            icon: none.png
+      - google:
+          - name: Google Anthos
+            ref: https://cloud.google.com/anthos
+            icon: Anthos_icon.png
+      - ibm:
+          - name: Satellite
+            ref: https://cloud.ibm.com/docs/satellite?topic=satellite-getting-started
+            icon: none.png
+          - name: Secure Gateway
+            ref: https://cloud.ibm.com/catalog/services/secure-gateway
+            icon: none.png
+      - oracle:
+          - name: Oracle Exadata Cloud@Customer
+            ref: https://www.oracle.com/engineered-systems/exadata/cloud-at-customer/
+            icon: none.png
+          - name: Oracle Roving Edge Infrastructure
+            ref: https://www.oracle.com/cloud/roving-edge-infrastructure/
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: Huawei Cloud Stack
+            ref: https://www.huaweicloud.com/intl/en-us/product/huaweicloudstack.html
+            icon: hcs2.png
+          - name: CloudPond
+            ref: https://www.huaweicloud.com/intl/en-us/product/cloudpond.html
+            icon: cloudpond.png
+          - name: Dedicated Computing Cluster (DCC)
+            ref: https://www.huaweicloud.com/intl/en-us/product/dcc.html
+            icon: dcc.png
   - category: Migration Services
     categoryurl:
     subcategory: Server Migration Services
     subcategoryurl:
     service:
       - aws:
-          - name: AWS Server Migration Service
-            ref: https://aws.amazon.com/server-migration-service/
-            icon: aws.png
           - name: AWS Application Migration Service
             ref: https://aws.amazon.com/application-migration-service/
             icon: Arch_CloudEndure-Migration_64.png
@@ -1302,10 +1653,90 @@ services:
             ref: https://www.alibabacloud.com/help/doc-detail/62394.htm
             icon: ecs.png
       - huawei:
-          - name: Server Migration Service
+          - name: Server Migration Service (SMS)
             ref: https://www.huaweicloud.com/intl/en-us/product/sms.html
-            icon: sms.png
-
+            icon: sms2.png
+          - name: Migration Center (MgC)
+            ref: https://www.huaweicloud.com/intl/en-us/product/mgc.html
+            icon: mgc.png
+  - category: Migration Services
+    categoryurl:
+    subcategory: Database Migration Services
+    subcategoryurl: https://en.wikipedia.org/wiki/Data_migration
+    service:
+      - aws:
+          - name: AWS Database Migration Service
+            ref: https://aws.amazon.com/dms/
+            icon: Database_AWSDatabaseMigrationService.png
+          - name: AWS Migration Hub
+            ref: https://aws.amazon.com/migration-hub/
+            icon: Arch_AWS-Migration-Hub_64.png
+      - azure:
+          - name: Azure Database Migration Service
+            ref: https://azure.microsoft.com/en-us/services/database-migration/
+            icon: Microsoft Azure.png
+      - google:
+          - name: Database Migration Service
+            ref: https://cloud.google.com/database-migration
+            icon: Generic-GCP.png
+      - ibm:
+          - name: Lift CLI
+            ref: https://www.lift-cli.cloud.ibm.com/#docs
+            icon: ibmcloud.png
+          - name: VPC+ Cloud Migration
+            ref: https://cloud.ibm.com/catalog/services/vpc-cloud-migration
+            icon: ibmcloud.png
+          - name: Rackware RMM
+            ref: https://cloud.ibm.com/catalog/content/Rackware-Golden-Template-1.11-06545490-596b-4133-8516-8425a11b3265-global
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Lift Services
+            ref: https://www.oracle.com/cloud/cloud-lift/
+            icon: storage.png
+      - alibaba:
+          - name: Data Transmission Service
+            ref: https://www.alibabacloud.com/product/data-transmission-service
+            icon: dts.png
+      - huawei:
+          - name: Data Replication Service (DRS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/drs.html
+            icon: drs2.png
+          - name: Database and Application Migration UGO
+            ref: https://www.huaweicloud.com/intl/en-us/product/ugo.html
+            icon: ugo.png
+  - category: Migration Services
+    categoryurl:
+    subcategory: Object Storage Migration Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS DataSync
+            ref: https://aws.amazon.com/datasync/
+            icon: Arch_AWS-DataSync_64.png
+      - azure:
+          - name: 
+            ref: 
+            icon: none.png
+      - google:
+          - name: Storage Transfer Service
+            ref: https://cloud.google.com/storage-transfer-service
+            icon: Generic-GCP.png
+      - ibm:
+          - name: 
+            ref: 
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name: Data Online Migration 
+            ref: https://www.alibabacloud.com/help/en/data-online-migration/product-overview/what-is-data-online-migration
+            icon: none.png
+      - huawei:
+          - name: Objects Storage Migration Service (OMS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/oms.html
+            icon: oms.png
   - category: Migration Services
     categoryurl:
     subcategory: Small Scale Data Transfer Service
@@ -1342,9 +1773,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Data Express Service - Disk
-            ref: https://www.huaweicloud.com/intl/en-us/product/des.html
-            icon: des.png
+          - name: Cloud Data Migration (CDM)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cdm.html
+            icon: cdm2.png
 
   - category: Migration Services
     categoryurl:
@@ -1379,9 +1810,9 @@ services:
             ref: https://www.alibabacloud.com/product/data-transport
             icon: alibaba.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Data Express Service (DES)
+            ref: https://www.huaweicloud.com/intl/en-us/product/des.html
+            icon: des2.png
 
   - category: Migration Services
     categoryurl:
@@ -1419,9 +1850,9 @@ services:
             ref: https://www.alibabacloud.com/product/data-transport
             icon: alibaba.png
       - huawei:
-          - name: Data Express Service - Teleport
+          - name: Data Express Service (DES)
             ref: https://www.huaweicloud.com/intl/en-us/product/des.html
-            icon: des.png
+            icon: des2.png
 
   - category: Migration Services
     categoryurl:
@@ -1452,7 +1883,6 @@ services:
           - name:
             ref:
             icon: none.png
-
       - huawei:
           - name:
             ref:
@@ -1487,351 +1917,208 @@ services:
           - name:
             ref:
             icon: none.png
-
       - huawei:
-          - name:
-            ref:
-            icon: none.png
-
-  - category: Networking & Content Delivery
-    categoryurl:
-    subcategory: Virtual Networking
+          - name: Migration Center (MgC)
+            ref: https://www.huaweicloud.com/intl/en-us/product/mgc.html
+            icon: mgc.png
+  - category: Developer Tools
+    categoryurl: https://en.wikipedia.org/wiki/Programming_tool
+    subcategory: DevOps Platform
     subcategoryurl:
     service:
       - aws:
-          - name: Amazon VPC
-            ref: https://aws.amazon.com/vpc/
-            icon: Networking_AmazonVPC.png
-      - azure:
-          - name: Azure VNet
-            ref: https://azure.microsoft.com/services/virtual-network/
-            icon: Azure App Service - Web App (was Websites).png
-      - google:
-          - name: Virtual Private Cloud
-            ref: https://cloud.google.com/vpc
-            icon: Cloud-Virtual-Network.png
-      - ibm:
-          - name: IBM Cloud VPC
-            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
-            icon: ibmcloud.png
-      - oracle:
-          - name: Oracle Virtual Cloud Network
-            ref: https://cloud.oracle.com/networking
-            icon: vcn.png
-      - alibaba:
-          - name: Virtual Private Cloud
-            ref: https://www.alibabacloud.com/product/vpc
-            icon: vpc.png
-      - huawei:
-          - name: Virtual Private Cloud
-            ref: https://www.huaweicloud.com/intl/en-us/product/vpc.html
-            icon: vpc.png
-  - category: Networking & Content Delivery
-    categoryurl:
-    subcategory: Virtual network connectivity
-    subcategoryurl:
-    service:
-      - aws:
-          - name: AWS Transit Gateway
-            ref: https://aws.amazon.com/transit-gateway/
-            icon: Arch_AWS-Transit-Gateway_64.png
-          - name: AWS VPC peering
-            ref: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-peering.html
-            icon: Arch_Amazon-Virtual-Private-Cloud_64.png
-      - azure:
-          - name: Azure VNet Peering
-            ref: https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
-            icon: none.png
-      - google:
-          - name: Google VPC Peering
-            ref: https://cloud.google.com/vpc/docs/vpc-peering/
-            icon: vpc.png
-      - ibm:
-          - name: Transit Gateway
-            ref: https://cloud.ibm.com/interconnectivity/transit/provision
-            icon: App_Icon_Transit_SVG.svg
-      - oracle:
-          - name: Oracle Dynamic Routing Gateway
-            ref: https://docs.oracle.com/en-us/iaas/Content/Network/Tasks/managingDRGs.htm
-            icon: drg.png
-      - alibaba:
-          - name:
-            ref:
-            icon: none.png
-
-      - huawei:
-          - name:
-            ref:
-            icon: none.png
-
-  - category: Networking & Content Delivery
-    categoryurl:
-    subcategory: Network Gateway
-    subcategoryurl:
-    service:
-      - aws:
-          - name: AWS Site-to-Site VPN
-            ref: https://aws.amazon.com/vpn/site-to-site-vpn/
-            icon: Arch_AWS-Site-to-Site-VPN_64.png
-          - name: AWS Client VPN
-            ref: https://aws.amazon.com/vpn/client-vpn/
-            icon: Arch_AWS-Client-VPN_64.png
-      - azure:
-          - name: Azure VPN Gateway
-            ref: https://azure.microsoft.com/pricing/details/vpn-gateway/
-            icon: Azure VPN Gateway.png
-      - google:
-          - name: Cloud VPN
-            ref: https://cloud.google.com/products/networking/
-            icon: Cloud-Virtual-Network.png
-      - ibm:
-          - name: Classic IPSEC-VPN
-            ref: https://cloud.ibm.com/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn
-            icon: ibmcloud.png
-          - name: VPN gateway for VPC
-            ref: https://cloud.ibm.com/docs/vpc-on-classic-network?topic=vpc-on-classic-network---using-vpn-with-your-vpc
-            icon: ibmcloud.png
-      - oracle:
-          - name: Oracle VPN Connect
-            ref: https://www.oracle.com/cloud/networking/vpn-connect.html
-            icon: oracle.png
-      - alibaba:
-          - name: VPN Gateway
-            ref: https://www.alibabacloud.com/product/vpn-gateway
-            icon: alibaba.png
-      - huawei:
-          - name: Virtual Private Network
-            ref: https://www.huaweicloud.com/intl/en-us/product/vpn.html
-            icon: vpn.png
-
-  - category: Networking & Content Delivery
-    categoryurl:
-    subcategory: Content Delivery Network
-    subcategoryurl:
-    service:
-      - aws:
-          - name: Amazon CloudFront
-            ref: https://aws.amazon.com/documentation/elastic-beanstalk/
-            icon: Storage-Content-Delivery_AmazonCloudFront.png
-      - azure:
-          - name: Azure CDN
-            ref: https://azure.microsoft.com/services/cdn/
-            icon: Azure Content Delivery Network (CDN).png
-          - name: Azure Front Door
-            ref: https://azure.microsoft.com/services/frontdoor/#overview
-            icon: Azure Front Door.png
-      - google:
-          - name: Cloud CDN
-            ref: https://cloud.google.com/cdn/
-            icon: Cloud-CDN.png
-      - ibm:
-          - name: Content Delivery Network
-            ref: https://cloud.ibm.com/docs/infrastructure/CDN?topic=CDN-about-content-delivery-networks-cdn-
-            icon: ibmcloud.png
-      - oracle:
-          - name:
-            ref:
-            icon: none.png
-      - alibaba:
-          - name: Alibaba Content Delivery Network
-            ref: https://www.alibabacloud.com/product/cdn
-            icon: cdn.png
-      - huawei:
-          - name: Huawei Cloud CDN
-            ref: https://www.huaweicloud.com/intl/en-us/product/cdn.html
-            icon: hwCDN.png
-
-  - category: Networking
-    categoryurl:
-    subcategory: Networking & Content Delivery
-    subcategoryurl:
-    service:
-      - aws:
-          - name: Amazon Route 53
-            ref: https://aws.amazon.com/route53/
-            icon: Networking_AmazonRoute53.png
-      - azure:
-          - name: Azure DNS
-            ref: https://azure.microsoft.com/services/dns/
-            icon: Azure DNS.png
-      - google:
-          - name: Cloud DNS
-            ref: https://cloud.google.com/dns/
-            icon: Cloud-DNS.png
-      - ibm:
-          - name: Internet Services
-            ref: https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
-            icon: ibmcloud.png
-          - name: DNS Services
-            ref: https://cloud.ibm.com/catalog/services/dns-services
-            icon: dns_svcs_icon.svg
-      - oracle:
-          - name: Oracle DNS
-            ref: https://www.oracle.com/cloud/networking/dns/
-            icon: EdgeServices.png
-      - alibaba:
-          - name: Alibaba Cloud DNS
-            ref: https://www.alibabacloud.com/product/dns
-            icon: DNS.png
-      - huawei:
-          - name: Domain Name Service
-            ref: https://www.huaweicloud.com/intl/en-us/product/dns.html
-            icon: dns.png
-  - category: Networking
-    categoryurl:
-    subcategory: Global Traffic Management
-    subcategoryurl:
-    service:
-      - aws:
-          - name: Amazon Route 53 Traffic Flow
-            ref: https://aws.amazon.com/blogs/aws/new-route-53-traffic-flow/
-            icon: Networking_AmazonRoute53.png
-          - name: AWS Global Accelerator
-            ref: https://aws.amazon.com/global-accelerator/
-            icon: Arch_AWS-Global-Accelerator_64.png
-          - name: AWS App Mesh
-            ref: https://aws.amazon.com/app-mesh/
-            icon: Arch_AWS-App-Mesh_64.png
-      - azure:
-          - name: Azure Traffic Manager
-            ref: https://azure.microsoft.com/services/traffic-manager/
-            icon: Azure Traffic Manager.png
-      - google:
-          - name:
-            ref:
-            icon: none.png
-      - ibm:
-          - name: Internet Services
-            ref: https://cloud.ibm.com/docs/infrastructure/cis?topic=cis-about-ibm-cloud-internet-services-cis
-            icon: ibmcloud.png
-      - oracle:
-          - name: Oracle Cloud Infrastructure Traffic Management
-            ref: https://www.oracle.com/cloud/networking/traffic-management.html
-            icon: none.png
-      - alibaba:
-          - name:
-            ref:
-            icon: none.png
-      - huawei:
-          - name: Domain Name Service
-            ref: https://www.huaweicloud.com/intl/en-us/product/dns.html
-            icon: dns.png
-
-  - category: Hybrid Cloud
-    categoryurl:
-    subcategory: Hybrid Cloud
-    subcategoryurl:
-    service:
-      - aws:
-          - name: AWS Outposts
-            ref: https://aws.amazon.com/outposts/
-            icon: none.png
-      - azure:
-          - name: Azure Arc
-            ref: https://azure.microsoft.com/services/azure-arc/
-            icon: none.png
-      - google:
-          - name: Google Anthos
-            ref: https://cloud.google.com/anthos
-            icon: Anthos_icon.png
-      - ibm:
-          - name: Satellite
-            ref: https://cloud.ibm.com/docs/satellite?topic=satellite-getting-started
-            icon: none.png
-          - name: Secure Gateway
-            ref: https://cloud.ibm.com/catalog/services/secure-gateway
-            icon: none.png
-      - oracle:
-          - name: Oracle Exadata Cloud@Customer
-            ref: https://www.oracle.com/engineered-systems/exadata/cloud-at-customer/
-            icon: none.png
-          - name: Oracle Roving Edge Infrastructure
-            ref: https://www.oracle.com/cloud/roving-edge-infrastructure/
-            icon: none.png
-      - alibaba:
-          - name:
-            ref:
-            icon: none.png
-      - huawei:
-          - name: Huawei Cloud CLOUD Stack
-            ref: https://www.huaweicloud.com/intl/en-us/product/huaweicloudstack.html
-            icon: hcs.png
-  - category: Networking & Content Delivery
-    categoryurl:
-    subcategory: Private Connectivity
-    subcategoryurl: https://en.wikipedia.org/wiki/Platform_as_a_service
-    service:
-      - aws:
-          - name: AWS Direct Connect
-            ref: https://aws.amazon.com/directconnect/
-            icon: Networking_AWSDirectConnect.png
-          - name: AWS Private Link
-            ref: https://aws.amazon.com/about-aws/whats-new/2018/04/introducing-aws-privatelink-in-the-eu-paris-region/
-            icon: Networking_AWSDirectConnect.png
-      - azure:
-          - name: Azure Express Route
-            ref: https://azure.microsoft.com/services/expressroute/
-            icon: Azure ExpressRoute.png
-      - google:
-          - name: Cloud Hybrid Connectivity
-            ref: https://cloud.google.com/hybrid-connectivity
-            icon: Cloud-Interconnect.png
-      - ibm:
-          - name: Direct Link
-            ref: https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-overview-of-direct-link-offerings
-            icon: ibmcloud.png
-      - oracle:
-          - name: Oracle Cloud Infrastructure FastConnect
-            ref: https://www.oracle.com/cloud/networking/fastconnect/
-            icon: service-fastconnect.png
-      - alibaba:
-          - name: Express Connect
-            ref: https://www.alibabacloud.com/product/express-connect
-            icon: expressconnect.png
-      - huawei:
-          - name: Direct Connect
-            ref: https://www.huaweicloud.com/intl/en-us/product/dc.html
-            icon: dc.png
-
-  - category: Networking & Content Delivery
-    categoryurl:
-    subcategory: Load Balancers
-    subcategoryurl: https://en.wikipedia.org/wiki/Load_balancing_(computing)
-    service:
-      - aws:
-          - name: Elastic Load Balancing
-            ref: https://aws.amazon.com/elasticloadbalancing/
+          - name: AWS Cloud9
+            ref: https://aws.amazon.com/cloud9/
             icon: aws.png
       - azure:
-          - name: Azure Load Balancer
-            ref: https://azure.microsoft.com/services/load-balancer/
-            icon: Azure load balancer (automatic).png
+          - name: Azure Boards
+            ref: https://azure.microsoft.com/services/devops/boards/
+            icon: boards-icon-80.png
       - google:
-          - name: Cloud Load Balancing
-            ref: https://cloud.google.com/load-balancing/
-            icon: Cloud-Load-Balancing.png
+          - name: Cloud Source Repositories
+            ref: https://cloud.google.com/source-repositories/
+            icon: Generic-GCP.png
       - ibm:
-          - name: IBM Cloud Load Balancers
-            ref: https://cloud.ibm.com/docs/vpc?topic=vpc-nlb-vs-elb
-            icon: ibmcloud.png
-          - name: IBM Cloud Load Balancer for VPC
-            ref: https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
-            icon: ibmcloud.png
-          - name: Citrix NetScaler VPX
-            ref: https://cloud.ibm.com/catalog/infrastructure/load-balancer-group
+          - name: DevOps Insights
+            ref: https://cloud.ibm.com/docs/services/DevOpsInsights?topic=DevOpsInsights-getting-started#getting-started
             icon: ibmcloud.png
       - oracle:
-          - name: Oracle Cloud Infrastructure Load Balancing
-            ref: https://www.oracle.com/cloud/networking/load-balancing/
-            icon: LoadBalancing.png
+          - name: Oracle Visual Builder Studio
+            ref: https://www.oracle.com/application-development/visual-builder-studio/
+            icon: appbuilder.png
       - alibaba:
-          - name: Server Load Balancer
-            ref: https://www.alibabacloud.com/product/server-load-balancer
-            icon: SLB.png
+          - name:
+            ref:
+            icon: none.png
       - huawei:
-          - name: Elastic Load Balance
-            ref: https://www.huaweicloud.com/intl/en-us/product/elb.html
-            icon: elb.png
+          - name: CodeArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/devcloud.html
+            icon: da2.png
+  - category: Developer Tools
+    categoryurl: https://en.wikipedia.org/wiki/Programming_tool
+    subcategory: Source Control
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS CodeCommit
+            ref: https://aws.amazon.com/codecommit/
+            icon: Developer-Tools_AWSCodeCommit.png
+      - azure:
+          - name: Azure Repos
+            ref: https://azure.microsoft.com/services/devops/repos/
+            icon: repos-icon-80.png
+      - google:
+          - name: Cloud Source Repositories
+            ref: https://cloud.google.com/source-repositories/
+            icon: Generic-GCP.png
+      - ibm:
+          - name: 
+            ref: 
+            icon: none.png
+      - oracle:
+          - name: 
+            ref: 
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: CodeArts Repo
+            ref: https://www.huaweicloud.com/intl/en-us/product/codehub.html
+            icon: darepo.png
+  - category: Developer Tools
+    categoryurl: https://en.wikipedia.org/wiki/Programming_tool
+    subcategory: Build / CI
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS CodeBuild
+            ref: https://aws.amazon.com/codebuild/
+            icon: aws.png
+      - azure:
+          - name: Azure Artifacts
+            ref: https://azure.microsoft.com/services/devops/artifacts/
+            icon: artifacts-icon-72.png
+      - google:
+          - name: 
+            ref: 
+            icon: none.png
+      - ibm:
+          - name: 
+            ref: 
+            icon: none.png
+      - oracle:
+          - name: 
+            ref: 
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: CodeArts Build
+            ref: https://www.huaweicloud.com/intl/en-us/product/cloudbuild.html
+            icon: dabuild.png
+  - category: Developer Tools
+    categoryurl: https://en.wikipedia.org/wiki/Programming_tool
+    subcategory: Artifact Repository
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS CodeArtifact
+            ref: https://aws.amazon.com/codeartifact/
+            icon: aws.png
+      - azure:
+          - name: Azure Artifacts
+            ref: https://azure.microsoft.com/services/devops/artifacts/
+            icon: artifacts-icon-72.png
+      - google:
+          - name:
+            ref: 
+            icon: none.png
+      - ibm:
+          - name: 
+            ref: 
+            icon: none.png
+      - oracle:
+          - name:
+            ref: 
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: CodeArts Artifact
+            ref: https://www.huaweicloud.com/intl/en-us/product/cloudrelease.html
+            icon: daartifact.png
+  - category: Developer Tools
+    categoryurl: https://en.wikipedia.org/wiki/Programming_tool
+    subcategory: Deployment
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS CodeDeploy
+            ref: https://aws.amazon.com/codedeploy/
+            icon: Developer-Tools_AWSCodeDeploy.png
+      - azure:
+          - name: 
+            ref: 
+            icon: none.png
+      - google:
+          - name: 
+            ref: 
+            icon: none.png
+      - ibm:
+          - name: 
+            ref: 
+            icon: none.png
+      - oracle:
+          - name: 
+            ref: 
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: CodeArts Deploy
+            ref: https://www.huaweicloud.com/intl/en-us/product/clouddeploy.html
+            icon: dadeploy.png
+  - category: Developer Tools
+    categoryurl: https://en.wikipedia.org/wiki/Programming_tool
+    subcategory: Pipeline
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS CodePipeline
+            ref: https://aws.amazon.com/codepipeline
+            icon: Developer-Tools_AWSCodePipeline.png
+      - azure:
+          - name: Azure Pipelines
+            ref: https://azure.microsoft.com/services/devops/pipelines/
+            icon: pipelines-icon-80.png
+      - google:
+          - name: 
+            ref: 
+            icon: none.png
+      - ibm:
+          - name: Globalization Pipeline
+            ref: https://cloud.ibm.com/docs/services/GlobalizationPipeline?topic=GlobalizationPipeline-globalizationpipeline#globalizationpipeline
+            icon: ibmcloud.png
+      - oracle:
+          - name: 
+            ref: 
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: CodeArts Pipeline
+            ref: https://www.huaweicloud.com/intl/en-us/product/cloudpipeline.html
+            icon: dapipeline.png
   - category: Developer Tools
     categoryurl: https://en.wikipedia.org/wiki/Programming_tool
     subcategory: Cloud Software Development Kit
@@ -1907,10 +2194,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: DevStar
-            ref: https://developer.huaweicloud.com/resource/devstar.html
-            icon: devstar.png
-
+          - name: CodeArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/devcloud.html
+            icon: da2.png
   - category: Developer Tools
     categoryurl: https://en.wikipedia.org/wiki/Programming_tool
     subcategory: Cloud Software Development Kit
@@ -1967,7 +2253,40 @@ services:
       - huawei:
           - name: HUAWEI CLOUD SDKs
             ref: https://developer.huaweicloud.com/intl/en-us/sdk?all
+            icon: sdk.png
+  - category: Developer Tools
+    categoryurl: https://en.wikipedia.org/wiki/Programming_tool
+    subcategory: Low Code
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Amplify
+            ref: https://aws.amazon.com/amplify/hosting/
+            icon: Arch_AWS-Amplify_64.png
+      - azure:
+          - name:
+            ref:
             icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: Huawei Cloud Astro Zero
+            ref: https://www.huaweicloud.com/intl/en-us/product/appcube.html
+            icon: az.png
 
   - category: Management Tools
     categoryurl:
@@ -1998,11 +2317,10 @@ services:
           - name:
             ref:
             icon: none.png
-
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Cloud Bastion Host (CBH)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cbh.html
+            icon: cbh.png
 
   - category: Management Tools
     categoryurl: https://en.wikipedia.org/wiki/Infrastructure_as_Code
@@ -2013,9 +2331,6 @@ services:
           - name: AWS CloudFormation
             ref: https://aws.amazon.com/cloudformation/
             icon: Management-Tools_AWSCloudFormation.png
-          - name: AWS OpsWorks
-            ref: https://aws.amazon.com/opsworks/
-            icon: Arch_AWS-OpsWorks_64.png
       - azure:
           - name: Azure Resource Manager
             ref: https://azure.microsoft.com/features/resource-manager/
@@ -2042,15 +2357,14 @@ services:
           - name: Resource Orchestration Service
             ref: https://www.alibabacloud.com/product/ros
             icon: ros.png
-
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Resource Formation Service (RFS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/aos.html
+            icon: rfs2.png
 
   - category: Management Tools
     categoryurl: https://en.wikipedia.org/wiki/Infrastructure_as_Code
-    subcategory: Logging & Monitoring
+    subcategory: Infrastructure Monitoring
     subcategoryurl: https://en.wikipedia.org/wiki/Log_management
     service:
       - aws:
@@ -2060,18 +2374,6 @@ services:
           - name: AWS CloudTrail
             ref: https://aws.amazon.com/cloudtrail/
             icon: Management-Tools_AWSCloudTrail.png
-          - name: AWS X-Ray
-            ref: https://aws.amazon.com/xray/
-            icon: Arch_AWS-X-Ray_64.png
-          - name: AWS Distro for OpenTelemetry (Preview)
-            ref: https://aws.amazon.com/otel/
-            icon: Arch_AWS-Distro-for-OpenTelemetry_64.png
-          - name: Amazon Managed Service for Grafana (Preview)
-            ref: https://aws.amazon.com/grafana/
-            icon: Arch_Amazon-Managed-Service-for-Grafana_64.png
-          - name: Amazon Managed Service for Prometheus (Preview)
-            ref: https://aws.amazon.com/prometheus/
-            icon: Arch_Amazon-Managed-Service-for-Prometheus_64.png
       - azure:
           - name: Log Analytics
             ref: https://azure.microsoft.com/services/log-analytics/
@@ -2079,13 +2381,62 @@ services:
           - name: Azure portal
             ref: https://portal.azure.com/#
             icon: Azure Management Portal.png
-          - name: Application Insights
-            ref: https://azure.microsoft.com/services/application-insights/
-            icon: Azure Application Insights.png
       - google:
           - name: Google StackDriver
             ref: https://cloud.google.com/stackdriver/
             icon: Stackdriver.png
+          - name: Monitoring
+            ref: https://cloud.google.com/monitoring/
+            icon: Monitoring.png
+          - name: Logging
+            ref: https://cloud.google.com/logging/
+            icon: Logging.png
+      - ibm:
+          - name: Monitoring
+            ref: https://cloud.ibm.com/catalog/services/monitoring
+            icon: ibmcloud.png
+      - oracle:
+          - name: Oracle Cloud Infrastructure Logging
+            ref: https://www.oracle.com/devops/logging/
+            icon: oracle.png
+          - name: Oracle Cloud Infrastructure Monitoring
+            ref: https://www.oracle.com/devops/monitoring/
+            icon: oracle.png
+      - alibaba:
+          - name: CloudMonitor
+            ref: https://www.alibabacloud.com/product/cloud-monitor
+            icon: CloudMonitor.png
+          - name: ActionTrail
+            ref: https://www.alibabacloud.com/product/actiontrail
+            icon: CloudMonitor.png
+      - huawei:
+          - name: Log Tank Service (LTS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/lts.html
+            icon: lts2.png
+          - name: Cloud Eye
+            ref: https://www.huaweicloud.com/intl/en-us/product/ces.html
+            icon: ces2.png
+          - name: Cloud Trace Service (CTS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cts.html
+            icon: cts2.png
+
+  - category: Management Tools
+    categoryurl: https://en.wikipedia.org/wiki/Infrastructure_as_Code
+    subcategory: Application Monitoring
+    subcategoryurl: https://en.wikipedia.org/wiki/Log_management
+    service:
+      - aws:
+          - name: Amazon Managed Service for Grafana 
+            ref: https://aws.amazon.com/grafana/
+            icon: Arch_Amazon-Managed-Service-for-Grafana_64.png
+          - name: Amazon Managed Service for Prometheus 
+            ref: https://aws.amazon.com/prometheus/
+            icon: Arch_Amazon-Managed-Service-for-Prometheus_64.png
+      - azure:
+          - name: Application Insights
+            ref: https://azure.microsoft.com/services/application-insights/
+            icon: Azure Application Insights.png
+      - google:
           - name: Monitoring
             ref: https://cloud.google.com/monitoring/
             icon: Monitoring.png
@@ -2111,49 +2462,33 @@ services:
           - name: IBM Cloud Activity Tracker with LogDNA
             ref: https://www.ibm.com/cloud/blog/track-your-cloud-activities-using-ibm-cloud-activity-tracker-with-logdna
             icon: ibmcloud.png
-          - name: IBM Cloud Monitoring with Sysdig
-            ref: https://www.ibm.com/cloud/sysdig
-            icon: ibmcloud.png
       - oracle:
-          - name: Oracle Cloud Infrastructure Logging
-            ref: https://www.oracle.com/devops/logging/
-            icon: oracle.png
-          - name: Oracle Logging Analytics
-            ref: https://www.oracle.com/manageability/logging-analytics/
-            icon: oracle.png
           - name: Oracle Cloud Infrastructure Monitoring
             ref: https://www.oracle.com/devops/monitoring/
             icon: oracle.png
           - name: Application Performance Monitoring (limited availability)
             ref:
             icon: oracle.png
-          - name: Oracle Service Connector Hub
-            ref: https://www.oracle.com/devops/service-connector-hub/
-            icon: oracle.png
-          - name: Management Cloud
-            ref:
-            icon: AppPerfMonitoring.png
       - alibaba:
-          - name: CloudMonitor
-            ref: https://www.alibabacloud.com/product/cloud-monitor
-            icon: CloudMonitor.png
-          - name: ActionTrail
-            ref: https://www.alibabacloud.com/product/actiontrail
-            icon: CloudMonitor.png
           - name: Application Real-Time Monitoring Service
             ref: https://www.alibabacloud.com/product/arms
             icon: CloudMonitor.png
+          - name: Managed Service for Prometheus
+            ref: https://www.alibabacloud.com/en/product/prometheus
+            icon: CloudMonitor.png
+          - name: Managed Service for Grafana
+            ref: https://www.alibabacloud.com/en/product/grafana
+            icon: CloudMonitor.png
       - huawei:
-          - name: LTS
-            ref: https://www.huaweicloud.com/intl/en-us/product/lts.html
-            icon: lts.png
-          - name: AOM
+          - name: Application Operations Management (AOM)
             ref: https://www.huaweicloud.com/intl/en-us/product/aom.html
-            icon: aom.png
-          - name: CES
+            icon: aom2.png
+          - name: Cloud Eye
             ref: https://www.huaweicloud.com/intl/en-us/product/ces.html
-            icon: ces.png
-
+            icon: ces2.png
+          - name: Cloud Trace Service (CTS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cts.html
+            icon: cts2.png
   - category: Management Tools
     categoryurl:
     subcategory: Resource / Configuration Inventory
@@ -2193,9 +2528,12 @@ services:
             ref: https://www.alibabacloud.com/product/log-service
             icon: log-service.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Huawei Cloud Config
+            ref: https://www.huaweicloud.com/intl/en-us/product/rms.html
+            icon: config.png
+          - name: Resource Access Manager (RAM)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ram.html
+            icon: ram.png
 
   - category: Management Tools
     categoryurl:
@@ -2206,6 +2544,9 @@ services:
           - name: AWS OpsWorks
             ref: https://aws.amazon.com/opsworks/
             icon: Management-Tools_AWSOpsWorks.png
+          - name: AWS Service Catalog
+            ref: https://aws.amazon.com/servicecatalog/
+            icon: Management-Tools_AWSServiceCatalog.png
       - azure:
           - name: Resource Manager
             ref: https://azure.microsoft.com/features/resource-manager/
@@ -2236,71 +2577,56 @@ services:
             ref: https://www.alibabacloud.com/product/ros
             icon: ros.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Resource Governance Center (RGC)
+            ref: https://www.huaweicloud.com/intl/en-us/product/rgc.html
+            icon: rgc.png
 
   - category: Management Tools
     categoryurl:
-    subcategory: Server Automation
+    subcategory: Cloud Cost
     subcategoryurl:
     service:
       - aws:
-          - name: AWS Service Catalog
-            ref: https://aws.amazon.com/servicecatalog/
-            icon: Management-Tools_AWSServiceCatalog.png
+          - name: AWS Cloud Financial Management
+            ref: https://aws.amazon.com/aws-cost-management/
+            icon: Arch-Category_AWS-Cost-Management_64.png
       - azure:
-          - name:
-            ref:
-            icon: none.png
+          - name: Azure Cost Management
+            ref: https://azure.microsoft.com/services/cost-management/
+            icon: Azure Security Center.png
       - google:
-          - name:
-            ref:
+          - name: 
+            ref: 
             icon: none.png
       - ibm:
           - name:
             ref:
             icon: none.png
       - oracle:
-          - name:
-            ref:
+          - name: 
+            ref: 
             icon: none.png
       - alibaba:
           - name:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Cost Center
+            ref: https://support.huaweicloud.com/intl/en-us/cost/index.html
+            icon: costMgmt.png
 
   - category: Management Tools
     categoryurl:
-    subcategory: Cloud Cost / Performance / Security Advisor
+    subcategory: Security Advisor
     subcategoryurl:
     service:
       - aws:
           - name: AWS Trusted Advisor
             ref: https://aws.amazon.com/premiumsupport/trustedadvisor/
             icon: Arch_AWS-Trusted-Advisor_64.png
-          - name: AWS Well-Architected Tool
-            ref: https://aws.amazon.com/well-architected-tool/
-            icon: Arch_AWS-Well-Architected-Tool_64.png
-          - name: AWS Cost Management
-            ref: https://aws.amazon.com/aws-cost-management/
-            icon: Arch-Category_AWS-Cost-Management_64.png
-          - name: AWS Cost Explorer
-            ref: https://aws.amazon.com/aws-cost-management/aws-cost-explorer/
-            icon: Arch_AWS-Cost-Explorer_64.png
-          - name: AWS Compute Optimizer
-            ref: https://aws.amazon.com/compute-optimizer/
-            icon: Arch_AWS-Compute-Optimizer_64.png
       - azure:
           - name: Azure Advisor
             ref: https://azure.microsoft.com/services/advisor/
-            icon: Azure Security Center.png
-          - name: Azure Cost Management
-            ref: https://azure.microsoft.com/services/cost-management/
             icon: Azure Security Center.png
       - google:
           - name: Google Cloud Platform Security
@@ -2322,13 +2648,51 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Cost Management
-            ref: https://support.huaweicloud.com/intl/en-us/usermanual-cost/costcenter_0000001.html
-            icon: costMgmt.png
-
+          - name: SecMaster
+            ref: https://www.huaweicloud.com/intl/en-us/product/secmaster.html
+            icon: secmaster.png
   - category: Management Tools
     categoryurl:
-    subcategory: Alerts and Remediation guidance Service
+    subcategory: Performance Optimization
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Trusted Advisor
+            ref: https://aws.amazon.com/premiumsupport/trustedadvisor/
+            icon: Arch_AWS-Trusted-Advisor_64.png
+          - name: AWS Well-Architected Tool
+            ref: https://aws.amazon.com/well-architected-tool/
+            icon: Arch_AWS-Well-Architected-Tool_64.png
+      - azure:
+          - name: 
+            ref: 
+            icon: none.png
+      - google:
+          - name: 
+            ref: 
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: 
+            ref: 
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: Optimization Advisor (OA)
+            ref: https://www.huaweicloud.com/intl/en-us/product/oa.html
+            icon: oa2.png
+          - name: Application Operations Management (AOM)
+            ref: https://www.huaweicloud.com/intl/en-us/product/aom.html
+            icon: aom2.png
+  - category: Management Tools
+    categoryurl:
+    subcategory: Alerts and Remediation Guidance Service
     subcategoryurl:
     service:
       - aws:
@@ -2374,9 +2738,9 @@ services:
             ref: https://www.alibabacloud.com/product/cloud-monitor
             icon: CloudMonitor.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Cloud Eye
+            ref: https://www.huaweicloud.com/intl/en-us/product/ces.html
+            icon: ces2.png
 
   - category: Management Tools
     categoryurl:
@@ -2456,21 +2820,12 @@ services:
             ref: https://www.alibabacloud.com/help/doc-detail/66653.htm
             icon: alibaba.png
       - huawei:
-          - name: Open APIs
-            ref: https://developer.huaweicloud.com/intl/en-us/openapilist
-            icon: none.png
           - name: API Explorer
-            ref: https://apiexplorer.developer.huaweicloud.com/apiexplorer/overview
-            icon: none.png
-          - name: HCloud CLI
-            ref: https://support.huaweicloud.com/productdesc-hcli/hcli_01.html
-            icon: hcloudcli.png
-          - name: Terraform Explorer
-            ref: https://terraform.developer.huaweicloud.com/terraform/overview
-            icon: none.png
-          - name: CloudShell
-            ref: https://shell.huaweicloud.com/
-            icon: none.png
+            ref: https://console-intl.huaweicloud.com/apiexplorer/#/openapi/overview?locale=en-us
+            icon: apig.png
+          - name: Cloud Operations Center (COC)
+            ref: https://www.huaweicloud.com/intl/en-us/product/coc.html
+            icon: coc2.png
 
   - category: Management Tools
     categoryurl:
@@ -2501,28 +2856,58 @@ services:
           - name:
             ref:
             icon: none.png
-
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Cloud Operations Center (COC)
+            ref: https://www.huaweicloud.com/intl/en-us/product/coc.html
+            icon: coc2.png
 
-  - category: Disaster Recovery Services
+  - category: Automated Cloud Management Service
     categoryurl:
-    subcategory: Automated Disaster Recovery Services
+    subcategory: Managed Cloud Services
     subcategoryurl:
     service:
       - aws:
-          - name: AWS Disaster Recovery
-            ref: https://aws.amazon.com/disaster-recovery/
-            icon: aws.png
+          - name: AWS Managed Services
+            ref: https://aws.amazon.com/managed-services/
+            icon: Application-Services_AmazonAppStream.png
+          - name: AWS Cloud Map
+            ref: https://aws.amazon.com/cloud-map/
+            icon: Arch_AWS-Cloud-Map_64.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: Cloud Operations Center (COC)
+            ref: https://www.huaweicloud.com/intl/en-us/product/coc.html
+            icon: coc2.png
+
+  - category: Disaster Recovery Services
+    categoryurl:
+    subcategory: Backup Services
+    subcategoryurl:
+    service:
+      - aws:
           - name: AWS Backup
             ref: https://aws.amazon.com/backint-agent/
             icon: Arch_AWS-Backint-Agent_64.png
       - azure:
-          - name: Azure Site Recovery
-            ref: https://azure.microsoft.com/services/site-recovery/
-            icon: Azure Site Recovery.png
           - name: Azure Backup
             ref: https://azure.microsoft.com/services/backup/
             icon: Azure Backup.png
@@ -2539,18 +2924,49 @@ services:
             ref: https://cloud.oracle.com/en_US/database-backup/features
             icon: none.png
       - alibaba:
-          - name: Alibaba Disaster Recovery
-            ref: https://www.alibabacloud.com/solutions/hosting/Disaster-Recovery
-            icon: alibaba.png
           - name: Hybrid Backup Recovery
             ref: https://www.alibabacloud.com/product/hbr
             icon: alibaba.png
-
       - huawei:
+          - name: Cloud Backup and Recovery (CBR)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cbr.html
+            icon: cbr2.png
+  - category: Disaster Recovery Services
+    categoryurl:
+    subcategory: Automated Disaster Recovery Services
+    subcategoryurl:
+    service:
+      - aws:
+          - name: AWS Disaster Recovery
+            ref: https://aws.amazon.com/disaster-recovery/
+            icon: aws.png
+      - azure:
+          - name: Azure Site Recovery
+            ref: https://azure.microsoft.com/services/site-recovery/
+            icon: Azure Site Recovery.png
+      - google:
           - name:
             ref:
             icon: none.png
-
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name: 
+            ref: 
+            icon: none.png
+      - alibaba:
+          - name: Alibaba Disaster Recovery
+            ref: https://www.alibabacloud.com/solutions/hosting/Disaster-Recovery
+            icon: alibaba.png
+      - huawei:
+          - name: Business Recovery Service (BRS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/sdrs.html
+            icon: sdrs2.png
+          - name: Data Replication Service (DRS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/drs.html
+            icon: drs2.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Identity & Access Management
@@ -2583,13 +2999,13 @@ services:
             ref: https://www.oracle.com/security/cloud-security/identity-cloud/
             icon: oracle.png
       - alibaba:
-          - name: "Resource Access Management        "
+          - name: "Resource Access Management"
             ref: https://www.alibabacloud.com/product/ram
             icon: ram.png
       - huawei:
-          - name: Identity and Access Management
-            ref: https://www.huaweicloud.com/intl/en-us/s/JUlBTSU
-            icon: iam.png
+          - name: Identity and Access Management (IAM)
+            ref: https://www.huaweicloud.com/intl/en-us/product/iam.html
+            icon: iam2.png
 
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2618,19 +3034,19 @@ services:
       - oracle:
           - name:
             ref:
-            icon:
+            icon: none.png
       - alibaba:
           - name:
             ref:
-            icon:
+            icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon:
+          - name: IAM Identity Center
+            ref: https://support.huaweicloud.com/intl/en-us/productdesc-identitycenter/iic_01_0002.html
+            icon: iam2.png
 
   - category: Security, Identity & Compliance
     categoryurl:
-    subcategory: Cloud Security Assesment Service
+    subcategory: Cloud Security Assessment Service
     subcategoryurl:
     service:
       - aws:
@@ -2664,9 +3080,12 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: SecMaster
+            ref: https://www.huaweicloud.com/intl/en-us/product/secmaster.html
+            icon: secmaster.png
+          - name: Host Security Service (HSS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/hss.html
+            icon: hss.png
 
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2698,9 +3117,9 @@ services:
             ref: https://www.alibabacloud.com/product/certificates
             icon: SSL.png
       - huawei:
-          - name: SSL Certificate Manager
-            ref: https://www.huaweicloud.com/intl/en-us/product/scm.html
-            icon: ssl.png
+          - name: Cloud Certificate Manager (CCM)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ccm.html
+            icon: ssl2.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Hardware Based Security Module
@@ -2740,9 +3159,9 @@ services:
             ref: https://www.alibabacloud.com/product/key-management-service
             icon: ram.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Data Encryption Workshop (DEW) DHSM
+            ref: https://support.huaweicloud.com/intl/en-us/productdesc-dew/dew_01_0993.html
+            icon: dew2.png
 
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2788,11 +3207,10 @@ services:
           - name: Resource Access Management
             ref: https://www.alibabacloud.com/help/doc-detail/96239.htm
             icon: alibaba.png
-
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Resource Access Manager (RAM)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ram.html
+            icon: ram.png
 
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2830,9 +3248,9 @@ services:
             ref: https://www.alibabacloud.com/product/key-management-service
             icon: KMS.png
       - huawei:
-          - name: Data Encryption Workshop
+          - name: Data Encryption Workshop (DEW)
             ref: https://www.huaweicloud.com/intl/en-us/product/dew.html
-            icon: dew.png
+            icon: dew2.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Consolidated Management of Multiple Cloud Accounts
@@ -2871,11 +3289,16 @@ services:
           - name:
             ref:
             icon: none.png
-
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Resource Access Manager (RAM)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ram.html
+            icon: ram.png
+          - name: Organizations
+            ref: https://www.huaweicloud.com/intl/en-us/product/organizations.html
+            icon: organizations2.png
+          - name: Resource Governance Center (RGC)
+            ref: https://www.huaweicloud.com/intl/en-us/product/rgc.html
+            icon: rgc.png
 
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2909,7 +3332,7 @@ services:
       - huawei:
           - name: Advanced Anti-DDoS
             ref: https://www.huaweicloud.com/intl/en-us/product/aad.html
-            icon: Anti-DDoS.png
+            icon: aad.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Web Application Firewall
@@ -2940,9 +3363,9 @@ services:
             ref: https://www.alibabacloud.com/product/waf
             icon: waf.png
       - huawei:
-          - name: Web Application Firewall
+          - name: Web Application Firewall (WAF)
             ref: https://www.huaweicloud.com/intl/en-us/product/waf.html
-            icon: waf.png
+            icon: waf2.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Security & Compliance Service
@@ -2976,9 +3399,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Security Compliance
-            ref: https://www.huaweicloud.com/intl/en-us/securecenter/safetycompliance.html
-            icon: none.png
+          - name: Cloud Firewall (CFW)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cfw.html
+            icon: cfw.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Security & Compliance Service
@@ -3008,7 +3431,10 @@ services:
           - name: "Alibaba Truster Center "
             ref: https://www.alibabacloud.com/trust-center
             icon: alibaba.png
-
+      - huawei:
+          - name: Edge Security (EdgeSec)
+            ref: https://www.huaweicloud.com/intl/en-us/product/edgesec.html
+            icon: edgesec.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Sensitive Data discovery and protection
@@ -3039,9 +3465,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Data Security Center
+          - name: Data Security Center (DSC)
             ref: https://www.huaweicloud.com/intl/en-us/product/dsc.html
-            icon: DSC.png
+            icon: dsc2.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3079,9 +3505,12 @@ services:
             ref: https://www.alibabacloud.com/product/e-mapreduce
             icon: emr.png
       - huawei:
-          - name: Data Lake Insight
+          - name: Data Lake Insight (DLI)
             ref: https://www.huaweicloud.com/intl/en-us/product/dli.html
-            icon: none.png
+            icon: dli2.png
+          - name: DataArts Fabric
+            ref: https://www.huaweicloud.com/intl/en-us/product/dataartsfabric.html
+            icon: dataartsfabric.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Big Data Managed Cluster as a Service
@@ -3112,9 +3541,9 @@ services:
             ref: https://www.alibabacloud.com/product/e-mapreduce
             icon: emr.png
       - huawei:
-          - name: MapReduce Service
+          - name: MapReduce Service (MRS)
             ref: https://www.huaweicloud.com/intl/en-us/product/mrs.html
-            icon: none.png
+            icon: mrs2.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3149,9 +3578,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Cloud Search Service
-            ref: https://www.huaweicloud.com/intl/en-us/product/es.html
-            icon: none.png
+          - name: Cloud Search Service (CSS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/css.html
+            icon: cs.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3192,9 +3621,12 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: "Data Lake Insight [Previous: Cloud Stream Service]"
-            ref: https://www.huaweicloud.com/intl/en-us/product/dli.html
-            icon: none.png
+          - name: Data Ingestion Service (DIS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/dis.html
+            icon: dis2.png
+          - name: Cloud Stream Service (CS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cs.html
+            icon: cs.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3229,9 +3661,9 @@ services:
             ref: https://www.alibabacloud.com/product/maxcompute
             icon: MaxCompute.png
       - huawei:
-          - name: Data Warehouse Service
+          - name: Data Warehouse Service (DWS)
             ref: https://www.huaweicloud.com/intl/en-us/product/dws.html
-            icon: dws.png
+            icon: dws2.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3275,9 +3707,9 @@ services:
             ref: https://www.alibabacloud.com/product/ide
             icon: IDE.png
       - huawei:
-          - name: Data Lake Visulization
+          - name: Data Lake Visualization (DLV)
             ref: https://www.huaweicloud.com/intl/en-us/product/dlv.html
-            icon: none.png
+            icon: dlv2.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3339,12 +3771,12 @@ services:
             ref: https://www.alibabacloud.com/product/data-integration
             icon: alibaba.png
       - huawei:
-          - name: Data Lake Governance Center
+          - name: DataArts Studio
             ref: https://www.huaweicloud.com/intl/en-us/product/dayu.html
-            icon: none.png
+            icon: dataarts.png
   - category: Big Data & Advanced Analytics
     categoryurl:
-    subcategory: Third party data exchange
+    subcategory: Third Party Data Exchange
     subcategoryurl:
     service:
       - aws:
@@ -3372,12 +3804,12 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Data Ingestion Service (DIS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/dis.html
+            icon: dis2.png
   - category: Big Data & Advanced Analytics
     categoryurl:
-    subcategory: Data Analytics platform
+    subcategory: Data Analytics Platform
     subcategoryurl:
     service:
       - aws:
@@ -3405,9 +3837,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: DataArts Studio
+            ref: https://www.huaweicloud.com/intl/en-us/product/dayu.html
+            icon: dataarts.png
 
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
@@ -3472,27 +3904,83 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Conversation Bot Service
+          - name: Question Answering Bot (QABot)
             ref: https://www.huaweicloud.com/intl/en-us/product/cbsqa.html
-            icon: cbsqa.png
-
-          - name: Natural Language Processing
-            ref: https://www.huaweicloud.com/product/nlplu.html
+            icon: qabot.png
+          - name: Optical Character Recognition (OCR)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ocr.html
+            icon: ocr.png
+          - name: Speech Interaction Service
+            ref: https://support.huaweicloud.com/intl/en-us/sis/index.html
             icon: nlp.png
 
-          - name: Text to Speech
-            ref: https://www.huaweicloud.com/product/tts.html
-            icon: tts.png
-
-          - name: Machine Translation Service
-            ref: https://www.huaweicloud.com/product/nlpmt.html
-            icon: mts.png
-
-          - name: Knowledge Graph
-            ref: https://www.huaweicloud.com/product/nlpkg.html
+  - category: Artificial Intelligence / Machine Learning
+    categoryurl:
+    subcategory: Smart Video Analytics
+    subcategoryurl:
+    service:
+      - aws:
+          - name:
+            ref:
             icon: none.png
-
-  - category: Artificial Intelligence
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: Industry Video Management Service (IVM)
+            ref: https://www.huaweicloud.com/intl/en-us/product/ivm.html
+            icon: ivm.png
+  - category: Artificial Intelligence / Machine Learning
+    categoryurl:
+    subcategory: Digital Humas / Virtual Avatars
+    subcategoryurl:
+    service:
+      - aws:
+          - name:
+            ref:
+            icon: none.png
+      - azure:
+          - name:
+            ref:
+            icon: none.png
+      - google:
+          - name:
+            ref:
+            icon: none.png
+      - ibm:
+          - name:
+            ref:
+            icon: none.png
+      - oracle:
+          - name:
+            ref:
+            icon: none.png
+      - alibaba:
+          - name:
+            ref:
+            icon: none.png
+      - huawei:
+          - name: MetaStudio
+            ref: https://www.huaweicloud.com/intl/en-us/product/metastudio.html
+            icon: metastudio.png
+  - category: Artificial Intelligence / Machine Learning
     categoryurl:
     subcategory: Speech Recognition AI
     subcategoryurl:
@@ -3537,19 +4025,11 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: ASR
-            ref: https://www.huaweicloud.com/intl/en-us/product/asr.html
-            icon: asr.png
+          - name: Speech Interaction Service
+            ref: https://support.huaweicloud.com/intl/en-us/sis/index.html
+            icon: nlp.png
 
-          - name: Real-time ASR
-            ref: https://www.huaweicloud.com/product/rasr.html
-            icon: rasr.png
-
-          - name: ASR Customization
-            ref: https://www.huaweicloud.com/intl/en-us/product/asrc.html
-            icon: none.png
-
-  - category: Artificial Intelligence
+  - category: Artificial Intelligence / Machine Learning
     categoryurl:
     subcategory: Image Recognition AI
     subcategoryurl:
@@ -3590,27 +4070,21 @@ services:
       - huawei:
           - name: Image Recognition
             ref: https://www.huaweicloud.com/intl/en-us/product/image.html
-            icon: image.png
+            icon: img2.png
           - name: Image Search
             ref: https://www.huaweicloud.com/intl/en-us/product/imagesearch.html
             icon: imageSearch.png
-          - name: Image Tagging
-            ref: https://www.huaweicloud.com/product/imagetagging.html
-            icon: imageTagging.png
-          - name: Video Content Tagging
-            ref: https://www.huaweicloud.com/product/vct.html
-            icon: vct.png
-          - name: Video Ingestion Service
-            ref: https://www.huaweicloud.com/product/vis.html
-            icon: vis.png
           - name: Content Moderation
             ref: https://www.huaweicloud.com/intl/en-us/product/moderation.html
-            icon: moderation.png
-          - name: Celebrity Recognition
-            ref: https://www.huaweicloud.com/product/roc.html
-            icon: roc.png
+            icon: moderation2.png
+          - name: Face Recognition Service (FRS)
+            ref: https://support.huaweicloud.com/intl/en-us/face/index.html
+            icon: face.png
+          - name: Video Intelligent Analysis Service (VIAS)
+            ref: https://www.huaweicloud.com/intl/en-us/product/vias.html
+            icon: vias.png          
 
-  - category: Artificial Intelligence
+  - category: Artificial Intelligence / Machine Learning
     categoryurl:
     subcategory: Machine Learning
     subcategoryurl:
@@ -3663,7 +4137,13 @@ services:
       - huawei:
           - name: ModelArts
             ref: https://www.huaweicloud.com/intl/en-us/product/modelarts.html
-            icon: ModelArts.png
+            icon: modelarts2.png
+          - name: Huawei HiLens
+            ref: https://www.huaweicloud.com/intl/en-us/product/hilens.html
+            icon: hilens.png
+          - name: DataArts Fabric
+            ref: https://www.huaweicloud.com/intl/en-us/product/dataartsfabric.html
+            icon: dataartsfabric.png
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
     subcategory: Machine Learning Frameworks
@@ -3700,12 +4180,12 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: ModelArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/modelarts.html
+            icon: modelarts2.png
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
-    subcategory: Business analysis
+    subcategory: Business Analysis
     subcategoryurl:
     service:
       - aws:
@@ -3751,8 +4231,8 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
+          - name: 
+            ref: 
             icon: none.png
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
@@ -3784,9 +4264,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: ModelArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/modelarts.html
+            icon: modelarts2.png
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
     subcategory: Intelligent Search / Search with ML
@@ -3817,9 +4297,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: KooSearch
+            ref: https://www.huaweicloud.com/product/koosearch.html
+            icon: DLI.png
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Development Services
@@ -3853,8 +4333,8 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: ServiceStage-MBaaS
-            ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+          - name: 
+            ref:
             icon: none.png
 
   - category: Mobile Services
@@ -3892,11 +4372,11 @@ services:
       - huawei:
           - name: API Gateway
             ref: https://www.huaweicloud.com/intl/en-us/product/apig.html
-            icon: apig.png
+            icon: apig2.png
 
   - category: Mobile Services
     categoryurl:
-    subcategory: Consolidated Mgmt of Multiple Cloud Accounts
+    subcategory: Consolidated Management of Multiple Cloud Accounts
     subcategoryurl:
     service:
       - aws:
@@ -3924,47 +4404,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: ServiceStage-MBaaS
-            ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+          - name: 
+            ref: 
             icon: none.png
-
-  - category: Automated Cloud Management Service
-    categoryurl:
-    subcategory: Managed Cloud Services
-    subcategoryurl:
-    service:
-      - aws:
-          - name: AWS Managed Services
-            ref: https://aws.amazon.com/managed-services/
-            icon: Application-Services_AmazonAppStream.png
-          - name: AWS Cloud Map
-            ref: https://aws.amazon.com/cloud-map/
-            icon: Arch_AWS-Cloud-Map_64.png
-      - azure:
-          - name:
-            ref:
-            icon: none.png
-      - google:
-          - name:
-            ref:
-            icon: none.png
-      - ibm:
-          - name:
-            ref:
-            icon: none.png
-      - oracle:
-          - name:
-            ref:
-            icon: none.png
-      - alibaba:
-          - name:
-            ref:
-            icon: none.png
-      - huawei:
-          - name:
-            ref:
-            icon: none.png
-
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Testing Service
@@ -3995,9 +4437,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: MobileTest
-            ref: https://www.huaweicloud.com/product/mobileapptest.html
-            icon: MobileTest.png
+          - name:
+            ref: 
+            icon: none.png
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Software Development Toolkit
@@ -4096,9 +4538,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: EventGrid (EG)
+            ref: https://www.huaweicloud.com/intl/en-us/product/eventgrid.html
+            icon: ecs.png
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Analytics
@@ -4129,9 +4571,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: ServiceStage-MBaaS
+          - name: ServiceStage
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
-            icon: none.png
+            icon: servicestage2.png
 
   - category: Application Services
     categoryurl:
@@ -4180,7 +4622,10 @@ services:
       - huawei:
           - name: API Gateway
             ref: https://www.huaweicloud.com/intl/en-us/product/apig.html
-            icon: apig.png
+            icon: apig2.png
+          - name: ROMA Connect
+            ref: https://www.huaweicloud.com/intl/en-us/product/roma.html
+            icon: roma.png
 
   - category: Application Services
     categoryurl:
@@ -4257,21 +4702,15 @@ services:
             ref: https://www.alibabacloud.com/product/apsaravideo-for-live
             icon: video.png
       - huawei:
-          - name: Media Processing Center
-            ref: https://www.huaweicloud.com/en-us/product/mpc.html
-            icon: mpc.png
-
-          - name: Video on Demand
-            ref: https://www.huaweicloud.com/en-us/product/vod.html
-            icon: vod.png
-
+          - name: Media Processing Center (MPC)
+            ref: https://www.huaweicloud.com/intl/en-us/product/mpc.html
+            icon: mpc2.png
+          - name: Video on Demand (VOD)
+            ref: https://www.huaweicloud.com/intl/en-us/product/vod.html
+            icon: vod2.png
           - name: Live
-            ref: https://www.huaweicloud.com/en-us/product/live.html
-            icon: live.png
-
-          - name: Convergent Video Cloud Service
-            ref: https://www.huaweicloud.com/en-us/product/cvcs.html
-            icon: cvcs.png
+            ref: https://www.huaweicloud.com/intl/en-us/product/live.html
+            icon: live2.png
 
   - category: Application Services
     categoryurl:
@@ -4318,12 +4757,19 @@ services:
             ref: https://www.alibabacloud.com/product/mq?spm=a3c0i.11270126.209577.68.6c8668dctRiorX
             icon: API.png
       - huawei:
-          - name: Distributed Message Service
+          - name: Distributed Message Service (DMS)
             ref: https://www.huaweicloud.com/intl/en-us/product/dms.html
-            icon: dms.png
-          - name: Distributed Message Service for Kafka
+            icon: dms2.png
+          - name: Distributed Message Service for Kafka (DMS for Kafka)
             ref: https://www.huaweicloud.com/intl/en-us/product/dmskafka.html
-            icon: DMSforKafka.png
+            icon: dmskafka.png
+          - name: Distributed Message Service for RabbitMQ (DMS for RabbitMQ)
+            ref: https://www.huaweicloud.com/intl/en-us/product/rabbitmq.html
+            icon: dmsrabbitmq.png
+          - name: Distributed Message Service for RocketMQ (DMS for RocketMQ)
+            ref: https://www.huaweicloud.com/intl/en-us/product/rocketmq.html
+            icon: dmsrocketmq.png
+
   - category: Application Services
     categoryurl:
     subcategory: Mobile Analytics
@@ -4354,9 +4800,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: ServiceStage-MBaaS
+          - name: ServiceStage
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
-            icon: none.png
+            icon: servicestage2.png
 
   - category: Application Services
     categoryurl:
@@ -4388,9 +4834,9 @@ services:
             ref: https://www.alibabacloud.com/product/directmail
             icon: directmail.png
       - huawei:
-          - name: CoreMail
-            ref: https://marketplace.huaweicloud.com/intl/product/f4cd8ad7-ecb4-41fe-9706-504315bf5aaa
-            icon: none.png
+          - name: KooMessage
+            ref: https://www.huaweicloud.com/intl/en-us/product/koomessage.html
+            icon: koomessage.png
 
   - category: Application Services
     categoryurl:
@@ -4427,10 +4873,10 @@ services:
       - huawei:
           - name: Simple Message Notification (SMN)
             ref: https://www.huaweicloud.com/intl/en-us/product/smn.html
-            icon: smn.png
-          - name: Message&SMS (MSGSMS)
+            icon: smn2.png
+          - name: Message & SMS
             ref: https://www.huaweicloud.com/intl/en-us/product/msgsms.html
-            icon: msgsms.png
+            icon: message.png
   - category: Application Services
     categoryurl:
     subcategory: Blockchain Services
@@ -4475,6 +4921,9 @@ services:
       - huawei:
           - name: Blockchain Service
             ref: https://www.huaweicloud.com/intl/en-us/product/bcs.html
+            icon: bcs2.png
+          - name: Web3 Node Engine Service (NES)
+            ref: https://www.huaweicloud.com/intl/en-us/product/bcs/nes.html
             icon: bcs.png
   - category: Application Services
     categoryurl:
@@ -4512,9 +4961,9 @@ services:
             ref: https://www.alibabacloud.com/product/bot
             icon: alibaba.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Question Answering Bot (QABot)
+            ref: https://www.huaweicloud.com/intl/en-us/product/cbsqa.html
+            icon: qabot.png
 
   - category: Business Productivity
     categoryurl:
@@ -4552,8 +5001,8 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: WPS
-            ref: https://marketplace.huaweicloud.com/intl/product/00301-107037-0--0
+          - name: 
+            ref: 
             icon: none.png
 
   - category: Business Productivity
@@ -4592,12 +5041,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: FusionCloud Desktop
-            ref: https://carrier.huawei.com/en/products/it/cloud-transformation/fusioncloud-desktop
-            icon: none.png
           - name: Workspace
-            ref:
-            icon: EnterpriseAPPWorkspace.png
+            ref: https://www.huaweicloud.com/intl/en-us/product/workspace.html
+            icon: workspace.png
           
   - category: Business Productivity
     categoryurl:
@@ -4632,9 +5078,13 @@ services:
             ref:
             icon: none.png
       - huawei:
+          - name: WeLink
+            ref: https://www.huaweicloud.com/intl/en-us/product/welink.html
+            icon: welink.png
           - name: Workspace
-            ref:
-            icon: EnterpriseAPPWorkspace.png
+            ref: https://www.huaweicloud.com/intl/en-us/product/workspace.html
+            icon: workspace.png
+
   - category: Software MarketPlace
     categoryurl:
     subcategory: Cloud Marketplace
@@ -4665,9 +5115,9 @@ services:
             ref: https://www.alibabacloud.com/marketplace
             icon: alibaba.png
       - huawei:
-          - name: Huawei Cloud Marketplace
+          - name: KooGallery
             ref: https://marketplace.huaweicloud.com/intl/
-            icon: none.png
+            icon: market.png
   - category: Internet of Things
     categoryurl:
     subcategory: IoT Platform
@@ -4707,18 +5157,15 @@ services:
             ref: https://www.alibabacloud.com/product/iot
             icon: iot.png
       - huawei:
-          - name: HUAWEI CLOUD IoT
-            ref: https://www.huaweicloud.com/product/iot.html
-            icon: IoT.png
-          - name: HUAWEI CLOUD IoT Device Access
-            ref: https://www.huaweicloud.com/product/iothub.html
-            icon: IoTDeviceAccess.png
-          - name: HUAWEI CLOUD IoT Edge
-            ref: https://www.huaweicloud.com/product/iotedge.html
-            icon: IoTEdge.png
-          - name: HUAWEI CLOUD IoT Global SIM Link
-            ref: https://www.huaweicloud.com/product/globalsimlink.html
-            icon: none.png
+          - name: IoT Device Management (IoTDM)
+            ref: https://www.huaweicloud.com/intl/en-us/product/iot.html
+            icon: iotdm.png
+          - name: IoT Device Access (IoTDA) 
+            ref: https://www.huaweicloud.com/intl/en-us/product/iotda.html
+            icon: iotdm.png
+          - name: Global SIM Link (GSL)
+            ref: https://www.huaweicloud.com/intl/en-us/product/gsl.html
+            icon: gsl2.png
 
   - category: Internet of Things
     categoryurl:
@@ -4753,49 +5200,10 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: HUAWEI Cloud IoT Edge
-            ref: https://www.huaweicloud.com/product/iotedge.html
-            icon: IoTEdge.png
-          - name: HUAWEI Cloud IoT LiteOS
-            ref: https://www.huaweicloud.com/product/liteos.html
-            icon: none.png
-          - name: HUAWEI Cloud IoT Stage
-            ref: https://www.huaweicloud.com/product/iotstage.html
-            icon: IoTStage.png
+          - name: IoT Device Access (IoTDA)
+            ref: https://www.huaweicloud.com/intl/en-us/product/iotda.html
+            icon: iotdm.png
 
-  - category: Internet of Things
-    categoryurl:
-    subcategory: IoT Analysis
-    subcategoryurl:
-    service:
-      - aws:
-          - name:
-            ref:
-            icon: none.png
-      - azure:
-          - name:
-            ref:
-            icon: none.png
-      - google:
-          - name:
-            ref:
-            icon: none.png
-      - ibm:
-          - name:
-            ref:
-            icon: none.png
-      - oracle:
-          - name:
-            ref:
-            icon: none.png
-      - alibaba:
-          - name:
-            ref:
-            icon: none.png
-      - huawei:
-          - name: HUAWEI Cloud IoT Analysis
-            ref: https://www.huaweicloud.com/product/iotanalytics-platform.html
-            icon: IoTanalytics.png
   - category: Internet of Things
     categoryurl:
     subcategory: IoT Hardware
@@ -4859,8 +5267,8 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
+          - name: 
+            ref: 
             icon: none.png
   - category: Robotics Development
     categoryurl:
@@ -4892,8 +5300,8 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
+          - name: 
+            ref: 
             icon: none.png
   - category: Development & Testing
     categoryurl:
@@ -4925,6 +5333,6 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: CodeArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/devcloud.html
+            icon: da2.png

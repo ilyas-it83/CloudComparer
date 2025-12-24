@@ -5,9 +5,6 @@
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
 # If you need help with YAML syntax, here are some quick references for you: 
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
@@ -19,14 +16,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Public Cloud Services Comparison
-email: ilyas@bornoncloud.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A simple cloud comparison chart of all the cloud services offered by the major public cloud vendors globally. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ilyas_tweets
-github_username:  ilyas-it83
-linkedin_username:  ilyasf
+email: github.com/ilyas-it83/CloudComparer
+description: Forked from CloudComparer by Ilyas. Updated Huawei Cloud services and visual layout.
+baseurl: "/CloudComparer" # the subpath of your site, e.g. /blog
+url: "https://kxrojas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 google_font:
   - url: "http://fonts.googleapis.com/css?family=Cousine:400,700,400italic,700italic&subset=latin,vietnamese,latin-ext"
