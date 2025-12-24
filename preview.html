@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cloud Services Comparator</title>
+
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    vertical-align: top;
+  }
+
+  th {
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+
+  td strong {
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+
+<body>
+
+<h1>Cloud Services Comparator</h1>
+
+<table id="cloud-table"></table>
+
+<script>
+fetch('./_data/cloudservices.yml')
+  .then(res => res.text())
+  .then(text => {
+    const data = jsyaml.load(text);
+    const table = document.getElementById('cloud-table');
+
+    // 1️⃣ Obtener lista dinámica de clouds
+    const cloudsSet = new Set();
+
+    data.services.forEach(cat => {
+      cat.service.forEach(provider => {
+        Object.keys(provider).forEach(cloud => cloudsSet.add(cloud));
+      });
+    });
+
+    const preferredOrder = [
+        'huawei',
+        'aws',
+        'azure',
+        'google',
+        'alibaba',
+        'oracle',
+        'ibm'
+    ];
+
+    const clouds = [
+    ...preferredOrder.filter(c => cloudsSet.has(c)),
+    ...Array.from(cloudsSet).filter(c => !preferredOrder.includes(c))
+    ];
+
+    // 2️⃣ Header de la tabla
+    const thead = document.createElement('thead');
+    const headerRow = document.createElement('tr');
+
+    ['Category', 'Service', ...clouds.map(c => c.toUpperCase())]
+      .forEach(title => {
+        const th = document.createElement('th');
+        th.textContent = title;
+        headerRow.appendChild(th);
+      });
+
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    // 3️⃣ Body
+    const tbody = document.createElement('tbody');
+
+    data.services.forEach(cat => {
+      const row = document.createElement('tr');
+
+      // Category
+      const catCell = document.createElement('td');
+      catCell.innerHTML = `<strong>${cat.category}</strong>`;
+      row.appendChild(catCell);
+
+      // Service / Subcategory
+      const svcCell = document.createElement('td');
+      svcCell.textContent = cat.subcategory;
+      row.appendChild(svcCell);
+
+      // Inicializar celdas vacías por cloud
+      const cloudCells = {};
+      clouds.forEach(c => cloudCells[c] = []);
+
+      // Llenar servicios
+      cat.service.forEach(provider => {
+        Object.entries(provider).forEach(([cloud, services]) => {
+          services.forEach(svc => {
+            cloudCells[cloud].push(`
+                <div style="display:flex;align-items:center;gap:6px">
+                    <img src="assets/img/cloudproviders/${cloud}/${svc.icon}" width="18" height="18">
+                    <a href="${svc.ref}" target="_blank">${svc.name}</a>
+                </div>
+        `);
+        });
+        });
+      });
+
+      // Insertar celdas por cloud
+      clouds.forEach(cloud => {
+        const td = document.createElement('td');
+        td.innerHTML = cloudCells[cloud].join('<br>') || '-';
+        row.appendChild(td);
+      });
+
+      tbody.appendChild(row);
+    });
+
+    table.appendChild(tbody);
+  });
+</script>
+
+</body>
+</html>
